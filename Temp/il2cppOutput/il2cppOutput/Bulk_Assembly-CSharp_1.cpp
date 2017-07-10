@@ -1,0 +1,14695 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#include <cmath>
+#include <limits>
+#include <assert.h>
+
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_Array3829468939.h"
+#include "AssemblyU2DCSharp_TMPro_Examples_VertexShakeA_U3CA3033053737.h"
+#include "mscorlib_System_Void1841601450.h"
+#include "mscorlib_System_Object2689449295.h"
+#include "mscorlib_System_Boolean3825574718.h"
+#include "UnityEngine_UnityEngine_Vector32243707580.h"
+#include "UnityEngine_UnityEngine_Quaternion4030073918.h"
+#include "UnityEngine_UnityEngine_Matrix4x42933234003.h"
+#include "mscorlib_System_UInt322149682021.h"
+#include "mscorlib_System_Int322071877448.h"
+#include "mscorlib_System_Single2076509932.h"
+#include "AssemblyU2DCSharp_TMPro_Examples_VertexShakeA3019979321.h"
+#include "TextMeshProU2D1_0_55_56_0b10_TMPro_TMP_Text1920000777.h"
+#include "TextMeshProU2D1_0_55_56_0b10_TMPro_TMP_TextInfo2849466151.h"
+#include "TextMeshProU2D1_0_55_56_0b10_TMPro_TMP_MeshInfo1297308317.h"
+#include "UnityEngine_UnityEngine_WaitForSeconds3839502067.h"
+#include "TextMeshProU2D1_0_55_56_0b10_TMPro_TMP_LineInfo2320418126.h"
+#include "TextMeshProU2D1_0_55_56_0b10_TMPro_TMP_CharacterIn1421302791.h"
+#include "UnityEngine_UnityEngine_Mesh1356156583.h"
+#include "mscorlib_System_NotSupportedException1793819818.h"
+#include "AssemblyU2DCSharp_TMPro_Examples_VertexShakeB3019979320.h"
+#include "UnityEngine_UnityEngine_MonoBehaviour1158329972.h"
+#include "UnityEngine_UnityEngine_Component3819376471.h"
+#include "mscorlib_System_IntPtr2504060609.h"
+#include "TextMeshProU2D1_0_55_56_0b10_TMPro_TMPro_EventManag528455910.h"
+#include "TextMeshProU2D1_0_55_56_0b10_TMPro_FastAction_1_gen512681271.h"
+#include "UnityEngine_UnityEngine_Object1021602117.h"
+#include "mscorlib_System_Action_1_gen823401499.h"
+#include "UnityEngine_UnityEngine_Coroutine2299508840.h"
+#include "AssemblyU2DCSharp_TMPro_Examples_VertexShakeB_U3CA4210043720.h"
+#include "AssemblyU2DCSharp_TMPro_Examples_VertexZoom3463934435.h"
+#include "AssemblyU2DCSharp_TMPro_Examples_VertexZoom_U3CAnima76635731.h"
+#include "UnityEngine_UnityEngine_Vector22243707579.h"
+#include "UnityEngine_UnityEngine_Color32874517518.h"
+#include "AssemblyU2DCSharp_TMPro_Examples_VertexZoom_U3CAni3069048289.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1445631064.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1440998580.h"
+#include "mscorlib_System_Comparison_1_gen3333616299.h"
+#include "AssemblyU2DCSharp_TMPro_Examples_WarpTextExample250871869.h"
+#include "UnityEngine_UnityEngine_Keyframe1449471340.h"
+#include "UnityEngine_UnityEngine_AnimationCurve3306541151.h"
+#include "UnityEngine_UnityEngine_GameObject1756533147.h"
+#include "AssemblyU2DCSharp_TMPro_Examples_WarpTextExample_U2736974085.h"
+#include "UnityEngine_UnityEngine_WrapMode255797857.h"
+#include "UnityEngine_UnityEngine_Bounds3033363703.h"
+#include "AssemblyU2DCSharp_TMPro_TMP_DigitValidator3346203809.h"
+#include "TextMeshProU2D1_0_55_56_0b10_TMPro_TMP_InputValida3726817866.h"
+#include "mscorlib_System_String2029220233.h"
+#include "mscorlib_System_Char3454481338.h"
+#include "AssemblyU2DCSharp_TMPro_TMP_TextEventHandler1517844021.h"
+#include "AssemblyU2DCSharp_TMPro_TMP_TextEventHandler_Chara2887241789.h"
+#include "AssemblyU2DCSharp_TMPro_TMP_TextEventHandler_WordS2871480376.h"
+#include "AssemblyU2DCSharp_TMPro_TMP_TextEventHandler_LineS3265414486.h"
+#include "AssemblyU2DCSharp_TMPro_TMP_TextEventHandler_LinkS3735310088.h"
+#include "mscorlib_System_RuntimeTypeHandle2330101084.h"
+#include "UnityEngine_UnityEngine_RenderMode4280533217.h"
+#include "mscorlib_System_Type1303803226.h"
+#include "UnityEngine_UnityEngine_Canvas209405766.h"
+#include "UnityEngine_UnityEngine_Camera189460977.h"
+#include "UnityEngine_UnityEngine_RectTransform3349966182.h"
+#include "TextMeshProU2D1_0_55_56_0b10_TMPro_TMP_WordInfo3807457612.h"
+#include "TextMeshProU2D1_0_55_56_0b10_TMPro_TMP_LinkInfo3626894960.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_PointerEve1599784723.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_2_gen2762981218.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_3_gen2425689862.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_3_gen1037676193.h"
+#include "AssemblyU2DCSharp_UnityARCameraManager2138856896.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARKitWorldTac1821734930.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARSessio1130867170.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARPlaneDe612575857.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARAlignm2379988631.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARVideo2351297253.h"
+#include "UnityEngine_UnityEngine_Material193706927.h"
+#include "UnityEngine_UnityEngine_Transform3275118058.h"
+#include "AssemblyU2DCSharp_UnityARCameraNearFar519802600.h"
+#include "AssemblyU2DCSharp_UnityEngine_UI_BoxSlider1871650694.h"
+#include "AssemblyU2DCSharp_UnityEngine_UI_BoxSlider_BoxSlid1774115848.h"
+#include "UnityEngine_UI_UnityEngine_UI_Selectable1490392188.h"
+#include "UnityEngine_UI_UnityEngine_UI_CanvasUpdate1528800019.h"
+#include "UnityEngine_UnityEngine_DrivenRectTransformTracker154385424.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_2_gen2016657100.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou3960014691.h"
+#include "UnityEngine_UnityEngine_DrivenTransformProperties2488747555.h"
+#include "UnityEngine_UnityEngine_Rect3681755626.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_PointerEve2981963041.h"
+#include "AssemblyU2DCSharp_UnityEngine_UI_BoxSlider_Axis3966514019.h"
+#include "AssemblyU2DCSharp_UnityEngine_UI_BoxSlider_Directi1632189177.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARAnchor1161832412.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARCamera4158705974.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARErrorCode2887756272.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARFrame1001293426.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARHitTestResu3275513025.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARHitTestResu3616749745.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARKitSessionCo318899795.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARLightEstima3477821059.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARPlaneAnchor1439520888.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARPlaneAnchor2379298071.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARPlaneAnchor2305225887.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARPoint3436811567.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARRect3555590363.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARSize3911821096.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARTextureHand3764914833.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARTrackingQuali55960597.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARTrackingSta2048880995.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARTrackingSta4227173799.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_internal_Unit2580192745.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARAmbient680084560.h"
+#include "UnityEngine_UnityEngine_Light494725636.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARAnchor2901866349.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARAnchor1086564192.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARSessio2646854145.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARSessio3886071158.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARSession142665927.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g4220005149.h"
+#include "AssemblyU2DCSharp_DontDestroyOnLoad3235789354.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera1209076693.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera1593300101.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1674347019.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_V2923064992.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARCamera4198559457.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARMatrix4100931615.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARGenera3368998101.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARHitTest146867607.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera2179363831.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2644634157.h"
+#include "UnityEngine_UnityEngine_Touch407273883.h"
+#include "UnityEngine_UnityEngine_TouchPhase2458120420.h"
+#include "mscorlib_System_RuntimeFieldHandle2331729674.h"
+#include "mscorlib_System_Double4078015681.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU1486305137.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU3762068664.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARHitTes4129824344.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARKitCon1698990409.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARSessio3123075684.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARMatrix4039665643.h"
+#include "UnityEngine_UnityEngine_Vector42243707581.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARSessio3296518558.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARSessio1622117597.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARSessio3705772742.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARSessio3189755211.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARSession872580813.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARSession496507918.h"
+#include "mscorlib_System_Delegate3022476291.h"
+#include "mscorlib_System_AsyncCallback163412349.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARUtilit3608388148.h"
+#include "UnityEngine_UnityEngine_MeshFilter3026937449.h"
+#include "UnityEngine_UnityEngine_Rendering_RenderTargetIdent772440638.h"
+#include "UnityEngine_UnityEngine_Rendering_BuiltinRenderText195473098.h"
+#include "UnityEngine_UnityEngine_Texture2243626319.h"
+#include "UnityEngine_UnityEngine_Rendering_CameraEvent2007842675.h"
+#include "UnityEngine_UnityEngine_Rendering_CommandBuffer1204166949.h"
+#include "UnityEngine_UnityEngine_Resolution3693662728.h"
+#include "UnityEngine_UnityEngine_TextureFormat1386130234.h"
+#include "UnityEngine_UnityEngine_FilterMode10814199.h"
+#include "UnityEngine_UnityEngine_TextureWrapMode3683976566.h"
+#include "UnityEngine_UnityEngine_ScreenOrientation4019489636.h"
+#include "UnityEngine_UnityEngine_Texture2D3542995729.h"
+#include "AssemblyU2DCSharp_UnityPointCloudExample3196264220.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1125654279.h"
+#include "mscorlib_System_Int64909078037.h"
+#include "AssemblyU2DCSharp_UnityStandardAssets_SceneUtils_P2895192958.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2644239190.h"
+#include "UnityEngine_UnityEngine_Events_UnityAction4025899511.h"
+#include "UnityEngine_UI_UnityEngine_UI_Button2872111280.h"
+#include "UnityEngine_UI_UnityEngine_UI_Button_ButtonClicked2455055323.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent408735097.h"
+#include "AssemblyU2DCSharp_UnityStandardAssets_SceneUtils_P3273430801.h"
+#include "AssemblyU2DCSharp_UnityStandardAssets_SceneUtils_P3072969947.h"
+#include "UnityEngine_UnityEngine_Ray2469606224.h"
+#include "UnityEngine_UnityEngine_RaycastHit87180320.h"
+#include "UnityEngine_UnityEngine_ParticleSystem_EmissionMod2748003162.h"
+#include "AssemblyU2DCSharp_UnityStandardAssets_SceneUtils_P2660933272.h"
+#include "AssemblyU2DCSharp_UnityStandardAssets_SceneUtils_P1728689839.h"
+#include "AssemblyU2DCSharpU2Dfirstpass_UnityStandardAssets_3377687064.h"
+#include "UnityEngine_UnityEngine_ParticleSystem3394631041.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_EventSyste3466835263.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3685274804.h"
+#include "UnityEngine_UI_UnityEngine_UI_GraphicRaycaster410733016.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_BaseRaycas2336171397.h"
+#include "UnityEngine_UI_UnityEngine_UI_Text356221433.h"
+#include "AssemblyU2DCSharp_UnityStandardAssets_SceneUtils_P2469125921.h"
+#include "AssemblyU2DCSharp_UnityStandardAssets_SceneUtils_Sl863415939.h"
+#include "UnityEngine_UnityEngine_Sprite309593783.h"
+#include "UnityEngine_UI_UnityEngine_UI_Graphic2426225576.h"
+#include "UnityEngine_UI_UnityEngine_UI_Image2042527209.h"
+
+// TMPro.Examples.VertexShakeA/<AnimateVertexColors>c__Iterator0
+struct U3CAnimateVertexColorsU3Ec__Iterator0_t3033053737;
+// System.Object
+struct Il2CppObject;
+// TMPro.TMP_Text
+struct TMP_Text_t1920000777;
+// TMPro.TMP_TextInfo
+struct TMP_TextInfo_t2849466151;
+// UnityEngine.WaitForSeconds
+struct WaitForSeconds_t3839502067;
+// UnityEngine.Mesh
+struct Mesh_t1356156583;
+// UnityEngine.Vector3[]
+struct Vector3U5BU5D_t1172311765;
+// System.NotSupportedException
+struct NotSupportedException_t1793819818;
+// TMPro.Examples.VertexShakeB
+struct VertexShakeB_t3019979320;
+// UnityEngine.MonoBehaviour
+struct MonoBehaviour_t1158329972;
+// UnityEngine.Component
+struct Component_t3819376471;
+// System.Action`1<UnityEngine.Object>
+struct Action_1_t823401499;
+// System.Action`1<System.Object>
+struct Action_1_t2491248677;
+// TMPro.FastAction`1<UnityEngine.Object>
+struct FastAction_1_t512681271;
+// TMPro.FastAction`1<System.Object>
+struct FastAction_1_t2180528449;
+// System.Collections.IEnumerator
+struct IEnumerator_t1466026749;
+// UnityEngine.Coroutine
+struct Coroutine_t2299508840;
+// UnityEngine.Object
+struct Object_t1021602117;
+// TMPro.Examples.VertexShakeB/<AnimateVertexColors>c__Iterator0
+struct U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720;
+// TMPro.Examples.VertexZoom
+struct VertexZoom_t3463934435;
+// TMPro.Examples.VertexZoom/<AnimateVertexColors>c__Iterator0
+struct U3CAnimateVertexColorsU3Ec__Iterator0_t76635731;
+// TMPro.Examples.VertexZoom/<AnimateVertexColors>c__Iterator0/<AnimateVertexColors>c__AnonStorey1
+struct U3CAnimateVertexColorsU3Ec__AnonStorey1_t3069048289;
+// TMPro.TMP_MeshInfo[]
+struct TMP_MeshInfoU5BU5D_t2398608976;
+// System.Collections.Generic.List`1<System.Single>
+struct List_1_t1445631064;
+// System.Collections.Generic.List`1<System.Int32>
+struct List_1_t1440998580;
+// System.Comparison`1<System.Int32>
+struct Comparison_1_t3333616299;
+// System.Collections.Generic.IList`1<System.Int32>
+struct IList_1_t2612818049;
+// UnityEngine.Vector2[]
+struct Vector2U5BU5D_t686124026;
+// UnityEngine.Color32[]
+struct Color32U5BU5D_t30278651;
+// TMPro.Examples.WarpTextExample
+struct WarpTextExample_t250871869;
+// UnityEngine.AnimationCurve
+struct AnimationCurve_t3306541151;
+// UnityEngine.Keyframe[]
+struct KeyframeU5BU5D_t449065829;
+// UnityEngine.GameObject
+struct GameObject_t1756533147;
+// TMPro.Examples.WarpTextExample/<WarpText>c__Iterator0
+struct U3CWarpTextU3Ec__Iterator0_t2736974085;
+// TMPro.TMP_DigitValidator
+struct TMP_DigitValidator_t3346203809;
+// TMPro.TMP_InputValidator
+struct TMP_InputValidator_t3726817866;
+// System.String
+struct String_t;
+// TMPro.TMP_TextEventHandler
+struct TMP_TextEventHandler_t1517844021;
+// TMPro.TMP_TextEventHandler/CharacterSelectionEvent
+struct CharacterSelectionEvent_t2887241789;
+// TMPro.TMP_TextEventHandler/WordSelectionEvent
+struct WordSelectionEvent_t2871480376;
+// TMPro.TMP_TextEventHandler/LineSelectionEvent
+struct LineSelectionEvent_t3265414486;
+// TMPro.TMP_TextEventHandler/LinkSelectionEvent
+struct LinkSelectionEvent_t3735310088;
+// System.Type
+struct Type_t;
+// UnityEngine.Canvas
+struct Canvas_t209405766;
+// UnityEngine.Camera
+struct Camera_t189460977;
+// UnityEngine.RectTransform
+struct RectTransform_t3349966182;
+// System.Char[]
+struct CharU5BU5D_t1328083999;
+// UnityEngine.EventSystems.PointerEventData
+struct PointerEventData_t1599784723;
+// UnityEngine.Events.UnityEvent`2<System.Char,System.Int32>
+struct UnityEvent_2_t2762981218;
+// UnityEngine.Events.UnityEvent`3<System.String,System.Int32,System.Int32>
+struct UnityEvent_3_t2425689862;
+// UnityEngine.Events.UnityEvent`3<System.Object,System.Int32,System.Int32>
+struct UnityEvent_3_t1947670748;
+// UnityEngine.Events.UnityEvent`3<System.String,System.String,System.Int32>
+struct UnityEvent_3_t1037676193;
+// UnityEngine.Events.UnityEvent`3<System.Object,System.Object,System.Int32>
+struct UnityEvent_3_t2531905241;
+// UnityARCameraManager
+struct UnityARCameraManager_t2138856896;
+// UnityEngine.XR.iOS.UnityARSessionNativeInterface
+struct UnityARSessionNativeInterface_t1130867170;
+// UnityEngine.XR.iOS.UnityARVideo
+struct UnityARVideo_t2351297253;
+// UnityEngine.Transform
+struct Transform_t3275118058;
+// UnityARCameraNearFar
+struct UnityARCameraNearFar_t519802600;
+// UnityEngine.UI.BoxSlider
+struct BoxSlider_t1871650694;
+// UnityEngine.UI.BoxSlider/BoxSliderEvent
+struct BoxSliderEvent_t1774115848;
+// UnityEngine.UI.Selectable
+struct Selectable_t1490392188;
+// UnityEngine.Events.UnityEvent`2<System.Single,System.Single>
+struct UnityEvent_2_t2016657100;
+// UnityEngine.EventSystems.UIBehaviour
+struct UIBehaviour_t3960014691;
+// UnityEngine.XR.iOS.ARPlaneAnchorGameObject
+struct ARPlaneAnchorGameObject_t2305225887;
+// UnityEngine.XR.iOS.UnityARAmbient
+struct UnityARAmbient_t680084560;
+// UnityEngine.Light
+struct Light_t494725636;
+// UnityEngine.XR.iOS.UnityARAnchorManager
+struct UnityARAnchorManager_t1086564192;
+// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.XR.iOS.ARPlaneAnchorGameObject>
+struct Dictionary_2_t4220005149;
+// System.Collections.Generic.Dictionary`2<System.Object,System.Object>
+struct Dictionary_2_t2281509423;
+// UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorAdded
+struct ARAnchorAdded_t2646854145;
+// UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorUpdated
+struct ARAnchorUpdated_t3886071158;
+// UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorRemoved
+struct ARAnchorRemoved_t142665927;
+// DontDestroyOnLoad
+struct DontDestroyOnLoad_t3235789354;
+// System.Collections.Generic.List`1<UnityEngine.XR.iOS.ARPlaneAnchorGameObject>
+struct List_1_t1674347019;
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_t2058570427;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,UnityEngine.XR.iOS.ARPlaneAnchorGameObject>
+struct ValueCollection_t2923064992;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Object>
+struct ValueCollection_t984569266;
+// System.Collections.Generic.IEnumerable`1<UnityEngine.XR.iOS.ARPlaneAnchorGameObject>
+struct IEnumerable_1_t2597352932;
+// System.Collections.Generic.IEnumerable`1<System.Object>
+struct IEnumerable_1_t2981576340;
+// UnityEngine.XR.iOS.UnityARGeneratePlane
+struct UnityARGeneratePlane_t3368998101;
+// UnityEngine.XR.iOS.UnityARHitTestExample
+struct UnityARHitTestExample_t146867607;
+// System.Collections.Generic.List`1<UnityEngine.XR.iOS.ARHitTestResult>
+struct List_1_t2644634157;
+// System.Array
+struct Il2CppArray;
+// UnityEngine.XR.iOS.UnityARKitControl
+struct UnityARKitControl_t1698990409;
+// UnityEngine.XR.iOS.UnityARMatrixOps
+struct UnityARMatrixOps_t4039665643;
+// UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARFrameUpdate
+struct internal_ARFrameUpdate_t3296518558;
+// UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorAdded
+struct internal_ARAnchorAdded_t1622117597;
+// UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorUpdated
+struct internal_ARAnchorUpdated_t3705772742;
+// UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorRemoved
+struct internal_ARAnchorRemoved_t3189755211;
+// UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARSessionFailed
+struct ARSessionFailed_t872580813;
+// UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARFrameUpdate
+struct ARFrameUpdate_t496507918;
+// System.Delegate
+struct Delegate_t3022476291;
+// UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration
+struct ARKitWorldTackingSessionConfiguration_t1821734930;
+// UnityEngine.XR.iOS.ARKitSessionConfiguration
+struct ARKitSessionConfiguration_t318899795;
+// UnityEngine.XR.iOS.UnityARHitTestResult
+struct UnityARHitTestResult_t4129824344;
+// System.Single[]
+struct SingleU5BU5D_t577127397;
+// UnityEngine.XR.iOS.ARPlaneAnchor
+struct ARPlaneAnchor_t1439520888;
+// System.IAsyncResult
+struct IAsyncResult_t1999651008;
+// System.AsyncCallback
+struct AsyncCallback_t163412349;
+// UnityEngine.XR.iOS.UnityARUtility
+struct UnityARUtility_t3608388148;
+// UnityEngine.MeshFilter
+struct MeshFilter_t3026937449;
+// UnityEngine.Rendering.CommandBuffer
+struct CommandBuffer_t1204166949;
+// UnityEngine.Texture
+struct Texture_t2243626319;
+// UnityEngine.Material
+struct Material_t193706927;
+// UnityEngine.Texture2D
+struct Texture2D_t3542995729;
+// UnityPointCloudExample
+struct UnityPointCloudExample_t3196264220;
+// System.Collections.Generic.List`1<UnityEngine.GameObject>
+struct List_1_t1125654279;
+// UnityStandardAssets.SceneUtils.ParticleSceneControls
+struct ParticleSceneControls_t2895192958;
+// System.Collections.Generic.List`1<UnityEngine.Transform>
+struct List_1_t2644239190;
+// UnityEngine.UI.Button
+struct Button_t2872111280;
+// UnityEngine.UI.Button/ButtonClickedEvent
+struct ButtonClickedEvent_t2455055323;
+// UnityEngine.Events.UnityAction
+struct UnityAction_t4025899511;
+// UnityEngine.Events.UnityEvent
+struct UnityEvent_t408735097;
+// UnityStandardAssets.SceneUtils.ParticleSceneControls/DemoParticleSystem
+struct DemoParticleSystem_t3072969947;
+// UnityStandardAssets.Effects.ParticleSystemMultiplier
+struct ParticleSystemMultiplier_t3377687064;
+// UnityEngine.ParticleSystem
+struct ParticleSystem_t3394631041;
+// UnityEngine.EventSystems.EventSystem
+struct EventSystem_t3466835263;
+// System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
+struct List_1_t3685274804;
+// UnityStandardAssets.SceneUtils.ParticleSceneControls/DemoParticleSystemList
+struct DemoParticleSystemList_t3273430801;
+// UnityStandardAssets.SceneUtils.PlaceTargetWithMouse
+struct PlaceTargetWithMouse_t2469125921;
+// UnityStandardAssets.SceneUtils.SlowMoButton
+struct SlowMoButton_t863415939;
+// UnityEngine.UI.Graphic
+struct Graphic_t2426225576;
+// UnityEngine.UI.Image
+struct Image_t2042527209;
+// UnityEngine.Sprite
+struct Sprite_t309593783;
+extern Il2CppClass* Vector3U5BU5DU5BU5D_t1477540408_il2cpp_TypeInfo_var;
+extern Il2CppClass* Vector3U5BU5D_t1172311765_il2cpp_TypeInfo_var;
+extern Il2CppClass* WaitForSeconds_t3839502067_il2cpp_TypeInfo_var;
+extern const uint32_t U3CAnimateVertexColorsU3Ec__Iterator0_MoveNext_m2375404300_MetadataUsageId;
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CAnimateVertexColorsU3Ec__Iterator0_Reset_m3097267305_MetadataUsageId;
+extern const MethodInfo* Component_GetComponent_TisTMP_Text_t1920000777_m1740531289_MethodInfo_var;
+extern const uint32_t VertexShakeB_Awake_m1104050827_MetadataUsageId;
+extern Il2CppClass* TMPro_EventManager_t528455910_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t823401499_il2cpp_TypeInfo_var;
+extern const MethodInfo* VertexShakeB_ON_TEXT_CHANGED_m2381035942_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m1755939306_MethodInfo_var;
+extern const MethodInfo* FastAction_1_Add_m1567409615_MethodInfo_var;
+extern const uint32_t VertexShakeB_OnEnable_m260089072_MetadataUsageId;
+extern const MethodInfo* FastAction_1_Remove_m3148312212_MethodInfo_var;
+extern const uint32_t VertexShakeB_OnDisable_m4067669711_MetadataUsageId;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t VertexShakeB_ON_TEXT_CHANGED_m2381035942_MetadataUsageId;
+extern Il2CppClass* U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720_il2cpp_TypeInfo_var;
+extern const uint32_t VertexShakeB_AnimateVertexColors_m4215220009_MetadataUsageId;
+extern const uint32_t U3CAnimateVertexColorsU3Ec__Iterator0_MoveNext_m1672060561_MetadataUsageId;
+extern const uint32_t U3CAnimateVertexColorsU3Ec__Iterator0_Reset_m3108543948_MetadataUsageId;
+extern const uint32_t VertexZoom_Awake_m2483782002_MetadataUsageId;
+extern const MethodInfo* VertexZoom_ON_TEXT_CHANGED_m3404530063_MethodInfo_var;
+extern const uint32_t VertexZoom_OnEnable_m1582059271_MetadataUsageId;
+extern const uint32_t VertexZoom_OnDisable_m876200038_MetadataUsageId;
+extern const uint32_t VertexZoom_ON_TEXT_CHANGED_m3404530063_MetadataUsageId;
+extern Il2CppClass* U3CAnimateVertexColorsU3Ec__Iterator0_t76635731_il2cpp_TypeInfo_var;
+extern const uint32_t VertexZoom_AnimateVertexColors_m1061191440_MetadataUsageId;
+extern Il2CppClass* U3CAnimateVertexColorsU3Ec__AnonStorey1_t3069048289_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1445631064_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1440998580_il2cpp_TypeInfo_var;
+extern Il2CppClass* Comparison_1_t3333616299_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m1509370154_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m1598946593_MethodInfo_var;
+extern const MethodInfo* List_1_Clear_m4110591713_MethodInfo_var;
+extern const MethodInfo* List_1_Clear_m3644677550_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m913687102_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m3406166720_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m688682013_MethodInfo_var;
+extern const MethodInfo* U3CAnimateVertexColorsU3Ec__AnonStorey1_U3CU3Em__0_m4281632617_MethodInfo_var;
+extern const MethodInfo* Comparison_1__ctor_m3140365691_MethodInfo_var;
+extern const MethodInfo* List_1_Sort_m2032117030_MethodInfo_var;
+extern const uint32_t U3CAnimateVertexColorsU3Ec__Iterator0_MoveNext_m942098538_MetadataUsageId;
+extern const uint32_t U3CAnimateVertexColorsU3Ec__Iterator0_Reset_m3702279443_MetadataUsageId;
+extern const MethodInfo* List_1_get_Item_m3254877171_MethodInfo_var;
+extern const uint32_t U3CAnimateVertexColorsU3Ec__AnonStorey1_U3CU3Em__0_m4281632617_MetadataUsageId;
+extern Il2CppClass* KeyframeU5BU5D_t449065829_il2cpp_TypeInfo_var;
+extern Il2CppClass* AnimationCurve_t3306541151_il2cpp_TypeInfo_var;
+extern const uint32_t WarpTextExample__ctor_m3191081517_MetadataUsageId;
+extern const MethodInfo* GameObject_GetComponent_TisTMP_Text_t1920000777_m287209048_MethodInfo_var;
+extern const uint32_t WarpTextExample_Awake_m1300889120_MetadataUsageId;
+extern const uint32_t WarpTextExample_CopyAnimationCurve_m3209971324_MetadataUsageId;
+extern Il2CppClass* U3CWarpTextU3Ec__Iterator0_t2736974085_il2cpp_TypeInfo_var;
+extern const uint32_t WarpTextExample_WarpText_m3367975606_MetadataUsageId;
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t U3CWarpTextU3Ec__Iterator0_MoveNext_m1736221510_MetadataUsageId;
+extern const uint32_t U3CWarpTextU3Ec__Iterator0_Reset_m1145799017_MetadataUsageId;
+extern Il2CppClass* CharacterSelectionEvent_t2887241789_il2cpp_TypeInfo_var;
+extern Il2CppClass* WordSelectionEvent_t2871480376_il2cpp_TypeInfo_var;
+extern Il2CppClass* LineSelectionEvent_t3265414486_il2cpp_TypeInfo_var;
+extern Il2CppClass* LinkSelectionEvent_t3735310088_il2cpp_TypeInfo_var;
+extern const uint32_t TMP_TextEventHandler__ctor_m3004486904_MetadataUsageId;
+extern const Il2CppType* TextMeshProUGUI_t934157183_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_GetComponentInParent_TisCanvas_t209405766_m4180257979_MethodInfo_var;
+extern const uint32_t TMP_TextEventHandler_Awake_m2375622331_MetadataUsageId;
+extern Il2CppClass* Input_t1785128008_il2cpp_TypeInfo_var;
+extern Il2CppClass* TMP_TextUtilities_t2068549775_il2cpp_TypeInfo_var;
+extern Il2CppClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
+extern const uint32_t TMP_TextEventHandler_LateUpdate_m193100915_MetadataUsageId;
+extern const MethodInfo* UnityEvent_2_Invoke_m3631463681_MethodInfo_var;
+extern const uint32_t TMP_TextEventHandler_SendOnCharacterSelection_m3235016842_MetadataUsageId;
+extern const MethodInfo* UnityEvent_3_Invoke_m2296394038_MethodInfo_var;
+extern const uint32_t TMP_TextEventHandler_SendOnWordSelection_m2252507599_MetadataUsageId;
+extern const uint32_t TMP_TextEventHandler_SendOnLineSelection_m1972461611_MetadataUsageId;
+extern const MethodInfo* UnityEvent_3_Invoke_m2532458294_MethodInfo_var;
+extern const uint32_t TMP_TextEventHandler_SendOnLinkSelection_m3204119002_MetadataUsageId;
+extern const MethodInfo* UnityEvent_2__ctor_m1845706686_MethodInfo_var;
+extern const uint32_t CharacterSelectionEvent__ctor_m2593822550_MetadataUsageId;
+extern const MethodInfo* UnityEvent_3__ctor_m479955408_MethodInfo_var;
+extern const uint32_t LineSelectionEvent__ctor_m2634206907_MetadataUsageId;
+extern const MethodInfo* UnityEvent_3__ctor_m2443197040_MethodInfo_var;
+extern const uint32_t LinkSelectionEvent__ctor_m1445136385_MetadataUsageId;
+extern const uint32_t WordSelectionEvent__ctor_m899574239_MetadataUsageId;
+extern Il2CppClass* UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var;
+extern Il2CppClass* ARKitWorldTackingSessionConfiguration_t1821734930_il2cpp_TypeInfo_var;
+extern const uint32_t UnityARCameraManager_Start_m1323027489_MetadataUsageId;
+extern const MethodInfo* GameObject_GetComponent_TisUnityARVideo_t2351297253_m3203580092_MethodInfo_var;
+extern const uint32_t UnityARCameraManager_SetCamera_m4068813456_MetadataUsageId;
+extern const MethodInfo* GameObject_AddComponent_TisUnityARVideo_t2351297253_m2846805829_MethodInfo_var;
+extern const uint32_t UnityARCameraManager_SetupNewCamera_m2642892357_MetadataUsageId;
+extern const uint32_t UnityARCameraManager_Update_m1268442026_MetadataUsageId;
+extern const MethodInfo* Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var;
+extern const uint32_t UnityARCameraNearFar_Start_m2367687847_MetadataUsageId;
+extern const uint32_t UnityARCameraNearFar_UpdateCameraClipPlanes_m2412834528_MetadataUsageId;
+extern Il2CppClass* BoxSliderEvent_t1774115848_il2cpp_TypeInfo_var;
+extern Il2CppClass* Selectable_t1490392188_il2cpp_TypeInfo_var;
+extern const uint32_t BoxSlider__ctor_m1006728114_MetadataUsageId;
+extern const MethodInfo* BoxSlider_SetClass_TisRectTransform_t3349966182_m272479997_MethodInfo_var;
+extern const uint32_t BoxSlider_set_handleRect_m168119168_MetadataUsageId;
+extern const MethodInfo* BoxSlider_SetStruct_TisSingle_t2076509932_m2710312218_MethodInfo_var;
+extern const uint32_t BoxSlider_set_minValue_m1004770411_MetadataUsageId;
+extern const uint32_t BoxSlider_set_maxValue_m1702472861_MetadataUsageId;
+extern const MethodInfo* BoxSlider_SetStruct_TisBoolean_t3825574718_m1967921404_MethodInfo_var;
+extern const uint32_t BoxSlider_set_wholeNumbers_m2694006389_MetadataUsageId;
+extern const uint32_t BoxSlider_get_value_m2439160562_MetadataUsageId;
+extern const uint32_t BoxSlider_get_normalizedValue_m911068691_MetadataUsageId;
+extern const uint32_t BoxSlider_set_normalizedValue_m2010660092_MetadataUsageId;
+extern const uint32_t BoxSlider_get_valueY_m2581533163_MetadataUsageId;
+extern const uint32_t BoxSlider_get_normalizedValueY_m3976688554_MetadataUsageId;
+extern const uint32_t BoxSlider_set_normalizedValueY_m851020601_MetadataUsageId;
+extern const MethodInfo* Component_GetComponent_TisRectTransform_t3349966182_m1310250299_MethodInfo_var;
+extern const uint32_t BoxSlider_UpdateCachedReferences_m3248150675_MetadataUsageId;
+extern const MethodInfo* UnityEvent_2_Invoke_m4237217379_MethodInfo_var;
+extern const uint32_t BoxSlider_Set_m1512577286_MetadataUsageId;
+extern const uint32_t BoxSlider_SetY_m956310887_MetadataUsageId;
+extern const uint32_t BoxSlider_UpdateVisuals_m495585056_MetadataUsageId;
+extern Il2CppClass* RectTransformUtility_t2941082270_il2cpp_TypeInfo_var;
+extern const uint32_t BoxSlider_UpdateDrag_m1281607389_MetadataUsageId;
+extern const uint32_t BoxSlider_OnPointerDown_m523869696_MetadataUsageId;
+extern const MethodInfo* UnityEvent_2__ctor_m731674732_MethodInfo_var;
+extern const uint32_t BoxSliderEvent__ctor_m304261805_MetadataUsageId;
+extern const MethodInfo* Component_GetComponent_TisLight_t494725636_m872104316_MethodInfo_var;
+extern const uint32_t UnityARAmbient_Start_m303369171_MetadataUsageId;
+extern Il2CppClass* Dictionary_2_t4220005149_il2cpp_TypeInfo_var;
+extern Il2CppClass* ARAnchorAdded_t2646854145_il2cpp_TypeInfo_var;
+extern Il2CppClass* ARAnchorUpdated_t3886071158_il2cpp_TypeInfo_var;
+extern Il2CppClass* ARAnchorRemoved_t142665927_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m901994969_MethodInfo_var;
+extern const MethodInfo* UnityARAnchorManager_AddAnchor_m3696400381_MethodInfo_var;
+extern const MethodInfo* UnityARAnchorManager_UpdateAnchor_m936463077_MethodInfo_var;
+extern const MethodInfo* UnityARAnchorManager_RemoveAnchor_m759446766_MethodInfo_var;
+extern const uint32_t UnityARAnchorManager__ctor_m862081813_MetadataUsageId;
+extern Il2CppClass* UnityARUtility_t3608388148_il2cpp_TypeInfo_var;
+extern Il2CppClass* ARPlaneAnchorGameObject_t2305225887_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisDontDestroyOnLoad_t3235789354_m3837587514_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Add_m1484985233_MethodInfo_var;
+extern const uint32_t UnityARAnchorManager_AddAnchor_m3696400381_MetadataUsageId;
+extern const MethodInfo* Dictionary_2_ContainsKey_m1995208230_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m2095595863_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Remove_m2072237462_MethodInfo_var;
+extern const uint32_t UnityARAnchorManager_RemoveAnchor_m759446766_MetadataUsageId;
+extern const MethodInfo* Dictionary_2_set_Item_m4043917654_MethodInfo_var;
+extern const uint32_t UnityARAnchorManager_UpdateAnchor_m936463077_MetadataUsageId;
+extern const MethodInfo* List_1_GetEnumerator_m4215433995_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1915701911_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m1993884707_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m113660709_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Clear_m1175916790_MethodInfo_var;
+extern const uint32_t UnityARAnchorManager_Destroy_m2122554463_MetadataUsageId;
+extern const MethodInfo* Dictionary_2_get_Values_m2145867943_MethodInfo_var;
+extern const MethodInfo* Enumerable_ToList_TisARPlaneAnchorGameObject_t2305225887_m1925590016_MethodInfo_var;
+extern const uint32_t UnityARAnchorManager_GetCurrentPlaneAnchors_m3679069310_MetadataUsageId;
+extern Il2CppClass* UnityARAnchorManager_t1086564192_il2cpp_TypeInfo_var;
+extern const uint32_t UnityARGeneratePlane_Start_m972338584_MetadataUsageId;
+extern const MethodInfo* List_1_get_Count_m2133649638_MethodInfo_var;
+extern const uint32_t UnityARGeneratePlane_OnGUI_m157102952_MetadataUsageId;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppClass* Single_t2076509932_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m323201712_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m603904701_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3080821509_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m3860421825_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m3109677227_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1415053652;
+extern Il2CppCodeGenString* _stringLiteral1537444060;
+extern const uint32_t UnityARHitTestExample_HitTestWithResultType_m2625409750_MetadataUsageId;
+extern Il2CppClass* ARPoint_t3436811567_il2cpp_TypeInfo_var;
+extern Il2CppClass* ARHitTestResultTypeU5BU5D_t1303085420_il2cpp_TypeInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305143____U24fieldU2D8E7629AD5AF686202B8CB7C014505C432FFE31E6_0_FieldInfo_var;
+extern const uint32_t UnityARHitTestExample_Update_m2793875989_MetadataUsageId;
+extern Il2CppClass* UnityARSessionRunOptionU5BU5D_t3114965901_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnityARAlignmentU5BU5D_t218994990_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnityARPlaneDetectionU5BU5D_t191549612_il2cpp_TypeInfo_var;
+extern const uint32_t UnityARKitControl__ctor_m644486778_MetadataUsageId;
+extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3833953726;
+extern Il2CppCodeGenString* _stringLiteral2858758002;
+extern Il2CppCodeGenString* _stringLiteral2341529191;
+extern Il2CppCodeGenString* _stringLiteral1743625051;
+extern Il2CppCodeGenString* _stringLiteral1174079095;
+extern Il2CppCodeGenString* _stringLiteral2724865136;
+extern Il2CppCodeGenString* _stringLiteral1414246128;
+extern Il2CppCodeGenString* _stringLiteral1301536196;
+extern Il2CppCodeGenString* _stringLiteral3675648761;
+extern Il2CppCodeGenString* _stringLiteral3025722940;
+extern Il2CppCodeGenString* _stringLiteral3575497429;
+extern Il2CppCodeGenString* _stringLiteral4059134932;
+extern Il2CppCodeGenString* _stringLiteral2529991261;
+extern Il2CppCodeGenString* _stringLiteral855845486;
+extern Il2CppCodeGenString* _stringLiteral1635882288;
+extern Il2CppCodeGenString* _stringLiteral3168505747;
+extern const uint32_t UnityARKitControl_OnGUI_m3111769830_MetadataUsageId;
+extern Il2CppClass* Quaternion_t4030073918_il2cpp_TypeInfo_var;
+extern const uint32_t UnityARMatrixOps_QuaternionFromMatrix_m1524774549_MetadataUsageId;
+extern Il2CppClass* internal_ARFrameUpdate_t3296518558_il2cpp_TypeInfo_var;
+extern Il2CppClass* internal_ARAnchorAdded_t1622117597_il2cpp_TypeInfo_var;
+extern Il2CppClass* internal_ARAnchorUpdated_t3705772742_il2cpp_TypeInfo_var;
+extern Il2CppClass* internal_ARAnchorRemoved_t3189755211_il2cpp_TypeInfo_var;
+extern Il2CppClass* ARSessionFailed_t872580813_il2cpp_TypeInfo_var;
+extern const MethodInfo* UnityARSessionNativeInterface__frame_update_m1325618420_MethodInfo_var;
+extern const MethodInfo* UnityARSessionNativeInterface__anchor_added_m2958024553_MethodInfo_var;
+extern const MethodInfo* UnityARSessionNativeInterface__anchor_updated_m3701161618_MethodInfo_var;
+extern const MethodInfo* UnityARSessionNativeInterface__anchor_removed_m1500115371_MethodInfo_var;
+extern const MethodInfo* UnityARSessionNativeInterface__ar_session_failed_m3818340282_MethodInfo_var;
+extern const uint32_t UnityARSessionNativeInterface__ctor_m3996903657_MetadataUsageId;
+extern Il2CppClass* ARFrameUpdate_t496507918_il2cpp_TypeInfo_var;
+extern const uint32_t UnityARSessionNativeInterface_add_ARFrameUpdatedEvent_m1736114240_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface_remove_ARFrameUpdatedEvent_m109438993_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface_add_ARAnchorAddedEvent_m3658192182_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface_remove_ARAnchorAddedEvent_m1953980029_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface_add_ARAnchorUpdatedEvent_m896905782_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface_remove_ARAnchorUpdatedEvent_m3167872061_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface_add_ARAnchorRemovedEvent_m3715542294_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface_remove_ARAnchorRemovedEvent_m2956059101_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface_add_ARSessionFailedEvent_m224373782_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface_remove_ARSessionFailedEvent_m887529885_MetadataUsageId;
+struct ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_pinvoke;
+struct ARKitWorldTackingSessionConfiguration_t1821734930;;
+struct ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_pinvoke;;
+struct ARKitSessionConfiguration_t318899795_marshaled_pinvoke;
+struct ARKitSessionConfiguration_t318899795;;
+struct ARKitSessionConfiguration_t318899795_marshaled_pinvoke;;
+struct UnityARHitTestResult_t4129824344_marshaled_pinvoke;
+struct UnityARHitTestResult_t4129824344;;
+struct UnityARHitTestResult_t4129824344_marshaled_pinvoke;;
+extern const uint32_t UnityARSessionNativeInterface_GetARSessionNativeInterface_m2987304195_MetadataUsageId;
+extern Il2CppClass* Matrix4x4_t2933234003_il2cpp_TypeInfo_var;
+extern const uint32_t UnityARSessionNativeInterface_GetCameraPose_m1163645748_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface_GetCameraProjection_m355777876_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface_SetCameraClipPlanes_m2416096845_MetadataUsageId;
+extern Il2CppClass* UnityARCamera_t4198559457_il2cpp_TypeInfo_var;
+extern const uint32_t UnityARSessionNativeInterface__frame_update_m1325618420_MetadataUsageId;
+extern Il2CppClass* IntPtr_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* SingleU5BU5D_t577127397_il2cpp_TypeInfo_var;
+extern Il2CppClass* Marshal_t785896760_il2cpp_TypeInfo_var;
+extern const uint32_t UnityARSessionNativeInterface_UpdatePointCloudData_m1902659090_MetadataUsageId;
+extern Il2CppClass* ARPlaneAnchor_t1439520888_il2cpp_TypeInfo_var;
+extern const uint32_t UnityARSessionNativeInterface_GetPlaneAnchorFromAnchorData_m1725929749_MetadataUsageId;
+extern Il2CppClass* ARHitTestResult_t3275513025_il2cpp_TypeInfo_var;
+extern const uint32_t UnityARSessionNativeInterface_GetHitTestResultFromResultData_m1395748390_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface__anchor_added_m2958024553_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface__anchor_updated_m3701161618_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface__anchor_removed_m1500115371_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2733749110;
+extern const uint32_t UnityARSessionNativeInterface__ar_session_failed_m3818340282_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface_RunWithConfigAndOptions_m355682631_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface_RunWithConfig_m4239349920_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface_RunWithConfigAndOptions_m1270423928_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface_RunWithConfig_m4212975335_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface_Pause_m57777087_MetadataUsageId;
+extern Il2CppClass* List_1_t2644634157_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3541722758_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m1439515290_MethodInfo_var;
+extern const uint32_t UnityARSessionNativeInterface_HitTest_m3162073804_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface_GetARVideoTextureHandles_m299127149_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface_GetARAmbientIntensity_m3021844929_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface_GetARTrackingQuality_m3393366810_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface_GetARYUVTexCoordScale_m1708528794_MetadataUsageId;
+extern const uint32_t UnityARSessionNativeInterface__cctor_m3065370010_MetadataUsageId;
+struct ARPlaneAnchor_t1439520888_marshaled_pinvoke;
+struct ARPlaneAnchor_t1439520888;;
+struct ARPlaneAnchor_t1439520888_marshaled_pinvoke;;
+extern const uint32_t ARAnchorAdded_BeginInvoke_m1195619543_MetadataUsageId;
+extern const uint32_t ARAnchorRemoved_BeginInvoke_m3861277981_MetadataUsageId;
+extern const uint32_t ARAnchorUpdated_BeginInvoke_m3773995276_MetadataUsageId;
+extern const uint32_t ARFrameUpdate_BeginInvoke_m1755287247_MetadataUsageId;
+extern Il2CppClass* UnityARAnchorData_t2901866349_il2cpp_TypeInfo_var;
+extern const uint32_t internal_ARAnchorAdded_BeginInvoke_m3033916568_MetadataUsageId;
+extern const uint32_t internal_ARAnchorRemoved_BeginInvoke_m3085909034_MetadataUsageId;
+extern const uint32_t internal_ARAnchorUpdated_BeginInvoke_m63372791_MetadataUsageId;
+extern Il2CppClass* internal_UnityARCamera_t2580192745_il2cpp_TypeInfo_var;
+extern const uint32_t internal_ARFrameUpdate_BeginInvoke_m3669572079_MetadataUsageId;
+extern const uint32_t UnityARUtility_InitializePlanePrefab_m991798235_MetadataUsageId;
+extern Il2CppClass* GameObject_t1756533147_il2cpp_TypeInfo_var;
+extern const MethodInfo* Object_Instantiate_TisGameObject_t1756533147_m3664764861_MethodInfo_var;
+extern const uint32_t UnityARUtility_CreatePlaneInScene_m25502715_MetadataUsageId;
+extern const MethodInfo* GameObject_GetComponentInChildren_TisMeshFilter_t3026937449_m2178217683_MethodInfo_var;
+extern const uint32_t UnityARUtility_UpdatePlaneWithAnchorTransform_m3977317096_MetadataUsageId;
+extern const uint32_t UnityARUtility_UpdateObjectWithAnchorTransform_m4136968086_MetadataUsageId;
+extern const uint32_t UnityARUtility__cctor_m40081288_MetadataUsageId;
+extern const uint32_t UnityARVideo_Start_m3167459156_MetadataUsageId;
+extern Il2CppClass* CommandBuffer_t1204166949_il2cpp_TypeInfo_var;
+extern const uint32_t UnityARVideo_InitializeCommandBuffer_m2276285637_MetadataUsageId;
+extern const uint32_t UnityARVideo_OnDestroy_m1187748541_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1152424733;
+extern Il2CppCodeGenString* _stringLiteral2391281062;
+extern Il2CppCodeGenString* _stringLiteral2946740916;
+extern Il2CppCodeGenString* _stringLiteral1387439463;
+extern Il2CppCodeGenString* _stringLiteral2454363760;
+extern const uint32_t UnityARVideo_OnPreRender_m598299706_MetadataUsageId;
+extern Il2CppClass* List_1_t1125654279_il2cpp_TypeInfo_var;
+extern const MethodInfo* UnityPointCloudExample_ARFrameUpdated_m2062770295_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m704351054_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m3441471442_MethodInfo_var;
+extern const uint32_t UnityPointCloudExample_Start_m3314310889_MetadataUsageId;
+extern const MethodInfo* List_1_get_Item_m939767277_MethodInfo_var;
+extern const uint32_t UnityPointCloudExample_Update_m898300810_MetadataUsageId;
+extern Il2CppClass* List_1_t2644239190_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m833109890_MethodInfo_var;
+extern const uint32_t ParticleSceneControls__ctor_m3022166447_MetadataUsageId;
+extern Il2CppClass* ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnityAction_t4025899511_il2cpp_TypeInfo_var;
+extern const MethodInfo* ParticleSceneControls_Previous_m1362340984_MethodInfo_var;
+extern const MethodInfo* ParticleSceneControls_Next_m1895686128_MethodInfo_var;
+extern const uint32_t ParticleSceneControls_Awake_m3651709266_MetadataUsageId;
+extern const uint32_t ParticleSceneControls_OnDisable_m3467264454_MetadataUsageId;
+extern const uint32_t ParticleSceneControls_Previous_m1362340984_MetadataUsageId;
+extern const uint32_t ParticleSceneControls_Next_m1895686128_MetadataUsageId;
+extern const MethodInfo* Object_Instantiate_TisTransform_t3275118058_m3377769805_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisParticleSystemMultiplier_t3377687064_m1071529796_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m4081083670_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m1995107056_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m3391702501_MethodInfo_var;
+extern const MethodInfo* List_1_RemoveAt_m1075984016_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisParticleSystem_t3394631041_m1847115563_MethodInfo_var;
+extern const uint32_t ParticleSceneControls_Update_m3449533136_MetadataUsageId;
+extern Il2CppClass* PointerEventData_t1599784723_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t3685274804_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m2989057823_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m3279745867_MethodInfo_var;
+extern const uint32_t ParticleSceneControls_CheckForGuiCollision_m2041416147_MetadataUsageId;
+extern const uint32_t ParticleSceneControls_Select_m906043616_MetadataUsageId;
+extern const uint32_t ParticleSceneControls__cctor_m3271521024_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1000680127;
+extern const uint32_t PlaceTargetWithMouse_Update_m1700337429_MetadataUsageId;
+extern Il2CppClass* Image_t2042527209_il2cpp_TypeInfo_var;
+extern const uint32_t SlowMoButton_ChangeSpeed_m760229419_MetadataUsageId;
+
+// UnityEngine.Vector3[]
+struct Vector3U5BU5D_t1172311765  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Vector3_t2243707580  m_Items[1];
+
+public:
+	inline Vector3_t2243707580  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector3_t2243707580 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector3_t2243707580  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector3_t2243707580  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector3_t2243707580 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3_t2243707580  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Vector3[][]
+struct Vector3U5BU5DU5BU5D_t1477540408  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Vector3U5BU5D_t1172311765* m_Items[1];
+
+public:
+	inline Vector3U5BU5D_t1172311765* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector3U5BU5D_t1172311765** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector3U5BU5D_t1172311765* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline Vector3U5BU5D_t1172311765* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector3U5BU5D_t1172311765** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3U5BU5D_t1172311765* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// TMPro.TMP_MeshInfo[]
+struct TMP_MeshInfoU5BU5D_t2398608976  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) TMP_MeshInfo_t1297308317  m_Items[1];
+
+public:
+	inline TMP_MeshInfo_t1297308317  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline TMP_MeshInfo_t1297308317 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, TMP_MeshInfo_t1297308317  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline TMP_MeshInfo_t1297308317  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline TMP_MeshInfo_t1297308317 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, TMP_MeshInfo_t1297308317  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// TMPro.TMP_LineInfo[]
+struct TMP_LineInfoU5BU5D_t1617569211  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) TMP_LineInfo_t2320418126  m_Items[1];
+
+public:
+	inline TMP_LineInfo_t2320418126  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline TMP_LineInfo_t2320418126 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, TMP_LineInfo_t2320418126  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline TMP_LineInfo_t2320418126  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline TMP_LineInfo_t2320418126 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, TMP_LineInfo_t2320418126  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// TMPro.TMP_CharacterInfo[]
+struct TMP_CharacterInfoU5BU5D_t602810366  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) TMP_CharacterInfo_t1421302791  m_Items[1];
+
+public:
+	inline TMP_CharacterInfo_t1421302791  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline TMP_CharacterInfo_t1421302791 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, TMP_CharacterInfo_t1421302791  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline TMP_CharacterInfo_t1421302791  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline TMP_CharacterInfo_t1421302791 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, TMP_CharacterInfo_t1421302791  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Vector2[]
+struct Vector2U5BU5D_t686124026  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Vector2_t2243707579  m_Items[1];
+
+public:
+	inline Vector2_t2243707579  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector2_t2243707579 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector2_t2243707579  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector2_t2243707579  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector2_t2243707579 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector2_t2243707579  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Color32[]
+struct Color32U5BU5D_t30278651  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Color32_t874517518  m_Items[1];
+
+public:
+	inline Color32_t874517518  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Color32_t874517518 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Color32_t874517518  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Color32_t874517518  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Color32_t874517518 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Color32_t874517518  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Keyframe[]
+struct KeyframeU5BU5D_t449065829  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Keyframe_t1449471340  m_Items[1];
+
+public:
+	inline Keyframe_t1449471340  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Keyframe_t1449471340 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Keyframe_t1449471340  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Keyframe_t1449471340  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Keyframe_t1449471340 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Keyframe_t1449471340  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Char[]
+struct CharU5BU5D_t1328083999  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Il2CppChar m_Items[1];
+
+public:
+	inline Il2CppChar GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Il2CppChar* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Il2CppChar value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Il2CppChar GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Il2CppChar* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Il2CppChar value)
+	{
+		m_Items[index] = value;
+	}
+};
+// TMPro.TMP_WordInfo[]
+struct TMP_WordInfoU5BU5D_t968836101  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) TMP_WordInfo_t3807457612  m_Items[1];
+
+public:
+	inline TMP_WordInfo_t3807457612  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline TMP_WordInfo_t3807457612 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, TMP_WordInfo_t3807457612  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline TMP_WordInfo_t3807457612  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline TMP_WordInfo_t3807457612 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, TMP_WordInfo_t3807457612  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// TMPro.TMP_LinkInfo[]
+struct TMP_LinkInfoU5BU5D_t2563924433  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) TMP_LinkInfo_t3626894960  m_Items[1];
+
+public:
+	inline TMP_LinkInfo_t3626894960  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline TMP_LinkInfo_t3626894960 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, TMP_LinkInfo_t3626894960  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline TMP_LinkInfo_t3626894960  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline TMP_LinkInfo_t3626894960 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, TMP_LinkInfo_t3626894960  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.XR.iOS.ARHitTestResultType[]
+struct ARHitTestResultTypeU5BU5D_t1303085420  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) int64_t m_Items[1];
+
+public:
+	inline int64_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int64_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int64_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int64_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int64_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int64_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.XR.iOS.UnityARSessionRunOption[]
+struct UnityARSessionRunOptionU5BU5D_t3114965901  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+public:
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.XR.iOS.UnityARAlignment[]
+struct UnityARAlignmentU5BU5D_t218994990  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+public:
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.XR.iOS.UnityARPlaneDetection[]
+struct UnityARPlaneDetectionU5BU5D_t191549612  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+public:
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Single[]
+struct SingleU5BU5D_t577127397  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) float m_Items[1];
+
+public:
+	inline float GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityStandardAssets.SceneUtils.ParticleSceneControls/DemoParticleSystem[]
+struct DemoParticleSystemU5BU5D_t641914202  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) DemoParticleSystem_t3072969947 * m_Items[1];
+
+public:
+	inline DemoParticleSystem_t3072969947 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline DemoParticleSystem_t3072969947 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, DemoParticleSystem_t3072969947 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline DemoParticleSystem_t3072969947 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline DemoParticleSystem_t3072969947 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, DemoParticleSystem_t3072969947 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+
+extern "C" void ARKitWorldTackingSessionConfiguration_t1821734930_marshal_pinvoke(const ARKitWorldTackingSessionConfiguration_t1821734930& unmarshaled, ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_pinvoke& marshaled);
+extern "C" void ARKitWorldTackingSessionConfiguration_t1821734930_marshal_pinvoke_back(const ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_pinvoke& marshaled, ARKitWorldTackingSessionConfiguration_t1821734930& unmarshaled);
+extern "C" void ARKitWorldTackingSessionConfiguration_t1821734930_marshal_pinvoke_cleanup(ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_pinvoke& marshaled);
+extern "C" void ARKitSessionConfiguration_t318899795_marshal_pinvoke(const ARKitSessionConfiguration_t318899795& unmarshaled, ARKitSessionConfiguration_t318899795_marshaled_pinvoke& marshaled);
+extern "C" void ARKitSessionConfiguration_t318899795_marshal_pinvoke_back(const ARKitSessionConfiguration_t318899795_marshaled_pinvoke& marshaled, ARKitSessionConfiguration_t318899795& unmarshaled);
+extern "C" void ARKitSessionConfiguration_t318899795_marshal_pinvoke_cleanup(ARKitSessionConfiguration_t318899795_marshaled_pinvoke& marshaled);
+extern "C" void UnityARHitTestResult_t4129824344_marshal_pinvoke(const UnityARHitTestResult_t4129824344& unmarshaled, UnityARHitTestResult_t4129824344_marshaled_pinvoke& marshaled);
+extern "C" void UnityARHitTestResult_t4129824344_marshal_pinvoke_back(const UnityARHitTestResult_t4129824344_marshaled_pinvoke& marshaled, UnityARHitTestResult_t4129824344& unmarshaled);
+extern "C" void UnityARHitTestResult_t4129824344_marshal_pinvoke_cleanup(UnityARHitTestResult_t4129824344_marshaled_pinvoke& marshaled);
+extern "C" void ARPlaneAnchor_t1439520888_marshal_pinvoke(const ARPlaneAnchor_t1439520888& unmarshaled, ARPlaneAnchor_t1439520888_marshaled_pinvoke& marshaled);
+extern "C" void ARPlaneAnchor_t1439520888_marshal_pinvoke_back(const ARPlaneAnchor_t1439520888_marshaled_pinvoke& marshaled, ARPlaneAnchor_t1439520888& unmarshaled);
+extern "C" void ARPlaneAnchor_t1439520888_marshal_pinvoke_cleanup(ARPlaneAnchor_t1439520888_marshaled_pinvoke& marshaled);
+
+// !!0 UnityEngine.Component::GetComponent<System.Object>()
+extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m4109961936_gshared (Component_t3819376471 * __this, const MethodInfo* method);
+// System.Void System.Action`1<System.Object>::.ctor(System.Object,System.IntPtr)
+extern "C"  void Action_1__ctor_m584977596_gshared (Action_1_t2491248677 * __this, Il2CppObject * p0, IntPtr_t p1, const MethodInfo* method);
+// System.Void TMPro.FastAction`1<System.Object>::Add(System.Action`1<!0>)
+extern "C"  void FastAction_1_Add_m2412187763_gshared (FastAction_1_t2180528449 * __this, Action_1_t2491248677 * p0, const MethodInfo* method);
+// System.Void TMPro.FastAction`1<System.Object>::Remove(System.Action`1<!0>)
+extern "C"  void FastAction_1_Remove_m2856210978_gshared (FastAction_1_t2180528449 * __this, Action_1_t2491248677 * p0, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Single>::.ctor()
+extern "C"  void List_1__ctor_m1509370154_gshared (List_1_t1445631064 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Int32>::.ctor()
+extern "C"  void List_1__ctor_m1598946593_gshared (List_1_t1440998580 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Single>::Clear()
+extern "C"  void List_1_Clear_m4110591713_gshared (List_1_t1445631064 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Int32>::Clear()
+extern "C"  void List_1_Clear_m3644677550_gshared (List_1_t1440998580 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Single>::Add(!0)
+extern "C"  void List_1_Add_m913687102_gshared (List_1_t1445631064 * __this, float p0, const MethodInfo* method);
+// System.Int32 System.Collections.Generic.List`1<System.Single>::get_Count()
+extern "C"  int32_t List_1_get_Count_m3406166720_gshared (List_1_t1445631064 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Int32>::Add(!0)
+extern "C"  void List_1_Add_m688682013_gshared (List_1_t1440998580 * __this, int32_t p0, const MethodInfo* method);
+// System.Void System.Comparison`1<System.Int32>::.ctor(System.Object,System.IntPtr)
+extern "C"  void Comparison_1__ctor_m3140365691_gshared (Comparison_1_t3333616299 * __this, Il2CppObject * p0, IntPtr_t p1, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Int32>::Sort(System.Comparison`1<!0>)
+extern "C"  void List_1_Sort_m2032117030_gshared (List_1_t1440998580 * __this, Comparison_1_t3333616299 * p0, const MethodInfo* method);
+// !0 System.Collections.Generic.List`1<System.Single>::get_Item(System.Int32)
+extern "C"  float List_1_get_Item_m3254877171_gshared (List_1_t1445631064 * __this, int32_t p0, const MethodInfo* method);
+// !!0 UnityEngine.GameObject::GetComponent<System.Object>()
+extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+// !!0 UnityEngine.GameObject::GetComponentInParent<System.Object>()
+extern "C"  Il2CppObject * GameObject_GetComponentInParent_TisIl2CppObject_m781417156_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`2<System.Char,System.Int32>::Invoke(!0,!1)
+extern "C"  void UnityEvent_2_Invoke_m3631463681_gshared (UnityEvent_2_t2762981218 * __this, Il2CppChar p0, int32_t p1, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`3<System.Object,System.Int32,System.Int32>::Invoke(!0,!1,!2)
+extern "C"  void UnityEvent_3_Invoke_m1896848130_gshared (UnityEvent_3_t1947670748 * __this, Il2CppObject * p0, int32_t p1, int32_t p2, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`3<System.Object,System.Object,System.Int32>::Invoke(!0,!1,!2)
+extern "C"  void UnityEvent_3_Invoke_m3497331521_gshared (UnityEvent_3_t2531905241 * __this, Il2CppObject * p0, Il2CppObject * p1, int32_t p2, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`2<System.Char,System.Int32>::.ctor()
+extern "C"  void UnityEvent_2__ctor_m1845706686_gshared (UnityEvent_2_t2762981218 * __this, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`3<System.Object,System.Int32,System.Int32>::.ctor()
+extern "C"  void UnityEvent_3__ctor_m650428012_gshared (UnityEvent_3_t1947670748 * __this, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`3<System.Object,System.Object,System.Int32>::.ctor()
+extern "C"  void UnityEvent_3__ctor_m1906758799_gshared (UnityEvent_3_t2531905241 * __this, const MethodInfo* method);
+// !!0 UnityEngine.GameObject::AddComponent<System.Object>()
+extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+// System.Boolean UnityEngine.UI.BoxSlider::SetClass<System.Object>(T&,T)
+extern "C"  bool BoxSlider_SetClass_TisIl2CppObject_m1811500378_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject ** ___currentValue0, Il2CppObject * ___newValue1, const MethodInfo* method);
+// System.Boolean UnityEngine.UI.BoxSlider::SetStruct<System.Single>(T&,T)
+extern "C"  bool BoxSlider_SetStruct_TisSingle_t2076509932_m2710312218_gshared (Il2CppObject * __this /* static, unused */, float* ___currentValue0, float ___newValue1, const MethodInfo* method);
+// System.Boolean UnityEngine.UI.BoxSlider::SetStruct<System.Boolean>(T&,T)
+extern "C"  bool BoxSlider_SetStruct_TisBoolean_t3825574718_m1967921404_gshared (Il2CppObject * __this /* static, unused */, bool* ___currentValue0, bool ___newValue1, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`2<System.Single,System.Single>::Invoke(!0,!1)
+extern "C"  void UnityEvent_2_Invoke_m4237217379_gshared (UnityEvent_2_t2016657100 * __this, float p0, float p1, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`2<System.Single,System.Single>::.ctor()
+extern "C"  void UnityEvent_2__ctor_m731674732_gshared (UnityEvent_2_t2016657100 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor()
+extern "C"  void Dictionary_2__ctor_m584589095_gshared (Dictionary_2_t2281509423 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Add(!0,!1)
+extern "C"  void Dictionary_2_Add_m4209421183_gshared (Dictionary_2_t2281509423 * __this, Il2CppObject * p0, Il2CppObject * p1, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::ContainsKey(!0)
+extern "C"  bool Dictionary_2_ContainsKey_m3321918434_gshared (Dictionary_2_t2281509423 * __this, Il2CppObject * p0, const MethodInfo* method);
+// !1 System.Collections.Generic.Dictionary`2<System.Object,System.Object>::get_Item(!0)
+extern "C"  Il2CppObject * Dictionary_2_get_Item_m4062719145_gshared (Dictionary_2_t2281509423 * __this, Il2CppObject * p0, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Remove(!0)
+extern "C"  bool Dictionary_2_Remove_m112127646_gshared (Dictionary_2_t2281509423 * __this, Il2CppObject * p0, const MethodInfo* method);
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::set_Item(!0,!1)
+extern "C"  void Dictionary_2_set_Item_m1004257024_gshared (Dictionary_2_t2281509423 * __this, Il2CppObject * p0, Il2CppObject * p1, const MethodInfo* method);
+// System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<System.Object>::GetEnumerator()
+extern "C"  Enumerator_t1593300101  List_1_GetEnumerator_m2837081829_gshared (List_1_t2058570427 * __this, const MethodInfo* method);
+// !0 System.Collections.Generic.List`1/Enumerator<System.Object>::get_Current()
+extern "C"  Il2CppObject * Enumerator_get_Current_m2577424081_gshared (Enumerator_t1593300101 * __this, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Object>::MoveNext()
+extern "C"  bool Enumerator_MoveNext_m44995089_gshared (Enumerator_t1593300101 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Object>::Dispose()
+extern "C"  void Enumerator_Dispose_m3736175406_gshared (Enumerator_t1593300101 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Clear()
+extern "C"  void Dictionary_2_Clear_m2325793156_gshared (Dictionary_2_t2281509423 * __this, const MethodInfo* method);
+// System.Collections.Generic.Dictionary`2/ValueCollection<!0,!1> System.Collections.Generic.Dictionary`2<System.Object,System.Object>::get_Values()
+extern "C"  ValueCollection_t984569266 * Dictionary_2_get_Values_m2233445381_gshared (Dictionary_2_t2281509423 * __this, const MethodInfo* method);
+// System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
+extern "C"  List_1_t2058570427 * Enumerable_ToList_TisIl2CppObject_m2845724690_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject* p0, const MethodInfo* method);
+// System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count()
+extern "C"  int32_t List_1_get_Count_m2375293942_gshared (List_1_t2058570427 * __this, const MethodInfo* method);
+// System.Int32 System.Collections.Generic.List`1<UnityEngine.XR.iOS.ARHitTestResult>::get_Count()
+extern "C"  int32_t List_1_get_Count_m323201712_gshared (List_1_t2644634157 * __this, const MethodInfo* method);
+// System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<UnityEngine.XR.iOS.ARHitTestResult>::GetEnumerator()
+extern "C"  Enumerator_t2179363831  List_1_GetEnumerator_m603904701_gshared (List_1_t2644634157 * __this, const MethodInfo* method);
+// !0 System.Collections.Generic.List`1/Enumerator<UnityEngine.XR.iOS.ARHitTestResult>::get_Current()
+extern "C"  ARHitTestResult_t3275513025  Enumerator_get_Current_m3080821509_gshared (Enumerator_t2179363831 * __this, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.XR.iOS.ARHitTestResult>::MoveNext()
+extern "C"  bool Enumerator_MoveNext_m3860421825_gshared (Enumerator_t2179363831 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.XR.iOS.ARHitTestResult>::Dispose()
+extern "C"  void Enumerator_Dispose_m3109677227_gshared (Enumerator_t2179363831 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<UnityEngine.XR.iOS.ARHitTestResult>::.ctor()
+extern "C"  void List_1__ctor_m3541722758_gshared (List_1_t2644634157 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<UnityEngine.XR.iOS.ARHitTestResult>::Add(!0)
+extern "C"  void List_1_Add_m1439515290_gshared (List_1_t2644634157 * __this, ARHitTestResult_t3275513025  p0, const MethodInfo* method);
+// !!0 UnityEngine.Object::Instantiate<System.Object>(!!0)
+extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m447919519_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method);
+// !!0 UnityEngine.GameObject::GetComponentInChildren<System.Object>()
+extern "C"  Il2CppObject * GameObject_GetComponentInChildren_TisIl2CppObject_m327292296_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
+extern "C"  void List_1__ctor_m310736118_gshared (List_1_t2058570427 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Object>::Add(!0)
+extern "C"  void List_1_Add_m4157722533_gshared (List_1_t2058570427 * __this, Il2CppObject * p0, const MethodInfo* method);
+// !0 System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32)
+extern "C"  Il2CppObject * List_1_get_Item_m2062981835_gshared (List_1_t2058570427 * __this, int32_t p0, const MethodInfo* method);
+// !!0 UnityEngine.Object::Instantiate<System.Object>(!!0,UnityEngine.Vector3,UnityEngine.Quaternion)
+extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m3692334404_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, Vector3_t2243707580  p1, Quaternion_t4030073918  p2, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Object>::RemoveAt(System.Int32)
+extern "C"  void List_1_RemoveAt_m3615096820_gshared (List_1_t2058570427 * __this, int32_t p0, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::.ctor()
+extern "C"  void List_1__ctor_m2989057823_gshared (List_1_t3685274804 * __this, const MethodInfo* method);
+// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::get_Count()
+extern "C"  int32_t List_1_get_Count_m3279745867_gshared (List_1_t3685274804 * __this, const MethodInfo* method);
+
+// System.Void System.Object::.ctor()
+extern "C"  void Object__ctor_m2551263788 (Il2CppObject * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// TMPro.TMP_TextInfo TMPro.TMP_Text::get_textInfo()
+extern "C"  TMP_TextInfo_t2849466151 * TMP_Text_get_textInfo_m3382403859 (TMP_Text_t1920000777 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.WaitForSeconds::.ctor(System.Single)
+extern "C"  void WaitForSeconds__ctor_m1990515539 (WaitForSeconds_t3839502067 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::op_Addition(UnityEngine.Vector3,UnityEngine.Vector3)
+extern "C"  Vector3_t2243707580  Vector3_op_Addition_m3146764857 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, Vector3_t2243707580  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::op_Division(UnityEngine.Vector3,System.Single)
+extern "C"  Vector3_t2243707580  Vector3_op_Division_m3315615850 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Random::Range(System.Single,System.Single)
+extern "C"  float Random_Range_m2884721203 (Il2CppObject * __this /* static, unused */, float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Quaternion UnityEngine.Quaternion::Euler(System.Single,System.Single,System.Single)
+extern "C"  Quaternion_t4030073918  Quaternion_Euler_m2887458175 (Il2CppObject * __this /* static, unused */, float p0, float p1, float p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::op_Subtraction(UnityEngine.Vector3,UnityEngine.Vector3)
+extern "C"  Vector3_t2243707580  Vector3_op_Subtraction_m2407545601 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, Vector3_t2243707580  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::get_one()
+extern "C"  Vector3_t2243707580  Vector3_get_one_m627547232 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::op_Multiply(UnityEngine.Vector3,System.Single)
+extern "C"  Vector3_t2243707580  Vector3_op_Multiply_m1351554733 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::TRS(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
+extern "C"  Matrix4x4_t2933234003  Matrix4x4_TRS_m1913765359 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, Quaternion_t4030073918  p1, Vector3_t2243707580  p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Matrix4x4::MultiplyPoint3x4(UnityEngine.Vector3)
+extern "C"  Vector3_t2243707580  Matrix4x4_MultiplyPoint3x4_m1007952212 (Matrix4x4_t2933234003 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Mesh::set_vertices(UnityEngine.Vector3[])
+extern "C"  void Mesh_set_vertices_m2936804213 (Mesh_t1356156583 * __this, Vector3U5BU5D_t1172311765* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.NotSupportedException::.ctor()
+extern "C"  void NotSupportedException__ctor_m3232764727 (NotSupportedException_t1793819818 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.MonoBehaviour::.ctor()
+extern "C"  void MonoBehaviour__ctor_m2464341955 (MonoBehaviour_t1158329972 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.Component::GetComponent<TMPro.TMP_Text>()
+#define Component_GetComponent_TisTMP_Text_t1920000777_m1740531289(__this, method) ((  TMP_Text_t1920000777 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// System.Void System.Action`1<UnityEngine.Object>::.ctor(System.Object,System.IntPtr)
+#define Action_1__ctor_m1755939306(__this, p0, p1, method) ((  void (*) (Action_1_t823401499 *, Il2CppObject *, IntPtr_t, const MethodInfo*))Action_1__ctor_m584977596_gshared)(__this, p0, p1, method)
+// System.Void TMPro.FastAction`1<UnityEngine.Object>::Add(System.Action`1<!0>)
+#define FastAction_1_Add_m1567409615(__this, p0, method) ((  void (*) (FastAction_1_t512681271 *, Action_1_t823401499 *, const MethodInfo*))FastAction_1_Add_m2412187763_gshared)(__this, p0, method)
+// System.Void TMPro.FastAction`1<UnityEngine.Object>::Remove(System.Action`1<!0>)
+#define FastAction_1_Remove_m3148312212(__this, p0, method) ((  void (*) (FastAction_1_t512681271 *, Action_1_t823401499 *, const MethodInfo*))FastAction_1_Remove_m2856210978_gshared)(__this, p0, method)
+// System.Collections.IEnumerator TMPro.Examples.VertexShakeB::AnimateVertexColors()
+extern "C"  Il2CppObject * VertexShakeB_AnimateVertexColors_m4215220009 (VertexShakeB_t3019979320 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
+extern "C"  Coroutine_t2299508840 * MonoBehaviour_StartCoroutine_m2470621050 (MonoBehaviour_t1158329972 * __this, Il2CppObject * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)
+extern "C"  bool Object_op_Implicit_m2856731593 (Il2CppObject * __this /* static, unused */, Object_t1021602117 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void TMPro.Examples.VertexShakeB/<AnimateVertexColors>c__Iterator0::.ctor()
+extern "C"  void U3CAnimateVertexColorsU3Ec__Iterator0__ctor_m3305716215 (U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Quaternion UnityEngine.Quaternion::get_identity()
+extern "C"  Quaternion_t4030073918  Quaternion_get_identity_m1561886418 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.IEnumerator TMPro.Examples.VertexZoom::AnimateVertexColors()
+extern "C"  Il2CppObject * VertexZoom_AnimateVertexColors_m1061191440 (VertexZoom_t3463934435 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
+extern "C"  bool Object_op_Equality_m3764089466 (Il2CppObject * __this /* static, unused */, Object_t1021602117 * p0, Object_t1021602117 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void TMPro.Examples.VertexZoom/<AnimateVertexColors>c__Iterator0::.ctor()
+extern "C"  void U3CAnimateVertexColorsU3Ec__Iterator0__ctor_m430843134 (U3CAnimateVertexColorsU3Ec__Iterator0_t76635731 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void TMPro.Examples.VertexZoom/<AnimateVertexColors>c__Iterator0/<AnimateVertexColors>c__AnonStorey1::.ctor()
+extern "C"  void U3CAnimateVertexColorsU3Ec__AnonStorey1__ctor_m2883726620 (U3CAnimateVertexColorsU3Ec__AnonStorey1_t3069048289 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// TMPro.TMP_MeshInfo[] TMPro.TMP_TextInfo::CopyMeshInfoVertexData()
+extern "C"  TMP_MeshInfoU5BU5D_t2398608976* TMP_TextInfo_CopyMeshInfoVertexData_m3635186971 (TMP_TextInfo_t2849466151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<System.Single>::.ctor()
+#define List_1__ctor_m1509370154(__this, method) ((  void (*) (List_1_t1445631064 *, const MethodInfo*))List_1__ctor_m1509370154_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Int32>::.ctor()
+#define List_1__ctor_m1598946593(__this, method) ((  void (*) (List_1_t1440998580 *, const MethodInfo*))List_1__ctor_m1598946593_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Single>::Clear()
+#define List_1_Clear_m4110591713(__this, method) ((  void (*) (List_1_t1445631064 *, const MethodInfo*))List_1_Clear_m4110591713_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Int32>::Clear()
+#define List_1_Clear_m3644677550(__this, method) ((  void (*) (List_1_t1440998580 *, const MethodInfo*))List_1_Clear_m3644677550_gshared)(__this, method)
+// UnityEngine.Vector2 UnityEngine.Vector2::op_Implicit(UnityEngine.Vector3)
+extern "C"  Vector2_t2243707579  Vector2_op_Implicit_m1064335535 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector2::op_Implicit(UnityEngine.Vector2)
+extern "C"  Vector3_t2243707580  Vector2_op_Implicit_m176791411 (Il2CppObject * __this /* static, unused */, Vector2_t2243707579  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<System.Single>::Add(!0)
+#define List_1_Add_m913687102(__this, p0, method) ((  void (*) (List_1_t1445631064 *, float, const MethodInfo*))List_1_Add_m913687102_gshared)(__this, p0, method)
+// System.Int32 System.Collections.Generic.List`1<System.Single>::get_Count()
+#define List_1_get_Count_m3406166720(__this, method) ((  int32_t (*) (List_1_t1445631064 *, const MethodInfo*))List_1_get_Count_m3406166720_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Int32>::Add(!0)
+#define List_1_Add_m688682013(__this, p0, method) ((  void (*) (List_1_t1440998580 *, int32_t, const MethodInfo*))List_1_Add_m688682013_gshared)(__this, p0, method)
+// System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
+extern "C"  void Vector3__ctor_m2638739322 (Vector3_t2243707580 * __this, float p0, float p1, float p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Comparison`1<System.Int32>::.ctor(System.Object,System.IntPtr)
+#define Comparison_1__ctor_m3140365691(__this, p0, p1, method) ((  void (*) (Comparison_1_t3333616299 *, Il2CppObject *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m3140365691_gshared)(__this, p0, p1, method)
+// System.Void System.Collections.Generic.List`1<System.Int32>::Sort(System.Comparison`1<!0>)
+#define List_1_Sort_m2032117030(__this, p0, method) ((  void (*) (List_1_t1440998580 *, Comparison_1_t3333616299 *, const MethodInfo*))List_1_Sort_m2032117030_gshared)(__this, p0, method)
+// System.Void TMPro.TMP_MeshInfo::SortGeometry(System.Collections.Generic.IList`1<System.Int32>)
+extern "C"  void TMP_MeshInfo_SortGeometry_m3188134655 (TMP_MeshInfo_t1297308317 * __this, Il2CppObject* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Mesh::set_uv(UnityEngine.Vector2[])
+extern "C"  void Mesh_set_uv_m1497318906 (Mesh_t1356156583 * __this, Vector2U5BU5D_t686124026* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Mesh::set_colors32(UnityEngine.Color32[])
+extern "C"  void Mesh_set_colors32_m1066151745 (Mesh_t1356156583 * __this, Color32U5BU5D_t30278651* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !0 System.Collections.Generic.List`1<System.Single>::get_Item(System.Int32)
+#define List_1_get_Item_m3254877171(__this, p0, method) ((  float (*) (List_1_t1445631064 *, int32_t, const MethodInfo*))List_1_get_Item_m3254877171_gshared)(__this, p0, method)
+// System.Int32 System.Single::CompareTo(System.Single)
+extern "C"  int32_t Single_CompareTo_m1534635028 (float* __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Keyframe::.ctor(System.Single,System.Single)
+extern "C"  void Keyframe__ctor_m2042404667 (Keyframe_t1449471340 * __this, float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AnimationCurve::.ctor(UnityEngine.Keyframe[])
+extern "C"  void AnimationCurve__ctor_m2814448007 (AnimationCurve_t3306541151 * __this, KeyframeU5BU5D_t449065829* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.GameObject UnityEngine.Component::get_gameObject()
+extern "C"  GameObject_t1756533147 * Component_get_gameObject_m3105766835 (Component_t3819376471 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.GameObject::GetComponent<TMPro.TMP_Text>()
+#define GameObject_GetComponent_TisTMP_Text_t1920000777_m287209048(__this, method) ((  TMP_Text_t1920000777 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
+// System.Collections.IEnumerator TMPro.Examples.WarpTextExample::WarpText()
+extern "C"  Il2CppObject * WarpTextExample_WarpText_m3367975606 (WarpTextExample_t250871869 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AnimationCurve::.ctor()
+extern "C"  void AnimationCurve__ctor_m3707994114 (AnimationCurve_t3306541151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Keyframe[] UnityEngine.AnimationCurve::get_keys()
+extern "C"  KeyframeU5BU5D_t449065829* AnimationCurve_get_keys_m162753017 (AnimationCurve_t3306541151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AnimationCurve::set_keys(UnityEngine.Keyframe[])
+extern "C"  void AnimationCurve_set_keys_m2941016540 (AnimationCurve_t3306541151 * __this, KeyframeU5BU5D_t449065829* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void TMPro.Examples.WarpTextExample/<WarpText>c__Iterator0::.ctor()
+extern "C"  void U3CWarpTextU3Ec__Iterator0__ctor_m2188327598 (U3CWarpTextU3Ec__Iterator0_t2736974085 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AnimationCurve::set_preWrapMode(UnityEngine.WrapMode)
+extern "C"  void AnimationCurve_set_preWrapMode_m2999148321 (AnimationCurve_t3306541151 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AnimationCurve::set_postWrapMode(UnityEngine.WrapMode)
+extern "C"  void AnimationCurve_set_postWrapMode_m262982620 (AnimationCurve_t3306541151 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void TMPro.TMP_Text::set_havePropertiesChanged(System.Boolean)
+extern "C"  void TMP_Text_set_havePropertiesChanged_m1867159918 (TMP_Text_t1920000777 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.AnimationCurve TMPro.Examples.WarpTextExample::CopyAnimationCurve(UnityEngine.AnimationCurve)
+extern "C"  AnimationCurve_t3306541151 * WarpTextExample_CopyAnimationCurve_m3209971324 (WarpTextExample_t250871869 * __this, AnimationCurve_t3306541151 * ___curve0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean TMPro.TMP_Text::get_havePropertiesChanged()
+extern "C"  bool TMP_Text_get_havePropertiesChanged_m1322335941 (TMP_Text_t1920000777 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Keyframe::get_value()
+extern "C"  float Keyframe_get_value_m979894315 (Keyframe_t1449471340 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Bounds TMPro.TMP_Text::get_bounds()
+extern "C"  Bounds_t3033363703  TMP_Text_get_bounds_m596711790 (TMP_Text_t1920000777 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Bounds::get_min()
+extern "C"  Vector3_t2243707580  Bounds_get_min_m2405290441 (Bounds_t3033363703 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Bounds::get_max()
+extern "C"  Vector3_t2243707580  Bounds_get_max_m4247050707 (Bounds_t3033363703 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Vector2::.ctor(System.Single,System.Single)
+extern "C"  void Vector2__ctor_m3067419446 (Vector2_t2243707579 * __this, float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::op_UnaryNegation(UnityEngine.Vector3)
+extern "C"  Vector3_t2243707580  Vector3_op_UnaryNegation_m3383802608 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.AnimationCurve::Evaluate(System.Single)
+extern "C"  float AnimationCurve_Evaluate_m3698879322 (AnimationCurve_t3306541151 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single)
+extern "C"  void Vector3__ctor_m2720820983 (Vector3_t2243707580 * __this, float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::get_normalized()
+extern "C"  Vector3_t2243707580  Vector3_get_normalized_m936072361 (Vector3_t2243707580 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Vector3::Dot(UnityEngine.Vector3,UnityEngine.Vector3)
+extern "C"  float Vector3_Dot_m3161182818 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, Vector3_t2243707580  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::Cross(UnityEngine.Vector3,UnityEngine.Vector3)
+extern "C"  Vector3_t2243707580  Vector3_Cross_m4149044051 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, Vector3_t2243707580  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void TMPro.TMP_InputValidator::.ctor()
+extern "C"  void TMP_InputValidator__ctor_m1408675738 (TMP_InputValidator_t3726817866 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void TMPro.TMP_TextEventHandler/CharacterSelectionEvent::.ctor()
+extern "C"  void CharacterSelectionEvent__ctor_m2593822550 (CharacterSelectionEvent_t2887241789 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void TMPro.TMP_TextEventHandler/WordSelectionEvent::.ctor()
+extern "C"  void WordSelectionEvent__ctor_m899574239 (WordSelectionEvent_t2871480376 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void TMPro.TMP_TextEventHandler/LineSelectionEvent::.ctor()
+extern "C"  void LineSelectionEvent__ctor_m2634206907 (LineSelectionEvent_t3265414486 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void TMPro.TMP_TextEventHandler/LinkSelectionEvent::.ctor()
+extern "C"  void LinkSelectionEvent__ctor_m1445136385 (LinkSelectionEvent_t3735310088 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Type System.Object::GetType()
+extern "C"  Type_t * Object_GetType_m191970594 (Il2CppObject * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)
+extern "C"  Type_t * Type_GetTypeFromHandle_m432505302 (Il2CppObject * __this /* static, unused */, RuntimeTypeHandle_t2330101084  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.GameObject::GetComponentInParent<UnityEngine.Canvas>()
+#define GameObject_GetComponentInParent_TisCanvas_t209405766_m4180257979(__this, method) ((  Canvas_t209405766 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponentInParent_TisIl2CppObject_m781417156_gshared)(__this, method)
+// System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
+extern "C"  bool Object_op_Inequality_m2402264703 (Il2CppObject * __this /* static, unused */, Object_t1021602117 * p0, Object_t1021602117 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.RenderMode UnityEngine.Canvas::get_renderMode()
+extern "C"  int32_t Canvas_get_renderMode_m1816014618 (Canvas_t209405766 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Camera UnityEngine.Canvas::get_worldCamera()
+extern "C"  Camera_t189460977 * Canvas_get_worldCamera_m1187332710 (Canvas_t209405766 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Camera UnityEngine.Camera::get_main()
+extern "C"  Camera_t189460977 * Camera_get_main_m475173995 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.RectTransform TMPro.TMP_Text::get_rectTransform()
+extern "C"  RectTransform_t3349966182 * TMP_Text_get_rectTransform_m1873782632 (TMP_Text_t1920000777 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Input::get_mousePosition()
+extern "C"  Vector3_t2243707580  Input_get_mousePosition_m146923508 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean TMPro.TMP_TextUtilities::IsIntersectingRectTransform(UnityEngine.RectTransform,UnityEngine.Vector3,UnityEngine.Camera)
+extern "C"  bool TMP_TextUtilities_IsIntersectingRectTransform_m3409949648 (Il2CppObject * __this /* static, unused */, RectTransform_t3349966182 * p0, Vector3_t2243707580  p1, Camera_t189460977 * p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 TMPro.TMP_TextUtilities::FindIntersectingCharacter(TMPro.TMP_Text,UnityEngine.Vector3,UnityEngine.Camera,System.Boolean)
+extern "C"  int32_t TMP_TextUtilities_FindIntersectingCharacter_m1338073681 (Il2CppObject * __this /* static, unused */, TMP_Text_t1920000777 * p0, Vector3_t2243707580  p1, Camera_t189460977 * p2, bool p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void TMPro.TMP_TextEventHandler::SendOnCharacterSelection(System.Char,System.Int32)
+extern "C"  void TMP_TextEventHandler_SendOnCharacterSelection_m3235016842 (TMP_TextEventHandler_t1517844021 * __this, Il2CppChar ___character0, int32_t ___characterIndex1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 TMPro.TMP_TextUtilities::FindIntersectingWord(TMPro.TMP_Text,UnityEngine.Vector3,UnityEngine.Camera)
+extern "C"  int32_t TMP_TextUtilities_FindIntersectingWord_m3453424717 (Il2CppObject * __this /* static, unused */, TMP_Text_t1920000777 * p0, Vector3_t2243707580  p1, Camera_t189460977 * p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String TMPro.TMP_WordInfo::GetWord()
+extern "C"  String_t* TMP_WordInfo_GetWord_m1585287149 (TMP_WordInfo_t3807457612 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void TMPro.TMP_TextEventHandler::SendOnWordSelection(System.String,System.Int32,System.Int32)
+extern "C"  void TMP_TextEventHandler_SendOnWordSelection_m2252507599 (TMP_TextEventHandler_t1517844021 * __this, String_t* ___word0, int32_t ___charIndex1, int32_t ___length2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 TMPro.TMP_TextUtilities::FindIntersectingLine(TMPro.TMP_Text,UnityEngine.Vector3,UnityEngine.Camera)
+extern "C"  int32_t TMP_TextUtilities_FindIntersectingLine_m1272625421 (Il2CppObject * __this /* static, unused */, TMP_Text_t1920000777 * p0, Vector3_t2243707580  p1, Camera_t189460977 * p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::CreateString(System.Char[])
+extern "C"  String_t* String_CreateString_m3818307083 (String_t* __this, CharU5BU5D_t1328083999* ___val0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void TMPro.TMP_TextEventHandler::SendOnLineSelection(System.String,System.Int32,System.Int32)
+extern "C"  void TMP_TextEventHandler_SendOnLineSelection_m1972461611 (TMP_TextEventHandler_t1517844021 * __this, String_t* ___line0, int32_t ___charIndex1, int32_t ___length2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 TMPro.TMP_TextUtilities::FindIntersectingLink(TMPro.TMP_Text,UnityEngine.Vector3,UnityEngine.Camera)
+extern "C"  int32_t TMP_TextUtilities_FindIntersectingLink_m1828363611 (Il2CppObject * __this /* static, unused */, TMP_Text_t1920000777 * p0, Vector3_t2243707580  p1, Camera_t189460977 * p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String TMPro.TMP_LinkInfo::GetLinkID()
+extern "C"  String_t* TMP_LinkInfo_GetLinkID_m2947443150 (TMP_LinkInfo_t3626894960 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String TMPro.TMP_LinkInfo::GetLinkText()
+extern "C"  String_t* TMP_LinkInfo_GetLinkText_m2375286504 (TMP_LinkInfo_t3626894960 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void TMPro.TMP_TextEventHandler::SendOnLinkSelection(System.String,System.String,System.Int32)
+extern "C"  void TMP_TextEventHandler_SendOnLinkSelection_m3204119002 (TMP_TextEventHandler_t1517844021 * __this, String_t* ___linkID0, String_t* ___linkText1, int32_t ___linkIndex2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// TMPro.TMP_TextEventHandler/CharacterSelectionEvent TMPro.TMP_TextEventHandler::get_onCharacterSelection()
+extern "C"  CharacterSelectionEvent_t2887241789 * TMP_TextEventHandler_get_onCharacterSelection_m3919689539 (TMP_TextEventHandler_t1517844021 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityEvent`2<System.Char,System.Int32>::Invoke(!0,!1)
+#define UnityEvent_2_Invoke_m3631463681(__this, p0, p1, method) ((  void (*) (UnityEvent_2_t2762981218 *, Il2CppChar, int32_t, const MethodInfo*))UnityEvent_2_Invoke_m3631463681_gshared)(__this, p0, p1, method)
+// TMPro.TMP_TextEventHandler/WordSelectionEvent TMPro.TMP_TextEventHandler::get_onWordSelection()
+extern "C"  WordSelectionEvent_t2871480376 * TMP_TextEventHandler_get_onWordSelection_m174382615 (TMP_TextEventHandler_t1517844021 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityEvent`3<System.String,System.Int32,System.Int32>::Invoke(!0,!1,!2)
+#define UnityEvent_3_Invoke_m2296394038(__this, p0, p1, p2, method) ((  void (*) (UnityEvent_3_t2425689862 *, String_t*, int32_t, int32_t, const MethodInfo*))UnityEvent_3_Invoke_m1896848130_gshared)(__this, p0, p1, p2, method)
+// TMPro.TMP_TextEventHandler/LineSelectionEvent TMPro.TMP_TextEventHandler::get_onLineSelection()
+extern "C"  LineSelectionEvent_t3265414486 * TMP_TextEventHandler_get_onLineSelection_m1120242679 (TMP_TextEventHandler_t1517844021 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// TMPro.TMP_TextEventHandler/LinkSelectionEvent TMPro.TMP_TextEventHandler::get_onLinkSelection()
+extern "C"  LinkSelectionEvent_t3735310088 * TMP_TextEventHandler_get_onLinkSelection_m3843497023 (TMP_TextEventHandler_t1517844021 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityEvent`3<System.String,System.String,System.Int32>::Invoke(!0,!1,!2)
+#define UnityEvent_3_Invoke_m2532458294(__this, p0, p1, p2, method) ((  void (*) (UnityEvent_3_t1037676193 *, String_t*, String_t*, int32_t, const MethodInfo*))UnityEvent_3_Invoke_m3497331521_gshared)(__this, p0, p1, p2, method)
+// System.Void UnityEngine.Events.UnityEvent`2<System.Char,System.Int32>::.ctor()
+#define UnityEvent_2__ctor_m1845706686(__this, method) ((  void (*) (UnityEvent_2_t2762981218 *, const MethodInfo*))UnityEvent_2__ctor_m1845706686_gshared)(__this, method)
+// System.Void UnityEngine.Events.UnityEvent`3<System.String,System.Int32,System.Int32>::.ctor()
+#define UnityEvent_3__ctor_m479955408(__this, method) ((  void (*) (UnityEvent_3_t2425689862 *, const MethodInfo*))UnityEvent_3__ctor_m650428012_gshared)(__this, method)
+// System.Void UnityEngine.Events.UnityEvent`3<System.String,System.String,System.Int32>::.ctor()
+#define UnityEvent_3__ctor_m2443197040(__this, method) ((  void (*) (UnityEvent_3_t1037676193 *, const MethodInfo*))UnityEvent_3__ctor_m1906758799_gshared)(__this, method)
+// System.Void UnityEngine.Application::set_targetFrameRate(System.Int32)
+extern "C"  void Application_set_targetFrameRate_m2941880625 (Il2CppObject * __this /* static, unused */, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.XR.iOS.UnityARSessionNativeInterface UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetARSessionNativeInterface()
+extern "C"  UnityARSessionNativeInterface_t1130867170 * UnityARSessionNativeInterface_GetARSessionNativeInterface_m2987304195 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::RunWithConfig(UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration)
+extern "C"  void UnityARSessionNativeInterface_RunWithConfig_m4239349920 (UnityARSessionNativeInterface_t1130867170 * __this, ARKitWorldTackingSessionConfiguration_t1821734930  ___config0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.XR.iOS.UnityARVideo>()
+#define GameObject_GetComponent_TisUnityARVideo_t2351297253_m3203580092(__this, method) ((  UnityARVideo_t2351297253 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
+// System.Void UnityEngine.Object::Destroy(UnityEngine.Object)
+extern "C"  void Object_Destroy_m4145850038 (Il2CppObject * __this /* static, unused */, Object_t1021602117 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityARCameraManager::SetupNewCamera(UnityEngine.Camera)
+extern "C"  void UnityARCameraManager_SetupNewCamera_m2642892357 (UnityARCameraManager_t2138856896 * __this, Camera_t189460977 * ___newCamera0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.XR.iOS.UnityARVideo>()
+#define GameObject_AddComponent_TisUnityARVideo_t2351297253_m2846805829(__this, method) ((  UnityARVideo_t2351297253 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// UnityEngine.Matrix4x4 UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetCameraPose()
+extern "C"  Matrix4x4_t2933234003  UnityARSessionNativeInterface_GetCameraPose_m1163645748 (UnityARSessionNativeInterface_t1130867170 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Transform UnityEngine.Component::get_transform()
+extern "C"  Transform_t3275118058 * Component_get_transform_m2697483695 (Component_t3819376471 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.XR.iOS.UnityARMatrixOps::GetPosition(UnityEngine.Matrix4x4)
+extern "C"  Vector3_t2243707580  UnityARMatrixOps_GetPosition_m110321593 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003  ___matrix0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::set_localPosition(UnityEngine.Vector3)
+extern "C"  void Transform_set_localPosition_m1026930133 (Transform_t3275118058 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Quaternion UnityEngine.XR.iOS.UnityARMatrixOps::GetRotation(UnityEngine.Matrix4x4)
+extern "C"  Quaternion_t4030073918  UnityARMatrixOps_GetRotation_m3161473972 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003  ___matrix0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::set_localRotation(UnityEngine.Quaternion)
+extern "C"  void Transform_set_localRotation_m2055111962 (Transform_t3275118058 * __this, Quaternion_t4030073918  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Matrix4x4 UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetCameraProjection()
+extern "C"  Matrix4x4_t2933234003  UnityARSessionNativeInterface_GetCameraProjection_m355777876 (UnityARSessionNativeInterface_t1130867170 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Camera::set_projectionMatrix(UnityEngine.Matrix4x4)
+extern "C"  void Camera_set_projectionMatrix_m2059836755 (Camera_t189460977 * __this, Matrix4x4_t2933234003  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Camera>()
+#define Component_GetComponent_TisCamera_t189460977_m3276577584(__this, method) ((  Camera_t189460977 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// System.Void UnityARCameraNearFar::UpdateCameraClipPlanes()
+extern "C"  void UnityARCameraNearFar_UpdateCameraClipPlanes_m2412834528 (UnityARCameraNearFar_t519802600 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Camera::get_nearClipPlane()
+extern "C"  float Camera_get_nearClipPlane_m3536967407 (Camera_t189460977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Camera::get_farClipPlane()
+extern "C"  float Camera_get_farClipPlane_m3137713566 (Camera_t189460977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::SetCameraClipPlanes(System.Single,System.Single)
+extern "C"  void UnityARSessionNativeInterface_SetCameraClipPlanes_m2416096845 (UnityARSessionNativeInterface_t1130867170 * __this, float ___nearZ0, float ___farZ1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.UI.BoxSlider/BoxSliderEvent::.ctor()
+extern "C"  void BoxSliderEvent__ctor_m304261805 (BoxSliderEvent_t1774115848 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector2 UnityEngine.Vector2::get_zero()
+extern "C"  Vector2_t2243707579  Vector2_get_zero_m3966848876 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.UI.Selectable::.ctor()
+extern "C"  void Selectable__ctor_m1440593935 (Selectable_t1490392188 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.UI.BoxSlider::SetClass<UnityEngine.RectTransform>(T&,T)
+#define BoxSlider_SetClass_TisRectTransform_t3349966182_m272479997(__this /* static, unused */, ___currentValue0, ___newValue1, method) ((  bool (*) (Il2CppObject * /* static, unused */, RectTransform_t3349966182 **, RectTransform_t3349966182 *, const MethodInfo*))BoxSlider_SetClass_TisIl2CppObject_m1811500378_gshared)(__this /* static, unused */, ___currentValue0, ___newValue1, method)
+// System.Void UnityEngine.UI.BoxSlider::UpdateCachedReferences()
+extern "C"  void BoxSlider_UpdateCachedReferences_m3248150675 (BoxSlider_t1871650694 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.UI.BoxSlider::UpdateVisuals()
+extern "C"  void BoxSlider_UpdateVisuals_m495585056 (BoxSlider_t1871650694 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.UI.BoxSlider::SetStruct<System.Single>(T&,T)
+#define BoxSlider_SetStruct_TisSingle_t2076509932_m2710312218(__this /* static, unused */, ___currentValue0, ___newValue1, method) ((  bool (*) (Il2CppObject * /* static, unused */, float*, float, const MethodInfo*))BoxSlider_SetStruct_TisSingle_t2076509932_m2710312218_gshared)(__this /* static, unused */, ___currentValue0, ___newValue1, method)
+// System.Void UnityEngine.UI.BoxSlider::Set(System.Single)
+extern "C"  void BoxSlider_Set_m3989333985 (BoxSlider_t1871650694 * __this, float ___input0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.UI.BoxSlider::SetY(System.Single)
+extern "C"  void BoxSlider_SetY_m1241843396 (BoxSlider_t1871650694 * __this, float ___input0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.UI.BoxSlider::SetStruct<System.Boolean>(T&,T)
+#define BoxSlider_SetStruct_TisBoolean_t3825574718_m1967921404(__this /* static, unused */, ___currentValue0, ___newValue1, method) ((  bool (*) (Il2CppObject * /* static, unused */, bool*, bool, const MethodInfo*))BoxSlider_SetStruct_TisBoolean_t3825574718_m1967921404_gshared)(__this /* static, unused */, ___currentValue0, ___newValue1, method)
+// System.Boolean UnityEngine.UI.BoxSlider::get_wholeNumbers()
+extern "C"  bool BoxSlider_get_wholeNumbers_m627638124 (BoxSlider_t1871650694 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.UI.BoxSlider::get_minValue()
+extern "C"  float BoxSlider_get_minValue_m3041624170 (BoxSlider_t1871650694 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.UI.BoxSlider::get_maxValue()
+extern "C"  float BoxSlider_get_maxValue_m1317285860 (BoxSlider_t1871650694 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Mathf::Approximately(System.Single,System.Single)
+extern "C"  bool Mathf_Approximately_m1064446634 (Il2CppObject * __this /* static, unused */, float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.UI.BoxSlider::get_value()
+extern "C"  float BoxSlider_get_value_m2439160562 (BoxSlider_t1871650694 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Mathf::InverseLerp(System.Single,System.Single,System.Single)
+extern "C"  float Mathf_InverseLerp_m55890283 (Il2CppObject * __this /* static, unused */, float p0, float p1, float p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Mathf::Lerp(System.Single,System.Single,System.Single)
+extern "C"  float Mathf_Lerp_m1686556575 (Il2CppObject * __this /* static, unused */, float p0, float p1, float p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.UI.BoxSlider::set_value(System.Single)
+extern "C"  void BoxSlider_set_value_m3164710557 (BoxSlider_t1871650694 * __this, float ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.UI.BoxSlider::get_valueY()
+extern "C"  float BoxSlider_get_valueY_m2581533163 (BoxSlider_t1871650694 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.UI.BoxSlider::set_valueY(System.Single)
+extern "C"  void BoxSlider_set_valueY_m2217414554 (BoxSlider_t1871650694 * __this, float ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.UI.Selectable::OnEnable()
+extern "C"  void Selectable_OnEnable_m3825327683 (Selectable_t1490392188 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.UI.BoxSlider::Set(System.Single,System.Boolean)
+extern "C"  void BoxSlider_Set_m1512577286 (BoxSlider_t1871650694 * __this, float ___input0, bool ___sendCallback1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.UI.BoxSlider::SetY(System.Single,System.Boolean)
+extern "C"  void BoxSlider_SetY_m956310887 (BoxSlider_t1871650694 * __this, float ___input0, bool ___sendCallback1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.DrivenRectTransformTracker::Clear()
+extern "C"  void DrivenRectTransformTracker_Clear_m864483440 (DrivenRectTransformTracker_t154385424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.UI.Selectable::OnDisable()
+extern "C"  void Selectable_OnDisable_m2660228016 (Selectable_t1490392188 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Transform UnityEngine.Transform::get_parent()
+extern "C"  Transform_t3275118058 * Transform_get_parent_m147407266 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.RectTransform>()
+#define Component_GetComponent_TisRectTransform_t3349966182_m1310250299(__this, method) ((  RectTransform_t3349966182 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// System.Single UnityEngine.Mathf::Clamp(System.Single,System.Single,System.Single)
+extern "C"  float Mathf_Clamp_m2354025655 (Il2CppObject * __this /* static, unused */, float p0, float p1, float p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityEvent`2<System.Single,System.Single>::Invoke(!0,!1)
+#define UnityEvent_2_Invoke_m4237217379(__this, p0, p1, method) ((  void (*) (UnityEvent_2_t2016657100 *, float, float, const MethodInfo*))UnityEvent_2_Invoke_m4237217379_gshared)(__this, p0, p1, method)
+// System.Void UnityEngine.EventSystems.UIBehaviour::OnRectTransformDimensionsChange()
+extern "C"  void UIBehaviour_OnRectTransformDimensionsChange_m2743105076 (UIBehaviour_t3960014691 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.DrivenRectTransformTracker::Add(UnityEngine.Object,UnityEngine.RectTransform,UnityEngine.DrivenTransformProperties)
+extern "C"  void DrivenRectTransformTracker_Add_m310530075 (DrivenRectTransformTracker_t154385424 * __this, Object_t1021602117 * p0, RectTransform_t3349966182 * p1, int32_t p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector2 UnityEngine.Vector2::get_one()
+extern "C"  Vector2_t2243707579  Vector2_get_one_m3174311904 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.UI.BoxSlider::get_normalizedValue()
+extern "C"  float BoxSlider_get_normalizedValue_m911068691 (BoxSlider_t1871650694 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Vector2::set_Item(System.Int32,System.Single)
+extern "C"  void Vector2_set_Item_m3881967114 (Vector2_t2243707579 * __this, int32_t p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.UI.BoxSlider::get_normalizedValueY()
+extern "C"  float BoxSlider_get_normalizedValueY_m3976688554 (BoxSlider_t1871650694 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.RectTransform::set_anchorMin(UnityEngine.Vector2)
+extern "C"  void RectTransform_set_anchorMin_m4247668187 (RectTransform_t3349966182 * __this, Vector2_t2243707579  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.RectTransform::set_anchorMax(UnityEngine.Vector2)
+extern "C"  void RectTransform_set_anchorMax_m2955899993 (RectTransform_t3349966182 * __this, Vector2_t2243707579  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Rect UnityEngine.RectTransform::get_rect()
+extern "C"  Rect_t3681755626  RectTransform_get_rect_m73954734 (RectTransform_t3349966182 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector2 UnityEngine.Rect::get_size()
+extern "C"  Vector2_t2243707579  Rect_get_size_m3833121112 (Rect_t3681755626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Vector2::get_Item(System.Int32)
+extern "C"  float Vector2_get_Item_m2792130561 (Vector2_t2243707579 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector2 UnityEngine.EventSystems.PointerEventData::get_position()
+extern "C"  Vector2_t2243707579  PointerEventData_get_position_m2131765015 (PointerEventData_t1599784723 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.RectTransformUtility::ScreenPointToLocalPointInRectangle(UnityEngine.RectTransform,UnityEngine.Vector2,UnityEngine.Camera,UnityEngine.Vector2&)
+extern "C"  bool RectTransformUtility_ScreenPointToLocalPointInRectangle_m2398565080 (Il2CppObject * __this /* static, unused */, RectTransform_t3349966182 * p0, Vector2_t2243707579  p1, Camera_t189460977 * p2, Vector2_t2243707579 * p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector2 UnityEngine.Rect::get_position()
+extern "C"  Vector2_t2243707579  Rect_get_position_m24550734 (Rect_t3681755626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector2 UnityEngine.Vector2::op_Subtraction(UnityEngine.Vector2,UnityEngine.Vector2)
+extern "C"  Vector2_t2243707579  Vector2_op_Subtraction_m1984215297 (Il2CppObject * __this /* static, unused */, Vector2_t2243707579  p0, Vector2_t2243707579  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Mathf::Clamp01(System.Single)
+extern "C"  float Mathf_Clamp01_m3888954684 (Il2CppObject * __this /* static, unused */, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.UI.BoxSlider::set_normalizedValue(System.Single)
+extern "C"  void BoxSlider_set_normalizedValue_m2010660092 (BoxSlider_t1871650694 * __this, float ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.UI.BoxSlider::set_normalizedValueY(System.Single)
+extern "C"  void BoxSlider_set_normalizedValueY_m851020601 (BoxSlider_t1871650694 * __this, float ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.EventSystems.PointerEventData/InputButton UnityEngine.EventSystems.PointerEventData::get_button()
+extern "C"  int32_t PointerEventData_get_button_m2339189303 (PointerEventData_t1599784723 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.UI.BoxSlider::MayDrag(UnityEngine.EventSystems.PointerEventData)
+extern "C"  bool BoxSlider_MayDrag_m1941009447 (BoxSlider_t1871650694 * __this, PointerEventData_t1599784723 * ___eventData0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.UI.Selectable::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+extern "C"  void Selectable_OnPointerDown_m3110480835 (Selectable_t1490392188 * __this, PointerEventData_t1599784723 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Camera UnityEngine.EventSystems.PointerEventData::get_enterEventCamera()
+extern "C"  Camera_t189460977 * PointerEventData_get_enterEventCamera_m1539996745 (PointerEventData_t1599784723 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.RectTransformUtility::RectangleContainsScreenPoint(UnityEngine.RectTransform,UnityEngine.Vector2,UnityEngine.Camera)
+extern "C"  bool RectTransformUtility_RectangleContainsScreenPoint_m1244853728 (Il2CppObject * __this /* static, unused */, RectTransform_t3349966182 * p0, Vector2_t2243707579  p1, Camera_t189460977 * p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Camera UnityEngine.EventSystems.PointerEventData::get_pressEventCamera()
+extern "C"  Camera_t189460977 * PointerEventData_get_pressEventCamera_m724559964 (PointerEventData_t1599784723 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.UI.BoxSlider::UpdateDrag(UnityEngine.EventSystems.PointerEventData,UnityEngine.Camera)
+extern "C"  void BoxSlider_UpdateDrag_m1281607389 (BoxSlider_t1871650694 * __this, PointerEventData_t1599784723 * ___eventData0, Camera_t189460977 * ___cam1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.EventSystems.PointerEventData::set_useDragThreshold(System.Boolean)
+extern "C"  void PointerEventData_set_useDragThreshold_m2778439880 (PointerEventData_t1599784723 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.EventSystems.UIBehaviour::IsDestroyed()
+extern "C"  bool UIBehaviour_IsDestroyed_m3809050211 (UIBehaviour_t3960014691 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityEvent`2<System.Single,System.Single>::.ctor()
+#define UnityEvent_2__ctor_m731674732(__this, method) ((  void (*) (UnityEvent_2_t2016657100 *, const MethodInfo*))UnityEvent_2__ctor_m731674732_gshared)(__this, method)
+// System.Void UnityEngine.XR.iOS.ARKitSessionConfiguration::.ctor(UnityEngine.XR.iOS.UnityARAlignment,System.Boolean,System.Boolean)
+extern "C"  void ARKitSessionConfiguration__ctor_m1819896799 (ARKitSessionConfiguration_t318899795 * __this, int32_t ___alignment0, bool ___getPointCloudData1, bool ___enableLightEstimation2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.XR.iOS.ARKitSessionConfiguration::IsARKitSessionConfigurationSupported()
+extern "C"  bool ARKitSessionConfiguration_IsARKitSessionConfigurationSupported_m478432247 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.XR.iOS.ARKitSessionConfiguration::get_IsSupported()
+extern "C"  bool ARKitSessionConfiguration_get_IsSupported_m3695054805 (ARKitSessionConfiguration_t318899795 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.ARKitSessionConfiguration::set_IsSupported(System.Boolean)
+extern "C"  void ARKitSessionConfiguration_set_IsSupported_m2731928126 (ARKitSessionConfiguration_t318899795 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration::.ctor(UnityEngine.XR.iOS.UnityARAlignment,UnityEngine.XR.iOS.UnityARPlaneDetection,System.Boolean,System.Boolean)
+extern "C"  void ARKitWorldTackingSessionConfiguration__ctor_m929109213 (ARKitWorldTackingSessionConfiguration_t1821734930 * __this, int32_t ___alignment0, int32_t ___planeDetection1, bool ___getPointCloudData2, bool ___enableLightEstimation3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration::IsARKitWorldTrackingSessionConfigurationSupported()
+extern "C"  bool ARKitWorldTackingSessionConfiguration_IsARKitWorldTrackingSessionConfigurationSupported_m2059157701 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration::get_IsSupported()
+extern "C"  bool ARKitWorldTackingSessionConfiguration_get_IsSupported_m2907500064 (ARKitWorldTackingSessionConfiguration_t1821734930 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration::set_IsSupported(System.Boolean)
+extern "C"  void ARKitWorldTackingSessionConfiguration_set_IsSupported_m1782028213 (ARKitWorldTackingSessionConfiguration_t1821734930 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Light>()
+#define Component_GetComponent_TisLight_t494725636_m872104316(__this, method) ((  Light_t494725636 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// System.Single UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetARAmbientIntensity()
+extern "C"  float UnityARSessionNativeInterface_GetARAmbientIntensity_m3021844929 (UnityARSessionNativeInterface_t1130867170 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Light::set_intensity(System.Single)
+extern "C"  void Light_set_intensity_m1790590300 (Light_t494725636 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,UnityEngine.XR.iOS.ARPlaneAnchorGameObject>::.ctor()
+#define Dictionary_2__ctor_m901994969(__this, method) ((  void (*) (Dictionary_2_t4220005149 *, const MethodInfo*))Dictionary_2__ctor_m584589095_gshared)(__this, method)
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorAdded::.ctor(System.Object,System.IntPtr)
+extern "C"  void ARAnchorAdded__ctor_m457587034 (ARAnchorAdded_t2646854145 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::add_ARAnchorAddedEvent(UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorAdded)
+extern "C"  void UnityARSessionNativeInterface_add_ARAnchorAddedEvent_m3658192182 (Il2CppObject * __this /* static, unused */, ARAnchorAdded_t2646854145 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorUpdated::.ctor(System.Object,System.IntPtr)
+extern "C"  void ARAnchorUpdated__ctor_m1461693421 (ARAnchorUpdated_t3886071158 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::add_ARAnchorUpdatedEvent(UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorUpdated)
+extern "C"  void UnityARSessionNativeInterface_add_ARAnchorUpdatedEvent_m896905782 (Il2CppObject * __this /* static, unused */, ARAnchorUpdated_t3886071158 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorRemoved::.ctor(System.Object,System.IntPtr)
+extern "C"  void ARAnchorRemoved__ctor_m3206307472 (ARAnchorRemoved_t142665927 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::add_ARAnchorRemovedEvent(UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorRemoved)
+extern "C"  void UnityARSessionNativeInterface_add_ARAnchorRemovedEvent_m3715542294 (Il2CppObject * __this /* static, unused */, ARAnchorRemoved_t142665927 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.GameObject UnityEngine.XR.iOS.UnityARUtility::CreatePlaneInScene(UnityEngine.XR.iOS.ARPlaneAnchor)
+extern "C"  GameObject_t1756533147 * UnityARUtility_CreatePlaneInScene_m25502715 (Il2CppObject * __this /* static, unused */, ARPlaneAnchor_t1439520888  ___arPlaneAnchor0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.GameObject::AddComponent<DontDestroyOnLoad>()
+#define GameObject_AddComponent_TisDontDestroyOnLoad_t3235789354_m3837587514(__this, method) ((  DontDestroyOnLoad_t3235789354 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// System.Void UnityEngine.XR.iOS.ARPlaneAnchorGameObject::.ctor()
+extern "C"  void ARPlaneAnchorGameObject__ctor_m594750402 (ARPlaneAnchorGameObject_t2305225887 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,UnityEngine.XR.iOS.ARPlaneAnchorGameObject>::Add(!0,!1)
+#define Dictionary_2_Add_m1484985233(__this, p0, p1, method) ((  void (*) (Dictionary_2_t4220005149 *, String_t*, ARPlaneAnchorGameObject_t2305225887 *, const MethodInfo*))Dictionary_2_Add_m4209421183_gshared)(__this, p0, p1, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityEngine.XR.iOS.ARPlaneAnchorGameObject>::ContainsKey(!0)
+#define Dictionary_2_ContainsKey_m1995208230(__this, p0, method) ((  bool (*) (Dictionary_2_t4220005149 *, String_t*, const MethodInfo*))Dictionary_2_ContainsKey_m3321918434_gshared)(__this, p0, method)
+// !1 System.Collections.Generic.Dictionary`2<System.String,UnityEngine.XR.iOS.ARPlaneAnchorGameObject>::get_Item(!0)
+#define Dictionary_2_get_Item_m2095595863(__this, p0, method) ((  ARPlaneAnchorGameObject_t2305225887 * (*) (Dictionary_2_t4220005149 *, String_t*, const MethodInfo*))Dictionary_2_get_Item_m4062719145_gshared)(__this, p0, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityEngine.XR.iOS.ARPlaneAnchorGameObject>::Remove(!0)
+#define Dictionary_2_Remove_m2072237462(__this, p0, method) ((  bool (*) (Dictionary_2_t4220005149 *, String_t*, const MethodInfo*))Dictionary_2_Remove_m112127646_gshared)(__this, p0, method)
+// UnityEngine.GameObject UnityEngine.XR.iOS.UnityARUtility::UpdatePlaneWithAnchorTransform(UnityEngine.GameObject,UnityEngine.XR.iOS.ARPlaneAnchor)
+extern "C"  GameObject_t1756533147 * UnityARUtility_UpdatePlaneWithAnchorTransform_m3977317096 (Il2CppObject * __this /* static, unused */, GameObject_t1756533147 * ___plane0, ARPlaneAnchor_t1439520888  ___arPlaneAnchor1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,UnityEngine.XR.iOS.ARPlaneAnchorGameObject>::set_Item(!0,!1)
+#define Dictionary_2_set_Item_m4043917654(__this, p0, p1, method) ((  void (*) (Dictionary_2_t4220005149 *, String_t*, ARPlaneAnchorGameObject_t2305225887 *, const MethodInfo*))Dictionary_2_set_Item_m1004257024_gshared)(__this, p0, p1, method)
+// System.Collections.Generic.List`1<UnityEngine.XR.iOS.ARPlaneAnchorGameObject> UnityEngine.XR.iOS.UnityARAnchorManager::GetCurrentPlaneAnchors()
+extern "C"  List_1_t1674347019 * UnityARAnchorManager_GetCurrentPlaneAnchors_m3679069310 (UnityARAnchorManager_t1086564192 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<UnityEngine.XR.iOS.ARPlaneAnchorGameObject>::GetEnumerator()
+#define List_1_GetEnumerator_m4215433995(__this, method) ((  Enumerator_t1209076693  (*) (List_1_t1674347019 *, const MethodInfo*))List_1_GetEnumerator_m2837081829_gshared)(__this, method)
+// !0 System.Collections.Generic.List`1/Enumerator<UnityEngine.XR.iOS.ARPlaneAnchorGameObject>::get_Current()
+#define Enumerator_get_Current_m1915701911(__this, method) ((  ARPlaneAnchorGameObject_t2305225887 * (*) (Enumerator_t1209076693 *, const MethodInfo*))Enumerator_get_Current_m2577424081_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.XR.iOS.ARPlaneAnchorGameObject>::MoveNext()
+#define Enumerator_MoveNext_m1993884707(__this, method) ((  bool (*) (Enumerator_t1209076693 *, const MethodInfo*))Enumerator_MoveNext_m44995089_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.XR.iOS.ARPlaneAnchorGameObject>::Dispose()
+#define Enumerator_Dispose_m113660709(__this, method) ((  void (*) (Enumerator_t1209076693 *, const MethodInfo*))Enumerator_Dispose_m3736175406_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.String,UnityEngine.XR.iOS.ARPlaneAnchorGameObject>::Clear()
+#define Dictionary_2_Clear_m1175916790(__this, method) ((  void (*) (Dictionary_2_t4220005149 *, const MethodInfo*))Dictionary_2_Clear_m2325793156_gshared)(__this, method)
+// System.Collections.Generic.Dictionary`2/ValueCollection<!0,!1> System.Collections.Generic.Dictionary`2<System.String,UnityEngine.XR.iOS.ARPlaneAnchorGameObject>::get_Values()
+#define Dictionary_2_get_Values_m2145867943(__this, method) ((  ValueCollection_t2923064992 * (*) (Dictionary_2_t4220005149 *, const MethodInfo*))Dictionary_2_get_Values_m2233445381_gshared)(__this, method)
+// System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<UnityEngine.XR.iOS.ARPlaneAnchorGameObject>(System.Collections.Generic.IEnumerable`1<!!0>)
+#define Enumerable_ToList_TisARPlaneAnchorGameObject_t2305225887_m1925590016(__this /* static, unused */, p0, method) ((  List_1_t1674347019 * (*) (Il2CppObject * /* static, unused */, Il2CppObject*, const MethodInfo*))Enumerable_ToList_TisIl2CppObject_m2845724690_gshared)(__this /* static, unused */, p0, method)
+// System.Void UnityEngine.XR.iOS.UnityARAnchorManager::.ctor()
+extern "C"  void UnityARAnchorManager__ctor_m862081813 (UnityARAnchorManager_t1086564192 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARUtility::InitializePlanePrefab(UnityEngine.GameObject)
+extern "C"  void UnityARUtility_InitializePlanePrefab_m991798235 (Il2CppObject * __this /* static, unused */, GameObject_t1756533147 * ___go0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARAnchorManager::Destroy()
+extern "C"  void UnityARAnchorManager_Destroy_m2122554463 (UnityARAnchorManager_t1086564192 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Collections.Generic.List`1<UnityEngine.XR.iOS.ARPlaneAnchorGameObject>::get_Count()
+#define List_1_get_Count_m2133649638(__this, method) ((  int32_t (*) (List_1_t1674347019 *, const MethodInfo*))List_1_get_Count_m2375293942_gshared)(__this, method)
+// System.Collections.Generic.List`1<UnityEngine.XR.iOS.ARHitTestResult> UnityEngine.XR.iOS.UnityARSessionNativeInterface::HitTest(UnityEngine.XR.iOS.ARPoint,UnityEngine.XR.iOS.ARHitTestResultType)
+extern "C"  List_1_t2644634157 * UnityARSessionNativeInterface_HitTest_m3162073804 (UnityARSessionNativeInterface_t1130867170 * __this, ARPoint_t3436811567  ___point0, int64_t ___types1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Collections.Generic.List`1<UnityEngine.XR.iOS.ARHitTestResult>::get_Count()
+#define List_1_get_Count_m323201712(__this, method) ((  int32_t (*) (List_1_t2644634157 *, const MethodInfo*))List_1_get_Count_m323201712_gshared)(__this, method)
+// System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<UnityEngine.XR.iOS.ARHitTestResult>::GetEnumerator()
+#define List_1_GetEnumerator_m603904701(__this, method) ((  Enumerator_t2179363831  (*) (List_1_t2644634157 *, const MethodInfo*))List_1_GetEnumerator_m603904701_gshared)(__this, method)
+// !0 System.Collections.Generic.List`1/Enumerator<UnityEngine.XR.iOS.ARHitTestResult>::get_Current()
+#define Enumerator_get_Current_m3080821509(__this, method) ((  ARHitTestResult_t3275513025  (*) (Enumerator_t2179363831 *, const MethodInfo*))Enumerator_get_Current_m3080821509_gshared)(__this, method)
+// System.Void UnityEngine.Debug::Log(System.Object)
+extern "C"  void Debug_Log_m920475918 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::set_position(UnityEngine.Vector3)
+extern "C"  void Transform_set_position_m2469242620 (Transform_t3275118058 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::set_rotation(UnityEngine.Quaternion)
+extern "C"  void Transform_set_rotation_m3411284563 (Transform_t3275118058 * __this, Quaternion_t4030073918  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Transform::get_position()
+extern "C"  Vector3_t2243707580  Transform_get_position_m1104419803 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Format(System.String,System.Object,System.Object,System.Object)
+extern "C"  String_t* String_Format_m4262916296 (Il2CppObject * __this /* static, unused */, String_t* p0, Il2CppObject * p1, Il2CppObject * p2, Il2CppObject * p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.XR.iOS.ARHitTestResult>::MoveNext()
+#define Enumerator_MoveNext_m3860421825(__this, method) ((  bool (*) (Enumerator_t2179363831 *, const MethodInfo*))Enumerator_MoveNext_m3860421825_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.XR.iOS.ARHitTestResult>::Dispose()
+#define Enumerator_Dispose_m3109677227(__this, method) ((  void (*) (Enumerator_t2179363831 *, const MethodInfo*))Enumerator_Dispose_m3109677227_gshared)(__this, method)
+// System.Int32 UnityEngine.Input::get_touchCount()
+extern "C"  int32_t Input_get_touchCount_m2050827666 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Touch UnityEngine.Input::GetTouch(System.Int32)
+extern "C"  Touch_t407273883  Input_GetTouch_m1463942798 (Il2CppObject * __this /* static, unused */, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.TouchPhase UnityEngine.Touch::get_phase()
+extern "C"  int32_t Touch_get_phase_m196706494 (Touch_t407273883 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector2 UnityEngine.Touch::get_position()
+extern "C"  Vector2_t2243707579  Touch_get_position_m2079703643 (Touch_t407273883 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Camera::ScreenToViewportPoint(UnityEngine.Vector3)
+extern "C"  Vector3_t2243707580  Camera_ScreenToViewportPoint_m2666228286 (Camera_t189460977 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Runtime.CompilerServices.RuntimeHelpers::InitializeArray(System.Array,System.RuntimeFieldHandle)
+extern "C"  void RuntimeHelpers_InitializeArray_m3920580167 (Il2CppObject * __this /* static, unused */, Il2CppArray * p0, RuntimeFieldHandle_t2331729674  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.XR.iOS.UnityARHitTestExample::HitTestWithResultType(UnityEngine.XR.iOS.ARPoint,UnityEngine.XR.iOS.ARHitTestResultType)
+extern "C"  bool UnityARHitTestExample_HitTestWithResultType_m2625409750 (UnityARHitTestExample_t146867607 * __this, ARPoint_t3436811567  ___point0, int64_t ___resultTypes1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Rect::.ctor(System.Single,System.Single,System.Single,System.Single)
+extern "C"  void Rect__ctor_m1220545469 (Rect_t3681755626 * __this, float p0, float p1, float p2, float p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.GUI::Button(UnityEngine.Rect,System.String)
+extern "C"  bool GUI_Button_m3054448581 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::Pause()
+extern "C"  void UnityARSessionNativeInterface_Pause_m57777087 (UnityARSessionNativeInterface_t1130867170 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::RunWithConfigAndOptions(UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration,UnityEngine.XR.iOS.UnityARSessionRunOption)
+extern "C"  void UnityARSessionNativeInterface_RunWithConfigAndOptions_m355682631 (UnityARSessionNativeInterface_t1130867170 * __this, ARKitWorldTackingSessionConfiguration_t1821734930  ___config0, int32_t ___runOptions1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::RunWithConfig(UnityEngine.XR.iOS.ARKitSessionConfiguration)
+extern "C"  void UnityARSessionNativeInterface_RunWithConfig_m4212975335 (UnityARSessionNativeInterface_t1130867170 * __this, ARKitSessionConfiguration_t318899795  ___config0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Concat(System.String,System.String)
+extern "C"  String_t* String_Concat_m2596409543 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector4 UnityEngine.Matrix4x4::GetColumn(System.Int32)
+extern "C"  Vector4_t2243707581  Matrix4x4_GetColumn_m1367096730 (Matrix4x4_t2933234003 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector4::op_Implicit(UnityEngine.Vector4)
+extern "C"  Vector3_t2243707580  Vector4_op_Implicit_m1902992875 (Il2CppObject * __this /* static, unused */, Vector4_t2243707581  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Quaternion UnityEngine.XR.iOS.UnityARMatrixOps::QuaternionFromMatrix(UnityEngine.Matrix4x4)
+extern "C"  Quaternion_t4030073918  UnityARMatrixOps_QuaternionFromMatrix_m1524774549 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003  ___m0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Matrix4x4::get_Item(System.Int32,System.Int32)
+extern "C"  float Matrix4x4_get_Item_m312280350 (Matrix4x4_t2933234003 * __this, int32_t p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Mathf::Max(System.Single,System.Single)
+extern "C"  float Mathf_Max_m2564622569 (Il2CppObject * __this /* static, unused */, float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Mathf::Sign(System.Single)
+extern "C"  float Mathf_Sign_m2039143327 (Il2CppObject * __this /* static, unused */, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::_frame_update(UnityEngine.XR.iOS.internal_UnityARCamera)
+extern "C"  void UnityARSessionNativeInterface__frame_update_m1325618420 (Il2CppObject * __this /* static, unused */, internal_UnityARCamera_t2580192745  ___camera0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::_anchor_added(UnityEngine.XR.iOS.UnityARAnchorData)
+extern "C"  void UnityARSessionNativeInterface__anchor_added_m2958024553 (Il2CppObject * __this /* static, unused */, UnityARAnchorData_t2901866349  ___anchor0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::_anchor_updated(UnityEngine.XR.iOS.UnityARAnchorData)
+extern "C"  void UnityARSessionNativeInterface__anchor_updated_m3701161618 (Il2CppObject * __this /* static, unused */, UnityARAnchorData_t2901866349  ___anchor0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::_anchor_removed(UnityEngine.XR.iOS.UnityARAnchorData)
+extern "C"  void UnityARSessionNativeInterface__anchor_removed_m1500115371 (Il2CppObject * __this /* static, unused */, UnityARAnchorData_t2901866349  ___anchor0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::_ar_session_failed(System.String)
+extern "C"  void UnityARSessionNativeInterface__ar_session_failed_m3818340282 (Il2CppObject * __this /* static, unused */, String_t* ___error0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARFrameUpdate::.ctor(System.Object,System.IntPtr)
+extern "C"  void internal_ARFrameUpdate__ctor_m2823410993 (internal_ARFrameUpdate_t3296518558 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorAdded::.ctor(System.Object,System.IntPtr)
+extern "C"  void internal_ARAnchorAdded__ctor_m1994420758 (internal_ARAnchorAdded_t1622117597 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorUpdated::.ctor(System.Object,System.IntPtr)
+extern "C"  void internal_ARAnchorUpdated__ctor_m1681852245 (internal_ARAnchorUpdated_t3705772742 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorRemoved::.ctor(System.Object,System.IntPtr)
+extern "C"  void internal_ARAnchorRemoved__ctor_m1060120552 (internal_ARAnchorRemoved_t3189755211 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARSessionFailed::.ctor(System.Object,System.IntPtr)
+extern "C"  void ARSessionFailed__ctor_m3969842386 (ARSessionFailed_t872580813 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.XR.iOS.UnityARSessionNativeInterface::unity_CreateNativeARSession(UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARFrameUpdate,UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorAdded,UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorUpdated,UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorRemoved,UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARSessionFailed)
+extern "C"  IntPtr_t UnityARSessionNativeInterface_unity_CreateNativeARSession_m3234211037 (Il2CppObject * __this /* static, unused */, internal_ARFrameUpdate_t3296518558 * ___frameUpdate0, internal_ARAnchorAdded_t1622117597 * ___anchorAdded1, internal_ARAnchorUpdated_t3705772742 * ___anchorUpdated2, internal_ARAnchorRemoved_t3189755211 * ___anchorRemoved3, ARSessionFailed_t872580813 * ___sessionFailed4, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
+extern "C"  Delegate_t3022476291 * Delegate_Combine_m3791207084 (Il2CppObject * __this /* static, unused */, Delegate_t3022476291 * p0, Delegate_t3022476291 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
+extern "C"  Delegate_t3022476291 * Delegate_Remove_m2626518725 (Il2CppObject * __this /* static, unused */, Delegate_t3022476291 * p0, Delegate_t3022476291 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::.ctor()
+extern "C"  void UnityARSessionNativeInterface__ctor_m3996903657 (UnityARSessionNativeInterface_t1130867170 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Matrix4x4::SetColumn(System.Int32,UnityEngine.Vector4)
+extern "C"  void Matrix4x4_SetColumn_m3120649749 (Matrix4x4_t2933234003 * __this, int32_t p0, Vector4_t2243707581  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::SetCameraNearFar(System.Single,System.Single)
+extern "C"  void UnityARSessionNativeInterface_SetCameraNearFar_m3696730583 (Il2CppObject * __this /* static, unused */, float ___nearZ0, float ___farZ1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::UpdatePointCloudData(UnityEngine.XR.iOS.UnityARCamera&)
+extern "C"  void UnityARSessionNativeInterface_UpdatePointCloudData_m1902659090 (Il2CppObject * __this /* static, unused */, UnityARCamera_t4198559457 * ___camera0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARFrameUpdate::Invoke(UnityEngine.XR.iOS.UnityARCamera)
+extern "C"  void ARFrameUpdate_Invoke_m2490070094 (ARFrameUpdate_t496507918 * __this, UnityARCamera_t4198559457  ___camera0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetARPointCloud(System.IntPtr&,System.UInt32&)
+extern "C"  bool UnityARSessionNativeInterface_GetARPointCloud_m514074779 (Il2CppObject * __this /* static, unused */, IntPtr_t* ___verts0, uint32_t* ___vertLength1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Runtime.InteropServices.Marshal::Copy(System.IntPtr,System.Single[],System.Int32,System.Int32)
+extern "C"  void Marshal_Copy_m2353359830 (Il2CppObject * __this /* static, unused */, IntPtr_t p0, SingleU5BU5D_t577127397* p1, int32_t p2, int32_t p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.Runtime.InteropServices.Marshal::PtrToStringAuto(System.IntPtr)
+extern "C"  String_t* Marshal_PtrToStringAuto_m3496615756 (Il2CppObject * __this /* static, unused */, IntPtr_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.IntPtr::op_Inequality(System.IntPtr,System.IntPtr)
+extern "C"  bool IntPtr_op_Inequality_m3044532593 (Il2CppObject * __this /* static, unused */, IntPtr_t p0, IntPtr_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.XR.iOS.ARPlaneAnchor UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetPlaneAnchorFromAnchorData(UnityEngine.XR.iOS.UnityARAnchorData)
+extern "C"  ARPlaneAnchor_t1439520888  UnityARSessionNativeInterface_GetPlaneAnchorFromAnchorData_m1725929749 (Il2CppObject * __this /* static, unused */, UnityARAnchorData_t2901866349  ___anchor0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorAdded::Invoke(UnityEngine.XR.iOS.ARPlaneAnchor)
+extern "C"  void ARAnchorAdded_Invoke_m2651475570 (ARAnchorAdded_t2646854145 * __this, ARPlaneAnchor_t1439520888  ___anchorData0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorUpdated::Invoke(UnityEngine.XR.iOS.ARPlaneAnchor)
+extern "C"  void ARAnchorUpdated_Invoke_m2427872581 (ARAnchorUpdated_t3886071158 * __this, ARPlaneAnchor_t1439520888  ___anchorData0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorRemoved::Invoke(UnityEngine.XR.iOS.ARPlaneAnchor)
+extern "C"  void ARAnchorRemoved_Invoke_m884147844 (ARAnchorRemoved_t142665927 * __this, ARPlaneAnchor_t1439520888  ___anchorData0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARSessionFailed::Invoke(System.String)
+extern "C"  void ARSessionFailed_Invoke_m1814862562 (ARSessionFailed_t872580813 * __this, String_t* ___error0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::StartWorldTrackingSessionWithOptions(System.IntPtr,UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration,UnityEngine.XR.iOS.UnityARSessionRunOption)
+extern "C"  void UnityARSessionNativeInterface_StartWorldTrackingSessionWithOptions_m1220571628 (Il2CppObject * __this /* static, unused */, IntPtr_t ___nativeSession0, ARKitWorldTackingSessionConfiguration_t1821734930  ___configuration1, int32_t ___runOptions2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::StartWorldTrackingSession(System.IntPtr,UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration)
+extern "C"  void UnityARSessionNativeInterface_StartWorldTrackingSession_m516508084 (Il2CppObject * __this /* static, unused */, IntPtr_t ___nativeSession0, ARKitWorldTackingSessionConfiguration_t1821734930  ___configuration1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::StartSessionWithOptions(System.IntPtr,UnityEngine.XR.iOS.ARKitSessionConfiguration,UnityEngine.XR.iOS.UnityARSessionRunOption)
+extern "C"  void UnityARSessionNativeInterface_StartSessionWithOptions_m2141763664 (Il2CppObject * __this /* static, unused */, IntPtr_t ___nativeSession0, ARKitSessionConfiguration_t318899795  ___configuration1, int32_t ___runOptions2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::StartSession(System.IntPtr,UnityEngine.XR.iOS.ARKitSessionConfiguration)
+extern "C"  void UnityARSessionNativeInterface_StartSession_m1058926234 (Il2CppObject * __this /* static, unused */, IntPtr_t ___nativeSession0, ARKitSessionConfiguration_t318899795  ___configuration1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::PauseSession(System.IntPtr)
+extern "C"  void UnityARSessionNativeInterface_PauseSession_m3712983007 (Il2CppObject * __this /* static, unused */, IntPtr_t ___nativeSession0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.XR.iOS.UnityARSessionNativeInterface::HitTest(System.IntPtr,UnityEngine.XR.iOS.ARPoint,UnityEngine.XR.iOS.ARHitTestResultType)
+extern "C"  int32_t UnityARSessionNativeInterface_HitTest_m1061845514 (Il2CppObject * __this /* static, unused */, IntPtr_t ___nativeSession0, ARPoint_t3436811567  ___point1, int64_t ___types2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<UnityEngine.XR.iOS.ARHitTestResult>::.ctor()
+#define List_1__ctor_m3541722758(__this, method) ((  void (*) (List_1_t2644634157 *, const MethodInfo*))List_1__ctor_m3541722758_gshared)(__this, method)
+// UnityEngine.XR.iOS.UnityARHitTestResult UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetLastHitTestResult(System.Int32)
+extern "C"  UnityARHitTestResult_t4129824344  UnityARSessionNativeInterface_GetLastHitTestResult_m2253916743 (Il2CppObject * __this /* static, unused */, int32_t ___index0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.XR.iOS.ARHitTestResult UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetHitTestResultFromResultData(UnityEngine.XR.iOS.UnityARHitTestResult)
+extern "C"  ARHitTestResult_t3275513025  UnityARSessionNativeInterface_GetHitTestResultFromResultData_m1395748390 (Il2CppObject * __this /* static, unused */, UnityARHitTestResult_t4129824344  ___resultData0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<UnityEngine.XR.iOS.ARHitTestResult>::Add(!0)
+#define List_1_Add_m1439515290(__this, p0, method) ((  void (*) (List_1_t2644634157 *, ARHitTestResult_t3275513025 , const MethodInfo*))List_1_Add_m1439515290_gshared)(__this, p0, method)
+// UnityEngine.XR.iOS.ARTextureHandles UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetVideoTextureHandles()
+extern "C"  ARTextureHandles_t3764914833  UnityARSessionNativeInterface_GetVideoTextureHandles_m918919940 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetAmbientIntensity()
+extern "C"  float UnityARSessionNativeInterface_GetAmbientIntensity_m4103225752 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetTrackingQuality()
+extern "C"  int32_t UnityARSessionNativeInterface_GetTrackingQuality_m3432765011 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetYUVTexCoordScale()
+extern "C"  float UnityARSessionNativeInterface_GetYUVTexCoordScale_m3336903555 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorAdded::Invoke(UnityEngine.XR.iOS.UnityARAnchorData)
+extern "C"  void internal_ARAnchorAdded_Invoke_m3525465153 (internal_ARAnchorAdded_t1622117597 * __this, UnityARAnchorData_t2901866349  ___anchorData0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorRemoved::Invoke(UnityEngine.XR.iOS.UnityARAnchorData)
+extern "C"  void internal_ARAnchorRemoved_Invoke_m3060937915 (internal_ARAnchorRemoved_t3189755211 * __this, UnityARAnchorData_t2901866349  ___anchorData0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorUpdated::Invoke(UnityEngine.XR.iOS.UnityARAnchorData)
+extern "C"  void internal_ARAnchorUpdated_Invoke_m1978870656 (internal_ARAnchorUpdated_t3705772742 * __this, UnityARAnchorData_t2901866349  ___anchorData0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARFrameUpdate::Invoke(UnityEngine.XR.iOS.internal_UnityARCamera)
+extern "C"  void internal_ARFrameUpdate_Invoke_m3304795004 (internal_ARFrameUpdate_t3296518558 * __this, internal_UnityARCamera_t2580192745  ___camera0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.Object::Instantiate<UnityEngine.GameObject>(!!0)
+#define Object_Instantiate_TisGameObject_t1756533147_m3664764861(__this /* static, unused */, p0, method) ((  GameObject_t1756533147 * (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m447919519_gshared)(__this /* static, unused */, p0, method)
+// System.Void UnityEngine.GameObject::.ctor()
+extern "C"  void GameObject__ctor_m498247354 (GameObject_t1756533147 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Object::set_name(System.String)
+extern "C"  void Object_set_name_m4157836998 (Object_t1021602117 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Transform UnityEngine.GameObject::get_transform()
+extern "C"  Transform_t3275118058 * GameObject_get_transform_m909382139 (GameObject_t1756533147 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.GameObject::GetComponentInChildren<UnityEngine.MeshFilter>()
+#define GameObject_GetComponentInChildren_TisMeshFilter_t3026937449_m2178217683(__this, method) ((  MeshFilter_t3026937449 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponentInChildren_TisIl2CppObject_m327292296_gshared)(__this, method)
+// System.Void UnityEngine.Transform::set_localScale(UnityEngine.Vector3)
+extern "C"  void Transform_set_localScale_m2325460848 (Transform_t3275118058 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Mathf::Min(System.Single,System.Single)
+extern "C"  float Mathf_Min_m1648492575 (Il2CppObject * __this /* static, unused */, float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Rendering.CommandBuffer::.ctor()
+extern "C"  void CommandBuffer__ctor_m3893953450 (CommandBuffer_t1204166949 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Rendering.RenderTargetIdentifier UnityEngine.Rendering.RenderTargetIdentifier::op_Implicit(UnityEngine.Rendering.BuiltinRenderTextureType)
+extern "C"  RenderTargetIdentifier_t772440638  RenderTargetIdentifier_op_Implicit_m1621446097 (Il2CppObject * __this /* static, unused */, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Rendering.CommandBuffer::Blit(UnityEngine.Texture,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Material)
+extern "C"  void CommandBuffer_Blit_m4282817560 (CommandBuffer_t1204166949 * __this, Texture_t2243626319 * p0, RenderTargetIdentifier_t772440638  p1, Material_t193706927 * p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Camera::AddCommandBuffer(UnityEngine.Rendering.CameraEvent,UnityEngine.Rendering.CommandBuffer)
+extern "C"  void Camera_AddCommandBuffer_m2569587168 (Camera_t189460977 * __this, int32_t p0, CommandBuffer_t1204166949 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Camera::RemoveCommandBuffer(UnityEngine.Rendering.CameraEvent,UnityEngine.Rendering.CommandBuffer)
+extern "C"  void Camera_RemoveCommandBuffer_m2103408695 (Camera_t189460977 * __this, int32_t p0, CommandBuffer_t1204166949 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.XR.iOS.ARTextureHandles UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetARVideoTextureHandles()
+extern "C"  ARTextureHandles_t3764914833  UnityARSessionNativeInterface_GetARVideoTextureHandles_m299127149 (UnityARSessionNativeInterface_t1130867170 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.IntPtr::op_Equality(System.IntPtr,System.IntPtr)
+extern "C"  bool IntPtr_op_Equality_m1573482188 (Il2CppObject * __this /* static, unused */, IntPtr_t p0, IntPtr_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARVideo::InitializeCommandBuffer()
+extern "C"  void UnityARVideo_InitializeCommandBuffer_m2276285637 (UnityARVideo_t2351297253 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Resolution UnityEngine.Screen::get_currentResolution()
+extern "C"  Resolution_t3693662728  Screen_get_currentResolution_m2361090437 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.Resolution::get_width()
+extern "C"  int32_t Resolution_get_width_m1438273472 (Resolution_t3693662728 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.Resolution::get_height()
+extern "C"  int32_t Resolution_get_height_m882683003 (Resolution_t3693662728 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Texture2D UnityEngine.Texture2D::CreateExternalTexture(System.Int32,System.Int32,UnityEngine.TextureFormat,System.Boolean,System.Boolean,System.IntPtr)
+extern "C"  Texture2D_t3542995729 * Texture2D_CreateExternalTexture_m3402112250 (Il2CppObject * __this /* static, unused */, int32_t p0, int32_t p1, int32_t p2, bool p3, bool p4, IntPtr_t p5, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Texture::set_filterMode(UnityEngine.FilterMode)
+extern "C"  void Texture_set_filterMode_m3838996656 (Texture_t2243626319 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Texture::set_wrapMode(UnityEngine.TextureWrapMode)
+extern "C"  void Texture_set_wrapMode_m333956747 (Texture_t2243626319 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Texture2D::UpdateExternalTexture(System.IntPtr)
+extern "C"  void Texture2D_UpdateExternalTexture_m1701322565 (Texture2D_t3542995729 * __this, IntPtr_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Material::SetTexture(System.String,UnityEngine.Texture)
+extern "C"  void Material_SetTexture_m141095205 (Material_t193706927 * __this, String_t* p0, Texture_t2243626319 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.ScreenOrientation UnityEngine.Screen::get_orientation()
+extern "C"  int32_t Screen_get_orientation_m879255848 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::get_zero()
+extern "C"  Vector3_t2243707580  Vector3_get_zero_m1527993324 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Material::SetMatrix(System.String,UnityEngine.Matrix4x4)
+extern "C"  void Material_SetMatrix_m1387972957 (Material_t193706927 * __this, String_t* p0, Matrix4x4_t2933234003  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetARYUVTexCoordScale()
+extern "C"  float UnityARSessionNativeInterface_GetARYUVTexCoordScale_m1708528794 (UnityARSessionNativeInterface_t1130867170 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Material::SetFloat(System.String,System.Single)
+extern "C"  void Material_SetFloat_m1926275467 (Material_t193706927 * __this, String_t* p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Material::SetInt(System.String,System.Int32)
+extern "C"  void Material_SetInt_m522302436 (Material_t193706927 * __this, String_t* p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARFrameUpdate::.ctor(System.Object,System.IntPtr)
+extern "C"  void ARFrameUpdate__ctor_m3762766849 (ARFrameUpdate_t496507918 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::add_ARFrameUpdatedEvent(UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARFrameUpdate)
+extern "C"  void UnityARSessionNativeInterface_add_ARFrameUpdatedEvent_m1736114240 (Il2CppObject * __this /* static, unused */, ARFrameUpdate_t496507918 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::.ctor()
+#define List_1__ctor_m704351054(__this, method) ((  void (*) (List_1_t1125654279 *, const MethodInfo*))List_1__ctor_m310736118_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<UnityEngine.GameObject>::Add(!0)
+#define List_1_Add_m3441471442(__this, p0, method) ((  void (*) (List_1_t1125654279 *, GameObject_t1756533147 *, const MethodInfo*))List_1_Add_m4157722533_gshared)(__this, p0, method)
+// UnityEngine.Vector4 UnityEngine.Vector4::op_Implicit(UnityEngine.Vector3)
+extern "C"  Vector4_t2243707581  Vector4_op_Implicit_m1059320239 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !0 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32)
+#define List_1_get_Item_m939767277(__this, p0, method) ((  GameObject_t1756533147 * (*) (List_1_t1125654279 *, int32_t, const MethodInfo*))List_1_get_Item_m2062981835_gshared)(__this, p0, method)
+// System.Int64 System.Math::Min(System.Int64,System.Int64)
+extern "C"  int64_t Math_Min_m301707792 (Il2CppObject * __this /* static, unused */, int64_t p0, int64_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<UnityEngine.Transform>::.ctor()
+#define List_1__ctor_m833109890(__this, method) ((  void (*) (List_1_t2644239190 *, const MethodInfo*))List_1__ctor_m310736118_gshared)(__this, method)
+// System.Void UnityStandardAssets.SceneUtils.ParticleSceneControls::Select(System.Int32)
+extern "C"  void ParticleSceneControls_Select_m906043616 (ParticleSceneControls_t2895192958 * __this, int32_t ___i0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.UI.Button/ButtonClickedEvent UnityEngine.UI.Button::get_onClick()
+extern "C"  ButtonClickedEvent_t2455055323 * Button_get_onClick_m1595880935 (Button_t2872111280 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityAction::.ctor(System.Object,System.IntPtr)
+extern "C"  void UnityAction__ctor_m2649891629 (UnityAction_t4025899511 * __this, Il2CppObject * p0, IntPtr_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)
+extern "C"  void UnityEvent_AddListener_m1596810379 (UnityEvent_t408735097 * __this, UnityAction_t4025899511 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityEvent::RemoveListener(UnityEngine.Events.UnityAction)
+extern "C"  void UnityEvent_RemoveListener_m2073859718 (UnityEvent_t408735097 * __this, UnityAction_t4025899511 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Transform::get_localPosition()
+extern "C"  Vector3_t2243707580  Transform_get_localPosition_m2533925116 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::get_forward()
+extern "C"  Vector3_t2243707580  Vector3_get_forward_m1201659139 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::SmoothDamp(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3&,System.Single)
+extern "C"  Vector3_t2243707580  Vector3_SmoothDamp_m3087890513 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, Vector3_t2243707580  p1, Vector3_t2243707580 * p2, float p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityStandardAssets.SceneUtils.ParticleSceneControls::CheckForGuiCollision()
+extern "C"  bool ParticleSceneControls_CheckForGuiCollision_m2041416147 (ParticleSceneControls_t2895192958 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Input::GetMouseButtonDown(System.Int32)
+extern "C"  bool Input_GetMouseButtonDown_m47917805 (Il2CppObject * __this /* static, unused */, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Input::GetMouseButton(System.Int32)
+extern "C"  bool Input_GetMouseButton_m464100923 (Il2CppObject * __this /* static, unused */, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Ray UnityEngine.Camera::ScreenPointToRay(UnityEngine.Vector3)
+extern "C"  Ray_t2469606224  Camera_ScreenPointToRay_m614889538 (Camera_t189460977 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Physics::Raycast(UnityEngine.Ray,UnityEngine.RaycastHit&)
+extern "C"  bool Physics_Raycast_m2736931691 (Il2CppObject * __this /* static, unused */, Ray_t2469606224  p0, RaycastHit_t87180320 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.RaycastHit::get_normal()
+extern "C"  Vector3_t2243707580  RaycastHit_get_normal_m817665579 (RaycastHit_t87180320 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Quaternion UnityEngine.Quaternion::LookRotation(UnityEngine.Vector3)
+extern "C"  Quaternion_t4030073918  Quaternion_LookRotation_m633695927 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.RaycastHit::get_point()
+extern "C"  Vector3_t2243707580  RaycastHit_get_point_m326143462 (RaycastHit_t87180320 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Vector3::get_magnitude()
+extern "C"  float Vector3_get_magnitude_m860342598 (Vector3_t2243707580 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.Object::Instantiate<UnityEngine.Transform>(!!0,UnityEngine.Vector3,UnityEngine.Quaternion)
+#define Object_Instantiate_TisTransform_t3275118058_m3377769805(__this /* static, unused */, p0, p1, p2, method) ((  Transform_t3275118058 * (*) (Il2CppObject * /* static, unused */, Transform_t3275118058 *, Vector3_t2243707580 , Quaternion_t4030073918 , const MethodInfo*))Object_Instantiate_TisIl2CppObject_m3692334404_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 UnityEngine.Component::GetComponent<UnityStandardAssets.Effects.ParticleSystemMultiplier>()
+#define Component_GetComponent_TisParticleSystemMultiplier_t3377687064_m1071529796(__this, method) ((  ParticleSystemMultiplier_t3377687064 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<UnityEngine.Transform>::Add(!0)
+#define List_1_Add_m4081083670(__this, p0, method) ((  void (*) (List_1_t2644239190 *, Transform_t3275118058 *, const MethodInfo*))List_1_Add_m4157722533_gshared)(__this, p0, method)
+// System.Int32 System.Collections.Generic.List`1<UnityEngine.Transform>::get_Count()
+#define List_1_get_Count_m1995107056(__this, method) ((  int32_t (*) (List_1_t2644239190 *, const MethodInfo*))List_1_get_Count_m2375293942_gshared)(__this, method)
+// !0 System.Collections.Generic.List`1<UnityEngine.Transform>::get_Item(System.Int32)
+#define List_1_get_Item_m3391702501(__this, p0, method) ((  Transform_t3275118058 * (*) (List_1_t2644239190 *, int32_t, const MethodInfo*))List_1_get_Item_m2062981835_gshared)(__this, p0, method)
+// System.Void System.Collections.Generic.List`1<UnityEngine.Transform>::RemoveAt(System.Int32)
+#define List_1_RemoveAt_m1075984016(__this, p0, method) ((  void (*) (List_1_t2644239190 *, int32_t, const MethodInfo*))List_1_RemoveAt_m3615096820_gshared)(__this, p0, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.ParticleSystem>()
+#define Component_GetComponent_TisParticleSystem_t3394631041_m1847115563(__this, method) ((  ParticleSystem_t3394631041 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// UnityEngine.ParticleSystem/EmissionModule UnityEngine.ParticleSystem::get_emission()
+extern "C"  EmissionModule_t2748003162  ParticleSystem_get_emission_m3968992617 (ParticleSystem_t3394631041 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.ParticleSystem/EmissionModule::set_enabled(System.Boolean)
+extern "C"  void EmissionModule_set_enabled_m4266189783 (EmissionModule_t2748003162 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.ParticleSystem::Emit(System.Int32)
+extern "C"  void ParticleSystem_Emit_m649892508 (ParticleSystem_t3394631041 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Transform UnityEngine.RaycastHit::get_transform()
+extern "C"  Transform_t3275118058 * RaycastHit_get_transform_m3290290036 (RaycastHit_t87180320 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::set_parent(UnityEngine.Transform)
+extern "C"  void Transform_set_parent_m3281327839 (Transform_t3275118058 * __this, Transform_t3275118058 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.EventSystems.PointerEventData::.ctor(UnityEngine.EventSystems.EventSystem)
+extern "C"  void PointerEventData__ctor_m3674067728 (PointerEventData_t1599784723 * __this, EventSystem_t3466835263 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.EventSystems.PointerEventData::set_pressPosition(UnityEngine.Vector2)
+extern "C"  void PointerEventData_set_pressPosition_m2094137883 (PointerEventData_t1599784723 * __this, Vector2_t2243707579  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.EventSystems.PointerEventData::set_position(UnityEngine.Vector2)
+extern "C"  void PointerEventData_set_position_m794507622 (PointerEventData_t1599784723 * __this, Vector2_t2243707579  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::.ctor()
+#define List_1__ctor_m2989057823(__this, method) ((  void (*) (List_1_t3685274804 *, const MethodInfo*))List_1__ctor_m2989057823_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::get_Count()
+#define List_1_get_Count_m3279745867(__this, method) ((  int32_t (*) (List_1_t3685274804 *, const MethodInfo*))List_1_get_Count_m3279745867_gshared)(__this, method)
+// System.Void UnityEngine.GameObject::SetActive(System.Boolean)
+extern "C"  void GameObject_SetActive_m2887581199 (GameObject_t1756533147 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.Object::get_name()
+extern "C"  String_t* Object_get_name_m2079638459 (Object_t1021602117 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GameObject::SendMessage(System.String,System.Object)
+extern "C"  void GameObject_SendMessage_m2115020133 (GameObject_t1756533147 * __this, String_t* p0, Il2CppObject * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Time::set_timeScale(System.Single)
+extern "C"  void Time_set_timeScale_m2194722837 (Il2CppObject * __this /* static, unused */, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.UI.Graphic UnityEngine.UI.Selectable::get_targetGraphic()
+extern "C"  Graphic_t2426225576 * Selectable_get_targetGraphic_m137842753 (Selectable_t1490392188 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.UI.Image::set_sprite(UnityEngine.Sprite)
+extern "C"  void Image_set_sprite_m1800056820 (Image_t2042527209 * __this, Sprite_t309593783 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.UI.Selectable::set_targetGraphic(UnityEngine.UI.Graphic)
+extern "C"  void Selectable_set_targetGraphic_m2955419854 (Selectable_t1490392188 * __this, Graphic_t2426225576 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void TMPro.Examples.VertexShakeA/<AnimateVertexColors>c__Iterator0::.ctor()
+extern "C"  void U3CAnimateVertexColorsU3Ec__Iterator0__ctor_m3294435348 (U3CAnimateVertexColorsU3Ec__Iterator0_t3033053737 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean TMPro.Examples.VertexShakeA/<AnimateVertexColors>c__Iterator0::MoveNext()
+extern "C"  bool U3CAnimateVertexColorsU3Ec__Iterator0_MoveNext_m2375404300 (U3CAnimateVertexColorsU3Ec__Iterator0_t3033053737 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CAnimateVertexColorsU3Ec__Iterator0_MoveNext_m2375404300_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	Vector3_t2243707580  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Quaternion_t4030073918  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	Vector3U5BU5D_t1172311765* V_11 = NULL;
+	float V_12 = 0.0f;
+	int32_t V_13 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_8();
+		V_0 = L_0;
+		__this->set_U24PC_8((-1));
+		uint32_t L_1 = V_0;
+		switch (L_1)
+		{
+			case 0:
+			{
+				goto IL_0025;
+			}
+			case 1:
+			{
+				goto IL_013e;
+			}
+			case 2:
+			{
+				goto IL_0599;
+			}
+		}
+	}
+	{
+		goto IL_05a6;
+	}
+
+IL_0025:
+	{
+		// m_TextComponent.ForceMeshUpdate();
+		VertexShakeA_t3019979321 * L_2 = __this->get_U24this_5();
+		NullCheck(L_2);
+		TMP_Text_t1920000777 * L_3 = L_2->get_m_TextComponent_6();
+		// m_TextComponent.ForceMeshUpdate();
+		NullCheck(L_3);
+		VirtActionInvoker0::Invoke(98 /* System.Void TMPro.TMP_Text::ForceMeshUpdate() */, L_3);
+		// TMP_TextInfo textInfo = m_TextComponent.textInfo;
+		VertexShakeA_t3019979321 * L_4 = __this->get_U24this_5();
+		NullCheck(L_4);
+		TMP_Text_t1920000777 * L_5 = L_4->get_m_TextComponent_6();
+		// TMP_TextInfo textInfo = m_TextComponent.textInfo;
+		NullCheck(L_5);
+		TMP_TextInfo_t2849466151 * L_6 = TMP_Text_get_textInfo_m3382403859(L_5, /*hidden argument*/NULL);
+		__this->set_U3CtextInfoU3E__0_0(L_6);
+		// Vector3[][] copyOfVertices = new Vector3[0][];
+		__this->set_U3CcopyOfVerticesU3E__0_1(((Vector3U5BU5DU5BU5D_t1477540408*)SZArrayNew(Vector3U5BU5DU5BU5D_t1477540408_il2cpp_TypeInfo_var, (uint32_t)0)));
+		// hasTextChanged = true;
+		VertexShakeA_t3019979321 * L_7 = __this->get_U24this_5();
+		NullCheck(L_7);
+		L_7->set_hasTextChanged_7((bool)1);
+	}
+
+IL_0064:
+	{
+		// if (hasTextChanged)
+		VertexShakeA_t3019979321 * L_8 = __this->get_U24this_5();
+		NullCheck(L_8);
+		bool L_9 = L_8->get_hasTextChanged_7();
+		if (!L_9)
+		{
+			goto IL_00fd;
+		}
+	}
+	{
+		// if (copyOfVertices.Length < textInfo.meshInfo.Length)
+		Vector3U5BU5DU5BU5D_t1477540408* L_10 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		NullCheck(L_10);
+		TMP_TextInfo_t2849466151 * L_11 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_11);
+		TMP_MeshInfoU5BU5D_t2398608976* L_12 = L_11->get_meshInfo_16();
+		NullCheck(L_12);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_10)->max_length))))) >= ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_12)->max_length)))))))
+		{
+			goto IL_00a9;
+		}
+	}
+	{
+		// copyOfVertices = new Vector3[textInfo.meshInfo.Length][];
+		TMP_TextInfo_t2849466151 * L_13 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_13);
+		TMP_MeshInfoU5BU5D_t2398608976* L_14 = L_13->get_meshInfo_16();
+		NullCheck(L_14);
+		__this->set_U3CcopyOfVerticesU3E__0_1(((Vector3U5BU5DU5BU5D_t1477540408*)SZArrayNew(Vector3U5BU5DU5BU5D_t1477540408_il2cpp_TypeInfo_var, (uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_14)->max_length)))))));
+	}
+
+IL_00a9:
+	{
+		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
+		V_1 = 0;
+		goto IL_00dd;
+	}
+
+IL_00b0:
+	{
+		// int length = textInfo.meshInfo[i].vertices.Length;
+		TMP_TextInfo_t2849466151 * L_15 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_15);
+		TMP_MeshInfoU5BU5D_t2398608976* L_16 = L_15->get_meshInfo_16();
+		int32_t L_17 = V_1;
+		NullCheck(L_16);
+		Vector3U5BU5D_t1172311765* L_18 = ((L_16)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_17)))->get_vertices_5();
+		NullCheck(L_18);
+		V_2 = (((int32_t)((int32_t)(((Il2CppArray *)L_18)->max_length))));
+		// copyOfVertices[i] = new Vector3[length];
+		Vector3U5BU5DU5BU5D_t1477540408* L_19 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_20 = V_1;
+		int32_t L_21 = V_2;
+		NullCheck(L_19);
+		ArrayElementTypeCheck (L_19, ((Vector3U5BU5D_t1172311765*)SZArrayNew(Vector3U5BU5D_t1172311765_il2cpp_TypeInfo_var, (uint32_t)L_21)));
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(L_20), (Vector3U5BU5D_t1172311765*)((Vector3U5BU5D_t1172311765*)SZArrayNew(Vector3U5BU5D_t1172311765_il2cpp_TypeInfo_var, (uint32_t)L_21)));
+		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
+		int32_t L_22 = V_1;
+		V_1 = ((int32_t)((int32_t)L_22+(int32_t)1));
+	}
+
+IL_00dd:
+	{
+		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
+		int32_t L_23 = V_1;
+		TMP_TextInfo_t2849466151 * L_24 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_24);
+		TMP_MeshInfoU5BU5D_t2398608976* L_25 = L_24->get_meshInfo_16();
+		NullCheck(L_25);
+		if ((((int32_t)L_23) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_25)->max_length)))))))
+		{
+			goto IL_00b0;
+		}
+	}
+	{
+		// hasTextChanged = false;
+		VertexShakeA_t3019979321 * L_26 = __this->get_U24this_5();
+		NullCheck(L_26);
+		L_26->set_hasTextChanged_7((bool)0);
+	}
+
+IL_00fd:
+	{
+		// int characterCount = textInfo.characterCount;
+		TMP_TextInfo_t2849466151 * L_27 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_27);
+		int32_t L_28 = L_27->get_characterCount_3();
+		__this->set_U3CcharacterCountU3E__1_2(L_28);
+		// if (characterCount == 0)
+		int32_t L_29 = __this->get_U3CcharacterCountU3E__1_2();
+		if (L_29)
+		{
+			goto IL_0143;
+		}
+	}
+	{
+		// yield return new WaitForSeconds(0.25f);
+		// yield return new WaitForSeconds(0.25f);
+		WaitForSeconds_t3839502067 * L_30 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_30, (0.25f), /*hidden argument*/NULL);
+		__this->set_U24current_6(L_30);
+		bool L_31 = __this->get_U24disposing_7();
+		if (L_31)
+		{
+			goto IL_0139;
+		}
+	}
+	{
+		__this->set_U24PC_8(1);
+	}
+
+IL_0139:
+	{
+		goto IL_05a8;
+	}
+
+IL_013e:
+	{
+		// continue;
+		goto IL_0064;
+	}
+
+IL_0143:
+	{
+		// int lineCount = textInfo.lineCount;
+		TMP_TextInfo_t2849466151 * L_32 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_32);
+		int32_t L_33 = L_32->get_lineCount_8();
+		__this->set_U3ClineCountU3E__1_3(L_33);
+		// for (int i = 0; i < lineCount; i++)
+		V_3 = 0;
+		goto IL_04f7;
+	}
+
+IL_015b:
+	{
+		// int first = textInfo.lineInfo[i].firstCharacterIndex;
+		TMP_TextInfo_t2849466151 * L_34 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_34);
+		TMP_LineInfoU5BU5D_t1617569211* L_35 = L_34->get_lineInfo_14();
+		int32_t L_36 = V_3;
+		NullCheck(L_35);
+		int32_t L_37 = ((L_35)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_36)))->get_firstCharacterIndex_4();
+		V_4 = L_37;
+		// int last = textInfo.lineInfo[i].lastCharacterIndex;
+		TMP_TextInfo_t2849466151 * L_38 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_38);
+		TMP_LineInfoU5BU5D_t1617569211* L_39 = L_38->get_lineInfo_14();
+		int32_t L_40 = V_3;
+		NullCheck(L_39);
+		int32_t L_41 = ((L_39)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_40)))->get_lastCharacterIndex_6();
+		V_5 = L_41;
+		// Vector3 centerOfLine = (textInfo.characterInfo[first].bottomLeft + textInfo.characterInfo[last].topRight) / 2;
+		TMP_TextInfo_t2849466151 * L_42 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_42);
+		TMP_CharacterInfoU5BU5D_t602810366* L_43 = L_42->get_characterInfo_11();
+		int32_t L_44 = V_4;
+		NullCheck(L_43);
+		Vector3_t2243707580  L_45 = ((L_43)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_44)))->get_bottomLeft_19();
+		TMP_TextInfo_t2849466151 * L_46 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_46);
+		TMP_CharacterInfoU5BU5D_t602810366* L_47 = L_46->get_characterInfo_11();
+		int32_t L_48 = V_5;
+		NullCheck(L_47);
+		Vector3_t2243707580  L_49 = ((L_47)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_48)))->get_topRight_20();
+		// Vector3 centerOfLine = (textInfo.characterInfo[first].bottomLeft + textInfo.characterInfo[last].topRight) / 2;
+		Vector3_t2243707580  L_50 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_45, L_49, /*hidden argument*/NULL);
+		// Vector3 centerOfLine = (textInfo.characterInfo[first].bottomLeft + textInfo.characterInfo[last].topRight) / 2;
+		Vector3_t2243707580  L_51 = Vector3_op_Division_m3315615850(NULL /*static, unused*/, L_50, (2.0f), /*hidden argument*/NULL);
+		V_6 = L_51;
+		// Quaternion rotation = Quaternion.Euler(0, 0, Random.Range(-0.25f, 0.25f) * RotationMultiplier);
+		// Quaternion rotation = Quaternion.Euler(0, 0, Random.Range(-0.25f, 0.25f) * RotationMultiplier);
+		float L_52 = Random_Range_m2884721203(NULL /*static, unused*/, (-0.25f), (0.25f), /*hidden argument*/NULL);
+		VertexShakeA_t3019979321 * L_53 = __this->get_U24this_5();
+		NullCheck(L_53);
+		float L_54 = L_53->get_RotationMultiplier_5();
+		// Quaternion rotation = Quaternion.Euler(0, 0, Random.Range(-0.25f, 0.25f) * RotationMultiplier);
+		Quaternion_t4030073918  L_55 = Quaternion_Euler_m2887458175(NULL /*static, unused*/, (0.0f), (0.0f), ((float)((float)L_52*(float)L_54)), /*hidden argument*/NULL);
+		V_7 = L_55;
+		// for (int j = first; j <= last; j++)
+		int32_t L_56 = V_4;
+		V_8 = L_56;
+		goto IL_04e9;
+	}
+
+IL_0200:
+	{
+		// if (!textInfo.characterInfo[j].isVisible)
+		TMP_TextInfo_t2849466151 * L_57 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_57);
+		TMP_CharacterInfoU5BU5D_t602810366* L_58 = L_57->get_characterInfo_11();
+		int32_t L_59 = V_8;
+		NullCheck(L_58);
+		bool L_60 = ((L_58)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_59)))->get_isVisible_34();
+		if (L_60)
+		{
+			goto IL_0222;
+		}
+	}
+	{
+		// continue;
+		goto IL_04e3;
+	}
+
+IL_0222:
+	{
+		// int materialIndex = textInfo.characterInfo[j].materialReferenceIndex;
+		TMP_TextInfo_t2849466151 * L_61 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_61);
+		TMP_CharacterInfoU5BU5D_t602810366* L_62 = L_61->get_characterInfo_11();
+		int32_t L_63 = V_8;
+		NullCheck(L_62);
+		int32_t L_64 = ((L_62)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_63)))->get_materialReferenceIndex_8();
+		V_9 = L_64;
+		// int vertexIndex = textInfo.characterInfo[j].vertexIndex;
+		TMP_TextInfo_t2849466151 * L_65 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_65);
+		TMP_CharacterInfoU5BU5D_t602810366* L_66 = L_65->get_characterInfo_11();
+		int32_t L_67 = V_8;
+		NullCheck(L_66);
+		int32_t L_68 = ((L_66)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_67)))->get_vertexIndex_13();
+		V_10 = L_68;
+		// Vector3[] sourceVertices = textInfo.meshInfo[materialIndex].vertices;
+		TMP_TextInfo_t2849466151 * L_69 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_69);
+		TMP_MeshInfoU5BU5D_t2398608976* L_70 = L_69->get_meshInfo_16();
+		int32_t L_71 = V_9;
+		NullCheck(L_70);
+		Vector3U5BU5D_t1172311765* L_72 = ((L_70)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_71)))->get_vertices_5();
+		V_11 = L_72;
+		// copyOfVertices[materialIndex][vertexIndex + 0] = sourceVertices[vertexIndex + 0] - centerOfLine;
+		Vector3U5BU5DU5BU5D_t1477540408* L_73 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_74 = V_9;
+		NullCheck(L_73);
+		int32_t L_75 = L_74;
+		Vector3U5BU5D_t1172311765* L_76 = (L_73)->GetAt(static_cast<il2cpp_array_size_t>(L_75));
+		int32_t L_77 = V_10;
+		NullCheck(L_76);
+		Vector3U5BU5D_t1172311765* L_78 = V_11;
+		int32_t L_79 = V_10;
+		NullCheck(L_78);
+		Vector3_t2243707580  L_80 = V_6;
+		// copyOfVertices[materialIndex][vertexIndex + 0] = sourceVertices[vertexIndex + 0] - centerOfLine;
+		Vector3_t2243707580  L_81 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, (*(Vector3_t2243707580 *)((L_78)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_79)))), L_80, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_76)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_77)))) = L_81;
+		// copyOfVertices[materialIndex][vertexIndex + 1] = sourceVertices[vertexIndex + 1] - centerOfLine;
+		Vector3U5BU5DU5BU5D_t1477540408* L_82 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_83 = V_9;
+		NullCheck(L_82);
+		int32_t L_84 = L_83;
+		Vector3U5BU5D_t1172311765* L_85 = (L_82)->GetAt(static_cast<il2cpp_array_size_t>(L_84));
+		int32_t L_86 = V_10;
+		NullCheck(L_85);
+		Vector3U5BU5D_t1172311765* L_87 = V_11;
+		int32_t L_88 = V_10;
+		NullCheck(L_87);
+		Vector3_t2243707580  L_89 = V_6;
+		// copyOfVertices[materialIndex][vertexIndex + 1] = sourceVertices[vertexIndex + 1] - centerOfLine;
+		Vector3_t2243707580  L_90 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, (*(Vector3_t2243707580 *)((L_87)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_88+(int32_t)1)))))), L_89, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_85)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_86+(int32_t)1)))))) = L_90;
+		// copyOfVertices[materialIndex][vertexIndex + 2] = sourceVertices[vertexIndex + 2] - centerOfLine;
+		Vector3U5BU5DU5BU5D_t1477540408* L_91 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_92 = V_9;
+		NullCheck(L_91);
+		int32_t L_93 = L_92;
+		Vector3U5BU5D_t1172311765* L_94 = (L_91)->GetAt(static_cast<il2cpp_array_size_t>(L_93));
+		int32_t L_95 = V_10;
+		NullCheck(L_94);
+		Vector3U5BU5D_t1172311765* L_96 = V_11;
+		int32_t L_97 = V_10;
+		NullCheck(L_96);
+		Vector3_t2243707580  L_98 = V_6;
+		// copyOfVertices[materialIndex][vertexIndex + 2] = sourceVertices[vertexIndex + 2] - centerOfLine;
+		Vector3_t2243707580  L_99 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, (*(Vector3_t2243707580 *)((L_96)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_97+(int32_t)2)))))), L_98, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_94)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_95+(int32_t)2)))))) = L_99;
+		// copyOfVertices[materialIndex][vertexIndex + 3] = sourceVertices[vertexIndex + 3] - centerOfLine;
+		Vector3U5BU5DU5BU5D_t1477540408* L_100 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_101 = V_9;
+		NullCheck(L_100);
+		int32_t L_102 = L_101;
+		Vector3U5BU5D_t1172311765* L_103 = (L_100)->GetAt(static_cast<il2cpp_array_size_t>(L_102));
+		int32_t L_104 = V_10;
+		NullCheck(L_103);
+		Vector3U5BU5D_t1172311765* L_105 = V_11;
+		int32_t L_106 = V_10;
+		NullCheck(L_105);
+		Vector3_t2243707580  L_107 = V_6;
+		// copyOfVertices[materialIndex][vertexIndex + 3] = sourceVertices[vertexIndex + 3] - centerOfLine;
+		Vector3_t2243707580  L_108 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, (*(Vector3_t2243707580 *)((L_105)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_106+(int32_t)3)))))), L_107, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_103)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_104+(int32_t)3)))))) = L_108;
+		// float randomScale = Random.Range(0.995f - 0.001f * ScaleMultiplier, 1.005f + 0.001f * ScaleMultiplier);
+		VertexShakeA_t3019979321 * L_109 = __this->get_U24this_5();
+		NullCheck(L_109);
+		float L_110 = L_109->get_ScaleMultiplier_4();
+		VertexShakeA_t3019979321 * L_111 = __this->get_U24this_5();
+		NullCheck(L_111);
+		float L_112 = L_111->get_ScaleMultiplier_4();
+		// float randomScale = Random.Range(0.995f - 0.001f * ScaleMultiplier, 1.005f + 0.001f * ScaleMultiplier);
+		float L_113 = Random_Range_m2884721203(NULL /*static, unused*/, ((float)((float)(0.995f)-(float)((float)((float)(0.001f)*(float)L_110)))), ((float)((float)(1.005f)+(float)((float)((float)(0.001f)*(float)L_112)))), /*hidden argument*/NULL);
+		V_12 = L_113;
+		// matrix = Matrix4x4.TRS(Vector3.one, rotation, Vector3.one * randomScale);
+		// matrix = Matrix4x4.TRS(Vector3.one, rotation, Vector3.one * randomScale);
+		Vector3_t2243707580  L_114 = Vector3_get_one_m627547232(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_115 = V_7;
+		// matrix = Matrix4x4.TRS(Vector3.one, rotation, Vector3.one * randomScale);
+		Vector3_t2243707580  L_116 = Vector3_get_one_m627547232(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_117 = V_12;
+		// matrix = Matrix4x4.TRS(Vector3.one, rotation, Vector3.one * randomScale);
+		Vector3_t2243707580  L_118 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_116, L_117, /*hidden argument*/NULL);
+		// matrix = Matrix4x4.TRS(Vector3.one, rotation, Vector3.one * randomScale);
+		Matrix4x4_t2933234003  L_119 = Matrix4x4_TRS_m1913765359(NULL /*static, unused*/, L_114, L_115, L_118, /*hidden argument*/NULL);
+		__this->set_U3CmatrixU3E__2_4(L_119);
+		// copyOfVertices[materialIndex][vertexIndex + 0] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 0]);
+		Vector3U5BU5DU5BU5D_t1477540408* L_120 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_121 = V_9;
+		NullCheck(L_120);
+		int32_t L_122 = L_121;
+		Vector3U5BU5D_t1172311765* L_123 = (L_120)->GetAt(static_cast<il2cpp_array_size_t>(L_122));
+		int32_t L_124 = V_10;
+		NullCheck(L_123);
+		Matrix4x4_t2933234003 * L_125 = __this->get_address_of_U3CmatrixU3E__2_4();
+		Vector3U5BU5DU5BU5D_t1477540408* L_126 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_127 = V_9;
+		NullCheck(L_126);
+		int32_t L_128 = L_127;
+		Vector3U5BU5D_t1172311765* L_129 = (L_126)->GetAt(static_cast<il2cpp_array_size_t>(L_128));
+		int32_t L_130 = V_10;
+		NullCheck(L_129);
+		// copyOfVertices[materialIndex][vertexIndex + 0] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 0]);
+		Vector3_t2243707580  L_131 = Matrix4x4_MultiplyPoint3x4_m1007952212(L_125, (*(Vector3_t2243707580 *)((L_129)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_130)))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_123)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_124)))) = L_131;
+		// copyOfVertices[materialIndex][vertexIndex + 1] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 1]);
+		Vector3U5BU5DU5BU5D_t1477540408* L_132 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_133 = V_9;
+		NullCheck(L_132);
+		int32_t L_134 = L_133;
+		Vector3U5BU5D_t1172311765* L_135 = (L_132)->GetAt(static_cast<il2cpp_array_size_t>(L_134));
+		int32_t L_136 = V_10;
+		NullCheck(L_135);
+		Matrix4x4_t2933234003 * L_137 = __this->get_address_of_U3CmatrixU3E__2_4();
+		Vector3U5BU5DU5BU5D_t1477540408* L_138 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_139 = V_9;
+		NullCheck(L_138);
+		int32_t L_140 = L_139;
+		Vector3U5BU5D_t1172311765* L_141 = (L_138)->GetAt(static_cast<il2cpp_array_size_t>(L_140));
+		int32_t L_142 = V_10;
+		NullCheck(L_141);
+		// copyOfVertices[materialIndex][vertexIndex + 1] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 1]);
+		Vector3_t2243707580  L_143 = Matrix4x4_MultiplyPoint3x4_m1007952212(L_137, (*(Vector3_t2243707580 *)((L_141)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_142+(int32_t)1)))))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_135)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_136+(int32_t)1)))))) = L_143;
+		// copyOfVertices[materialIndex][vertexIndex + 2] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 2]);
+		Vector3U5BU5DU5BU5D_t1477540408* L_144 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_145 = V_9;
+		NullCheck(L_144);
+		int32_t L_146 = L_145;
+		Vector3U5BU5D_t1172311765* L_147 = (L_144)->GetAt(static_cast<il2cpp_array_size_t>(L_146));
+		int32_t L_148 = V_10;
+		NullCheck(L_147);
+		Matrix4x4_t2933234003 * L_149 = __this->get_address_of_U3CmatrixU3E__2_4();
+		Vector3U5BU5DU5BU5D_t1477540408* L_150 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_151 = V_9;
+		NullCheck(L_150);
+		int32_t L_152 = L_151;
+		Vector3U5BU5D_t1172311765* L_153 = (L_150)->GetAt(static_cast<il2cpp_array_size_t>(L_152));
+		int32_t L_154 = V_10;
+		NullCheck(L_153);
+		// copyOfVertices[materialIndex][vertexIndex + 2] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 2]);
+		Vector3_t2243707580  L_155 = Matrix4x4_MultiplyPoint3x4_m1007952212(L_149, (*(Vector3_t2243707580 *)((L_153)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_154+(int32_t)2)))))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_147)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_148+(int32_t)2)))))) = L_155;
+		// copyOfVertices[materialIndex][vertexIndex + 3] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 3]);
+		Vector3U5BU5DU5BU5D_t1477540408* L_156 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_157 = V_9;
+		NullCheck(L_156);
+		int32_t L_158 = L_157;
+		Vector3U5BU5D_t1172311765* L_159 = (L_156)->GetAt(static_cast<il2cpp_array_size_t>(L_158));
+		int32_t L_160 = V_10;
+		NullCheck(L_159);
+		Matrix4x4_t2933234003 * L_161 = __this->get_address_of_U3CmatrixU3E__2_4();
+		Vector3U5BU5DU5BU5D_t1477540408* L_162 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_163 = V_9;
+		NullCheck(L_162);
+		int32_t L_164 = L_163;
+		Vector3U5BU5D_t1172311765* L_165 = (L_162)->GetAt(static_cast<il2cpp_array_size_t>(L_164));
+		int32_t L_166 = V_10;
+		NullCheck(L_165);
+		// copyOfVertices[materialIndex][vertexIndex + 3] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 3]);
+		Vector3_t2243707580  L_167 = Matrix4x4_MultiplyPoint3x4_m1007952212(L_161, (*(Vector3_t2243707580 *)((L_165)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_166+(int32_t)3)))))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_159)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_160+(int32_t)3)))))) = L_167;
+		// copyOfVertices[materialIndex][vertexIndex + 0] += centerOfLine;
+		Vector3U5BU5DU5BU5D_t1477540408* L_168 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_169 = V_9;
+		NullCheck(L_168);
+		int32_t L_170 = L_169;
+		Vector3U5BU5D_t1172311765* L_171 = (L_168)->GetAt(static_cast<il2cpp_array_size_t>(L_170));
+		int32_t L_172 = V_10;
+		NullCheck(L_171);
+		Vector3_t2243707580 * L_173 = ((L_171)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_172)));
+		Vector3_t2243707580  L_174 = V_6;
+		// copyOfVertices[materialIndex][vertexIndex + 0] += centerOfLine;
+		Vector3_t2243707580  L_175 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_173), L_174, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_173) = L_175;
+		// copyOfVertices[materialIndex][vertexIndex + 1] += centerOfLine;
+		Vector3U5BU5DU5BU5D_t1477540408* L_176 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_177 = V_9;
+		NullCheck(L_176);
+		int32_t L_178 = L_177;
+		Vector3U5BU5D_t1172311765* L_179 = (L_176)->GetAt(static_cast<il2cpp_array_size_t>(L_178));
+		int32_t L_180 = V_10;
+		NullCheck(L_179);
+		Vector3_t2243707580 * L_181 = ((L_179)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_180+(int32_t)1)))));
+		Vector3_t2243707580  L_182 = V_6;
+		// copyOfVertices[materialIndex][vertexIndex + 1] += centerOfLine;
+		Vector3_t2243707580  L_183 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_181), L_182, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_181) = L_183;
+		// copyOfVertices[materialIndex][vertexIndex + 2] += centerOfLine;
+		Vector3U5BU5DU5BU5D_t1477540408* L_184 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_185 = V_9;
+		NullCheck(L_184);
+		int32_t L_186 = L_185;
+		Vector3U5BU5D_t1172311765* L_187 = (L_184)->GetAt(static_cast<il2cpp_array_size_t>(L_186));
+		int32_t L_188 = V_10;
+		NullCheck(L_187);
+		Vector3_t2243707580 * L_189 = ((L_187)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_188+(int32_t)2)))));
+		Vector3_t2243707580  L_190 = V_6;
+		// copyOfVertices[materialIndex][vertexIndex + 2] += centerOfLine;
+		Vector3_t2243707580  L_191 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_189), L_190, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_189) = L_191;
+		// copyOfVertices[materialIndex][vertexIndex + 3] += centerOfLine;
+		Vector3U5BU5DU5BU5D_t1477540408* L_192 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_193 = V_9;
+		NullCheck(L_192);
+		int32_t L_194 = L_193;
+		Vector3U5BU5D_t1172311765* L_195 = (L_192)->GetAt(static_cast<il2cpp_array_size_t>(L_194));
+		int32_t L_196 = V_10;
+		NullCheck(L_195);
+		Vector3_t2243707580 * L_197 = ((L_195)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_196+(int32_t)3)))));
+		Vector3_t2243707580  L_198 = V_6;
+		// copyOfVertices[materialIndex][vertexIndex + 3] += centerOfLine;
+		Vector3_t2243707580  L_199 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_197), L_198, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_197) = L_199;
+	}
+
+IL_04e3:
+	{
+		// for (int j = first; j <= last; j++)
+		int32_t L_200 = V_8;
+		V_8 = ((int32_t)((int32_t)L_200+(int32_t)1));
+	}
+
+IL_04e9:
+	{
+		// for (int j = first; j <= last; j++)
+		int32_t L_201 = V_8;
+		int32_t L_202 = V_5;
+		if ((((int32_t)L_201) <= ((int32_t)L_202)))
+		{
+			goto IL_0200;
+		}
+	}
+	{
+		// for (int i = 0; i < lineCount; i++)
+		int32_t L_203 = V_3;
+		V_3 = ((int32_t)((int32_t)L_203+(int32_t)1));
+	}
+
+IL_04f7:
+	{
+		// for (int i = 0; i < lineCount; i++)
+		int32_t L_204 = V_3;
+		int32_t L_205 = __this->get_U3ClineCountU3E__1_3();
+		if ((((int32_t)L_204) < ((int32_t)L_205)))
+		{
+			goto IL_015b;
+		}
+	}
+	{
+		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
+		V_13 = 0;
+		goto IL_0561;
+	}
+
+IL_050b:
+	{
+		// textInfo.meshInfo[i].mesh.vertices = copyOfVertices[i];
+		TMP_TextInfo_t2849466151 * L_206 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_206);
+		TMP_MeshInfoU5BU5D_t2398608976* L_207 = L_206->get_meshInfo_16();
+		int32_t L_208 = V_13;
+		NullCheck(L_207);
+		Mesh_t1356156583 * L_209 = ((L_207)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_208)))->get_mesh_3();
+		Vector3U5BU5DU5BU5D_t1477540408* L_210 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_211 = V_13;
+		NullCheck(L_210);
+		int32_t L_212 = L_211;
+		Vector3U5BU5D_t1172311765* L_213 = (L_210)->GetAt(static_cast<il2cpp_array_size_t>(L_212));
+		// textInfo.meshInfo[i].mesh.vertices = copyOfVertices[i];
+		NullCheck(L_209);
+		Mesh_set_vertices_m2936804213(L_209, L_213, /*hidden argument*/NULL);
+		// m_TextComponent.UpdateGeometry(textInfo.meshInfo[i].mesh, i);
+		VertexShakeA_t3019979321 * L_214 = __this->get_U24this_5();
+		NullCheck(L_214);
+		TMP_Text_t1920000777 * L_215 = L_214->get_m_TextComponent_6();
+		TMP_TextInfo_t2849466151 * L_216 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_216);
+		TMP_MeshInfoU5BU5D_t2398608976* L_217 = L_216->get_meshInfo_16();
+		int32_t L_218 = V_13;
+		NullCheck(L_217);
+		Mesh_t1356156583 * L_219 = ((L_217)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_218)))->get_mesh_3();
+		int32_t L_220 = V_13;
+		// m_TextComponent.UpdateGeometry(textInfo.meshInfo[i].mesh, i);
+		NullCheck(L_215);
+		VirtActionInvoker2< Mesh_t1356156583 *, int32_t >::Invoke(100 /* System.Void TMPro.TMP_Text::UpdateGeometry(UnityEngine.Mesh,System.Int32) */, L_215, L_219, L_220);
+		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
+		int32_t L_221 = V_13;
+		V_13 = ((int32_t)((int32_t)L_221+(int32_t)1));
+	}
+
+IL_0561:
+	{
+		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
+		int32_t L_222 = V_13;
+		TMP_TextInfo_t2849466151 * L_223 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_223);
+		TMP_MeshInfoU5BU5D_t2398608976* L_224 = L_223->get_meshInfo_16();
+		NullCheck(L_224);
+		if ((((int32_t)L_222) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_224)->max_length)))))))
+		{
+			goto IL_050b;
+		}
+	}
+	{
+		// yield return new WaitForSeconds(0.1f);
+		// yield return new WaitForSeconds(0.1f);
+		WaitForSeconds_t3839502067 * L_225 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_225, (0.1f), /*hidden argument*/NULL);
+		__this->set_U24current_6(L_225);
+		bool L_226 = __this->get_U24disposing_7();
+		if (L_226)
+		{
+			goto IL_0594;
+		}
+	}
+	{
+		__this->set_U24PC_8(2);
+	}
+
+IL_0594:
+	{
+		goto IL_05a8;
+	}
+
+IL_0599:
+	{
+		goto IL_0064;
+	}
+	// Dead block : IL_059f: ldarg.0
+
+IL_05a6:
+	{
+		return (bool)0;
+	}
+
+IL_05a8:
+	{
+		return (bool)1;
+	}
+}
+// System.Object TMPro.Examples.VertexShakeA/<AnimateVertexColors>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CAnimateVertexColorsU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1276222746 (U3CAnimateVertexColorsU3Ec__Iterator0_t3033053737 * __this, const MethodInfo* method)
+{
+	Il2CppObject * V_0 = NULL;
+	{
+		Il2CppObject * L_0 = __this->get_U24current_6();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Il2CppObject * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Object TMPro.Examples.VertexShakeA/<AnimateVertexColors>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CAnimateVertexColorsU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m242319474 (U3CAnimateVertexColorsU3Ec__Iterator0_t3033053737 * __this, const MethodInfo* method)
+{
+	Il2CppObject * V_0 = NULL;
+	{
+		Il2CppObject * L_0 = __this->get_U24current_6();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Il2CppObject * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void TMPro.Examples.VertexShakeA/<AnimateVertexColors>c__Iterator0::Dispose()
+extern "C"  void U3CAnimateVertexColorsU3Ec__Iterator0_Dispose_m470926907 (U3CAnimateVertexColorsU3Ec__Iterator0_t3033053737 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_7((bool)1);
+		__this->set_U24PC_8((-1));
+		return;
+	}
+}
+// System.Void TMPro.Examples.VertexShakeA/<AnimateVertexColors>c__Iterator0::Reset()
+extern "C"  void U3CAnimateVertexColorsU3Ec__Iterator0_Reset_m3097267305 (U3CAnimateVertexColorsU3Ec__Iterator0_t3033053737 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CAnimateVertexColorsU3Ec__Iterator0_Reset_m3097267305_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void TMPro.Examples.VertexShakeB::.ctor()
+extern "C"  void VertexShakeB__ctor_m1331982924 (VertexShakeB_t3019979320 * __this, const MethodInfo* method)
+{
+	{
+		// public float AngleMultiplier = 1.0f;
+		__this->set_AngleMultiplier_2((1.0f));
+		// public float SpeedMultiplier = 1.0f;
+		__this->set_SpeedMultiplier_3((1.0f));
+		// public float CurveScale = 1.0f;
+		__this->set_CurveScale_4((1.0f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void TMPro.Examples.VertexShakeB::Awake()
+extern "C"  void VertexShakeB_Awake_m1104050827 (VertexShakeB_t3019979320 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VertexShakeB_Awake_m1104050827_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// m_TextComponent = GetComponent<TMP_Text>();
+		// m_TextComponent = GetComponent<TMP_Text>();
+		TMP_Text_t1920000777 * L_0 = Component_GetComponent_TisTMP_Text_t1920000777_m1740531289(__this, /*hidden argument*/Component_GetComponent_TisTMP_Text_t1920000777_m1740531289_MethodInfo_var);
+		__this->set_m_TextComponent_5(L_0);
+		// }
+		return;
+	}
+}
+// System.Void TMPro.Examples.VertexShakeB::OnEnable()
+extern "C"  void VertexShakeB_OnEnable_m260089072 (VertexShakeB_t3019979320 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VertexShakeB_OnEnable_m260089072_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// TMPro_EventManager.TEXT_CHANGED_EVENT.Add(ON_TEXT_CHANGED);
+		IL2CPP_RUNTIME_CLASS_INIT(TMPro_EventManager_t528455910_il2cpp_TypeInfo_var);
+		FastAction_1_t512681271 * L_0 = ((TMPro_EventManager_t528455910_StaticFields*)TMPro_EventManager_t528455910_il2cpp_TypeInfo_var->static_fields)->get_TEXT_CHANGED_EVENT_11();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)VertexShakeB_ON_TEXT_CHANGED_m2381035942_MethodInfo_var);
+		Action_1_t823401499 * L_2 = (Action_1_t823401499 *)il2cpp_codegen_object_new(Action_1_t823401499_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1755939306(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m1755939306_MethodInfo_var);
+		// TMPro_EventManager.TEXT_CHANGED_EVENT.Add(ON_TEXT_CHANGED);
+		NullCheck(L_0);
+		FastAction_1_Add_m1567409615(L_0, L_2, /*hidden argument*/FastAction_1_Add_m1567409615_MethodInfo_var);
+		// }
+		return;
+	}
+}
+// System.Void TMPro.Examples.VertexShakeB::OnDisable()
+extern "C"  void VertexShakeB_OnDisable_m4067669711 (VertexShakeB_t3019979320 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VertexShakeB_OnDisable_m4067669711_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// TMPro_EventManager.TEXT_CHANGED_EVENT.Remove(ON_TEXT_CHANGED);
+		IL2CPP_RUNTIME_CLASS_INIT(TMPro_EventManager_t528455910_il2cpp_TypeInfo_var);
+		FastAction_1_t512681271 * L_0 = ((TMPro_EventManager_t528455910_StaticFields*)TMPro_EventManager_t528455910_il2cpp_TypeInfo_var->static_fields)->get_TEXT_CHANGED_EVENT_11();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)VertexShakeB_ON_TEXT_CHANGED_m2381035942_MethodInfo_var);
+		Action_1_t823401499 * L_2 = (Action_1_t823401499 *)il2cpp_codegen_object_new(Action_1_t823401499_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1755939306(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m1755939306_MethodInfo_var);
+		// TMPro_EventManager.TEXT_CHANGED_EVENT.Remove(ON_TEXT_CHANGED);
+		NullCheck(L_0);
+		FastAction_1_Remove_m3148312212(L_0, L_2, /*hidden argument*/FastAction_1_Remove_m3148312212_MethodInfo_var);
+		// }
+		return;
+	}
+}
+// System.Void TMPro.Examples.VertexShakeB::Start()
+extern "C"  void VertexShakeB_Start_m2229793232 (VertexShakeB_t3019979320 * __this, const MethodInfo* method)
+{
+	{
+		// StartCoroutine(AnimateVertexColors());
+		// StartCoroutine(AnimateVertexColors());
+		Il2CppObject * L_0 = VertexShakeB_AnimateVertexColors_m4215220009(__this, /*hidden argument*/NULL);
+		// StartCoroutine(AnimateVertexColors());
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_0, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void TMPro.Examples.VertexShakeB::ON_TEXT_CHANGED(UnityEngine.Object)
+extern "C"  void VertexShakeB_ON_TEXT_CHANGED_m2381035942 (VertexShakeB_t3019979320 * __this, Object_t1021602117 * ___obj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VertexShakeB_ON_TEXT_CHANGED_m2381035942_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (obj = m_TextComponent)
+		TMP_Text_t1920000777 * L_0 = __this->get_m_TextComponent_5();
+		TMP_Text_t1920000777 * L_1 = L_0;
+		___obj0 = L_1;
+		// if (obj = m_TextComponent)
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		// hasTextChanged = true;
+		__this->set_hasTextChanged_6((bool)1);
+	}
+
+IL_001b:
+	{
+		// }
+		return;
+	}
+}
+// System.Collections.IEnumerator TMPro.Examples.VertexShakeB::AnimateVertexColors()
+extern "C"  Il2CppObject * VertexShakeB_AnimateVertexColors_m4215220009 (VertexShakeB_t3019979320 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VertexShakeB_AnimateVertexColors_m4215220009_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720 * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	{
+		U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720 * L_0 = (U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720 *)il2cpp_codegen_object_new(U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720_il2cpp_TypeInfo_var);
+		U3CAnimateVertexColorsU3Ec__Iterator0__ctor_m3305716215(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_U24this_5(__this);
+		U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720 * L_2 = V_0;
+		V_1 = L_2;
+		goto IL_0014;
+	}
+
+IL_0014:
+	{
+		Il2CppObject * L_3 = V_1;
+		return L_3;
+	}
+}
+// System.Void TMPro.Examples.VertexShakeB/<AnimateVertexColors>c__Iterator0::.ctor()
+extern "C"  void U3CAnimateVertexColorsU3Ec__Iterator0__ctor_m3305716215 (U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean TMPro.Examples.VertexShakeB/<AnimateVertexColors>c__Iterator0::MoveNext()
+extern "C"  bool U3CAnimateVertexColorsU3Ec__Iterator0_MoveNext_m1672060561 (U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CAnimateVertexColorsU3Ec__Iterator0_MoveNext_m1672060561_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	Vector3_t2243707580  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Quaternion_t4030073918  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	Vector3U5BU5D_t1172311765* V_11 = NULL;
+	Vector3_t2243707580  V_12;
+	memset(&V_12, 0, sizeof(V_12));
+	float V_13 = 0.0f;
+	int32_t V_14 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_8();
+		V_0 = L_0;
+		__this->set_U24PC_8((-1));
+		uint32_t L_1 = V_0;
+		switch (L_1)
+		{
+			case 0:
+			{
+				goto IL_0025;
+			}
+			case 1:
+			{
+				goto IL_013e;
+			}
+			case 2:
+			{
+				goto IL_07ae;
+			}
+		}
+	}
+	{
+		goto IL_07bb;
+	}
+
+IL_0025:
+	{
+		// m_TextComponent.ForceMeshUpdate();
+		VertexShakeB_t3019979320 * L_2 = __this->get_U24this_5();
+		NullCheck(L_2);
+		TMP_Text_t1920000777 * L_3 = L_2->get_m_TextComponent_5();
+		// m_TextComponent.ForceMeshUpdate();
+		NullCheck(L_3);
+		VirtActionInvoker0::Invoke(98 /* System.Void TMPro.TMP_Text::ForceMeshUpdate() */, L_3);
+		// TMP_TextInfo textInfo = m_TextComponent.textInfo;
+		VertexShakeB_t3019979320 * L_4 = __this->get_U24this_5();
+		NullCheck(L_4);
+		TMP_Text_t1920000777 * L_5 = L_4->get_m_TextComponent_5();
+		// TMP_TextInfo textInfo = m_TextComponent.textInfo;
+		NullCheck(L_5);
+		TMP_TextInfo_t2849466151 * L_6 = TMP_Text_get_textInfo_m3382403859(L_5, /*hidden argument*/NULL);
+		__this->set_U3CtextInfoU3E__0_0(L_6);
+		// Vector3[][] copyOfVertices = new Vector3[0][];
+		__this->set_U3CcopyOfVerticesU3E__0_1(((Vector3U5BU5DU5BU5D_t1477540408*)SZArrayNew(Vector3U5BU5DU5BU5D_t1477540408_il2cpp_TypeInfo_var, (uint32_t)0)));
+		// hasTextChanged = true;
+		VertexShakeB_t3019979320 * L_7 = __this->get_U24this_5();
+		NullCheck(L_7);
+		L_7->set_hasTextChanged_6((bool)1);
+	}
+
+IL_0064:
+	{
+		// if (hasTextChanged)
+		VertexShakeB_t3019979320 * L_8 = __this->get_U24this_5();
+		NullCheck(L_8);
+		bool L_9 = L_8->get_hasTextChanged_6();
+		if (!L_9)
+		{
+			goto IL_00fd;
+		}
+	}
+	{
+		// if (copyOfVertices.Length < textInfo.meshInfo.Length)
+		Vector3U5BU5DU5BU5D_t1477540408* L_10 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		NullCheck(L_10);
+		TMP_TextInfo_t2849466151 * L_11 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_11);
+		TMP_MeshInfoU5BU5D_t2398608976* L_12 = L_11->get_meshInfo_16();
+		NullCheck(L_12);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_10)->max_length))))) >= ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_12)->max_length)))))))
+		{
+			goto IL_00a9;
+		}
+	}
+	{
+		// copyOfVertices = new Vector3[textInfo.meshInfo.Length][];
+		TMP_TextInfo_t2849466151 * L_13 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_13);
+		TMP_MeshInfoU5BU5D_t2398608976* L_14 = L_13->get_meshInfo_16();
+		NullCheck(L_14);
+		__this->set_U3CcopyOfVerticesU3E__0_1(((Vector3U5BU5DU5BU5D_t1477540408*)SZArrayNew(Vector3U5BU5DU5BU5D_t1477540408_il2cpp_TypeInfo_var, (uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_14)->max_length)))))));
+	}
+
+IL_00a9:
+	{
+		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
+		V_1 = 0;
+		goto IL_00dd;
+	}
+
+IL_00b0:
+	{
+		// int length = textInfo.meshInfo[i].vertices.Length;
+		TMP_TextInfo_t2849466151 * L_15 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_15);
+		TMP_MeshInfoU5BU5D_t2398608976* L_16 = L_15->get_meshInfo_16();
+		int32_t L_17 = V_1;
+		NullCheck(L_16);
+		Vector3U5BU5D_t1172311765* L_18 = ((L_16)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_17)))->get_vertices_5();
+		NullCheck(L_18);
+		V_2 = (((int32_t)((int32_t)(((Il2CppArray *)L_18)->max_length))));
+		// copyOfVertices[i] = new Vector3[length];
+		Vector3U5BU5DU5BU5D_t1477540408* L_19 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_20 = V_1;
+		int32_t L_21 = V_2;
+		NullCheck(L_19);
+		ArrayElementTypeCheck (L_19, ((Vector3U5BU5D_t1172311765*)SZArrayNew(Vector3U5BU5D_t1172311765_il2cpp_TypeInfo_var, (uint32_t)L_21)));
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(L_20), (Vector3U5BU5D_t1172311765*)((Vector3U5BU5D_t1172311765*)SZArrayNew(Vector3U5BU5D_t1172311765_il2cpp_TypeInfo_var, (uint32_t)L_21)));
+		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
+		int32_t L_22 = V_1;
+		V_1 = ((int32_t)((int32_t)L_22+(int32_t)1));
+	}
+
+IL_00dd:
+	{
+		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
+		int32_t L_23 = V_1;
+		TMP_TextInfo_t2849466151 * L_24 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_24);
+		TMP_MeshInfoU5BU5D_t2398608976* L_25 = L_24->get_meshInfo_16();
+		NullCheck(L_25);
+		if ((((int32_t)L_23) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_25)->max_length)))))))
+		{
+			goto IL_00b0;
+		}
+	}
+	{
+		// hasTextChanged = false;
+		VertexShakeB_t3019979320 * L_26 = __this->get_U24this_5();
+		NullCheck(L_26);
+		L_26->set_hasTextChanged_6((bool)0);
+	}
+
+IL_00fd:
+	{
+		// int characterCount = textInfo.characterCount;
+		TMP_TextInfo_t2849466151 * L_27 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_27);
+		int32_t L_28 = L_27->get_characterCount_3();
+		__this->set_U3CcharacterCountU3E__1_2(L_28);
+		// if (characterCount == 0)
+		int32_t L_29 = __this->get_U3CcharacterCountU3E__1_2();
+		if (L_29)
+		{
+			goto IL_0143;
+		}
+	}
+	{
+		// yield return new WaitForSeconds(0.25f);
+		// yield return new WaitForSeconds(0.25f);
+		WaitForSeconds_t3839502067 * L_30 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_30, (0.25f), /*hidden argument*/NULL);
+		__this->set_U24current_6(L_30);
+		bool L_31 = __this->get_U24disposing_7();
+		if (L_31)
+		{
+			goto IL_0139;
+		}
+	}
+	{
+		__this->set_U24PC_8(1);
+	}
+
+IL_0139:
+	{
+		goto IL_07bd;
+	}
+
+IL_013e:
+	{
+		// continue;
+		goto IL_0064;
+	}
+
+IL_0143:
+	{
+		// int lineCount = textInfo.lineCount;
+		TMP_TextInfo_t2849466151 * L_32 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_32);
+		int32_t L_33 = L_32->get_lineCount_8();
+		__this->set_U3ClineCountU3E__1_3(L_33);
+		// for (int i = 0; i < lineCount; i++)
+		V_3 = 0;
+		goto IL_070c;
+	}
+
+IL_015b:
+	{
+		// int first = textInfo.lineInfo[i].firstCharacterIndex;
+		TMP_TextInfo_t2849466151 * L_34 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_34);
+		TMP_LineInfoU5BU5D_t1617569211* L_35 = L_34->get_lineInfo_14();
+		int32_t L_36 = V_3;
+		NullCheck(L_35);
+		int32_t L_37 = ((L_35)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_36)))->get_firstCharacterIndex_4();
+		V_4 = L_37;
+		// int last = textInfo.lineInfo[i].lastCharacterIndex;
+		TMP_TextInfo_t2849466151 * L_38 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_38);
+		TMP_LineInfoU5BU5D_t1617569211* L_39 = L_38->get_lineInfo_14();
+		int32_t L_40 = V_3;
+		NullCheck(L_39);
+		int32_t L_41 = ((L_39)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_40)))->get_lastCharacterIndex_6();
+		V_5 = L_41;
+		// Vector3 centerOfLine = (textInfo.characterInfo[first].bottomLeft + textInfo.characterInfo[last].topRight) / 2;
+		TMP_TextInfo_t2849466151 * L_42 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_42);
+		TMP_CharacterInfoU5BU5D_t602810366* L_43 = L_42->get_characterInfo_11();
+		int32_t L_44 = V_4;
+		NullCheck(L_43);
+		Vector3_t2243707580  L_45 = ((L_43)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_44)))->get_bottomLeft_19();
+		TMP_TextInfo_t2849466151 * L_46 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_46);
+		TMP_CharacterInfoU5BU5D_t602810366* L_47 = L_46->get_characterInfo_11();
+		int32_t L_48 = V_5;
+		NullCheck(L_47);
+		Vector3_t2243707580  L_49 = ((L_47)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_48)))->get_topRight_20();
+		// Vector3 centerOfLine = (textInfo.characterInfo[first].bottomLeft + textInfo.characterInfo[last].topRight) / 2;
+		Vector3_t2243707580  L_50 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_45, L_49, /*hidden argument*/NULL);
+		// Vector3 centerOfLine = (textInfo.characterInfo[first].bottomLeft + textInfo.characterInfo[last].topRight) / 2;
+		Vector3_t2243707580  L_51 = Vector3_op_Division_m3315615850(NULL /*static, unused*/, L_50, (2.0f), /*hidden argument*/NULL);
+		V_6 = L_51;
+		// Quaternion rotation = Quaternion.Euler(0, 0, Random.Range(-0.25f, 0.25f));
+		// Quaternion rotation = Quaternion.Euler(0, 0, Random.Range(-0.25f, 0.25f));
+		float L_52 = Random_Range_m2884721203(NULL /*static, unused*/, (-0.25f), (0.25f), /*hidden argument*/NULL);
+		// Quaternion rotation = Quaternion.Euler(0, 0, Random.Range(-0.25f, 0.25f));
+		Quaternion_t4030073918  L_53 = Quaternion_Euler_m2887458175(NULL /*static, unused*/, (0.0f), (0.0f), L_52, /*hidden argument*/NULL);
+		V_7 = L_53;
+		// for (int j = first; j <= last; j++)
+		int32_t L_54 = V_4;
+		V_8 = L_54;
+		goto IL_06fe;
+	}
+
+IL_01f4:
+	{
+		// if (!textInfo.characterInfo[j].isVisible)
+		TMP_TextInfo_t2849466151 * L_55 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_55);
+		TMP_CharacterInfoU5BU5D_t602810366* L_56 = L_55->get_characterInfo_11();
+		int32_t L_57 = V_8;
+		NullCheck(L_56);
+		bool L_58 = ((L_56)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_57)))->get_isVisible_34();
+		if (L_58)
+		{
+			goto IL_0216;
+		}
+	}
+	{
+		// continue;
+		goto IL_06f8;
+	}
+
+IL_0216:
+	{
+		// int materialIndex = textInfo.characterInfo[j].materialReferenceIndex;
+		TMP_TextInfo_t2849466151 * L_59 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_59);
+		TMP_CharacterInfoU5BU5D_t602810366* L_60 = L_59->get_characterInfo_11();
+		int32_t L_61 = V_8;
+		NullCheck(L_60);
+		int32_t L_62 = ((L_60)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_61)))->get_materialReferenceIndex_8();
+		V_9 = L_62;
+		// int vertexIndex = textInfo.characterInfo[j].vertexIndex;
+		TMP_TextInfo_t2849466151 * L_63 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_63);
+		TMP_CharacterInfoU5BU5D_t602810366* L_64 = L_63->get_characterInfo_11();
+		int32_t L_65 = V_8;
+		NullCheck(L_64);
+		int32_t L_66 = ((L_64)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_65)))->get_vertexIndex_13();
+		V_10 = L_66;
+		// Vector3[] sourceVertices = textInfo.meshInfo[materialIndex].vertices;
+		TMP_TextInfo_t2849466151 * L_67 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_67);
+		TMP_MeshInfoU5BU5D_t2398608976* L_68 = L_67->get_meshInfo_16();
+		int32_t L_69 = V_9;
+		NullCheck(L_68);
+		Vector3U5BU5D_t1172311765* L_70 = ((L_68)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_69)))->get_vertices_5();
+		V_11 = L_70;
+		// Vector3 charCenter = (sourceVertices[vertexIndex + 0] + sourceVertices[vertexIndex + 2]) / 2;
+		Vector3U5BU5D_t1172311765* L_71 = V_11;
+		int32_t L_72 = V_10;
+		NullCheck(L_71);
+		Vector3U5BU5D_t1172311765* L_73 = V_11;
+		int32_t L_74 = V_10;
+		NullCheck(L_73);
+		// Vector3 charCenter = (sourceVertices[vertexIndex + 0] + sourceVertices[vertexIndex + 2]) / 2;
+		Vector3_t2243707580  L_75 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)((L_71)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_72)))), (*(Vector3_t2243707580 *)((L_73)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_74+(int32_t)2)))))), /*hidden argument*/NULL);
+		// Vector3 charCenter = (sourceVertices[vertexIndex + 0] + sourceVertices[vertexIndex + 2]) / 2;
+		Vector3_t2243707580  L_76 = Vector3_op_Division_m3315615850(NULL /*static, unused*/, L_75, (2.0f), /*hidden argument*/NULL);
+		V_12 = L_76;
+		// copyOfVertices[materialIndex][vertexIndex + 0] = sourceVertices[vertexIndex + 0] - charCenter;
+		Vector3U5BU5DU5BU5D_t1477540408* L_77 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_78 = V_9;
+		NullCheck(L_77);
+		int32_t L_79 = L_78;
+		Vector3U5BU5D_t1172311765* L_80 = (L_77)->GetAt(static_cast<il2cpp_array_size_t>(L_79));
+		int32_t L_81 = V_10;
+		NullCheck(L_80);
+		Vector3U5BU5D_t1172311765* L_82 = V_11;
+		int32_t L_83 = V_10;
+		NullCheck(L_82);
+		Vector3_t2243707580  L_84 = V_12;
+		// copyOfVertices[materialIndex][vertexIndex + 0] = sourceVertices[vertexIndex + 0] - charCenter;
+		Vector3_t2243707580  L_85 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, (*(Vector3_t2243707580 *)((L_82)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_83)))), L_84, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_80)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_81)))) = L_85;
+		// copyOfVertices[materialIndex][vertexIndex + 1] = sourceVertices[vertexIndex + 1] - charCenter;
+		Vector3U5BU5DU5BU5D_t1477540408* L_86 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_87 = V_9;
+		NullCheck(L_86);
+		int32_t L_88 = L_87;
+		Vector3U5BU5D_t1172311765* L_89 = (L_86)->GetAt(static_cast<il2cpp_array_size_t>(L_88));
+		int32_t L_90 = V_10;
+		NullCheck(L_89);
+		Vector3U5BU5D_t1172311765* L_91 = V_11;
+		int32_t L_92 = V_10;
+		NullCheck(L_91);
+		Vector3_t2243707580  L_93 = V_12;
+		// copyOfVertices[materialIndex][vertexIndex + 1] = sourceVertices[vertexIndex + 1] - charCenter;
+		Vector3_t2243707580  L_94 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, (*(Vector3_t2243707580 *)((L_91)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_92+(int32_t)1)))))), L_93, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_89)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_90+(int32_t)1)))))) = L_94;
+		// copyOfVertices[materialIndex][vertexIndex + 2] = sourceVertices[vertexIndex + 2] - charCenter;
+		Vector3U5BU5DU5BU5D_t1477540408* L_95 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_96 = V_9;
+		NullCheck(L_95);
+		int32_t L_97 = L_96;
+		Vector3U5BU5D_t1172311765* L_98 = (L_95)->GetAt(static_cast<il2cpp_array_size_t>(L_97));
+		int32_t L_99 = V_10;
+		NullCheck(L_98);
+		Vector3U5BU5D_t1172311765* L_100 = V_11;
+		int32_t L_101 = V_10;
+		NullCheck(L_100);
+		Vector3_t2243707580  L_102 = V_12;
+		// copyOfVertices[materialIndex][vertexIndex + 2] = sourceVertices[vertexIndex + 2] - charCenter;
+		Vector3_t2243707580  L_103 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, (*(Vector3_t2243707580 *)((L_100)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_101+(int32_t)2)))))), L_102, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_98)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_99+(int32_t)2)))))) = L_103;
+		// copyOfVertices[materialIndex][vertexIndex + 3] = sourceVertices[vertexIndex + 3] - charCenter;
+		Vector3U5BU5DU5BU5D_t1477540408* L_104 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_105 = V_9;
+		NullCheck(L_104);
+		int32_t L_106 = L_105;
+		Vector3U5BU5D_t1172311765* L_107 = (L_104)->GetAt(static_cast<il2cpp_array_size_t>(L_106));
+		int32_t L_108 = V_10;
+		NullCheck(L_107);
+		Vector3U5BU5D_t1172311765* L_109 = V_11;
+		int32_t L_110 = V_10;
+		NullCheck(L_109);
+		Vector3_t2243707580  L_111 = V_12;
+		// copyOfVertices[materialIndex][vertexIndex + 3] = sourceVertices[vertexIndex + 3] - charCenter;
+		Vector3_t2243707580  L_112 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, (*(Vector3_t2243707580 *)((L_109)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_110+(int32_t)3)))))), L_111, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_107)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_108+(int32_t)3)))))) = L_112;
+		// float randomScale = Random.Range(0.95f, 1.05f);
+		// float randomScale = Random.Range(0.95f, 1.05f);
+		float L_113 = Random_Range_m2884721203(NULL /*static, unused*/, (0.95f), (1.05f), /*hidden argument*/NULL);
+		V_13 = L_113;
+		// matrix = Matrix4x4.TRS(Vector3.one, Quaternion.identity, Vector3.one * randomScale);
+		// matrix = Matrix4x4.TRS(Vector3.one, Quaternion.identity, Vector3.one * randomScale);
+		Vector3_t2243707580  L_114 = Vector3_get_one_m627547232(NULL /*static, unused*/, /*hidden argument*/NULL);
+		// matrix = Matrix4x4.TRS(Vector3.one, Quaternion.identity, Vector3.one * randomScale);
+		Quaternion_t4030073918  L_115 = Quaternion_get_identity_m1561886418(NULL /*static, unused*/, /*hidden argument*/NULL);
+		// matrix = Matrix4x4.TRS(Vector3.one, Quaternion.identity, Vector3.one * randomScale);
+		Vector3_t2243707580  L_116 = Vector3_get_one_m627547232(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_117 = V_13;
+		// matrix = Matrix4x4.TRS(Vector3.one, Quaternion.identity, Vector3.one * randomScale);
+		Vector3_t2243707580  L_118 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_116, L_117, /*hidden argument*/NULL);
+		// matrix = Matrix4x4.TRS(Vector3.one, Quaternion.identity, Vector3.one * randomScale);
+		Matrix4x4_t2933234003  L_119 = Matrix4x4_TRS_m1913765359(NULL /*static, unused*/, L_114, L_115, L_118, /*hidden argument*/NULL);
+		__this->set_U3CmatrixU3E__2_4(L_119);
+		// copyOfVertices[materialIndex][vertexIndex + 0] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 0]);
+		Vector3U5BU5DU5BU5D_t1477540408* L_120 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_121 = V_9;
+		NullCheck(L_120);
+		int32_t L_122 = L_121;
+		Vector3U5BU5D_t1172311765* L_123 = (L_120)->GetAt(static_cast<il2cpp_array_size_t>(L_122));
+		int32_t L_124 = V_10;
+		NullCheck(L_123);
+		Matrix4x4_t2933234003 * L_125 = __this->get_address_of_U3CmatrixU3E__2_4();
+		Vector3U5BU5DU5BU5D_t1477540408* L_126 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_127 = V_9;
+		NullCheck(L_126);
+		int32_t L_128 = L_127;
+		Vector3U5BU5D_t1172311765* L_129 = (L_126)->GetAt(static_cast<il2cpp_array_size_t>(L_128));
+		int32_t L_130 = V_10;
+		NullCheck(L_129);
+		// copyOfVertices[materialIndex][vertexIndex + 0] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 0]);
+		Vector3_t2243707580  L_131 = Matrix4x4_MultiplyPoint3x4_m1007952212(L_125, (*(Vector3_t2243707580 *)((L_129)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_130)))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_123)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_124)))) = L_131;
+		// copyOfVertices[materialIndex][vertexIndex + 1] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 1]);
+		Vector3U5BU5DU5BU5D_t1477540408* L_132 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_133 = V_9;
+		NullCheck(L_132);
+		int32_t L_134 = L_133;
+		Vector3U5BU5D_t1172311765* L_135 = (L_132)->GetAt(static_cast<il2cpp_array_size_t>(L_134));
+		int32_t L_136 = V_10;
+		NullCheck(L_135);
+		Matrix4x4_t2933234003 * L_137 = __this->get_address_of_U3CmatrixU3E__2_4();
+		Vector3U5BU5DU5BU5D_t1477540408* L_138 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_139 = V_9;
+		NullCheck(L_138);
+		int32_t L_140 = L_139;
+		Vector3U5BU5D_t1172311765* L_141 = (L_138)->GetAt(static_cast<il2cpp_array_size_t>(L_140));
+		int32_t L_142 = V_10;
+		NullCheck(L_141);
+		// copyOfVertices[materialIndex][vertexIndex + 1] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 1]);
+		Vector3_t2243707580  L_143 = Matrix4x4_MultiplyPoint3x4_m1007952212(L_137, (*(Vector3_t2243707580 *)((L_141)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_142+(int32_t)1)))))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_135)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_136+(int32_t)1)))))) = L_143;
+		// copyOfVertices[materialIndex][vertexIndex + 2] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 2]);
+		Vector3U5BU5DU5BU5D_t1477540408* L_144 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_145 = V_9;
+		NullCheck(L_144);
+		int32_t L_146 = L_145;
+		Vector3U5BU5D_t1172311765* L_147 = (L_144)->GetAt(static_cast<il2cpp_array_size_t>(L_146));
+		int32_t L_148 = V_10;
+		NullCheck(L_147);
+		Matrix4x4_t2933234003 * L_149 = __this->get_address_of_U3CmatrixU3E__2_4();
+		Vector3U5BU5DU5BU5D_t1477540408* L_150 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_151 = V_9;
+		NullCheck(L_150);
+		int32_t L_152 = L_151;
+		Vector3U5BU5D_t1172311765* L_153 = (L_150)->GetAt(static_cast<il2cpp_array_size_t>(L_152));
+		int32_t L_154 = V_10;
+		NullCheck(L_153);
+		// copyOfVertices[materialIndex][vertexIndex + 2] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 2]);
+		Vector3_t2243707580  L_155 = Matrix4x4_MultiplyPoint3x4_m1007952212(L_149, (*(Vector3_t2243707580 *)((L_153)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_154+(int32_t)2)))))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_147)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_148+(int32_t)2)))))) = L_155;
+		// copyOfVertices[materialIndex][vertexIndex + 3] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 3]);
+		Vector3U5BU5DU5BU5D_t1477540408* L_156 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_157 = V_9;
+		NullCheck(L_156);
+		int32_t L_158 = L_157;
+		Vector3U5BU5D_t1172311765* L_159 = (L_156)->GetAt(static_cast<il2cpp_array_size_t>(L_158));
+		int32_t L_160 = V_10;
+		NullCheck(L_159);
+		Matrix4x4_t2933234003 * L_161 = __this->get_address_of_U3CmatrixU3E__2_4();
+		Vector3U5BU5DU5BU5D_t1477540408* L_162 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_163 = V_9;
+		NullCheck(L_162);
+		int32_t L_164 = L_163;
+		Vector3U5BU5D_t1172311765* L_165 = (L_162)->GetAt(static_cast<il2cpp_array_size_t>(L_164));
+		int32_t L_166 = V_10;
+		NullCheck(L_165);
+		// copyOfVertices[materialIndex][vertexIndex + 3] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 3]);
+		Vector3_t2243707580  L_167 = Matrix4x4_MultiplyPoint3x4_m1007952212(L_161, (*(Vector3_t2243707580 *)((L_165)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_166+(int32_t)3)))))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_159)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_160+(int32_t)3)))))) = L_167;
+		// copyOfVertices[materialIndex][vertexIndex + 0] += charCenter;
+		Vector3U5BU5DU5BU5D_t1477540408* L_168 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_169 = V_9;
+		NullCheck(L_168);
+		int32_t L_170 = L_169;
+		Vector3U5BU5D_t1172311765* L_171 = (L_168)->GetAt(static_cast<il2cpp_array_size_t>(L_170));
+		int32_t L_172 = V_10;
+		NullCheck(L_171);
+		Vector3_t2243707580 * L_173 = ((L_171)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_172)));
+		Vector3_t2243707580  L_174 = V_12;
+		// copyOfVertices[materialIndex][vertexIndex + 0] += charCenter;
+		Vector3_t2243707580  L_175 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_173), L_174, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_173) = L_175;
+		// copyOfVertices[materialIndex][vertexIndex + 1] += charCenter;
+		Vector3U5BU5DU5BU5D_t1477540408* L_176 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_177 = V_9;
+		NullCheck(L_176);
+		int32_t L_178 = L_177;
+		Vector3U5BU5D_t1172311765* L_179 = (L_176)->GetAt(static_cast<il2cpp_array_size_t>(L_178));
+		int32_t L_180 = V_10;
+		NullCheck(L_179);
+		Vector3_t2243707580 * L_181 = ((L_179)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_180+(int32_t)1)))));
+		Vector3_t2243707580  L_182 = V_12;
+		// copyOfVertices[materialIndex][vertexIndex + 1] += charCenter;
+		Vector3_t2243707580  L_183 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_181), L_182, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_181) = L_183;
+		// copyOfVertices[materialIndex][vertexIndex + 2] += charCenter;
+		Vector3U5BU5DU5BU5D_t1477540408* L_184 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_185 = V_9;
+		NullCheck(L_184);
+		int32_t L_186 = L_185;
+		Vector3U5BU5D_t1172311765* L_187 = (L_184)->GetAt(static_cast<il2cpp_array_size_t>(L_186));
+		int32_t L_188 = V_10;
+		NullCheck(L_187);
+		Vector3_t2243707580 * L_189 = ((L_187)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_188+(int32_t)2)))));
+		Vector3_t2243707580  L_190 = V_12;
+		// copyOfVertices[materialIndex][vertexIndex + 2] += charCenter;
+		Vector3_t2243707580  L_191 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_189), L_190, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_189) = L_191;
+		// copyOfVertices[materialIndex][vertexIndex + 3] += charCenter;
+		Vector3U5BU5DU5BU5D_t1477540408* L_192 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_193 = V_9;
+		NullCheck(L_192);
+		int32_t L_194 = L_193;
+		Vector3U5BU5D_t1172311765* L_195 = (L_192)->GetAt(static_cast<il2cpp_array_size_t>(L_194));
+		int32_t L_196 = V_10;
+		NullCheck(L_195);
+		Vector3_t2243707580 * L_197 = ((L_195)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_196+(int32_t)3)))));
+		Vector3_t2243707580  L_198 = V_12;
+		// copyOfVertices[materialIndex][vertexIndex + 3] += charCenter;
+		Vector3_t2243707580  L_199 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_197), L_198, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_197) = L_199;
+		// copyOfVertices[materialIndex][vertexIndex + 0] -= centerOfLine;
+		Vector3U5BU5DU5BU5D_t1477540408* L_200 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_201 = V_9;
+		NullCheck(L_200);
+		int32_t L_202 = L_201;
+		Vector3U5BU5D_t1172311765* L_203 = (L_200)->GetAt(static_cast<il2cpp_array_size_t>(L_202));
+		int32_t L_204 = V_10;
+		NullCheck(L_203);
+		Vector3_t2243707580 * L_205 = ((L_203)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_204)));
+		Vector3_t2243707580  L_206 = V_6;
+		// copyOfVertices[materialIndex][vertexIndex + 0] -= centerOfLine;
+		Vector3_t2243707580  L_207 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_205), L_206, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_205) = L_207;
+		// copyOfVertices[materialIndex][vertexIndex + 1] -= centerOfLine;
+		Vector3U5BU5DU5BU5D_t1477540408* L_208 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_209 = V_9;
+		NullCheck(L_208);
+		int32_t L_210 = L_209;
+		Vector3U5BU5D_t1172311765* L_211 = (L_208)->GetAt(static_cast<il2cpp_array_size_t>(L_210));
+		int32_t L_212 = V_10;
+		NullCheck(L_211);
+		Vector3_t2243707580 * L_213 = ((L_211)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_212+(int32_t)1)))));
+		Vector3_t2243707580  L_214 = V_6;
+		// copyOfVertices[materialIndex][vertexIndex + 1] -= centerOfLine;
+		Vector3_t2243707580  L_215 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_213), L_214, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_213) = L_215;
+		// copyOfVertices[materialIndex][vertexIndex + 2] -= centerOfLine;
+		Vector3U5BU5DU5BU5D_t1477540408* L_216 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_217 = V_9;
+		NullCheck(L_216);
+		int32_t L_218 = L_217;
+		Vector3U5BU5D_t1172311765* L_219 = (L_216)->GetAt(static_cast<il2cpp_array_size_t>(L_218));
+		int32_t L_220 = V_10;
+		NullCheck(L_219);
+		Vector3_t2243707580 * L_221 = ((L_219)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_220+(int32_t)2)))));
+		Vector3_t2243707580  L_222 = V_6;
+		// copyOfVertices[materialIndex][vertexIndex + 2] -= centerOfLine;
+		Vector3_t2243707580  L_223 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_221), L_222, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_221) = L_223;
+		// copyOfVertices[materialIndex][vertexIndex + 3] -= centerOfLine;
+		Vector3U5BU5DU5BU5D_t1477540408* L_224 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_225 = V_9;
+		NullCheck(L_224);
+		int32_t L_226 = L_225;
+		Vector3U5BU5D_t1172311765* L_227 = (L_224)->GetAt(static_cast<il2cpp_array_size_t>(L_226));
+		int32_t L_228 = V_10;
+		NullCheck(L_227);
+		Vector3_t2243707580 * L_229 = ((L_227)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_228+(int32_t)3)))));
+		Vector3_t2243707580  L_230 = V_6;
+		// copyOfVertices[materialIndex][vertexIndex + 3] -= centerOfLine;
+		Vector3_t2243707580  L_231 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_229), L_230, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_229) = L_231;
+		// matrix = Matrix4x4.TRS(Vector3.one, rotation, Vector3.one);
+		// matrix = Matrix4x4.TRS(Vector3.one, rotation, Vector3.one);
+		Vector3_t2243707580  L_232 = Vector3_get_one_m627547232(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_233 = V_7;
+		// matrix = Matrix4x4.TRS(Vector3.one, rotation, Vector3.one);
+		Vector3_t2243707580  L_234 = Vector3_get_one_m627547232(NULL /*static, unused*/, /*hidden argument*/NULL);
+		// matrix = Matrix4x4.TRS(Vector3.one, rotation, Vector3.one);
+		Matrix4x4_t2933234003  L_235 = Matrix4x4_TRS_m1913765359(NULL /*static, unused*/, L_232, L_233, L_234, /*hidden argument*/NULL);
+		__this->set_U3CmatrixU3E__2_4(L_235);
+		// copyOfVertices[materialIndex][vertexIndex + 0] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 0]);
+		Vector3U5BU5DU5BU5D_t1477540408* L_236 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_237 = V_9;
+		NullCheck(L_236);
+		int32_t L_238 = L_237;
+		Vector3U5BU5D_t1172311765* L_239 = (L_236)->GetAt(static_cast<il2cpp_array_size_t>(L_238));
+		int32_t L_240 = V_10;
+		NullCheck(L_239);
+		Matrix4x4_t2933234003 * L_241 = __this->get_address_of_U3CmatrixU3E__2_4();
+		Vector3U5BU5DU5BU5D_t1477540408* L_242 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_243 = V_9;
+		NullCheck(L_242);
+		int32_t L_244 = L_243;
+		Vector3U5BU5D_t1172311765* L_245 = (L_242)->GetAt(static_cast<il2cpp_array_size_t>(L_244));
+		int32_t L_246 = V_10;
+		NullCheck(L_245);
+		// copyOfVertices[materialIndex][vertexIndex + 0] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 0]);
+		Vector3_t2243707580  L_247 = Matrix4x4_MultiplyPoint3x4_m1007952212(L_241, (*(Vector3_t2243707580 *)((L_245)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_246)))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_239)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_240)))) = L_247;
+		// copyOfVertices[materialIndex][vertexIndex + 1] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 1]);
+		Vector3U5BU5DU5BU5D_t1477540408* L_248 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_249 = V_9;
+		NullCheck(L_248);
+		int32_t L_250 = L_249;
+		Vector3U5BU5D_t1172311765* L_251 = (L_248)->GetAt(static_cast<il2cpp_array_size_t>(L_250));
+		int32_t L_252 = V_10;
+		NullCheck(L_251);
+		Matrix4x4_t2933234003 * L_253 = __this->get_address_of_U3CmatrixU3E__2_4();
+		Vector3U5BU5DU5BU5D_t1477540408* L_254 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_255 = V_9;
+		NullCheck(L_254);
+		int32_t L_256 = L_255;
+		Vector3U5BU5D_t1172311765* L_257 = (L_254)->GetAt(static_cast<il2cpp_array_size_t>(L_256));
+		int32_t L_258 = V_10;
+		NullCheck(L_257);
+		// copyOfVertices[materialIndex][vertexIndex + 1] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 1]);
+		Vector3_t2243707580  L_259 = Matrix4x4_MultiplyPoint3x4_m1007952212(L_253, (*(Vector3_t2243707580 *)((L_257)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_258+(int32_t)1)))))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_251)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_252+(int32_t)1)))))) = L_259;
+		// copyOfVertices[materialIndex][vertexIndex + 2] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 2]);
+		Vector3U5BU5DU5BU5D_t1477540408* L_260 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_261 = V_9;
+		NullCheck(L_260);
+		int32_t L_262 = L_261;
+		Vector3U5BU5D_t1172311765* L_263 = (L_260)->GetAt(static_cast<il2cpp_array_size_t>(L_262));
+		int32_t L_264 = V_10;
+		NullCheck(L_263);
+		Matrix4x4_t2933234003 * L_265 = __this->get_address_of_U3CmatrixU3E__2_4();
+		Vector3U5BU5DU5BU5D_t1477540408* L_266 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_267 = V_9;
+		NullCheck(L_266);
+		int32_t L_268 = L_267;
+		Vector3U5BU5D_t1172311765* L_269 = (L_266)->GetAt(static_cast<il2cpp_array_size_t>(L_268));
+		int32_t L_270 = V_10;
+		NullCheck(L_269);
+		// copyOfVertices[materialIndex][vertexIndex + 2] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 2]);
+		Vector3_t2243707580  L_271 = Matrix4x4_MultiplyPoint3x4_m1007952212(L_265, (*(Vector3_t2243707580 *)((L_269)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_270+(int32_t)2)))))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_263)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_264+(int32_t)2)))))) = L_271;
+		// copyOfVertices[materialIndex][vertexIndex + 3] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 3]);
+		Vector3U5BU5DU5BU5D_t1477540408* L_272 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_273 = V_9;
+		NullCheck(L_272);
+		int32_t L_274 = L_273;
+		Vector3U5BU5D_t1172311765* L_275 = (L_272)->GetAt(static_cast<il2cpp_array_size_t>(L_274));
+		int32_t L_276 = V_10;
+		NullCheck(L_275);
+		Matrix4x4_t2933234003 * L_277 = __this->get_address_of_U3CmatrixU3E__2_4();
+		Vector3U5BU5DU5BU5D_t1477540408* L_278 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_279 = V_9;
+		NullCheck(L_278);
+		int32_t L_280 = L_279;
+		Vector3U5BU5D_t1172311765* L_281 = (L_278)->GetAt(static_cast<il2cpp_array_size_t>(L_280));
+		int32_t L_282 = V_10;
+		NullCheck(L_281);
+		// copyOfVertices[materialIndex][vertexIndex + 3] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 3]);
+		Vector3_t2243707580  L_283 = Matrix4x4_MultiplyPoint3x4_m1007952212(L_277, (*(Vector3_t2243707580 *)((L_281)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_282+(int32_t)3)))))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_275)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_276+(int32_t)3)))))) = L_283;
+		// copyOfVertices[materialIndex][vertexIndex + 0] += centerOfLine;
+		Vector3U5BU5DU5BU5D_t1477540408* L_284 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_285 = V_9;
+		NullCheck(L_284);
+		int32_t L_286 = L_285;
+		Vector3U5BU5D_t1172311765* L_287 = (L_284)->GetAt(static_cast<il2cpp_array_size_t>(L_286));
+		int32_t L_288 = V_10;
+		NullCheck(L_287);
+		Vector3_t2243707580 * L_289 = ((L_287)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_288)));
+		Vector3_t2243707580  L_290 = V_6;
+		// copyOfVertices[materialIndex][vertexIndex + 0] += centerOfLine;
+		Vector3_t2243707580  L_291 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_289), L_290, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_289) = L_291;
+		// copyOfVertices[materialIndex][vertexIndex + 1] += centerOfLine;
+		Vector3U5BU5DU5BU5D_t1477540408* L_292 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_293 = V_9;
+		NullCheck(L_292);
+		int32_t L_294 = L_293;
+		Vector3U5BU5D_t1172311765* L_295 = (L_292)->GetAt(static_cast<il2cpp_array_size_t>(L_294));
+		int32_t L_296 = V_10;
+		NullCheck(L_295);
+		Vector3_t2243707580 * L_297 = ((L_295)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_296+(int32_t)1)))));
+		Vector3_t2243707580  L_298 = V_6;
+		// copyOfVertices[materialIndex][vertexIndex + 1] += centerOfLine;
+		Vector3_t2243707580  L_299 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_297), L_298, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_297) = L_299;
+		// copyOfVertices[materialIndex][vertexIndex + 2] += centerOfLine;
+		Vector3U5BU5DU5BU5D_t1477540408* L_300 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_301 = V_9;
+		NullCheck(L_300);
+		int32_t L_302 = L_301;
+		Vector3U5BU5D_t1172311765* L_303 = (L_300)->GetAt(static_cast<il2cpp_array_size_t>(L_302));
+		int32_t L_304 = V_10;
+		NullCheck(L_303);
+		Vector3_t2243707580 * L_305 = ((L_303)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_304+(int32_t)2)))));
+		Vector3_t2243707580  L_306 = V_6;
+		// copyOfVertices[materialIndex][vertexIndex + 2] += centerOfLine;
+		Vector3_t2243707580  L_307 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_305), L_306, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_305) = L_307;
+		// copyOfVertices[materialIndex][vertexIndex + 3] += centerOfLine;
+		Vector3U5BU5DU5BU5D_t1477540408* L_308 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_309 = V_9;
+		NullCheck(L_308);
+		int32_t L_310 = L_309;
+		Vector3U5BU5D_t1172311765* L_311 = (L_308)->GetAt(static_cast<il2cpp_array_size_t>(L_310));
+		int32_t L_312 = V_10;
+		NullCheck(L_311);
+		Vector3_t2243707580 * L_313 = ((L_311)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_312+(int32_t)3)))));
+		Vector3_t2243707580  L_314 = V_6;
+		// copyOfVertices[materialIndex][vertexIndex + 3] += centerOfLine;
+		Vector3_t2243707580  L_315 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_313), L_314, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_313) = L_315;
+	}
+
+IL_06f8:
+	{
+		// for (int j = first; j <= last; j++)
+		int32_t L_316 = V_8;
+		V_8 = ((int32_t)((int32_t)L_316+(int32_t)1));
+	}
+
+IL_06fe:
+	{
+		// for (int j = first; j <= last; j++)
+		int32_t L_317 = V_8;
+		int32_t L_318 = V_5;
+		if ((((int32_t)L_317) <= ((int32_t)L_318)))
+		{
+			goto IL_01f4;
+		}
+	}
+	{
+		// for (int i = 0; i < lineCount; i++)
+		int32_t L_319 = V_3;
+		V_3 = ((int32_t)((int32_t)L_319+(int32_t)1));
+	}
+
+IL_070c:
+	{
+		// for (int i = 0; i < lineCount; i++)
+		int32_t L_320 = V_3;
+		int32_t L_321 = __this->get_U3ClineCountU3E__1_3();
+		if ((((int32_t)L_320) < ((int32_t)L_321)))
+		{
+			goto IL_015b;
+		}
+	}
+	{
+		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
+		V_14 = 0;
+		goto IL_0776;
+	}
+
+IL_0720:
+	{
+		// textInfo.meshInfo[i].mesh.vertices = copyOfVertices[i];
+		TMP_TextInfo_t2849466151 * L_322 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_322);
+		TMP_MeshInfoU5BU5D_t2398608976* L_323 = L_322->get_meshInfo_16();
+		int32_t L_324 = V_14;
+		NullCheck(L_323);
+		Mesh_t1356156583 * L_325 = ((L_323)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_324)))->get_mesh_3();
+		Vector3U5BU5DU5BU5D_t1477540408* L_326 = __this->get_U3CcopyOfVerticesU3E__0_1();
+		int32_t L_327 = V_14;
+		NullCheck(L_326);
+		int32_t L_328 = L_327;
+		Vector3U5BU5D_t1172311765* L_329 = (L_326)->GetAt(static_cast<il2cpp_array_size_t>(L_328));
+		// textInfo.meshInfo[i].mesh.vertices = copyOfVertices[i];
+		NullCheck(L_325);
+		Mesh_set_vertices_m2936804213(L_325, L_329, /*hidden argument*/NULL);
+		// m_TextComponent.UpdateGeometry(textInfo.meshInfo[i].mesh, i);
+		VertexShakeB_t3019979320 * L_330 = __this->get_U24this_5();
+		NullCheck(L_330);
+		TMP_Text_t1920000777 * L_331 = L_330->get_m_TextComponent_5();
+		TMP_TextInfo_t2849466151 * L_332 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_332);
+		TMP_MeshInfoU5BU5D_t2398608976* L_333 = L_332->get_meshInfo_16();
+		int32_t L_334 = V_14;
+		NullCheck(L_333);
+		Mesh_t1356156583 * L_335 = ((L_333)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_334)))->get_mesh_3();
+		int32_t L_336 = V_14;
+		// m_TextComponent.UpdateGeometry(textInfo.meshInfo[i].mesh, i);
+		NullCheck(L_331);
+		VirtActionInvoker2< Mesh_t1356156583 *, int32_t >::Invoke(100 /* System.Void TMPro.TMP_Text::UpdateGeometry(UnityEngine.Mesh,System.Int32) */, L_331, L_335, L_336);
+		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
+		int32_t L_337 = V_14;
+		V_14 = ((int32_t)((int32_t)L_337+(int32_t)1));
+	}
+
+IL_0776:
+	{
+		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
+		int32_t L_338 = V_14;
+		TMP_TextInfo_t2849466151 * L_339 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_339);
+		TMP_MeshInfoU5BU5D_t2398608976* L_340 = L_339->get_meshInfo_16();
+		NullCheck(L_340);
+		if ((((int32_t)L_338) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_340)->max_length)))))))
+		{
+			goto IL_0720;
+		}
+	}
+	{
+		// yield return new WaitForSeconds(0.1f);
+		// yield return new WaitForSeconds(0.1f);
+		WaitForSeconds_t3839502067 * L_341 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_341, (0.1f), /*hidden argument*/NULL);
+		__this->set_U24current_6(L_341);
+		bool L_342 = __this->get_U24disposing_7();
+		if (L_342)
+		{
+			goto IL_07a9;
+		}
+	}
+	{
+		__this->set_U24PC_8(2);
+	}
+
+IL_07a9:
+	{
+		goto IL_07bd;
+	}
+
+IL_07ae:
+	{
+		goto IL_0064;
+	}
+	// Dead block : IL_07b4: ldarg.0
+
+IL_07bb:
+	{
+		return (bool)0;
+	}
+
+IL_07bd:
+	{
+		return (bool)1;
+	}
+}
+// System.Object TMPro.Examples.VertexShakeB/<AnimateVertexColors>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CAnimateVertexColorsU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3017560217 (U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720 * __this, const MethodInfo* method)
+{
+	Il2CppObject * V_0 = NULL;
+	{
+		Il2CppObject * L_0 = __this->get_U24current_6();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Il2CppObject * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Object TMPro.Examples.VertexShakeB/<AnimateVertexColors>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CAnimateVertexColorsU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2038025393 (U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720 * __this, const MethodInfo* method)
+{
+	Il2CppObject * V_0 = NULL;
+	{
+		Il2CppObject * L_0 = __this->get_U24current_6();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Il2CppObject * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void TMPro.Examples.VertexShakeB/<AnimateVertexColors>c__Iterator0::Dispose()
+extern "C"  void U3CAnimateVertexColorsU3Ec__Iterator0_Dispose_m843058106 (U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_7((bool)1);
+		__this->set_U24PC_8((-1));
+		return;
+	}
+}
+// System.Void TMPro.Examples.VertexShakeB/<AnimateVertexColors>c__Iterator0::Reset()
+extern "C"  void U3CAnimateVertexColorsU3Ec__Iterator0_Reset_m3108543948 (U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CAnimateVertexColorsU3Ec__Iterator0_Reset_m3108543948_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void TMPro.Examples.VertexZoom::.ctor()
+extern "C"  void VertexZoom__ctor_m3454350067 (VertexZoom_t3463934435 * __this, const MethodInfo* method)
+{
+	{
+		// public float AngleMultiplier = 1.0f;
+		__this->set_AngleMultiplier_2((1.0f));
+		// public float SpeedMultiplier = 1.0f;
+		__this->set_SpeedMultiplier_3((1.0f));
+		// public float CurveScale = 1.0f;
+		__this->set_CurveScale_4((1.0f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void TMPro.Examples.VertexZoom::Awake()
+extern "C"  void VertexZoom_Awake_m2483782002 (VertexZoom_t3463934435 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VertexZoom_Awake_m2483782002_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// m_TextComponent = GetComponent<TMP_Text>();
+		// m_TextComponent = GetComponent<TMP_Text>();
+		TMP_Text_t1920000777 * L_0 = Component_GetComponent_TisTMP_Text_t1920000777_m1740531289(__this, /*hidden argument*/Component_GetComponent_TisTMP_Text_t1920000777_m1740531289_MethodInfo_var);
+		__this->set_m_TextComponent_5(L_0);
+		// }
+		return;
+	}
+}
+// System.Void TMPro.Examples.VertexZoom::OnEnable()
+extern "C"  void VertexZoom_OnEnable_m1582059271 (VertexZoom_t3463934435 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VertexZoom_OnEnable_m1582059271_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// TMPro_EventManager.TEXT_CHANGED_EVENT.Add(ON_TEXT_CHANGED);
+		IL2CPP_RUNTIME_CLASS_INIT(TMPro_EventManager_t528455910_il2cpp_TypeInfo_var);
+		FastAction_1_t512681271 * L_0 = ((TMPro_EventManager_t528455910_StaticFields*)TMPro_EventManager_t528455910_il2cpp_TypeInfo_var->static_fields)->get_TEXT_CHANGED_EVENT_11();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)VertexZoom_ON_TEXT_CHANGED_m3404530063_MethodInfo_var);
+		Action_1_t823401499 * L_2 = (Action_1_t823401499 *)il2cpp_codegen_object_new(Action_1_t823401499_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1755939306(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m1755939306_MethodInfo_var);
+		// TMPro_EventManager.TEXT_CHANGED_EVENT.Add(ON_TEXT_CHANGED);
+		NullCheck(L_0);
+		FastAction_1_Add_m1567409615(L_0, L_2, /*hidden argument*/FastAction_1_Add_m1567409615_MethodInfo_var);
+		// }
+		return;
+	}
+}
+// System.Void TMPro.Examples.VertexZoom::OnDisable()
+extern "C"  void VertexZoom_OnDisable_m876200038 (VertexZoom_t3463934435 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VertexZoom_OnDisable_m876200038_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// TMPro_EventManager.TEXT_CHANGED_EVENT.Remove(ON_TEXT_CHANGED);
+		IL2CPP_RUNTIME_CLASS_INIT(TMPro_EventManager_t528455910_il2cpp_TypeInfo_var);
+		FastAction_1_t512681271 * L_0 = ((TMPro_EventManager_t528455910_StaticFields*)TMPro_EventManager_t528455910_il2cpp_TypeInfo_var->static_fields)->get_TEXT_CHANGED_EVENT_11();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)VertexZoom_ON_TEXT_CHANGED_m3404530063_MethodInfo_var);
+		Action_1_t823401499 * L_2 = (Action_1_t823401499 *)il2cpp_codegen_object_new(Action_1_t823401499_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1755939306(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m1755939306_MethodInfo_var);
+		// TMPro_EventManager.TEXT_CHANGED_EVENT.Remove(ON_TEXT_CHANGED);
+		NullCheck(L_0);
+		FastAction_1_Remove_m3148312212(L_0, L_2, /*hidden argument*/FastAction_1_Remove_m3148312212_MethodInfo_var);
+		// }
+		return;
+	}
+}
+// System.Void TMPro.Examples.VertexZoom::Start()
+extern "C"  void VertexZoom_Start_m21164647 (VertexZoom_t3463934435 * __this, const MethodInfo* method)
+{
+	{
+		// StartCoroutine(AnimateVertexColors());
+		// StartCoroutine(AnimateVertexColors());
+		Il2CppObject * L_0 = VertexZoom_AnimateVertexColors_m1061191440(__this, /*hidden argument*/NULL);
+		// StartCoroutine(AnimateVertexColors());
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_0, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void TMPro.Examples.VertexZoom::ON_TEXT_CHANGED(UnityEngine.Object)
+extern "C"  void VertexZoom_ON_TEXT_CHANGED_m3404530063 (VertexZoom_t3463934435 * __this, Object_t1021602117 * ___obj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VertexZoom_ON_TEXT_CHANGED_m3404530063_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (obj == m_TextComponent)
+		Object_t1021602117 * L_0 = ___obj0;
+		TMP_Text_t1920000777 * L_1 = __this->get_m_TextComponent_5();
+		// if (obj == m_TextComponent)
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		// hasTextChanged = true;
+		__this->set_hasTextChanged_6((bool)1);
+	}
+
+IL_0019:
+	{
+		// }
+		return;
+	}
+}
+// System.Collections.IEnumerator TMPro.Examples.VertexZoom::AnimateVertexColors()
+extern "C"  Il2CppObject * VertexZoom_AnimateVertexColors_m1061191440 (VertexZoom_t3463934435 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VertexZoom_AnimateVertexColors_m1061191440_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CAnimateVertexColorsU3Ec__Iterator0_t76635731 * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	{
+		U3CAnimateVertexColorsU3Ec__Iterator0_t76635731 * L_0 = (U3CAnimateVertexColorsU3Ec__Iterator0_t76635731 *)il2cpp_codegen_object_new(U3CAnimateVertexColorsU3Ec__Iterator0_t76635731_il2cpp_TypeInfo_var);
+		U3CAnimateVertexColorsU3Ec__Iterator0__ctor_m430843134(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CAnimateVertexColorsU3Ec__Iterator0_t76635731 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_U24this_5(__this);
+		U3CAnimateVertexColorsU3Ec__Iterator0_t76635731 * L_2 = V_0;
+		V_1 = L_2;
+		goto IL_0014;
+	}
+
+IL_0014:
+	{
+		Il2CppObject * L_3 = V_1;
+		return L_3;
+	}
+}
+// System.Void TMPro.Examples.VertexZoom/<AnimateVertexColors>c__Iterator0::.ctor()
+extern "C"  void U3CAnimateVertexColorsU3Ec__Iterator0__ctor_m430843134 (U3CAnimateVertexColorsU3Ec__Iterator0_t76635731 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean TMPro.Examples.VertexZoom/<AnimateVertexColors>c__Iterator0::MoveNext()
+extern "C"  bool U3CAnimateVertexColorsU3Ec__Iterator0_MoveNext_m942098538 (U3CAnimateVertexColorsU3Ec__Iterator0_t76635731 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CAnimateVertexColorsU3Ec__Iterator0_MoveNext_m942098538_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	int32_t V_1 = 0;
+	TMP_CharacterInfo_t1421302791  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	Vector3U5BU5D_t1172311765* V_5 = NULL;
+	Vector2_t2243707579  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Vector3_t2243707580  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	Vector3U5BU5D_t1172311765* V_8 = NULL;
+	float V_9 = 0.0f;
+	Vector2U5BU5D_t686124026* V_10 = NULL;
+	Vector2U5BU5D_t686124026* V_11 = NULL;
+	Color32U5BU5D_t30278651* V_12 = NULL;
+	Color32U5BU5D_t30278651* V_13 = NULL;
+	int32_t V_14 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_8();
+		V_0 = L_0;
+		__this->set_U24PC_8((-1));
+		uint32_t L_1 = V_0;
+		switch (L_1)
+		{
+			case 0:
+			{
+				goto IL_0025;
+			}
+			case 1:
+			{
+				goto IL_010d;
+			}
+			case 2:
+			{
+				goto IL_06b8;
+			}
+		}
+	}
+	{
+		goto IL_06c5;
+	}
+
+IL_0025:
+	{
+		// {
+		U3CAnimateVertexColorsU3Ec__AnonStorey1_t3069048289 * L_2 = (U3CAnimateVertexColorsU3Ec__AnonStorey1_t3069048289 *)il2cpp_codegen_object_new(U3CAnimateVertexColorsU3Ec__AnonStorey1_t3069048289_il2cpp_TypeInfo_var);
+		U3CAnimateVertexColorsU3Ec__AnonStorey1__ctor_m2883726620(L_2, /*hidden argument*/NULL);
+		__this->set_U24locvar0_9(L_2);
+		U3CAnimateVertexColorsU3Ec__AnonStorey1_t3069048289 * L_3 = __this->get_U24locvar0_9();
+		NullCheck(L_3);
+		L_3->set_U3CU3Ef__refU240_1(__this);
+		// m_TextComponent.ForceMeshUpdate();
+		VertexZoom_t3463934435 * L_4 = __this->get_U24this_5();
+		NullCheck(L_4);
+		TMP_Text_t1920000777 * L_5 = L_4->get_m_TextComponent_5();
+		// m_TextComponent.ForceMeshUpdate();
+		NullCheck(L_5);
+		VirtActionInvoker0::Invoke(98 /* System.Void TMPro.TMP_Text::ForceMeshUpdate() */, L_5);
+		// TMP_TextInfo textInfo = m_TextComponent.textInfo;
+		VertexZoom_t3463934435 * L_6 = __this->get_U24this_5();
+		NullCheck(L_6);
+		TMP_Text_t1920000777 * L_7 = L_6->get_m_TextComponent_5();
+		// TMP_TextInfo textInfo = m_TextComponent.textInfo;
+		NullCheck(L_7);
+		TMP_TextInfo_t2849466151 * L_8 = TMP_Text_get_textInfo_m3382403859(L_7, /*hidden argument*/NULL);
+		__this->set_U3CtextInfoU3E__0_0(L_8);
+		// TMP_MeshInfo[] cachedMeshInfoVertexData = textInfo.CopyMeshInfoVertexData();
+		TMP_TextInfo_t2849466151 * L_9 = __this->get_U3CtextInfoU3E__0_0();
+		// TMP_MeshInfo[] cachedMeshInfoVertexData = textInfo.CopyMeshInfoVertexData();
+		NullCheck(L_9);
+		TMP_MeshInfoU5BU5D_t2398608976* L_10 = TMP_TextInfo_CopyMeshInfoVertexData_m3635186971(L_9, /*hidden argument*/NULL);
+		__this->set_U3CcachedMeshInfoVertexDataU3E__0_1(L_10);
+		// List<float> modifiedCharScale = new List<float>();
+		U3CAnimateVertexColorsU3Ec__AnonStorey1_t3069048289 * L_11 = __this->get_U24locvar0_9();
+		// List<float> modifiedCharScale = new List<float>();
+		List_1_t1445631064 * L_12 = (List_1_t1445631064 *)il2cpp_codegen_object_new(List_1_t1445631064_il2cpp_TypeInfo_var);
+		List_1__ctor_m1509370154(L_12, /*hidden argument*/List_1__ctor_m1509370154_MethodInfo_var);
+		NullCheck(L_11);
+		L_11->set_modifiedCharScale_0(L_12);
+		// List<int> scaleSortingOrder = new List<int>();
+		// List<int> scaleSortingOrder = new List<int>();
+		List_1_t1440998580 * L_13 = (List_1_t1440998580 *)il2cpp_codegen_object_new(List_1_t1440998580_il2cpp_TypeInfo_var);
+		List_1__ctor_m1598946593(L_13, /*hidden argument*/List_1__ctor_m1598946593_MethodInfo_var);
+		__this->set_U3CscaleSortingOrderU3E__0_2(L_13);
+		// hasTextChanged = true;
+		VertexZoom_t3463934435 * L_14 = __this->get_U24this_5();
+		NullCheck(L_14);
+		L_14->set_hasTextChanged_6((bool)1);
+	}
+
+IL_009b:
+	{
+		// if (hasTextChanged)
+		VertexZoom_t3463934435 * L_15 = __this->get_U24this_5();
+		NullCheck(L_15);
+		bool L_16 = L_15->get_hasTextChanged_6();
+		if (!L_16)
+		{
+			goto IL_00cc;
+		}
+	}
+	{
+		// cachedMeshInfoVertexData = textInfo.CopyMeshInfoVertexData();
+		TMP_TextInfo_t2849466151 * L_17 = __this->get_U3CtextInfoU3E__0_0();
+		// cachedMeshInfoVertexData = textInfo.CopyMeshInfoVertexData();
+		NullCheck(L_17);
+		TMP_MeshInfoU5BU5D_t2398608976* L_18 = TMP_TextInfo_CopyMeshInfoVertexData_m3635186971(L_17, /*hidden argument*/NULL);
+		__this->set_U3CcachedMeshInfoVertexDataU3E__0_1(L_18);
+		// hasTextChanged = false;
+		VertexZoom_t3463934435 * L_19 = __this->get_U24this_5();
+		NullCheck(L_19);
+		L_19->set_hasTextChanged_6((bool)0);
+	}
+
+IL_00cc:
+	{
+		// int characterCount = textInfo.characterCount;
+		TMP_TextInfo_t2849466151 * L_20 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_20);
+		int32_t L_21 = L_20->get_characterCount_3();
+		__this->set_U3CcharacterCountU3E__1_3(L_21);
+		// if (characterCount == 0)
+		int32_t L_22 = __this->get_U3CcharacterCountU3E__1_3();
+		if (L_22)
+		{
+			goto IL_0112;
+		}
+	}
+	{
+		// yield return new WaitForSeconds(0.25f);
+		// yield return new WaitForSeconds(0.25f);
+		WaitForSeconds_t3839502067 * L_23 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_23, (0.25f), /*hidden argument*/NULL);
+		__this->set_U24current_6(L_23);
+		bool L_24 = __this->get_U24disposing_7();
+		if (L_24)
+		{
+			goto IL_0108;
+		}
+	}
+	{
+		__this->set_U24PC_8(1);
+	}
+
+IL_0108:
+	{
+		goto IL_06c7;
+	}
+
+IL_010d:
+	{
+		// continue;
+		goto IL_009b;
+	}
+
+IL_0112:
+	{
+		// modifiedCharScale.Clear();
+		U3CAnimateVertexColorsU3Ec__AnonStorey1_t3069048289 * L_25 = __this->get_U24locvar0_9();
+		NullCheck(L_25);
+		List_1_t1445631064 * L_26 = L_25->get_modifiedCharScale_0();
+		// modifiedCharScale.Clear();
+		NullCheck(L_26);
+		List_1_Clear_m4110591713(L_26, /*hidden argument*/List_1_Clear_m4110591713_MethodInfo_var);
+		// scaleSortingOrder.Clear();
+		List_1_t1440998580 * L_27 = __this->get_U3CscaleSortingOrderU3E__0_2();
+		// scaleSortingOrder.Clear();
+		NullCheck(L_27);
+		List_1_Clear_m3644677550(L_27, /*hidden argument*/List_1_Clear_m3644677550_MethodInfo_var);
+		// for (int i = 0; i < characterCount; i++)
+		V_1 = 0;
+		goto IL_0569;
+	}
+
+IL_0134:
+	{
+		// TMP_CharacterInfo charInfo = textInfo.characterInfo[i];
+		TMP_TextInfo_t2849466151 * L_28 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_28);
+		TMP_CharacterInfoU5BU5D_t602810366* L_29 = L_28->get_characterInfo_11();
+		int32_t L_30 = V_1;
+		NullCheck(L_29);
+		V_2 = (*(TMP_CharacterInfo_t1421302791 *)((L_29)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_30))));
+		// if (!charInfo.isVisible)
+		bool L_31 = (&V_2)->get_isVisible_34();
+		if (L_31)
+		{
+			goto IL_015d;
+		}
+	}
+	{
+		// continue;
+		goto IL_0565;
+	}
+
+IL_015d:
+	{
+		// int materialIndex = textInfo.characterInfo[i].materialReferenceIndex;
+		TMP_TextInfo_t2849466151 * L_32 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_32);
+		TMP_CharacterInfoU5BU5D_t602810366* L_33 = L_32->get_characterInfo_11();
+		int32_t L_34 = V_1;
+		NullCheck(L_33);
+		int32_t L_35 = ((L_33)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_34)))->get_materialReferenceIndex_8();
+		V_3 = L_35;
+		// int vertexIndex = textInfo.characterInfo[i].vertexIndex;
+		TMP_TextInfo_t2849466151 * L_36 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_36);
+		TMP_CharacterInfoU5BU5D_t602810366* L_37 = L_36->get_characterInfo_11();
+		int32_t L_38 = V_1;
+		NullCheck(L_37);
+		int32_t L_39 = ((L_37)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_38)))->get_vertexIndex_13();
+		V_4 = L_39;
+		// Vector3[] sourceVertices = cachedMeshInfoVertexData[materialIndex].vertices;
+		TMP_MeshInfoU5BU5D_t2398608976* L_40 = __this->get_U3CcachedMeshInfoVertexDataU3E__0_1();
+		int32_t L_41 = V_3;
+		NullCheck(L_40);
+		Vector3U5BU5D_t1172311765* L_42 = ((L_40)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_41)))->get_vertices_5();
+		V_5 = L_42;
+		// Vector2 charMidBasline = (sourceVertices[vertexIndex + 0] + sourceVertices[vertexIndex + 2]) / 2;
+		Vector3U5BU5D_t1172311765* L_43 = V_5;
+		int32_t L_44 = V_4;
+		NullCheck(L_43);
+		Vector3U5BU5D_t1172311765* L_45 = V_5;
+		int32_t L_46 = V_4;
+		NullCheck(L_45);
+		// Vector2 charMidBasline = (sourceVertices[vertexIndex + 0] + sourceVertices[vertexIndex + 2]) / 2;
+		Vector3_t2243707580  L_47 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)((L_43)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_44)))), (*(Vector3_t2243707580 *)((L_45)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_46+(int32_t)2)))))), /*hidden argument*/NULL);
+		// Vector2 charMidBasline = (sourceVertices[vertexIndex + 0] + sourceVertices[vertexIndex + 2]) / 2;
+		Vector3_t2243707580  L_48 = Vector3_op_Division_m3315615850(NULL /*static, unused*/, L_47, (2.0f), /*hidden argument*/NULL);
+		// Vector2 charMidBasline = (sourceVertices[vertexIndex + 0] + sourceVertices[vertexIndex + 2]) / 2;
+		Vector2_t2243707579  L_49 = Vector2_op_Implicit_m1064335535(NULL /*static, unused*/, L_48, /*hidden argument*/NULL);
+		V_6 = L_49;
+		// Vector3 offset = charMidBasline;
+		Vector2_t2243707579  L_50 = V_6;
+		// Vector3 offset = charMidBasline;
+		Vector3_t2243707580  L_51 = Vector2_op_Implicit_m176791411(NULL /*static, unused*/, L_50, /*hidden argument*/NULL);
+		V_7 = L_51;
+		// Vector3[] destinationVertices = textInfo.meshInfo[materialIndex].vertices;
+		TMP_TextInfo_t2849466151 * L_52 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_52);
+		TMP_MeshInfoU5BU5D_t2398608976* L_53 = L_52->get_meshInfo_16();
+		int32_t L_54 = V_3;
+		NullCheck(L_53);
+		Vector3U5BU5D_t1172311765* L_55 = ((L_53)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_54)))->get_vertices_5();
+		V_8 = L_55;
+		// destinationVertices[vertexIndex + 0] = sourceVertices[vertexIndex + 0] - offset;
+		Vector3U5BU5D_t1172311765* L_56 = V_8;
+		int32_t L_57 = V_4;
+		NullCheck(L_56);
+		Vector3U5BU5D_t1172311765* L_58 = V_5;
+		int32_t L_59 = V_4;
+		NullCheck(L_58);
+		Vector3_t2243707580  L_60 = V_7;
+		// destinationVertices[vertexIndex + 0] = sourceVertices[vertexIndex + 0] - offset;
+		Vector3_t2243707580  L_61 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, (*(Vector3_t2243707580 *)((L_58)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_59)))), L_60, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_56)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_57)))) = L_61;
+		// destinationVertices[vertexIndex + 1] = sourceVertices[vertexIndex + 1] - offset;
+		Vector3U5BU5D_t1172311765* L_62 = V_8;
+		int32_t L_63 = V_4;
+		NullCheck(L_62);
+		Vector3U5BU5D_t1172311765* L_64 = V_5;
+		int32_t L_65 = V_4;
+		NullCheck(L_64);
+		Vector3_t2243707580  L_66 = V_7;
+		// destinationVertices[vertexIndex + 1] = sourceVertices[vertexIndex + 1] - offset;
+		Vector3_t2243707580  L_67 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, (*(Vector3_t2243707580 *)((L_64)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_65+(int32_t)1)))))), L_66, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_62)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_63+(int32_t)1)))))) = L_67;
+		// destinationVertices[vertexIndex + 2] = sourceVertices[vertexIndex + 2] - offset;
+		Vector3U5BU5D_t1172311765* L_68 = V_8;
+		int32_t L_69 = V_4;
+		NullCheck(L_68);
+		Vector3U5BU5D_t1172311765* L_70 = V_5;
+		int32_t L_71 = V_4;
+		NullCheck(L_70);
+		Vector3_t2243707580  L_72 = V_7;
+		// destinationVertices[vertexIndex + 2] = sourceVertices[vertexIndex + 2] - offset;
+		Vector3_t2243707580  L_73 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, (*(Vector3_t2243707580 *)((L_70)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_71+(int32_t)2)))))), L_72, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_68)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_69+(int32_t)2)))))) = L_73;
+		// destinationVertices[vertexIndex + 3] = sourceVertices[vertexIndex + 3] - offset;
+		Vector3U5BU5D_t1172311765* L_74 = V_8;
+		int32_t L_75 = V_4;
+		NullCheck(L_74);
+		Vector3U5BU5D_t1172311765* L_76 = V_5;
+		int32_t L_77 = V_4;
+		NullCheck(L_76);
+		Vector3_t2243707580  L_78 = V_7;
+		// destinationVertices[vertexIndex + 3] = sourceVertices[vertexIndex + 3] - offset;
+		Vector3_t2243707580  L_79 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, (*(Vector3_t2243707580 *)((L_76)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_77+(int32_t)3)))))), L_78, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_74)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_75+(int32_t)3)))))) = L_79;
+		// float randomScale = Random.Range(1f, 1.5f);
+		// float randomScale = Random.Range(1f, 1.5f);
+		float L_80 = Random_Range_m2884721203(NULL /*static, unused*/, (1.0f), (1.5f), /*hidden argument*/NULL);
+		V_9 = L_80;
+		// modifiedCharScale.Add(randomScale);
+		U3CAnimateVertexColorsU3Ec__AnonStorey1_t3069048289 * L_81 = __this->get_U24locvar0_9();
+		NullCheck(L_81);
+		List_1_t1445631064 * L_82 = L_81->get_modifiedCharScale_0();
+		float L_83 = V_9;
+		// modifiedCharScale.Add(randomScale);
+		NullCheck(L_82);
+		List_1_Add_m913687102(L_82, L_83, /*hidden argument*/List_1_Add_m913687102_MethodInfo_var);
+		// scaleSortingOrder.Add(modifiedCharScale.Count - 1);
+		List_1_t1440998580 * L_84 = __this->get_U3CscaleSortingOrderU3E__0_2();
+		U3CAnimateVertexColorsU3Ec__AnonStorey1_t3069048289 * L_85 = __this->get_U24locvar0_9();
+		NullCheck(L_85);
+		List_1_t1445631064 * L_86 = L_85->get_modifiedCharScale_0();
+		// scaleSortingOrder.Add(modifiedCharScale.Count - 1);
+		NullCheck(L_86);
+		int32_t L_87 = List_1_get_Count_m3406166720(L_86, /*hidden argument*/List_1_get_Count_m3406166720_MethodInfo_var);
+		// scaleSortingOrder.Add(modifiedCharScale.Count - 1);
+		NullCheck(L_84);
+		List_1_Add_m688682013(L_84, ((int32_t)((int32_t)L_87-(int32_t)1)), /*hidden argument*/List_1_Add_m688682013_MethodInfo_var);
+		// matrix = Matrix4x4.TRS(new Vector3(0, 0, 0), Quaternion.identity, Vector3.one * randomScale);
+		// matrix = Matrix4x4.TRS(new Vector3(0, 0, 0), Quaternion.identity, Vector3.one * randomScale);
+		Vector3_t2243707580  L_88;
+		memset(&L_88, 0, sizeof(L_88));
+		Vector3__ctor_m2638739322(&L_88, (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		// matrix = Matrix4x4.TRS(new Vector3(0, 0, 0), Quaternion.identity, Vector3.one * randomScale);
+		Quaternion_t4030073918  L_89 = Quaternion_get_identity_m1561886418(NULL /*static, unused*/, /*hidden argument*/NULL);
+		// matrix = Matrix4x4.TRS(new Vector3(0, 0, 0), Quaternion.identity, Vector3.one * randomScale);
+		Vector3_t2243707580  L_90 = Vector3_get_one_m627547232(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_91 = V_9;
+		// matrix = Matrix4x4.TRS(new Vector3(0, 0, 0), Quaternion.identity, Vector3.one * randomScale);
+		Vector3_t2243707580  L_92 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_90, L_91, /*hidden argument*/NULL);
+		// matrix = Matrix4x4.TRS(new Vector3(0, 0, 0), Quaternion.identity, Vector3.one * randomScale);
+		Matrix4x4_t2933234003  L_93 = Matrix4x4_TRS_m1913765359(NULL /*static, unused*/, L_88, L_89, L_92, /*hidden argument*/NULL);
+		__this->set_U3CmatrixU3E__2_4(L_93);
+		// destinationVertices[vertexIndex + 0] = matrix.MultiplyPoint3x4(destinationVertices[vertexIndex + 0]);
+		Vector3U5BU5D_t1172311765* L_94 = V_8;
+		int32_t L_95 = V_4;
+		NullCheck(L_94);
+		Matrix4x4_t2933234003 * L_96 = __this->get_address_of_U3CmatrixU3E__2_4();
+		Vector3U5BU5D_t1172311765* L_97 = V_8;
+		int32_t L_98 = V_4;
+		NullCheck(L_97);
+		// destinationVertices[vertexIndex + 0] = matrix.MultiplyPoint3x4(destinationVertices[vertexIndex + 0]);
+		Vector3_t2243707580  L_99 = Matrix4x4_MultiplyPoint3x4_m1007952212(L_96, (*(Vector3_t2243707580 *)((L_97)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_98)))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_94)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_95)))) = L_99;
+		// destinationVertices[vertexIndex + 1] = matrix.MultiplyPoint3x4(destinationVertices[vertexIndex + 1]);
+		Vector3U5BU5D_t1172311765* L_100 = V_8;
+		int32_t L_101 = V_4;
+		NullCheck(L_100);
+		Matrix4x4_t2933234003 * L_102 = __this->get_address_of_U3CmatrixU3E__2_4();
+		Vector3U5BU5D_t1172311765* L_103 = V_8;
+		int32_t L_104 = V_4;
+		NullCheck(L_103);
+		// destinationVertices[vertexIndex + 1] = matrix.MultiplyPoint3x4(destinationVertices[vertexIndex + 1]);
+		Vector3_t2243707580  L_105 = Matrix4x4_MultiplyPoint3x4_m1007952212(L_102, (*(Vector3_t2243707580 *)((L_103)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_104+(int32_t)1)))))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_100)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_101+(int32_t)1)))))) = L_105;
+		// destinationVertices[vertexIndex + 2] = matrix.MultiplyPoint3x4(destinationVertices[vertexIndex + 2]);
+		Vector3U5BU5D_t1172311765* L_106 = V_8;
+		int32_t L_107 = V_4;
+		NullCheck(L_106);
+		Matrix4x4_t2933234003 * L_108 = __this->get_address_of_U3CmatrixU3E__2_4();
+		Vector3U5BU5D_t1172311765* L_109 = V_8;
+		int32_t L_110 = V_4;
+		NullCheck(L_109);
+		// destinationVertices[vertexIndex + 2] = matrix.MultiplyPoint3x4(destinationVertices[vertexIndex + 2]);
+		Vector3_t2243707580  L_111 = Matrix4x4_MultiplyPoint3x4_m1007952212(L_108, (*(Vector3_t2243707580 *)((L_109)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_110+(int32_t)2)))))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_106)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_107+(int32_t)2)))))) = L_111;
+		// destinationVertices[vertexIndex + 3] = matrix.MultiplyPoint3x4(destinationVertices[vertexIndex + 3]);
+		Vector3U5BU5D_t1172311765* L_112 = V_8;
+		int32_t L_113 = V_4;
+		NullCheck(L_112);
+		Matrix4x4_t2933234003 * L_114 = __this->get_address_of_U3CmatrixU3E__2_4();
+		Vector3U5BU5D_t1172311765* L_115 = V_8;
+		int32_t L_116 = V_4;
+		NullCheck(L_115);
+		// destinationVertices[vertexIndex + 3] = matrix.MultiplyPoint3x4(destinationVertices[vertexIndex + 3]);
+		Vector3_t2243707580  L_117 = Matrix4x4_MultiplyPoint3x4_m1007952212(L_114, (*(Vector3_t2243707580 *)((L_115)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_116+(int32_t)3)))))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_112)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_113+(int32_t)3)))))) = L_117;
+		// destinationVertices[vertexIndex + 0] += offset;
+		Vector3U5BU5D_t1172311765* L_118 = V_8;
+		int32_t L_119 = V_4;
+		NullCheck(L_118);
+		Vector3_t2243707580 * L_120 = ((L_118)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_119)));
+		Vector3_t2243707580  L_121 = V_7;
+		// destinationVertices[vertexIndex + 0] += offset;
+		Vector3_t2243707580  L_122 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_120), L_121, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_120) = L_122;
+		// destinationVertices[vertexIndex + 1] += offset;
+		Vector3U5BU5D_t1172311765* L_123 = V_8;
+		int32_t L_124 = V_4;
+		NullCheck(L_123);
+		Vector3_t2243707580 * L_125 = ((L_123)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_124+(int32_t)1)))));
+		Vector3_t2243707580  L_126 = V_7;
+		// destinationVertices[vertexIndex + 1] += offset;
+		Vector3_t2243707580  L_127 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_125), L_126, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_125) = L_127;
+		// destinationVertices[vertexIndex + 2] += offset;
+		Vector3U5BU5D_t1172311765* L_128 = V_8;
+		int32_t L_129 = V_4;
+		NullCheck(L_128);
+		Vector3_t2243707580 * L_130 = ((L_128)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_129+(int32_t)2)))));
+		Vector3_t2243707580  L_131 = V_7;
+		// destinationVertices[vertexIndex + 2] += offset;
+		Vector3_t2243707580  L_132 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_130), L_131, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_130) = L_132;
+		// destinationVertices[vertexIndex + 3] += offset;
+		Vector3U5BU5D_t1172311765* L_133 = V_8;
+		int32_t L_134 = V_4;
+		NullCheck(L_133);
+		Vector3_t2243707580 * L_135 = ((L_133)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_134+(int32_t)3)))));
+		Vector3_t2243707580  L_136 = V_7;
+		// destinationVertices[vertexIndex + 3] += offset;
+		Vector3_t2243707580  L_137 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_135), L_136, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_135) = L_137;
+		// Vector2[] sourceUVs0 = cachedMeshInfoVertexData[materialIndex].uvs0;
+		TMP_MeshInfoU5BU5D_t2398608976* L_138 = __this->get_U3CcachedMeshInfoVertexDataU3E__0_1();
+		int32_t L_139 = V_3;
+		NullCheck(L_138);
+		Vector2U5BU5D_t686124026* L_140 = ((L_138)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_139)))->get_uvs0_8();
+		V_10 = L_140;
+		// Vector2[] destinationUVs0 = textInfo.meshInfo[materialIndex].uvs0;
+		TMP_TextInfo_t2849466151 * L_141 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_141);
+		TMP_MeshInfoU5BU5D_t2398608976* L_142 = L_141->get_meshInfo_16();
+		int32_t L_143 = V_3;
+		NullCheck(L_142);
+		Vector2U5BU5D_t686124026* L_144 = ((L_142)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_143)))->get_uvs0_8();
+		V_11 = L_144;
+		// destinationUVs0[vertexIndex + 0] = sourceUVs0[vertexIndex + 0];
+		Vector2U5BU5D_t686124026* L_145 = V_11;
+		int32_t L_146 = V_4;
+		NullCheck(L_145);
+		Vector2U5BU5D_t686124026* L_147 = V_10;
+		int32_t L_148 = V_4;
+		NullCheck(L_147);
+		(*(Vector2_t2243707579 *)((L_145)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_146)))) = (*(Vector2_t2243707579 *)((L_147)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_148))));
+		// destinationUVs0[vertexIndex + 1] = sourceUVs0[vertexIndex + 1];
+		Vector2U5BU5D_t686124026* L_149 = V_11;
+		int32_t L_150 = V_4;
+		NullCheck(L_149);
+		Vector2U5BU5D_t686124026* L_151 = V_10;
+		int32_t L_152 = V_4;
+		NullCheck(L_151);
+		(*(Vector2_t2243707579 *)((L_149)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_150+(int32_t)1)))))) = (*(Vector2_t2243707579 *)((L_151)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_152+(int32_t)1))))));
+		// destinationUVs0[vertexIndex + 2] = sourceUVs0[vertexIndex + 2];
+		Vector2U5BU5D_t686124026* L_153 = V_11;
+		int32_t L_154 = V_4;
+		NullCheck(L_153);
+		Vector2U5BU5D_t686124026* L_155 = V_10;
+		int32_t L_156 = V_4;
+		NullCheck(L_155);
+		(*(Vector2_t2243707579 *)((L_153)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_154+(int32_t)2)))))) = (*(Vector2_t2243707579 *)((L_155)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_156+(int32_t)2))))));
+		// destinationUVs0[vertexIndex + 3] = sourceUVs0[vertexIndex + 3];
+		Vector2U5BU5D_t686124026* L_157 = V_11;
+		int32_t L_158 = V_4;
+		NullCheck(L_157);
+		Vector2U5BU5D_t686124026* L_159 = V_10;
+		int32_t L_160 = V_4;
+		NullCheck(L_159);
+		(*(Vector2_t2243707579 *)((L_157)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_158+(int32_t)3)))))) = (*(Vector2_t2243707579 *)((L_159)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_160+(int32_t)3))))));
+		// Color32[] sourceColors32 = cachedMeshInfoVertexData[materialIndex].colors32;
+		TMP_MeshInfoU5BU5D_t2398608976* L_161 = __this->get_U3CcachedMeshInfoVertexDataU3E__0_1();
+		int32_t L_162 = V_3;
+		NullCheck(L_161);
+		Color32U5BU5D_t30278651* L_163 = ((L_161)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_162)))->get_colors32_10();
+		V_12 = L_163;
+		// Color32[] destinationColors32 = textInfo.meshInfo[materialIndex].colors32;
+		TMP_TextInfo_t2849466151 * L_164 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_164);
+		TMP_MeshInfoU5BU5D_t2398608976* L_165 = L_164->get_meshInfo_16();
+		int32_t L_166 = V_3;
+		NullCheck(L_165);
+		Color32U5BU5D_t30278651* L_167 = ((L_165)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_166)))->get_colors32_10();
+		V_13 = L_167;
+		// destinationColors32[vertexIndex + 0] = sourceColors32[vertexIndex + 0];
+		Color32U5BU5D_t30278651* L_168 = V_13;
+		int32_t L_169 = V_4;
+		NullCheck(L_168);
+		Color32U5BU5D_t30278651* L_170 = V_12;
+		int32_t L_171 = V_4;
+		NullCheck(L_170);
+		(*(Color32_t874517518 *)((L_168)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_169)))) = (*(Color32_t874517518 *)((L_170)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_171))));
+		// destinationColors32[vertexIndex + 1] = sourceColors32[vertexIndex + 1];
+		Color32U5BU5D_t30278651* L_172 = V_13;
+		int32_t L_173 = V_4;
+		NullCheck(L_172);
+		Color32U5BU5D_t30278651* L_174 = V_12;
+		int32_t L_175 = V_4;
+		NullCheck(L_174);
+		(*(Color32_t874517518 *)((L_172)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_173+(int32_t)1)))))) = (*(Color32_t874517518 *)((L_174)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_175+(int32_t)1))))));
+		// destinationColors32[vertexIndex + 2] = sourceColors32[vertexIndex + 2];
+		Color32U5BU5D_t30278651* L_176 = V_13;
+		int32_t L_177 = V_4;
+		NullCheck(L_176);
+		Color32U5BU5D_t30278651* L_178 = V_12;
+		int32_t L_179 = V_4;
+		NullCheck(L_178);
+		(*(Color32_t874517518 *)((L_176)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_177+(int32_t)2)))))) = (*(Color32_t874517518 *)((L_178)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_179+(int32_t)2))))));
+		// destinationColors32[vertexIndex + 3] = sourceColors32[vertexIndex + 3];
+		Color32U5BU5D_t30278651* L_180 = V_13;
+		int32_t L_181 = V_4;
+		NullCheck(L_180);
+		Color32U5BU5D_t30278651* L_182 = V_12;
+		int32_t L_183 = V_4;
+		NullCheck(L_182);
+		(*(Color32_t874517518 *)((L_180)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_181+(int32_t)3)))))) = (*(Color32_t874517518 *)((L_182)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_183+(int32_t)3))))));
+	}
+
+IL_0565:
+	{
+		// for (int i = 0; i < characterCount; i++)
+		int32_t L_184 = V_1;
+		V_1 = ((int32_t)((int32_t)L_184+(int32_t)1));
+	}
+
+IL_0569:
+	{
+		// for (int i = 0; i < characterCount; i++)
+		int32_t L_185 = V_1;
+		int32_t L_186 = __this->get_U3CcharacterCountU3E__1_3();
+		if ((((int32_t)L_185) < ((int32_t)L_186)))
+		{
+			goto IL_0134;
+		}
+	}
+	{
+		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
+		V_14 = 0;
+		goto IL_0680;
+	}
+
+IL_057d:
+	{
+		// scaleSortingOrder.Sort((a, b) => modifiedCharScale[a].CompareTo(modifiedCharScale[b]));
+		List_1_t1440998580 * L_187 = __this->get_U3CscaleSortingOrderU3E__0_2();
+		U3CAnimateVertexColorsU3Ec__AnonStorey1_t3069048289 * L_188 = __this->get_U24locvar0_9();
+		IntPtr_t L_189;
+		L_189.set_m_value_0((void*)(void*)U3CAnimateVertexColorsU3Ec__AnonStorey1_U3CU3Em__0_m4281632617_MethodInfo_var);
+		Comparison_1_t3333616299 * L_190 = (Comparison_1_t3333616299 *)il2cpp_codegen_object_new(Comparison_1_t3333616299_il2cpp_TypeInfo_var);
+		Comparison_1__ctor_m3140365691(L_190, L_188, L_189, /*hidden argument*/Comparison_1__ctor_m3140365691_MethodInfo_var);
+		// scaleSortingOrder.Sort((a, b) => modifiedCharScale[a].CompareTo(modifiedCharScale[b]));
+		NullCheck(L_187);
+		List_1_Sort_m2032117030(L_187, L_190, /*hidden argument*/List_1_Sort_m2032117030_MethodInfo_var);
+		// textInfo.meshInfo[i].SortGeometry(scaleSortingOrder);
+		TMP_TextInfo_t2849466151 * L_191 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_191);
+		TMP_MeshInfoU5BU5D_t2398608976* L_192 = L_191->get_meshInfo_16();
+		int32_t L_193 = V_14;
+		NullCheck(L_192);
+		List_1_t1440998580 * L_194 = __this->get_U3CscaleSortingOrderU3E__0_2();
+		// textInfo.meshInfo[i].SortGeometry(scaleSortingOrder);
+		TMP_MeshInfo_SortGeometry_m3188134655(((L_192)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_193))), L_194, /*hidden argument*/NULL);
+		// textInfo.meshInfo[i].mesh.vertices = textInfo.meshInfo[i].vertices;
+		TMP_TextInfo_t2849466151 * L_195 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_195);
+		TMP_MeshInfoU5BU5D_t2398608976* L_196 = L_195->get_meshInfo_16();
+		int32_t L_197 = V_14;
+		NullCheck(L_196);
+		Mesh_t1356156583 * L_198 = ((L_196)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_197)))->get_mesh_3();
+		TMP_TextInfo_t2849466151 * L_199 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_199);
+		TMP_MeshInfoU5BU5D_t2398608976* L_200 = L_199->get_meshInfo_16();
+		int32_t L_201 = V_14;
+		NullCheck(L_200);
+		Vector3U5BU5D_t1172311765* L_202 = ((L_200)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_201)))->get_vertices_5();
+		// textInfo.meshInfo[i].mesh.vertices = textInfo.meshInfo[i].vertices;
+		NullCheck(L_198);
+		Mesh_set_vertices_m2936804213(L_198, L_202, /*hidden argument*/NULL);
+		// textInfo.meshInfo[i].mesh.uv = textInfo.meshInfo[i].uvs0;
+		TMP_TextInfo_t2849466151 * L_203 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_203);
+		TMP_MeshInfoU5BU5D_t2398608976* L_204 = L_203->get_meshInfo_16();
+		int32_t L_205 = V_14;
+		NullCheck(L_204);
+		Mesh_t1356156583 * L_206 = ((L_204)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_205)))->get_mesh_3();
+		TMP_TextInfo_t2849466151 * L_207 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_207);
+		TMP_MeshInfoU5BU5D_t2398608976* L_208 = L_207->get_meshInfo_16();
+		int32_t L_209 = V_14;
+		NullCheck(L_208);
+		Vector2U5BU5D_t686124026* L_210 = ((L_208)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_209)))->get_uvs0_8();
+		// textInfo.meshInfo[i].mesh.uv = textInfo.meshInfo[i].uvs0;
+		NullCheck(L_206);
+		Mesh_set_uv_m1497318906(L_206, L_210, /*hidden argument*/NULL);
+		// textInfo.meshInfo[i].mesh.colors32 = textInfo.meshInfo[i].colors32;
+		TMP_TextInfo_t2849466151 * L_211 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_211);
+		TMP_MeshInfoU5BU5D_t2398608976* L_212 = L_211->get_meshInfo_16();
+		int32_t L_213 = V_14;
+		NullCheck(L_212);
+		Mesh_t1356156583 * L_214 = ((L_212)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_213)))->get_mesh_3();
+		TMP_TextInfo_t2849466151 * L_215 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_215);
+		TMP_MeshInfoU5BU5D_t2398608976* L_216 = L_215->get_meshInfo_16();
+		int32_t L_217 = V_14;
+		NullCheck(L_216);
+		Color32U5BU5D_t30278651* L_218 = ((L_216)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_217)))->get_colors32_10();
+		// textInfo.meshInfo[i].mesh.colors32 = textInfo.meshInfo[i].colors32;
+		NullCheck(L_214);
+		Mesh_set_colors32_m1066151745(L_214, L_218, /*hidden argument*/NULL);
+		// m_TextComponent.UpdateGeometry(textInfo.meshInfo[i].mesh, i);
+		VertexZoom_t3463934435 * L_219 = __this->get_U24this_5();
+		NullCheck(L_219);
+		TMP_Text_t1920000777 * L_220 = L_219->get_m_TextComponent_5();
+		TMP_TextInfo_t2849466151 * L_221 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_221);
+		TMP_MeshInfoU5BU5D_t2398608976* L_222 = L_221->get_meshInfo_16();
+		int32_t L_223 = V_14;
+		NullCheck(L_222);
+		Mesh_t1356156583 * L_224 = ((L_222)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_223)))->get_mesh_3();
+		int32_t L_225 = V_14;
+		// m_TextComponent.UpdateGeometry(textInfo.meshInfo[i].mesh, i);
+		NullCheck(L_220);
+		VirtActionInvoker2< Mesh_t1356156583 *, int32_t >::Invoke(100 /* System.Void TMPro.TMP_Text::UpdateGeometry(UnityEngine.Mesh,System.Int32) */, L_220, L_224, L_225);
+		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
+		int32_t L_226 = V_14;
+		V_14 = ((int32_t)((int32_t)L_226+(int32_t)1));
+	}
+
+IL_0680:
+	{
+		// for (int i = 0; i < textInfo.meshInfo.Length; i++)
+		int32_t L_227 = V_14;
+		TMP_TextInfo_t2849466151 * L_228 = __this->get_U3CtextInfoU3E__0_0();
+		NullCheck(L_228);
+		TMP_MeshInfoU5BU5D_t2398608976* L_229 = L_228->get_meshInfo_16();
+		NullCheck(L_229);
+		if ((((int32_t)L_227) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_229)->max_length)))))))
+		{
+			goto IL_057d;
+		}
+	}
+	{
+		// yield return new WaitForSeconds(0.1f);
+		// yield return new WaitForSeconds(0.1f);
+		WaitForSeconds_t3839502067 * L_230 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_230, (0.1f), /*hidden argument*/NULL);
+		__this->set_U24current_6(L_230);
+		bool L_231 = __this->get_U24disposing_7();
+		if (L_231)
+		{
+			goto IL_06b3;
+		}
+	}
+	{
+		__this->set_U24PC_8(2);
+	}
+
+IL_06b3:
+	{
+		goto IL_06c7;
+	}
+
+IL_06b8:
+	{
+		goto IL_009b;
+	}
+	// Dead block : IL_06be: ldarg.0
+
+IL_06c5:
+	{
+		return (bool)0;
+	}
+
+IL_06c7:
+	{
+		return (bool)1;
+	}
+}
+// System.Object TMPro.Examples.VertexZoom/<AnimateVertexColors>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CAnimateVertexColorsU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1718870308 (U3CAnimateVertexColorsU3Ec__Iterator0_t76635731 * __this, const MethodInfo* method)
+{
+	Il2CppObject * V_0 = NULL;
+	{
+		Il2CppObject * L_0 = __this->get_U24current_6();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Il2CppObject * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Object TMPro.Examples.VertexZoom/<AnimateVertexColors>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CAnimateVertexColorsU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1834209788 (U3CAnimateVertexColorsU3Ec__Iterator0_t76635731 * __this, const MethodInfo* method)
+{
+	Il2CppObject * V_0 = NULL;
+	{
+		Il2CppObject * L_0 = __this->get_U24current_6();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Il2CppObject * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void TMPro.Examples.VertexZoom/<AnimateVertexColors>c__Iterator0::Dispose()
+extern "C"  void U3CAnimateVertexColorsU3Ec__Iterator0_Dispose_m987236325 (U3CAnimateVertexColorsU3Ec__Iterator0_t76635731 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_7((bool)1);
+		__this->set_U24PC_8((-1));
+		return;
+	}
+}
+// System.Void TMPro.Examples.VertexZoom/<AnimateVertexColors>c__Iterator0::Reset()
+extern "C"  void U3CAnimateVertexColorsU3Ec__Iterator0_Reset_m3702279443 (U3CAnimateVertexColorsU3Ec__Iterator0_t76635731 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CAnimateVertexColorsU3Ec__Iterator0_Reset_m3702279443_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void TMPro.Examples.VertexZoom/<AnimateVertexColors>c__Iterator0/<AnimateVertexColors>c__AnonStorey1::.ctor()
+extern "C"  void U3CAnimateVertexColorsU3Ec__AnonStorey1__ctor_m2883726620 (U3CAnimateVertexColorsU3Ec__AnonStorey1_t3069048289 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 TMPro.Examples.VertexZoom/<AnimateVertexColors>c__Iterator0/<AnimateVertexColors>c__AnonStorey1::<>m__0(System.Int32,System.Int32)
+extern "C"  int32_t U3CAnimateVertexColorsU3Ec__AnonStorey1_U3CU3Em__0_m4281632617 (U3CAnimateVertexColorsU3Ec__AnonStorey1_t3069048289 * __this, int32_t ___a0, int32_t ___b1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CAnimateVertexColorsU3Ec__AnonStorey1_U3CU3Em__0_m4281632617_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	int32_t V_1 = 0;
+	{
+		// scaleSortingOrder.Sort((a, b) => modifiedCharScale[a].CompareTo(modifiedCharScale[b]));
+		List_1_t1445631064 * L_0 = __this->get_modifiedCharScale_0();
+		int32_t L_1 = ___a0;
+		// scaleSortingOrder.Sort((a, b) => modifiedCharScale[a].CompareTo(modifiedCharScale[b]));
+		NullCheck(L_0);
+		float L_2 = List_1_get_Item_m3254877171(L_0, L_1, /*hidden argument*/List_1_get_Item_m3254877171_MethodInfo_var);
+		V_0 = L_2;
+		List_1_t1445631064 * L_3 = __this->get_modifiedCharScale_0();
+		int32_t L_4 = ___b1;
+		// scaleSortingOrder.Sort((a, b) => modifiedCharScale[a].CompareTo(modifiedCharScale[b]));
+		NullCheck(L_3);
+		float L_5 = List_1_get_Item_m3254877171(L_3, L_4, /*hidden argument*/List_1_get_Item_m3254877171_MethodInfo_var);
+		// scaleSortingOrder.Sort((a, b) => modifiedCharScale[a].CompareTo(modifiedCharScale[b]));
+		int32_t L_6 = Single_CompareTo_m1534635028((&V_0), L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		int32_t L_7 = V_1;
+		return L_7;
+	}
+}
+// System.Void TMPro.Examples.WarpTextExample::.ctor()
+extern "C"  void WarpTextExample__ctor_m3191081517 (WarpTextExample_t250871869 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WarpTextExample__ctor_m3191081517_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public AnimationCurve VertexCurve = new AnimationCurve(new Keyframe(0, 0), new Keyframe(0.25f, 2.0f), new Keyframe(0.5f, 0), new Keyframe(0.75f, 2.0f), new Keyframe(1, 0f));
+		KeyframeU5BU5D_t449065829* L_0 = ((KeyframeU5BU5D_t449065829*)SZArrayNew(KeyframeU5BU5D_t449065829_il2cpp_TypeInfo_var, (uint32_t)5));
+		NullCheck(L_0);
+		Keyframe_t1449471340  L_1;
+		memset(&L_1, 0, sizeof(L_1));
+		Keyframe__ctor_m2042404667(&L_1, (0.0f), (0.0f), /*hidden argument*/NULL);
+		(*(Keyframe_t1449471340 *)((L_0)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))) = L_1;
+		KeyframeU5BU5D_t449065829* L_2 = L_0;
+		NullCheck(L_2);
+		Keyframe_t1449471340  L_3;
+		memset(&L_3, 0, sizeof(L_3));
+		Keyframe__ctor_m2042404667(&L_3, (0.25f), (2.0f), /*hidden argument*/NULL);
+		(*(Keyframe_t1449471340 *)((L_2)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)))) = L_3;
+		KeyframeU5BU5D_t449065829* L_4 = L_2;
+		NullCheck(L_4);
+		Keyframe_t1449471340  L_5;
+		memset(&L_5, 0, sizeof(L_5));
+		Keyframe__ctor_m2042404667(&L_5, (0.5f), (0.0f), /*hidden argument*/NULL);
+		(*(Keyframe_t1449471340 *)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(2)))) = L_5;
+		KeyframeU5BU5D_t449065829* L_6 = L_4;
+		NullCheck(L_6);
+		Keyframe_t1449471340  L_7;
+		memset(&L_7, 0, sizeof(L_7));
+		Keyframe__ctor_m2042404667(&L_7, (0.75f), (2.0f), /*hidden argument*/NULL);
+		(*(Keyframe_t1449471340 *)((L_6)->GetAddressAt(static_cast<il2cpp_array_size_t>(3)))) = L_7;
+		KeyframeU5BU5D_t449065829* L_8 = L_6;
+		NullCheck(L_8);
+		Keyframe_t1449471340  L_9;
+		memset(&L_9, 0, sizeof(L_9));
+		Keyframe__ctor_m2042404667(&L_9, (1.0f), (0.0f), /*hidden argument*/NULL);
+		(*(Keyframe_t1449471340 *)((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(4)))) = L_9;
+		AnimationCurve_t3306541151 * L_10 = (AnimationCurve_t3306541151 *)il2cpp_codegen_object_new(AnimationCurve_t3306541151_il2cpp_TypeInfo_var);
+		AnimationCurve__ctor_m2814448007(L_10, L_8, /*hidden argument*/NULL);
+		__this->set_VertexCurve_3(L_10);
+		// public float AngleMultiplier = 1.0f;
+		__this->set_AngleMultiplier_4((1.0f));
+		// public float SpeedMultiplier = 1.0f;
+		__this->set_SpeedMultiplier_5((1.0f));
+		// public float CurveScale = 1.0f;
+		__this->set_CurveScale_6((1.0f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void TMPro.Examples.WarpTextExample::Awake()
+extern "C"  void WarpTextExample_Awake_m1300889120 (WarpTextExample_t250871869 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WarpTextExample_Awake_m1300889120_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// m_TextComponent = gameObject.GetComponent<TMP_Text>();
+		// m_TextComponent = gameObject.GetComponent<TMP_Text>();
+		GameObject_t1756533147 * L_0 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		// m_TextComponent = gameObject.GetComponent<TMP_Text>();
+		NullCheck(L_0);
+		TMP_Text_t1920000777 * L_1 = GameObject_GetComponent_TisTMP_Text_t1920000777_m287209048(L_0, /*hidden argument*/GameObject_GetComponent_TisTMP_Text_t1920000777_m287209048_MethodInfo_var);
+		__this->set_m_TextComponent_2(L_1);
+		// }
+		return;
+	}
+}
+// System.Void TMPro.Examples.WarpTextExample::Start()
+extern "C"  void WarpTextExample_Start_m3229976861 (WarpTextExample_t250871869 * __this, const MethodInfo* method)
+{
+	{
+		// StartCoroutine(WarpText());
+		// StartCoroutine(WarpText());
+		Il2CppObject * L_0 = WarpTextExample_WarpText_m3367975606(__this, /*hidden argument*/NULL);
+		// StartCoroutine(WarpText());
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_0, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// UnityEngine.AnimationCurve TMPro.Examples.WarpTextExample::CopyAnimationCurve(UnityEngine.AnimationCurve)
+extern "C"  AnimationCurve_t3306541151 * WarpTextExample_CopyAnimationCurve_m3209971324 (WarpTextExample_t250871869 * __this, AnimationCurve_t3306541151 * ___curve0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WarpTextExample_CopyAnimationCurve_m3209971324_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	AnimationCurve_t3306541151 * V_0 = NULL;
+	AnimationCurve_t3306541151 * V_1 = NULL;
+	{
+		// AnimationCurve newCurve = new AnimationCurve();
+		AnimationCurve_t3306541151 * L_0 = (AnimationCurve_t3306541151 *)il2cpp_codegen_object_new(AnimationCurve_t3306541151_il2cpp_TypeInfo_var);
+		AnimationCurve__ctor_m3707994114(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		// newCurve.keys = curve.keys;
+		AnimationCurve_t3306541151 * L_1 = V_0;
+		AnimationCurve_t3306541151 * L_2 = ___curve0;
+		// newCurve.keys = curve.keys;
+		NullCheck(L_2);
+		KeyframeU5BU5D_t449065829* L_3 = AnimationCurve_get_keys_m162753017(L_2, /*hidden argument*/NULL);
+		// newCurve.keys = curve.keys;
+		NullCheck(L_1);
+		AnimationCurve_set_keys_m2941016540(L_1, L_3, /*hidden argument*/NULL);
+		// return newCurve;
+		AnimationCurve_t3306541151 * L_4 = V_0;
+		V_1 = L_4;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		// }
+		AnimationCurve_t3306541151 * L_5 = V_1;
+		return L_5;
+	}
+}
+// System.Collections.IEnumerator TMPro.Examples.WarpTextExample::WarpText()
+extern "C"  Il2CppObject * WarpTextExample_WarpText_m3367975606 (WarpTextExample_t250871869 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WarpTextExample_WarpText_m3367975606_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CWarpTextU3Ec__Iterator0_t2736974085 * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	{
+		U3CWarpTextU3Ec__Iterator0_t2736974085 * L_0 = (U3CWarpTextU3Ec__Iterator0_t2736974085 *)il2cpp_codegen_object_new(U3CWarpTextU3Ec__Iterator0_t2736974085_il2cpp_TypeInfo_var);
+		U3CWarpTextU3Ec__Iterator0__ctor_m2188327598(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CWarpTextU3Ec__Iterator0_t2736974085 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_U24this_8(__this);
+		U3CWarpTextU3Ec__Iterator0_t2736974085 * L_2 = V_0;
+		V_1 = L_2;
+		goto IL_0014;
+	}
+
+IL_0014:
+	{
+		Il2CppObject * L_3 = V_1;
+		return L_3;
+	}
+}
+// System.Void TMPro.Examples.WarpTextExample/<WarpText>c__Iterator0::.ctor()
+extern "C"  void U3CWarpTextU3Ec__Iterator0__ctor_m2188327598 (U3CWarpTextU3Ec__Iterator0_t2736974085 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean TMPro.Examples.WarpTextExample/<WarpText>c__Iterator0::MoveNext()
+extern "C"  bool U3CWarpTextU3Ec__Iterator0_MoveNext_m1736221510 (U3CWarpTextU3Ec__Iterator0_t2736974085 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CWarpTextU3Ec__Iterator0_MoveNext_m1736221510_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	Bounds_t3033363703  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t2243707580  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Bounds_t3033363703  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Vector3_t2243707580  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	Vector3_t2243707580  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	float V_9 = 0.0f;
+	float V_10 = 0.0f;
+	float V_11 = 0.0f;
+	float V_12 = 0.0f;
+	Vector3_t2243707580  V_13;
+	memset(&V_13, 0, sizeof(V_13));
+	Vector3_t2243707580  V_14;
+	memset(&V_14, 0, sizeof(V_14));
+	float V_15 = 0.0f;
+	Vector3_t2243707580  V_16;
+	memset(&V_16, 0, sizeof(V_16));
+	float V_17 = 0.0f;
+	float G_B18_0 = 0.0f;
+	{
+		int32_t L_0 = __this->get_U24PC_11();
+		V_0 = L_0;
+		__this->set_U24PC_11((-1));
+		uint32_t L_1 = V_0;
+		switch (L_1)
+		{
+			case 0:
+			{
+				goto IL_0025;
+			}
+			case 1:
+			{
+				goto IL_011c;
+			}
+			case 2:
+			{
+				goto IL_05fe;
+			}
+		}
+	}
+	{
+		goto IL_060b;
+	}
+
+IL_0025:
+	{
+		// VertexCurve.preWrapMode = WrapMode.Clamp;
+		WarpTextExample_t250871869 * L_2 = __this->get_U24this_8();
+		NullCheck(L_2);
+		AnimationCurve_t3306541151 * L_3 = L_2->get_VertexCurve_3();
+		// VertexCurve.preWrapMode = WrapMode.Clamp;
+		NullCheck(L_3);
+		AnimationCurve_set_preWrapMode_m2999148321(L_3, 1, /*hidden argument*/NULL);
+		// VertexCurve.postWrapMode = WrapMode.Clamp;
+		WarpTextExample_t250871869 * L_4 = __this->get_U24this_8();
+		NullCheck(L_4);
+		AnimationCurve_t3306541151 * L_5 = L_4->get_VertexCurve_3();
+		// VertexCurve.postWrapMode = WrapMode.Clamp;
+		NullCheck(L_5);
+		AnimationCurve_set_postWrapMode_m262982620(L_5, 1, /*hidden argument*/NULL);
+		// m_TextComponent.havePropertiesChanged = true; // Need to force the TextMeshPro Object to be updated.
+		WarpTextExample_t250871869 * L_6 = __this->get_U24this_8();
+		NullCheck(L_6);
+		TMP_Text_t1920000777 * L_7 = L_6->get_m_TextComponent_2();
+		// m_TextComponent.havePropertiesChanged = true; // Need to force the TextMeshPro Object to be updated.
+		NullCheck(L_7);
+		TMP_Text_set_havePropertiesChanged_m1867159918(L_7, (bool)1, /*hidden argument*/NULL);
+		// CurveScale *= 10;
+		WarpTextExample_t250871869 * L_8 = __this->get_U24this_8();
+		WarpTextExample_t250871869 * L_9 = L_8;
+		NullCheck(L_9);
+		float L_10 = L_9->get_CurveScale_6();
+		NullCheck(L_9);
+		L_9->set_CurveScale_6(((float)((float)L_10*(float)(10.0f))));
+		// float old_CurveScale = CurveScale;
+		WarpTextExample_t250871869 * L_11 = __this->get_U24this_8();
+		NullCheck(L_11);
+		float L_12 = L_11->get_CurveScale_6();
+		__this->set_U3Cold_CurveScaleU3E__0_0(L_12);
+		// AnimationCurve old_curve = CopyAnimationCurve(VertexCurve);
+		WarpTextExample_t250871869 * L_13 = __this->get_U24this_8();
+		WarpTextExample_t250871869 * L_14 = __this->get_U24this_8();
+		NullCheck(L_14);
+		AnimationCurve_t3306541151 * L_15 = L_14->get_VertexCurve_3();
+		// AnimationCurve old_curve = CopyAnimationCurve(VertexCurve);
+		NullCheck(L_13);
+		AnimationCurve_t3306541151 * L_16 = WarpTextExample_CopyAnimationCurve_m3209971324(L_13, L_15, /*hidden argument*/NULL);
+		__this->set_U3Cold_curveU3E__0_1(L_16);
+	}
+
+IL_009d:
+	{
+		// if (!m_TextComponent.havePropertiesChanged && old_CurveScale == CurveScale && old_curve.keys[1].value == VertexCurve.keys[1].value)
+		WarpTextExample_t250871869 * L_17 = __this->get_U24this_8();
+		NullCheck(L_17);
+		TMP_Text_t1920000777 * L_18 = L_17->get_m_TextComponent_2();
+		// if (!m_TextComponent.havePropertiesChanged && old_CurveScale == CurveScale && old_curve.keys[1].value == VertexCurve.keys[1].value)
+		NullCheck(L_18);
+		bool L_19 = TMP_Text_get_havePropertiesChanged_m1322335941(L_18, /*hidden argument*/NULL);
+		if (L_19)
+		{
+			goto IL_0121;
+		}
+	}
+	{
+		float L_20 = __this->get_U3Cold_CurveScaleU3E__0_0();
+		WarpTextExample_t250871869 * L_21 = __this->get_U24this_8();
+		NullCheck(L_21);
+		float L_22 = L_21->get_CurveScale_6();
+		if ((!(((float)L_20) == ((float)L_22))))
+		{
+			goto IL_0121;
+		}
+	}
+	{
+		AnimationCurve_t3306541151 * L_23 = __this->get_U3Cold_curveU3E__0_1();
+		// if (!m_TextComponent.havePropertiesChanged && old_CurveScale == CurveScale && old_curve.keys[1].value == VertexCurve.keys[1].value)
+		NullCheck(L_23);
+		KeyframeU5BU5D_t449065829* L_24 = AnimationCurve_get_keys_m162753017(L_23, /*hidden argument*/NULL);
+		NullCheck(L_24);
+		// if (!m_TextComponent.havePropertiesChanged && old_CurveScale == CurveScale && old_curve.keys[1].value == VertexCurve.keys[1].value)
+		float L_25 = Keyframe_get_value_m979894315(((L_24)->GetAddressAt(static_cast<il2cpp_array_size_t>(1))), /*hidden argument*/NULL);
+		WarpTextExample_t250871869 * L_26 = __this->get_U24this_8();
+		NullCheck(L_26);
+		AnimationCurve_t3306541151 * L_27 = L_26->get_VertexCurve_3();
+		// if (!m_TextComponent.havePropertiesChanged && old_CurveScale == CurveScale && old_curve.keys[1].value == VertexCurve.keys[1].value)
+		NullCheck(L_27);
+		KeyframeU5BU5D_t449065829* L_28 = AnimationCurve_get_keys_m162753017(L_27, /*hidden argument*/NULL);
+		NullCheck(L_28);
+		// if (!m_TextComponent.havePropertiesChanged && old_CurveScale == CurveScale && old_curve.keys[1].value == VertexCurve.keys[1].value)
+		float L_29 = Keyframe_get_value_m979894315(((L_28)->GetAddressAt(static_cast<il2cpp_array_size_t>(1))), /*hidden argument*/NULL);
+		if ((!(((float)L_25) == ((float)L_29))))
+		{
+			goto IL_0121;
+		}
+	}
+	{
+		// yield return null;
+		__this->set_U24current_9(NULL);
+		bool L_30 = __this->get_U24disposing_10();
+		if (L_30)
+		{
+			goto IL_0117;
+		}
+	}
+	{
+		__this->set_U24PC_11(1);
+	}
+
+IL_0117:
+	{
+		goto IL_060d;
+	}
+
+IL_011c:
+	{
+		// continue;
+		goto IL_009d;
+	}
+
+IL_0121:
+	{
+		// old_CurveScale = CurveScale;
+		WarpTextExample_t250871869 * L_31 = __this->get_U24this_8();
+		NullCheck(L_31);
+		float L_32 = L_31->get_CurveScale_6();
+		__this->set_U3Cold_CurveScaleU3E__0_0(L_32);
+		// old_curve = CopyAnimationCurve(VertexCurve);
+		WarpTextExample_t250871869 * L_33 = __this->get_U24this_8();
+		WarpTextExample_t250871869 * L_34 = __this->get_U24this_8();
+		NullCheck(L_34);
+		AnimationCurve_t3306541151 * L_35 = L_34->get_VertexCurve_3();
+		// old_curve = CopyAnimationCurve(VertexCurve);
+		NullCheck(L_33);
+		AnimationCurve_t3306541151 * L_36 = WarpTextExample_CopyAnimationCurve_m3209971324(L_33, L_35, /*hidden argument*/NULL);
+		__this->set_U3Cold_curveU3E__0_1(L_36);
+		// m_TextComponent.ForceMeshUpdate(); // Generate the mesh and populate the textInfo with data we can use and manipulate.
+		WarpTextExample_t250871869 * L_37 = __this->get_U24this_8();
+		NullCheck(L_37);
+		TMP_Text_t1920000777 * L_38 = L_37->get_m_TextComponent_2();
+		// m_TextComponent.ForceMeshUpdate(); // Generate the mesh and populate the textInfo with data we can use and manipulate.
+		NullCheck(L_38);
+		VirtActionInvoker0::Invoke(98 /* System.Void TMPro.TMP_Text::ForceMeshUpdate() */, L_38);
+		// TMP_TextInfo textInfo = m_TextComponent.textInfo;
+		WarpTextExample_t250871869 * L_39 = __this->get_U24this_8();
+		NullCheck(L_39);
+		TMP_Text_t1920000777 * L_40 = L_39->get_m_TextComponent_2();
+		// TMP_TextInfo textInfo = m_TextComponent.textInfo;
+		NullCheck(L_40);
+		TMP_TextInfo_t2849466151 * L_41 = TMP_Text_get_textInfo_m3382403859(L_40, /*hidden argument*/NULL);
+		__this->set_U3CtextInfoU3E__1_2(L_41);
+		// int characterCount = textInfo.characterCount;
+		TMP_TextInfo_t2849466151 * L_42 = __this->get_U3CtextInfoU3E__1_2();
+		NullCheck(L_42);
+		int32_t L_43 = L_42->get_characterCount_3();
+		__this->set_U3CcharacterCountU3E__1_3(L_43);
+		// if (characterCount == 0) continue;
+		int32_t L_44 = __this->get_U3CcharacterCountU3E__1_3();
+		if (L_44)
+		{
+			goto IL_0195;
+		}
+	}
+	{
+		// if (characterCount == 0) continue;
+		goto IL_009d;
+	}
+
+IL_0195:
+	{
+		// float boundsMinX = m_TextComponent.bounds.min.x;  //textInfo.meshInfo[0].mesh.bounds.min.x;
+		WarpTextExample_t250871869 * L_45 = __this->get_U24this_8();
+		NullCheck(L_45);
+		TMP_Text_t1920000777 * L_46 = L_45->get_m_TextComponent_2();
+		// float boundsMinX = m_TextComponent.bounds.min.x;  //textInfo.meshInfo[0].mesh.bounds.min.x;
+		NullCheck(L_46);
+		Bounds_t3033363703  L_47 = TMP_Text_get_bounds_m596711790(L_46, /*hidden argument*/NULL);
+		V_1 = L_47;
+		// float boundsMinX = m_TextComponent.bounds.min.x;  //textInfo.meshInfo[0].mesh.bounds.min.x;
+		Vector3_t2243707580  L_48 = Bounds_get_min_m2405290441((&V_1), /*hidden argument*/NULL);
+		V_2 = L_48;
+		float L_49 = (&V_2)->get_x_1();
+		__this->set_U3CboundsMinXU3E__1_4(L_49);
+		// float boundsMaxX = m_TextComponent.bounds.max.x;  //textInfo.meshInfo[0].mesh.bounds.max.x;
+		WarpTextExample_t250871869 * L_50 = __this->get_U24this_8();
+		NullCheck(L_50);
+		TMP_Text_t1920000777 * L_51 = L_50->get_m_TextComponent_2();
+		// float boundsMaxX = m_TextComponent.bounds.max.x;  //textInfo.meshInfo[0].mesh.bounds.max.x;
+		NullCheck(L_51);
+		Bounds_t3033363703  L_52 = TMP_Text_get_bounds_m596711790(L_51, /*hidden argument*/NULL);
+		V_3 = L_52;
+		// float boundsMaxX = m_TextComponent.bounds.max.x;  //textInfo.meshInfo[0].mesh.bounds.max.x;
+		Vector3_t2243707580  L_53 = Bounds_get_max_m4247050707((&V_3), /*hidden argument*/NULL);
+		V_4 = L_53;
+		float L_54 = (&V_4)->get_x_1();
+		__this->set_U3CboundsMaxXU3E__1_5(L_54);
+		// for (int i = 0; i < characterCount; i++)
+		V_5 = 0;
+		goto IL_05bd;
+	}
+
+IL_01ea:
+	{
+		// if (!textInfo.characterInfo[i].isVisible)
+		TMP_TextInfo_t2849466151 * L_55 = __this->get_U3CtextInfoU3E__1_2();
+		NullCheck(L_55);
+		TMP_CharacterInfoU5BU5D_t602810366* L_56 = L_55->get_characterInfo_11();
+		int32_t L_57 = V_5;
+		NullCheck(L_56);
+		bool L_58 = ((L_56)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_57)))->get_isVisible_34();
+		if (L_58)
+		{
+			goto IL_020c;
+		}
+	}
+	{
+		// continue;
+		goto IL_05b7;
+	}
+
+IL_020c:
+	{
+		// int vertexIndex = textInfo.characterInfo[i].vertexIndex;
+		TMP_TextInfo_t2849466151 * L_59 = __this->get_U3CtextInfoU3E__1_2();
+		NullCheck(L_59);
+		TMP_CharacterInfoU5BU5D_t602810366* L_60 = L_59->get_characterInfo_11();
+		int32_t L_61 = V_5;
+		NullCheck(L_60);
+		int32_t L_62 = ((L_60)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_61)))->get_vertexIndex_13();
+		V_6 = L_62;
+		// int materialIndex = textInfo.characterInfo[i].materialReferenceIndex;
+		TMP_TextInfo_t2849466151 * L_63 = __this->get_U3CtextInfoU3E__1_2();
+		NullCheck(L_63);
+		TMP_CharacterInfoU5BU5D_t602810366* L_64 = L_63->get_characterInfo_11();
+		int32_t L_65 = V_5;
+		NullCheck(L_64);
+		int32_t L_66 = ((L_64)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_65)))->get_materialReferenceIndex_8();
+		V_7 = L_66;
+		// vertices = textInfo.meshInfo[materialIndex].vertices;
+		TMP_TextInfo_t2849466151 * L_67 = __this->get_U3CtextInfoU3E__1_2();
+		NullCheck(L_67);
+		TMP_MeshInfoU5BU5D_t2398608976* L_68 = L_67->get_meshInfo_16();
+		int32_t L_69 = V_7;
+		NullCheck(L_68);
+		Vector3U5BU5D_t1172311765* L_70 = ((L_68)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_69)))->get_vertices_5();
+		__this->set_U3CverticesU3E__2_6(L_70);
+		// Vector3 offsetToMidBaseline = new Vector2((vertices[vertexIndex + 0].x + vertices[vertexIndex + 2].x) / 2, textInfo.characterInfo[i].baseLine);
+		Vector3U5BU5D_t1172311765* L_71 = __this->get_U3CverticesU3E__2_6();
+		int32_t L_72 = V_6;
+		NullCheck(L_71);
+		float L_73 = ((L_71)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_72)))->get_x_1();
+		Vector3U5BU5D_t1172311765* L_74 = __this->get_U3CverticesU3E__2_6();
+		int32_t L_75 = V_6;
+		NullCheck(L_74);
+		float L_76 = ((L_74)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_75+(int32_t)2)))))->get_x_1();
+		TMP_TextInfo_t2849466151 * L_77 = __this->get_U3CtextInfoU3E__1_2();
+		NullCheck(L_77);
+		TMP_CharacterInfoU5BU5D_t602810366* L_78 = L_77->get_characterInfo_11();
+		int32_t L_79 = V_5;
+		NullCheck(L_78);
+		float L_80 = ((L_78)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_79)))->get_baseLine_24();
+		// Vector3 offsetToMidBaseline = new Vector2((vertices[vertexIndex + 0].x + vertices[vertexIndex + 2].x) / 2, textInfo.characterInfo[i].baseLine);
+		Vector2_t2243707579  L_81;
+		memset(&L_81, 0, sizeof(L_81));
+		Vector2__ctor_m3067419446(&L_81, ((float)((float)((float)((float)L_73+(float)L_76))/(float)(2.0f))), L_80, /*hidden argument*/NULL);
+		// Vector3 offsetToMidBaseline = new Vector2((vertices[vertexIndex + 0].x + vertices[vertexIndex + 2].x) / 2, textInfo.characterInfo[i].baseLine);
+		Vector3_t2243707580  L_82 = Vector2_op_Implicit_m176791411(NULL /*static, unused*/, L_81, /*hidden argument*/NULL);
+		V_8 = L_82;
+		// vertices[vertexIndex + 0] += -offsetToMidBaseline;
+		Vector3U5BU5D_t1172311765* L_83 = __this->get_U3CverticesU3E__2_6();
+		int32_t L_84 = V_6;
+		NullCheck(L_83);
+		Vector3_t2243707580 * L_85 = ((L_83)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_84)));
+		Vector3_t2243707580  L_86 = V_8;
+		// vertices[vertexIndex + 0] += -offsetToMidBaseline;
+		Vector3_t2243707580  L_87 = Vector3_op_UnaryNegation_m3383802608(NULL /*static, unused*/, L_86, /*hidden argument*/NULL);
+		// vertices[vertexIndex + 0] += -offsetToMidBaseline;
+		Vector3_t2243707580  L_88 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_85), L_87, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_85) = L_88;
+		// vertices[vertexIndex + 1] += -offsetToMidBaseline;
+		Vector3U5BU5D_t1172311765* L_89 = __this->get_U3CverticesU3E__2_6();
+		int32_t L_90 = V_6;
+		NullCheck(L_89);
+		Vector3_t2243707580 * L_91 = ((L_89)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_90+(int32_t)1)))));
+		Vector3_t2243707580  L_92 = V_8;
+		// vertices[vertexIndex + 1] += -offsetToMidBaseline;
+		Vector3_t2243707580  L_93 = Vector3_op_UnaryNegation_m3383802608(NULL /*static, unused*/, L_92, /*hidden argument*/NULL);
+		// vertices[vertexIndex + 1] += -offsetToMidBaseline;
+		Vector3_t2243707580  L_94 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_91), L_93, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_91) = L_94;
+		// vertices[vertexIndex + 2] += -offsetToMidBaseline;
+		Vector3U5BU5D_t1172311765* L_95 = __this->get_U3CverticesU3E__2_6();
+		int32_t L_96 = V_6;
+		NullCheck(L_95);
+		Vector3_t2243707580 * L_97 = ((L_95)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_96+(int32_t)2)))));
+		Vector3_t2243707580  L_98 = V_8;
+		// vertices[vertexIndex + 2] += -offsetToMidBaseline;
+		Vector3_t2243707580  L_99 = Vector3_op_UnaryNegation_m3383802608(NULL /*static, unused*/, L_98, /*hidden argument*/NULL);
+		// vertices[vertexIndex + 2] += -offsetToMidBaseline;
+		Vector3_t2243707580  L_100 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_97), L_99, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_97) = L_100;
+		// vertices[vertexIndex + 3] += -offsetToMidBaseline;
+		Vector3U5BU5D_t1172311765* L_101 = __this->get_U3CverticesU3E__2_6();
+		int32_t L_102 = V_6;
+		NullCheck(L_101);
+		Vector3_t2243707580 * L_103 = ((L_101)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_102+(int32_t)3)))));
+		Vector3_t2243707580  L_104 = V_8;
+		// vertices[vertexIndex + 3] += -offsetToMidBaseline;
+		Vector3_t2243707580  L_105 = Vector3_op_UnaryNegation_m3383802608(NULL /*static, unused*/, L_104, /*hidden argument*/NULL);
+		// vertices[vertexIndex + 3] += -offsetToMidBaseline;
+		Vector3_t2243707580  L_106 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_103), L_105, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_103) = L_106;
+		// float x0 = (offsetToMidBaseline.x - boundsMinX) / (boundsMaxX - boundsMinX); // Character's position relative to the bounds of the mesh.
+		float L_107 = (&V_8)->get_x_1();
+		float L_108 = __this->get_U3CboundsMinXU3E__1_4();
+		float L_109 = __this->get_U3CboundsMaxXU3E__1_5();
+		float L_110 = __this->get_U3CboundsMinXU3E__1_4();
+		V_9 = ((float)((float)((float)((float)L_107-(float)L_108))/(float)((float)((float)L_109-(float)L_110))));
+		// float x1 = x0 + 0.0001f;
+		float L_111 = V_9;
+		V_10 = ((float)((float)L_111+(float)(0.0001f)));
+		// float y0 = VertexCurve.Evaluate(x0) * CurveScale;
+		WarpTextExample_t250871869 * L_112 = __this->get_U24this_8();
+		NullCheck(L_112);
+		AnimationCurve_t3306541151 * L_113 = L_112->get_VertexCurve_3();
+		float L_114 = V_9;
+		// float y0 = VertexCurve.Evaluate(x0) * CurveScale;
+		NullCheck(L_113);
+		float L_115 = AnimationCurve_Evaluate_m3698879322(L_113, L_114, /*hidden argument*/NULL);
+		WarpTextExample_t250871869 * L_116 = __this->get_U24this_8();
+		NullCheck(L_116);
+		float L_117 = L_116->get_CurveScale_6();
+		V_11 = ((float)((float)L_115*(float)L_117));
+		// float y1 = VertexCurve.Evaluate(x1) * CurveScale;
+		WarpTextExample_t250871869 * L_118 = __this->get_U24this_8();
+		NullCheck(L_118);
+		AnimationCurve_t3306541151 * L_119 = L_118->get_VertexCurve_3();
+		float L_120 = V_10;
+		// float y1 = VertexCurve.Evaluate(x1) * CurveScale;
+		NullCheck(L_119);
+		float L_121 = AnimationCurve_Evaluate_m3698879322(L_119, L_120, /*hidden argument*/NULL);
+		WarpTextExample_t250871869 * L_122 = __this->get_U24this_8();
+		NullCheck(L_122);
+		float L_123 = L_122->get_CurveScale_6();
+		V_12 = ((float)((float)L_121*(float)L_123));
+		// Vector3 horizontal = new Vector3(1, 0, 0);
+		// Vector3 horizontal = new Vector3(1, 0, 0);
+		Vector3__ctor_m2638739322((&V_13), (1.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		// Vector3 tangent = new Vector3(x1 * (boundsMaxX - boundsMinX) + boundsMinX, y1) - new Vector3(offsetToMidBaseline.x, y0);
+		float L_124 = V_10;
+		float L_125 = __this->get_U3CboundsMaxXU3E__1_5();
+		float L_126 = __this->get_U3CboundsMinXU3E__1_4();
+		float L_127 = __this->get_U3CboundsMinXU3E__1_4();
+		float L_128 = V_12;
+		// Vector3 tangent = new Vector3(x1 * (boundsMaxX - boundsMinX) + boundsMinX, y1) - new Vector3(offsetToMidBaseline.x, y0);
+		Vector3_t2243707580  L_129;
+		memset(&L_129, 0, sizeof(L_129));
+		Vector3__ctor_m2720820983(&L_129, ((float)((float)((float)((float)L_124*(float)((float)((float)L_125-(float)L_126))))+(float)L_127)), L_128, /*hidden argument*/NULL);
+		float L_130 = (&V_8)->get_x_1();
+		float L_131 = V_11;
+		// Vector3 tangent = new Vector3(x1 * (boundsMaxX - boundsMinX) + boundsMinX, y1) - new Vector3(offsetToMidBaseline.x, y0);
+		Vector3_t2243707580  L_132;
+		memset(&L_132, 0, sizeof(L_132));
+		Vector3__ctor_m2720820983(&L_132, L_130, L_131, /*hidden argument*/NULL);
+		// Vector3 tangent = new Vector3(x1 * (boundsMaxX - boundsMinX) + boundsMinX, y1) - new Vector3(offsetToMidBaseline.x, y0);
+		Vector3_t2243707580  L_133 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_129, L_132, /*hidden argument*/NULL);
+		V_14 = L_133;
+		// float dot = Mathf.Acos(Vector3.Dot(horizontal, tangent.normalized)) * 57.2957795f;
+		Vector3_t2243707580  L_134 = V_13;
+		// float dot = Mathf.Acos(Vector3.Dot(horizontal, tangent.normalized)) * 57.2957795f;
+		Vector3_t2243707580  L_135 = Vector3_get_normalized_m936072361((&V_14), /*hidden argument*/NULL);
+		// float dot = Mathf.Acos(Vector3.Dot(horizontal, tangent.normalized)) * 57.2957795f;
+		float L_136 = Vector3_Dot_m3161182818(NULL /*static, unused*/, L_134, L_135, /*hidden argument*/NULL);
+		// float dot = Mathf.Acos(Vector3.Dot(horizontal, tangent.normalized)) * 57.2957795f;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_137 = acosf(L_136);
+		V_15 = ((float)((float)L_137*(float)(57.29578f)));
+		// Vector3 cross = Vector3.Cross(horizontal, tangent);
+		Vector3_t2243707580  L_138 = V_13;
+		Vector3_t2243707580  L_139 = V_14;
+		// Vector3 cross = Vector3.Cross(horizontal, tangent);
+		Vector3_t2243707580  L_140 = Vector3_Cross_m4149044051(NULL /*static, unused*/, L_138, L_139, /*hidden argument*/NULL);
+		V_16 = L_140;
+		// float angle = cross.z > 0 ? dot : 360 - dot;
+		float L_141 = (&V_16)->get_z_3();
+		if ((!(((float)L_141) > ((float)(0.0f)))))
+		{
+			goto IL_0430;
+		}
+	}
+	{
+		float L_142 = V_15;
+		G_B18_0 = L_142;
+		goto IL_0438;
+	}
+
+IL_0430:
+	{
+		float L_143 = V_15;
+		G_B18_0 = ((float)((float)(360.0f)-(float)L_143));
+	}
+
+IL_0438:
+	{
+		V_17 = G_B18_0;
+		// matrix = Matrix4x4.TRS(new Vector3(0, y0, 0), Quaternion.Euler(0, 0, angle), Vector3.one);
+		float L_144 = V_11;
+		// matrix = Matrix4x4.TRS(new Vector3(0, y0, 0), Quaternion.Euler(0, 0, angle), Vector3.one);
+		Vector3_t2243707580  L_145;
+		memset(&L_145, 0, sizeof(L_145));
+		Vector3__ctor_m2638739322(&L_145, (0.0f), L_144, (0.0f), /*hidden argument*/NULL);
+		float L_146 = V_17;
+		// matrix = Matrix4x4.TRS(new Vector3(0, y0, 0), Quaternion.Euler(0, 0, angle), Vector3.one);
+		Quaternion_t4030073918  L_147 = Quaternion_Euler_m2887458175(NULL /*static, unused*/, (0.0f), (0.0f), L_146, /*hidden argument*/NULL);
+		// matrix = Matrix4x4.TRS(new Vector3(0, y0, 0), Quaternion.Euler(0, 0, angle), Vector3.one);
+		Vector3_t2243707580  L_148 = Vector3_get_one_m627547232(NULL /*static, unused*/, /*hidden argument*/NULL);
+		// matrix = Matrix4x4.TRS(new Vector3(0, y0, 0), Quaternion.Euler(0, 0, angle), Vector3.one);
+		Matrix4x4_t2933234003  L_149 = Matrix4x4_TRS_m1913765359(NULL /*static, unused*/, L_145, L_147, L_148, /*hidden argument*/NULL);
+		__this->set_U3CmatrixU3E__2_7(L_149);
+		// vertices[vertexIndex + 0] = matrix.MultiplyPoint3x4(vertices[vertexIndex + 0]);
+		Vector3U5BU5D_t1172311765* L_150 = __this->get_U3CverticesU3E__2_6();
+		int32_t L_151 = V_6;
+		NullCheck(L_150);
+		Matrix4x4_t2933234003 * L_152 = __this->get_address_of_U3CmatrixU3E__2_7();
+		Vector3U5BU5D_t1172311765* L_153 = __this->get_U3CverticesU3E__2_6();
+		int32_t L_154 = V_6;
+		NullCheck(L_153);
+		// vertices[vertexIndex + 0] = matrix.MultiplyPoint3x4(vertices[vertexIndex + 0]);
+		Vector3_t2243707580  L_155 = Matrix4x4_MultiplyPoint3x4_m1007952212(L_152, (*(Vector3_t2243707580 *)((L_153)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_154)))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_150)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_151)))) = L_155;
+		// vertices[vertexIndex + 1] = matrix.MultiplyPoint3x4(vertices[vertexIndex + 1]);
+		Vector3U5BU5D_t1172311765* L_156 = __this->get_U3CverticesU3E__2_6();
+		int32_t L_157 = V_6;
+		NullCheck(L_156);
+		Matrix4x4_t2933234003 * L_158 = __this->get_address_of_U3CmatrixU3E__2_7();
+		Vector3U5BU5D_t1172311765* L_159 = __this->get_U3CverticesU3E__2_6();
+		int32_t L_160 = V_6;
+		NullCheck(L_159);
+		// vertices[vertexIndex + 1] = matrix.MultiplyPoint3x4(vertices[vertexIndex + 1]);
+		Vector3_t2243707580  L_161 = Matrix4x4_MultiplyPoint3x4_m1007952212(L_158, (*(Vector3_t2243707580 *)((L_159)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_160+(int32_t)1)))))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_156)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_157+(int32_t)1)))))) = L_161;
+		// vertices[vertexIndex + 2] = matrix.MultiplyPoint3x4(vertices[vertexIndex + 2]);
+		Vector3U5BU5D_t1172311765* L_162 = __this->get_U3CverticesU3E__2_6();
+		int32_t L_163 = V_6;
+		NullCheck(L_162);
+		Matrix4x4_t2933234003 * L_164 = __this->get_address_of_U3CmatrixU3E__2_7();
+		Vector3U5BU5D_t1172311765* L_165 = __this->get_U3CverticesU3E__2_6();
+		int32_t L_166 = V_6;
+		NullCheck(L_165);
+		// vertices[vertexIndex + 2] = matrix.MultiplyPoint3x4(vertices[vertexIndex + 2]);
+		Vector3_t2243707580  L_167 = Matrix4x4_MultiplyPoint3x4_m1007952212(L_164, (*(Vector3_t2243707580 *)((L_165)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_166+(int32_t)2)))))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_162)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_163+(int32_t)2)))))) = L_167;
+		// vertices[vertexIndex + 3] = matrix.MultiplyPoint3x4(vertices[vertexIndex + 3]);
+		Vector3U5BU5D_t1172311765* L_168 = __this->get_U3CverticesU3E__2_6();
+		int32_t L_169 = V_6;
+		NullCheck(L_168);
+		Matrix4x4_t2933234003 * L_170 = __this->get_address_of_U3CmatrixU3E__2_7();
+		Vector3U5BU5D_t1172311765* L_171 = __this->get_U3CverticesU3E__2_6();
+		int32_t L_172 = V_6;
+		NullCheck(L_171);
+		// vertices[vertexIndex + 3] = matrix.MultiplyPoint3x4(vertices[vertexIndex + 3]);
+		Vector3_t2243707580  L_173 = Matrix4x4_MultiplyPoint3x4_m1007952212(L_170, (*(Vector3_t2243707580 *)((L_171)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_172+(int32_t)3)))))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_168)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_169+(int32_t)3)))))) = L_173;
+		// vertices[vertexIndex + 0] += offsetToMidBaseline;
+		Vector3U5BU5D_t1172311765* L_174 = __this->get_U3CverticesU3E__2_6();
+		int32_t L_175 = V_6;
+		NullCheck(L_174);
+		Vector3_t2243707580 * L_176 = ((L_174)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_175)));
+		Vector3_t2243707580  L_177 = V_8;
+		// vertices[vertexIndex + 0] += offsetToMidBaseline;
+		Vector3_t2243707580  L_178 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_176), L_177, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_176) = L_178;
+		// vertices[vertexIndex + 1] += offsetToMidBaseline;
+		Vector3U5BU5D_t1172311765* L_179 = __this->get_U3CverticesU3E__2_6();
+		int32_t L_180 = V_6;
+		NullCheck(L_179);
+		Vector3_t2243707580 * L_181 = ((L_179)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_180+(int32_t)1)))));
+		Vector3_t2243707580  L_182 = V_8;
+		// vertices[vertexIndex + 1] += offsetToMidBaseline;
+		Vector3_t2243707580  L_183 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_181), L_182, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_181) = L_183;
+		// vertices[vertexIndex + 2] += offsetToMidBaseline;
+		Vector3U5BU5D_t1172311765* L_184 = __this->get_U3CverticesU3E__2_6();
+		int32_t L_185 = V_6;
+		NullCheck(L_184);
+		Vector3_t2243707580 * L_186 = ((L_184)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_185+(int32_t)2)))));
+		Vector3_t2243707580  L_187 = V_8;
+		// vertices[vertexIndex + 2] += offsetToMidBaseline;
+		Vector3_t2243707580  L_188 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_186), L_187, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_186) = L_188;
+		// vertices[vertexIndex + 3] += offsetToMidBaseline;
+		Vector3U5BU5D_t1172311765* L_189 = __this->get_U3CverticesU3E__2_6();
+		int32_t L_190 = V_6;
+		NullCheck(L_189);
+		Vector3_t2243707580 * L_191 = ((L_189)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_190+(int32_t)3)))));
+		Vector3_t2243707580  L_192 = V_8;
+		// vertices[vertexIndex + 3] += offsetToMidBaseline;
+		Vector3_t2243707580  L_193 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_191), L_192, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_191) = L_193;
+	}
+
+IL_05b7:
+	{
+		// for (int i = 0; i < characterCount; i++)
+		int32_t L_194 = V_5;
+		V_5 = ((int32_t)((int32_t)L_194+(int32_t)1));
+	}
+
+IL_05bd:
+	{
+		// for (int i = 0; i < characterCount; i++)
+		int32_t L_195 = V_5;
+		int32_t L_196 = __this->get_U3CcharacterCountU3E__1_3();
+		if ((((int32_t)L_195) < ((int32_t)L_196)))
+		{
+			goto IL_01ea;
+		}
+	}
+	{
+		// m_TextComponent.UpdateVertexData();
+		WarpTextExample_t250871869 * L_197 = __this->get_U24this_8();
+		NullCheck(L_197);
+		TMP_Text_t1920000777 * L_198 = L_197->get_m_TextComponent_2();
+		// m_TextComponent.UpdateVertexData();
+		NullCheck(L_198);
+		VirtActionInvoker0::Invoke(102 /* System.Void TMPro.TMP_Text::UpdateVertexData() */, L_198);
+		// yield return new WaitForSeconds(0.025f);
+		// yield return new WaitForSeconds(0.025f);
+		WaitForSeconds_t3839502067 * L_199 = (WaitForSeconds_t3839502067 *)il2cpp_codegen_object_new(WaitForSeconds_t3839502067_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m1990515539(L_199, (0.025f), /*hidden argument*/NULL);
+		__this->set_U24current_9(L_199);
+		bool L_200 = __this->get_U24disposing_10();
+		if (L_200)
+		{
+			goto IL_05f9;
+		}
+	}
+	{
+		__this->set_U24PC_11(2);
+	}
+
+IL_05f9:
+	{
+		goto IL_060d;
+	}
+
+IL_05fe:
+	{
+		goto IL_009d;
+	}
+	// Dead block : IL_0604: ldarg.0
+
+IL_060b:
+	{
+		return (bool)0;
+	}
+
+IL_060d:
+	{
+		return (bool)1;
+	}
+}
+// System.Object TMPro.Examples.WarpTextExample/<WarpText>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CWarpTextU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m218674816 (U3CWarpTextU3Ec__Iterator0_t2736974085 * __this, const MethodInfo* method)
+{
+	Il2CppObject * V_0 = NULL;
+	{
+		Il2CppObject * L_0 = __this->get_U24current_9();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Il2CppObject * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Object TMPro.Examples.WarpTextExample/<WarpText>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CWarpTextU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3141193320 (U3CWarpTextU3Ec__Iterator0_t2736974085 * __this, const MethodInfo* method)
+{
+	Il2CppObject * V_0 = NULL;
+	{
+		Il2CppObject * L_0 = __this->get_U24current_9();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Il2CppObject * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void TMPro.Examples.WarpTextExample/<WarpText>c__Iterator0::Dispose()
+extern "C"  void U3CWarpTextU3Ec__Iterator0_Dispose_m2993978439 (U3CWarpTextU3Ec__Iterator0_t2736974085 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_10((bool)1);
+		__this->set_U24PC_11((-1));
+		return;
+	}
+}
+// System.Void TMPro.Examples.WarpTextExample/<WarpText>c__Iterator0::Reset()
+extern "C"  void U3CWarpTextU3Ec__Iterator0_Reset_m1145799017 (U3CWarpTextU3Ec__Iterator0_t2736974085 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CWarpTextU3Ec__Iterator0_Reset_m1145799017_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void TMPro.TMP_DigitValidator::.ctor()
+extern "C"  void TMP_DigitValidator__ctor_m2948595682 (TMP_DigitValidator_t3346203809 * __this, const MethodInfo* method)
+{
+	{
+		TMP_InputValidator__ctor_m1408675738(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Char TMPro.TMP_DigitValidator::Validate(System.String&,System.Int32&,System.Char)
+extern "C"  Il2CppChar TMP_DigitValidator_Validate_m151490556 (TMP_DigitValidator_t3346203809 * __this, String_t** ___text0, int32_t* ___pos1, Il2CppChar ___ch2, const MethodInfo* method)
+{
+	Il2CppChar V_0 = 0x0;
+	{
+		// if (ch >= '0' && ch <= '9')
+		Il2CppChar L_0 = ___ch2;
+		if ((((int32_t)L_0) < ((int32_t)((int32_t)48))))
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		Il2CppChar L_1 = ___ch2;
+		if ((((int32_t)L_1) > ((int32_t)((int32_t)57))))
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		// pos += 1;
+		int32_t* L_2 = ___pos1;
+		int32_t* L_3 = ___pos1;
+		*((int32_t*)(L_2)) = (int32_t)((int32_t)((int32_t)(*((int32_t*)L_3))+(int32_t)1));
+		// return ch;
+		Il2CppChar L_4 = ___ch2;
+		V_0 = L_4;
+		goto IL_0026;
+	}
+
+IL_001f:
+	{
+		// return (char)0;
+		V_0 = 0;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		// }
+		Il2CppChar L_5 = V_0;
+		return L_5;
+	}
+}
+// System.Void TMPro.TMP_TextEventHandler::.ctor()
+extern "C"  void TMP_TextEventHandler__ctor_m3004486904 (TMP_TextEventHandler_t1517844021 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TMP_TextEventHandler__ctor_m3004486904_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private CharacterSelectionEvent m_OnCharacterSelection = new CharacterSelectionEvent();
+		CharacterSelectionEvent_t2887241789 * L_0 = (CharacterSelectionEvent_t2887241789 *)il2cpp_codegen_object_new(CharacterSelectionEvent_t2887241789_il2cpp_TypeInfo_var);
+		CharacterSelectionEvent__ctor_m2593822550(L_0, /*hidden argument*/NULL);
+		__this->set_m_OnCharacterSelection_2(L_0);
+		// private WordSelectionEvent m_OnWordSelection = new WordSelectionEvent();
+		WordSelectionEvent_t2871480376 * L_1 = (WordSelectionEvent_t2871480376 *)il2cpp_codegen_object_new(WordSelectionEvent_t2871480376_il2cpp_TypeInfo_var);
+		WordSelectionEvent__ctor_m899574239(L_1, /*hidden argument*/NULL);
+		__this->set_m_OnWordSelection_3(L_1);
+		// private LineSelectionEvent m_OnLineSelection = new LineSelectionEvent();
+		LineSelectionEvent_t3265414486 * L_2 = (LineSelectionEvent_t3265414486 *)il2cpp_codegen_object_new(LineSelectionEvent_t3265414486_il2cpp_TypeInfo_var);
+		LineSelectionEvent__ctor_m2634206907(L_2, /*hidden argument*/NULL);
+		__this->set_m_OnLineSelection_4(L_2);
+		// private LinkSelectionEvent m_OnLinkSelection = new LinkSelectionEvent();
+		LinkSelectionEvent_t3735310088 * L_3 = (LinkSelectionEvent_t3735310088 *)il2cpp_codegen_object_new(LinkSelectionEvent_t3735310088_il2cpp_TypeInfo_var);
+		LinkSelectionEvent__ctor_m1445136385(L_3, /*hidden argument*/NULL);
+		__this->set_m_OnLinkSelection_5(L_3);
+		// private int m_selectedLink = -1;
+		__this->set_m_selectedLink_9((-1));
+		// private int m_lastCharIndex = -1;
+		__this->set_m_lastCharIndex_10((-1));
+		// private int m_lastWordIndex = -1;
+		__this->set_m_lastWordIndex_11((-1));
+		// private int m_lastLineIndex = -1;
+		__this->set_m_lastLineIndex_12((-1));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// TMPro.TMP_TextEventHandler/CharacterSelectionEvent TMPro.TMP_TextEventHandler::get_onCharacterSelection()
+extern "C"  CharacterSelectionEvent_t2887241789 * TMP_TextEventHandler_get_onCharacterSelection_m3919689539 (TMP_TextEventHandler_t1517844021 * __this, const MethodInfo* method)
+{
+	CharacterSelectionEvent_t2887241789 * V_0 = NULL;
+	{
+		// get { return m_OnCharacterSelection; }
+		CharacterSelectionEvent_t2887241789 * L_0 = __this->get_m_OnCharacterSelection_2();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		// get { return m_OnCharacterSelection; }
+		CharacterSelectionEvent_t2887241789 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void TMPro.TMP_TextEventHandler::set_onCharacterSelection(TMPro.TMP_TextEventHandler/CharacterSelectionEvent)
+extern "C"  void TMP_TextEventHandler_set_onCharacterSelection_m866356440 (TMP_TextEventHandler_t1517844021 * __this, CharacterSelectionEvent_t2887241789 * ___value0, const MethodInfo* method)
+{
+	{
+		// set { m_OnCharacterSelection = value; }
+		CharacterSelectionEvent_t2887241789 * L_0 = ___value0;
+		__this->set_m_OnCharacterSelection_2(L_0);
+		// set { m_OnCharacterSelection = value; }
+		return;
+	}
+}
+// TMPro.TMP_TextEventHandler/WordSelectionEvent TMPro.TMP_TextEventHandler::get_onWordSelection()
+extern "C"  WordSelectionEvent_t2871480376 * TMP_TextEventHandler_get_onWordSelection_m174382615 (TMP_TextEventHandler_t1517844021 * __this, const MethodInfo* method)
+{
+	WordSelectionEvent_t2871480376 * V_0 = NULL;
+	{
+		// get { return m_OnWordSelection; }
+		WordSelectionEvent_t2871480376 * L_0 = __this->get_m_OnWordSelection_3();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		// get { return m_OnWordSelection; }
+		WordSelectionEvent_t2871480376 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void TMPro.TMP_TextEventHandler::set_onWordSelection(TMPro.TMP_TextEventHandler/WordSelectionEvent)
+extern "C"  void TMP_TextEventHandler_set_onWordSelection_m3886243944 (TMP_TextEventHandler_t1517844021 * __this, WordSelectionEvent_t2871480376 * ___value0, const MethodInfo* method)
+{
+	{
+		// set { m_OnWordSelection = value; }
+		WordSelectionEvent_t2871480376 * L_0 = ___value0;
+		__this->set_m_OnWordSelection_3(L_0);
+		// set { m_OnWordSelection = value; }
+		return;
+	}
+}
+// TMPro.TMP_TextEventHandler/LineSelectionEvent TMPro.TMP_TextEventHandler::get_onLineSelection()
+extern "C"  LineSelectionEvent_t3265414486 * TMP_TextEventHandler_get_onLineSelection_m1120242679 (TMP_TextEventHandler_t1517844021 * __this, const MethodInfo* method)
+{
+	LineSelectionEvent_t3265414486 * V_0 = NULL;
+	{
+		// get { return m_OnLineSelection; }
+		LineSelectionEvent_t3265414486 * L_0 = __this->get_m_OnLineSelection_4();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		// get { return m_OnLineSelection; }
+		LineSelectionEvent_t3265414486 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void TMPro.TMP_TextEventHandler::set_onLineSelection(TMPro.TMP_TextEventHandler/LineSelectionEvent)
+extern "C"  void TMP_TextEventHandler_set_onLineSelection_m3385998920 (TMP_TextEventHandler_t1517844021 * __this, LineSelectionEvent_t3265414486 * ___value0, const MethodInfo* method)
+{
+	{
+		// set { m_OnLineSelection = value; }
+		LineSelectionEvent_t3265414486 * L_0 = ___value0;
+		__this->set_m_OnLineSelection_4(L_0);
+		// set { m_OnLineSelection = value; }
+		return;
+	}
+}
+// TMPro.TMP_TextEventHandler/LinkSelectionEvent TMPro.TMP_TextEventHandler::get_onLinkSelection()
+extern "C"  LinkSelectionEvent_t3735310088 * TMP_TextEventHandler_get_onLinkSelection_m3843497023 (TMP_TextEventHandler_t1517844021 * __this, const MethodInfo* method)
+{
+	LinkSelectionEvent_t3735310088 * V_0 = NULL;
+	{
+		// get { return m_OnLinkSelection; }
+		LinkSelectionEvent_t3735310088 * L_0 = __this->get_m_OnLinkSelection_5();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		// get { return m_OnLinkSelection; }
+		LinkSelectionEvent_t3735310088 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void TMPro.TMP_TextEventHandler::set_onLinkSelection(TMPro.TMP_TextEventHandler/LinkSelectionEvent)
+extern "C"  void TMP_TextEventHandler_set_onLinkSelection_m1097340972 (TMP_TextEventHandler_t1517844021 * __this, LinkSelectionEvent_t3735310088 * ___value0, const MethodInfo* method)
+{
+	{
+		// set { m_OnLinkSelection = value; }
+		LinkSelectionEvent_t3735310088 * L_0 = ___value0;
+		__this->set_m_OnLinkSelection_5(L_0);
+		// set { m_OnLinkSelection = value; }
+		return;
+	}
+}
+// System.Void TMPro.TMP_TextEventHandler::Awake()
+extern "C"  void TMP_TextEventHandler_Awake_m2375622331 (TMP_TextEventHandler_t1517844021 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TMP_TextEventHandler_Awake_m2375622331_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// m_TextComponent = gameObject.GetComponent<TMP_Text>();
+		// m_TextComponent = gameObject.GetComponent<TMP_Text>();
+		GameObject_t1756533147 * L_0 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		// m_TextComponent = gameObject.GetComponent<TMP_Text>();
+		NullCheck(L_0);
+		TMP_Text_t1920000777 * L_1 = GameObject_GetComponent_TisTMP_Text_t1920000777_m287209048(L_0, /*hidden argument*/GameObject_GetComponent_TisTMP_Text_t1920000777_m287209048_MethodInfo_var);
+		__this->set_m_TextComponent_6(L_1);
+		// if (m_TextComponent.GetType() == typeof(TextMeshProUGUI))
+		TMP_Text_t1920000777 * L_2 = __this->get_m_TextComponent_6();
+		// if (m_TextComponent.GetType() == typeof(TextMeshProUGUI))
+		NullCheck(L_2);
+		Type_t * L_3 = Object_GetType_m191970594(L_2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_4 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(TextMeshProUGUI_t934157183_0_0_0_var), /*hidden argument*/NULL);
+		if ((!(((Il2CppObject*)(Type_t *)L_3) == ((Il2CppObject*)(Type_t *)L_4))))
+		{
+			goto IL_0084;
+		}
+	}
+	{
+		// m_Canvas = gameObject.GetComponentInParent<Canvas>();
+		// m_Canvas = gameObject.GetComponentInParent<Canvas>();
+		GameObject_t1756533147 * L_5 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		// m_Canvas = gameObject.GetComponentInParent<Canvas>();
+		NullCheck(L_5);
+		Canvas_t209405766 * L_6 = GameObject_GetComponentInParent_TisCanvas_t209405766_m4180257979(L_5, /*hidden argument*/GameObject_GetComponentInParent_TisCanvas_t209405766_m4180257979_MethodInfo_var);
+		__this->set_m_Canvas_8(L_6);
+		// if (m_Canvas != null)
+		Canvas_t209405766 * L_7 = __this->get_m_Canvas_8();
+		// if (m_Canvas != null)
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		// if (m_Canvas.renderMode == RenderMode.ScreenSpaceOverlay)
+		Canvas_t209405766 * L_9 = __this->get_m_Canvas_8();
+		// if (m_Canvas.renderMode == RenderMode.ScreenSpaceOverlay)
+		NullCheck(L_9);
+		int32_t L_10 = Canvas_get_renderMode_m1816014618(L_9, /*hidden argument*/NULL);
+		if (L_10)
+		{
+			goto IL_006c;
+		}
+	}
+	{
+		// m_Camera = null;
+		__this->set_m_Camera_7((Camera_t189460977 *)NULL);
+		goto IL_007d;
+	}
+
+IL_006c:
+	{
+		// m_Camera = m_Canvas.worldCamera;
+		Canvas_t209405766 * L_11 = __this->get_m_Canvas_8();
+		// m_Camera = m_Canvas.worldCamera;
+		NullCheck(L_11);
+		Camera_t189460977 * L_12 = Canvas_get_worldCamera_m1187332710(L_11, /*hidden argument*/NULL);
+		__this->set_m_Camera_7(L_12);
+	}
+
+IL_007d:
+	{
+	}
+
+IL_007e:
+	{
+		goto IL_0091;
+	}
+
+IL_0084:
+	{
+		// m_Camera = Camera.main;
+		// m_Camera = Camera.main;
+		Camera_t189460977 * L_13 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_m_Camera_7(L_13);
+	}
+
+IL_0091:
+	{
+		// }
+		return;
+	}
+}
+// System.Void TMPro.TMP_TextEventHandler::LateUpdate()
+extern "C"  void TMP_TextEventHandler_LateUpdate_m193100915 (TMP_TextEventHandler_t1517844021 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TMP_TextEventHandler_LateUpdate_m193100915_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	TMP_WordInfo_t3807457612  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	TMP_LineInfo_t2320418126  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	CharU5BU5D_t1328083999* V_5 = NULL;
+	int32_t V_6 = 0;
+	String_t* V_7 = NULL;
+	int32_t V_8 = 0;
+	TMP_LinkInfo_t3626894960  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	{
+		// if (TMP_TextUtilities.IsIntersectingRectTransform(m_TextComponent.rectTransform, Input.mousePosition, m_Camera))
+		TMP_Text_t1920000777 * L_0 = __this->get_m_TextComponent_6();
+		// if (TMP_TextUtilities.IsIntersectingRectTransform(m_TextComponent.rectTransform, Input.mousePosition, m_Camera))
+		NullCheck(L_0);
+		RectTransform_t3349966182 * L_1 = TMP_Text_get_rectTransform_m1873782632(L_0, /*hidden argument*/NULL);
+		// if (TMP_TextUtilities.IsIntersectingRectTransform(m_TextComponent.rectTransform, Input.mousePosition, m_Camera))
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		Vector3_t2243707580  L_2 = Input_get_mousePosition_m146923508(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t189460977 * L_3 = __this->get_m_Camera_7();
+		// if (TMP_TextUtilities.IsIntersectingRectTransform(m_TextComponent.rectTransform, Input.mousePosition, m_Camera))
+		IL2CPP_RUNTIME_CLASS_INIT(TMP_TextUtilities_t2068549775_il2cpp_TypeInfo_var);
+		bool L_4 = TMP_TextUtilities_IsIntersectingRectTransform_m3409949648(NULL /*static, unused*/, L_1, L_2, L_3, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_022b;
+		}
+	}
+	{
+		// int charIndex = TMP_TextUtilities.FindIntersectingCharacter(m_TextComponent, Input.mousePosition, m_Camera, true);
+		TMP_Text_t1920000777 * L_5 = __this->get_m_TextComponent_6();
+		// int charIndex = TMP_TextUtilities.FindIntersectingCharacter(m_TextComponent, Input.mousePosition, m_Camera, true);
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		Vector3_t2243707580  L_6 = Input_get_mousePosition_m146923508(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t189460977 * L_7 = __this->get_m_Camera_7();
+		// int charIndex = TMP_TextUtilities.FindIntersectingCharacter(m_TextComponent, Input.mousePosition, m_Camera, true);
+		IL2CPP_RUNTIME_CLASS_INIT(TMP_TextUtilities_t2068549775_il2cpp_TypeInfo_var);
+		int32_t L_8 = TMP_TextUtilities_FindIntersectingCharacter_m1338073681(NULL /*static, unused*/, L_5, L_6, L_7, (bool)1, /*hidden argument*/NULL);
+		V_0 = L_8;
+		// if (charIndex != -1 && charIndex != m_lastCharIndex)
+		int32_t L_9 = V_0;
+		if ((((int32_t)L_9) == ((int32_t)(-1))))
+		{
+			goto IL_0078;
+		}
+	}
+	{
+		int32_t L_10 = V_0;
+		int32_t L_11 = __this->get_m_lastCharIndex_10();
+		if ((((int32_t)L_10) == ((int32_t)L_11)))
+		{
+			goto IL_0078;
+		}
+	}
+	{
+		// m_lastCharIndex = charIndex;
+		int32_t L_12 = V_0;
+		__this->set_m_lastCharIndex_10(L_12);
+		// SendOnCharacterSelection(m_TextComponent.textInfo.characterInfo[charIndex].character, charIndex);
+		TMP_Text_t1920000777 * L_13 = __this->get_m_TextComponent_6();
+		// SendOnCharacterSelection(m_TextComponent.textInfo.characterInfo[charIndex].character, charIndex);
+		NullCheck(L_13);
+		TMP_TextInfo_t2849466151 * L_14 = TMP_Text_get_textInfo_m3382403859(L_13, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		TMP_CharacterInfoU5BU5D_t602810366* L_15 = L_14->get_characterInfo_11();
+		int32_t L_16 = V_0;
+		NullCheck(L_15);
+		Il2CppChar L_17 = ((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16)))->get_character_0();
+		int32_t L_18 = V_0;
+		// SendOnCharacterSelection(m_TextComponent.textInfo.characterInfo[charIndex].character, charIndex);
+		TMP_TextEventHandler_SendOnCharacterSelection_m3235016842(__this, L_17, L_18, /*hidden argument*/NULL);
+	}
+
+IL_0078:
+	{
+		// int wordIndex = TMP_TextUtilities.FindIntersectingWord(m_TextComponent, Input.mousePosition, m_Camera);
+		TMP_Text_t1920000777 * L_19 = __this->get_m_TextComponent_6();
+		// int wordIndex = TMP_TextUtilities.FindIntersectingWord(m_TextComponent, Input.mousePosition, m_Camera);
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		Vector3_t2243707580  L_20 = Input_get_mousePosition_m146923508(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t189460977 * L_21 = __this->get_m_Camera_7();
+		// int wordIndex = TMP_TextUtilities.FindIntersectingWord(m_TextComponent, Input.mousePosition, m_Camera);
+		IL2CPP_RUNTIME_CLASS_INIT(TMP_TextUtilities_t2068549775_il2cpp_TypeInfo_var);
+		int32_t L_22 = TMP_TextUtilities_FindIntersectingWord_m3453424717(NULL /*static, unused*/, L_19, L_20, L_21, /*hidden argument*/NULL);
+		V_1 = L_22;
+		// if (wordIndex != -1 && wordIndex != m_lastWordIndex)
+		int32_t L_23 = V_1;
+		if ((((int32_t)L_23) == ((int32_t)(-1))))
+		{
+			goto IL_00e2;
+		}
+	}
+	{
+		int32_t L_24 = V_1;
+		int32_t L_25 = __this->get_m_lastWordIndex_11();
+		if ((((int32_t)L_24) == ((int32_t)L_25)))
+		{
+			goto IL_00e2;
+		}
+	}
+	{
+		// m_lastWordIndex = wordIndex;
+		int32_t L_26 = V_1;
+		__this->set_m_lastWordIndex_11(L_26);
+		// TMP_WordInfo wInfo = m_TextComponent.textInfo.wordInfo[wordIndex];
+		TMP_Text_t1920000777 * L_27 = __this->get_m_TextComponent_6();
+		// TMP_WordInfo wInfo = m_TextComponent.textInfo.wordInfo[wordIndex];
+		NullCheck(L_27);
+		TMP_TextInfo_t2849466151 * L_28 = TMP_Text_get_textInfo_m3382403859(L_27, /*hidden argument*/NULL);
+		NullCheck(L_28);
+		TMP_WordInfoU5BU5D_t968836101* L_29 = L_28->get_wordInfo_12();
+		int32_t L_30 = V_1;
+		NullCheck(L_29);
+		V_2 = (*(TMP_WordInfo_t3807457612 *)((L_29)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_30))));
+		// SendOnWordSelection(wInfo.GetWord(), wInfo.firstCharacterIndex, wInfo.characterCount);
+		// SendOnWordSelection(wInfo.GetWord(), wInfo.firstCharacterIndex, wInfo.characterCount);
+		String_t* L_31 = TMP_WordInfo_GetWord_m1585287149((&V_2), /*hidden argument*/NULL);
+		int32_t L_32 = (&V_2)->get_firstCharacterIndex_1();
+		int32_t L_33 = (&V_2)->get_characterCount_3();
+		// SendOnWordSelection(wInfo.GetWord(), wInfo.firstCharacterIndex, wInfo.characterCount);
+		TMP_TextEventHandler_SendOnWordSelection_m2252507599(__this, L_31, L_32, L_33, /*hidden argument*/NULL);
+	}
+
+IL_00e2:
+	{
+		// int lineIndex = TMP_TextUtilities.FindIntersectingLine(m_TextComponent, Input.mousePosition, m_Camera);
+		TMP_Text_t1920000777 * L_34 = __this->get_m_TextComponent_6();
+		// int lineIndex = TMP_TextUtilities.FindIntersectingLine(m_TextComponent, Input.mousePosition, m_Camera);
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		Vector3_t2243707580  L_35 = Input_get_mousePosition_m146923508(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t189460977 * L_36 = __this->get_m_Camera_7();
+		// int lineIndex = TMP_TextUtilities.FindIntersectingLine(m_TextComponent, Input.mousePosition, m_Camera);
+		IL2CPP_RUNTIME_CLASS_INIT(TMP_TextUtilities_t2068549775_il2cpp_TypeInfo_var);
+		int32_t L_37 = TMP_TextUtilities_FindIntersectingLine_m1272625421(NULL /*static, unused*/, L_34, L_35, L_36, /*hidden argument*/NULL);
+		V_3 = L_37;
+		// if (lineIndex != -1 && lineIndex != m_lastLineIndex)
+		int32_t L_38 = V_3;
+		if ((((int32_t)L_38) == ((int32_t)(-1))))
+		{
+			goto IL_01bf;
+		}
+	}
+	{
+		int32_t L_39 = V_3;
+		int32_t L_40 = __this->get_m_lastLineIndex_12();
+		if ((((int32_t)L_39) == ((int32_t)L_40)))
+		{
+			goto IL_01bf;
+		}
+	}
+	{
+		// m_lastLineIndex = lineIndex;
+		int32_t L_41 = V_3;
+		__this->set_m_lastLineIndex_12(L_41);
+		// TMP_LineInfo lineInfo = m_TextComponent.textInfo.lineInfo[lineIndex];
+		TMP_Text_t1920000777 * L_42 = __this->get_m_TextComponent_6();
+		// TMP_LineInfo lineInfo = m_TextComponent.textInfo.lineInfo[lineIndex];
+		NullCheck(L_42);
+		TMP_TextInfo_t2849466151 * L_43 = TMP_Text_get_textInfo_m3382403859(L_42, /*hidden argument*/NULL);
+		NullCheck(L_43);
+		TMP_LineInfoU5BU5D_t1617569211* L_44 = L_43->get_lineInfo_14();
+		int32_t L_45 = V_3;
+		NullCheck(L_44);
+		V_4 = (*(TMP_LineInfo_t2320418126 *)((L_44)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_45))));
+		// char[] buffer = new char[lineInfo.characterCount];
+		int32_t L_46 = (&V_4)->get_characterCount_0();
+		V_5 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)L_46));
+		// for (int i = 0; i < lineInfo.characterCount && i < m_TextComponent.textInfo.characterInfo.Length; i++)
+		V_6 = 0;
+		goto IL_0178;
+	}
+
+IL_0147:
+	{
+		// buffer[i] = m_TextComponent.textInfo.characterInfo[i + lineInfo.firstCharacterIndex].character;
+		CharU5BU5D_t1328083999* L_47 = V_5;
+		int32_t L_48 = V_6;
+		TMP_Text_t1920000777 * L_49 = __this->get_m_TextComponent_6();
+		// buffer[i] = m_TextComponent.textInfo.characterInfo[i + lineInfo.firstCharacterIndex].character;
+		NullCheck(L_49);
+		TMP_TextInfo_t2849466151 * L_50 = TMP_Text_get_textInfo_m3382403859(L_49, /*hidden argument*/NULL);
+		NullCheck(L_50);
+		TMP_CharacterInfoU5BU5D_t602810366* L_51 = L_50->get_characterInfo_11();
+		int32_t L_52 = V_6;
+		int32_t L_53 = (&V_4)->get_firstCharacterIndex_4();
+		NullCheck(L_51);
+		Il2CppChar L_54 = ((L_51)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_52+(int32_t)L_53)))))->get_character_0();
+		NullCheck(L_47);
+		(L_47)->SetAt(static_cast<il2cpp_array_size_t>(L_48), (Il2CppChar)L_54);
+		// for (int i = 0; i < lineInfo.characterCount && i < m_TextComponent.textInfo.characterInfo.Length; i++)
+		int32_t L_55 = V_6;
+		V_6 = ((int32_t)((int32_t)L_55+(int32_t)1));
+	}
+
+IL_0178:
+	{
+		// for (int i = 0; i < lineInfo.characterCount && i < m_TextComponent.textInfo.characterInfo.Length; i++)
+		int32_t L_56 = V_6;
+		int32_t L_57 = (&V_4)->get_characterCount_0();
+		if ((((int32_t)L_56) >= ((int32_t)L_57)))
+		{
+			goto IL_019f;
+		}
+	}
+	{
+		int32_t L_58 = V_6;
+		TMP_Text_t1920000777 * L_59 = __this->get_m_TextComponent_6();
+		// for (int i = 0; i < lineInfo.characterCount && i < m_TextComponent.textInfo.characterInfo.Length; i++)
+		NullCheck(L_59);
+		TMP_TextInfo_t2849466151 * L_60 = TMP_Text_get_textInfo_m3382403859(L_59, /*hidden argument*/NULL);
+		NullCheck(L_60);
+		TMP_CharacterInfoU5BU5D_t602810366* L_61 = L_60->get_characterInfo_11();
+		NullCheck(L_61);
+		if ((((int32_t)L_58) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_61)->max_length)))))))
+		{
+			goto IL_0147;
+		}
+	}
+
+IL_019f:
+	{
+		// string lineText = new string(buffer);
+		CharU5BU5D_t1328083999* L_62 = V_5;
+		// string lineText = new string(buffer);
+		String_t* L_63 = String_CreateString_m3818307083(NULL, L_62, /*hidden argument*/NULL);
+		V_7 = L_63;
+		// SendOnLineSelection(lineText, lineInfo.firstCharacterIndex, lineInfo.characterCount);
+		String_t* L_64 = V_7;
+		int32_t L_65 = (&V_4)->get_firstCharacterIndex_4();
+		int32_t L_66 = (&V_4)->get_characterCount_0();
+		// SendOnLineSelection(lineText, lineInfo.firstCharacterIndex, lineInfo.characterCount);
+		TMP_TextEventHandler_SendOnLineSelection_m1972461611(__this, L_64, L_65, L_66, /*hidden argument*/NULL);
+	}
+
+IL_01bf:
+	{
+		// int linkIndex = TMP_TextUtilities.FindIntersectingLink(m_TextComponent, Input.mousePosition, m_Camera);
+		TMP_Text_t1920000777 * L_67 = __this->get_m_TextComponent_6();
+		// int linkIndex = TMP_TextUtilities.FindIntersectingLink(m_TextComponent, Input.mousePosition, m_Camera);
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		Vector3_t2243707580  L_68 = Input_get_mousePosition_m146923508(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t189460977 * L_69 = __this->get_m_Camera_7();
+		// int linkIndex = TMP_TextUtilities.FindIntersectingLink(m_TextComponent, Input.mousePosition, m_Camera);
+		IL2CPP_RUNTIME_CLASS_INIT(TMP_TextUtilities_t2068549775_il2cpp_TypeInfo_var);
+		int32_t L_70 = TMP_TextUtilities_FindIntersectingLink_m1828363611(NULL /*static, unused*/, L_67, L_68, L_69, /*hidden argument*/NULL);
+		V_8 = L_70;
+		// if (linkIndex != -1 && linkIndex != m_selectedLink)
+		int32_t L_71 = V_8;
+		if ((((int32_t)L_71) == ((int32_t)(-1))))
+		{
+			goto IL_022a;
+		}
+	}
+	{
+		int32_t L_72 = V_8;
+		int32_t L_73 = __this->get_m_selectedLink_9();
+		if ((((int32_t)L_72) == ((int32_t)L_73)))
+		{
+			goto IL_022a;
+		}
+	}
+	{
+		// m_selectedLink = linkIndex;
+		int32_t L_74 = V_8;
+		__this->set_m_selectedLink_9(L_74);
+		// TMP_LinkInfo linkInfo = m_TextComponent.textInfo.linkInfo[linkIndex];
+		TMP_Text_t1920000777 * L_75 = __this->get_m_TextComponent_6();
+		// TMP_LinkInfo linkInfo = m_TextComponent.textInfo.linkInfo[linkIndex];
+		NullCheck(L_75);
+		TMP_TextInfo_t2849466151 * L_76 = TMP_Text_get_textInfo_m3382403859(L_75, /*hidden argument*/NULL);
+		NullCheck(L_76);
+		TMP_LinkInfoU5BU5D_t2563924433* L_77 = L_76->get_linkInfo_13();
+		int32_t L_78 = V_8;
+		NullCheck(L_77);
+		V_9 = (*(TMP_LinkInfo_t3626894960 *)((L_77)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_78))));
+		// SendOnLinkSelection(linkInfo.GetLinkID(), linkInfo.GetLinkText(), linkIndex);
+		// SendOnLinkSelection(linkInfo.GetLinkID(), linkInfo.GetLinkText(), linkIndex);
+		String_t* L_79 = TMP_LinkInfo_GetLinkID_m2947443150((&V_9), /*hidden argument*/NULL);
+		// SendOnLinkSelection(linkInfo.GetLinkID(), linkInfo.GetLinkText(), linkIndex);
+		String_t* L_80 = TMP_LinkInfo_GetLinkText_m2375286504((&V_9), /*hidden argument*/NULL);
+		int32_t L_81 = V_8;
+		// SendOnLinkSelection(linkInfo.GetLinkID(), linkInfo.GetLinkText(), linkIndex);
+		TMP_TextEventHandler_SendOnLinkSelection_m3204119002(__this, L_79, L_80, L_81, /*hidden argument*/NULL);
+	}
+
+IL_022a:
+	{
+	}
+
+IL_022b:
+	{
+		// }
+		return;
+	}
+}
+// System.Void TMPro.TMP_TextEventHandler::OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+extern "C"  void TMP_TextEventHandler_OnPointerEnter_m205407842 (TMP_TextEventHandler_t1517844021 * __this, PointerEventData_t1599784723 * ___eventData0, const MethodInfo* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void TMPro.TMP_TextEventHandler::OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+extern "C"  void TMP_TextEventHandler_OnPointerExit_m581150014 (TMP_TextEventHandler_t1517844021 * __this, PointerEventData_t1599784723 * ___eventData0, const MethodInfo* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void TMPro.TMP_TextEventHandler::SendOnCharacterSelection(System.Char,System.Int32)
+extern "C"  void TMP_TextEventHandler_SendOnCharacterSelection_m3235016842 (TMP_TextEventHandler_t1517844021 * __this, Il2CppChar ___character0, int32_t ___characterIndex1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TMP_TextEventHandler_SendOnCharacterSelection_m3235016842_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (onCharacterSelection != null)
+		// if (onCharacterSelection != null)
+		CharacterSelectionEvent_t2887241789 * L_0 = TMP_TextEventHandler_get_onCharacterSelection_m3919689539(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		// onCharacterSelection.Invoke(character, characterIndex);
+		// onCharacterSelection.Invoke(character, characterIndex);
+		CharacterSelectionEvent_t2887241789 * L_1 = TMP_TextEventHandler_get_onCharacterSelection_m3919689539(__this, /*hidden argument*/NULL);
+		Il2CppChar L_2 = ___character0;
+		int32_t L_3 = ___characterIndex1;
+		// onCharacterSelection.Invoke(character, characterIndex);
+		NullCheck(L_1);
+		UnityEvent_2_Invoke_m3631463681(L_1, L_2, L_3, /*hidden argument*/UnityEvent_2_Invoke_m3631463681_MethodInfo_var);
+	}
+
+IL_0019:
+	{
+		// }
+		return;
+	}
+}
+// System.Void TMPro.TMP_TextEventHandler::SendOnWordSelection(System.String,System.Int32,System.Int32)
+extern "C"  void TMP_TextEventHandler_SendOnWordSelection_m2252507599 (TMP_TextEventHandler_t1517844021 * __this, String_t* ___word0, int32_t ___charIndex1, int32_t ___length2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TMP_TextEventHandler_SendOnWordSelection_m2252507599_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (onWordSelection != null)
+		// if (onWordSelection != null)
+		WordSelectionEvent_t2871480376 * L_0 = TMP_TextEventHandler_get_onWordSelection_m174382615(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		// onWordSelection.Invoke(word, charIndex, length);
+		// onWordSelection.Invoke(word, charIndex, length);
+		WordSelectionEvent_t2871480376 * L_1 = TMP_TextEventHandler_get_onWordSelection_m174382615(__this, /*hidden argument*/NULL);
+		String_t* L_2 = ___word0;
+		int32_t L_3 = ___charIndex1;
+		int32_t L_4 = ___length2;
+		// onWordSelection.Invoke(word, charIndex, length);
+		NullCheck(L_1);
+		UnityEvent_3_Invoke_m2296394038(L_1, L_2, L_3, L_4, /*hidden argument*/UnityEvent_3_Invoke_m2296394038_MethodInfo_var);
+	}
+
+IL_001a:
+	{
+		// }
+		return;
+	}
+}
+// System.Void TMPro.TMP_TextEventHandler::SendOnLineSelection(System.String,System.Int32,System.Int32)
+extern "C"  void TMP_TextEventHandler_SendOnLineSelection_m1972461611 (TMP_TextEventHandler_t1517844021 * __this, String_t* ___line0, int32_t ___charIndex1, int32_t ___length2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TMP_TextEventHandler_SendOnLineSelection_m1972461611_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (onLineSelection != null)
+		// if (onLineSelection != null)
+		LineSelectionEvent_t3265414486 * L_0 = TMP_TextEventHandler_get_onLineSelection_m1120242679(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		// onLineSelection.Invoke(line, charIndex, length);
+		// onLineSelection.Invoke(line, charIndex, length);
+		LineSelectionEvent_t3265414486 * L_1 = TMP_TextEventHandler_get_onLineSelection_m1120242679(__this, /*hidden argument*/NULL);
+		String_t* L_2 = ___line0;
+		int32_t L_3 = ___charIndex1;
+		int32_t L_4 = ___length2;
+		// onLineSelection.Invoke(line, charIndex, length);
+		NullCheck(L_1);
+		UnityEvent_3_Invoke_m2296394038(L_1, L_2, L_3, L_4, /*hidden argument*/UnityEvent_3_Invoke_m2296394038_MethodInfo_var);
+	}
+
+IL_001a:
+	{
+		// }
+		return;
+	}
+}
+// System.Void TMPro.TMP_TextEventHandler::SendOnLinkSelection(System.String,System.String,System.Int32)
+extern "C"  void TMP_TextEventHandler_SendOnLinkSelection_m3204119002 (TMP_TextEventHandler_t1517844021 * __this, String_t* ___linkID0, String_t* ___linkText1, int32_t ___linkIndex2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TMP_TextEventHandler_SendOnLinkSelection_m3204119002_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (onLinkSelection != null)
+		// if (onLinkSelection != null)
+		LinkSelectionEvent_t3735310088 * L_0 = TMP_TextEventHandler_get_onLinkSelection_m3843497023(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		// onLinkSelection.Invoke(linkID, linkText, linkIndex);
+		// onLinkSelection.Invoke(linkID, linkText, linkIndex);
+		LinkSelectionEvent_t3735310088 * L_1 = TMP_TextEventHandler_get_onLinkSelection_m3843497023(__this, /*hidden argument*/NULL);
+		String_t* L_2 = ___linkID0;
+		String_t* L_3 = ___linkText1;
+		int32_t L_4 = ___linkIndex2;
+		// onLinkSelection.Invoke(linkID, linkText, linkIndex);
+		NullCheck(L_1);
+		UnityEvent_3_Invoke_m2532458294(L_1, L_2, L_3, L_4, /*hidden argument*/UnityEvent_3_Invoke_m2532458294_MethodInfo_var);
+	}
+
+IL_001a:
+	{
+		// }
+		return;
+	}
+}
+// System.Void TMPro.TMP_TextEventHandler/CharacterSelectionEvent::.ctor()
+extern "C"  void CharacterSelectionEvent__ctor_m2593822550 (CharacterSelectionEvent_t2887241789 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (CharacterSelectionEvent__ctor_m2593822550_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_2__ctor_m1845706686(__this, /*hidden argument*/UnityEvent_2__ctor_m1845706686_MethodInfo_var);
+		return;
+	}
+}
+// System.Void TMPro.TMP_TextEventHandler/LineSelectionEvent::.ctor()
+extern "C"  void LineSelectionEvent__ctor_m2634206907 (LineSelectionEvent_t3265414486 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LineSelectionEvent__ctor_m2634206907_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_3__ctor_m479955408(__this, /*hidden argument*/UnityEvent_3__ctor_m479955408_MethodInfo_var);
+		return;
+	}
+}
+// System.Void TMPro.TMP_TextEventHandler/LinkSelectionEvent::.ctor()
+extern "C"  void LinkSelectionEvent__ctor_m1445136385 (LinkSelectionEvent_t3735310088 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LinkSelectionEvent__ctor_m1445136385_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_3__ctor_m2443197040(__this, /*hidden argument*/UnityEvent_3__ctor_m2443197040_MethodInfo_var);
+		return;
+	}
+}
+// System.Void TMPro.TMP_TextEventHandler/WordSelectionEvent::.ctor()
+extern "C"  void WordSelectionEvent__ctor_m899574239 (WordSelectionEvent_t2871480376 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WordSelectionEvent__ctor_m899574239_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_3__ctor_m479955408(__this, /*hidden argument*/UnityEvent_3__ctor_m479955408_MethodInfo_var);
+		return;
+	}
+}
+// System.Void UnityARCameraManager::.ctor()
+extern "C"  void UnityARCameraManager__ctor_m1535463337 (UnityARCameraManager_t2138856896 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityARCameraManager::Start()
+extern "C"  void UnityARCameraManager_Start_m1323027489 (UnityARCameraManager_t2138856896 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARCameraManager_Start_m1323027489_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARKitWorldTackingSessionConfiguration_t1821734930  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		// Application.targetFrameRate = 60;
+		// Application.targetFrameRate = 60;
+		Application_set_targetFrameRate_m2941880625(NULL /*static, unused*/, ((int32_t)60), /*hidden argument*/NULL);
+		// m_session = UnityARSessionNativeInterface.GetARSessionNativeInterface();
+		// m_session = UnityARSessionNativeInterface.GetARSessionNativeInterface();
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARSessionNativeInterface_t1130867170 * L_0 = UnityARSessionNativeInterface_GetARSessionNativeInterface_m2987304195(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_m_session_3(L_0);
+		// ARKitWorldTackingSessionConfiguration config = new ARKitWorldTackingSessionConfiguration();
+		Initobj (ARKitWorldTackingSessionConfiguration_t1821734930_il2cpp_TypeInfo_var, (&V_0));
+		// config.planeDetection = UnityARPlaneDetection.Horizontal;
+		(&V_0)->set_planeDetection_1(1);
+		// config.alignment = UnityARAlignment.UnityARAlignmentGravity;
+		(&V_0)->set_alignment_0(0);
+		// config.getPointCloudData = true;
+		(&V_0)->set_getPointCloudData_2((bool)1);
+		// config.enableLightEstimation = true;
+		(&V_0)->set_enableLightEstimation_3((bool)1);
+		// m_session.RunWithConfig(config);
+		UnityARSessionNativeInterface_t1130867170 * L_1 = __this->get_m_session_3();
+		ARKitWorldTackingSessionConfiguration_t1821734930  L_2 = V_0;
+		// m_session.RunWithConfig(config);
+		NullCheck(L_1);
+		UnityARSessionNativeInterface_RunWithConfig_m4239349920(L_1, L_2, /*hidden argument*/NULL);
+		// if (m_camera == null) {
+		Camera_t189460977 * L_3 = __this->get_m_camera_2();
+		// if (m_camera == null) {
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		// m_camera = Camera.main;
+		// m_camera = Camera.main;
+		Camera_t189460977 * L_5 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_m_camera_2(L_5);
+	}
+
+IL_0065:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityARCameraManager::SetCamera(UnityEngine.Camera)
+extern "C"  void UnityARCameraManager_SetCamera_m4068813456 (UnityARCameraManager_t2138856896 * __this, Camera_t189460977 * ___newCamera0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARCameraManager_SetCamera_m4068813456_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	UnityARVideo_t2351297253 * V_0 = NULL;
+	{
+		// if (m_camera != null) {
+		Camera_t189460977 * L_0 = __this->get_m_camera_2();
+		// if (m_camera != null) {
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		// UnityARVideo oldARVideo = m_camera.gameObject.GetComponent<UnityARVideo> ();
+		Camera_t189460977 * L_2 = __this->get_m_camera_2();
+		// UnityARVideo oldARVideo = m_camera.gameObject.GetComponent<UnityARVideo> ();
+		NullCheck(L_2);
+		GameObject_t1756533147 * L_3 = Component_get_gameObject_m3105766835(L_2, /*hidden argument*/NULL);
+		// UnityARVideo oldARVideo = m_camera.gameObject.GetComponent<UnityARVideo> ();
+		NullCheck(L_3);
+		UnityARVideo_t2351297253 * L_4 = GameObject_GetComponent_TisUnityARVideo_t2351297253_m3203580092(L_3, /*hidden argument*/GameObject_GetComponent_TisUnityARVideo_t2351297253_m3203580092_MethodInfo_var);
+		V_0 = L_4;
+		// if (oldARVideo != null) {
+		UnityARVideo_t2351297253 * L_5 = V_0;
+		// if (oldARVideo != null) {
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_6 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_5, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		// savedClearMaterial = oldARVideo.m_ClearMaterial;
+		UnityARVideo_t2351297253 * L_7 = V_0;
+		NullCheck(L_7);
+		Material_t193706927 * L_8 = L_7->get_m_ClearMaterial_2();
+		__this->set_savedClearMaterial_4(L_8);
+		// Destroy (oldARVideo);
+		UnityARVideo_t2351297253 * L_9 = V_0;
+		// Destroy (oldARVideo);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+	}
+
+IL_0044:
+	{
+	}
+
+IL_0045:
+	{
+		// SetupNewCamera (newCamera);
+		Camera_t189460977 * L_10 = ___newCamera0;
+		// SetupNewCamera (newCamera);
+		UnityARCameraManager_SetupNewCamera_m2642892357(__this, L_10, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityARCameraManager::SetupNewCamera(UnityEngine.Camera)
+extern "C"  void UnityARCameraManager_SetupNewCamera_m2642892357 (UnityARCameraManager_t2138856896 * __this, Camera_t189460977 * ___newCamera0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARCameraManager_SetupNewCamera_m2642892357_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	UnityARVideo_t2351297253 * V_0 = NULL;
+	{
+		// m_camera = newCamera;
+		Camera_t189460977 * L_0 = ___newCamera0;
+		__this->set_m_camera_2(L_0);
+		// if (m_camera != null) {
+		Camera_t189460977 * L_1 = __this->get_m_camera_2();
+		// if (m_camera != null) {
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		// UnityARVideo unityARVideo = m_camera.gameObject.GetComponent<UnityARVideo> ();
+		Camera_t189460977 * L_3 = __this->get_m_camera_2();
+		// UnityARVideo unityARVideo = m_camera.gameObject.GetComponent<UnityARVideo> ();
+		NullCheck(L_3);
+		GameObject_t1756533147 * L_4 = Component_get_gameObject_m3105766835(L_3, /*hidden argument*/NULL);
+		// UnityARVideo unityARVideo = m_camera.gameObject.GetComponent<UnityARVideo> ();
+		NullCheck(L_4);
+		UnityARVideo_t2351297253 * L_5 = GameObject_GetComponent_TisUnityARVideo_t2351297253_m3203580092(L_4, /*hidden argument*/GameObject_GetComponent_TisUnityARVideo_t2351297253_m3203580092_MethodInfo_var);
+		V_0 = L_5;
+		// if (unityARVideo != null) {
+		UnityARVideo_t2351297253 * L_6 = V_0;
+		// if (unityARVideo != null) {
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_7 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_6, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		// savedClearMaterial = unityARVideo.m_ClearMaterial;
+		UnityARVideo_t2351297253 * L_8 = V_0;
+		NullCheck(L_8);
+		Material_t193706927 * L_9 = L_8->get_m_ClearMaterial_2();
+		__this->set_savedClearMaterial_4(L_9);
+		// Destroy (unityARVideo);
+		UnityARVideo_t2351297253 * L_10 = V_0;
+		// Destroy (unityARVideo);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+	}
+
+IL_004b:
+	{
+		// unityARVideo = m_camera.gameObject.AddComponent<UnityARVideo> ();
+		Camera_t189460977 * L_11 = __this->get_m_camera_2();
+		// unityARVideo = m_camera.gameObject.AddComponent<UnityARVideo> ();
+		NullCheck(L_11);
+		GameObject_t1756533147 * L_12 = Component_get_gameObject_m3105766835(L_11, /*hidden argument*/NULL);
+		// unityARVideo = m_camera.gameObject.AddComponent<UnityARVideo> ();
+		NullCheck(L_12);
+		UnityARVideo_t2351297253 * L_13 = GameObject_AddComponent_TisUnityARVideo_t2351297253_m2846805829(L_12, /*hidden argument*/GameObject_AddComponent_TisUnityARVideo_t2351297253_m2846805829_MethodInfo_var);
+		V_0 = L_13;
+		// unityARVideo.m_ClearMaterial = savedClearMaterial;
+		UnityARVideo_t2351297253 * L_14 = V_0;
+		Material_t193706927 * L_15 = __this->get_savedClearMaterial_4();
+		NullCheck(L_14);
+		L_14->set_m_ClearMaterial_2(L_15);
+	}
+
+IL_0069:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityARCameraManager::Update()
+extern "C"  void UnityARCameraManager_Update_m1268442026 (UnityARCameraManager_t2138856896 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARCameraManager_Update_m1268442026_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Matrix4x4_t2933234003  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		// if (m_camera != null)
+		Camera_t189460977 * L_0 = __this->get_m_camera_2();
+		// if (m_camera != null)
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		// Matrix4x4 matrix = m_session.GetCameraPose();
+		UnityARSessionNativeInterface_t1130867170 * L_2 = __this->get_m_session_3();
+		// Matrix4x4 matrix = m_session.GetCameraPose();
+		NullCheck(L_2);
+		Matrix4x4_t2933234003  L_3 = UnityARSessionNativeInterface_GetCameraPose_m1163645748(L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		// m_camera.transform.localPosition = UnityARMatrixOps.GetPosition(matrix);
+		Camera_t189460977 * L_4 = __this->get_m_camera_2();
+		// m_camera.transform.localPosition = UnityARMatrixOps.GetPosition(matrix);
+		NullCheck(L_4);
+		Transform_t3275118058 * L_5 = Component_get_transform_m2697483695(L_4, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_6 = V_0;
+		// m_camera.transform.localPosition = UnityARMatrixOps.GetPosition(matrix);
+		Vector3_t2243707580  L_7 = UnityARMatrixOps_GetPosition_m110321593(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		// m_camera.transform.localPosition = UnityARMatrixOps.GetPosition(matrix);
+		NullCheck(L_5);
+		Transform_set_localPosition_m1026930133(L_5, L_7, /*hidden argument*/NULL);
+		// m_camera.transform.localRotation = UnityARMatrixOps.GetRotation (matrix);
+		Camera_t189460977 * L_8 = __this->get_m_camera_2();
+		// m_camera.transform.localRotation = UnityARMatrixOps.GetRotation (matrix);
+		NullCheck(L_8);
+		Transform_t3275118058 * L_9 = Component_get_transform_m2697483695(L_8, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_10 = V_0;
+		// m_camera.transform.localRotation = UnityARMatrixOps.GetRotation (matrix);
+		Quaternion_t4030073918  L_11 = UnityARMatrixOps_GetRotation_m3161473972(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		// m_camera.transform.localRotation = UnityARMatrixOps.GetRotation (matrix);
+		NullCheck(L_9);
+		Transform_set_localRotation_m2055111962(L_9, L_11, /*hidden argument*/NULL);
+		// m_camera.projectionMatrix = m_session.GetCameraProjection ();
+		Camera_t189460977 * L_12 = __this->get_m_camera_2();
+		UnityARSessionNativeInterface_t1130867170 * L_13 = __this->get_m_session_3();
+		// m_camera.projectionMatrix = m_session.GetCameraProjection ();
+		NullCheck(L_13);
+		Matrix4x4_t2933234003  L_14 = UnityARSessionNativeInterface_GetCameraProjection_m355777876(L_13, /*hidden argument*/NULL);
+		// m_camera.projectionMatrix = m_session.GetCameraProjection ();
+		NullCheck(L_12);
+		Camera_set_projectionMatrix_m2059836755(L_12, L_14, /*hidden argument*/NULL);
+	}
+
+IL_0062:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityARCameraNearFar::.ctor()
+extern "C"  void UnityARCameraNearFar__ctor_m1004800803 (UnityARCameraNearFar_t519802600 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityARCameraNearFar::Start()
+extern "C"  void UnityARCameraNearFar_Start_m2367687847 (UnityARCameraNearFar_t519802600 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARCameraNearFar_Start_m2367687847_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// attachedCamera = GetComponent<Camera> ();
+		// attachedCamera = GetComponent<Camera> ();
+		Camera_t189460977 * L_0 = Component_GetComponent_TisCamera_t189460977_m3276577584(__this, /*hidden argument*/Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var);
+		__this->set_attachedCamera_2(L_0);
+		// UpdateCameraClipPlanes ();
+		// UpdateCameraClipPlanes ();
+		UnityARCameraNearFar_UpdateCameraClipPlanes_m2412834528(__this, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityARCameraNearFar::UpdateCameraClipPlanes()
+extern "C"  void UnityARCameraNearFar_UpdateCameraClipPlanes_m2412834528 (UnityARCameraNearFar_t519802600 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARCameraNearFar_UpdateCameraClipPlanes_m2412834528_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// currentNearZ = attachedCamera.nearClipPlane;
+		Camera_t189460977 * L_0 = __this->get_attachedCamera_2();
+		// currentNearZ = attachedCamera.nearClipPlane;
+		NullCheck(L_0);
+		float L_1 = Camera_get_nearClipPlane_m3536967407(L_0, /*hidden argument*/NULL);
+		__this->set_currentNearZ_3(L_1);
+		// currentFarZ = attachedCamera.farClipPlane;
+		Camera_t189460977 * L_2 = __this->get_attachedCamera_2();
+		// currentFarZ = attachedCamera.farClipPlane;
+		NullCheck(L_2);
+		float L_3 = Camera_get_farClipPlane_m3137713566(L_2, /*hidden argument*/NULL);
+		__this->set_currentFarZ_4(L_3);
+		// UnityARSessionNativeInterface.GetARSessionNativeInterface ().SetCameraClipPlanes (currentNearZ, currentFarZ);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARSessionNativeInterface_t1130867170 * L_4 = UnityARSessionNativeInterface_GetARSessionNativeInterface_m2987304195(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_5 = __this->get_currentNearZ_3();
+		float L_6 = __this->get_currentFarZ_4();
+		// UnityARSessionNativeInterface.GetARSessionNativeInterface ().SetCameraClipPlanes (currentNearZ, currentFarZ);
+		NullCheck(L_4);
+		UnityARSessionNativeInterface_SetCameraClipPlanes_m2416096845(L_4, L_5, L_6, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityARCameraNearFar::Update()
+extern "C"  void UnityARCameraNearFar_Update_m1482158666 (UnityARCameraNearFar_t519802600 * __this, const MethodInfo* method)
+{
+	{
+		// if (currentNearZ != attachedCamera.nearClipPlane || currentFarZ != attachedCamera.farClipPlane) {
+		float L_0 = __this->get_currentNearZ_3();
+		Camera_t189460977 * L_1 = __this->get_attachedCamera_2();
+		// if (currentNearZ != attachedCamera.nearClipPlane || currentFarZ != attachedCamera.farClipPlane) {
+		NullCheck(L_1);
+		float L_2 = Camera_get_nearClipPlane_m3536967407(L_1, /*hidden argument*/NULL);
+		if ((!(((float)L_0) == ((float)L_2))))
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		float L_3 = __this->get_currentFarZ_4();
+		Camera_t189460977 * L_4 = __this->get_attachedCamera_2();
+		// if (currentNearZ != attachedCamera.nearClipPlane || currentFarZ != attachedCamera.farClipPlane) {
+		NullCheck(L_4);
+		float L_5 = Camera_get_farClipPlane_m3137713566(L_4, /*hidden argument*/NULL);
+		if ((((float)L_3) == ((float)L_5)))
+		{
+			goto IL_0035;
+		}
+	}
+
+IL_002d:
+	{
+		// UpdateCameraClipPlanes ();
+		// UpdateCameraClipPlanes ();
+		UnityARCameraNearFar_UpdateCameraClipPlanes_m2412834528(__this, /*hidden argument*/NULL);
+	}
+
+IL_0035:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::.ctor()
+extern "C"  void BoxSlider__ctor_m1006728114 (BoxSlider_t1871650694 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BoxSlider__ctor_m1006728114_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private float m_MinValue = 0;
+		__this->set_m_MinValue_17((0.0f));
+		// private float m_MaxValue = 1;
+		__this->set_m_MaxValue_18((1.0f));
+		// private bool m_WholeNumbers = false;
+		__this->set_m_WholeNumbers_19((bool)0);
+		// private float m_Value = 1f;
+		__this->set_m_Value_20((1.0f));
+		// private float m_ValueY = 1f;
+		__this->set_m_ValueY_21((1.0f));
+		// private BoxSliderEvent m_OnValueChanged = new BoxSliderEvent();
+		// private BoxSliderEvent m_OnValueChanged = new BoxSliderEvent();
+		BoxSliderEvent_t1774115848 * L_0 = (BoxSliderEvent_t1774115848 *)il2cpp_codegen_object_new(BoxSliderEvent_t1774115848_il2cpp_TypeInfo_var);
+		BoxSliderEvent__ctor_m304261805(L_0, /*hidden argument*/NULL);
+		__this->set_m_OnValueChanged_22(L_0);
+		// private Vector2 m_Offset = Vector2.zero;
+		// private Vector2 m_Offset = Vector2.zero;
+		Vector2_t2243707579  L_1 = Vector2_get_zero_m3966848876(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_m_Offset_25(L_1);
+		// protected BoxSlider()
+		IL2CPP_RUNTIME_CLASS_INIT(Selectable_t1490392188_il2cpp_TypeInfo_var);
+		Selectable__ctor_m1440593935(__this, /*hidden argument*/NULL);
+		// { }
+		return;
+	}
+}
+// UnityEngine.RectTransform UnityEngine.UI.BoxSlider::get_handleRect()
+extern "C"  RectTransform_t3349966182 * BoxSlider_get_handleRect_m2621304777 (BoxSlider_t1871650694 * __this, const MethodInfo* method)
+{
+	RectTransform_t3349966182 * V_0 = NULL;
+	{
+		// public RectTransform handleRect { get { return m_HandleRect; } set { if (SetClass(ref m_HandleRect, value)) { UpdateCachedReferences(); UpdateVisuals(); } } }
+		RectTransform_t3349966182 * L_0 = __this->get_m_HandleRect_16();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		// public RectTransform handleRect { get { return m_HandleRect; } set { if (SetClass(ref m_HandleRect, value)) { UpdateCachedReferences(); UpdateVisuals(); } } }
+		RectTransform_t3349966182 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::set_handleRect(UnityEngine.RectTransform)
+extern "C"  void BoxSlider_set_handleRect_m168119168 (BoxSlider_t1871650694 * __this, RectTransform_t3349966182 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BoxSlider_set_handleRect_m168119168_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public RectTransform handleRect { get { return m_HandleRect; } set { if (SetClass(ref m_HandleRect, value)) { UpdateCachedReferences(); UpdateVisuals(); } } }
+		RectTransform_t3349966182 ** L_0 = __this->get_address_of_m_HandleRect_16();
+		RectTransform_t3349966182 * L_1 = ___value0;
+		// public RectTransform handleRect { get { return m_HandleRect; } set { if (SetClass(ref m_HandleRect, value)) { UpdateCachedReferences(); UpdateVisuals(); } } }
+		bool L_2 = BoxSlider_SetClass_TisRectTransform_t3349966182_m272479997(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/BoxSlider_SetClass_TisRectTransform_t3349966182_m272479997_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		// public RectTransform handleRect { get { return m_HandleRect; } set { if (SetClass(ref m_HandleRect, value)) { UpdateCachedReferences(); UpdateVisuals(); } } }
+		// public RectTransform handleRect { get { return m_HandleRect; } set { if (SetClass(ref m_HandleRect, value)) { UpdateCachedReferences(); UpdateVisuals(); } } }
+		BoxSlider_UpdateCachedReferences_m3248150675(__this, /*hidden argument*/NULL);
+		// public RectTransform handleRect { get { return m_HandleRect; } set { if (SetClass(ref m_HandleRect, value)) { UpdateCachedReferences(); UpdateVisuals(); } } }
+		// public RectTransform handleRect { get { return m_HandleRect; } set { if (SetClass(ref m_HandleRect, value)) { UpdateCachedReferences(); UpdateVisuals(); } } }
+		BoxSlider_UpdateVisuals_m495585056(__this, /*hidden argument*/NULL);
+	}
+
+IL_0020:
+	{
+		// public RectTransform handleRect { get { return m_HandleRect; } set { if (SetClass(ref m_HandleRect, value)) { UpdateCachedReferences(); UpdateVisuals(); } } }
+		return;
+	}
+}
+// System.Single UnityEngine.UI.BoxSlider::get_minValue()
+extern "C"  float BoxSlider_get_minValue_m3041624170 (BoxSlider_t1871650694 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		// public float minValue { get { return m_MinValue; } set { if (SetStruct(ref m_MinValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		float L_0 = __this->get_m_MinValue_17();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		// public float minValue { get { return m_MinValue; } set { if (SetStruct(ref m_MinValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::set_minValue(System.Single)
+extern "C"  void BoxSlider_set_minValue_m1004770411 (BoxSlider_t1871650694 * __this, float ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BoxSlider_set_minValue_m1004770411_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public float minValue { get { return m_MinValue; } set { if (SetStruct(ref m_MinValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		float* L_0 = __this->get_address_of_m_MinValue_17();
+		float L_1 = ___value0;
+		// public float minValue { get { return m_MinValue; } set { if (SetStruct(ref m_MinValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		bool L_2 = BoxSlider_SetStruct_TisSingle_t2076509932_m2710312218(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/BoxSlider_SetStruct_TisSingle_t2076509932_m2710312218_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		// public float minValue { get { return m_MinValue; } set { if (SetStruct(ref m_MinValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		float L_3 = __this->get_m_Value_20();
+		// public float minValue { get { return m_MinValue; } set { if (SetStruct(ref m_MinValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		BoxSlider_Set_m3989333985(__this, L_3, /*hidden argument*/NULL);
+		// public float minValue { get { return m_MinValue; } set { if (SetStruct(ref m_MinValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		float L_4 = __this->get_m_ValueY_21();
+		// public float minValue { get { return m_MinValue; } set { if (SetStruct(ref m_MinValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		BoxSlider_SetY_m1241843396(__this, L_4, /*hidden argument*/NULL);
+		// public float minValue { get { return m_MinValue; } set { if (SetStruct(ref m_MinValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		// public float minValue { get { return m_MinValue; } set { if (SetStruct(ref m_MinValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		BoxSlider_UpdateVisuals_m495585056(__this, /*hidden argument*/NULL);
+	}
+
+IL_0032:
+	{
+		// public float minValue { get { return m_MinValue; } set { if (SetStruct(ref m_MinValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		return;
+	}
+}
+// System.Single UnityEngine.UI.BoxSlider::get_maxValue()
+extern "C"  float BoxSlider_get_maxValue_m1317285860 (BoxSlider_t1871650694 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		// public float maxValue { get { return m_MaxValue; } set { if (SetStruct(ref m_MaxValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		float L_0 = __this->get_m_MaxValue_18();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		// public float maxValue { get { return m_MaxValue; } set { if (SetStruct(ref m_MaxValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::set_maxValue(System.Single)
+extern "C"  void BoxSlider_set_maxValue_m1702472861 (BoxSlider_t1871650694 * __this, float ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BoxSlider_set_maxValue_m1702472861_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public float maxValue { get { return m_MaxValue; } set { if (SetStruct(ref m_MaxValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		float* L_0 = __this->get_address_of_m_MaxValue_18();
+		float L_1 = ___value0;
+		// public float maxValue { get { return m_MaxValue; } set { if (SetStruct(ref m_MaxValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		bool L_2 = BoxSlider_SetStruct_TisSingle_t2076509932_m2710312218(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/BoxSlider_SetStruct_TisSingle_t2076509932_m2710312218_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		// public float maxValue { get { return m_MaxValue; } set { if (SetStruct(ref m_MaxValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		float L_3 = __this->get_m_Value_20();
+		// public float maxValue { get { return m_MaxValue; } set { if (SetStruct(ref m_MaxValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		BoxSlider_Set_m3989333985(__this, L_3, /*hidden argument*/NULL);
+		// public float maxValue { get { return m_MaxValue; } set { if (SetStruct(ref m_MaxValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		float L_4 = __this->get_m_ValueY_21();
+		// public float maxValue { get { return m_MaxValue; } set { if (SetStruct(ref m_MaxValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		BoxSlider_SetY_m1241843396(__this, L_4, /*hidden argument*/NULL);
+		// public float maxValue { get { return m_MaxValue; } set { if (SetStruct(ref m_MaxValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		// public float maxValue { get { return m_MaxValue; } set { if (SetStruct(ref m_MaxValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		BoxSlider_UpdateVisuals_m495585056(__this, /*hidden argument*/NULL);
+	}
+
+IL_0032:
+	{
+		// public float maxValue { get { return m_MaxValue; } set { if (SetStruct(ref m_MaxValue, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		return;
+	}
+}
+// System.Boolean UnityEngine.UI.BoxSlider::get_wholeNumbers()
+extern "C"  bool BoxSlider_get_wholeNumbers_m627638124 (BoxSlider_t1871650694 * __this, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		// public bool wholeNumbers { get { return m_WholeNumbers; } set { if (SetStruct(ref m_WholeNumbers, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		bool L_0 = __this->get_m_WholeNumbers_19();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		// public bool wholeNumbers { get { return m_WholeNumbers; } set { if (SetStruct(ref m_WholeNumbers, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::set_wholeNumbers(System.Boolean)
+extern "C"  void BoxSlider_set_wholeNumbers_m2694006389 (BoxSlider_t1871650694 * __this, bool ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BoxSlider_set_wholeNumbers_m2694006389_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public bool wholeNumbers { get { return m_WholeNumbers; } set { if (SetStruct(ref m_WholeNumbers, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		bool* L_0 = __this->get_address_of_m_WholeNumbers_19();
+		bool L_1 = ___value0;
+		// public bool wholeNumbers { get { return m_WholeNumbers; } set { if (SetStruct(ref m_WholeNumbers, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		bool L_2 = BoxSlider_SetStruct_TisBoolean_t3825574718_m1967921404(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/BoxSlider_SetStruct_TisBoolean_t3825574718_m1967921404_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		// public bool wholeNumbers { get { return m_WholeNumbers; } set { if (SetStruct(ref m_WholeNumbers, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		float L_3 = __this->get_m_Value_20();
+		// public bool wholeNumbers { get { return m_WholeNumbers; } set { if (SetStruct(ref m_WholeNumbers, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		BoxSlider_Set_m3989333985(__this, L_3, /*hidden argument*/NULL);
+		// public bool wholeNumbers { get { return m_WholeNumbers; } set { if (SetStruct(ref m_WholeNumbers, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		float L_4 = __this->get_m_ValueY_21();
+		// public bool wholeNumbers { get { return m_WholeNumbers; } set { if (SetStruct(ref m_WholeNumbers, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		BoxSlider_SetY_m1241843396(__this, L_4, /*hidden argument*/NULL);
+		// public bool wholeNumbers { get { return m_WholeNumbers; } set { if (SetStruct(ref m_WholeNumbers, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		// public bool wholeNumbers { get { return m_WholeNumbers; } set { if (SetStruct(ref m_WholeNumbers, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		BoxSlider_UpdateVisuals_m495585056(__this, /*hidden argument*/NULL);
+	}
+
+IL_0032:
+	{
+		// public bool wholeNumbers { get { return m_WholeNumbers; } set { if (SetStruct(ref m_WholeNumbers, value)) { Set(m_Value); SetY (m_ValueY); UpdateVisuals(); } } }
+		return;
+	}
+}
+// System.Single UnityEngine.UI.BoxSlider::get_value()
+extern "C"  float BoxSlider_get_value_m2439160562 (BoxSlider_t1871650694 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BoxSlider_get_value_m2439160562_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		// if (wholeNumbers)
+		// if (wholeNumbers)
+		bool L_0 = BoxSlider_get_wholeNumbers_m627638124(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		// return Mathf.Round(m_Value);
+		float L_1 = __this->get_m_Value_20();
+		// return Mathf.Round(m_Value);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_2 = bankers_roundf(L_1);
+		V_0 = L_2;
+		goto IL_0029;
+	}
+
+IL_001d:
+	{
+		// return m_Value;
+		float L_3 = __this->get_m_Value_20();
+		V_0 = L_3;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		// }
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::set_value(System.Single)
+extern "C"  void BoxSlider_set_value_m3164710557 (BoxSlider_t1871650694 * __this, float ___value0, const MethodInfo* method)
+{
+	{
+		// Set(value);
+		float L_0 = ___value0;
+		// Set(value);
+		BoxSlider_Set_m3989333985(__this, L_0, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Single UnityEngine.UI.BoxSlider::get_normalizedValue()
+extern "C"  float BoxSlider_get_normalizedValue_m911068691 (BoxSlider_t1871650694 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BoxSlider_get_normalizedValue_m911068691_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		// if (Mathf.Approximately(minValue, maxValue))
+		// if (Mathf.Approximately(minValue, maxValue))
+		float L_0 = BoxSlider_get_minValue_m3041624170(__this, /*hidden argument*/NULL);
+		// if (Mathf.Approximately(minValue, maxValue))
+		float L_1 = BoxSlider_get_maxValue_m1317285860(__this, /*hidden argument*/NULL);
+		// if (Mathf.Approximately(minValue, maxValue))
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		bool L_2 = Mathf_Approximately_m1064446634(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		// return 0;
+		V_0 = (0.0f);
+		goto IL_003f;
+	}
+
+IL_0022:
+	{
+		// return Mathf.InverseLerp(minValue, maxValue, value);
+		// return Mathf.InverseLerp(minValue, maxValue, value);
+		float L_3 = BoxSlider_get_minValue_m3041624170(__this, /*hidden argument*/NULL);
+		// return Mathf.InverseLerp(minValue, maxValue, value);
+		float L_4 = BoxSlider_get_maxValue_m1317285860(__this, /*hidden argument*/NULL);
+		// return Mathf.InverseLerp(minValue, maxValue, value);
+		float L_5 = BoxSlider_get_value_m2439160562(__this, /*hidden argument*/NULL);
+		// return Mathf.InverseLerp(minValue, maxValue, value);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_6 = Mathf_InverseLerp_m55890283(NULL /*static, unused*/, L_3, L_4, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
+		goto IL_003f;
+	}
+
+IL_003f:
+	{
+		// }
+		float L_7 = V_0;
+		return L_7;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::set_normalizedValue(System.Single)
+extern "C"  void BoxSlider_set_normalizedValue_m2010660092 (BoxSlider_t1871650694 * __this, float ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BoxSlider_set_normalizedValue_m2010660092_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// this.value = Mathf.Lerp(minValue, maxValue, value);
+		// this.value = Mathf.Lerp(minValue, maxValue, value);
+		float L_0 = BoxSlider_get_minValue_m3041624170(__this, /*hidden argument*/NULL);
+		// this.value = Mathf.Lerp(minValue, maxValue, value);
+		float L_1 = BoxSlider_get_maxValue_m1317285860(__this, /*hidden argument*/NULL);
+		float L_2 = ___value0;
+		// this.value = Mathf.Lerp(minValue, maxValue, value);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_3 = Mathf_Lerp_m1686556575(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		// this.value = Mathf.Lerp(minValue, maxValue, value);
+		BoxSlider_set_value_m3164710557(__this, L_3, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Single UnityEngine.UI.BoxSlider::get_valueY()
+extern "C"  float BoxSlider_get_valueY_m2581533163 (BoxSlider_t1871650694 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BoxSlider_get_valueY_m2581533163_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		// if (wholeNumbers)
+		// if (wholeNumbers)
+		bool L_0 = BoxSlider_get_wholeNumbers_m627638124(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		// return Mathf.Round(m_ValueY);
+		float L_1 = __this->get_m_ValueY_21();
+		// return Mathf.Round(m_ValueY);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_2 = bankers_roundf(L_1);
+		V_0 = L_2;
+		goto IL_0029;
+	}
+
+IL_001d:
+	{
+		// return m_ValueY;
+		float L_3 = __this->get_m_ValueY_21();
+		V_0 = L_3;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		// }
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::set_valueY(System.Single)
+extern "C"  void BoxSlider_set_valueY_m2217414554 (BoxSlider_t1871650694 * __this, float ___value0, const MethodInfo* method)
+{
+	{
+		// SetY(value);
+		float L_0 = ___value0;
+		// SetY(value);
+		BoxSlider_SetY_m1241843396(__this, L_0, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Single UnityEngine.UI.BoxSlider::get_normalizedValueY()
+extern "C"  float BoxSlider_get_normalizedValueY_m3976688554 (BoxSlider_t1871650694 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BoxSlider_get_normalizedValueY_m3976688554_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		// if (Mathf.Approximately(minValue, maxValue))
+		// if (Mathf.Approximately(minValue, maxValue))
+		float L_0 = BoxSlider_get_minValue_m3041624170(__this, /*hidden argument*/NULL);
+		// if (Mathf.Approximately(minValue, maxValue))
+		float L_1 = BoxSlider_get_maxValue_m1317285860(__this, /*hidden argument*/NULL);
+		// if (Mathf.Approximately(minValue, maxValue))
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		bool L_2 = Mathf_Approximately_m1064446634(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		// return 0;
+		V_0 = (0.0f);
+		goto IL_003f;
+	}
+
+IL_0022:
+	{
+		// return Mathf.InverseLerp(minValue, maxValue, valueY);
+		// return Mathf.InverseLerp(minValue, maxValue, valueY);
+		float L_3 = BoxSlider_get_minValue_m3041624170(__this, /*hidden argument*/NULL);
+		// return Mathf.InverseLerp(minValue, maxValue, valueY);
+		float L_4 = BoxSlider_get_maxValue_m1317285860(__this, /*hidden argument*/NULL);
+		// return Mathf.InverseLerp(minValue, maxValue, valueY);
+		float L_5 = BoxSlider_get_valueY_m2581533163(__this, /*hidden argument*/NULL);
+		// return Mathf.InverseLerp(minValue, maxValue, valueY);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_6 = Mathf_InverseLerp_m55890283(NULL /*static, unused*/, L_3, L_4, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
+		goto IL_003f;
+	}
+
+IL_003f:
+	{
+		// }
+		float L_7 = V_0;
+		return L_7;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::set_normalizedValueY(System.Single)
+extern "C"  void BoxSlider_set_normalizedValueY_m851020601 (BoxSlider_t1871650694 * __this, float ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BoxSlider_set_normalizedValueY_m851020601_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// this.valueY = Mathf.Lerp(minValue, maxValue, value);
+		// this.valueY = Mathf.Lerp(minValue, maxValue, value);
+		float L_0 = BoxSlider_get_minValue_m3041624170(__this, /*hidden argument*/NULL);
+		// this.valueY = Mathf.Lerp(minValue, maxValue, value);
+		float L_1 = BoxSlider_get_maxValue_m1317285860(__this, /*hidden argument*/NULL);
+		float L_2 = ___value0;
+		// this.valueY = Mathf.Lerp(minValue, maxValue, value);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_3 = Mathf_Lerp_m1686556575(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		// this.valueY = Mathf.Lerp(minValue, maxValue, value);
+		BoxSlider_set_valueY_m2217414554(__this, L_3, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// UnityEngine.UI.BoxSlider/BoxSliderEvent UnityEngine.UI.BoxSlider::get_onValueChanged()
+extern "C"  BoxSliderEvent_t1774115848 * BoxSlider_get_onValueChanged_m1694276966 (BoxSlider_t1871650694 * __this, const MethodInfo* method)
+{
+	BoxSliderEvent_t1774115848 * V_0 = NULL;
+	{
+		// public BoxSliderEvent onValueChanged { get { return m_OnValueChanged; } set { m_OnValueChanged = value; } }
+		BoxSliderEvent_t1774115848 * L_0 = __this->get_m_OnValueChanged_22();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		// public BoxSliderEvent onValueChanged { get { return m_OnValueChanged; } set { m_OnValueChanged = value; } }
+		BoxSliderEvent_t1774115848 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::set_onValueChanged(UnityEngine.UI.BoxSlider/BoxSliderEvent)
+extern "C"  void BoxSlider_set_onValueChanged_m1579271121 (BoxSlider_t1871650694 * __this, BoxSliderEvent_t1774115848 * ___value0, const MethodInfo* method)
+{
+	{
+		// public BoxSliderEvent onValueChanged { get { return m_OnValueChanged; } set { m_OnValueChanged = value; } }
+		BoxSliderEvent_t1774115848 * L_0 = ___value0;
+		__this->set_m_OnValueChanged_22(L_0);
+		// public BoxSliderEvent onValueChanged { get { return m_OnValueChanged; } set { m_OnValueChanged = value; } }
+		return;
+	}
+}
+// System.Single UnityEngine.UI.BoxSlider::get_stepSize()
+extern "C"  float BoxSlider_get_stepSize_m1073340932 (BoxSlider_t1871650694 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		// float stepSize { get { return wholeNumbers ? 1 : (maxValue - minValue) * 0.1f; } }
+		// float stepSize { get { return wholeNumbers ? 1 : (maxValue - minValue) * 0.1f; } }
+		bool L_0 = BoxSlider_get_wholeNumbers_m627638124(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		G_B3_0 = (1.0f);
+		goto IL_0029;
+	}
+
+IL_0016:
+	{
+		// float stepSize { get { return wholeNumbers ? 1 : (maxValue - minValue) * 0.1f; } }
+		float L_1 = BoxSlider_get_maxValue_m1317285860(__this, /*hidden argument*/NULL);
+		// float stepSize { get { return wholeNumbers ? 1 : (maxValue - minValue) * 0.1f; } }
+		float L_2 = BoxSlider_get_minValue_m3041624170(__this, /*hidden argument*/NULL);
+		G_B3_0 = ((float)((float)((float)((float)L_1-(float)L_2))*(float)(0.1f)));
+	}
+
+IL_0029:
+	{
+		V_0 = G_B3_0;
+		goto IL_002f;
+	}
+
+IL_002f:
+	{
+		// float stepSize { get { return wholeNumbers ? 1 : (maxValue - minValue) * 0.1f; } }
+		float L_3 = V_0;
+		return L_3;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::Rebuild(UnityEngine.UI.CanvasUpdate)
+extern "C"  void BoxSlider_Rebuild_m3577117895 (BoxSlider_t1871650694 * __this, int32_t ___executing0, const MethodInfo* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::LayoutComplete()
+extern "C"  void BoxSlider_LayoutComplete_m2656874525 (BoxSlider_t1871650694 * __this, const MethodInfo* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::GraphicUpdateComplete()
+extern "C"  void BoxSlider_GraphicUpdateComplete_m2980925808 (BoxSlider_t1871650694 * __this, const MethodInfo* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::OnEnable()
+extern "C"  void BoxSlider_OnEnable_m2230558070 (BoxSlider_t1871650694 * __this, const MethodInfo* method)
+{
+	{
+		// base.OnEnable();
+		// base.OnEnable();
+		Selectable_OnEnable_m3825327683(__this, /*hidden argument*/NULL);
+		// UpdateCachedReferences();
+		// UpdateCachedReferences();
+		BoxSlider_UpdateCachedReferences_m3248150675(__this, /*hidden argument*/NULL);
+		// Set(m_Value, false);
+		float L_0 = __this->get_m_Value_20();
+		// Set(m_Value, false);
+		BoxSlider_Set_m1512577286(__this, L_0, (bool)0, /*hidden argument*/NULL);
+		// SetY(m_ValueY, false);
+		float L_1 = __this->get_m_ValueY_21();
+		// SetY(m_ValueY, false);
+		BoxSlider_SetY_m956310887(__this, L_1, (bool)0, /*hidden argument*/NULL);
+		// UpdateVisuals();
+		// UpdateVisuals();
+		BoxSlider_UpdateVisuals_m495585056(__this, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::OnDisable()
+extern "C"  void BoxSlider_OnDisable_m3760522835 (BoxSlider_t1871650694 * __this, const MethodInfo* method)
+{
+	{
+		// m_Tracker.Clear();
+		DrivenRectTransformTracker_t154385424 * L_0 = __this->get_address_of_m_Tracker_26();
+		// m_Tracker.Clear();
+		DrivenRectTransformTracker_Clear_m864483440(L_0, /*hidden argument*/NULL);
+		// base.OnDisable();
+		// base.OnDisable();
+		Selectable_OnDisable_m2660228016(__this, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::UpdateCachedReferences()
+extern "C"  void BoxSlider_UpdateCachedReferences_m3248150675 (BoxSlider_t1871650694 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BoxSlider_UpdateCachedReferences_m3248150675_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (m_HandleRect)
+		RectTransform_t3349966182 * L_0 = __this->get_m_HandleRect_16();
+		// if (m_HandleRect)
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		// m_HandleTransform = m_HandleRect.transform;
+		RectTransform_t3349966182 * L_2 = __this->get_m_HandleRect_16();
+		// m_HandleTransform = m_HandleRect.transform;
+		NullCheck(L_2);
+		Transform_t3275118058 * L_3 = Component_get_transform_m2697483695(L_2, /*hidden argument*/NULL);
+		__this->set_m_HandleTransform_23(L_3);
+		// if (m_HandleTransform.parent != null)
+		Transform_t3275118058 * L_4 = __this->get_m_HandleTransform_23();
+		// if (m_HandleTransform.parent != null)
+		NullCheck(L_4);
+		Transform_t3275118058 * L_5 = Transform_get_parent_m147407266(L_4, /*hidden argument*/NULL);
+		// if (m_HandleTransform.parent != null)
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_6 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_5, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		// m_HandleContainerRect = m_HandleTransform.parent.GetComponent<RectTransform>();
+		Transform_t3275118058 * L_7 = __this->get_m_HandleTransform_23();
+		// m_HandleContainerRect = m_HandleTransform.parent.GetComponent<RectTransform>();
+		NullCheck(L_7);
+		Transform_t3275118058 * L_8 = Transform_get_parent_m147407266(L_7, /*hidden argument*/NULL);
+		// m_HandleContainerRect = m_HandleTransform.parent.GetComponent<RectTransform>();
+		NullCheck(L_8);
+		RectTransform_t3349966182 * L_9 = Component_GetComponent_TisRectTransform_t3349966182_m1310250299(L_8, /*hidden argument*/Component_GetComponent_TisRectTransform_t3349966182_m1310250299_MethodInfo_var);
+		__this->set_m_HandleContainerRect_24(L_9);
+	}
+
+IL_004f:
+	{
+		goto IL_005e;
+	}
+
+IL_0055:
+	{
+		// m_HandleContainerRect = null;
+		__this->set_m_HandleContainerRect_24((RectTransform_t3349966182 *)NULL);
+	}
+
+IL_005e:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::Set(System.Single)
+extern "C"  void BoxSlider_Set_m3989333985 (BoxSlider_t1871650694 * __this, float ___input0, const MethodInfo* method)
+{
+	{
+		// Set(input, true);
+		float L_0 = ___input0;
+		// Set(input, true);
+		BoxSlider_Set_m1512577286(__this, L_0, (bool)1, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::Set(System.Single,System.Boolean)
+extern "C"  void BoxSlider_Set_m1512577286 (BoxSlider_t1871650694 * __this, float ___input0, bool ___sendCallback1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BoxSlider_Set_m1512577286_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		// float newValue = Mathf.Clamp(input, minValue, maxValue);
+		float L_0 = ___input0;
+		// float newValue = Mathf.Clamp(input, minValue, maxValue);
+		float L_1 = BoxSlider_get_minValue_m3041624170(__this, /*hidden argument*/NULL);
+		// float newValue = Mathf.Clamp(input, minValue, maxValue);
+		float L_2 = BoxSlider_get_maxValue_m1317285860(__this, /*hidden argument*/NULL);
+		// float newValue = Mathf.Clamp(input, minValue, maxValue);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_3 = Mathf_Clamp_m2354025655(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		// if (wholeNumbers)
+		// if (wholeNumbers)
+		bool L_4 = BoxSlider_get_wholeNumbers_m627638124(__this, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		// newValue = Mathf.Round(newValue);
+		float L_5 = V_0;
+		// newValue = Mathf.Round(newValue);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_6 = bankers_roundf(L_5);
+		V_0 = L_6;
+	}
+
+IL_0026:
+	{
+		// if (m_Value == newValue)
+		float L_7 = __this->get_m_Value_20();
+		float L_8 = V_0;
+		if ((!(((float)L_7) == ((float)L_8))))
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		// return;
+		goto IL_005c;
+	}
+
+IL_0037:
+	{
+		// m_Value = newValue;
+		float L_9 = V_0;
+		__this->set_m_Value_20(L_9);
+		// UpdateVisuals();
+		// UpdateVisuals();
+		BoxSlider_UpdateVisuals_m495585056(__this, /*hidden argument*/NULL);
+		// if (sendCallback)
+		bool L_10 = ___sendCallback1;
+		if (!L_10)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		// m_OnValueChanged.Invoke(newValue, valueY);
+		BoxSliderEvent_t1774115848 * L_11 = __this->get_m_OnValueChanged_22();
+		float L_12 = V_0;
+		// m_OnValueChanged.Invoke(newValue, valueY);
+		float L_13 = BoxSlider_get_valueY_m2581533163(__this, /*hidden argument*/NULL);
+		// m_OnValueChanged.Invoke(newValue, valueY);
+		NullCheck(L_11);
+		UnityEvent_2_Invoke_m4237217379(L_11, L_12, L_13, /*hidden argument*/UnityEvent_2_Invoke_m4237217379_MethodInfo_var);
+	}
+
+IL_005c:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::SetY(System.Single)
+extern "C"  void BoxSlider_SetY_m1241843396 (BoxSlider_t1871650694 * __this, float ___input0, const MethodInfo* method)
+{
+	{
+		// SetY(input, true);
+		float L_0 = ___input0;
+		// SetY(input, true);
+		BoxSlider_SetY_m956310887(__this, L_0, (bool)1, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::SetY(System.Single,System.Boolean)
+extern "C"  void BoxSlider_SetY_m956310887 (BoxSlider_t1871650694 * __this, float ___input0, bool ___sendCallback1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BoxSlider_SetY_m956310887_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		// float newValue = Mathf.Clamp(input, minValue, maxValue);
+		float L_0 = ___input0;
+		// float newValue = Mathf.Clamp(input, minValue, maxValue);
+		float L_1 = BoxSlider_get_minValue_m3041624170(__this, /*hidden argument*/NULL);
+		// float newValue = Mathf.Clamp(input, minValue, maxValue);
+		float L_2 = BoxSlider_get_maxValue_m1317285860(__this, /*hidden argument*/NULL);
+		// float newValue = Mathf.Clamp(input, minValue, maxValue);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_3 = Mathf_Clamp_m2354025655(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		// if (wholeNumbers)
+		// if (wholeNumbers)
+		bool L_4 = BoxSlider_get_wholeNumbers_m627638124(__this, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		// newValue = Mathf.Round(newValue);
+		float L_5 = V_0;
+		// newValue = Mathf.Round(newValue);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_6 = bankers_roundf(L_5);
+		V_0 = L_6;
+	}
+
+IL_0026:
+	{
+		// if (m_ValueY == newValue)
+		float L_7 = __this->get_m_ValueY_21();
+		float L_8 = V_0;
+		if ((!(((float)L_7) == ((float)L_8))))
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		// return;
+		goto IL_005c;
+	}
+
+IL_0037:
+	{
+		// m_ValueY = newValue;
+		float L_9 = V_0;
+		__this->set_m_ValueY_21(L_9);
+		// UpdateVisuals();
+		// UpdateVisuals();
+		BoxSlider_UpdateVisuals_m495585056(__this, /*hidden argument*/NULL);
+		// if (sendCallback)
+		bool L_10 = ___sendCallback1;
+		if (!L_10)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		// m_OnValueChanged.Invoke(value, newValue);
+		BoxSliderEvent_t1774115848 * L_11 = __this->get_m_OnValueChanged_22();
+		// m_OnValueChanged.Invoke(value, newValue);
+		float L_12 = BoxSlider_get_value_m2439160562(__this, /*hidden argument*/NULL);
+		float L_13 = V_0;
+		// m_OnValueChanged.Invoke(value, newValue);
+		NullCheck(L_11);
+		UnityEvent_2_Invoke_m4237217379(L_11, L_12, L_13, /*hidden argument*/UnityEvent_2_Invoke_m4237217379_MethodInfo_var);
+	}
+
+IL_005c:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::OnRectTransformDimensionsChange()
+extern "C"  void BoxSlider_OnRectTransformDimensionsChange_m1273303486 (BoxSlider_t1871650694 * __this, const MethodInfo* method)
+{
+	{
+		// base.OnRectTransformDimensionsChange();
+		// base.OnRectTransformDimensionsChange();
+		UIBehaviour_OnRectTransformDimensionsChange_m2743105076(__this, /*hidden argument*/NULL);
+		// UpdateVisuals();
+		// UpdateVisuals();
+		BoxSlider_UpdateVisuals_m495585056(__this, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::UpdateVisuals()
+extern "C"  void BoxSlider_UpdateVisuals_m495585056 (BoxSlider_t1871650694 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BoxSlider_UpdateVisuals_m495585056_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t2243707579  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector2_t2243707579  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	{
+		// m_Tracker.Clear();
+		DrivenRectTransformTracker_t154385424 * L_0 = __this->get_address_of_m_Tracker_26();
+		// m_Tracker.Clear();
+		DrivenRectTransformTracker_Clear_m864483440(L_0, /*hidden argument*/NULL);
+		// if (m_HandleContainerRect != null)
+		RectTransform_t3349966182 * L_1 = __this->get_m_HandleContainerRect_24();
+		// if (m_HandleContainerRect != null)
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		// m_Tracker.Add(this, m_HandleRect, DrivenTransformProperties.Anchors);
+		DrivenRectTransformTracker_t154385424 * L_3 = __this->get_address_of_m_Tracker_26();
+		RectTransform_t3349966182 * L_4 = __this->get_m_HandleRect_16();
+		// m_Tracker.Add(this, m_HandleRect, DrivenTransformProperties.Anchors);
+		DrivenRectTransformTracker_Add_m310530075(L_3, __this, L_4, ((int32_t)3840), /*hidden argument*/NULL);
+		// Vector2 anchorMin = Vector2.zero;
+		Vector2_t2243707579  L_5 = Vector2_get_zero_m3966848876(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_5;
+		// Vector2 anchorMax = Vector2.one;
+		Vector2_t2243707579  L_6 = Vector2_get_one_m3174311904(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = L_6;
+		// anchorMin[0] = anchorMax[0] = (normalizedValue);
+		// anchorMin[0] = anchorMax[0] = (normalizedValue);
+		float L_7 = BoxSlider_get_normalizedValue_m911068691(__this, /*hidden argument*/NULL);
+		V_2 = L_7;
+		float L_8 = V_2;
+		// anchorMin[0] = anchorMax[0] = (normalizedValue);
+		Vector2_set_Item_m3881967114((&V_1), 0, L_8, /*hidden argument*/NULL);
+		float L_9 = V_2;
+		// anchorMin[0] = anchorMax[0] = (normalizedValue);
+		Vector2_set_Item_m3881967114((&V_0), 0, L_9, /*hidden argument*/NULL);
+		// anchorMin[1] = anchorMax[1] = ( normalizedValueY);
+		// anchorMin[1] = anchorMax[1] = ( normalizedValueY);
+		float L_10 = BoxSlider_get_normalizedValueY_m3976688554(__this, /*hidden argument*/NULL);
+		V_2 = L_10;
+		float L_11 = V_2;
+		// anchorMin[1] = anchorMax[1] = ( normalizedValueY);
+		Vector2_set_Item_m3881967114((&V_1), 1, L_11, /*hidden argument*/NULL);
+		float L_12 = V_2;
+		// anchorMin[1] = anchorMax[1] = ( normalizedValueY);
+		Vector2_set_Item_m3881967114((&V_0), 1, L_12, /*hidden argument*/NULL);
+		// m_HandleRect.anchorMin = anchorMin;
+		RectTransform_t3349966182 * L_13 = __this->get_m_HandleRect_16();
+		Vector2_t2243707579  L_14 = V_0;
+		// m_HandleRect.anchorMin = anchorMin;
+		NullCheck(L_13);
+		RectTransform_set_anchorMin_m4247668187(L_13, L_14, /*hidden argument*/NULL);
+		// m_HandleRect.anchorMax = anchorMax;
+		RectTransform_t3349966182 * L_15 = __this->get_m_HandleRect_16();
+		Vector2_t2243707579  L_16 = V_1;
+		// m_HandleRect.anchorMax = anchorMax;
+		NullCheck(L_15);
+		RectTransform_set_anchorMax_m2955899993(L_15, L_16, /*hidden argument*/NULL);
+	}
+
+IL_008c:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::UpdateDrag(UnityEngine.EventSystems.PointerEventData,UnityEngine.Camera)
+extern "C"  void BoxSlider_UpdateDrag_m1281607389 (BoxSlider_t1871650694 * __this, PointerEventData_t1599784723 * ___eventData0, Camera_t189460977 * ___cam1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BoxSlider_UpdateDrag_m1281607389_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RectTransform_t3349966182 * V_0 = NULL;
+	Rect_t3681755626  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector2_t2243707579  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Vector2_t2243707579  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Rect_t3681755626  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	float V_5 = 0.0f;
+	Vector2_t2243707579  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Rect_t3681755626  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	Vector2_t2243707579  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	float V_9 = 0.0f;
+	Vector2_t2243707579  V_10;
+	memset(&V_10, 0, sizeof(V_10));
+	Rect_t3681755626  V_11;
+	memset(&V_11, 0, sizeof(V_11));
+	Vector2_t2243707579  V_12;
+	memset(&V_12, 0, sizeof(V_12));
+	{
+		// RectTransform clickRect = m_HandleContainerRect;
+		RectTransform_t3349966182 * L_0 = __this->get_m_HandleContainerRect_24();
+		V_0 = L_0;
+		// if (clickRect != null && clickRect.rect.size[0] > 0)
+		RectTransform_t3349966182 * L_1 = V_0;
+		// if (clickRect != null && clickRect.rect.size[0] > 0)
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_00e4;
+		}
+	}
+	{
+		RectTransform_t3349966182 * L_3 = V_0;
+		// if (clickRect != null && clickRect.rect.size[0] > 0)
+		NullCheck(L_3);
+		Rect_t3681755626  L_4 = RectTransform_get_rect_m73954734(L_3, /*hidden argument*/NULL);
+		V_1 = L_4;
+		// if (clickRect != null && clickRect.rect.size[0] > 0)
+		Vector2_t2243707579  L_5 = Rect_get_size_m3833121112((&V_1), /*hidden argument*/NULL);
+		V_2 = L_5;
+		// if (clickRect != null && clickRect.rect.size[0] > 0)
+		float L_6 = Vector2_get_Item_m2792130561((&V_2), 0, /*hidden argument*/NULL);
+		if ((!(((float)L_6) > ((float)(0.0f)))))
+		{
+			goto IL_00e4;
+		}
+	}
+	{
+		// if (!RectTransformUtility.ScreenPointToLocalPointInRectangle(clickRect, eventData.position, cam, out localCursor))
+		RectTransform_t3349966182 * L_7 = V_0;
+		PointerEventData_t1599784723 * L_8 = ___eventData0;
+		// if (!RectTransformUtility.ScreenPointToLocalPointInRectangle(clickRect, eventData.position, cam, out localCursor))
+		NullCheck(L_8);
+		Vector2_t2243707579  L_9 = PointerEventData_get_position_m2131765015(L_8, /*hidden argument*/NULL);
+		Camera_t189460977 * L_10 = ___cam1;
+		// if (!RectTransformUtility.ScreenPointToLocalPointInRectangle(clickRect, eventData.position, cam, out localCursor))
+		IL2CPP_RUNTIME_CLASS_INIT(RectTransformUtility_t2941082270_il2cpp_TypeInfo_var);
+		bool L_11 = RectTransformUtility_ScreenPointToLocalPointInRectangle_m2398565080(NULL /*static, unused*/, L_7, L_9, L_10, (&V_3), /*hidden argument*/NULL);
+		if (L_11)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		// return;
+		goto IL_00e4;
+	}
+
+IL_004f:
+	{
+		// localCursor -= clickRect.rect.position;
+		Vector2_t2243707579  L_12 = V_3;
+		RectTransform_t3349966182 * L_13 = V_0;
+		// localCursor -= clickRect.rect.position;
+		NullCheck(L_13);
+		Rect_t3681755626  L_14 = RectTransform_get_rect_m73954734(L_13, /*hidden argument*/NULL);
+		V_4 = L_14;
+		// localCursor -= clickRect.rect.position;
+		Vector2_t2243707579  L_15 = Rect_get_position_m24550734((&V_4), /*hidden argument*/NULL);
+		// localCursor -= clickRect.rect.position;
+		Vector2_t2243707579  L_16 = Vector2_op_Subtraction_m1984215297(NULL /*static, unused*/, L_12, L_15, /*hidden argument*/NULL);
+		V_3 = L_16;
+		// float val = Mathf.Clamp01((localCursor - m_Offset)[0] / clickRect.rect.size[0]);
+		Vector2_t2243707579  L_17 = V_3;
+		Vector2_t2243707579  L_18 = __this->get_m_Offset_25();
+		// float val = Mathf.Clamp01((localCursor - m_Offset)[0] / clickRect.rect.size[0]);
+		Vector2_t2243707579  L_19 = Vector2_op_Subtraction_m1984215297(NULL /*static, unused*/, L_17, L_18, /*hidden argument*/NULL);
+		V_6 = L_19;
+		// float val = Mathf.Clamp01((localCursor - m_Offset)[0] / clickRect.rect.size[0]);
+		float L_20 = Vector2_get_Item_m2792130561((&V_6), 0, /*hidden argument*/NULL);
+		RectTransform_t3349966182 * L_21 = V_0;
+		// float val = Mathf.Clamp01((localCursor - m_Offset)[0] / clickRect.rect.size[0]);
+		NullCheck(L_21);
+		Rect_t3681755626  L_22 = RectTransform_get_rect_m73954734(L_21, /*hidden argument*/NULL);
+		V_7 = L_22;
+		// float val = Mathf.Clamp01((localCursor - m_Offset)[0] / clickRect.rect.size[0]);
+		Vector2_t2243707579  L_23 = Rect_get_size_m3833121112((&V_7), /*hidden argument*/NULL);
+		V_8 = L_23;
+		// float val = Mathf.Clamp01((localCursor - m_Offset)[0] / clickRect.rect.size[0]);
+		float L_24 = Vector2_get_Item_m2792130561((&V_8), 0, /*hidden argument*/NULL);
+		// float val = Mathf.Clamp01((localCursor - m_Offset)[0] / clickRect.rect.size[0]);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_25 = Mathf_Clamp01_m3888954684(NULL /*static, unused*/, ((float)((float)L_20/(float)L_24)), /*hidden argument*/NULL);
+		V_5 = L_25;
+		// normalizedValue = (val);
+		float L_26 = V_5;
+		// normalizedValue = (val);
+		BoxSlider_set_normalizedValue_m2010660092(__this, L_26, /*hidden argument*/NULL);
+		// float valY = Mathf.Clamp01((localCursor - m_Offset)[1] / clickRect.rect.size[1]);
+		Vector2_t2243707579  L_27 = V_3;
+		Vector2_t2243707579  L_28 = __this->get_m_Offset_25();
+		// float valY = Mathf.Clamp01((localCursor - m_Offset)[1] / clickRect.rect.size[1]);
+		Vector2_t2243707579  L_29 = Vector2_op_Subtraction_m1984215297(NULL /*static, unused*/, L_27, L_28, /*hidden argument*/NULL);
+		V_10 = L_29;
+		// float valY = Mathf.Clamp01((localCursor - m_Offset)[1] / clickRect.rect.size[1]);
+		float L_30 = Vector2_get_Item_m2792130561((&V_10), 1, /*hidden argument*/NULL);
+		RectTransform_t3349966182 * L_31 = V_0;
+		// float valY = Mathf.Clamp01((localCursor - m_Offset)[1] / clickRect.rect.size[1]);
+		NullCheck(L_31);
+		Rect_t3681755626  L_32 = RectTransform_get_rect_m73954734(L_31, /*hidden argument*/NULL);
+		V_11 = L_32;
+		// float valY = Mathf.Clamp01((localCursor - m_Offset)[1] / clickRect.rect.size[1]);
+		Vector2_t2243707579  L_33 = Rect_get_size_m3833121112((&V_11), /*hidden argument*/NULL);
+		V_12 = L_33;
+		// float valY = Mathf.Clamp01((localCursor - m_Offset)[1] / clickRect.rect.size[1]);
+		float L_34 = Vector2_get_Item_m2792130561((&V_12), 1, /*hidden argument*/NULL);
+		// float valY = Mathf.Clamp01((localCursor - m_Offset)[1] / clickRect.rect.size[1]);
+		float L_35 = Mathf_Clamp01_m3888954684(NULL /*static, unused*/, ((float)((float)L_30/(float)L_34)), /*hidden argument*/NULL);
+		V_9 = L_35;
+		// normalizedValueY = ( valY);
+		float L_36 = V_9;
+		// normalizedValueY = ( valY);
+		BoxSlider_set_normalizedValueY_m851020601(__this, L_36, /*hidden argument*/NULL);
+	}
+
+IL_00e4:
+	{
+		// }
+		return;
+	}
+}
+// System.Boolean UnityEngine.UI.BoxSlider::MayDrag(UnityEngine.EventSystems.PointerEventData)
+extern "C"  bool BoxSlider_MayDrag_m1941009447 (BoxSlider_t1871650694 * __this, PointerEventData_t1599784723 * ___eventData0, const MethodInfo* method)
+{
+	bool V_0 = false;
+	int32_t G_B4_0 = 0;
+	{
+		// return IsActive() && IsInteractable() && eventData.button == PointerEventData.InputButton.Left;
+		// return IsActive() && IsInteractable() && eventData.button == PointerEventData.InputButton.Left;
+		bool L_0 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean UnityEngine.EventSystems.UIBehaviour::IsActive() */, __this);
+		if (!L_0)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		// return IsActive() && IsInteractable() && eventData.button == PointerEventData.InputButton.Left;
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(24 /* System.Boolean UnityEngine.UI.Selectable::IsInteractable() */, __this);
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_2 = ___eventData0;
+		// return IsActive() && IsInteractable() && eventData.button == PointerEventData.InputButton.Left;
+		NullCheck(L_2);
+		int32_t L_3 = PointerEventData_get_button_m2339189303(L_2, /*hidden argument*/NULL);
+		G_B4_0 = ((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
+		goto IL_0023;
+	}
+
+IL_0022:
+	{
+		G_B4_0 = 0;
+	}
+
+IL_0023:
+	{
+		V_0 = (bool)G_B4_0;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		// }
+		bool L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+extern "C"  void BoxSlider_OnPointerDown_m523869696 (BoxSlider_t1871650694 * __this, PointerEventData_t1599784723 * ___eventData0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BoxSlider_OnPointerDown_m523869696_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t2243707579  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		// if (!MayDrag(eventData))
+		PointerEventData_t1599784723 * L_0 = ___eventData0;
+		// if (!MayDrag(eventData))
+		bool L_1 = BoxSlider_MayDrag_m1941009447(__this, L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		// return;
+		goto IL_00a3;
+	}
+
+IL_0012:
+	{
+		// base.OnPointerDown(eventData);
+		PointerEventData_t1599784723 * L_2 = ___eventData0;
+		// base.OnPointerDown(eventData);
+		Selectable_OnPointerDown_m3110480835(__this, L_2, /*hidden argument*/NULL);
+		// m_Offset = Vector2.zero;
+		// m_Offset = Vector2.zero;
+		Vector2_t2243707579  L_3 = Vector2_get_zero_m3966848876(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_m_Offset_25(L_3);
+		// if (m_HandleContainerRect != null && RectTransformUtility.RectangleContainsScreenPoint(m_HandleRect, eventData.position, eventData.enterEventCamera))
+		RectTransform_t3349966182 * L_4 = __this->get_m_HandleContainerRect_24();
+		// if (m_HandleContainerRect != null && RectTransformUtility.RectangleContainsScreenPoint(m_HandleRect, eventData.position, eventData.enterEventCamera))
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_5 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		RectTransform_t3349966182 * L_6 = __this->get_m_HandleRect_16();
+		PointerEventData_t1599784723 * L_7 = ___eventData0;
+		// if (m_HandleContainerRect != null && RectTransformUtility.RectangleContainsScreenPoint(m_HandleRect, eventData.position, eventData.enterEventCamera))
+		NullCheck(L_7);
+		Vector2_t2243707579  L_8 = PointerEventData_get_position_m2131765015(L_7, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_9 = ___eventData0;
+		// if (m_HandleContainerRect != null && RectTransformUtility.RectangleContainsScreenPoint(m_HandleRect, eventData.position, eventData.enterEventCamera))
+		NullCheck(L_9);
+		Camera_t189460977 * L_10 = PointerEventData_get_enterEventCamera_m1539996745(L_9, /*hidden argument*/NULL);
+		// if (m_HandleContainerRect != null && RectTransformUtility.RectangleContainsScreenPoint(m_HandleRect, eventData.position, eventData.enterEventCamera))
+		IL2CPP_RUNTIME_CLASS_INIT(RectTransformUtility_t2941082270_il2cpp_TypeInfo_var);
+		bool L_11 = RectTransformUtility_RectangleContainsScreenPoint_m1244853728(NULL /*static, unused*/, L_6, L_8, L_10, /*hidden argument*/NULL);
+		if (!L_11)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		// if (RectTransformUtility.ScreenPointToLocalPointInRectangle(m_HandleRect, eventData.position, eventData.pressEventCamera, out localMousePos))
+		RectTransform_t3349966182 * L_12 = __this->get_m_HandleRect_16();
+		PointerEventData_t1599784723 * L_13 = ___eventData0;
+		// if (RectTransformUtility.ScreenPointToLocalPointInRectangle(m_HandleRect, eventData.position, eventData.pressEventCamera, out localMousePos))
+		NullCheck(L_13);
+		Vector2_t2243707579  L_14 = PointerEventData_get_position_m2131765015(L_13, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_15 = ___eventData0;
+		// if (RectTransformUtility.ScreenPointToLocalPointInRectangle(m_HandleRect, eventData.position, eventData.pressEventCamera, out localMousePos))
+		NullCheck(L_15);
+		Camera_t189460977 * L_16 = PointerEventData_get_pressEventCamera_m724559964(L_15, /*hidden argument*/NULL);
+		// if (RectTransformUtility.ScreenPointToLocalPointInRectangle(m_HandleRect, eventData.position, eventData.pressEventCamera, out localMousePos))
+		IL2CPP_RUNTIME_CLASS_INIT(RectTransformUtility_t2941082270_il2cpp_TypeInfo_var);
+		bool L_17 = RectTransformUtility_ScreenPointToLocalPointInRectangle_m2398565080(NULL /*static, unused*/, L_12, L_14, L_16, (&V_0), /*hidden argument*/NULL);
+		if (!L_17)
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		// m_Offset = localMousePos;
+		Vector2_t2243707579  L_18 = V_0;
+		__this->set_m_Offset_25(L_18);
+	}
+
+IL_0077:
+	{
+		// m_Offset.y = -m_Offset.y;
+		Vector2_t2243707579 * L_19 = __this->get_address_of_m_Offset_25();
+		Vector2_t2243707579 * L_20 = __this->get_address_of_m_Offset_25();
+		float L_21 = L_20->get_y_1();
+		L_19->set_y_1(((-L_21)));
+		goto IL_00a3;
+	}
+
+IL_0094:
+	{
+		// UpdateDrag(eventData, eventData.pressEventCamera);
+		PointerEventData_t1599784723 * L_22 = ___eventData0;
+		PointerEventData_t1599784723 * L_23 = ___eventData0;
+		// UpdateDrag(eventData, eventData.pressEventCamera);
+		NullCheck(L_23);
+		Camera_t189460977 * L_24 = PointerEventData_get_pressEventCamera_m724559964(L_23, /*hidden argument*/NULL);
+		// UpdateDrag(eventData, eventData.pressEventCamera);
+		BoxSlider_UpdateDrag_m1281607389(__this, L_22, L_24, /*hidden argument*/NULL);
+	}
+
+IL_00a3:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::OnDrag(UnityEngine.EventSystems.PointerEventData)
+extern "C"  void BoxSlider_OnDrag_m2506766611 (BoxSlider_t1871650694 * __this, PointerEventData_t1599784723 * ___eventData0, const MethodInfo* method)
+{
+	{
+		// if (!MayDrag(eventData))
+		PointerEventData_t1599784723 * L_0 = ___eventData0;
+		// if (!MayDrag(eventData))
+		bool L_1 = BoxSlider_MayDrag_m1941009447(__this, L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		// return;
+		goto IL_001f;
+	}
+
+IL_0012:
+	{
+		// UpdateDrag(eventData, eventData.pressEventCamera);
+		PointerEventData_t1599784723 * L_2 = ___eventData0;
+		PointerEventData_t1599784723 * L_3 = ___eventData0;
+		// UpdateDrag(eventData, eventData.pressEventCamera);
+		NullCheck(L_3);
+		Camera_t189460977 * L_4 = PointerEventData_get_pressEventCamera_m724559964(L_3, /*hidden argument*/NULL);
+		// UpdateDrag(eventData, eventData.pressEventCamera);
+		BoxSlider_UpdateDrag_m1281607389(__this, L_2, L_4, /*hidden argument*/NULL);
+	}
+
+IL_001f:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider::OnInitializePotentialDrag(UnityEngine.EventSystems.PointerEventData)
+extern "C"  void BoxSlider_OnInitializePotentialDrag_m2830850663 (BoxSlider_t1871650694 * __this, PointerEventData_t1599784723 * ___eventData0, const MethodInfo* method)
+{
+	{
+		// eventData.useDragThreshold = false;
+		PointerEventData_t1599784723 * L_0 = ___eventData0;
+		// eventData.useDragThreshold = false;
+		NullCheck(L_0);
+		PointerEventData_set_useDragThreshold_m2778439880(L_0, (bool)0, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// UnityEngine.Transform UnityEngine.UI.BoxSlider::UnityEngine.UI.ICanvasElement.get_transform()
+extern "C"  Transform_t3275118058 * BoxSlider_UnityEngine_UI_ICanvasElement_get_transform_m3600860139 (BoxSlider_t1871650694 * __this, const MethodInfo* method)
+{
+	{
+		Transform_t3275118058 * L_0 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Boolean UnityEngine.UI.BoxSlider::UnityEngine.UI.ICanvasElement.IsDestroyed()
+extern "C"  bool BoxSlider_UnityEngine_UI_ICanvasElement_IsDestroyed_m2151284327 (BoxSlider_t1871650694 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = UIBehaviour_IsDestroyed_m3809050211(__this, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void UnityEngine.UI.BoxSlider/BoxSliderEvent::.ctor()
+extern "C"  void BoxSliderEvent__ctor_m304261805 (BoxSliderEvent_t1774115848 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BoxSliderEvent__ctor_m304261805_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_2__ctor_m731674732(__this, /*hidden argument*/UnityEvent_2__ctor_m731674732_MethodInfo_var);
+		return;
+	}
+}
+// Conversion methods for marshalling of: UnityEngine.XR.iOS.ARAnchor
+extern "C" void ARAnchor_t1161832412_marshal_pinvoke(const ARAnchor_t1161832412& unmarshaled, ARAnchor_t1161832412_marshaled_pinvoke& marshaled)
+{
+	marshaled.___identifier_0 = il2cpp_codegen_marshal_string(unmarshaled.get_identifier_0());
+	marshaled.___transform_1 = unmarshaled.get_transform_1();
+}
+extern "C" void ARAnchor_t1161832412_marshal_pinvoke_back(const ARAnchor_t1161832412_marshaled_pinvoke& marshaled, ARAnchor_t1161832412& unmarshaled)
+{
+	unmarshaled.set_identifier_0(il2cpp_codegen_marshal_string_result(marshaled.___identifier_0));
+	Matrix4x4_t2933234003  unmarshaled_transform_temp_1;
+	memset(&unmarshaled_transform_temp_1, 0, sizeof(unmarshaled_transform_temp_1));
+	unmarshaled_transform_temp_1 = marshaled.___transform_1;
+	unmarshaled.set_transform_1(unmarshaled_transform_temp_1);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.XR.iOS.ARAnchor
+extern "C" void ARAnchor_t1161832412_marshal_pinvoke_cleanup(ARAnchor_t1161832412_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___identifier_0);
+	marshaled.___identifier_0 = NULL;
+}
+// Conversion methods for marshalling of: UnityEngine.XR.iOS.ARAnchor
+extern "C" void ARAnchor_t1161832412_marshal_com(const ARAnchor_t1161832412& unmarshaled, ARAnchor_t1161832412_marshaled_com& marshaled)
+{
+	marshaled.___identifier_0 = il2cpp_codegen_marshal_bstring(unmarshaled.get_identifier_0());
+	marshaled.___transform_1 = unmarshaled.get_transform_1();
+}
+extern "C" void ARAnchor_t1161832412_marshal_com_back(const ARAnchor_t1161832412_marshaled_com& marshaled, ARAnchor_t1161832412& unmarshaled)
+{
+	unmarshaled.set_identifier_0(il2cpp_codegen_marshal_bstring_result(marshaled.___identifier_0));
+	Matrix4x4_t2933234003  unmarshaled_transform_temp_1;
+	memset(&unmarshaled_transform_temp_1, 0, sizeof(unmarshaled_transform_temp_1));
+	unmarshaled_transform_temp_1 = marshaled.___transform_1;
+	unmarshaled.set_transform_1(unmarshaled_transform_temp_1);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.XR.iOS.ARAnchor
+extern "C" void ARAnchor_t1161832412_marshal_com_cleanup(ARAnchor_t1161832412_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___identifier_0);
+	marshaled.___identifier_0 = NULL;
+}
+// Conversion methods for marshalling of: UnityEngine.XR.iOS.ARHitTestResult
+extern "C" void ARHitTestResult_t3275513025_marshal_pinvoke(const ARHitTestResult_t3275513025& unmarshaled, ARHitTestResult_t3275513025_marshaled_pinvoke& marshaled)
+{
+	marshaled.___type_0 = unmarshaled.get_type_0();
+	marshaled.___distance_1 = unmarshaled.get_distance_1();
+	marshaled.___localTransform_2 = unmarshaled.get_localTransform_2();
+	marshaled.___worldTransform_3 = unmarshaled.get_worldTransform_3();
+	marshaled.___anchorIdentifier_4 = il2cpp_codegen_marshal_string(unmarshaled.get_anchorIdentifier_4());
+	marshaled.___isValid_5 = static_cast<int32_t>(unmarshaled.get_isValid_5());
+}
+extern "C" void ARHitTestResult_t3275513025_marshal_pinvoke_back(const ARHitTestResult_t3275513025_marshaled_pinvoke& marshaled, ARHitTestResult_t3275513025& unmarshaled)
+{
+	int64_t unmarshaled_type_temp_0 = 0;
+	unmarshaled_type_temp_0 = marshaled.___type_0;
+	unmarshaled.set_type_0(unmarshaled_type_temp_0);
+	double unmarshaled_distance_temp_1 = 0.0;
+	unmarshaled_distance_temp_1 = marshaled.___distance_1;
+	unmarshaled.set_distance_1(unmarshaled_distance_temp_1);
+	Matrix4x4_t2933234003  unmarshaled_localTransform_temp_2;
+	memset(&unmarshaled_localTransform_temp_2, 0, sizeof(unmarshaled_localTransform_temp_2));
+	unmarshaled_localTransform_temp_2 = marshaled.___localTransform_2;
+	unmarshaled.set_localTransform_2(unmarshaled_localTransform_temp_2);
+	Matrix4x4_t2933234003  unmarshaled_worldTransform_temp_3;
+	memset(&unmarshaled_worldTransform_temp_3, 0, sizeof(unmarshaled_worldTransform_temp_3));
+	unmarshaled_worldTransform_temp_3 = marshaled.___worldTransform_3;
+	unmarshaled.set_worldTransform_3(unmarshaled_worldTransform_temp_3);
+	unmarshaled.set_anchorIdentifier_4(il2cpp_codegen_marshal_string_result(marshaled.___anchorIdentifier_4));
+	bool unmarshaled_isValid_temp_5 = false;
+	unmarshaled_isValid_temp_5 = static_cast<bool>(marshaled.___isValid_5);
+	unmarshaled.set_isValid_5(unmarshaled_isValid_temp_5);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.XR.iOS.ARHitTestResult
+extern "C" void ARHitTestResult_t3275513025_marshal_pinvoke_cleanup(ARHitTestResult_t3275513025_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___anchorIdentifier_4);
+	marshaled.___anchorIdentifier_4 = NULL;
+}
+// Conversion methods for marshalling of: UnityEngine.XR.iOS.ARHitTestResult
+extern "C" void ARHitTestResult_t3275513025_marshal_com(const ARHitTestResult_t3275513025& unmarshaled, ARHitTestResult_t3275513025_marshaled_com& marshaled)
+{
+	marshaled.___type_0 = unmarshaled.get_type_0();
+	marshaled.___distance_1 = unmarshaled.get_distance_1();
+	marshaled.___localTransform_2 = unmarshaled.get_localTransform_2();
+	marshaled.___worldTransform_3 = unmarshaled.get_worldTransform_3();
+	marshaled.___anchorIdentifier_4 = il2cpp_codegen_marshal_bstring(unmarshaled.get_anchorIdentifier_4());
+	marshaled.___isValid_5 = static_cast<int32_t>(unmarshaled.get_isValid_5());
+}
+extern "C" void ARHitTestResult_t3275513025_marshal_com_back(const ARHitTestResult_t3275513025_marshaled_com& marshaled, ARHitTestResult_t3275513025& unmarshaled)
+{
+	int64_t unmarshaled_type_temp_0 = 0;
+	unmarshaled_type_temp_0 = marshaled.___type_0;
+	unmarshaled.set_type_0(unmarshaled_type_temp_0);
+	double unmarshaled_distance_temp_1 = 0.0;
+	unmarshaled_distance_temp_1 = marshaled.___distance_1;
+	unmarshaled.set_distance_1(unmarshaled_distance_temp_1);
+	Matrix4x4_t2933234003  unmarshaled_localTransform_temp_2;
+	memset(&unmarshaled_localTransform_temp_2, 0, sizeof(unmarshaled_localTransform_temp_2));
+	unmarshaled_localTransform_temp_2 = marshaled.___localTransform_2;
+	unmarshaled.set_localTransform_2(unmarshaled_localTransform_temp_2);
+	Matrix4x4_t2933234003  unmarshaled_worldTransform_temp_3;
+	memset(&unmarshaled_worldTransform_temp_3, 0, sizeof(unmarshaled_worldTransform_temp_3));
+	unmarshaled_worldTransform_temp_3 = marshaled.___worldTransform_3;
+	unmarshaled.set_worldTransform_3(unmarshaled_worldTransform_temp_3);
+	unmarshaled.set_anchorIdentifier_4(il2cpp_codegen_marshal_bstring_result(marshaled.___anchorIdentifier_4));
+	bool unmarshaled_isValid_temp_5 = false;
+	unmarshaled_isValid_temp_5 = static_cast<bool>(marshaled.___isValid_5);
+	unmarshaled.set_isValid_5(unmarshaled_isValid_temp_5);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.XR.iOS.ARHitTestResult
+extern "C" void ARHitTestResult_t3275513025_marshal_com_cleanup(ARHitTestResult_t3275513025_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___anchorIdentifier_4);
+	marshaled.___anchorIdentifier_4 = NULL;
+}
+// Conversion methods for marshalling of: UnityEngine.XR.iOS.ARKitSessionConfiguration
+extern "C" void ARKitSessionConfiguration_t318899795_marshal_pinvoke(const ARKitSessionConfiguration_t318899795& unmarshaled, ARKitSessionConfiguration_t318899795_marshaled_pinvoke& marshaled)
+{
+	marshaled.___alignment_0 = unmarshaled.get_alignment_0();
+	marshaled.___getPointCloudData_1 = static_cast<int32_t>(unmarshaled.get_getPointCloudData_1());
+	marshaled.___enableLightEstimation_2 = static_cast<int32_t>(unmarshaled.get_enableLightEstimation_2());
+}
+extern "C" void ARKitSessionConfiguration_t318899795_marshal_pinvoke_back(const ARKitSessionConfiguration_t318899795_marshaled_pinvoke& marshaled, ARKitSessionConfiguration_t318899795& unmarshaled)
+{
+	int32_t unmarshaled_alignment_temp_0 = 0;
+	unmarshaled_alignment_temp_0 = marshaled.___alignment_0;
+	unmarshaled.set_alignment_0(unmarshaled_alignment_temp_0);
+	bool unmarshaled_getPointCloudData_temp_1 = false;
+	unmarshaled_getPointCloudData_temp_1 = static_cast<bool>(marshaled.___getPointCloudData_1);
+	unmarshaled.set_getPointCloudData_1(unmarshaled_getPointCloudData_temp_1);
+	bool unmarshaled_enableLightEstimation_temp_2 = false;
+	unmarshaled_enableLightEstimation_temp_2 = static_cast<bool>(marshaled.___enableLightEstimation_2);
+	unmarshaled.set_enableLightEstimation_2(unmarshaled_enableLightEstimation_temp_2);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.XR.iOS.ARKitSessionConfiguration
+extern "C" void ARKitSessionConfiguration_t318899795_marshal_pinvoke_cleanup(ARKitSessionConfiguration_t318899795_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: UnityEngine.XR.iOS.ARKitSessionConfiguration
+extern "C" void ARKitSessionConfiguration_t318899795_marshal_com(const ARKitSessionConfiguration_t318899795& unmarshaled, ARKitSessionConfiguration_t318899795_marshaled_com& marshaled)
+{
+	marshaled.___alignment_0 = unmarshaled.get_alignment_0();
+	marshaled.___getPointCloudData_1 = static_cast<int32_t>(unmarshaled.get_getPointCloudData_1());
+	marshaled.___enableLightEstimation_2 = static_cast<int32_t>(unmarshaled.get_enableLightEstimation_2());
+}
+extern "C" void ARKitSessionConfiguration_t318899795_marshal_com_back(const ARKitSessionConfiguration_t318899795_marshaled_com& marshaled, ARKitSessionConfiguration_t318899795& unmarshaled)
+{
+	int32_t unmarshaled_alignment_temp_0 = 0;
+	unmarshaled_alignment_temp_0 = marshaled.___alignment_0;
+	unmarshaled.set_alignment_0(unmarshaled_alignment_temp_0);
+	bool unmarshaled_getPointCloudData_temp_1 = false;
+	unmarshaled_getPointCloudData_temp_1 = static_cast<bool>(marshaled.___getPointCloudData_1);
+	unmarshaled.set_getPointCloudData_1(unmarshaled_getPointCloudData_temp_1);
+	bool unmarshaled_enableLightEstimation_temp_2 = false;
+	unmarshaled_enableLightEstimation_temp_2 = static_cast<bool>(marshaled.___enableLightEstimation_2);
+	unmarshaled.set_enableLightEstimation_2(unmarshaled_enableLightEstimation_temp_2);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.XR.iOS.ARKitSessionConfiguration
+extern "C" void ARKitSessionConfiguration_t318899795_marshal_com_cleanup(ARKitSessionConfiguration_t318899795_marshaled_com& marshaled)
+{
+}
+// System.Void UnityEngine.XR.iOS.ARKitSessionConfiguration::.ctor(UnityEngine.XR.iOS.UnityARAlignment,System.Boolean,System.Boolean)
+extern "C"  void ARKitSessionConfiguration__ctor_m1819896799 (ARKitSessionConfiguration_t318899795 * __this, int32_t ___alignment0, bool ___getPointCloudData1, bool ___enableLightEstimation2, const MethodInfo* method)
+{
+	{
+		// this.getPointCloudData = getPointCloudData;
+		bool L_0 = ___getPointCloudData1;
+		__this->set_getPointCloudData_1(L_0);
+		// this.alignment = alignment;
+		int32_t L_1 = ___alignment0;
+		__this->set_alignment_0(L_1);
+		// this.enableLightEstimation = enableLightEstimation;
+		bool L_2 = ___enableLightEstimation2;
+		__this->set_enableLightEstimation_2(L_2);
+		// }
+		return;
+	}
+}
+extern "C"  void ARKitSessionConfiguration__ctor_m1819896799_AdjustorThunk (Il2CppObject * __this, int32_t ___alignment0, bool ___getPointCloudData1, bool ___enableLightEstimation2, const MethodInfo* method)
+{
+	ARKitSessionConfiguration_t318899795 * _thisAdjusted = reinterpret_cast<ARKitSessionConfiguration_t318899795 *>(__this + 1);
+	ARKitSessionConfiguration__ctor_m1819896799(_thisAdjusted, ___alignment0, ___getPointCloudData1, ___enableLightEstimation2, method);
+}
+// System.Boolean UnityEngine.XR.iOS.ARKitSessionConfiguration::get_IsSupported()
+extern "C"  bool ARKitSessionConfiguration_get_IsSupported_m3695054805 (ARKitSessionConfiguration_t318899795 * __this, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		// public bool IsSupported { get { return IsARKitSessionConfigurationSupported(); } private set {} }
+		bool L_0 = ARKitSessionConfiguration_IsARKitSessionConfigurationSupported_m478432247(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		// public bool IsSupported { get { return IsARKitSessionConfigurationSupported(); } private set {} }
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+extern "C"  bool ARKitSessionConfiguration_get_IsSupported_m3695054805_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	ARKitSessionConfiguration_t318899795 * _thisAdjusted = reinterpret_cast<ARKitSessionConfiguration_t318899795 *>(__this + 1);
+	return ARKitSessionConfiguration_get_IsSupported_m3695054805(_thisAdjusted, method);
+}
+// System.Void UnityEngine.XR.iOS.ARKitSessionConfiguration::set_IsSupported(System.Boolean)
+extern "C"  void ARKitSessionConfiguration_set_IsSupported_m2731928126 (ARKitSessionConfiguration_t318899795 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		// public bool IsSupported { get { return IsARKitSessionConfigurationSupported(); } private set {} }
+		return;
+	}
+}
+extern "C"  void ARKitSessionConfiguration_set_IsSupported_m2731928126_AdjustorThunk (Il2CppObject * __this, bool ___value0, const MethodInfo* method)
+{
+	ARKitSessionConfiguration_t318899795 * _thisAdjusted = reinterpret_cast<ARKitSessionConfiguration_t318899795 *>(__this + 1);
+	ARKitSessionConfiguration_set_IsSupported_m2731928126(_thisAdjusted, ___value0, method);
+}
+extern "C" int32_t DEFAULT_CALL IsARKitSessionConfigurationSupported();
+// System.Boolean UnityEngine.XR.iOS.ARKitSessionConfiguration::IsARKitSessionConfigurationSupported()
+extern "C"  bool ARKitSessionConfiguration_IsARKitSessionConfigurationSupported_m478432247 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(IsARKitSessionConfigurationSupported)();
+
+	return static_cast<bool>(returnValue);
+}
+// Conversion methods for marshalling of: UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration
+extern "C" void ARKitWorldTackingSessionConfiguration_t1821734930_marshal_pinvoke(const ARKitWorldTackingSessionConfiguration_t1821734930& unmarshaled, ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_pinvoke& marshaled)
+{
+	marshaled.___alignment_0 = unmarshaled.get_alignment_0();
+	marshaled.___planeDetection_1 = unmarshaled.get_planeDetection_1();
+	marshaled.___getPointCloudData_2 = static_cast<int32_t>(unmarshaled.get_getPointCloudData_2());
+	marshaled.___enableLightEstimation_3 = static_cast<int32_t>(unmarshaled.get_enableLightEstimation_3());
+}
+extern "C" void ARKitWorldTackingSessionConfiguration_t1821734930_marshal_pinvoke_back(const ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_pinvoke& marshaled, ARKitWorldTackingSessionConfiguration_t1821734930& unmarshaled)
+{
+	int32_t unmarshaled_alignment_temp_0 = 0;
+	unmarshaled_alignment_temp_0 = marshaled.___alignment_0;
+	unmarshaled.set_alignment_0(unmarshaled_alignment_temp_0);
+	int32_t unmarshaled_planeDetection_temp_1 = 0;
+	unmarshaled_planeDetection_temp_1 = marshaled.___planeDetection_1;
+	unmarshaled.set_planeDetection_1(unmarshaled_planeDetection_temp_1);
+	bool unmarshaled_getPointCloudData_temp_2 = false;
+	unmarshaled_getPointCloudData_temp_2 = static_cast<bool>(marshaled.___getPointCloudData_2);
+	unmarshaled.set_getPointCloudData_2(unmarshaled_getPointCloudData_temp_2);
+	bool unmarshaled_enableLightEstimation_temp_3 = false;
+	unmarshaled_enableLightEstimation_temp_3 = static_cast<bool>(marshaled.___enableLightEstimation_3);
+	unmarshaled.set_enableLightEstimation_3(unmarshaled_enableLightEstimation_temp_3);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration
+extern "C" void ARKitWorldTackingSessionConfiguration_t1821734930_marshal_pinvoke_cleanup(ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration
+extern "C" void ARKitWorldTackingSessionConfiguration_t1821734930_marshal_com(const ARKitWorldTackingSessionConfiguration_t1821734930& unmarshaled, ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_com& marshaled)
+{
+	marshaled.___alignment_0 = unmarshaled.get_alignment_0();
+	marshaled.___planeDetection_1 = unmarshaled.get_planeDetection_1();
+	marshaled.___getPointCloudData_2 = static_cast<int32_t>(unmarshaled.get_getPointCloudData_2());
+	marshaled.___enableLightEstimation_3 = static_cast<int32_t>(unmarshaled.get_enableLightEstimation_3());
+}
+extern "C" void ARKitWorldTackingSessionConfiguration_t1821734930_marshal_com_back(const ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_com& marshaled, ARKitWorldTackingSessionConfiguration_t1821734930& unmarshaled)
+{
+	int32_t unmarshaled_alignment_temp_0 = 0;
+	unmarshaled_alignment_temp_0 = marshaled.___alignment_0;
+	unmarshaled.set_alignment_0(unmarshaled_alignment_temp_0);
+	int32_t unmarshaled_planeDetection_temp_1 = 0;
+	unmarshaled_planeDetection_temp_1 = marshaled.___planeDetection_1;
+	unmarshaled.set_planeDetection_1(unmarshaled_planeDetection_temp_1);
+	bool unmarshaled_getPointCloudData_temp_2 = false;
+	unmarshaled_getPointCloudData_temp_2 = static_cast<bool>(marshaled.___getPointCloudData_2);
+	unmarshaled.set_getPointCloudData_2(unmarshaled_getPointCloudData_temp_2);
+	bool unmarshaled_enableLightEstimation_temp_3 = false;
+	unmarshaled_enableLightEstimation_temp_3 = static_cast<bool>(marshaled.___enableLightEstimation_3);
+	unmarshaled.set_enableLightEstimation_3(unmarshaled_enableLightEstimation_temp_3);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration
+extern "C" void ARKitWorldTackingSessionConfiguration_t1821734930_marshal_com_cleanup(ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_com& marshaled)
+{
+}
+// System.Void UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration::.ctor(UnityEngine.XR.iOS.UnityARAlignment,UnityEngine.XR.iOS.UnityARPlaneDetection,System.Boolean,System.Boolean)
+extern "C"  void ARKitWorldTackingSessionConfiguration__ctor_m929109213 (ARKitWorldTackingSessionConfiguration_t1821734930 * __this, int32_t ___alignment0, int32_t ___planeDetection1, bool ___getPointCloudData2, bool ___enableLightEstimation3, const MethodInfo* method)
+{
+	{
+		// this.getPointCloudData = getPointCloudData;
+		bool L_0 = ___getPointCloudData2;
+		__this->set_getPointCloudData_2(L_0);
+		// this.alignment = alignment;
+		int32_t L_1 = ___alignment0;
+		__this->set_alignment_0(L_1);
+		// this.planeDetection = planeDetection;
+		int32_t L_2 = ___planeDetection1;
+		__this->set_planeDetection_1(L_2);
+		// this.enableLightEstimation = enableLightEstimation;
+		bool L_3 = ___enableLightEstimation3;
+		__this->set_enableLightEstimation_3(L_3);
+		// }
+		return;
+	}
+}
+extern "C"  void ARKitWorldTackingSessionConfiguration__ctor_m929109213_AdjustorThunk (Il2CppObject * __this, int32_t ___alignment0, int32_t ___planeDetection1, bool ___getPointCloudData2, bool ___enableLightEstimation3, const MethodInfo* method)
+{
+	ARKitWorldTackingSessionConfiguration_t1821734930 * _thisAdjusted = reinterpret_cast<ARKitWorldTackingSessionConfiguration_t1821734930 *>(__this + 1);
+	ARKitWorldTackingSessionConfiguration__ctor_m929109213(_thisAdjusted, ___alignment0, ___planeDetection1, ___getPointCloudData2, ___enableLightEstimation3, method);
+}
+// System.Boolean UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration::get_IsSupported()
+extern "C"  bool ARKitWorldTackingSessionConfiguration_get_IsSupported_m2907500064 (ARKitWorldTackingSessionConfiguration_t1821734930 * __this, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		// public bool IsSupported { get { return IsARKitWorldTrackingSessionConfigurationSupported(); } private set {} }
+		bool L_0 = ARKitWorldTackingSessionConfiguration_IsARKitWorldTrackingSessionConfigurationSupported_m2059157701(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		// public bool IsSupported { get { return IsARKitWorldTrackingSessionConfigurationSupported(); } private set {} }
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+extern "C"  bool ARKitWorldTackingSessionConfiguration_get_IsSupported_m2907500064_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	ARKitWorldTackingSessionConfiguration_t1821734930 * _thisAdjusted = reinterpret_cast<ARKitWorldTackingSessionConfiguration_t1821734930 *>(__this + 1);
+	return ARKitWorldTackingSessionConfiguration_get_IsSupported_m2907500064(_thisAdjusted, method);
+}
+// System.Void UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration::set_IsSupported(System.Boolean)
+extern "C"  void ARKitWorldTackingSessionConfiguration_set_IsSupported_m1782028213 (ARKitWorldTackingSessionConfiguration_t1821734930 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		// public bool IsSupported { get { return IsARKitWorldTrackingSessionConfigurationSupported(); } private set {} }
+		return;
+	}
+}
+extern "C"  void ARKitWorldTackingSessionConfiguration_set_IsSupported_m1782028213_AdjustorThunk (Il2CppObject * __this, bool ___value0, const MethodInfo* method)
+{
+	ARKitWorldTackingSessionConfiguration_t1821734930 * _thisAdjusted = reinterpret_cast<ARKitWorldTackingSessionConfiguration_t1821734930 *>(__this + 1);
+	ARKitWorldTackingSessionConfiguration_set_IsSupported_m1782028213(_thisAdjusted, ___value0, method);
+}
+extern "C" int32_t DEFAULT_CALL IsARKitWorldTrackingSessionConfigurationSupported();
+// System.Boolean UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration::IsARKitWorldTrackingSessionConfigurationSupported()
+extern "C"  bool ARKitWorldTackingSessionConfiguration_IsARKitWorldTrackingSessionConfigurationSupported_m2059157701 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(IsARKitWorldTrackingSessionConfigurationSupported)();
+
+	return static_cast<bool>(returnValue);
+}
+// Conversion methods for marshalling of: UnityEngine.XR.iOS.ARPlaneAnchor
+extern "C" void ARPlaneAnchor_t1439520888_marshal_pinvoke(const ARPlaneAnchor_t1439520888& unmarshaled, ARPlaneAnchor_t1439520888_marshaled_pinvoke& marshaled)
+{
+	marshaled.___identifier_0 = il2cpp_codegen_marshal_string(unmarshaled.get_identifier_0());
+	marshaled.___transform_1 = unmarshaled.get_transform_1();
+	marshaled.___alignment_2 = unmarshaled.get_alignment_2();
+	marshaled.___center_3 = unmarshaled.get_center_3();
+	marshaled.___extent_4 = unmarshaled.get_extent_4();
+}
+extern "C" void ARPlaneAnchor_t1439520888_marshal_pinvoke_back(const ARPlaneAnchor_t1439520888_marshaled_pinvoke& marshaled, ARPlaneAnchor_t1439520888& unmarshaled)
+{
+	unmarshaled.set_identifier_0(il2cpp_codegen_marshal_string_result(marshaled.___identifier_0));
+	Matrix4x4_t2933234003  unmarshaled_transform_temp_1;
+	memset(&unmarshaled_transform_temp_1, 0, sizeof(unmarshaled_transform_temp_1));
+	unmarshaled_transform_temp_1 = marshaled.___transform_1;
+	unmarshaled.set_transform_1(unmarshaled_transform_temp_1);
+	int64_t unmarshaled_alignment_temp_2 = 0;
+	unmarshaled_alignment_temp_2 = marshaled.___alignment_2;
+	unmarshaled.set_alignment_2(unmarshaled_alignment_temp_2);
+	Vector3_t2243707580  unmarshaled_center_temp_3;
+	memset(&unmarshaled_center_temp_3, 0, sizeof(unmarshaled_center_temp_3));
+	unmarshaled_center_temp_3 = marshaled.___center_3;
+	unmarshaled.set_center_3(unmarshaled_center_temp_3);
+	Vector3_t2243707580  unmarshaled_extent_temp_4;
+	memset(&unmarshaled_extent_temp_4, 0, sizeof(unmarshaled_extent_temp_4));
+	unmarshaled_extent_temp_4 = marshaled.___extent_4;
+	unmarshaled.set_extent_4(unmarshaled_extent_temp_4);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.XR.iOS.ARPlaneAnchor
+extern "C" void ARPlaneAnchor_t1439520888_marshal_pinvoke_cleanup(ARPlaneAnchor_t1439520888_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___identifier_0);
+	marshaled.___identifier_0 = NULL;
+}
+// Conversion methods for marshalling of: UnityEngine.XR.iOS.ARPlaneAnchor
+extern "C" void ARPlaneAnchor_t1439520888_marshal_com(const ARPlaneAnchor_t1439520888& unmarshaled, ARPlaneAnchor_t1439520888_marshaled_com& marshaled)
+{
+	marshaled.___identifier_0 = il2cpp_codegen_marshal_bstring(unmarshaled.get_identifier_0());
+	marshaled.___transform_1 = unmarshaled.get_transform_1();
+	marshaled.___alignment_2 = unmarshaled.get_alignment_2();
+	marshaled.___center_3 = unmarshaled.get_center_3();
+	marshaled.___extent_4 = unmarshaled.get_extent_4();
+}
+extern "C" void ARPlaneAnchor_t1439520888_marshal_com_back(const ARPlaneAnchor_t1439520888_marshaled_com& marshaled, ARPlaneAnchor_t1439520888& unmarshaled)
+{
+	unmarshaled.set_identifier_0(il2cpp_codegen_marshal_bstring_result(marshaled.___identifier_0));
+	Matrix4x4_t2933234003  unmarshaled_transform_temp_1;
+	memset(&unmarshaled_transform_temp_1, 0, sizeof(unmarshaled_transform_temp_1));
+	unmarshaled_transform_temp_1 = marshaled.___transform_1;
+	unmarshaled.set_transform_1(unmarshaled_transform_temp_1);
+	int64_t unmarshaled_alignment_temp_2 = 0;
+	unmarshaled_alignment_temp_2 = marshaled.___alignment_2;
+	unmarshaled.set_alignment_2(unmarshaled_alignment_temp_2);
+	Vector3_t2243707580  unmarshaled_center_temp_3;
+	memset(&unmarshaled_center_temp_3, 0, sizeof(unmarshaled_center_temp_3));
+	unmarshaled_center_temp_3 = marshaled.___center_3;
+	unmarshaled.set_center_3(unmarshaled_center_temp_3);
+	Vector3_t2243707580  unmarshaled_extent_temp_4;
+	memset(&unmarshaled_extent_temp_4, 0, sizeof(unmarshaled_extent_temp_4));
+	unmarshaled_extent_temp_4 = marshaled.___extent_4;
+	unmarshaled.set_extent_4(unmarshaled_extent_temp_4);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.XR.iOS.ARPlaneAnchor
+extern "C" void ARPlaneAnchor_t1439520888_marshal_com_cleanup(ARPlaneAnchor_t1439520888_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___identifier_0);
+	marshaled.___identifier_0 = NULL;
+}
+// System.Void UnityEngine.XR.iOS.ARPlaneAnchorGameObject::.ctor()
+extern "C"  void ARPlaneAnchorGameObject__ctor_m594750402 (ARPlaneAnchorGameObject_t2305225887 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARAmbient::.ctor()
+extern "C"  void UnityARAmbient__ctor_m3700524047 (UnityARAmbient_t680084560 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARAmbient::Start()
+extern "C"  void UnityARAmbient_Start_m303369171 (UnityARAmbient_t680084560 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARAmbient_Start_m303369171_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// l = GetComponent<Light>();
+		// l = GetComponent<Light>();
+		Light_t494725636 * L_0 = Component_GetComponent_TisLight_t494725636_m872104316(__this, /*hidden argument*/Component_GetComponent_TisLight_t494725636_m872104316_MethodInfo_var);
+		__this->set_l_2(L_0);
+		// m_Session = UnityARSessionNativeInterface.GetARSessionNativeInterface ();
+		// m_Session = UnityARSessionNativeInterface.GetARSessionNativeInterface ();
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARSessionNativeInterface_t1130867170 * L_1 = UnityARSessionNativeInterface_GetARSessionNativeInterface_m2987304195(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_m_Session_3(L_1);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARAmbient::Update()
+extern "C"  void UnityARAmbient_Update_m2066148092 (UnityARAmbient_t680084560 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		// float newai = m_Session.GetARAmbientIntensity();
+		UnityARSessionNativeInterface_t1130867170 * L_0 = __this->get_m_Session_3();
+		// float newai = m_Session.GetARAmbientIntensity();
+		NullCheck(L_0);
+		float L_1 = UnityARSessionNativeInterface_GetARAmbientIntensity_m3021844929(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		// l.intensity = newai / 1000.0f;
+		Light_t494725636 * L_2 = __this->get_l_2();
+		float L_3 = V_0;
+		// l.intensity = newai / 1000.0f;
+		NullCheck(L_2);
+		Light_set_intensity_m1790590300(L_2, ((float)((float)L_3/(float)(1000.0f))), /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARAnchorManager::.ctor()
+extern "C"  void UnityARAnchorManager__ctor_m862081813 (UnityARAnchorManager_t1086564192 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARAnchorManager__ctor_m862081813_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public UnityARAnchorManager ()
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		// planeAnchorMap = new Dictionary<string,ARPlaneAnchorGameObject> ();
+		// planeAnchorMap = new Dictionary<string,ARPlaneAnchorGameObject> ();
+		Dictionary_2_t4220005149 * L_0 = (Dictionary_2_t4220005149 *)il2cpp_codegen_object_new(Dictionary_2_t4220005149_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m901994969(L_0, /*hidden argument*/Dictionary_2__ctor_m901994969_MethodInfo_var);
+		__this->set_planeAnchorMap_0(L_0);
+		// UnityARSessionNativeInterface.ARAnchorAddedEvent += AddAnchor;
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)UnityARAnchorManager_AddAnchor_m3696400381_MethodInfo_var);
+		ARAnchorAdded_t2646854145 * L_2 = (ARAnchorAdded_t2646854145 *)il2cpp_codegen_object_new(ARAnchorAdded_t2646854145_il2cpp_TypeInfo_var);
+		ARAnchorAdded__ctor_m457587034(L_2, __this, L_1, /*hidden argument*/NULL);
+		// UnityARSessionNativeInterface.ARAnchorAddedEvent += AddAnchor;
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARSessionNativeInterface_add_ARAnchorAddedEvent_m3658192182(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		// UnityARSessionNativeInterface.ARAnchorUpdatedEvent += UpdateAnchor;
+		IntPtr_t L_3;
+		L_3.set_m_value_0((void*)(void*)UnityARAnchorManager_UpdateAnchor_m936463077_MethodInfo_var);
+		ARAnchorUpdated_t3886071158 * L_4 = (ARAnchorUpdated_t3886071158 *)il2cpp_codegen_object_new(ARAnchorUpdated_t3886071158_il2cpp_TypeInfo_var);
+		ARAnchorUpdated__ctor_m1461693421(L_4, __this, L_3, /*hidden argument*/NULL);
+		// UnityARSessionNativeInterface.ARAnchorUpdatedEvent += UpdateAnchor;
+		UnityARSessionNativeInterface_add_ARAnchorUpdatedEvent_m896905782(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		// UnityARSessionNativeInterface.ARAnchorRemovedEvent += RemoveAnchor;
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)UnityARAnchorManager_RemoveAnchor_m759446766_MethodInfo_var);
+		ARAnchorRemoved_t142665927 * L_6 = (ARAnchorRemoved_t142665927 *)il2cpp_codegen_object_new(ARAnchorRemoved_t142665927_il2cpp_TypeInfo_var);
+		ARAnchorRemoved__ctor_m3206307472(L_6, __this, L_5, /*hidden argument*/NULL);
+		// UnityARSessionNativeInterface.ARAnchorRemovedEvent += RemoveAnchor;
+		UnityARSessionNativeInterface_add_ARAnchorRemovedEvent_m3715542294(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARAnchorManager::AddAnchor(UnityEngine.XR.iOS.ARPlaneAnchor)
+extern "C"  void UnityARAnchorManager_AddAnchor_m3696400381 (UnityARAnchorManager_t1086564192 * __this, ARPlaneAnchor_t1439520888  ___arPlaneAnchor0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARAnchorManager_AddAnchor_m3696400381_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	ARPlaneAnchorGameObject_t2305225887 * V_1 = NULL;
+	{
+		// GameObject go = UnityARUtility.CreatePlaneInScene (arPlaneAnchor);
+		ARPlaneAnchor_t1439520888  L_0 = ___arPlaneAnchor0;
+		// GameObject go = UnityARUtility.CreatePlaneInScene (arPlaneAnchor);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARUtility_t3608388148_il2cpp_TypeInfo_var);
+		GameObject_t1756533147 * L_1 = UnityARUtility_CreatePlaneInScene_m25502715(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		// go.AddComponent<DontDestroyOnLoad> ();  //this is so these GOs persist across scene loads
+		GameObject_t1756533147 * L_2 = V_0;
+		// go.AddComponent<DontDestroyOnLoad> ();  //this is so these GOs persist across scene loads
+		NullCheck(L_2);
+		GameObject_AddComponent_TisDontDestroyOnLoad_t3235789354_m3837587514(L_2, /*hidden argument*/GameObject_AddComponent_TisDontDestroyOnLoad_t3235789354_m3837587514_MethodInfo_var);
+		// ARPlaneAnchorGameObject arpag = new ARPlaneAnchorGameObject ();
+		ARPlaneAnchorGameObject_t2305225887 * L_3 = (ARPlaneAnchorGameObject_t2305225887 *)il2cpp_codegen_object_new(ARPlaneAnchorGameObject_t2305225887_il2cpp_TypeInfo_var);
+		ARPlaneAnchorGameObject__ctor_m594750402(L_3, /*hidden argument*/NULL);
+		V_1 = L_3;
+		// arpag.planeAnchor = arPlaneAnchor;
+		ARPlaneAnchorGameObject_t2305225887 * L_4 = V_1;
+		ARPlaneAnchor_t1439520888  L_5 = ___arPlaneAnchor0;
+		NullCheck(L_4);
+		L_4->set_planeAnchor_1(L_5);
+		// arpag.gameObject = go;
+		ARPlaneAnchorGameObject_t2305225887 * L_6 = V_1;
+		GameObject_t1756533147 * L_7 = V_0;
+		NullCheck(L_6);
+		L_6->set_gameObject_0(L_7);
+		// planeAnchorMap.Add (arPlaneAnchor.identifier, arpag);
+		Dictionary_2_t4220005149 * L_8 = __this->get_planeAnchorMap_0();
+		String_t* L_9 = (&___arPlaneAnchor0)->get_identifier_0();
+		ARPlaneAnchorGameObject_t2305225887 * L_10 = V_1;
+		// planeAnchorMap.Add (arPlaneAnchor.identifier, arpag);
+		NullCheck(L_8);
+		Dictionary_2_Add_m1484985233(L_8, L_9, L_10, /*hidden argument*/Dictionary_2_Add_m1484985233_MethodInfo_var);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARAnchorManager::RemoveAnchor(UnityEngine.XR.iOS.ARPlaneAnchor)
+extern "C"  void UnityARAnchorManager_RemoveAnchor_m759446766 (UnityARAnchorManager_t1086564192 * __this, ARPlaneAnchor_t1439520888  ___arPlaneAnchor0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARAnchorManager_RemoveAnchor_m759446766_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARPlaneAnchorGameObject_t2305225887 * V_0 = NULL;
+	{
+		// if (planeAnchorMap.ContainsKey (arPlaneAnchor.identifier)) {
+		Dictionary_2_t4220005149 * L_0 = __this->get_planeAnchorMap_0();
+		String_t* L_1 = (&___arPlaneAnchor0)->get_identifier_0();
+		// if (planeAnchorMap.ContainsKey (arPlaneAnchor.identifier)) {
+		NullCheck(L_0);
+		bool L_2 = Dictionary_2_ContainsKey_m1995208230(L_0, L_1, /*hidden argument*/Dictionary_2_ContainsKey_m1995208230_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		// ARPlaneAnchorGameObject arpag = planeAnchorMap [arPlaneAnchor.identifier];
+		Dictionary_2_t4220005149 * L_3 = __this->get_planeAnchorMap_0();
+		String_t* L_4 = (&___arPlaneAnchor0)->get_identifier_0();
+		// ARPlaneAnchorGameObject arpag = planeAnchorMap [arPlaneAnchor.identifier];
+		NullCheck(L_3);
+		ARPlaneAnchorGameObject_t2305225887 * L_5 = Dictionary_2_get_Item_m2095595863(L_3, L_4, /*hidden argument*/Dictionary_2_get_Item_m2095595863_MethodInfo_var);
+		V_0 = L_5;
+		// GameObject.Destroy (arpag.gameObject);
+		ARPlaneAnchorGameObject_t2305225887 * L_6 = V_0;
+		NullCheck(L_6);
+		GameObject_t1756533147 * L_7 = L_6->get_gameObject_0();
+		// GameObject.Destroy (arpag.gameObject);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		// planeAnchorMap.Remove (arPlaneAnchor.identifier);
+		Dictionary_2_t4220005149 * L_8 = __this->get_planeAnchorMap_0();
+		String_t* L_9 = (&___arPlaneAnchor0)->get_identifier_0();
+		// planeAnchorMap.Remove (arPlaneAnchor.identifier);
+		NullCheck(L_8);
+		Dictionary_2_Remove_m2072237462(L_8, L_9, /*hidden argument*/Dictionary_2_Remove_m2072237462_MethodInfo_var);
+	}
+
+IL_004b:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARAnchorManager::UpdateAnchor(UnityEngine.XR.iOS.ARPlaneAnchor)
+extern "C"  void UnityARAnchorManager_UpdateAnchor_m936463077 (UnityARAnchorManager_t1086564192 * __this, ARPlaneAnchor_t1439520888  ___arPlaneAnchor0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARAnchorManager_UpdateAnchor_m936463077_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARPlaneAnchorGameObject_t2305225887 * V_0 = NULL;
+	{
+		// if (planeAnchorMap.ContainsKey (arPlaneAnchor.identifier)) {
+		Dictionary_2_t4220005149 * L_0 = __this->get_planeAnchorMap_0();
+		String_t* L_1 = (&___arPlaneAnchor0)->get_identifier_0();
+		// if (planeAnchorMap.ContainsKey (arPlaneAnchor.identifier)) {
+		NullCheck(L_0);
+		bool L_2 = Dictionary_2_ContainsKey_m1995208230(L_0, L_1, /*hidden argument*/Dictionary_2_ContainsKey_m1995208230_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		// ARPlaneAnchorGameObject arpag = planeAnchorMap [arPlaneAnchor.identifier];
+		Dictionary_2_t4220005149 * L_3 = __this->get_planeAnchorMap_0();
+		String_t* L_4 = (&___arPlaneAnchor0)->get_identifier_0();
+		// ARPlaneAnchorGameObject arpag = planeAnchorMap [arPlaneAnchor.identifier];
+		NullCheck(L_3);
+		ARPlaneAnchorGameObject_t2305225887 * L_5 = Dictionary_2_get_Item_m2095595863(L_3, L_4, /*hidden argument*/Dictionary_2_get_Item_m2095595863_MethodInfo_var);
+		V_0 = L_5;
+		// UnityARUtility.UpdatePlaneWithAnchorTransform (arpag.gameObject, arPlaneAnchor);
+		ARPlaneAnchorGameObject_t2305225887 * L_6 = V_0;
+		NullCheck(L_6);
+		GameObject_t1756533147 * L_7 = L_6->get_gameObject_0();
+		ARPlaneAnchor_t1439520888  L_8 = ___arPlaneAnchor0;
+		// UnityARUtility.UpdatePlaneWithAnchorTransform (arpag.gameObject, arPlaneAnchor);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARUtility_t3608388148_il2cpp_TypeInfo_var);
+		UnityARUtility_UpdatePlaneWithAnchorTransform_m3977317096(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		// arpag.planeAnchor = arPlaneAnchor;
+		ARPlaneAnchorGameObject_t2305225887 * L_9 = V_0;
+		ARPlaneAnchor_t1439520888  L_10 = ___arPlaneAnchor0;
+		NullCheck(L_9);
+		L_9->set_planeAnchor_1(L_10);
+		// planeAnchorMap [arPlaneAnchor.identifier] = arpag;
+		Dictionary_2_t4220005149 * L_11 = __this->get_planeAnchorMap_0();
+		String_t* L_12 = (&___arPlaneAnchor0)->get_identifier_0();
+		ARPlaneAnchorGameObject_t2305225887 * L_13 = V_0;
+		// planeAnchorMap [arPlaneAnchor.identifier] = arpag;
+		NullCheck(L_11);
+		Dictionary_2_set_Item_m4043917654(L_11, L_12, L_13, /*hidden argument*/Dictionary_2_set_Item_m4043917654_MethodInfo_var);
+	}
+
+IL_0054:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARAnchorManager::Destroy()
+extern "C"  void UnityARAnchorManager_Destroy_m2122554463 (UnityARAnchorManager_t1086564192 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARAnchorManager_Destroy_m2122554463_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARPlaneAnchorGameObject_t2305225887 * V_0 = NULL;
+	Enumerator_t1209076693  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		// foreach (ARPlaneAnchorGameObject arpag in GetCurrentPlaneAnchors()) {
+		// foreach (ARPlaneAnchorGameObject arpag in GetCurrentPlaneAnchors()) {
+		List_1_t1674347019 * L_0 = UnityARAnchorManager_GetCurrentPlaneAnchors_m3679069310(__this, /*hidden argument*/NULL);
+		// foreach (ARPlaneAnchorGameObject arpag in GetCurrentPlaneAnchors()) {
+		NullCheck(L_0);
+		Enumerator_t1209076693  L_1 = List_1_GetEnumerator_m4215433995(L_0, /*hidden argument*/List_1_GetEnumerator_m4215433995_MethodInfo_var);
+		V_1 = L_1;
+	}
+
+IL_000e:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0028;
+		}
+
+IL_0013:
+		{
+			// foreach (ARPlaneAnchorGameObject arpag in GetCurrentPlaneAnchors()) {
+			// foreach (ARPlaneAnchorGameObject arpag in GetCurrentPlaneAnchors()) {
+			ARPlaneAnchorGameObject_t2305225887 * L_2 = Enumerator_get_Current_m1915701911((&V_1), /*hidden argument*/Enumerator_get_Current_m1915701911_MethodInfo_var);
+			V_0 = L_2;
+			// GameObject.Destroy (arpag.gameObject);
+			ARPlaneAnchorGameObject_t2305225887 * L_3 = V_0;
+			NullCheck(L_3);
+			GameObject_t1756533147 * L_4 = L_3->get_gameObject_0();
+			// GameObject.Destroy (arpag.gameObject);
+			IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+			Object_Destroy_m4145850038(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		}
+
+IL_0028:
+		{
+			// foreach (ARPlaneAnchorGameObject arpag in GetCurrentPlaneAnchors()) {
+			bool L_5 = Enumerator_MoveNext_m1993884707((&V_1), /*hidden argument*/Enumerator_MoveNext_m1993884707_MethodInfo_var);
+			if (L_5)
+			{
+				goto IL_0013;
+			}
+		}
+
+IL_0034:
+		{
+			IL2CPP_LEAVE(0x47, FINALLY_0039);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0039;
+	}
+
+FINALLY_0039:
+	{ // begin finally (depth: 1)
+		// foreach (ARPlaneAnchorGameObject arpag in GetCurrentPlaneAnchors()) {
+		Enumerator_Dispose_m113660709((&V_1), /*hidden argument*/Enumerator_Dispose_m113660709_MethodInfo_var);
+		IL2CPP_END_FINALLY(57)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(57)
+	{
+		IL2CPP_JUMP_TBL(0x47, IL_0047)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0047:
+	{
+		// planeAnchorMap.Clear ();
+		Dictionary_2_t4220005149 * L_6 = __this->get_planeAnchorMap_0();
+		// planeAnchorMap.Clear ();
+		NullCheck(L_6);
+		Dictionary_2_Clear_m1175916790(L_6, /*hidden argument*/Dictionary_2_Clear_m1175916790_MethodInfo_var);
+		// }
+		return;
+	}
+}
+// System.Collections.Generic.List`1<UnityEngine.XR.iOS.ARPlaneAnchorGameObject> UnityEngine.XR.iOS.UnityARAnchorManager::GetCurrentPlaneAnchors()
+extern "C"  List_1_t1674347019 * UnityARAnchorManager_GetCurrentPlaneAnchors_m3679069310 (UnityARAnchorManager_t1086564192 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARAnchorManager_GetCurrentPlaneAnchors_m3679069310_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t1674347019 * V_0 = NULL;
+	{
+		// return planeAnchorMap.Values.ToList ();
+		Dictionary_2_t4220005149 * L_0 = __this->get_planeAnchorMap_0();
+		// return planeAnchorMap.Values.ToList ();
+		NullCheck(L_0);
+		ValueCollection_t2923064992 * L_1 = Dictionary_2_get_Values_m2145867943(L_0, /*hidden argument*/Dictionary_2_get_Values_m2145867943_MethodInfo_var);
+		// return planeAnchorMap.Values.ToList ();
+		List_1_t1674347019 * L_2 = Enumerable_ToList_TisARPlaneAnchorGameObject_t2305225887_m1925590016(NULL /*static, unused*/, L_1, /*hidden argument*/Enumerable_ToList_TisARPlaneAnchorGameObject_t2305225887_m1925590016_MethodInfo_var);
+		V_0 = L_2;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		List_1_t1674347019 * L_3 = V_0;
+		return L_3;
+	}
+}
+// Conversion methods for marshalling of: UnityEngine.XR.iOS.UnityARCamera
+extern "C" void UnityARCamera_t4198559457_marshal_pinvoke(const UnityARCamera_t4198559457& unmarshaled, UnityARCamera_t4198559457_marshaled_pinvoke& marshaled)
+{
+	Il2CppCodeGenException* ___pointCloudData_4Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'pointCloudData' of type 'UnityARCamera'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___pointCloudData_4Exception);
+}
+extern "C" void UnityARCamera_t4198559457_marshal_pinvoke_back(const UnityARCamera_t4198559457_marshaled_pinvoke& marshaled, UnityARCamera_t4198559457& unmarshaled)
+{
+	Il2CppCodeGenException* ___pointCloudData_4Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'pointCloudData' of type 'UnityARCamera'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___pointCloudData_4Exception);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.XR.iOS.UnityARCamera
+extern "C" void UnityARCamera_t4198559457_marshal_pinvoke_cleanup(UnityARCamera_t4198559457_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: UnityEngine.XR.iOS.UnityARCamera
+extern "C" void UnityARCamera_t4198559457_marshal_com(const UnityARCamera_t4198559457& unmarshaled, UnityARCamera_t4198559457_marshaled_com& marshaled)
+{
+	Il2CppCodeGenException* ___pointCloudData_4Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'pointCloudData' of type 'UnityARCamera'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___pointCloudData_4Exception);
+}
+extern "C" void UnityARCamera_t4198559457_marshal_com_back(const UnityARCamera_t4198559457_marshaled_com& marshaled, UnityARCamera_t4198559457& unmarshaled)
+{
+	Il2CppCodeGenException* ___pointCloudData_4Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'pointCloudData' of type 'UnityARCamera'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___pointCloudData_4Exception);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.XR.iOS.UnityARCamera
+extern "C" void UnityARCamera_t4198559457_marshal_com_cleanup(UnityARCamera_t4198559457_marshaled_com& marshaled)
+{
+}
+// System.Void UnityEngine.XR.iOS.UnityARGeneratePlane::.ctor()
+extern "C"  void UnityARGeneratePlane__ctor_m1756017100 (UnityARGeneratePlane_t3368998101 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARGeneratePlane::Start()
+extern "C"  void UnityARGeneratePlane_Start_m972338584 (UnityARGeneratePlane_t3368998101 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARGeneratePlane_Start_m972338584_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// unityARAnchorManager = new UnityARAnchorManager();
+		// unityARAnchorManager = new UnityARAnchorManager();
+		UnityARAnchorManager_t1086564192 * L_0 = (UnityARAnchorManager_t1086564192 *)il2cpp_codegen_object_new(UnityARAnchorManager_t1086564192_il2cpp_TypeInfo_var);
+		UnityARAnchorManager__ctor_m862081813(L_0, /*hidden argument*/NULL);
+		__this->set_unityARAnchorManager_3(L_0);
+		// UnityARUtility.InitializePlanePrefab (planePrefab);
+		GameObject_t1756533147 * L_1 = __this->get_planePrefab_2();
+		// UnityARUtility.InitializePlanePrefab (planePrefab);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARUtility_t3608388148_il2cpp_TypeInfo_var);
+		UnityARUtility_InitializePlanePrefab_m991798235(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARGeneratePlane::OnDestroy()
+extern "C"  void UnityARGeneratePlane_OnDestroy_m2889033405 (UnityARGeneratePlane_t3368998101 * __this, const MethodInfo* method)
+{
+	{
+		// unityARAnchorManager.Destroy ();
+		UnityARAnchorManager_t1086564192 * L_0 = __this->get_unityARAnchorManager_3();
+		// unityARAnchorManager.Destroy ();
+		NullCheck(L_0);
+		UnityARAnchorManager_Destroy_m2122554463(L_0, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARGeneratePlane::OnGUI()
+extern "C"  void UnityARGeneratePlane_OnGUI_m157102952 (UnityARGeneratePlane_t3368998101 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARGeneratePlane_OnGUI_m157102952_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t1674347019 * V_0 = NULL;
+	{
+		// List<ARPlaneAnchorGameObject> arpags = unityARAnchorManager.GetCurrentPlaneAnchors ();
+		UnityARAnchorManager_t1086564192 * L_0 = __this->get_unityARAnchorManager_3();
+		// List<ARPlaneAnchorGameObject> arpags = unityARAnchorManager.GetCurrentPlaneAnchors ();
+		NullCheck(L_0);
+		List_1_t1674347019 * L_1 = UnityARAnchorManager_GetCurrentPlaneAnchors_m3679069310(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		// if (arpags.Count >= 1) {
+		List_1_t1674347019 * L_2 = V_0;
+		// if (arpags.Count >= 1) {
+		NullCheck(L_2);
+		int32_t L_3 = List_1_get_Count_m2133649638(L_2, /*hidden argument*/List_1_get_Count_m2133649638_MethodInfo_var);
+		if ((((int32_t)L_3) < ((int32_t)1)))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+	}
+
+IL_001b:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARHitTestExample::.ctor()
+extern "C"  void UnityARHitTestExample__ctor_m2175001374 (UnityARHitTestExample_t146867607 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean UnityEngine.XR.iOS.UnityARHitTestExample::HitTestWithResultType(UnityEngine.XR.iOS.ARPoint,UnityEngine.XR.iOS.ARHitTestResultType)
+extern "C"  bool UnityARHitTestExample_HitTestWithResultType_m2625409750 (UnityARHitTestExample_t146867607 * __this, ARPoint_t3436811567  ___point0, int64_t ___resultTypes1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARHitTestExample_HitTestWithResultType_m2625409750_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t2644634157 * V_0 = NULL;
+	ARHitTestResult_t3275513025  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Enumerator_t2179363831  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Vector3_t2243707580  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Vector3_t2243707580  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	Vector3_t2243707580  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	bool V_6 = false;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		// List<ARHitTestResult> hitResults = UnityARSessionNativeInterface.GetARSessionNativeInterface ().HitTest (point, resultTypes);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARSessionNativeInterface_t1130867170 * L_0 = UnityARSessionNativeInterface_GetARSessionNativeInterface_m2987304195(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ARPoint_t3436811567  L_1 = ___point0;
+		int64_t L_2 = ___resultTypes1;
+		// List<ARHitTestResult> hitResults = UnityARSessionNativeInterface.GetARSessionNativeInterface ().HitTest (point, resultTypes);
+		NullCheck(L_0);
+		List_1_t2644634157 * L_3 = UnityARSessionNativeInterface_HitTest_m3162073804(L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		// if (hitResults.Count > 0) {
+		List_1_t2644634157 * L_4 = V_0;
+		// if (hitResults.Count > 0) {
+		NullCheck(L_4);
+		int32_t L_5 = List_1_get_Count_m323201712(L_4, /*hidden argument*/List_1_get_Count_m323201712_MethodInfo_var);
+		if ((((int32_t)L_5) <= ((int32_t)0)))
+		{
+			goto IL_00ea;
+		}
+	}
+	{
+		// foreach (var hitResult in hitResults) {
+		List_1_t2644634157 * L_6 = V_0;
+		// foreach (var hitResult in hitResults) {
+		NullCheck(L_6);
+		Enumerator_t2179363831  L_7 = List_1_GetEnumerator_m603904701(L_6, /*hidden argument*/List_1_GetEnumerator_m603904701_MethodInfo_var);
+		V_2 = L_7;
+	}
+
+IL_0023:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_00ca;
+		}
+
+IL_0028:
+		{
+			// foreach (var hitResult in hitResults) {
+			// foreach (var hitResult in hitResults) {
+			ARHitTestResult_t3275513025  L_8 = Enumerator_get_Current_m3080821509((&V_2), /*hidden argument*/Enumerator_get_Current_m3080821509_MethodInfo_var);
+			V_1 = L_8;
+			// Debug.Log ("Got hit!");
+			// Debug.Log ("Got hit!");
+			IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+			Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral1415053652, /*hidden argument*/NULL);
+			// m_HitTransform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
+			Transform_t3275118058 * L_9 = __this->get_m_HitTransform_2();
+			Matrix4x4_t2933234003  L_10 = (&V_1)->get_worldTransform_3();
+			// m_HitTransform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
+			Vector3_t2243707580  L_11 = UnityARMatrixOps_GetPosition_m110321593(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+			// m_HitTransform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
+			NullCheck(L_9);
+			Transform_set_position_m2469242620(L_9, L_11, /*hidden argument*/NULL);
+			// m_HitTransform.rotation = UnityARMatrixOps.GetRotation (hitResult.worldTransform);
+			Transform_t3275118058 * L_12 = __this->get_m_HitTransform_2();
+			Matrix4x4_t2933234003  L_13 = (&V_1)->get_worldTransform_3();
+			// m_HitTransform.rotation = UnityARMatrixOps.GetRotation (hitResult.worldTransform);
+			Quaternion_t4030073918  L_14 = UnityARMatrixOps_GetRotation_m3161473972(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+			// m_HitTransform.rotation = UnityARMatrixOps.GetRotation (hitResult.worldTransform);
+			NullCheck(L_12);
+			Transform_set_rotation_m3411284563(L_12, L_14, /*hidden argument*/NULL);
+			// Debug.Log (string.Format ("x:{0:0.######} y:{1:0.######} z:{2:0.######}", m_HitTransform.position.x, m_HitTransform.position.y, m_HitTransform.position.z));
+			Transform_t3275118058 * L_15 = __this->get_m_HitTransform_2();
+			// Debug.Log (string.Format ("x:{0:0.######} y:{1:0.######} z:{2:0.######}", m_HitTransform.position.x, m_HitTransform.position.y, m_HitTransform.position.z));
+			NullCheck(L_15);
+			Vector3_t2243707580  L_16 = Transform_get_position_m1104419803(L_15, /*hidden argument*/NULL);
+			V_3 = L_16;
+			float L_17 = (&V_3)->get_x_1();
+			float L_18 = L_17;
+			Il2CppObject * L_19 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_18);
+			Transform_t3275118058 * L_20 = __this->get_m_HitTransform_2();
+			// Debug.Log (string.Format ("x:{0:0.######} y:{1:0.######} z:{2:0.######}", m_HitTransform.position.x, m_HitTransform.position.y, m_HitTransform.position.z));
+			NullCheck(L_20);
+			Vector3_t2243707580  L_21 = Transform_get_position_m1104419803(L_20, /*hidden argument*/NULL);
+			V_4 = L_21;
+			float L_22 = (&V_4)->get_y_2();
+			float L_23 = L_22;
+			Il2CppObject * L_24 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_23);
+			Transform_t3275118058 * L_25 = __this->get_m_HitTransform_2();
+			// Debug.Log (string.Format ("x:{0:0.######} y:{1:0.######} z:{2:0.######}", m_HitTransform.position.x, m_HitTransform.position.y, m_HitTransform.position.z));
+			NullCheck(L_25);
+			Vector3_t2243707580  L_26 = Transform_get_position_m1104419803(L_25, /*hidden argument*/NULL);
+			V_5 = L_26;
+			float L_27 = (&V_5)->get_z_3();
+			float L_28 = L_27;
+			Il2CppObject * L_29 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_28);
+			// Debug.Log (string.Format ("x:{0:0.######} y:{1:0.######} z:{2:0.######}", m_HitTransform.position.x, m_HitTransform.position.y, m_HitTransform.position.z));
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_30 = String_Format_m4262916296(NULL /*static, unused*/, _stringLiteral1537444060, L_19, L_24, L_29, /*hidden argument*/NULL);
+			// Debug.Log (string.Format ("x:{0:0.######} y:{1:0.######} z:{2:0.######}", m_HitTransform.position.x, m_HitTransform.position.y, m_HitTransform.position.z));
+			Debug_Log_m920475918(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
+			// return true;
+			V_6 = (bool)1;
+			IL2CPP_LEAVE(0xF2, FINALLY_00db);
+		}
+
+IL_00ca:
+		{
+			// foreach (var hitResult in hitResults) {
+			bool L_31 = Enumerator_MoveNext_m3860421825((&V_2), /*hidden argument*/Enumerator_MoveNext_m3860421825_MethodInfo_var);
+			if (L_31)
+			{
+				goto IL_0028;
+			}
+		}
+
+IL_00d6:
+		{
+			IL2CPP_LEAVE(0xE9, FINALLY_00db);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_00db;
+	}
+
+FINALLY_00db:
+	{ // begin finally (depth: 1)
+		// foreach (var hitResult in hitResults) {
+		Enumerator_Dispose_m3109677227((&V_2), /*hidden argument*/Enumerator_Dispose_m3109677227_MethodInfo_var);
+		IL2CPP_END_FINALLY(219)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(219)
+	{
+		IL2CPP_JUMP_TBL(0xF2, IL_00f2)
+		IL2CPP_JUMP_TBL(0xE9, IL_00e9)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00e9:
+	{
+	}
+
+IL_00ea:
+	{
+		// return false;
+		V_6 = (bool)0;
+		goto IL_00f2;
+	}
+
+IL_00f2:
+	{
+		// }
+		bool L_32 = V_6;
+		return L_32;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARHitTestExample::Update()
+extern "C"  void UnityARHitTestExample_Update_m2793875989 (UnityARHitTestExample_t146867607 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARHitTestExample_Update_m2793875989_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Touch_t407273883  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	ARPoint_t3436811567  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	ARPoint_t3436811567  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	ARHitTestResultTypeU5BU5D_t1303085420* V_4 = NULL;
+	int64_t V_5 = 0;
+	ARHitTestResultTypeU5BU5D_t1303085420* V_6 = NULL;
+	int32_t V_7 = 0;
+	{
+		// if (Input.touchCount > 0 && m_HitTransform != null)
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		int32_t L_0 = Input_get_touchCount_m2050827666(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((((int32_t)L_0) <= ((int32_t)0)))
+		{
+			goto IL_00c1;
+		}
+	}
+	{
+		Transform_t3275118058 * L_1 = __this->get_m_HitTransform_2();
+		// if (Input.touchCount > 0 && m_HitTransform != null)
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_00c1;
+		}
+	}
+	{
+		// var touch = Input.GetTouch(0);
+		// var touch = Input.GetTouch(0);
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		Touch_t407273883  L_3 = Input_GetTouch_m1463942798(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		V_0 = L_3;
+		// if (touch.phase == TouchPhase.Began)
+		// if (touch.phase == TouchPhase.Began)
+		int32_t L_4 = Touch_get_phase_m196706494((&V_0), /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_00c0;
+		}
+	}
+	{
+		// var screenPosition = Camera.main.ScreenToViewportPoint(touch.position);
+		Camera_t189460977 * L_5 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		// var screenPosition = Camera.main.ScreenToViewportPoint(touch.position);
+		Vector2_t2243707579  L_6 = Touch_get_position_m2079703643((&V_0), /*hidden argument*/NULL);
+		// var screenPosition = Camera.main.ScreenToViewportPoint(touch.position);
+		Vector3_t2243707580  L_7 = Vector2_op_Implicit_m176791411(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		// var screenPosition = Camera.main.ScreenToViewportPoint(touch.position);
+		NullCheck(L_5);
+		Vector3_t2243707580  L_8 = Camera_ScreenToViewportPoint_m2666228286(L_5, L_7, /*hidden argument*/NULL);
+		V_1 = L_8;
+		// ARPoint point = new ARPoint {
+		Initobj (ARPoint_t3436811567_il2cpp_TypeInfo_var, (&V_3));
+		// x = screenPosition.x,
+		float L_9 = (&V_1)->get_x_1();
+		(&V_3)->set_x_0((((double)((double)L_9))));
+		// y = screenPosition.y
+		float L_10 = (&V_1)->get_y_2();
+		(&V_3)->set_y_1((((double)((double)L_10))));
+		ARPoint_t3436811567  L_11 = V_3;
+		V_2 = L_11;
+		// ARHitTestResultType[] resultTypes = {
+		ARHitTestResultTypeU5BU5D_t1303085420* L_12 = ((ARHitTestResultTypeU5BU5D_t1303085420*)SZArrayNew(ARHitTestResultTypeU5BU5D_t1303085420_il2cpp_TypeInfo_var, (uint32_t)3));
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_12, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305143____U24fieldU2D8E7629AD5AF686202B8CB7C014505C432FFE31E6_0_FieldInfo_var), /*hidden argument*/NULL);
+		V_4 = L_12;
+		// foreach (ARHitTestResultType resultType in resultTypes)
+		ARHitTestResultTypeU5BU5D_t1303085420* L_13 = V_4;
+		V_6 = L_13;
+		V_7 = 0;
+		goto IL_00b4;
+	}
+
+IL_0091:
+	{
+		// foreach (ARHitTestResultType resultType in resultTypes)
+		ARHitTestResultTypeU5BU5D_t1303085420* L_14 = V_6;
+		int32_t L_15 = V_7;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		int64_t L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_5 = L_17;
+		// if (HitTestWithResultType (point, resultType))
+		ARPoint_t3436811567  L_18 = V_2;
+		int64_t L_19 = V_5;
+		// if (HitTestWithResultType (point, resultType))
+		bool L_20 = UnityARHitTestExample_HitTestWithResultType_m2625409750(__this, L_18, L_19, /*hidden argument*/NULL);
+		if (!L_20)
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		// return;
+		goto IL_00c1;
+	}
+
+IL_00ad:
+	{
+		// foreach (ARHitTestResultType resultType in resultTypes)
+		int32_t L_21 = V_7;
+		V_7 = ((int32_t)((int32_t)L_21+(int32_t)1));
+	}
+
+IL_00b4:
+	{
+		int32_t L_22 = V_7;
+		ARHitTestResultTypeU5BU5D_t1303085420* L_23 = V_6;
+		NullCheck(L_23);
+		if ((((int32_t)L_22) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_23)->max_length)))))))
+		{
+			goto IL_0091;
+		}
+	}
+	{
+	}
+
+IL_00c0:
+	{
+	}
+
+IL_00c1:
+	{
+		// }
+		return;
+	}
+}
+// Conversion methods for marshalling of: UnityEngine.XR.iOS.UnityARHitTestResult
+extern "C" void UnityARHitTestResult_t4129824344_marshal_pinvoke(const UnityARHitTestResult_t4129824344& unmarshaled, UnityARHitTestResult_t4129824344_marshaled_pinvoke& marshaled)
+{
+	marshaled.___type_0 = unmarshaled.get_type_0();
+	marshaled.___distance_1 = unmarshaled.get_distance_1();
+	marshaled.___localTransform_2 = unmarshaled.get_localTransform_2();
+	marshaled.___worldTransform_3 = unmarshaled.get_worldTransform_3();
+	marshaled.___anchor_4 = reinterpret_cast<intptr_t>((unmarshaled.get_anchor_4()).get_m_value_0());
+	marshaled.___isValid_5 = static_cast<int32_t>(unmarshaled.get_isValid_5());
+}
+extern "C" void UnityARHitTestResult_t4129824344_marshal_pinvoke_back(const UnityARHitTestResult_t4129824344_marshaled_pinvoke& marshaled, UnityARHitTestResult_t4129824344& unmarshaled)
+{
+	int64_t unmarshaled_type_temp_0 = 0;
+	unmarshaled_type_temp_0 = marshaled.___type_0;
+	unmarshaled.set_type_0(unmarshaled_type_temp_0);
+	double unmarshaled_distance_temp_1 = 0.0;
+	unmarshaled_distance_temp_1 = marshaled.___distance_1;
+	unmarshaled.set_distance_1(unmarshaled_distance_temp_1);
+	Matrix4x4_t2933234003  unmarshaled_localTransform_temp_2;
+	memset(&unmarshaled_localTransform_temp_2, 0, sizeof(unmarshaled_localTransform_temp_2));
+	unmarshaled_localTransform_temp_2 = marshaled.___localTransform_2;
+	unmarshaled.set_localTransform_2(unmarshaled_localTransform_temp_2);
+	Matrix4x4_t2933234003  unmarshaled_worldTransform_temp_3;
+	memset(&unmarshaled_worldTransform_temp_3, 0, sizeof(unmarshaled_worldTransform_temp_3));
+	unmarshaled_worldTransform_temp_3 = marshaled.___worldTransform_3;
+	unmarshaled.set_worldTransform_3(unmarshaled_worldTransform_temp_3);
+	IntPtr_t unmarshaled_anchor_temp_4;
+	memset(&unmarshaled_anchor_temp_4, 0, sizeof(unmarshaled_anchor_temp_4));
+	IntPtr_t unmarshaled_anchor_temp_4_temp;
+	unmarshaled_anchor_temp_4_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___anchor_4)));
+	unmarshaled_anchor_temp_4 = unmarshaled_anchor_temp_4_temp;
+	unmarshaled.set_anchor_4(unmarshaled_anchor_temp_4);
+	bool unmarshaled_isValid_temp_5 = false;
+	unmarshaled_isValid_temp_5 = static_cast<bool>(marshaled.___isValid_5);
+	unmarshaled.set_isValid_5(unmarshaled_isValid_temp_5);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.XR.iOS.UnityARHitTestResult
+extern "C" void UnityARHitTestResult_t4129824344_marshal_pinvoke_cleanup(UnityARHitTestResult_t4129824344_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: UnityEngine.XR.iOS.UnityARHitTestResult
+extern "C" void UnityARHitTestResult_t4129824344_marshal_com(const UnityARHitTestResult_t4129824344& unmarshaled, UnityARHitTestResult_t4129824344_marshaled_com& marshaled)
+{
+	marshaled.___type_0 = unmarshaled.get_type_0();
+	marshaled.___distance_1 = unmarshaled.get_distance_1();
+	marshaled.___localTransform_2 = unmarshaled.get_localTransform_2();
+	marshaled.___worldTransform_3 = unmarshaled.get_worldTransform_3();
+	marshaled.___anchor_4 = reinterpret_cast<intptr_t>((unmarshaled.get_anchor_4()).get_m_value_0());
+	marshaled.___isValid_5 = static_cast<int32_t>(unmarshaled.get_isValid_5());
+}
+extern "C" void UnityARHitTestResult_t4129824344_marshal_com_back(const UnityARHitTestResult_t4129824344_marshaled_com& marshaled, UnityARHitTestResult_t4129824344& unmarshaled)
+{
+	int64_t unmarshaled_type_temp_0 = 0;
+	unmarshaled_type_temp_0 = marshaled.___type_0;
+	unmarshaled.set_type_0(unmarshaled_type_temp_0);
+	double unmarshaled_distance_temp_1 = 0.0;
+	unmarshaled_distance_temp_1 = marshaled.___distance_1;
+	unmarshaled.set_distance_1(unmarshaled_distance_temp_1);
+	Matrix4x4_t2933234003  unmarshaled_localTransform_temp_2;
+	memset(&unmarshaled_localTransform_temp_2, 0, sizeof(unmarshaled_localTransform_temp_2));
+	unmarshaled_localTransform_temp_2 = marshaled.___localTransform_2;
+	unmarshaled.set_localTransform_2(unmarshaled_localTransform_temp_2);
+	Matrix4x4_t2933234003  unmarshaled_worldTransform_temp_3;
+	memset(&unmarshaled_worldTransform_temp_3, 0, sizeof(unmarshaled_worldTransform_temp_3));
+	unmarshaled_worldTransform_temp_3 = marshaled.___worldTransform_3;
+	unmarshaled.set_worldTransform_3(unmarshaled_worldTransform_temp_3);
+	IntPtr_t unmarshaled_anchor_temp_4;
+	memset(&unmarshaled_anchor_temp_4, 0, sizeof(unmarshaled_anchor_temp_4));
+	IntPtr_t unmarshaled_anchor_temp_4_temp;
+	unmarshaled_anchor_temp_4_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___anchor_4)));
+	unmarshaled_anchor_temp_4 = unmarshaled_anchor_temp_4_temp;
+	unmarshaled.set_anchor_4(unmarshaled_anchor_temp_4);
+	bool unmarshaled_isValid_temp_5 = false;
+	unmarshaled_isValid_temp_5 = static_cast<bool>(marshaled.___isValid_5);
+	unmarshaled.set_isValid_5(unmarshaled_isValid_temp_5);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.XR.iOS.UnityARHitTestResult
+extern "C" void UnityARHitTestResult_t4129824344_marshal_com_cleanup(UnityARHitTestResult_t4129824344_marshaled_com& marshaled)
+{
+}
+// System.Void UnityEngine.XR.iOS.UnityARKitControl::.ctor()
+extern "C"  void UnityARKitControl__ctor_m644486778 (UnityARKitControl_t1698990409 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARKitControl__ctor_m644486778_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// UnityARSessionRunOption [] runOptions = new UnityARSessionRunOption[4];
+		__this->set_runOptions_2(((UnityARSessionRunOptionU5BU5D_t3114965901*)SZArrayNew(UnityARSessionRunOptionU5BU5D_t3114965901_il2cpp_TypeInfo_var, (uint32_t)4)));
+		// UnityARAlignment [] alignmentOptions = new UnityARAlignment[3];
+		__this->set_alignmentOptions_3(((UnityARAlignmentU5BU5D_t218994990*)SZArrayNew(UnityARAlignmentU5BU5D_t218994990_il2cpp_TypeInfo_var, (uint32_t)3)));
+		// UnityARPlaneDetection [] planeOptions = new UnityARPlaneDetection[4];
+		__this->set_planeOptions_4(((UnityARPlaneDetectionU5BU5D_t191549612*)SZArrayNew(UnityARPlaneDetectionU5BU5D_t191549612_il2cpp_TypeInfo_var, (uint32_t)4)));
+		// int currentOptionIndex = 0;
+		__this->set_currentOptionIndex_5(0);
+		// int currentAlignmentIndex = 0;
+		__this->set_currentAlignmentIndex_6(0);
+		// int currentPlaneIndex = 0;
+		__this->set_currentPlaneIndex_7(0);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARKitControl::Start()
+extern "C"  void UnityARKitControl_Start_m2451560774 (UnityARKitControl_t1698990409 * __this, const MethodInfo* method)
+{
+	{
+		// runOptions [0] = UnityARSessionRunOption.ARSessionRunOptionRemoveExistingAnchors | UnityARSessionRunOption.ARSessionRunOptionResetTracking;
+		UnityARSessionRunOptionU5BU5D_t3114965901* L_0 = __this->get_runOptions_2();
+		NullCheck(L_0);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)3);
+		// runOptions [1] = UnityARSessionRunOption.ARSessionRunOptionResetTracking;
+		UnityARSessionRunOptionU5BU5D_t3114965901* L_1 = __this->get_runOptions_2();
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)1);
+		// runOptions [2] = UnityARSessionRunOption.ARSessionRunOptionRemoveExistingAnchors;
+		UnityARSessionRunOptionU5BU5D_t3114965901* L_2 = __this->get_runOptions_2();
+		NullCheck(L_2);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)2);
+		// runOptions [3] = 0;
+		UnityARSessionRunOptionU5BU5D_t3114965901* L_3 = __this->get_runOptions_2();
+		NullCheck(L_3);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(3), (int32_t)0);
+		// alignmentOptions [0] = UnityARAlignment.UnityARAlignmentCamera;
+		UnityARAlignmentU5BU5D_t218994990* L_4 = __this->get_alignmentOptions_3();
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)2);
+		// alignmentOptions [1] = UnityARAlignment.UnityARAlignmentGravity;
+		UnityARAlignmentU5BU5D_t218994990* L_5 = __this->get_alignmentOptions_3();
+		NullCheck(L_5);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)0);
+		// alignmentOptions [2] = UnityARAlignment.UnityARAlignmentGravityAndHeading;
+		UnityARAlignmentU5BU5D_t218994990* L_6 = __this->get_alignmentOptions_3();
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)1);
+		// planeOptions [0] = UnityARPlaneDetection.Horizontal;
+		UnityARPlaneDetectionU5BU5D_t191549612* L_7 = __this->get_planeOptions_4();
+		NullCheck(L_7);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)1);
+		// planeOptions [1] = UnityARPlaneDetection.None;
+		UnityARPlaneDetectionU5BU5D_t191549612* L_8 = __this->get_planeOptions_4();
+		NullCheck(L_8);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)0);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARKitControl::Update()
+extern "C"  void UnityARKitControl_Update_m1912632467 (UnityARKitControl_t1698990409 * __this, const MethodInfo* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARKitControl::OnGUI()
+extern "C"  void UnityARKitControl_OnGUI_m3111769830 (UnityARKitControl_t1698990409 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARKitControl_OnGUI_m3111769830_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARKitWorldTackingSessionConfiguration_t1821734930  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	ARKitSessionConfiguration_t318899795  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	String_t* V_2 = NULL;
+	String_t* V_3 = NULL;
+	String_t* V_4 = NULL;
+	String_t* G_B13_0 = NULL;
+	String_t* G_B20_0 = NULL;
+	String_t* G_B29_0 = NULL;
+	{
+		// if (GUI.Button (new Rect (100, 100, 200, 50), "Stop")) {
+		// if (GUI.Button (new Rect (100, 100, 200, 50), "Stop")) {
+		Rect_t3681755626  L_0;
+		memset(&L_0, 0, sizeof(L_0));
+		Rect__ctor_m1220545469(&L_0, (100.0f), (100.0f), (200.0f), (50.0f), /*hidden argument*/NULL);
+		// if (GUI.Button (new Rect (100, 100, 200, 50), "Stop")) {
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_1 = GUI_Button_m3054448581(NULL /*static, unused*/, L_0, _stringLiteral3833953726, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		// UnityARSessionNativeInterface.GetARSessionNativeInterface ().Pause ();
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARSessionNativeInterface_t1130867170 * L_2 = UnityARSessionNativeInterface_GetARSessionNativeInterface_m2987304195(NULL /*static, unused*/, /*hidden argument*/NULL);
+		// UnityARSessionNativeInterface.GetARSessionNativeInterface ().Pause ();
+		NullCheck(L_2);
+		UnityARSessionNativeInterface_Pause_m57777087(L_2, /*hidden argument*/NULL);
+	}
+
+IL_0035:
+	{
+		// if (GUI.Button (new Rect (300, 100, 200, 50), "Start")) {
+		// if (GUI.Button (new Rect (300, 100, 200, 50), "Start")) {
+		Rect_t3681755626  L_3;
+		memset(&L_3, 0, sizeof(L_3));
+		Rect__ctor_m1220545469(&L_3, (300.0f), (100.0f), (200.0f), (50.0f), /*hidden argument*/NULL);
+		// if (GUI.Button (new Rect (300, 100, 200, 50), "Start")) {
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_4 = GUI_Button_m3054448581(NULL /*static, unused*/, L_3, _stringLiteral2858758002, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		// ARKitWorldTackingSessionConfiguration sessionConfig = new ARKitWorldTackingSessionConfiguration (alignmentOptions [currentAlignmentIndex], planeOptions[currentPlaneIndex]);
+		UnityARAlignmentU5BU5D_t218994990* L_5 = __this->get_alignmentOptions_3();
+		int32_t L_6 = __this->get_currentAlignmentIndex_6();
+		NullCheck(L_5);
+		int32_t L_7 = L_6;
+		int32_t L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		UnityARPlaneDetectionU5BU5D_t191549612* L_9 = __this->get_planeOptions_4();
+		int32_t L_10 = __this->get_currentPlaneIndex_7();
+		NullCheck(L_9);
+		int32_t L_11 = L_10;
+		int32_t L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		// ARKitWorldTackingSessionConfiguration sessionConfig = new ARKitWorldTackingSessionConfiguration (alignmentOptions [currentAlignmentIndex], planeOptions[currentPlaneIndex]);
+		ARKitWorldTackingSessionConfiguration__ctor_m929109213((&V_0), L_8, L_12, (bool)0, (bool)0, /*hidden argument*/NULL);
+		// UnityARSessionNativeInterface.GetARSessionNativeInterface ().RunWithConfigAndOptions (sessionConfig, runOptions[currentOptionIndex]);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARSessionNativeInterface_t1130867170 * L_13 = UnityARSessionNativeInterface_GetARSessionNativeInterface_m2987304195(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ARKitWorldTackingSessionConfiguration_t1821734930  L_14 = V_0;
+		UnityARSessionRunOptionU5BU5D_t3114965901* L_15 = __this->get_runOptions_2();
+		int32_t L_16 = __this->get_currentOptionIndex_5();
+		NullCheck(L_15);
+		int32_t L_17 = L_16;
+		int32_t L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		// UnityARSessionNativeInterface.GetARSessionNativeInterface ().RunWithConfigAndOptions (sessionConfig, runOptions[currentOptionIndex]);
+		NullCheck(L_13);
+		UnityARSessionNativeInterface_RunWithConfigAndOptions_m355682631(L_13, L_14, L_18, /*hidden argument*/NULL);
+	}
+
+IL_009a:
+	{
+		// if (GUI.Button (new Rect (100, 300, 200, 100), "Start Non-WT Session")) {
+		// if (GUI.Button (new Rect (100, 300, 200, 100), "Start Non-WT Session")) {
+		Rect_t3681755626  L_19;
+		memset(&L_19, 0, sizeof(L_19));
+		Rect__ctor_m1220545469(&L_19, (100.0f), (300.0f), (200.0f), (100.0f), /*hidden argument*/NULL);
+		// if (GUI.Button (new Rect (100, 300, 200, 100), "Start Non-WT Session")) {
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_20 = GUI_Button_m3054448581(NULL /*static, unused*/, L_19, _stringLiteral2341529191, /*hidden argument*/NULL);
+		if (!L_20)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		// ARKitSessionConfiguration sessionConfig = new ARKitSessionConfiguration (alignmentOptions [currentAlignmentIndex], true, true);
+		UnityARAlignmentU5BU5D_t218994990* L_21 = __this->get_alignmentOptions_3();
+		int32_t L_22 = __this->get_currentAlignmentIndex_6();
+		NullCheck(L_21);
+		int32_t L_23 = L_22;
+		int32_t L_24 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
+		// ARKitSessionConfiguration sessionConfig = new ARKitSessionConfiguration (alignmentOptions [currentAlignmentIndex], true, true);
+		ARKitSessionConfiguration__ctor_m1819896799((&V_1), L_24, (bool)1, (bool)1, /*hidden argument*/NULL);
+		// UnityARSessionNativeInterface.GetARSessionNativeInterface ().RunWithConfig (sessionConfig);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARSessionNativeInterface_t1130867170 * L_25 = UnityARSessionNativeInterface_GetARSessionNativeInterface_m2987304195(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ARKitSessionConfiguration_t318899795  L_26 = V_1;
+		// UnityARSessionNativeInterface.GetARSessionNativeInterface ().RunWithConfig (sessionConfig);
+		NullCheck(L_25);
+		UnityARSessionNativeInterface_RunWithConfig_m4212975335(L_25, L_26, /*hidden argument*/NULL);
+	}
+
+IL_00e5:
+	{
+		// string runOptionStr = (currentOptionIndex == 0 ? "Full" : (currentOptionIndex == 1 ? "Tracking" : (currentOptionIndex == 2 ? "Anchors" : "None")));
+		int32_t L_27 = __this->get_currentOptionIndex_5();
+		if (L_27)
+		{
+			goto IL_00fa;
+		}
+	}
+	{
+		G_B13_0 = _stringLiteral1743625051;
+		goto IL_012b;
+	}
+
+IL_00fa:
+	{
+		int32_t L_28 = __this->get_currentOptionIndex_5();
+		if ((!(((uint32_t)L_28) == ((uint32_t)1))))
+		{
+			goto IL_0110;
+		}
+	}
+	{
+		G_B13_0 = _stringLiteral1174079095;
+		goto IL_012b;
+	}
+
+IL_0110:
+	{
+		int32_t L_29 = __this->get_currentOptionIndex_5();
+		if ((!(((uint32_t)L_29) == ((uint32_t)2))))
+		{
+			goto IL_0126;
+		}
+	}
+	{
+		G_B13_0 = _stringLiteral2724865136;
+		goto IL_012b;
+	}
+
+IL_0126:
+	{
+		G_B13_0 = _stringLiteral1414246128;
+	}
+
+IL_012b:
+	{
+		V_2 = G_B13_0;
+		// if (GUI.Button (new Rect (100, 200, 150, 50), "RunOption:" + runOptionStr)) {
+		// if (GUI.Button (new Rect (100, 200, 150, 50), "RunOption:" + runOptionStr)) {
+		Rect_t3681755626  L_30;
+		memset(&L_30, 0, sizeof(L_30));
+		Rect__ctor_m1220545469(&L_30, (100.0f), (200.0f), (150.0f), (50.0f), /*hidden argument*/NULL);
+		String_t* L_31 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_32 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1301536196, L_31, /*hidden argument*/NULL);
+		// if (GUI.Button (new Rect (100, 200, 150, 50), "RunOption:" + runOptionStr)) {
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_33 = GUI_Button_m3054448581(NULL /*static, unused*/, L_30, L_32, /*hidden argument*/NULL);
+		if (!L_33)
+		{
+			goto IL_016c;
+		}
+	}
+	{
+		// currentOptionIndex = (currentOptionIndex + 1) % 4;
+		int32_t L_34 = __this->get_currentOptionIndex_5();
+		__this->set_currentOptionIndex_5(((int32_t)((int32_t)((int32_t)((int32_t)L_34+(int32_t)1))%(int32_t)4)));
+	}
+
+IL_016c:
+	{
+		// string alignmentOptionStr = (currentAlignmentIndex == 0 ? "Camera" : (currentAlignmentIndex == 1 ? "Gravity" :  "GravityAndHeading"));
+		int32_t L_35 = __this->get_currentAlignmentIndex_6();
+		if (L_35)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		G_B20_0 = _stringLiteral3675648761;
+		goto IL_019c;
+	}
+
+IL_0181:
+	{
+		int32_t L_36 = __this->get_currentAlignmentIndex_6();
+		if ((!(((uint32_t)L_36) == ((uint32_t)1))))
+		{
+			goto IL_0197;
+		}
+	}
+	{
+		G_B20_0 = _stringLiteral3025722940;
+		goto IL_019c;
+	}
+
+IL_0197:
+	{
+		G_B20_0 = _stringLiteral3575497429;
+	}
+
+IL_019c:
+	{
+		V_3 = G_B20_0;
+		// if (GUI.Button (new Rect (300, 200, 150, 50), "AlignOption:" + alignmentOptionStr)) {
+		// if (GUI.Button (new Rect (300, 200, 150, 50), "AlignOption:" + alignmentOptionStr)) {
+		Rect_t3681755626  L_37;
+		memset(&L_37, 0, sizeof(L_37));
+		Rect__ctor_m1220545469(&L_37, (300.0f), (200.0f), (150.0f), (50.0f), /*hidden argument*/NULL);
+		String_t* L_38 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_39 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral4059134932, L_38, /*hidden argument*/NULL);
+		// if (GUI.Button (new Rect (300, 200, 150, 50), "AlignOption:" + alignmentOptionStr)) {
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_40 = GUI_Button_m3054448581(NULL /*static, unused*/, L_37, L_39, /*hidden argument*/NULL);
+		if (!L_40)
+		{
+			goto IL_01dd;
+		}
+	}
+	{
+		// currentAlignmentIndex = (currentAlignmentIndex + 1) % 3;
+		int32_t L_41 = __this->get_currentAlignmentIndex_6();
+		__this->set_currentAlignmentIndex_6(((int32_t)((int32_t)((int32_t)((int32_t)L_41+(int32_t)1))%(int32_t)3)));
+	}
+
+IL_01dd:
+	{
+		// string planeOptionStr = (currentPlaneIndex == 0 ? "Both" : (currentPlaneIndex == 1 ? "Horizontal" : (currentPlaneIndex == 2 ? "Vertical" : "None")));
+		int32_t L_42 = __this->get_currentPlaneIndex_7();
+		if (L_42)
+		{
+			goto IL_01f2;
+		}
+	}
+	{
+		G_B29_0 = _stringLiteral2529991261;
+		goto IL_0223;
+	}
+
+IL_01f2:
+	{
+		int32_t L_43 = __this->get_currentPlaneIndex_7();
+		if ((!(((uint32_t)L_43) == ((uint32_t)1))))
+		{
+			goto IL_0208;
+		}
+	}
+	{
+		G_B29_0 = _stringLiteral855845486;
+		goto IL_0223;
+	}
+
+IL_0208:
+	{
+		int32_t L_44 = __this->get_currentPlaneIndex_7();
+		if ((!(((uint32_t)L_44) == ((uint32_t)2))))
+		{
+			goto IL_021e;
+		}
+	}
+	{
+		G_B29_0 = _stringLiteral1635882288;
+		goto IL_0223;
+	}
+
+IL_021e:
+	{
+		G_B29_0 = _stringLiteral1414246128;
+	}
+
+IL_0223:
+	{
+		V_4 = G_B29_0;
+		// if (GUI.Button (new Rect (500, 200, 150, 50), "PlaneOption:" + planeOptionStr)) {
+		// if (GUI.Button (new Rect (500, 200, 150, 50), "PlaneOption:" + planeOptionStr)) {
+		Rect_t3681755626  L_45;
+		memset(&L_45, 0, sizeof(L_45));
+		Rect__ctor_m1220545469(&L_45, (500.0f), (200.0f), (150.0f), (50.0f), /*hidden argument*/NULL);
+		String_t* L_46 = V_4;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_47 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral3168505747, L_46, /*hidden argument*/NULL);
+		// if (GUI.Button (new Rect (500, 200, 150, 50), "PlaneOption:" + planeOptionStr)) {
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_48 = GUI_Button_m3054448581(NULL /*static, unused*/, L_45, L_47, /*hidden argument*/NULL);
+		if (!L_48)
+		{
+			goto IL_0266;
+		}
+	}
+	{
+		// currentPlaneIndex = (currentPlaneIndex + 1) % 4;
+		int32_t L_49 = __this->get_currentPlaneIndex_7();
+		__this->set_currentPlaneIndex_7(((int32_t)((int32_t)((int32_t)((int32_t)L_49+(int32_t)1))%(int32_t)4)));
+	}
+
+IL_0266:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARMatrixOps::.ctor()
+extern "C"  void UnityARMatrixOps__ctor_m2114330188 (UnityARMatrixOps_t4039665643 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.Vector3 UnityEngine.XR.iOS.UnityARMatrixOps::GetPosition(UnityEngine.Matrix4x4)
+extern "C"  Vector3_t2243707580  UnityARMatrixOps_GetPosition_m110321593 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003  ___matrix0, const MethodInfo* method)
+{
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		// Vector3 position = matrix.GetColumn(3);
+		// Vector3 position = matrix.GetColumn(3);
+		Vector4_t2243707581  L_0 = Matrix4x4_GetColumn_m1367096730((&___matrix0), 3, /*hidden argument*/NULL);
+		// Vector3 position = matrix.GetColumn(3);
+		Vector3_t2243707580  L_1 = Vector4_op_Implicit_m1902992875(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		// position.z = -position.z;
+		float L_2 = (&V_0)->get_z_3();
+		(&V_0)->set_z_3(((-L_2)));
+		// return position;
+		Vector3_t2243707580  L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0025;
+	}
+
+IL_0025:
+	{
+		// }
+		Vector3_t2243707580  L_4 = V_1;
+		return L_4;
+	}
+}
+// UnityEngine.Quaternion UnityEngine.XR.iOS.UnityARMatrixOps::GetRotation(UnityEngine.Matrix4x4)
+extern "C"  Quaternion_t4030073918  UnityARMatrixOps_GetRotation_m3161473972 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003  ___matrix0, const MethodInfo* method)
+{
+	Quaternion_t4030073918  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Quaternion_t4030073918  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		// Quaternion rotation = QuaternionFromMatrix(matrix);
+		Matrix4x4_t2933234003  L_0 = ___matrix0;
+		// Quaternion rotation = QuaternionFromMatrix(matrix);
+		Quaternion_t4030073918  L_1 = UnityARMatrixOps_QuaternionFromMatrix_m1524774549(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		// rotation.z = -rotation.z;
+		float L_2 = (&V_0)->get_z_2();
+		(&V_0)->set_z_2(((-L_2)));
+		// rotation.w = -rotation.w;
+		float L_3 = (&V_0)->get_w_3();
+		(&V_0)->set_w_3(((-L_3)));
+		// return rotation;
+		Quaternion_t4030073918  L_4 = V_0;
+		V_1 = L_4;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		// }
+		Quaternion_t4030073918  L_5 = V_1;
+		return L_5;
+	}
+}
+// UnityEngine.Quaternion UnityEngine.XR.iOS.UnityARMatrixOps::QuaternionFromMatrix(UnityEngine.Matrix4x4)
+extern "C"  Quaternion_t4030073918  UnityARMatrixOps_QuaternionFromMatrix_m1524774549 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003  ___m0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARMatrixOps_QuaternionFromMatrix_m1524774549_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Quaternion_t4030073918  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Quaternion_t4030073918  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		// Quaternion q = new Quaternion();
+		Initobj (Quaternion_t4030073918_il2cpp_TypeInfo_var, (&V_0));
+		// q.w = Mathf.Sqrt( Mathf.Max( 0, 1 + m[0,0] + m[1,1] + m[2,2] ) ) / 2;
+		// q.w = Mathf.Sqrt( Mathf.Max( 0, 1 + m[0,0] + m[1,1] + m[2,2] ) ) / 2;
+		float L_0 = Matrix4x4_get_Item_m312280350((&___m0), 0, 0, /*hidden argument*/NULL);
+		// q.w = Mathf.Sqrt( Mathf.Max( 0, 1 + m[0,0] + m[1,1] + m[2,2] ) ) / 2;
+		float L_1 = Matrix4x4_get_Item_m312280350((&___m0), 1, 1, /*hidden argument*/NULL);
+		// q.w = Mathf.Sqrt( Mathf.Max( 0, 1 + m[0,0] + m[1,1] + m[2,2] ) ) / 2;
+		float L_2 = Matrix4x4_get_Item_m312280350((&___m0), 2, 2, /*hidden argument*/NULL);
+		// q.w = Mathf.Sqrt( Mathf.Max( 0, 1 + m[0,0] + m[1,1] + m[2,2] ) ) / 2;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_3 = Mathf_Max_m2564622569(NULL /*static, unused*/, (0.0f), ((float)((float)((float)((float)((float)((float)(1.0f)+(float)L_0))+(float)L_1))+(float)L_2)), /*hidden argument*/NULL);
+		// q.w = Mathf.Sqrt( Mathf.Max( 0, 1 + m[0,0] + m[1,1] + m[2,2] ) ) / 2;
+		float L_4 = sqrtf(L_3);
+		(&V_0)->set_w_3(((float)((float)L_4/(float)(2.0f))));
+		// q.x = Mathf.Sqrt( Mathf.Max( 0, 1 + m[0,0] - m[1,1] - m[2,2] ) ) / 2;
+		// q.x = Mathf.Sqrt( Mathf.Max( 0, 1 + m[0,0] - m[1,1] - m[2,2] ) ) / 2;
+		float L_5 = Matrix4x4_get_Item_m312280350((&___m0), 0, 0, /*hidden argument*/NULL);
+		// q.x = Mathf.Sqrt( Mathf.Max( 0, 1 + m[0,0] - m[1,1] - m[2,2] ) ) / 2;
+		float L_6 = Matrix4x4_get_Item_m312280350((&___m0), 1, 1, /*hidden argument*/NULL);
+		// q.x = Mathf.Sqrt( Mathf.Max( 0, 1 + m[0,0] - m[1,1] - m[2,2] ) ) / 2;
+		float L_7 = Matrix4x4_get_Item_m312280350((&___m0), 2, 2, /*hidden argument*/NULL);
+		// q.x = Mathf.Sqrt( Mathf.Max( 0, 1 + m[0,0] - m[1,1] - m[2,2] ) ) / 2;
+		float L_8 = Mathf_Max_m2564622569(NULL /*static, unused*/, (0.0f), ((float)((float)((float)((float)((float)((float)(1.0f)+(float)L_5))-(float)L_6))-(float)L_7)), /*hidden argument*/NULL);
+		// q.x = Mathf.Sqrt( Mathf.Max( 0, 1 + m[0,0] - m[1,1] - m[2,2] ) ) / 2;
+		float L_9 = sqrtf(L_8);
+		(&V_0)->set_x_0(((float)((float)L_9/(float)(2.0f))));
+		// q.y = Mathf.Sqrt( Mathf.Max( 0, 1 - m[0,0] + m[1,1] - m[2,2] ) ) / 2;
+		// q.y = Mathf.Sqrt( Mathf.Max( 0, 1 - m[0,0] + m[1,1] - m[2,2] ) ) / 2;
+		float L_10 = Matrix4x4_get_Item_m312280350((&___m0), 0, 0, /*hidden argument*/NULL);
+		// q.y = Mathf.Sqrt( Mathf.Max( 0, 1 - m[0,0] + m[1,1] - m[2,2] ) ) / 2;
+		float L_11 = Matrix4x4_get_Item_m312280350((&___m0), 1, 1, /*hidden argument*/NULL);
+		// q.y = Mathf.Sqrt( Mathf.Max( 0, 1 - m[0,0] + m[1,1] - m[2,2] ) ) / 2;
+		float L_12 = Matrix4x4_get_Item_m312280350((&___m0), 2, 2, /*hidden argument*/NULL);
+		// q.y = Mathf.Sqrt( Mathf.Max( 0, 1 - m[0,0] + m[1,1] - m[2,2] ) ) / 2;
+		float L_13 = Mathf_Max_m2564622569(NULL /*static, unused*/, (0.0f), ((float)((float)((float)((float)((float)((float)(1.0f)-(float)L_10))+(float)L_11))-(float)L_12)), /*hidden argument*/NULL);
+		// q.y = Mathf.Sqrt( Mathf.Max( 0, 1 - m[0,0] + m[1,1] - m[2,2] ) ) / 2;
+		float L_14 = sqrtf(L_13);
+		(&V_0)->set_y_1(((float)((float)L_14/(float)(2.0f))));
+		// q.z = Mathf.Sqrt( Mathf.Max( 0, 1 - m[0,0] - m[1,1] + m[2,2] ) ) / 2;
+		// q.z = Mathf.Sqrt( Mathf.Max( 0, 1 - m[0,0] - m[1,1] + m[2,2] ) ) / 2;
+		float L_15 = Matrix4x4_get_Item_m312280350((&___m0), 0, 0, /*hidden argument*/NULL);
+		// q.z = Mathf.Sqrt( Mathf.Max( 0, 1 - m[0,0] - m[1,1] + m[2,2] ) ) / 2;
+		float L_16 = Matrix4x4_get_Item_m312280350((&___m0), 1, 1, /*hidden argument*/NULL);
+		// q.z = Mathf.Sqrt( Mathf.Max( 0, 1 - m[0,0] - m[1,1] + m[2,2] ) ) / 2;
+		float L_17 = Matrix4x4_get_Item_m312280350((&___m0), 2, 2, /*hidden argument*/NULL);
+		// q.z = Mathf.Sqrt( Mathf.Max( 0, 1 - m[0,0] - m[1,1] + m[2,2] ) ) / 2;
+		float L_18 = Mathf_Max_m2564622569(NULL /*static, unused*/, (0.0f), ((float)((float)((float)((float)((float)((float)(1.0f)-(float)L_15))-(float)L_16))+(float)L_17)), /*hidden argument*/NULL);
+		// q.z = Mathf.Sqrt( Mathf.Max( 0, 1 - m[0,0] - m[1,1] + m[2,2] ) ) / 2;
+		float L_19 = sqrtf(L_18);
+		(&V_0)->set_z_2(((float)((float)L_19/(float)(2.0f))));
+		// q.x *= Mathf.Sign( q.x * ( m[2,1] - m[1,2] ) );
+		Quaternion_t4030073918 * L_20 = (&V_0);
+		float L_21 = L_20->get_x_0();
+		float L_22 = (&V_0)->get_x_0();
+		// q.x *= Mathf.Sign( q.x * ( m[2,1] - m[1,2] ) );
+		float L_23 = Matrix4x4_get_Item_m312280350((&___m0), 2, 1, /*hidden argument*/NULL);
+		// q.x *= Mathf.Sign( q.x * ( m[2,1] - m[1,2] ) );
+		float L_24 = Matrix4x4_get_Item_m312280350((&___m0), 1, 2, /*hidden argument*/NULL);
+		// q.x *= Mathf.Sign( q.x * ( m[2,1] - m[1,2] ) );
+		float L_25 = Mathf_Sign_m2039143327(NULL /*static, unused*/, ((float)((float)L_22*(float)((float)((float)L_23-(float)L_24)))), /*hidden argument*/NULL);
+		L_20->set_x_0(((float)((float)L_21*(float)L_25)));
+		// q.y *= Mathf.Sign( q.y * ( m[0,2] - m[2,0] ) );
+		Quaternion_t4030073918 * L_26 = (&V_0);
+		float L_27 = L_26->get_y_1();
+		float L_28 = (&V_0)->get_y_1();
+		// q.y *= Mathf.Sign( q.y * ( m[0,2] - m[2,0] ) );
+		float L_29 = Matrix4x4_get_Item_m312280350((&___m0), 0, 2, /*hidden argument*/NULL);
+		// q.y *= Mathf.Sign( q.y * ( m[0,2] - m[2,0] ) );
+		float L_30 = Matrix4x4_get_Item_m312280350((&___m0), 2, 0, /*hidden argument*/NULL);
+		// q.y *= Mathf.Sign( q.y * ( m[0,2] - m[2,0] ) );
+		float L_31 = Mathf_Sign_m2039143327(NULL /*static, unused*/, ((float)((float)L_28*(float)((float)((float)L_29-(float)L_30)))), /*hidden argument*/NULL);
+		L_26->set_y_1(((float)((float)L_27*(float)L_31)));
+		// q.z *= Mathf.Sign( q.z * ( m[1,0] - m[0,1] ) );
+		Quaternion_t4030073918 * L_32 = (&V_0);
+		float L_33 = L_32->get_z_2();
+		float L_34 = (&V_0)->get_z_2();
+		// q.z *= Mathf.Sign( q.z * ( m[1,0] - m[0,1] ) );
+		float L_35 = Matrix4x4_get_Item_m312280350((&___m0), 1, 0, /*hidden argument*/NULL);
+		// q.z *= Mathf.Sign( q.z * ( m[1,0] - m[0,1] ) );
+		float L_36 = Matrix4x4_get_Item_m312280350((&___m0), 0, 1, /*hidden argument*/NULL);
+		// q.z *= Mathf.Sign( q.z * ( m[1,0] - m[0,1] ) );
+		float L_37 = Mathf_Sign_m2039143327(NULL /*static, unused*/, ((float)((float)L_34*(float)((float)((float)L_35-(float)L_36)))), /*hidden argument*/NULL);
+		L_32->set_z_2(((float)((float)L_33*(float)L_37)));
+		// return q;
+		Quaternion_t4030073918  L_38 = V_0;
+		V_1 = L_38;
+		goto IL_0196;
+	}
+
+IL_0196:
+	{
+		// }
+		Quaternion_t4030073918  L_39 = V_1;
+		return L_39;
+	}
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_UnityARSessionNativeInterface__frame_update_m1325618420(internal_UnityARCamera_t2580192745  ___camera0)
+{
+	il2cpp_native_wrapper_vm_thread_attacher _vmThreadHelper;
+
+	// Managed method invocation
+	UnityARSessionNativeInterface__frame_update_m1325618420(NULL, ___camera0, NULL);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_UnityARSessionNativeInterface__anchor_added_m2958024553(UnityARAnchorData_t2901866349  ___anchor0)
+{
+	il2cpp_native_wrapper_vm_thread_attacher _vmThreadHelper;
+
+	// Managed method invocation
+	UnityARSessionNativeInterface__anchor_added_m2958024553(NULL, ___anchor0, NULL);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_UnityARSessionNativeInterface__anchor_updated_m3701161618(UnityARAnchorData_t2901866349  ___anchor0)
+{
+	il2cpp_native_wrapper_vm_thread_attacher _vmThreadHelper;
+
+	// Managed method invocation
+	UnityARSessionNativeInterface__anchor_updated_m3701161618(NULL, ___anchor0, NULL);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_UnityARSessionNativeInterface__anchor_removed_m1500115371(UnityARAnchorData_t2901866349  ___anchor0)
+{
+	il2cpp_native_wrapper_vm_thread_attacher _vmThreadHelper;
+
+	// Managed method invocation
+	UnityARSessionNativeInterface__anchor_removed_m1500115371(NULL, ___anchor0, NULL);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_UnityARSessionNativeInterface__ar_session_failed_m3818340282(char* ___error0)
+{
+	il2cpp_native_wrapper_vm_thread_attacher _vmThreadHelper;
+
+	// Marshaling of parameter '___error0' to managed representation
+	String_t* ____error0_unmarshaled = NULL;
+	____error0_unmarshaled = il2cpp_codegen_marshal_string_result(___error0);
+
+	// Managed method invocation
+	UnityARSessionNativeInterface__ar_session_failed_m3818340282(NULL, ____error0_unmarshaled, NULL);
+
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::.ctor()
+extern "C"  void UnityARSessionNativeInterface__ctor_m3996903657 (UnityARSessionNativeInterface_t1130867170 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface__ctor_m3996903657_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	UnityARSessionNativeInterface_t1130867170 * G_B2_0 = NULL;
+	UnityARSessionNativeInterface_t1130867170 * G_B1_0 = NULL;
+	internal_ARFrameUpdate_t3296518558 * G_B4_0 = NULL;
+	UnityARSessionNativeInterface_t1130867170 * G_B4_1 = NULL;
+	internal_ARFrameUpdate_t3296518558 * G_B3_0 = NULL;
+	UnityARSessionNativeInterface_t1130867170 * G_B3_1 = NULL;
+	internal_ARAnchorAdded_t1622117597 * G_B6_0 = NULL;
+	internal_ARFrameUpdate_t3296518558 * G_B6_1 = NULL;
+	UnityARSessionNativeInterface_t1130867170 * G_B6_2 = NULL;
+	internal_ARAnchorAdded_t1622117597 * G_B5_0 = NULL;
+	internal_ARFrameUpdate_t3296518558 * G_B5_1 = NULL;
+	UnityARSessionNativeInterface_t1130867170 * G_B5_2 = NULL;
+	internal_ARAnchorUpdated_t3705772742 * G_B8_0 = NULL;
+	internal_ARAnchorAdded_t1622117597 * G_B8_1 = NULL;
+	internal_ARFrameUpdate_t3296518558 * G_B8_2 = NULL;
+	UnityARSessionNativeInterface_t1130867170 * G_B8_3 = NULL;
+	internal_ARAnchorUpdated_t3705772742 * G_B7_0 = NULL;
+	internal_ARAnchorAdded_t1622117597 * G_B7_1 = NULL;
+	internal_ARFrameUpdate_t3296518558 * G_B7_2 = NULL;
+	UnityARSessionNativeInterface_t1130867170 * G_B7_3 = NULL;
+	internal_ARAnchorRemoved_t3189755211 * G_B10_0 = NULL;
+	internal_ARAnchorUpdated_t3705772742 * G_B10_1 = NULL;
+	internal_ARAnchorAdded_t1622117597 * G_B10_2 = NULL;
+	internal_ARFrameUpdate_t3296518558 * G_B10_3 = NULL;
+	UnityARSessionNativeInterface_t1130867170 * G_B10_4 = NULL;
+	internal_ARAnchorRemoved_t3189755211 * G_B9_0 = NULL;
+	internal_ARAnchorUpdated_t3705772742 * G_B9_1 = NULL;
+	internal_ARAnchorAdded_t1622117597 * G_B9_2 = NULL;
+	internal_ARFrameUpdate_t3296518558 * G_B9_3 = NULL;
+	UnityARSessionNativeInterface_t1130867170 * G_B9_4 = NULL;
+	{
+		// public UnityARSessionNativeInterface()
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		// m_NativeARSession = unity_CreateNativeARSession(_frame_update, _anchor_added, _anchor_updated, _anchor_removed, _ar_session_failed);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		internal_ARFrameUpdate_t3296518558 * L_0 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache0_8();
+		G_B1_0 = __this;
+		if (L_0)
+		{
+			G_B2_0 = __this;
+			goto IL_0020;
+		}
+	}
+	{
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)UnityARSessionNativeInterface__frame_update_m1325618420_MethodInfo_var);
+		internal_ARFrameUpdate_t3296518558 * L_2 = (internal_ARFrameUpdate_t3296518558 *)il2cpp_codegen_object_new(internal_ARFrameUpdate_t3296518558_il2cpp_TypeInfo_var);
+		internal_ARFrameUpdate__ctor_m2823410993(L_2, NULL, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__mgU24cache0_8(L_2);
+		G_B2_0 = G_B1_0;
+	}
+
+IL_0020:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		internal_ARFrameUpdate_t3296518558 * L_3 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache0_8();
+		internal_ARAnchorAdded_t1622117597 * L_4 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache1_9();
+		G_B3_0 = L_3;
+		G_B3_1 = G_B2_0;
+		if (L_4)
+		{
+			G_B4_0 = L_3;
+			G_B4_1 = G_B2_0;
+			goto IL_003d;
+		}
+	}
+	{
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)UnityARSessionNativeInterface__anchor_added_m2958024553_MethodInfo_var);
+		internal_ARAnchorAdded_t1622117597 * L_6 = (internal_ARAnchorAdded_t1622117597 *)il2cpp_codegen_object_new(internal_ARAnchorAdded_t1622117597_il2cpp_TypeInfo_var);
+		internal_ARAnchorAdded__ctor_m1994420758(L_6, NULL, L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__mgU24cache1_9(L_6);
+		G_B4_0 = G_B3_0;
+		G_B4_1 = G_B3_1;
+	}
+
+IL_003d:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		internal_ARAnchorAdded_t1622117597 * L_7 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache1_9();
+		internal_ARAnchorUpdated_t3705772742 * L_8 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache2_10();
+		G_B5_0 = L_7;
+		G_B5_1 = G_B4_0;
+		G_B5_2 = G_B4_1;
+		if (L_8)
+		{
+			G_B6_0 = L_7;
+			G_B6_1 = G_B4_0;
+			G_B6_2 = G_B4_1;
+			goto IL_005a;
+		}
+	}
+	{
+		IntPtr_t L_9;
+		L_9.set_m_value_0((void*)(void*)UnityARSessionNativeInterface__anchor_updated_m3701161618_MethodInfo_var);
+		internal_ARAnchorUpdated_t3705772742 * L_10 = (internal_ARAnchorUpdated_t3705772742 *)il2cpp_codegen_object_new(internal_ARAnchorUpdated_t3705772742_il2cpp_TypeInfo_var);
+		internal_ARAnchorUpdated__ctor_m1681852245(L_10, NULL, L_9, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__mgU24cache2_10(L_10);
+		G_B6_0 = G_B5_0;
+		G_B6_1 = G_B5_1;
+		G_B6_2 = G_B5_2;
+	}
+
+IL_005a:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		internal_ARAnchorUpdated_t3705772742 * L_11 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache2_10();
+		internal_ARAnchorRemoved_t3189755211 * L_12 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache3_11();
+		G_B7_0 = L_11;
+		G_B7_1 = G_B6_0;
+		G_B7_2 = G_B6_1;
+		G_B7_3 = G_B6_2;
+		if (L_12)
+		{
+			G_B8_0 = L_11;
+			G_B8_1 = G_B6_0;
+			G_B8_2 = G_B6_1;
+			G_B8_3 = G_B6_2;
+			goto IL_0077;
+		}
+	}
+	{
+		IntPtr_t L_13;
+		L_13.set_m_value_0((void*)(void*)UnityARSessionNativeInterface__anchor_removed_m1500115371_MethodInfo_var);
+		internal_ARAnchorRemoved_t3189755211 * L_14 = (internal_ARAnchorRemoved_t3189755211 *)il2cpp_codegen_object_new(internal_ARAnchorRemoved_t3189755211_il2cpp_TypeInfo_var);
+		internal_ARAnchorRemoved__ctor_m1060120552(L_14, NULL, L_13, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__mgU24cache3_11(L_14);
+		G_B8_0 = G_B7_0;
+		G_B8_1 = G_B7_1;
+		G_B8_2 = G_B7_2;
+		G_B8_3 = G_B7_3;
+	}
+
+IL_0077:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		internal_ARAnchorRemoved_t3189755211 * L_15 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache3_11();
+		ARSessionFailed_t872580813 * L_16 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache4_12();
+		G_B9_0 = L_15;
+		G_B9_1 = G_B8_0;
+		G_B9_2 = G_B8_1;
+		G_B9_3 = G_B8_2;
+		G_B9_4 = G_B8_3;
+		if (L_16)
+		{
+			G_B10_0 = L_15;
+			G_B10_1 = G_B8_0;
+			G_B10_2 = G_B8_1;
+			G_B10_3 = G_B8_2;
+			G_B10_4 = G_B8_3;
+			goto IL_0094;
+		}
+	}
+	{
+		IntPtr_t L_17;
+		L_17.set_m_value_0((void*)(void*)UnityARSessionNativeInterface__ar_session_failed_m3818340282_MethodInfo_var);
+		ARSessionFailed_t872580813 * L_18 = (ARSessionFailed_t872580813 *)il2cpp_codegen_object_new(ARSessionFailed_t872580813_il2cpp_TypeInfo_var);
+		ARSessionFailed__ctor_m3969842386(L_18, NULL, L_17, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__mgU24cache4_12(L_18);
+		G_B10_0 = G_B9_0;
+		G_B10_1 = G_B9_1;
+		G_B10_2 = G_B9_2;
+		G_B10_3 = G_B9_3;
+		G_B10_4 = G_B9_4;
+	}
+
+IL_0094:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARSessionFailed_t872580813 * L_19 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache4_12();
+		// m_NativeARSession = unity_CreateNativeARSession(_frame_update, _anchor_added, _anchor_updated, _anchor_removed, _ar_session_failed);
+		IntPtr_t L_20 = UnityARSessionNativeInterface_unity_CreateNativeARSession_m3234211037(NULL /*static, unused*/, G_B10_3, G_B10_2, G_B10_1, G_B10_0, L_19, /*hidden argument*/NULL);
+		NullCheck(G_B10_4);
+		G_B10_4->set_m_NativeARSession_5(L_20);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::add_ARFrameUpdatedEvent(UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARFrameUpdate)
+extern "C"  void UnityARSessionNativeInterface_add_ARFrameUpdatedEvent_m1736114240 (Il2CppObject * __this /* static, unused */, ARFrameUpdate_t496507918 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_add_ARFrameUpdatedEvent_m1736114240_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARFrameUpdate_t496507918 * V_0 = NULL;
+	ARFrameUpdate_t496507918 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARFrameUpdate_t496507918 * L_0 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_ARFrameUpdatedEvent_0();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		ARFrameUpdate_t496507918 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARFrameUpdate_t496507918 * L_2 = V_1;
+		ARFrameUpdate_t496507918 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		ARFrameUpdate_t496507918 * L_5 = V_0;
+		ARFrameUpdate_t496507918 * L_6 = InterlockedCompareExchangeImpl<ARFrameUpdate_t496507918 *>((((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_address_of_ARFrameUpdatedEvent_0()), ((ARFrameUpdate_t496507918 *)CastclassSealed(L_4, ARFrameUpdate_t496507918_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		ARFrameUpdate_t496507918 * L_7 = V_0;
+		ARFrameUpdate_t496507918 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(ARFrameUpdate_t496507918 *)L_7) == ((Il2CppObject*)(ARFrameUpdate_t496507918 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::remove_ARFrameUpdatedEvent(UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARFrameUpdate)
+extern "C"  void UnityARSessionNativeInterface_remove_ARFrameUpdatedEvent_m109438993 (Il2CppObject * __this /* static, unused */, ARFrameUpdate_t496507918 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_remove_ARFrameUpdatedEvent_m109438993_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARFrameUpdate_t496507918 * V_0 = NULL;
+	ARFrameUpdate_t496507918 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARFrameUpdate_t496507918 * L_0 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_ARFrameUpdatedEvent_0();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		ARFrameUpdate_t496507918 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARFrameUpdate_t496507918 * L_2 = V_1;
+		ARFrameUpdate_t496507918 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		ARFrameUpdate_t496507918 * L_5 = V_0;
+		ARFrameUpdate_t496507918 * L_6 = InterlockedCompareExchangeImpl<ARFrameUpdate_t496507918 *>((((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_address_of_ARFrameUpdatedEvent_0()), ((ARFrameUpdate_t496507918 *)CastclassSealed(L_4, ARFrameUpdate_t496507918_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		ARFrameUpdate_t496507918 * L_7 = V_0;
+		ARFrameUpdate_t496507918 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(ARFrameUpdate_t496507918 *)L_7) == ((Il2CppObject*)(ARFrameUpdate_t496507918 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::add_ARAnchorAddedEvent(UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorAdded)
+extern "C"  void UnityARSessionNativeInterface_add_ARAnchorAddedEvent_m3658192182 (Il2CppObject * __this /* static, unused */, ARAnchorAdded_t2646854145 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_add_ARAnchorAddedEvent_m3658192182_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARAnchorAdded_t2646854145 * V_0 = NULL;
+	ARAnchorAdded_t2646854145 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARAnchorAdded_t2646854145 * L_0 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_ARAnchorAddedEvent_1();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		ARAnchorAdded_t2646854145 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARAnchorAdded_t2646854145 * L_2 = V_1;
+		ARAnchorAdded_t2646854145 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		ARAnchorAdded_t2646854145 * L_5 = V_0;
+		ARAnchorAdded_t2646854145 * L_6 = InterlockedCompareExchangeImpl<ARAnchorAdded_t2646854145 *>((((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_address_of_ARAnchorAddedEvent_1()), ((ARAnchorAdded_t2646854145 *)CastclassSealed(L_4, ARAnchorAdded_t2646854145_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		ARAnchorAdded_t2646854145 * L_7 = V_0;
+		ARAnchorAdded_t2646854145 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(ARAnchorAdded_t2646854145 *)L_7) == ((Il2CppObject*)(ARAnchorAdded_t2646854145 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::remove_ARAnchorAddedEvent(UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorAdded)
+extern "C"  void UnityARSessionNativeInterface_remove_ARAnchorAddedEvent_m1953980029 (Il2CppObject * __this /* static, unused */, ARAnchorAdded_t2646854145 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_remove_ARAnchorAddedEvent_m1953980029_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARAnchorAdded_t2646854145 * V_0 = NULL;
+	ARAnchorAdded_t2646854145 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARAnchorAdded_t2646854145 * L_0 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_ARAnchorAddedEvent_1();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		ARAnchorAdded_t2646854145 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARAnchorAdded_t2646854145 * L_2 = V_1;
+		ARAnchorAdded_t2646854145 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		ARAnchorAdded_t2646854145 * L_5 = V_0;
+		ARAnchorAdded_t2646854145 * L_6 = InterlockedCompareExchangeImpl<ARAnchorAdded_t2646854145 *>((((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_address_of_ARAnchorAddedEvent_1()), ((ARAnchorAdded_t2646854145 *)CastclassSealed(L_4, ARAnchorAdded_t2646854145_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		ARAnchorAdded_t2646854145 * L_7 = V_0;
+		ARAnchorAdded_t2646854145 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(ARAnchorAdded_t2646854145 *)L_7) == ((Il2CppObject*)(ARAnchorAdded_t2646854145 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::add_ARAnchorUpdatedEvent(UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorUpdated)
+extern "C"  void UnityARSessionNativeInterface_add_ARAnchorUpdatedEvent_m896905782 (Il2CppObject * __this /* static, unused */, ARAnchorUpdated_t3886071158 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_add_ARAnchorUpdatedEvent_m896905782_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARAnchorUpdated_t3886071158 * V_0 = NULL;
+	ARAnchorUpdated_t3886071158 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARAnchorUpdated_t3886071158 * L_0 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_ARAnchorUpdatedEvent_2();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		ARAnchorUpdated_t3886071158 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARAnchorUpdated_t3886071158 * L_2 = V_1;
+		ARAnchorUpdated_t3886071158 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		ARAnchorUpdated_t3886071158 * L_5 = V_0;
+		ARAnchorUpdated_t3886071158 * L_6 = InterlockedCompareExchangeImpl<ARAnchorUpdated_t3886071158 *>((((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_address_of_ARAnchorUpdatedEvent_2()), ((ARAnchorUpdated_t3886071158 *)CastclassSealed(L_4, ARAnchorUpdated_t3886071158_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		ARAnchorUpdated_t3886071158 * L_7 = V_0;
+		ARAnchorUpdated_t3886071158 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(ARAnchorUpdated_t3886071158 *)L_7) == ((Il2CppObject*)(ARAnchorUpdated_t3886071158 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::remove_ARAnchorUpdatedEvent(UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorUpdated)
+extern "C"  void UnityARSessionNativeInterface_remove_ARAnchorUpdatedEvent_m3167872061 (Il2CppObject * __this /* static, unused */, ARAnchorUpdated_t3886071158 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_remove_ARAnchorUpdatedEvent_m3167872061_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARAnchorUpdated_t3886071158 * V_0 = NULL;
+	ARAnchorUpdated_t3886071158 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARAnchorUpdated_t3886071158 * L_0 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_ARAnchorUpdatedEvent_2();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		ARAnchorUpdated_t3886071158 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARAnchorUpdated_t3886071158 * L_2 = V_1;
+		ARAnchorUpdated_t3886071158 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		ARAnchorUpdated_t3886071158 * L_5 = V_0;
+		ARAnchorUpdated_t3886071158 * L_6 = InterlockedCompareExchangeImpl<ARAnchorUpdated_t3886071158 *>((((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_address_of_ARAnchorUpdatedEvent_2()), ((ARAnchorUpdated_t3886071158 *)CastclassSealed(L_4, ARAnchorUpdated_t3886071158_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		ARAnchorUpdated_t3886071158 * L_7 = V_0;
+		ARAnchorUpdated_t3886071158 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(ARAnchorUpdated_t3886071158 *)L_7) == ((Il2CppObject*)(ARAnchorUpdated_t3886071158 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::add_ARAnchorRemovedEvent(UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorRemoved)
+extern "C"  void UnityARSessionNativeInterface_add_ARAnchorRemovedEvent_m3715542294 (Il2CppObject * __this /* static, unused */, ARAnchorRemoved_t142665927 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_add_ARAnchorRemovedEvent_m3715542294_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARAnchorRemoved_t142665927 * V_0 = NULL;
+	ARAnchorRemoved_t142665927 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARAnchorRemoved_t142665927 * L_0 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_ARAnchorRemovedEvent_3();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		ARAnchorRemoved_t142665927 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARAnchorRemoved_t142665927 * L_2 = V_1;
+		ARAnchorRemoved_t142665927 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		ARAnchorRemoved_t142665927 * L_5 = V_0;
+		ARAnchorRemoved_t142665927 * L_6 = InterlockedCompareExchangeImpl<ARAnchorRemoved_t142665927 *>((((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_address_of_ARAnchorRemovedEvent_3()), ((ARAnchorRemoved_t142665927 *)CastclassSealed(L_4, ARAnchorRemoved_t142665927_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		ARAnchorRemoved_t142665927 * L_7 = V_0;
+		ARAnchorRemoved_t142665927 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(ARAnchorRemoved_t142665927 *)L_7) == ((Il2CppObject*)(ARAnchorRemoved_t142665927 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::remove_ARAnchorRemovedEvent(UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorRemoved)
+extern "C"  void UnityARSessionNativeInterface_remove_ARAnchorRemovedEvent_m2956059101 (Il2CppObject * __this /* static, unused */, ARAnchorRemoved_t142665927 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_remove_ARAnchorRemovedEvent_m2956059101_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARAnchorRemoved_t142665927 * V_0 = NULL;
+	ARAnchorRemoved_t142665927 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARAnchorRemoved_t142665927 * L_0 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_ARAnchorRemovedEvent_3();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		ARAnchorRemoved_t142665927 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARAnchorRemoved_t142665927 * L_2 = V_1;
+		ARAnchorRemoved_t142665927 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		ARAnchorRemoved_t142665927 * L_5 = V_0;
+		ARAnchorRemoved_t142665927 * L_6 = InterlockedCompareExchangeImpl<ARAnchorRemoved_t142665927 *>((((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_address_of_ARAnchorRemovedEvent_3()), ((ARAnchorRemoved_t142665927 *)CastclassSealed(L_4, ARAnchorRemoved_t142665927_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		ARAnchorRemoved_t142665927 * L_7 = V_0;
+		ARAnchorRemoved_t142665927 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(ARAnchorRemoved_t142665927 *)L_7) == ((Il2CppObject*)(ARAnchorRemoved_t142665927 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::add_ARSessionFailedEvent(UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARSessionFailed)
+extern "C"  void UnityARSessionNativeInterface_add_ARSessionFailedEvent_m224373782 (Il2CppObject * __this /* static, unused */, ARSessionFailed_t872580813 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_add_ARSessionFailedEvent_m224373782_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARSessionFailed_t872580813 * V_0 = NULL;
+	ARSessionFailed_t872580813 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARSessionFailed_t872580813 * L_0 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_ARSessionFailedEvent_4();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		ARSessionFailed_t872580813 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARSessionFailed_t872580813 * L_2 = V_1;
+		ARSessionFailed_t872580813 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		ARSessionFailed_t872580813 * L_5 = V_0;
+		ARSessionFailed_t872580813 * L_6 = InterlockedCompareExchangeImpl<ARSessionFailed_t872580813 *>((((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_address_of_ARSessionFailedEvent_4()), ((ARSessionFailed_t872580813 *)CastclassSealed(L_4, ARSessionFailed_t872580813_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		ARSessionFailed_t872580813 * L_7 = V_0;
+		ARSessionFailed_t872580813 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(ARSessionFailed_t872580813 *)L_7) == ((Il2CppObject*)(ARSessionFailed_t872580813 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::remove_ARSessionFailedEvent(UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARSessionFailed)
+extern "C"  void UnityARSessionNativeInterface_remove_ARSessionFailedEvent_m887529885 (Il2CppObject * __this /* static, unused */, ARSessionFailed_t872580813 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_remove_ARSessionFailedEvent_m887529885_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARSessionFailed_t872580813 * V_0 = NULL;
+	ARSessionFailed_t872580813 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARSessionFailed_t872580813 * L_0 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_ARSessionFailedEvent_4();
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		ARSessionFailed_t872580813 * L_1 = V_0;
+		V_1 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARSessionFailed_t872580813 * L_2 = V_1;
+		ARSessionFailed_t872580813 * L_3 = ___value0;
+		Delegate_t3022476291 * L_4 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		ARSessionFailed_t872580813 * L_5 = V_0;
+		ARSessionFailed_t872580813 * L_6 = InterlockedCompareExchangeImpl<ARSessionFailed_t872580813 *>((((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_address_of_ARSessionFailedEvent_4()), ((ARSessionFailed_t872580813 *)CastclassSealed(L_4, ARSessionFailed_t872580813_il2cpp_TypeInfo_var)), L_5);
+		V_0 = L_6;
+		ARSessionFailed_t872580813 * L_7 = V_0;
+		ARSessionFailed_t872580813 * L_8 = V_1;
+		if ((!(((Il2CppObject*)(ARSessionFailed_t872580813 *)L_7) == ((Il2CppObject*)(ARSessionFailed_t872580813 *)L_8))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+extern "C" intptr_t DEFAULT_CALL unity_CreateNativeARSession(Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer);
+// System.IntPtr UnityEngine.XR.iOS.UnityARSessionNativeInterface::unity_CreateNativeARSession(UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARFrameUpdate,UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorAdded,UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorUpdated,UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorRemoved,UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARSessionFailed)
+extern "C"  IntPtr_t UnityARSessionNativeInterface_unity_CreateNativeARSession_m3234211037 (Il2CppObject * __this /* static, unused */, internal_ARFrameUpdate_t3296518558 * ___frameUpdate0, internal_ARAnchorAdded_t1622117597 * ___anchorAdded1, internal_ARAnchorUpdated_t3705772742 * ___anchorUpdated2, internal_ARAnchorRemoved_t3189755211 * ___anchorRemoved3, ARSessionFailed_t872580813 * ___sessionFailed4, const MethodInfo* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer);
+
+	// Marshaling of parameter '___frameUpdate0' to native representation
+	Il2CppMethodPointer ____frameUpdate0_marshaled = NULL;
+	____frameUpdate0_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___frameUpdate0));
+
+	// Marshaling of parameter '___anchorAdded1' to native representation
+	Il2CppMethodPointer ____anchorAdded1_marshaled = NULL;
+	____anchorAdded1_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___anchorAdded1));
+
+	// Marshaling of parameter '___anchorUpdated2' to native representation
+	Il2CppMethodPointer ____anchorUpdated2_marshaled = NULL;
+	____anchorUpdated2_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___anchorUpdated2));
+
+	// Marshaling of parameter '___anchorRemoved3' to native representation
+	Il2CppMethodPointer ____anchorRemoved3_marshaled = NULL;
+	____anchorRemoved3_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___anchorRemoved3));
+
+	// Marshaling of parameter '___sessionFailed4' to native representation
+	Il2CppMethodPointer ____sessionFailed4_marshaled = NULL;
+	____sessionFailed4_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___sessionFailed4));
+
+	// Native function invocation
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(unity_CreateNativeARSession)(____frameUpdate0_marshaled, ____anchorAdded1_marshaled, ____anchorUpdated2_marshaled, ____anchorRemoved3_marshaled, ____sessionFailed4_marshaled);
+
+	// Marshaling of return value back from native representation
+	IntPtr_t _returnValue_unmarshaled;
+	_returnValue_unmarshaled.set_m_value_0(reinterpret_cast<void*>((intptr_t)(returnValue)));
+
+	return _returnValue_unmarshaled;
+}
+extern "C" void DEFAULT_CALL StartWorldTrackingSession(intptr_t, ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_pinvoke);
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::StartWorldTrackingSession(System.IntPtr,UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration)
+extern "C"  void UnityARSessionNativeInterface_StartWorldTrackingSession_m516508084 (Il2CppObject * __this /* static, unused */, IntPtr_t ___nativeSession0, ARKitWorldTackingSessionConfiguration_t1821734930  ___configuration1, const MethodInfo* method)
+{
+
+
+	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_pinvoke);
+
+	// Marshaling of parameter '___configuration1' to native representation
+	ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_pinvoke ____configuration1_marshaled = {};
+	ARKitWorldTackingSessionConfiguration_t1821734930_marshal_pinvoke(___configuration1, ____configuration1_marshaled);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(StartWorldTrackingSession)(reinterpret_cast<intptr_t>((___nativeSession0).get_m_value_0()), ____configuration1_marshaled);
+
+	// Marshaling cleanup of parameter '___configuration1' native representation
+	ARKitWorldTackingSessionConfiguration_t1821734930_marshal_pinvoke_cleanup(____configuration1_marshaled);
+
+}
+extern "C" void DEFAULT_CALL StartWorldTrackingSessionWithOptions(intptr_t, ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_pinvoke, int32_t);
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::StartWorldTrackingSessionWithOptions(System.IntPtr,UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration,UnityEngine.XR.iOS.UnityARSessionRunOption)
+extern "C"  void UnityARSessionNativeInterface_StartWorldTrackingSessionWithOptions_m1220571628 (Il2CppObject * __this /* static, unused */, IntPtr_t ___nativeSession0, ARKitWorldTackingSessionConfiguration_t1821734930  ___configuration1, int32_t ___runOptions2, const MethodInfo* method)
+{
+
+
+	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_pinvoke, int32_t);
+
+	// Marshaling of parameter '___configuration1' to native representation
+	ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_pinvoke ____configuration1_marshaled = {};
+	ARKitWorldTackingSessionConfiguration_t1821734930_marshal_pinvoke(___configuration1, ____configuration1_marshaled);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(StartWorldTrackingSessionWithOptions)(reinterpret_cast<intptr_t>((___nativeSession0).get_m_value_0()), ____configuration1_marshaled, ___runOptions2);
+
+	// Marshaling cleanup of parameter '___configuration1' native representation
+	ARKitWorldTackingSessionConfiguration_t1821734930_marshal_pinvoke_cleanup(____configuration1_marshaled);
+
+}
+extern "C" void DEFAULT_CALL StartSession(intptr_t, ARKitSessionConfiguration_t318899795_marshaled_pinvoke);
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::StartSession(System.IntPtr,UnityEngine.XR.iOS.ARKitSessionConfiguration)
+extern "C"  void UnityARSessionNativeInterface_StartSession_m1058926234 (Il2CppObject * __this /* static, unused */, IntPtr_t ___nativeSession0, ARKitSessionConfiguration_t318899795  ___configuration1, const MethodInfo* method)
+{
+
+
+	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, ARKitSessionConfiguration_t318899795_marshaled_pinvoke);
+
+	// Marshaling of parameter '___configuration1' to native representation
+	ARKitSessionConfiguration_t318899795_marshaled_pinvoke ____configuration1_marshaled = {};
+	ARKitSessionConfiguration_t318899795_marshal_pinvoke(___configuration1, ____configuration1_marshaled);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(StartSession)(reinterpret_cast<intptr_t>((___nativeSession0).get_m_value_0()), ____configuration1_marshaled);
+
+	// Marshaling cleanup of parameter '___configuration1' native representation
+	ARKitSessionConfiguration_t318899795_marshal_pinvoke_cleanup(____configuration1_marshaled);
+
+}
+extern "C" void DEFAULT_CALL StartSessionWithOptions(intptr_t, ARKitSessionConfiguration_t318899795_marshaled_pinvoke, int32_t);
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::StartSessionWithOptions(System.IntPtr,UnityEngine.XR.iOS.ARKitSessionConfiguration,UnityEngine.XR.iOS.UnityARSessionRunOption)
+extern "C"  void UnityARSessionNativeInterface_StartSessionWithOptions_m2141763664 (Il2CppObject * __this /* static, unused */, IntPtr_t ___nativeSession0, ARKitSessionConfiguration_t318899795  ___configuration1, int32_t ___runOptions2, const MethodInfo* method)
+{
+
+
+	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, ARKitSessionConfiguration_t318899795_marshaled_pinvoke, int32_t);
+
+	// Marshaling of parameter '___configuration1' to native representation
+	ARKitSessionConfiguration_t318899795_marshaled_pinvoke ____configuration1_marshaled = {};
+	ARKitSessionConfiguration_t318899795_marshal_pinvoke(___configuration1, ____configuration1_marshaled);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(StartSessionWithOptions)(reinterpret_cast<intptr_t>((___nativeSession0).get_m_value_0()), ____configuration1_marshaled, ___runOptions2);
+
+	// Marshaling cleanup of parameter '___configuration1' native representation
+	ARKitSessionConfiguration_t318899795_marshal_pinvoke_cleanup(____configuration1_marshaled);
+
+}
+extern "C" void DEFAULT_CALL PauseSession(intptr_t);
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::PauseSession(System.IntPtr)
+extern "C"  void UnityARSessionNativeInterface_PauseSession_m3712983007 (Il2CppObject * __this /* static, unused */, IntPtr_t ___nativeSession0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(PauseSession)(reinterpret_cast<intptr_t>((___nativeSession0).get_m_value_0()));
+
+}
+extern "C" int32_t DEFAULT_CALL HitTest(intptr_t, ARPoint_t3436811567 , int64_t);
+// System.Int32 UnityEngine.XR.iOS.UnityARSessionNativeInterface::HitTest(System.IntPtr,UnityEngine.XR.iOS.ARPoint,UnityEngine.XR.iOS.ARHitTestResultType)
+extern "C"  int32_t UnityARSessionNativeInterface_HitTest_m1061845514 (Il2CppObject * __this /* static, unused */, IntPtr_t ___nativeSession0, ARPoint_t3436811567  ___point1, int64_t ___types2, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, ARPoint_t3436811567 , int64_t);
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(HitTest)(reinterpret_cast<intptr_t>((___nativeSession0).get_m_value_0()), ___point1, ___types2);
+
+	return returnValue;
+}
+extern "C" UnityARHitTestResult_t4129824344_marshaled_pinvoke DEFAULT_CALL GetLastHitTestResult(int32_t);
+// UnityEngine.XR.iOS.UnityARHitTestResult UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetLastHitTestResult(System.Int32)
+extern "C"  UnityARHitTestResult_t4129824344  UnityARSessionNativeInterface_GetLastHitTestResult_m2253916743 (Il2CppObject * __this /* static, unused */, int32_t ___index0, const MethodInfo* method)
+{
+
+
+	typedef UnityARHitTestResult_t4129824344_marshaled_pinvoke (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	UnityARHitTestResult_t4129824344_marshaled_pinvoke returnValue = reinterpret_cast<PInvokeFunc>(GetLastHitTestResult)(___index0);
+
+	// Marshaling of return value back from native representation
+	UnityARHitTestResult_t4129824344  _returnValue_unmarshaled;
+	memset(&_returnValue_unmarshaled, 0, sizeof(_returnValue_unmarshaled));
+	UnityARHitTestResult_t4129824344_marshal_pinvoke_back(returnValue, _returnValue_unmarshaled);
+
+	// Marshaling cleanup of return value native representation
+	UnityARHitTestResult_t4129824344_marshal_pinvoke_cleanup(returnValue);
+
+	return _returnValue_unmarshaled;
+}
+extern "C" ARTextureHandles_t3764914833  DEFAULT_CALL GetVideoTextureHandles();
+// UnityEngine.XR.iOS.ARTextureHandles UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetVideoTextureHandles()
+extern "C"  ARTextureHandles_t3764914833  UnityARSessionNativeInterface_GetVideoTextureHandles_m918919940 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef ARTextureHandles_t3764914833  (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	ARTextureHandles_t3764914833  returnValue = reinterpret_cast<PInvokeFunc>(GetVideoTextureHandles)();
+
+	return returnValue;
+}
+extern "C" float DEFAULT_CALL GetAmbientIntensity();
+// System.Single UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetAmbientIntensity()
+extern "C"  float UnityARSessionNativeInterface_GetAmbientIntensity_m4103225752 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef float (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	float returnValue = reinterpret_cast<PInvokeFunc>(GetAmbientIntensity)();
+
+	return returnValue;
+}
+extern "C" int32_t DEFAULT_CALL GetTrackingQuality();
+// System.Int32 UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetTrackingQuality()
+extern "C"  int32_t UnityARSessionNativeInterface_GetTrackingQuality_m3432765011 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetTrackingQuality)();
+
+	return returnValue;
+}
+extern "C" float DEFAULT_CALL GetYUVTexCoordScale();
+// System.Single UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetYUVTexCoordScale()
+extern "C"  float UnityARSessionNativeInterface_GetYUVTexCoordScale_m3336903555 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef float (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	float returnValue = reinterpret_cast<PInvokeFunc>(GetYUVTexCoordScale)();
+
+	return returnValue;
+}
+extern "C" int32_t DEFAULT_CALL GetARPointCloud(intptr_t*, uint32_t*);
+// System.Boolean UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetARPointCloud(System.IntPtr&,System.UInt32&)
+extern "C"  bool UnityARSessionNativeInterface_GetARPointCloud_m514074779 (Il2CppObject * __this /* static, unused */, IntPtr_t* ___verts0, uint32_t* ___vertLength1, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t*, uint32_t*);
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetARPointCloud)(reinterpret_cast<intptr_t*>(___verts0), ___vertLength1);
+
+	// Marshaling of parameter '___verts0' back from native representation
+	___verts0 = reinterpret_cast<IntPtr_t*>(reinterpret_cast<intptr_t*>(___verts0));
+
+	return static_cast<bool>(returnValue);
+}
+extern "C" void DEFAULT_CALL SetCameraNearFar(float, float);
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::SetCameraNearFar(System.Single,System.Single)
+extern "C"  void UnityARSessionNativeInterface_SetCameraNearFar_m3696730583 (Il2CppObject * __this /* static, unused */, float ___nearZ0, float ___farZ1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (float, float);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(SetCameraNearFar)(___nearZ0, ___farZ1);
+
+}
+// UnityEngine.XR.iOS.UnityARSessionNativeInterface UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetARSessionNativeInterface()
+extern "C"  UnityARSessionNativeInterface_t1130867170 * UnityARSessionNativeInterface_GetARSessionNativeInterface_m2987304195 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_GetARSessionNativeInterface_m2987304195_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	UnityARSessionNativeInterface_t1130867170 * V_0 = NULL;
+	{
+		// if (s_UnityARSessionNativeInterface == null) {
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARSessionNativeInterface_t1130867170 * L_0 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_s_UnityARSessionNativeInterface_7();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		// s_UnityARSessionNativeInterface = new UnityARSessionNativeInterface ();
+		UnityARSessionNativeInterface_t1130867170 * L_1 = (UnityARSessionNativeInterface_t1130867170 *)il2cpp_codegen_object_new(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARSessionNativeInterface__ctor_m3996903657(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->set_s_UnityARSessionNativeInterface_7(L_1);
+	}
+
+IL_0017:
+	{
+		// return s_UnityARSessionNativeInterface;
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARSessionNativeInterface_t1130867170 * L_2 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_s_UnityARSessionNativeInterface_7();
+		V_0 = L_2;
+		goto IL_0022;
+	}
+
+IL_0022:
+	{
+		// }
+		UnityARSessionNativeInterface_t1130867170 * L_3 = V_0;
+		return L_3;
+	}
+}
+// UnityEngine.Matrix4x4 UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetCameraPose()
+extern "C"  Matrix4x4_t2933234003  UnityARSessionNativeInterface_GetCameraPose_m1163645748 (UnityARSessionNativeInterface_t1130867170 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_GetCameraPose_m1163645748_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Matrix4x4_t2933234003  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Matrix4x4_t2933234003  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		// Matrix4x4 matrix = new Matrix4x4();
+		Initobj (Matrix4x4_t2933234003_il2cpp_TypeInfo_var, (&V_0));
+		// matrix.SetColumn(0, s_Camera.worldTransform.column0);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARMatrix4x4_t100931615 * L_0 = (((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_address_of_s_Camera_6())->get_address_of_worldTransform_0();
+		Vector4_t2243707581  L_1 = L_0->get_column0_0();
+		// matrix.SetColumn(0, s_Camera.worldTransform.column0);
+		Matrix4x4_SetColumn_m3120649749((&V_0), 0, L_1, /*hidden argument*/NULL);
+		// matrix.SetColumn(1, s_Camera.worldTransform.column1);
+		UnityARMatrix4x4_t100931615 * L_2 = (((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_address_of_s_Camera_6())->get_address_of_worldTransform_0();
+		Vector4_t2243707581  L_3 = L_2->get_column1_1();
+		// matrix.SetColumn(1, s_Camera.worldTransform.column1);
+		Matrix4x4_SetColumn_m3120649749((&V_0), 1, L_3, /*hidden argument*/NULL);
+		// matrix.SetColumn(2, s_Camera.worldTransform.column2);
+		UnityARMatrix4x4_t100931615 * L_4 = (((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_address_of_s_Camera_6())->get_address_of_worldTransform_0();
+		Vector4_t2243707581  L_5 = L_4->get_column2_2();
+		// matrix.SetColumn(2, s_Camera.worldTransform.column2);
+		Matrix4x4_SetColumn_m3120649749((&V_0), 2, L_5, /*hidden argument*/NULL);
+		// matrix.SetColumn(3, s_Camera.worldTransform.column3);
+		UnityARMatrix4x4_t100931615 * L_6 = (((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_address_of_s_Camera_6())->get_address_of_worldTransform_0();
+		Vector4_t2243707581  L_7 = L_6->get_column3_3();
+		// matrix.SetColumn(3, s_Camera.worldTransform.column3);
+		Matrix4x4_SetColumn_m3120649749((&V_0), 3, L_7, /*hidden argument*/NULL);
+		// return matrix;
+		Matrix4x4_t2933234003  L_8 = V_0;
+		V_1 = L_8;
+		goto IL_006c;
+	}
+
+IL_006c:
+	{
+		// }
+		Matrix4x4_t2933234003  L_9 = V_1;
+		return L_9;
+	}
+}
+// UnityEngine.Matrix4x4 UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetCameraProjection()
+extern "C"  Matrix4x4_t2933234003  UnityARSessionNativeInterface_GetCameraProjection_m355777876 (UnityARSessionNativeInterface_t1130867170 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_GetCameraProjection_m355777876_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Matrix4x4_t2933234003  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Matrix4x4_t2933234003  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		// Matrix4x4 matrix = new Matrix4x4();
+		Initobj (Matrix4x4_t2933234003_il2cpp_TypeInfo_var, (&V_0));
+		// matrix.SetColumn(0, s_Camera.projectionMatrix.column0);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARMatrix4x4_t100931615 * L_0 = (((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_address_of_s_Camera_6())->get_address_of_projectionMatrix_1();
+		Vector4_t2243707581  L_1 = L_0->get_column0_0();
+		// matrix.SetColumn(0, s_Camera.projectionMatrix.column0);
+		Matrix4x4_SetColumn_m3120649749((&V_0), 0, L_1, /*hidden argument*/NULL);
+		// matrix.SetColumn(1, s_Camera.projectionMatrix.column1);
+		UnityARMatrix4x4_t100931615 * L_2 = (((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_address_of_s_Camera_6())->get_address_of_projectionMatrix_1();
+		Vector4_t2243707581  L_3 = L_2->get_column1_1();
+		// matrix.SetColumn(1, s_Camera.projectionMatrix.column1);
+		Matrix4x4_SetColumn_m3120649749((&V_0), 1, L_3, /*hidden argument*/NULL);
+		// matrix.SetColumn(2, s_Camera.projectionMatrix.column2);
+		UnityARMatrix4x4_t100931615 * L_4 = (((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_address_of_s_Camera_6())->get_address_of_projectionMatrix_1();
+		Vector4_t2243707581  L_5 = L_4->get_column2_2();
+		// matrix.SetColumn(2, s_Camera.projectionMatrix.column2);
+		Matrix4x4_SetColumn_m3120649749((&V_0), 2, L_5, /*hidden argument*/NULL);
+		// matrix.SetColumn(3, s_Camera.projectionMatrix.column3);
+		UnityARMatrix4x4_t100931615 * L_6 = (((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_address_of_s_Camera_6())->get_address_of_projectionMatrix_1();
+		Vector4_t2243707581  L_7 = L_6->get_column3_3();
+		// matrix.SetColumn(3, s_Camera.projectionMatrix.column3);
+		Matrix4x4_SetColumn_m3120649749((&V_0), 3, L_7, /*hidden argument*/NULL);
+		// return matrix;
+		Matrix4x4_t2933234003  L_8 = V_0;
+		V_1 = L_8;
+		goto IL_006c;
+	}
+
+IL_006c:
+	{
+		// }
+		Matrix4x4_t2933234003  L_9 = V_1;
+		return L_9;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::SetCameraClipPlanes(System.Single,System.Single)
+extern "C"  void UnityARSessionNativeInterface_SetCameraClipPlanes_m2416096845 (UnityARSessionNativeInterface_t1130867170 * __this, float ___nearZ0, float ___farZ1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_SetCameraClipPlanes_m2416096845_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// SetCameraNearFar (nearZ, farZ);
+		float L_0 = ___nearZ0;
+		float L_1 = ___farZ1;
+		// SetCameraNearFar (nearZ, farZ);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARSessionNativeInterface_SetCameraNearFar_m3696730583(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::_frame_update(UnityEngine.XR.iOS.internal_UnityARCamera)
+extern "C"  void UnityARSessionNativeInterface__frame_update_m1325618420 (Il2CppObject * __this /* static, unused */, internal_UnityARCamera_t2580192745  ___camera0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface__frame_update_m1325618420_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	UnityARCamera_t4198559457  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		// UnityARCamera pubCamera = new UnityARCamera();
+		Initobj (UnityARCamera_t4198559457_il2cpp_TypeInfo_var, (&V_0));
+		// pubCamera.projectionMatrix = camera.projectionMatrix;
+		UnityARMatrix4x4_t100931615  L_0 = (&___camera0)->get_projectionMatrix_1();
+		(&V_0)->set_projectionMatrix_1(L_0);
+		// pubCamera.worldTransform = camera.worldTransform;
+		UnityARMatrix4x4_t100931615  L_1 = (&___camera0)->get_worldTransform_0();
+		(&V_0)->set_worldTransform_0(L_1);
+		// pubCamera.trackingState = camera.trackingState;
+		int32_t L_2 = (&___camera0)->get_trackingState_2();
+		(&V_0)->set_trackingState_2(L_2);
+		// pubCamera.trackingReason = camera.trackingReason;
+		int32_t L_3 = (&___camera0)->get_trackingReason_3();
+		(&V_0)->set_trackingReason_3(L_3);
+		// s_Camera = pubCamera;
+		UnityARCamera_t4198559457  L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->set_s_Camera_6(L_4);
+		// if (camera.getPointCloudData == 1)
+		uint32_t L_5 = (&___camera0)->get_getPointCloudData_4();
+		if ((!(((uint32_t)L_5) == ((uint32_t)1))))
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		// UpdatePointCloudData (ref s_Camera);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		// UpdatePointCloudData (ref s_Camera);
+		UnityARSessionNativeInterface_UpdatePointCloudData_m1902659090(NULL /*static, unused*/, (((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_address_of_s_Camera_6()), /*hidden argument*/NULL);
+	}
+
+IL_0060:
+	{
+		// if (ARFrameUpdatedEvent != null)
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARFrameUpdate_t496507918 * L_6 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_ARFrameUpdatedEvent_0();
+		if (!L_6)
+		{
+			goto IL_007b;
+		}
+	}
+	{
+		// ARFrameUpdatedEvent(s_Camera);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARFrameUpdate_t496507918 * L_7 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_ARFrameUpdatedEvent_0();
+		UnityARCamera_t4198559457  L_8 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_s_Camera_6();
+		// ARFrameUpdatedEvent(s_Camera);
+		NullCheck(L_7);
+		ARFrameUpdate_Invoke_m2490070094(L_7, L_8, /*hidden argument*/NULL);
+	}
+
+IL_007b:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::UpdatePointCloudData(UnityEngine.XR.iOS.UnityARCamera&)
+extern "C"  void UnityARSessionNativeInterface_UpdatePointCloudData_m1902659090 (Il2CppObject * __this /* static, unused */, UnityARCamera_t4198559457 * ___camera0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_UpdatePointCloudData_m1902659090_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	IntPtr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	uint32_t V_1 = 0;
+	bool V_2 = false;
+	SingleU5BU5D_t577127397* V_3 = NULL;
+	Vector3U5BU5D_t1172311765* V_4 = NULL;
+	int32_t V_5 = 0;
+	{
+		// IntPtr ptrResultVerts = IntPtr.Zero;
+		IntPtr_t L_0 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
+		V_0 = L_0;
+		// uint resultVertLength = 0;
+		V_1 = 0;
+		// bool success = GetARPointCloud (ref ptrResultVerts, ref resultVertLength);
+		// bool success = GetARPointCloud (ref ptrResultVerts, ref resultVertLength);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		bool L_1 = UnityARSessionNativeInterface_GetARPointCloud_m514074779(NULL /*static, unused*/, (&V_0), (&V_1), /*hidden argument*/NULL);
+		V_2 = L_1;
+		// float[] resultVertices = null;
+		V_3 = (SingleU5BU5D_t577127397*)NULL;
+		// if (success) {
+		bool L_2 = V_2;
+		if (!L_2)
+		{
+			goto IL_00a7;
+		}
+	}
+	{
+		// resultVertices = new float[resultVertLength];
+		uint32_t L_3 = V_1;
+		V_3 = ((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)(((uintptr_t)L_3))));
+		// Marshal.Copy (ptrResultVerts, resultVertices, 0, (int)resultVertLength);
+		IntPtr_t L_4 = V_0;
+		SingleU5BU5D_t577127397* L_5 = V_3;
+		uint32_t L_6 = V_1;
+		// Marshal.Copy (ptrResultVerts, resultVertices, 0, (int)resultVertLength);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Marshal_Copy_m2353359830(NULL /*static, unused*/, L_4, L_5, 0, L_6, /*hidden argument*/NULL);
+		// Vector3[] verts = new Vector3[(resultVertLength / 4)];
+		uint32_t L_7 = V_1;
+		V_4 = ((Vector3U5BU5D_t1172311765*)SZArrayNew(Vector3U5BU5D_t1172311765_il2cpp_TypeInfo_var, (uint32_t)(((uintptr_t)((int32_t)((uint32_t)(int32_t)L_7/(uint32_t)(int32_t)4))))));
+		// for (int count = 0; count < resultVertLength; count++)
+		V_5 = 0;
+		goto IL_0094;
+	}
+
+IL_0040:
+	{
+		// verts [count / 4].x = resultVertices[count++];
+		Vector3U5BU5D_t1172311765* L_8 = V_4;
+		int32_t L_9 = V_5;
+		NullCheck(L_8);
+		SingleU5BU5D_t577127397* L_10 = V_3;
+		int32_t L_11 = V_5;
+		int32_t L_12 = L_11;
+		V_5 = ((int32_t)((int32_t)L_12+(int32_t)1));
+		NullCheck(L_10);
+		int32_t L_13 = L_12;
+		float L_14 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_9/(int32_t)4)))))->set_x_1(L_14);
+		// verts [count / 4].y = resultVertices[count++];
+		Vector3U5BU5D_t1172311765* L_15 = V_4;
+		int32_t L_16 = V_5;
+		NullCheck(L_15);
+		SingleU5BU5D_t577127397* L_17 = V_3;
+		int32_t L_18 = V_5;
+		int32_t L_19 = L_18;
+		V_5 = ((int32_t)((int32_t)L_19+(int32_t)1));
+		NullCheck(L_17);
+		int32_t L_20 = L_19;
+		float L_21 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
+		((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_16/(int32_t)4)))))->set_y_2(L_21);
+		// verts [count / 4].z = -resultVertices[count++];
+		Vector3U5BU5D_t1172311765* L_22 = V_4;
+		int32_t L_23 = V_5;
+		NullCheck(L_22);
+		SingleU5BU5D_t577127397* L_24 = V_3;
+		int32_t L_25 = V_5;
+		int32_t L_26 = L_25;
+		V_5 = ((int32_t)((int32_t)L_26+(int32_t)1));
+		NullCheck(L_24);
+		int32_t L_27 = L_26;
+		float L_28 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
+		((L_22)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_23/(int32_t)4)))))->set_z_3(((-L_28)));
+		// for (int count = 0; count < resultVertLength; count++)
+		int32_t L_29 = V_5;
+		V_5 = ((int32_t)((int32_t)L_29+(int32_t)1));
+	}
+
+IL_0094:
+	{
+		// for (int count = 0; count < resultVertLength; count++)
+		int32_t L_30 = V_5;
+		uint32_t L_31 = V_1;
+		if ((((int64_t)(((int64_t)((int64_t)L_30)))) < ((int64_t)(((int64_t)((uint64_t)L_31))))))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		// camera.pointCloudData = verts;
+		UnityARCamera_t4198559457 * L_32 = ___camera0;
+		Vector3U5BU5D_t1172311765* L_33 = V_4;
+		L_32->set_pointCloudData_4(L_33);
+	}
+
+IL_00a7:
+	{
+		// }
+		return;
+	}
+}
+// UnityEngine.XR.iOS.ARPlaneAnchor UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetPlaneAnchorFromAnchorData(UnityEngine.XR.iOS.UnityARAnchorData)
+extern "C"  ARPlaneAnchor_t1439520888  UnityARSessionNativeInterface_GetPlaneAnchorFromAnchorData_m1725929749 (Il2CppObject * __this /* static, unused */, UnityARAnchorData_t2901866349  ___anchor0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_GetPlaneAnchorFromAnchorData_m1725929749_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARPlaneAnchor_t1439520888  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Matrix4x4_t2933234003  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	ARPlaneAnchor_t1439520888  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		// ARPlaneAnchor arPlaneAnchor = new ARPlaneAnchor ();
+		Initobj (ARPlaneAnchor_t1439520888_il2cpp_TypeInfo_var, (&V_0));
+		// arPlaneAnchor.identifier = Marshal.PtrToStringAuto(anchor.ptrIdentifier);
+		IntPtr_t L_0 = (&___anchor0)->get_ptrIdentifier_0();
+		// arPlaneAnchor.identifier = Marshal.PtrToStringAuto(anchor.ptrIdentifier);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		String_t* L_1 = Marshal_PtrToStringAuto_m3496615756(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		(&V_0)->set_identifier_0(L_1);
+		// Matrix4x4 matrix = new Matrix4x4 ();
+		Initobj (Matrix4x4_t2933234003_il2cpp_TypeInfo_var, (&V_1));
+		// matrix.SetColumn(0, anchor.transform.column0);
+		UnityARMatrix4x4_t100931615 * L_2 = (&___anchor0)->get_address_of_transform_1();
+		Vector4_t2243707581  L_3 = L_2->get_column0_0();
+		// matrix.SetColumn(0, anchor.transform.column0);
+		Matrix4x4_SetColumn_m3120649749((&V_1), 0, L_3, /*hidden argument*/NULL);
+		// matrix.SetColumn(1, anchor.transform.column1);
+		UnityARMatrix4x4_t100931615 * L_4 = (&___anchor0)->get_address_of_transform_1();
+		Vector4_t2243707581  L_5 = L_4->get_column1_1();
+		// matrix.SetColumn(1, anchor.transform.column1);
+		Matrix4x4_SetColumn_m3120649749((&V_1), 1, L_5, /*hidden argument*/NULL);
+		// matrix.SetColumn(2, anchor.transform.column2);
+		UnityARMatrix4x4_t100931615 * L_6 = (&___anchor0)->get_address_of_transform_1();
+		Vector4_t2243707581  L_7 = L_6->get_column2_2();
+		// matrix.SetColumn(2, anchor.transform.column2);
+		Matrix4x4_SetColumn_m3120649749((&V_1), 2, L_7, /*hidden argument*/NULL);
+		// matrix.SetColumn(3, anchor.transform.column3);
+		UnityARMatrix4x4_t100931615 * L_8 = (&___anchor0)->get_address_of_transform_1();
+		Vector4_t2243707581  L_9 = L_8->get_column3_3();
+		// matrix.SetColumn(3, anchor.transform.column3);
+		Matrix4x4_SetColumn_m3120649749((&V_1), 3, L_9, /*hidden argument*/NULL);
+		// arPlaneAnchor.transform =  matrix;
+		Matrix4x4_t2933234003  L_10 = V_1;
+		(&V_0)->set_transform_1(L_10);
+		// arPlaneAnchor.alignment = anchor.alignment;
+		int64_t L_11 = (&___anchor0)->get_alignment_2();
+		(&V_0)->set_alignment_2(L_11);
+		// arPlaneAnchor.center = new Vector3(anchor.center.x, anchor.center.y, anchor.center.z);
+		Vector4_t2243707581 * L_12 = (&___anchor0)->get_address_of_center_3();
+		float L_13 = L_12->get_x_1();
+		Vector4_t2243707581 * L_14 = (&___anchor0)->get_address_of_center_3();
+		float L_15 = L_14->get_y_2();
+		Vector4_t2243707581 * L_16 = (&___anchor0)->get_address_of_center_3();
+		float L_17 = L_16->get_z_3();
+		// arPlaneAnchor.center = new Vector3(anchor.center.x, anchor.center.y, anchor.center.z);
+		Vector3_t2243707580  L_18;
+		memset(&L_18, 0, sizeof(L_18));
+		Vector3__ctor_m2638739322(&L_18, L_13, L_15, L_17, /*hidden argument*/NULL);
+		(&V_0)->set_center_3(L_18);
+		// arPlaneAnchor.extent = new Vector3(anchor.extent.x, anchor.extent.y, anchor.extent.z);
+		Vector4_t2243707581 * L_19 = (&___anchor0)->get_address_of_extent_4();
+		float L_20 = L_19->get_x_1();
+		Vector4_t2243707581 * L_21 = (&___anchor0)->get_address_of_extent_4();
+		float L_22 = L_21->get_y_2();
+		Vector4_t2243707581 * L_23 = (&___anchor0)->get_address_of_extent_4();
+		float L_24 = L_23->get_z_3();
+		// arPlaneAnchor.extent = new Vector3(anchor.extent.x, anchor.extent.y, anchor.extent.z);
+		Vector3_t2243707580  L_25;
+		memset(&L_25, 0, sizeof(L_25));
+		Vector3__ctor_m2638739322(&L_25, L_20, L_22, L_24, /*hidden argument*/NULL);
+		(&V_0)->set_extent_4(L_25);
+		// return arPlaneAnchor;
+		ARPlaneAnchor_t1439520888  L_26 = V_0;
+		V_2 = L_26;
+		goto IL_00f1;
+	}
+
+IL_00f1:
+	{
+		// }
+		ARPlaneAnchor_t1439520888  L_27 = V_2;
+		return L_27;
+	}
+}
+// UnityEngine.XR.iOS.ARHitTestResult UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetHitTestResultFromResultData(UnityEngine.XR.iOS.UnityARHitTestResult)
+extern "C"  ARHitTestResult_t3275513025  UnityARSessionNativeInterface_GetHitTestResultFromResultData_m1395748390 (Il2CppObject * __this /* static, unused */, UnityARHitTestResult_t4129824344  ___resultData0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_GetHitTestResultFromResultData_m1395748390_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARHitTestResult_t3275513025  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	ARHitTestResult_t3275513025  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		// ARHitTestResult arHitTestResult = new ARHitTestResult ();
+		Initobj (ARHitTestResult_t3275513025_il2cpp_TypeInfo_var, (&V_0));
+		// arHitTestResult.type = resultData.type;
+		int64_t L_0 = (&___resultData0)->get_type_0();
+		(&V_0)->set_type_0(L_0);
+		// arHitTestResult.distance = resultData.distance;
+		double L_1 = (&___resultData0)->get_distance_1();
+		(&V_0)->set_distance_1(L_1);
+		// arHitTestResult.localTransform = resultData.localTransform;
+		Matrix4x4_t2933234003  L_2 = (&___resultData0)->get_localTransform_2();
+		(&V_0)->set_localTransform_2(L_2);
+		// arHitTestResult.worldTransform = resultData.worldTransform;
+		Matrix4x4_t2933234003  L_3 = (&___resultData0)->get_worldTransform_3();
+		(&V_0)->set_worldTransform_3(L_3);
+		// arHitTestResult.isValid = resultData.isValid;
+		bool L_4 = (&___resultData0)->get_isValid_5();
+		(&V_0)->set_isValid_5(L_4);
+		// if (resultData.anchor != IntPtr.Zero) {
+		IntPtr_t L_5 = (&___resultData0)->get_anchor_4();
+		IntPtr_t L_6 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
+		// if (resultData.anchor != IntPtr.Zero) {
+		bool L_7 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_007a;
+		}
+	}
+	{
+		// arHitTestResult.anchorIdentifier = Marshal.PtrToStringAuto (resultData.anchor);
+		IntPtr_t L_8 = (&___resultData0)->get_anchor_4();
+		// arHitTestResult.anchorIdentifier = Marshal.PtrToStringAuto (resultData.anchor);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		String_t* L_9 = Marshal_PtrToStringAuto_m3496615756(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		(&V_0)->set_anchorIdentifier_4(L_9);
+	}
+
+IL_007a:
+	{
+		// return arHitTestResult;
+		ARHitTestResult_t3275513025  L_10 = V_0;
+		V_1 = L_10;
+		goto IL_0081;
+	}
+
+IL_0081:
+	{
+		// }
+		ARHitTestResult_t3275513025  L_11 = V_1;
+		return L_11;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::_anchor_added(UnityEngine.XR.iOS.UnityARAnchorData)
+extern "C"  void UnityARSessionNativeInterface__anchor_added_m2958024553 (Il2CppObject * __this /* static, unused */, UnityARAnchorData_t2901866349  ___anchor0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface__anchor_added_m2958024553_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARPlaneAnchor_t1439520888  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		// if (ARAnchorAddedEvent != null)
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARAnchorAdded_t2646854145 * L_0 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_ARAnchorAddedEvent_1();
+		if (!L_0)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		// ARPlaneAnchor arPlaneAnchor = GetPlaneAnchorFromAnchorData(anchor);
+		UnityARAnchorData_t2901866349  L_1 = ___anchor0;
+		// ARPlaneAnchor arPlaneAnchor = GetPlaneAnchorFromAnchorData(anchor);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARPlaneAnchor_t1439520888  L_2 = UnityARSessionNativeInterface_GetPlaneAnchorFromAnchorData_m1725929749(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		// ARAnchorAddedEvent(arPlaneAnchor);
+		ARAnchorAdded_t2646854145 * L_3 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_ARAnchorAddedEvent_1();
+		ARPlaneAnchor_t1439520888  L_4 = V_0;
+		// ARAnchorAddedEvent(arPlaneAnchor);
+		NullCheck(L_3);
+		ARAnchorAdded_Invoke_m2651475570(L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_001f:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::_anchor_updated(UnityEngine.XR.iOS.UnityARAnchorData)
+extern "C"  void UnityARSessionNativeInterface__anchor_updated_m3701161618 (Il2CppObject * __this /* static, unused */, UnityARAnchorData_t2901866349  ___anchor0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface__anchor_updated_m3701161618_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARPlaneAnchor_t1439520888  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		// if (ARAnchorUpdatedEvent != null)
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARAnchorUpdated_t3886071158 * L_0 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_ARAnchorUpdatedEvent_2();
+		if (!L_0)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		// ARPlaneAnchor arPlaneAnchor = GetPlaneAnchorFromAnchorData(anchor);
+		UnityARAnchorData_t2901866349  L_1 = ___anchor0;
+		// ARPlaneAnchor arPlaneAnchor = GetPlaneAnchorFromAnchorData(anchor);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARPlaneAnchor_t1439520888  L_2 = UnityARSessionNativeInterface_GetPlaneAnchorFromAnchorData_m1725929749(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		// ARAnchorUpdatedEvent(arPlaneAnchor); }
+		ARAnchorUpdated_t3886071158 * L_3 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_ARAnchorUpdatedEvent_2();
+		ARPlaneAnchor_t1439520888  L_4 = V_0;
+		// ARAnchorUpdatedEvent(arPlaneAnchor); }
+		NullCheck(L_3);
+		ARAnchorUpdated_Invoke_m2427872581(L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_001f:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::_anchor_removed(UnityEngine.XR.iOS.UnityARAnchorData)
+extern "C"  void UnityARSessionNativeInterface__anchor_removed_m1500115371 (Il2CppObject * __this /* static, unused */, UnityARAnchorData_t2901866349  ___anchor0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface__anchor_removed_m1500115371_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARPlaneAnchor_t1439520888  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		// if (ARAnchorRemovedEvent != null)
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARAnchorRemoved_t142665927 * L_0 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_ARAnchorRemovedEvent_3();
+		if (!L_0)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		// ARPlaneAnchor arPlaneAnchor = GetPlaneAnchorFromAnchorData(anchor);
+		UnityARAnchorData_t2901866349  L_1 = ___anchor0;
+		// ARPlaneAnchor arPlaneAnchor = GetPlaneAnchorFromAnchorData(anchor);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARPlaneAnchor_t1439520888  L_2 = UnityARSessionNativeInterface_GetPlaneAnchorFromAnchorData_m1725929749(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		// ARAnchorRemovedEvent(arPlaneAnchor);
+		ARAnchorRemoved_t142665927 * L_3 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_ARAnchorRemovedEvent_3();
+		ARPlaneAnchor_t1439520888  L_4 = V_0;
+		// ARAnchorRemovedEvent(arPlaneAnchor);
+		NullCheck(L_3);
+		ARAnchorRemoved_Invoke_m884147844(L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_001f:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::_ar_session_failed(System.String)
+extern "C"  void UnityARSessionNativeInterface__ar_session_failed_m3818340282 (Il2CppObject * __this /* static, unused */, String_t* ___error0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface__ar_session_failed_m3818340282_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("ar_session_failed");
+		// Debug.Log("ar_session_failed");
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral2733749110, /*hidden argument*/NULL);
+		// if (ARSessionFailedEvent != null)
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARSessionFailed_t872580813 * L_0 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_ARSessionFailedEvent_4();
+		if (!L_0)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		// ARSessionFailedEvent(error);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARSessionFailed_t872580813 * L_1 = ((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->get_ARSessionFailedEvent_4();
+		String_t* L_2 = ___error0;
+		// ARSessionFailedEvent(error);
+		NullCheck(L_1);
+		ARSessionFailed_Invoke_m1814862562(L_1, L_2, /*hidden argument*/NULL);
+	}
+
+IL_0022:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::RunWithConfigAndOptions(UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration,UnityEngine.XR.iOS.UnityARSessionRunOption)
+extern "C"  void UnityARSessionNativeInterface_RunWithConfigAndOptions_m355682631 (UnityARSessionNativeInterface_t1130867170 * __this, ARKitWorldTackingSessionConfiguration_t1821734930  ___config0, int32_t ___runOptions1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_RunWithConfigAndOptions_m355682631_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// StartWorldTrackingSessionWithOptions (m_NativeARSession, config, runOptions);
+		IntPtr_t L_0 = __this->get_m_NativeARSession_5();
+		ARKitWorldTackingSessionConfiguration_t1821734930  L_1 = ___config0;
+		int32_t L_2 = ___runOptions1;
+		// StartWorldTrackingSessionWithOptions (m_NativeARSession, config, runOptions);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARSessionNativeInterface_StartWorldTrackingSessionWithOptions_m1220571628(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::RunWithConfig(UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration)
+extern "C"  void UnityARSessionNativeInterface_RunWithConfig_m4239349920 (UnityARSessionNativeInterface_t1130867170 * __this, ARKitWorldTackingSessionConfiguration_t1821734930  ___config0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_RunWithConfig_m4239349920_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// StartWorldTrackingSession(m_NativeARSession, config);
+		IntPtr_t L_0 = __this->get_m_NativeARSession_5();
+		ARKitWorldTackingSessionConfiguration_t1821734930  L_1 = ___config0;
+		// StartWorldTrackingSession(m_NativeARSession, config);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARSessionNativeInterface_StartWorldTrackingSession_m516508084(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::Run()
+extern "C"  void UnityARSessionNativeInterface_Run_m138648018 (UnityARSessionNativeInterface_t1130867170 * __this, const MethodInfo* method)
+{
+	{
+		// RunWithConfig(new ARKitWorldTackingSessionConfiguration(UnityARAlignment.UnityARAlignmentGravity, UnityARPlaneDetection.Horizontal));
+		// RunWithConfig(new ARKitWorldTackingSessionConfiguration(UnityARAlignment.UnityARAlignmentGravity, UnityARPlaneDetection.Horizontal));
+		ARKitWorldTackingSessionConfiguration_t1821734930  L_0;
+		memset(&L_0, 0, sizeof(L_0));
+		ARKitWorldTackingSessionConfiguration__ctor_m929109213(&L_0, 0, 1, (bool)0, (bool)0, /*hidden argument*/NULL);
+		// RunWithConfig(new ARKitWorldTackingSessionConfiguration(UnityARAlignment.UnityARAlignmentGravity, UnityARPlaneDetection.Horizontal));
+		UnityARSessionNativeInterface_RunWithConfig_m4239349920(__this, L_0, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::RunWithConfigAndOptions(UnityEngine.XR.iOS.ARKitSessionConfiguration,UnityEngine.XR.iOS.UnityARSessionRunOption)
+extern "C"  void UnityARSessionNativeInterface_RunWithConfigAndOptions_m1270423928 (UnityARSessionNativeInterface_t1130867170 * __this, ARKitSessionConfiguration_t318899795  ___config0, int32_t ___runOptions1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_RunWithConfigAndOptions_m1270423928_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// StartSessionWithOptions (m_NativeARSession, config, runOptions);
+		IntPtr_t L_0 = __this->get_m_NativeARSession_5();
+		ARKitSessionConfiguration_t318899795  L_1 = ___config0;
+		int32_t L_2 = ___runOptions1;
+		// StartSessionWithOptions (m_NativeARSession, config, runOptions);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARSessionNativeInterface_StartSessionWithOptions_m2141763664(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::RunWithConfig(UnityEngine.XR.iOS.ARKitSessionConfiguration)
+extern "C"  void UnityARSessionNativeInterface_RunWithConfig_m4212975335 (UnityARSessionNativeInterface_t1130867170 * __this, ARKitSessionConfiguration_t318899795  ___config0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_RunWithConfig_m4212975335_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// StartSession(m_NativeARSession, config);
+		IntPtr_t L_0 = __this->get_m_NativeARSession_5();
+		ARKitSessionConfiguration_t318899795  L_1 = ___config0;
+		// StartSession(m_NativeARSession, config);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARSessionNativeInterface_StartSession_m1058926234(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::Pause()
+extern "C"  void UnityARSessionNativeInterface_Pause_m57777087 (UnityARSessionNativeInterface_t1130867170 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_Pause_m57777087_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PauseSession(m_NativeARSession);
+		IntPtr_t L_0 = __this->get_m_NativeARSession_5();
+		// PauseSession(m_NativeARSession);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARSessionNativeInterface_PauseSession_m3712983007(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Collections.Generic.List`1<UnityEngine.XR.iOS.ARHitTestResult> UnityEngine.XR.iOS.UnityARSessionNativeInterface::HitTest(UnityEngine.XR.iOS.ARPoint,UnityEngine.XR.iOS.ARHitTestResultType)
+extern "C"  List_1_t2644634157 * UnityARSessionNativeInterface_HitTest_m3162073804 (UnityARSessionNativeInterface_t1130867170 * __this, ARPoint_t3436811567  ___point0, int64_t ___types1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_HitTest_m3162073804_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	List_1_t2644634157 * V_1 = NULL;
+	int32_t V_2 = 0;
+	UnityARHitTestResult_t4129824344  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	List_1_t2644634157 * V_4 = NULL;
+	{
+		// int numResults = HitTest(m_NativeARSession, point, types);
+		IntPtr_t L_0 = __this->get_m_NativeARSession_5();
+		ARPoint_t3436811567  L_1 = ___point0;
+		int64_t L_2 = ___types1;
+		// int numResults = HitTest(m_NativeARSession, point, types);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		int32_t L_3 = UnityARSessionNativeInterface_HitTest_m1061845514(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		// List<ARHitTestResult> results = new List<ARHitTestResult>();
+		List_1_t2644634157 * L_4 = (List_1_t2644634157 *)il2cpp_codegen_object_new(List_1_t2644634157_il2cpp_TypeInfo_var);
+		List_1__ctor_m3541722758(L_4, /*hidden argument*/List_1__ctor_m3541722758_MethodInfo_var);
+		V_1 = L_4;
+		// for (int i = 0; i < numResults; ++i)
+		V_2 = 0;
+		goto IL_0035;
+	}
+
+IL_001c:
+	{
+		// var result = GetLastHitTestResult(i);
+		int32_t L_5 = V_2;
+		// var result = GetLastHitTestResult(i);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARHitTestResult_t4129824344  L_6 = UnityARSessionNativeInterface_GetLastHitTestResult_m2253916743(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		V_3 = L_6;
+		// results.Add(GetHitTestResultFromResultData(result));
+		List_1_t2644634157 * L_7 = V_1;
+		UnityARHitTestResult_t4129824344  L_8 = V_3;
+		// results.Add(GetHitTestResultFromResultData(result));
+		ARHitTestResult_t3275513025  L_9 = UnityARSessionNativeInterface_GetHitTestResultFromResultData_m1395748390(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		// results.Add(GetHitTestResultFromResultData(result));
+		NullCheck(L_7);
+		List_1_Add_m1439515290(L_7, L_9, /*hidden argument*/List_1_Add_m1439515290_MethodInfo_var);
+		// for (int i = 0; i < numResults; ++i)
+		int32_t L_10 = V_2;
+		V_2 = ((int32_t)((int32_t)L_10+(int32_t)1));
+	}
+
+IL_0035:
+	{
+		// for (int i = 0; i < numResults; ++i)
+		int32_t L_11 = V_2;
+		int32_t L_12 = V_0;
+		if ((((int32_t)L_11) < ((int32_t)L_12)))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		// return results;
+		List_1_t2644634157 * L_13 = V_1;
+		V_4 = L_13;
+		goto IL_0044;
+	}
+
+IL_0044:
+	{
+		// }
+		List_1_t2644634157 * L_14 = V_4;
+		return L_14;
+	}
+}
+// UnityEngine.XR.iOS.ARTextureHandles UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetARVideoTextureHandles()
+extern "C"  ARTextureHandles_t3764914833  UnityARSessionNativeInterface_GetARVideoTextureHandles_m299127149 (UnityARSessionNativeInterface_t1130867170 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_GetARVideoTextureHandles_m299127149_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARTextureHandles_t3764914833  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		// return GetVideoTextureHandles ();
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		ARTextureHandles_t3764914833  L_0 = UnityARSessionNativeInterface_GetVideoTextureHandles_m918919940(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		// }
+		ARTextureHandles_t3764914833  L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Single UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetARAmbientIntensity()
+extern "C"  float UnityARSessionNativeInterface_GetARAmbientIntensity_m3021844929 (UnityARSessionNativeInterface_t1130867170 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_GetARAmbientIntensity_m3021844929_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		// return GetAmbientIntensity ();
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		float L_0 = UnityARSessionNativeInterface_GetAmbientIntensity_m4103225752(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		// }
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Int32 UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetARTrackingQuality()
+extern "C"  int32_t UnityARSessionNativeInterface_GetARTrackingQuality_m3393366810 (UnityARSessionNativeInterface_t1130867170 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_GetARTrackingQuality_m3393366810_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		// return GetTrackingQuality();
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		int32_t L_0 = UnityARSessionNativeInterface_GetTrackingQuality_m3432765011(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		// }
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Single UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetARYUVTexCoordScale()
+extern "C"  float UnityARSessionNativeInterface_GetARYUVTexCoordScale_m1708528794 (UnityARSessionNativeInterface_t1130867170 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface_GetARYUVTexCoordScale_m1708528794_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		// return GetYUVTexCoordScale();
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		float L_0 = UnityARSessionNativeInterface_GetYUVTexCoordScale_m3336903555(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		// }
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::.cctor()
+extern "C"  void UnityARSessionNativeInterface__cctor_m3065370010 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARSessionNativeInterface__cctor_m3065370010_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// static UnityARSessionNativeInterface s_UnityARSessionNativeInterface = null;
+		((UnityARSessionNativeInterface_t1130867170_StaticFields*)UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var->static_fields)->set_s_UnityARSessionNativeInterface_7((UnityARSessionNativeInterface_t1130867170 *)NULL);
+		return;
+	}
+}
+extern "C"  void DelegatePInvokeWrapper_ARAnchorAdded_t2646854145 (ARAnchorAdded_t2646854145 * __this, ARPlaneAnchor_t1439520888  ___anchorData0, const MethodInfo* method)
+{
+
+
+	typedef void (STDCALL *PInvokeFunc)(ARPlaneAnchor_t1439520888_marshaled_pinvoke);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((Il2CppDelegate*)__this)->method->methodPointer);
+
+	// Marshaling of parameter '___anchorData0' to native representation
+	ARPlaneAnchor_t1439520888_marshaled_pinvoke ____anchorData0_marshaled = {};
+	ARPlaneAnchor_t1439520888_marshal_pinvoke(___anchorData0, ____anchorData0_marshaled);
+
+	// Native function invocation
+	il2cppPInvokeFunc(____anchorData0_marshaled);
+
+	// Marshaling cleanup of parameter '___anchorData0' native representation
+	ARPlaneAnchor_t1439520888_marshal_pinvoke_cleanup(____anchorData0_marshaled);
+
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorAdded::.ctor(System.Object,System.IntPtr)
+extern "C"  void ARAnchorAdded__ctor_m457587034 (ARAnchorAdded_t2646854145 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorAdded::Invoke(UnityEngine.XR.iOS.ARPlaneAnchor)
+extern "C"  void ARAnchorAdded_Invoke_m2651475570 (ARAnchorAdded_t2646854145 * __this, ARPlaneAnchor_t1439520888  ___anchorData0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		ARAnchorAdded_Invoke_m2651475570((ARAnchorAdded_t2646854145 *)__this->get_prev_9(),___anchorData0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, ARPlaneAnchor_t1439520888  ___anchorData0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___anchorData0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, ARPlaneAnchor_t1439520888  ___anchorData0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___anchorData0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorAdded::BeginInvoke(UnityEngine.XR.iOS.ARPlaneAnchor,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * ARAnchorAdded_BeginInvoke_m1195619543 (ARAnchorAdded_t2646854145 * __this, ARPlaneAnchor_t1439520888  ___anchorData0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ARAnchorAdded_BeginInvoke_m1195619543_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(ARPlaneAnchor_t1439520888_il2cpp_TypeInfo_var, &___anchorData0);
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorAdded::EndInvoke(System.IAsyncResult)
+extern "C"  void ARAnchorAdded_EndInvoke_m2565878584 (ARAnchorAdded_t2646854145 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+extern "C"  void DelegatePInvokeWrapper_ARAnchorRemoved_t142665927 (ARAnchorRemoved_t142665927 * __this, ARPlaneAnchor_t1439520888  ___anchorData0, const MethodInfo* method)
+{
+
+
+	typedef void (STDCALL *PInvokeFunc)(ARPlaneAnchor_t1439520888_marshaled_pinvoke);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((Il2CppDelegate*)__this)->method->methodPointer);
+
+	// Marshaling of parameter '___anchorData0' to native representation
+	ARPlaneAnchor_t1439520888_marshaled_pinvoke ____anchorData0_marshaled = {};
+	ARPlaneAnchor_t1439520888_marshal_pinvoke(___anchorData0, ____anchorData0_marshaled);
+
+	// Native function invocation
+	il2cppPInvokeFunc(____anchorData0_marshaled);
+
+	// Marshaling cleanup of parameter '___anchorData0' native representation
+	ARPlaneAnchor_t1439520888_marshal_pinvoke_cleanup(____anchorData0_marshaled);
+
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorRemoved::.ctor(System.Object,System.IntPtr)
+extern "C"  void ARAnchorRemoved__ctor_m3206307472 (ARAnchorRemoved_t142665927 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorRemoved::Invoke(UnityEngine.XR.iOS.ARPlaneAnchor)
+extern "C"  void ARAnchorRemoved_Invoke_m884147844 (ARAnchorRemoved_t142665927 * __this, ARPlaneAnchor_t1439520888  ___anchorData0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		ARAnchorRemoved_Invoke_m884147844((ARAnchorRemoved_t142665927 *)__this->get_prev_9(),___anchorData0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, ARPlaneAnchor_t1439520888  ___anchorData0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___anchorData0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, ARPlaneAnchor_t1439520888  ___anchorData0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___anchorData0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorRemoved::BeginInvoke(UnityEngine.XR.iOS.ARPlaneAnchor,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * ARAnchorRemoved_BeginInvoke_m3861277981 (ARAnchorRemoved_t142665927 * __this, ARPlaneAnchor_t1439520888  ___anchorData0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ARAnchorRemoved_BeginInvoke_m3861277981_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(ARPlaneAnchor_t1439520888_il2cpp_TypeInfo_var, &___anchorData0);
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorRemoved::EndInvoke(System.IAsyncResult)
+extern "C"  void ARAnchorRemoved_EndInvoke_m2111556018 (ARAnchorRemoved_t142665927 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+extern "C"  void DelegatePInvokeWrapper_ARAnchorUpdated_t3886071158 (ARAnchorUpdated_t3886071158 * __this, ARPlaneAnchor_t1439520888  ___anchorData0, const MethodInfo* method)
+{
+
+
+	typedef void (STDCALL *PInvokeFunc)(ARPlaneAnchor_t1439520888_marshaled_pinvoke);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((Il2CppDelegate*)__this)->method->methodPointer);
+
+	// Marshaling of parameter '___anchorData0' to native representation
+	ARPlaneAnchor_t1439520888_marshaled_pinvoke ____anchorData0_marshaled = {};
+	ARPlaneAnchor_t1439520888_marshal_pinvoke(___anchorData0, ____anchorData0_marshaled);
+
+	// Native function invocation
+	il2cppPInvokeFunc(____anchorData0_marshaled);
+
+	// Marshaling cleanup of parameter '___anchorData0' native representation
+	ARPlaneAnchor_t1439520888_marshal_pinvoke_cleanup(____anchorData0_marshaled);
+
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorUpdated::.ctor(System.Object,System.IntPtr)
+extern "C"  void ARAnchorUpdated__ctor_m1461693421 (ARAnchorUpdated_t3886071158 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorUpdated::Invoke(UnityEngine.XR.iOS.ARPlaneAnchor)
+extern "C"  void ARAnchorUpdated_Invoke_m2427872581 (ARAnchorUpdated_t3886071158 * __this, ARPlaneAnchor_t1439520888  ___anchorData0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		ARAnchorUpdated_Invoke_m2427872581((ARAnchorUpdated_t3886071158 *)__this->get_prev_9(),___anchorData0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, ARPlaneAnchor_t1439520888  ___anchorData0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___anchorData0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, ARPlaneAnchor_t1439520888  ___anchorData0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___anchorData0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorUpdated::BeginInvoke(UnityEngine.XR.iOS.ARPlaneAnchor,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * ARAnchorUpdated_BeginInvoke_m3773995276 (ARAnchorUpdated_t3886071158 * __this, ARPlaneAnchor_t1439520888  ___anchorData0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ARAnchorUpdated_BeginInvoke_m3773995276_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(ARPlaneAnchor_t1439520888_il2cpp_TypeInfo_var, &___anchorData0);
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorUpdated::EndInvoke(System.IAsyncResult)
+extern "C"  void ARAnchorUpdated_EndInvoke_m412239619 (ARAnchorUpdated_t3886071158 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARFrameUpdate::.ctor(System.Object,System.IntPtr)
+extern "C"  void ARFrameUpdate__ctor_m3762766849 (ARFrameUpdate_t496507918 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARFrameUpdate::Invoke(UnityEngine.XR.iOS.UnityARCamera)
+extern "C"  void ARFrameUpdate_Invoke_m2490070094 (ARFrameUpdate_t496507918 * __this, UnityARCamera_t4198559457  ___camera0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		ARFrameUpdate_Invoke_m2490070094((ARFrameUpdate_t496507918 *)__this->get_prev_9(),___camera0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, UnityARCamera_t4198559457  ___camera0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___camera0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, UnityARCamera_t4198559457  ___camera0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___camera0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARFrameUpdate::BeginInvoke(UnityEngine.XR.iOS.UnityARCamera,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * ARFrameUpdate_BeginInvoke_m1755287247 (ARFrameUpdate_t496507918 * __this, UnityARCamera_t4198559457  ___camera0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ARFrameUpdate_BeginInvoke_m1755287247_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(UnityARCamera_t4198559457_il2cpp_TypeInfo_var, &___camera0);
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARFrameUpdate::EndInvoke(System.IAsyncResult)
+extern "C"  void ARFrameUpdate_EndInvoke_m2814063243 (ARFrameUpdate_t496507918 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+extern "C"  void DelegatePInvokeWrapper_ARSessionFailed_t872580813 (ARSessionFailed_t872580813 * __this, String_t* ___error0, const MethodInfo* method)
+{
+	typedef void (STDCALL *PInvokeFunc)(char*);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((Il2CppDelegate*)__this)->method->methodPointer);
+
+	// Marshaling of parameter '___error0' to native representation
+	char* ____error0_marshaled = NULL;
+	____error0_marshaled = il2cpp_codegen_marshal_string(___error0);
+
+	// Native function invocation
+	il2cppPInvokeFunc(____error0_marshaled);
+
+	// Marshaling cleanup of parameter '___error0' native representation
+	il2cpp_codegen_marshal_free(____error0_marshaled);
+	____error0_marshaled = NULL;
+
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARSessionFailed::.ctor(System.Object,System.IntPtr)
+extern "C"  void ARSessionFailed__ctor_m3969842386 (ARSessionFailed_t872580813 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARSessionFailed::Invoke(System.String)
+extern "C"  void ARSessionFailed_Invoke_m1814862562 (ARSessionFailed_t872580813 * __this, String_t* ___error0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		ARSessionFailed_Invoke_m1814862562((ARSessionFailed_t872580813 *)__this->get_prev_9(),___error0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, String_t* ___error0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___error0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else if (__this->get_m_target_2() != NULL || ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (void* __this, String_t* ___error0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___error0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(___error0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARSessionFailed::BeginInvoke(System.String,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * ARSessionFailed_BeginInvoke_m2559777345 (ARSessionFailed_t872580813 * __this, String_t* ___error0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	void *__d_args[2] = {0};
+	__d_args[0] = ___error0;
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARSessionFailed::EndInvoke(System.IAsyncResult)
+extern "C"  void ARSessionFailed_EndInvoke_m910636076 (ARSessionFailed_t872580813 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+extern "C"  void DelegatePInvokeWrapper_internal_ARAnchorAdded_t1622117597 (internal_ARAnchorAdded_t1622117597 * __this, UnityARAnchorData_t2901866349  ___anchorData0, const MethodInfo* method)
+{
+	typedef void (STDCALL *PInvokeFunc)(UnityARAnchorData_t2901866349 );
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((Il2CppDelegate*)__this)->method->methodPointer);
+
+	// Native function invocation
+	il2cppPInvokeFunc(___anchorData0);
+
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorAdded::.ctor(System.Object,System.IntPtr)
+extern "C"  void internal_ARAnchorAdded__ctor_m1994420758 (internal_ARAnchorAdded_t1622117597 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorAdded::Invoke(UnityEngine.XR.iOS.UnityARAnchorData)
+extern "C"  void internal_ARAnchorAdded_Invoke_m3525465153 (internal_ARAnchorAdded_t1622117597 * __this, UnityARAnchorData_t2901866349  ___anchorData0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		internal_ARAnchorAdded_Invoke_m3525465153((internal_ARAnchorAdded_t1622117597 *)__this->get_prev_9(),___anchorData0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, UnityARAnchorData_t2901866349  ___anchorData0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___anchorData0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, UnityARAnchorData_t2901866349  ___anchorData0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___anchorData0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorAdded::BeginInvoke(UnityEngine.XR.iOS.UnityARAnchorData,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * internal_ARAnchorAdded_BeginInvoke_m3033916568 (internal_ARAnchorAdded_t1622117597 * __this, UnityARAnchorData_t2901866349  ___anchorData0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (internal_ARAnchorAdded_BeginInvoke_m3033916568_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(UnityARAnchorData_t2901866349_il2cpp_TypeInfo_var, &___anchorData0);
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorAdded::EndInvoke(System.IAsyncResult)
+extern "C"  void internal_ARAnchorAdded_EndInvoke_m2769215968 (internal_ARAnchorAdded_t1622117597 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+extern "C"  void DelegatePInvokeWrapper_internal_ARAnchorRemoved_t3189755211 (internal_ARAnchorRemoved_t3189755211 * __this, UnityARAnchorData_t2901866349  ___anchorData0, const MethodInfo* method)
+{
+	typedef void (STDCALL *PInvokeFunc)(UnityARAnchorData_t2901866349 );
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((Il2CppDelegate*)__this)->method->methodPointer);
+
+	// Native function invocation
+	il2cppPInvokeFunc(___anchorData0);
+
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorRemoved::.ctor(System.Object,System.IntPtr)
+extern "C"  void internal_ARAnchorRemoved__ctor_m1060120552 (internal_ARAnchorRemoved_t3189755211 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorRemoved::Invoke(UnityEngine.XR.iOS.UnityARAnchorData)
+extern "C"  void internal_ARAnchorRemoved_Invoke_m3060937915 (internal_ARAnchorRemoved_t3189755211 * __this, UnityARAnchorData_t2901866349  ___anchorData0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		internal_ARAnchorRemoved_Invoke_m3060937915((internal_ARAnchorRemoved_t3189755211 *)__this->get_prev_9(),___anchorData0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, UnityARAnchorData_t2901866349  ___anchorData0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___anchorData0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, UnityARAnchorData_t2901866349  ___anchorData0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___anchorData0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorRemoved::BeginInvoke(UnityEngine.XR.iOS.UnityARAnchorData,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * internal_ARAnchorRemoved_BeginInvoke_m3085909034 (internal_ARAnchorRemoved_t3189755211 * __this, UnityARAnchorData_t2901866349  ___anchorData0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (internal_ARAnchorRemoved_BeginInvoke_m3085909034_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(UnityARAnchorData_t2901866349_il2cpp_TypeInfo_var, &___anchorData0);
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorRemoved::EndInvoke(System.IAsyncResult)
+extern "C"  void internal_ARAnchorRemoved_EndInvoke_m1210584990 (internal_ARAnchorRemoved_t3189755211 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+extern "C"  void DelegatePInvokeWrapper_internal_ARAnchorUpdated_t3705772742 (internal_ARAnchorUpdated_t3705772742 * __this, UnityARAnchorData_t2901866349  ___anchorData0, const MethodInfo* method)
+{
+	typedef void (STDCALL *PInvokeFunc)(UnityARAnchorData_t2901866349 );
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((Il2CppDelegate*)__this)->method->methodPointer);
+
+	// Native function invocation
+	il2cppPInvokeFunc(___anchorData0);
+
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorUpdated::.ctor(System.Object,System.IntPtr)
+extern "C"  void internal_ARAnchorUpdated__ctor_m1681852245 (internal_ARAnchorUpdated_t3705772742 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorUpdated::Invoke(UnityEngine.XR.iOS.UnityARAnchorData)
+extern "C"  void internal_ARAnchorUpdated_Invoke_m1978870656 (internal_ARAnchorUpdated_t3705772742 * __this, UnityARAnchorData_t2901866349  ___anchorData0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		internal_ARAnchorUpdated_Invoke_m1978870656((internal_ARAnchorUpdated_t3705772742 *)__this->get_prev_9(),___anchorData0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, UnityARAnchorData_t2901866349  ___anchorData0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___anchorData0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, UnityARAnchorData_t2901866349  ___anchorData0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___anchorData0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorUpdated::BeginInvoke(UnityEngine.XR.iOS.UnityARAnchorData,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * internal_ARAnchorUpdated_BeginInvoke_m63372791 (internal_ARAnchorUpdated_t3705772742 * __this, UnityARAnchorData_t2901866349  ___anchorData0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (internal_ARAnchorUpdated_BeginInvoke_m63372791_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(UnityARAnchorData_t2901866349_il2cpp_TypeInfo_var, &___anchorData0);
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARAnchorUpdated::EndInvoke(System.IAsyncResult)
+extern "C"  void internal_ARAnchorUpdated_EndInvoke_m1038613303 (internal_ARAnchorUpdated_t3705772742 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+extern "C"  void DelegatePInvokeWrapper_internal_ARFrameUpdate_t3296518558 (internal_ARFrameUpdate_t3296518558 * __this, internal_UnityARCamera_t2580192745  ___camera0, const MethodInfo* method)
+{
+	typedef void (STDCALL *PInvokeFunc)(internal_UnityARCamera_t2580192745 );
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((Il2CppDelegate*)__this)->method->methodPointer);
+
+	// Native function invocation
+	il2cppPInvokeFunc(___camera0);
+
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARFrameUpdate::.ctor(System.Object,System.IntPtr)
+extern "C"  void internal_ARFrameUpdate__ctor_m2823410993 (internal_ARFrameUpdate_t3296518558 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARFrameUpdate::Invoke(UnityEngine.XR.iOS.internal_UnityARCamera)
+extern "C"  void internal_ARFrameUpdate_Invoke_m3304795004 (internal_ARFrameUpdate_t3296518558 * __this, internal_UnityARCamera_t2580192745  ___camera0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		internal_ARFrameUpdate_Invoke_m3304795004((internal_ARFrameUpdate_t3296518558 *)__this->get_prev_9(),___camera0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, internal_UnityARCamera_t2580192745  ___camera0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___camera0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, internal_UnityARCamera_t2580192745  ___camera0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___camera0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARFrameUpdate::BeginInvoke(UnityEngine.XR.iOS.internal_UnityARCamera,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * internal_ARFrameUpdate_BeginInvoke_m3669572079 (internal_ARFrameUpdate_t3296518558 * __this, internal_UnityARCamera_t2580192745  ___camera0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (internal_ARFrameUpdate_BeginInvoke_m3669572079_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(internal_UnityARCamera_t2580192745_il2cpp_TypeInfo_var, &___camera0);
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface/internal_ARFrameUpdate::EndInvoke(System.IAsyncResult)
+extern "C"  void internal_ARFrameUpdate_EndInvoke_m3663942063 (internal_ARFrameUpdate_t3296518558 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void UnityEngine.XR.iOS.UnityARUtility::.ctor()
+extern "C"  void UnityARUtility__ctor_m2045974871 (UnityARUtility_t3608388148 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARUtility::InitializePlanePrefab(UnityEngine.GameObject)
+extern "C"  void UnityARUtility_InitializePlanePrefab_m991798235 (Il2CppObject * __this /* static, unused */, GameObject_t1756533147 * ___go0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARUtility_InitializePlanePrefab_m991798235_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// planePrefab = go;
+		GameObject_t1756533147 * L_0 = ___go0;
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARUtility_t3608388148_il2cpp_TypeInfo_var);
+		((UnityARUtility_t3608388148_StaticFields*)UnityARUtility_t3608388148_il2cpp_TypeInfo_var->static_fields)->set_planePrefab_2(L_0);
+		// }
+		return;
+	}
+}
+// UnityEngine.GameObject UnityEngine.XR.iOS.UnityARUtility::CreatePlaneInScene(UnityEngine.XR.iOS.ARPlaneAnchor)
+extern "C"  GameObject_t1756533147 * UnityARUtility_CreatePlaneInScene_m25502715 (Il2CppObject * __this /* static, unused */, ARPlaneAnchor_t1439520888  ___arPlaneAnchor0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARUtility_CreatePlaneInScene_m25502715_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	GameObject_t1756533147 * V_1 = NULL;
+	{
+		// if (planePrefab != null) {
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARUtility_t3608388148_il2cpp_TypeInfo_var);
+		GameObject_t1756533147 * L_0 = ((UnityARUtility_t3608388148_StaticFields*)UnityARUtility_t3608388148_il2cpp_TypeInfo_var->static_fields)->get_planePrefab_2();
+		// if (planePrefab != null) {
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		// plane = GameObject.Instantiate(planePrefab);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARUtility_t3608388148_il2cpp_TypeInfo_var);
+		GameObject_t1756533147 * L_2 = ((UnityARUtility_t3608388148_StaticFields*)UnityARUtility_t3608388148_il2cpp_TypeInfo_var->static_fields)->get_planePrefab_2();
+		// plane = GameObject.Instantiate(planePrefab);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		GameObject_t1756533147 * L_3 = Object_Instantiate_TisGameObject_t1756533147_m3664764861(NULL /*static, unused*/, L_2, /*hidden argument*/Object_Instantiate_TisGameObject_t1756533147_m3664764861_MethodInfo_var);
+		V_0 = L_3;
+		goto IL_002b;
+	}
+
+IL_0023:
+	{
+		// plane = new GameObject (); //put in a blank gameObject to get at least a transform to manipulate
+		GameObject_t1756533147 * L_4 = (GameObject_t1756533147 *)il2cpp_codegen_object_new(GameObject_t1756533147_il2cpp_TypeInfo_var);
+		GameObject__ctor_m498247354(L_4, /*hidden argument*/NULL);
+		V_0 = L_4;
+	}
+
+IL_002b:
+	{
+		// plane.name = arPlaneAnchor.identifier;
+		GameObject_t1756533147 * L_5 = V_0;
+		String_t* L_6 = (&___arPlaneAnchor0)->get_identifier_0();
+		// plane.name = arPlaneAnchor.identifier;
+		NullCheck(L_5);
+		Object_set_name_m4157836998(L_5, L_6, /*hidden argument*/NULL);
+		// return UpdatePlaneWithAnchorTransform(plane, arPlaneAnchor);
+		GameObject_t1756533147 * L_7 = V_0;
+		ARPlaneAnchor_t1439520888  L_8 = ___arPlaneAnchor0;
+		// return UpdatePlaneWithAnchorTransform(plane, arPlaneAnchor);
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARUtility_t3608388148_il2cpp_TypeInfo_var);
+		GameObject_t1756533147 * L_9 = UnityARUtility_UpdatePlaneWithAnchorTransform_m3977317096(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		V_1 = L_9;
+		goto IL_0045;
+	}
+
+IL_0045:
+	{
+		// }
+		GameObject_t1756533147 * L_10 = V_1;
+		return L_10;
+	}
+}
+// UnityEngine.GameObject UnityEngine.XR.iOS.UnityARUtility::UpdatePlaneWithAnchorTransform(UnityEngine.GameObject,UnityEngine.XR.iOS.ARPlaneAnchor)
+extern "C"  GameObject_t1756533147 * UnityARUtility_UpdatePlaneWithAnchorTransform_m3977317096 (Il2CppObject * __this /* static, unused */, GameObject_t1756533147 * ___plane0, ARPlaneAnchor_t1439520888  ___arPlaneAnchor1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARUtility_UpdatePlaneWithAnchorTransform_m3977317096_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	MeshFilter_t3026937449 * V_0 = NULL;
+	GameObject_t1756533147 * V_1 = NULL;
+	{
+		// plane.transform.position = UnityARMatrixOps.GetPosition (arPlaneAnchor.transform);
+		GameObject_t1756533147 * L_0 = ___plane0;
+		// plane.transform.position = UnityARMatrixOps.GetPosition (arPlaneAnchor.transform);
+		NullCheck(L_0);
+		Transform_t3275118058 * L_1 = GameObject_get_transform_m909382139(L_0, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_2 = (&___arPlaneAnchor1)->get_transform_1();
+		// plane.transform.position = UnityARMatrixOps.GetPosition (arPlaneAnchor.transform);
+		Vector3_t2243707580  L_3 = UnityARMatrixOps_GetPosition_m110321593(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		// plane.transform.position = UnityARMatrixOps.GetPosition (arPlaneAnchor.transform);
+		NullCheck(L_1);
+		Transform_set_position_m2469242620(L_1, L_3, /*hidden argument*/NULL);
+		// plane.transform.rotation = UnityARMatrixOps.GetRotation (arPlaneAnchor.transform);
+		GameObject_t1756533147 * L_4 = ___plane0;
+		// plane.transform.rotation = UnityARMatrixOps.GetRotation (arPlaneAnchor.transform);
+		NullCheck(L_4);
+		Transform_t3275118058 * L_5 = GameObject_get_transform_m909382139(L_4, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_6 = (&___arPlaneAnchor1)->get_transform_1();
+		// plane.transform.rotation = UnityARMatrixOps.GetRotation (arPlaneAnchor.transform);
+		Quaternion_t4030073918  L_7 = UnityARMatrixOps_GetRotation_m3161473972(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		// plane.transform.rotation = UnityARMatrixOps.GetRotation (arPlaneAnchor.transform);
+		NullCheck(L_5);
+		Transform_set_rotation_m3411284563(L_5, L_7, /*hidden argument*/NULL);
+		// MeshFilter mf = plane.GetComponentInChildren<MeshFilter> ();
+		GameObject_t1756533147 * L_8 = ___plane0;
+		// MeshFilter mf = plane.GetComponentInChildren<MeshFilter> ();
+		NullCheck(L_8);
+		MeshFilter_t3026937449 * L_9 = GameObject_GetComponentInChildren_TisMeshFilter_t3026937449_m2178217683(L_8, /*hidden argument*/GameObject_GetComponentInChildren_TisMeshFilter_t3026937449_m2178217683_MethodInfo_var);
+		V_0 = L_9;
+		// if (mf != null) {
+		MeshFilter_t3026937449 * L_10 = V_0;
+		// if (mf != null) {
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_11 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_10, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_11)
+		{
+			goto IL_00c9;
+		}
+	}
+	{
+		// mf.gameObject.transform.localScale = new Vector3(arPlaneAnchor.extent.x * 0.1f, arPlaneAnchor.extent.y * 0.1f, arPlaneAnchor.extent.z * 0.1f);
+		MeshFilter_t3026937449 * L_12 = V_0;
+		// mf.gameObject.transform.localScale = new Vector3(arPlaneAnchor.extent.x * 0.1f, arPlaneAnchor.extent.y * 0.1f, arPlaneAnchor.extent.z * 0.1f);
+		NullCheck(L_12);
+		GameObject_t1756533147 * L_13 = Component_get_gameObject_m3105766835(L_12, /*hidden argument*/NULL);
+		// mf.gameObject.transform.localScale = new Vector3(arPlaneAnchor.extent.x * 0.1f, arPlaneAnchor.extent.y * 0.1f, arPlaneAnchor.extent.z * 0.1f);
+		NullCheck(L_13);
+		Transform_t3275118058 * L_14 = GameObject_get_transform_m909382139(L_13, /*hidden argument*/NULL);
+		Vector3_t2243707580 * L_15 = (&___arPlaneAnchor1)->get_address_of_extent_4();
+		float L_16 = L_15->get_x_1();
+		Vector3_t2243707580 * L_17 = (&___arPlaneAnchor1)->get_address_of_extent_4();
+		float L_18 = L_17->get_y_2();
+		Vector3_t2243707580 * L_19 = (&___arPlaneAnchor1)->get_address_of_extent_4();
+		float L_20 = L_19->get_z_3();
+		// mf.gameObject.transform.localScale = new Vector3(arPlaneAnchor.extent.x * 0.1f, arPlaneAnchor.extent.y * 0.1f, arPlaneAnchor.extent.z * 0.1f);
+		Vector3_t2243707580  L_21;
+		memset(&L_21, 0, sizeof(L_21));
+		Vector3__ctor_m2638739322(&L_21, ((float)((float)L_16*(float)(0.1f))), ((float)((float)L_18*(float)(0.1f))), ((float)((float)L_20*(float)(0.1f))), /*hidden argument*/NULL);
+		// mf.gameObject.transform.localScale = new Vector3(arPlaneAnchor.extent.x * 0.1f, arPlaneAnchor.extent.y * 0.1f, arPlaneAnchor.extent.z * 0.1f);
+		NullCheck(L_14);
+		Transform_set_localScale_m2325460848(L_14, L_21, /*hidden argument*/NULL);
+		// mf.gameObject.transform.localPosition = new Vector3(arPlaneAnchor.center.x,arPlaneAnchor.center.y, -arPlaneAnchor.center.z);
+		MeshFilter_t3026937449 * L_22 = V_0;
+		// mf.gameObject.transform.localPosition = new Vector3(arPlaneAnchor.center.x,arPlaneAnchor.center.y, -arPlaneAnchor.center.z);
+		NullCheck(L_22);
+		GameObject_t1756533147 * L_23 = Component_get_gameObject_m3105766835(L_22, /*hidden argument*/NULL);
+		// mf.gameObject.transform.localPosition = new Vector3(arPlaneAnchor.center.x,arPlaneAnchor.center.y, -arPlaneAnchor.center.z);
+		NullCheck(L_23);
+		Transform_t3275118058 * L_24 = GameObject_get_transform_m909382139(L_23, /*hidden argument*/NULL);
+		Vector3_t2243707580 * L_25 = (&___arPlaneAnchor1)->get_address_of_center_3();
+		float L_26 = L_25->get_x_1();
+		Vector3_t2243707580 * L_27 = (&___arPlaneAnchor1)->get_address_of_center_3();
+		float L_28 = L_27->get_y_2();
+		Vector3_t2243707580 * L_29 = (&___arPlaneAnchor1)->get_address_of_center_3();
+		float L_30 = L_29->get_z_3();
+		// mf.gameObject.transform.localPosition = new Vector3(arPlaneAnchor.center.x,arPlaneAnchor.center.y, -arPlaneAnchor.center.z);
+		Vector3_t2243707580  L_31;
+		memset(&L_31, 0, sizeof(L_31));
+		Vector3__ctor_m2638739322(&L_31, L_26, L_28, ((-L_30)), /*hidden argument*/NULL);
+		// mf.gameObject.transform.localPosition = new Vector3(arPlaneAnchor.center.x,arPlaneAnchor.center.y, -arPlaneAnchor.center.z);
+		NullCheck(L_24);
+		Transform_set_localPosition_m1026930133(L_24, L_31, /*hidden argument*/NULL);
+	}
+
+IL_00c9:
+	{
+		// return plane;
+		GameObject_t1756533147 * L_32 = ___plane0;
+		V_1 = L_32;
+		goto IL_00d0;
+	}
+
+IL_00d0:
+	{
+		// }
+		GameObject_t1756533147 * L_33 = V_1;
+		return L_33;
+	}
+}
+// UnityEngine.GameObject UnityEngine.XR.iOS.UnityARUtility::UpdateObjectWithAnchorTransform(UnityEngine.GameObject,UnityEngine.XR.iOS.ARPlaneAnchor,System.Single)
+extern "C"  GameObject_t1756533147 * UnityARUtility_UpdateObjectWithAnchorTransform_m4136968086 (Il2CppObject * __this /* static, unused */, GameObject_t1756533147 * ___go0, ARPlaneAnchor_t1439520888  ___arPlaneAnchor1, float ___scaling2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARUtility_UpdateObjectWithAnchorTransform_m4136968086_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	MeshFilter_t3026937449 * V_0 = NULL;
+	float V_1 = 0.0f;
+	GameObject_t1756533147 * V_2 = NULL;
+	{
+		// go.transform.position = UnityARMatrixOps.GetPosition (arPlaneAnchor.transform);
+		GameObject_t1756533147 * L_0 = ___go0;
+		// go.transform.position = UnityARMatrixOps.GetPosition (arPlaneAnchor.transform);
+		NullCheck(L_0);
+		Transform_t3275118058 * L_1 = GameObject_get_transform_m909382139(L_0, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_2 = (&___arPlaneAnchor1)->get_transform_1();
+		// go.transform.position = UnityARMatrixOps.GetPosition (arPlaneAnchor.transform);
+		Vector3_t2243707580  L_3 = UnityARMatrixOps_GetPosition_m110321593(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		// go.transform.position = UnityARMatrixOps.GetPosition (arPlaneAnchor.transform);
+		NullCheck(L_1);
+		Transform_set_position_m2469242620(L_1, L_3, /*hidden argument*/NULL);
+		// go.transform.rotation = UnityARMatrixOps.GetRotation (arPlaneAnchor.transform);
+		GameObject_t1756533147 * L_4 = ___go0;
+		// go.transform.rotation = UnityARMatrixOps.GetRotation (arPlaneAnchor.transform);
+		NullCheck(L_4);
+		Transform_t3275118058 * L_5 = GameObject_get_transform_m909382139(L_4, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_6 = (&___arPlaneAnchor1)->get_transform_1();
+		// go.transform.rotation = UnityARMatrixOps.GetRotation (arPlaneAnchor.transform);
+		Quaternion_t4030073918  L_7 = UnityARMatrixOps_GetRotation_m3161473972(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		// go.transform.rotation = UnityARMatrixOps.GetRotation (arPlaneAnchor.transform);
+		NullCheck(L_5);
+		Transform_set_rotation_m3411284563(L_5, L_7, /*hidden argument*/NULL);
+		// MeshFilter mf = go.GetComponentInChildren<MeshFilter> ();
+		GameObject_t1756533147 * L_8 = ___go0;
+		// MeshFilter mf = go.GetComponentInChildren<MeshFilter> ();
+		NullCheck(L_8);
+		MeshFilter_t3026937449 * L_9 = GameObject_GetComponentInChildren_TisMeshFilter_t3026937449_m2178217683(L_8, /*hidden argument*/GameObject_GetComponentInChildren_TisMeshFilter_t3026937449_m2178217683_MethodInfo_var);
+		V_0 = L_9;
+		// float minExtent = Mathf.Min (arPlaneAnchor.extent.x, arPlaneAnchor.extent.z);
+		Vector3_t2243707580 * L_10 = (&___arPlaneAnchor1)->get_address_of_extent_4();
+		float L_11 = L_10->get_x_1();
+		Vector3_t2243707580 * L_12 = (&___arPlaneAnchor1)->get_address_of_extent_4();
+		float L_13 = L_12->get_z_3();
+		// float minExtent = Mathf.Min (arPlaneAnchor.extent.x, arPlaneAnchor.extent.z);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_14 = Mathf_Min_m1648492575(NULL /*static, unused*/, L_11, L_13, /*hidden argument*/NULL);
+		V_1 = L_14;
+		// if (mf != null) {
+		MeshFilter_t3026937449 * L_15 = V_0;
+		// if (mf != null) {
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_16 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_15, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_16)
+		{
+			goto IL_00d0;
+		}
+	}
+	{
+		// mf.gameObject.transform.localScale = new Vector3 (arPlaneAnchor.extent.x * scaling, minExtent * scaling, arPlaneAnchor.extent.z * scaling);
+		MeshFilter_t3026937449 * L_17 = V_0;
+		// mf.gameObject.transform.localScale = new Vector3 (arPlaneAnchor.extent.x * scaling, minExtent * scaling, arPlaneAnchor.extent.z * scaling);
+		NullCheck(L_17);
+		GameObject_t1756533147 * L_18 = Component_get_gameObject_m3105766835(L_17, /*hidden argument*/NULL);
+		// mf.gameObject.transform.localScale = new Vector3 (arPlaneAnchor.extent.x * scaling, minExtent * scaling, arPlaneAnchor.extent.z * scaling);
+		NullCheck(L_18);
+		Transform_t3275118058 * L_19 = GameObject_get_transform_m909382139(L_18, /*hidden argument*/NULL);
+		Vector3_t2243707580 * L_20 = (&___arPlaneAnchor1)->get_address_of_extent_4();
+		float L_21 = L_20->get_x_1();
+		float L_22 = ___scaling2;
+		float L_23 = V_1;
+		float L_24 = ___scaling2;
+		Vector3_t2243707580 * L_25 = (&___arPlaneAnchor1)->get_address_of_extent_4();
+		float L_26 = L_25->get_z_3();
+		float L_27 = ___scaling2;
+		// mf.gameObject.transform.localScale = new Vector3 (arPlaneAnchor.extent.x * scaling, minExtent * scaling, arPlaneAnchor.extent.z * scaling);
+		Vector3_t2243707580  L_28;
+		memset(&L_28, 0, sizeof(L_28));
+		Vector3__ctor_m2638739322(&L_28, ((float)((float)L_21*(float)L_22)), ((float)((float)L_23*(float)L_24)), ((float)((float)L_26*(float)L_27)), /*hidden argument*/NULL);
+		// mf.gameObject.transform.localScale = new Vector3 (arPlaneAnchor.extent.x * scaling, minExtent * scaling, arPlaneAnchor.extent.z * scaling);
+		NullCheck(L_19);
+		Transform_set_localScale_m2325460848(L_19, L_28, /*hidden argument*/NULL);
+		// mf.gameObject.transform.localPosition = new Vector3 (arPlaneAnchor.center.x, arPlaneAnchor.center.y, -arPlaneAnchor.center.z);
+		MeshFilter_t3026937449 * L_29 = V_0;
+		// mf.gameObject.transform.localPosition = new Vector3 (arPlaneAnchor.center.x, arPlaneAnchor.center.y, -arPlaneAnchor.center.z);
+		NullCheck(L_29);
+		GameObject_t1756533147 * L_30 = Component_get_gameObject_m3105766835(L_29, /*hidden argument*/NULL);
+		// mf.gameObject.transform.localPosition = new Vector3 (arPlaneAnchor.center.x, arPlaneAnchor.center.y, -arPlaneAnchor.center.z);
+		NullCheck(L_30);
+		Transform_t3275118058 * L_31 = GameObject_get_transform_m909382139(L_30, /*hidden argument*/NULL);
+		Vector3_t2243707580 * L_32 = (&___arPlaneAnchor1)->get_address_of_center_3();
+		float L_33 = L_32->get_x_1();
+		Vector3_t2243707580 * L_34 = (&___arPlaneAnchor1)->get_address_of_center_3();
+		float L_35 = L_34->get_y_2();
+		Vector3_t2243707580 * L_36 = (&___arPlaneAnchor1)->get_address_of_center_3();
+		float L_37 = L_36->get_z_3();
+		// mf.gameObject.transform.localPosition = new Vector3 (arPlaneAnchor.center.x, arPlaneAnchor.center.y, -arPlaneAnchor.center.z);
+		Vector3_t2243707580  L_38;
+		memset(&L_38, 0, sizeof(L_38));
+		Vector3__ctor_m2638739322(&L_38, L_33, L_35, ((-L_37)), /*hidden argument*/NULL);
+		// mf.gameObject.transform.localPosition = new Vector3 (arPlaneAnchor.center.x, arPlaneAnchor.center.y, -arPlaneAnchor.center.z);
+		NullCheck(L_31);
+		Transform_set_localPosition_m1026930133(L_31, L_38, /*hidden argument*/NULL);
+	}
+
+IL_00d0:
+	{
+		// return go;
+		GameObject_t1756533147 * L_39 = ___go0;
+		V_2 = L_39;
+		goto IL_00d7;
+	}
+
+IL_00d7:
+	{
+		// }
+		GameObject_t1756533147 * L_40 = V_2;
+		return L_40;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARUtility::.cctor()
+extern "C"  void UnityARUtility__cctor_m40081288 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARUtility__cctor_m40081288_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private static GameObject planePrefab = null;
+		((UnityARUtility_t3608388148_StaticFields*)UnityARUtility_t3608388148_il2cpp_TypeInfo_var->static_fields)->set_planePrefab_2((GameObject_t1756533147 *)NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARVideo::.ctor()
+extern "C"  void UnityARVideo__ctor_m4011238024 (UnityARVideo_t2351297253 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARVideo::Start()
+extern "C"  void UnityARVideo_Start_m3167459156 (UnityARVideo_t2351297253 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARVideo_Start_m3167459156_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// m_Session = UnityARSessionNativeInterface.GetARSessionNativeInterface ();
+		// m_Session = UnityARSessionNativeInterface.GetARSessionNativeInterface ();
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARSessionNativeInterface_t1130867170 * L_0 = UnityARSessionNativeInterface_GetARSessionNativeInterface_m2987304195(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_m_Session_6(L_0);
+		// bCommandBufferInitialized = false;
+		__this->set_bCommandBufferInitialized_7((bool)0);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARVideo::InitializeCommandBuffer()
+extern "C"  void UnityARVideo_InitializeCommandBuffer_m2276285637 (UnityARVideo_t2351297253 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARVideo_InitializeCommandBuffer_m2276285637_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// m_VideoCommandBuffer = new CommandBuffer();
+		// m_VideoCommandBuffer = new CommandBuffer();
+		CommandBuffer_t1204166949 * L_0 = (CommandBuffer_t1204166949 *)il2cpp_codegen_object_new(CommandBuffer_t1204166949_il2cpp_TypeInfo_var);
+		CommandBuffer__ctor_m3893953450(L_0, /*hidden argument*/NULL);
+		__this->set_m_VideoCommandBuffer_3(L_0);
+		// m_VideoCommandBuffer.Blit(null, BuiltinRenderTextureType.CurrentActive, m_ClearMaterial);
+		CommandBuffer_t1204166949 * L_1 = __this->get_m_VideoCommandBuffer_3();
+		// m_VideoCommandBuffer.Blit(null, BuiltinRenderTextureType.CurrentActive, m_ClearMaterial);
+		RenderTargetIdentifier_t772440638  L_2 = RenderTargetIdentifier_op_Implicit_m1621446097(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		Material_t193706927 * L_3 = __this->get_m_ClearMaterial_2();
+		// m_VideoCommandBuffer.Blit(null, BuiltinRenderTextureType.CurrentActive, m_ClearMaterial);
+		NullCheck(L_1);
+		CommandBuffer_Blit_m4282817560(L_1, (Texture_t2243626319 *)NULL, L_2, L_3, /*hidden argument*/NULL);
+		// GetComponent<Camera>().AddCommandBuffer(CameraEvent.BeforeForwardOpaque, m_VideoCommandBuffer);
+		// GetComponent<Camera>().AddCommandBuffer(CameraEvent.BeforeForwardOpaque, m_VideoCommandBuffer);
+		Camera_t189460977 * L_4 = Component_GetComponent_TisCamera_t189460977_m3276577584(__this, /*hidden argument*/Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var);
+		CommandBuffer_t1204166949 * L_5 = __this->get_m_VideoCommandBuffer_3();
+		// GetComponent<Camera>().AddCommandBuffer(CameraEvent.BeforeForwardOpaque, m_VideoCommandBuffer);
+		NullCheck(L_4);
+		Camera_AddCommandBuffer_m2569587168(L_4, ((int32_t)10), L_5, /*hidden argument*/NULL);
+		// bCommandBufferInitialized = true;
+		__this->set_bCommandBufferInitialized_7((bool)1);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARVideo::OnDestroy()
+extern "C"  void UnityARVideo_OnDestroy_m1187748541 (UnityARVideo_t2351297253 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARVideo_OnDestroy_m1187748541_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// GetComponent<Camera>().RemoveCommandBuffer(CameraEvent.BeforeForwardOpaque, m_VideoCommandBuffer);
+		// GetComponent<Camera>().RemoveCommandBuffer(CameraEvent.BeforeForwardOpaque, m_VideoCommandBuffer);
+		Camera_t189460977 * L_0 = Component_GetComponent_TisCamera_t189460977_m3276577584(__this, /*hidden argument*/Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var);
+		CommandBuffer_t1204166949 * L_1 = __this->get_m_VideoCommandBuffer_3();
+		// GetComponent<Camera>().RemoveCommandBuffer(CameraEvent.BeforeForwardOpaque, m_VideoCommandBuffer);
+		NullCheck(L_0);
+		Camera_RemoveCommandBuffer_m2103408695(L_0, ((int32_t)10), L_1, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.iOS.UnityARVideo::OnPreRender()
+extern "C"  void UnityARVideo_OnPreRender_m598299706 (UnityARVideo_t2351297253 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityARVideo_OnPreRender_m598299706_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARTextureHandles_t3764914833  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Resolution_t3693662728  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	Matrix4x4_t2933234003  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	{
+		// ARTextureHandles handles = m_Session.GetARVideoTextureHandles();
+		UnityARSessionNativeInterface_t1130867170 * L_0 = __this->get_m_Session_6();
+		// ARTextureHandles handles = m_Session.GetARVideoTextureHandles();
+		NullCheck(L_0);
+		ARTextureHandles_t3764914833  L_1 = UnityARSessionNativeInterface_GetARVideoTextureHandles_m299127149(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		// if (handles.textureY == System.IntPtr.Zero || handles.textureCbCr == System.IntPtr.Zero)
+		IntPtr_t L_2 = (&V_0)->get_textureY_0();
+		IntPtr_t L_3 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
+		// if (handles.textureY == System.IntPtr.Zero || handles.textureCbCr == System.IntPtr.Zero)
+		bool L_4 = IntPtr_op_Equality_m1573482188(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		IntPtr_t L_5 = (&V_0)->get_textureCbCr_1();
+		IntPtr_t L_6 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
+		// if (handles.textureY == System.IntPtr.Zero || handles.textureCbCr == System.IntPtr.Zero)
+		bool L_7 = IntPtr_op_Equality_m1573482188(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_003f;
+		}
+	}
+
+IL_0039:
+	{
+		// return;
+		goto IL_01ce;
+	}
+
+IL_003f:
+	{
+		// if (!bCommandBufferInitialized) {
+		bool L_8 = __this->get_bCommandBufferInitialized_7();
+		if (L_8)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		// InitializeCommandBuffer ();
+		// InitializeCommandBuffer ();
+		UnityARVideo_InitializeCommandBuffer_m2276285637(__this, /*hidden argument*/NULL);
+	}
+
+IL_0052:
+	{
+		// Resolution currentResolution = Screen.currentResolution;
+		Resolution_t3693662728  L_9 = Screen_get_currentResolution_m2361090437(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = L_9;
+		// _videoTextureY = Texture2D.CreateExternalTexture(currentResolution.width, currentResolution.height,
+		// _videoTextureY = Texture2D.CreateExternalTexture(currentResolution.width, currentResolution.height,
+		int32_t L_10 = Resolution_get_width_m1438273472((&V_1), /*hidden argument*/NULL);
+		// _videoTextureY = Texture2D.CreateExternalTexture(currentResolution.width, currentResolution.height,
+		int32_t L_11 = Resolution_get_height_m882683003((&V_1), /*hidden argument*/NULL);
+		IntPtr_t L_12 = (&V_0)->get_textureY_0();
+		// _videoTextureY = Texture2D.CreateExternalTexture(currentResolution.width, currentResolution.height,
+		Texture2D_t3542995729 * L_13 = Texture2D_CreateExternalTexture_m3402112250(NULL /*static, unused*/, L_10, L_11, ((int32_t)63), (bool)0, (bool)0, L_12, /*hidden argument*/NULL);
+		__this->set__videoTextureY_4(L_13);
+		// _videoTextureY.filterMode = FilterMode.Bilinear;
+		Texture2D_t3542995729 * L_14 = __this->get__videoTextureY_4();
+		// _videoTextureY.filterMode = FilterMode.Bilinear;
+		NullCheck(L_14);
+		Texture_set_filterMode_m3838996656(L_14, 1, /*hidden argument*/NULL);
+		// _videoTextureY.wrapMode = TextureWrapMode.Repeat;
+		Texture2D_t3542995729 * L_15 = __this->get__videoTextureY_4();
+		// _videoTextureY.wrapMode = TextureWrapMode.Repeat;
+		NullCheck(L_15);
+		Texture_set_wrapMode_m333956747(L_15, 0, /*hidden argument*/NULL);
+		// _videoTextureY.UpdateExternalTexture(handles.textureY);
+		Texture2D_t3542995729 * L_16 = __this->get__videoTextureY_4();
+		IntPtr_t L_17 = (&V_0)->get_textureY_0();
+		// _videoTextureY.UpdateExternalTexture(handles.textureY);
+		NullCheck(L_16);
+		Texture2D_UpdateExternalTexture_m1701322565(L_16, L_17, /*hidden argument*/NULL);
+		// _videoTextureCbCr = Texture2D.CreateExternalTexture(currentResolution.width, currentResolution.height,
+		// _videoTextureCbCr = Texture2D.CreateExternalTexture(currentResolution.width, currentResolution.height,
+		int32_t L_18 = Resolution_get_width_m1438273472((&V_1), /*hidden argument*/NULL);
+		// _videoTextureCbCr = Texture2D.CreateExternalTexture(currentResolution.width, currentResolution.height,
+		int32_t L_19 = Resolution_get_height_m882683003((&V_1), /*hidden argument*/NULL);
+		IntPtr_t L_20 = (&V_0)->get_textureCbCr_1();
+		// _videoTextureCbCr = Texture2D.CreateExternalTexture(currentResolution.width, currentResolution.height,
+		Texture2D_t3542995729 * L_21 = Texture2D_CreateExternalTexture_m3402112250(NULL /*static, unused*/, L_18, L_19, ((int32_t)62), (bool)0, (bool)0, L_20, /*hidden argument*/NULL);
+		__this->set__videoTextureCbCr_5(L_21);
+		// _videoTextureCbCr.filterMode = FilterMode.Bilinear;
+		Texture2D_t3542995729 * L_22 = __this->get__videoTextureCbCr_5();
+		// _videoTextureCbCr.filterMode = FilterMode.Bilinear;
+		NullCheck(L_22);
+		Texture_set_filterMode_m3838996656(L_22, 1, /*hidden argument*/NULL);
+		// _videoTextureCbCr.wrapMode = TextureWrapMode.Repeat;
+		Texture2D_t3542995729 * L_23 = __this->get__videoTextureCbCr_5();
+		// _videoTextureCbCr.wrapMode = TextureWrapMode.Repeat;
+		NullCheck(L_23);
+		Texture_set_wrapMode_m333956747(L_23, 0, /*hidden argument*/NULL);
+		// _videoTextureCbCr.UpdateExternalTexture(handles.textureCbCr);
+		Texture2D_t3542995729 * L_24 = __this->get__videoTextureCbCr_5();
+		IntPtr_t L_25 = (&V_0)->get_textureCbCr_1();
+		// _videoTextureCbCr.UpdateExternalTexture(handles.textureCbCr);
+		NullCheck(L_24);
+		Texture2D_UpdateExternalTexture_m1701322565(L_24, L_25, /*hidden argument*/NULL);
+		// m_ClearMaterial.SetTexture("_textureY", _videoTextureY);
+		Material_t193706927 * L_26 = __this->get_m_ClearMaterial_2();
+		Texture2D_t3542995729 * L_27 = __this->get__videoTextureY_4();
+		// m_ClearMaterial.SetTexture("_textureY", _videoTextureY);
+		NullCheck(L_26);
+		Material_SetTexture_m141095205(L_26, _stringLiteral1152424733, L_27, /*hidden argument*/NULL);
+		// m_ClearMaterial.SetTexture("_textureCbCr", _videoTextureCbCr);
+		Material_t193706927 * L_28 = __this->get_m_ClearMaterial_2();
+		Texture2D_t3542995729 * L_29 = __this->get__videoTextureCbCr_5();
+		// m_ClearMaterial.SetTexture("_textureCbCr", _videoTextureCbCr);
+		NullCheck(L_28);
+		Material_SetTexture_m141095205(L_28, _stringLiteral2391281062, L_29, /*hidden argument*/NULL);
+		// int isPortrait = 0;
+		V_2 = 0;
+		// float rotation = 0;
+		V_3 = (0.0f);
+		// if (Screen.orientation == ScreenOrientation.Portrait) {
+		int32_t L_30 = Screen_get_orientation_m879255848(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_30) == ((uint32_t)1))))
+		{
+			goto IL_0142;
+		}
+	}
+	{
+		// rotation = -90;
+		V_3 = (-90.0f);
+		// isPortrait = 1;
+		V_2 = 1;
+		goto IL_016f;
+	}
+
+IL_0142:
+	{
+		// else if (Screen.orientation == ScreenOrientation.PortraitUpsideDown) {
+		int32_t L_31 = Screen_get_orientation_m879255848(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_31) == ((uint32_t)2))))
+		{
+			goto IL_015c;
+		}
+	}
+	{
+		// rotation = 90;
+		V_3 = (90.0f);
+		// isPortrait = 1;
+		V_2 = 1;
+		goto IL_016f;
+	}
+
+IL_015c:
+	{
+		// else if (Screen.orientation == ScreenOrientation.LandscapeRight) {
+		int32_t L_32 = Screen_get_orientation_m879255848(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_32) == ((uint32_t)4))))
+		{
+			goto IL_016f;
+		}
+	}
+	{
+		// rotation = -180;
+		V_3 = (-180.0f);
+	}
+
+IL_016f:
+	{
+		// Matrix4x4 m = Matrix4x4.TRS (Vector3.zero, Quaternion.Euler(0.0f, 0.0f, rotation), Vector3.one);
+		Vector3_t2243707580  L_33 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_34 = V_3;
+		// Matrix4x4 m = Matrix4x4.TRS (Vector3.zero, Quaternion.Euler(0.0f, 0.0f, rotation), Vector3.one);
+		Quaternion_t4030073918  L_35 = Quaternion_Euler_m2887458175(NULL /*static, unused*/, (0.0f), (0.0f), L_34, /*hidden argument*/NULL);
+		// Matrix4x4 m = Matrix4x4.TRS (Vector3.zero, Quaternion.Euler(0.0f, 0.0f, rotation), Vector3.one);
+		Vector3_t2243707580  L_36 = Vector3_get_one_m627547232(NULL /*static, unused*/, /*hidden argument*/NULL);
+		// Matrix4x4 m = Matrix4x4.TRS (Vector3.zero, Quaternion.Euler(0.0f, 0.0f, rotation), Vector3.one);
+		Matrix4x4_t2933234003  L_37 = Matrix4x4_TRS_m1913765359(NULL /*static, unused*/, L_33, L_35, L_36, /*hidden argument*/NULL);
+		V_4 = L_37;
+		// m_ClearMaterial.SetMatrix("_TextureRotation", m);
+		Material_t193706927 * L_38 = __this->get_m_ClearMaterial_2();
+		Matrix4x4_t2933234003  L_39 = V_4;
+		// m_ClearMaterial.SetMatrix("_TextureRotation", m);
+		NullCheck(L_38);
+		Material_SetMatrix_m1387972957(L_38, _stringLiteral2946740916, L_39, /*hidden argument*/NULL);
+		// m_ClearMaterial.SetFloat("_texCoordScale", m_Session.GetARYUVTexCoordScale());
+		Material_t193706927 * L_40 = __this->get_m_ClearMaterial_2();
+		UnityARSessionNativeInterface_t1130867170 * L_41 = __this->get_m_Session_6();
+		// m_ClearMaterial.SetFloat("_texCoordScale", m_Session.GetARYUVTexCoordScale());
+		NullCheck(L_41);
+		float L_42 = UnityARSessionNativeInterface_GetARYUVTexCoordScale_m1708528794(L_41, /*hidden argument*/NULL);
+		// m_ClearMaterial.SetFloat("_texCoordScale", m_Session.GetARYUVTexCoordScale());
+		NullCheck(L_40);
+		Material_SetFloat_m1926275467(L_40, _stringLiteral1387439463, L_42, /*hidden argument*/NULL);
+		// m_ClearMaterial.SetInt("_isPortrait", isPortrait);
+		Material_t193706927 * L_43 = __this->get_m_ClearMaterial_2();
+		int32_t L_44 = V_2;
+		// m_ClearMaterial.SetInt("_isPortrait", isPortrait);
+		NullCheck(L_43);
+		Material_SetInt_m522302436(L_43, _stringLiteral2454363760, L_44, /*hidden argument*/NULL);
+	}
+
+IL_01ce:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityPointCloudExample::.ctor()
+extern "C"  void UnityPointCloudExample__ctor_m2961719929 (UnityPointCloudExample_t3196264220 * __this, const MethodInfo* method)
+{
+	{
+		// public uint numPointsToShow = 100;
+		__this->set_numPointsToShow_2(((int32_t)100));
+		// public GameObject PointCloudPrefab = null;
+		__this->set_PointCloudPrefab_3((GameObject_t1756533147 *)NULL);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityPointCloudExample::Start()
+extern "C"  void UnityPointCloudExample_Start_m3314310889 (UnityPointCloudExample_t3196264220 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityPointCloudExample_Start_m3314310889_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		// UnityARSessionNativeInterface.ARFrameUpdatedEvent += ARFrameUpdated;
+		IntPtr_t L_0;
+		L_0.set_m_value_0((void*)(void*)UnityPointCloudExample_ARFrameUpdated_m2062770295_MethodInfo_var);
+		ARFrameUpdate_t496507918 * L_1 = (ARFrameUpdate_t496507918 *)il2cpp_codegen_object_new(ARFrameUpdate_t496507918_il2cpp_TypeInfo_var);
+		ARFrameUpdate__ctor_m3762766849(L_1, __this, L_0, /*hidden argument*/NULL);
+		// UnityARSessionNativeInterface.ARFrameUpdatedEvent += ARFrameUpdated;
+		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
+		UnityARSessionNativeInterface_add_ARFrameUpdatedEvent_m1736114240(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		// if (PointCloudPrefab != null)
+		GameObject_t1756533147 * L_2 = __this->get_PointCloudPrefab_3();
+		// if (PointCloudPrefab != null)
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		// pointCloudObjects = new List<GameObject> ();
+		// pointCloudObjects = new List<GameObject> ();
+		List_1_t1125654279 * L_4 = (List_1_t1125654279 *)il2cpp_codegen_object_new(List_1_t1125654279_il2cpp_TypeInfo_var);
+		List_1__ctor_m704351054(L_4, /*hidden argument*/List_1__ctor_m704351054_MethodInfo_var);
+		__this->set_pointCloudObjects_4(L_4);
+		// for (int i =0; i < numPointsToShow; i++)
+		V_0 = 0;
+		goto IL_0052;
+	}
+
+IL_0036:
+	{
+		// pointCloudObjects.Add (Instantiate (PointCloudPrefab));
+		List_1_t1125654279 * L_5 = __this->get_pointCloudObjects_4();
+		GameObject_t1756533147 * L_6 = __this->get_PointCloudPrefab_3();
+		// pointCloudObjects.Add (Instantiate (PointCloudPrefab));
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		GameObject_t1756533147 * L_7 = Object_Instantiate_TisGameObject_t1756533147_m3664764861(NULL /*static, unused*/, L_6, /*hidden argument*/Object_Instantiate_TisGameObject_t1756533147_m3664764861_MethodInfo_var);
+		// pointCloudObjects.Add (Instantiate (PointCloudPrefab));
+		NullCheck(L_5);
+		List_1_Add_m3441471442(L_5, L_7, /*hidden argument*/List_1_Add_m3441471442_MethodInfo_var);
+		// for (int i =0; i < numPointsToShow; i++)
+		int32_t L_8 = V_0;
+		V_0 = ((int32_t)((int32_t)L_8+(int32_t)1));
+	}
+
+IL_0052:
+	{
+		// for (int i =0; i < numPointsToShow; i++)
+		int32_t L_9 = V_0;
+		uint32_t L_10 = __this->get_numPointsToShow_2();
+		if ((((int64_t)(((int64_t)((int64_t)L_9)))) < ((int64_t)(((int64_t)((uint64_t)L_10))))))
+		{
+			goto IL_0036;
+		}
+	}
+	{
+	}
+
+IL_0061:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityPointCloudExample::ARFrameUpdated(UnityEngine.XR.iOS.UnityARCamera)
+extern "C"  void UnityPointCloudExample_ARFrameUpdated_m2062770295 (UnityPointCloudExample_t3196264220 * __this, UnityARCamera_t4198559457  ___camera0, const MethodInfo* method)
+{
+	{
+		// m_PointCloudData = camera.pointCloudData;
+		Vector3U5BU5D_t1172311765* L_0 = (&___camera0)->get_pointCloudData_4();
+		__this->set_m_PointCloudData_5(L_0);
+		// }
+		return;
+	}
+}
+// System.Void UnityPointCloudExample::Update()
+extern "C"  void UnityPointCloudExample_Update_m898300810 (UnityPointCloudExample_t3196264220 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityPointCloudExample_Update_m898300810_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Vector4_t2243707581  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	GameObject_t1756533147 * V_2 = NULL;
+	{
+		// if (PointCloudPrefab != null && m_PointCloudData != null)
+		GameObject_t1756533147 * L_0 = __this->get_PointCloudPrefab_3();
+		// if (PointCloudPrefab != null && m_PointCloudData != null)
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0091;
+		}
+	}
+	{
+		Vector3U5BU5D_t1172311765* L_2 = __this->get_m_PointCloudData_5();
+		if (!L_2)
+		{
+			goto IL_0091;
+		}
+	}
+	{
+		// for (int count = 0; count < Math.Min (m_PointCloudData.Length, numPointsToShow); count++)
+		V_0 = 0;
+		goto IL_0074;
+	}
+
+IL_0025:
+	{
+		// Vector4 vert = m_PointCloudData [count];
+		Vector3U5BU5D_t1172311765* L_3 = __this->get_m_PointCloudData_5();
+		int32_t L_4 = V_0;
+		NullCheck(L_3);
+		// Vector4 vert = m_PointCloudData [count];
+		Vector4_t2243707581  L_5 = Vector4_op_Implicit_m1059320239(NULL /*static, unused*/, (*(Vector3_t2243707580 *)((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4)))), /*hidden argument*/NULL);
+		V_1 = L_5;
+		// GameObject point = pointCloudObjects [count];
+		List_1_t1125654279 * L_6 = __this->get_pointCloudObjects_4();
+		int32_t L_7 = V_0;
+		// GameObject point = pointCloudObjects [count];
+		NullCheck(L_6);
+		GameObject_t1756533147 * L_8 = List_1_get_Item_m939767277(L_6, L_7, /*hidden argument*/List_1_get_Item_m939767277_MethodInfo_var);
+		V_2 = L_8;
+		// point.transform.position = new Vector3(vert.x, vert.y, vert.z);
+		GameObject_t1756533147 * L_9 = V_2;
+		// point.transform.position = new Vector3(vert.x, vert.y, vert.z);
+		NullCheck(L_9);
+		Transform_t3275118058 * L_10 = GameObject_get_transform_m909382139(L_9, /*hidden argument*/NULL);
+		float L_11 = (&V_1)->get_x_1();
+		float L_12 = (&V_1)->get_y_2();
+		float L_13 = (&V_1)->get_z_3();
+		// point.transform.position = new Vector3(vert.x, vert.y, vert.z);
+		Vector3_t2243707580  L_14;
+		memset(&L_14, 0, sizeof(L_14));
+		Vector3__ctor_m2638739322(&L_14, L_11, L_12, L_13, /*hidden argument*/NULL);
+		// point.transform.position = new Vector3(vert.x, vert.y, vert.z);
+		NullCheck(L_10);
+		Transform_set_position_m2469242620(L_10, L_14, /*hidden argument*/NULL);
+		// for (int count = 0; count < Math.Min (m_PointCloudData.Length, numPointsToShow); count++)
+		int32_t L_15 = V_0;
+		V_0 = ((int32_t)((int32_t)L_15+(int32_t)1));
+	}
+
+IL_0074:
+	{
+		// for (int count = 0; count < Math.Min (m_PointCloudData.Length, numPointsToShow); count++)
+		int32_t L_16 = V_0;
+		Vector3U5BU5D_t1172311765* L_17 = __this->get_m_PointCloudData_5();
+		NullCheck(L_17);
+		uint32_t L_18 = __this->get_numPointsToShow_2();
+		// for (int count = 0; count < Math.Min (m_PointCloudData.Length, numPointsToShow); count++)
+		int64_t L_19 = Math_Min_m301707792(NULL /*static, unused*/, (((int64_t)((int64_t)(((int32_t)((int32_t)(((Il2CppArray *)L_17)->max_length))))))), (((int64_t)((uint64_t)L_18))), /*hidden argument*/NULL);
+		if ((((int64_t)(((int64_t)((int64_t)L_16)))) < ((int64_t)L_19)))
+		{
+			goto IL_0025;
+		}
+	}
+	{
+	}
+
+IL_0091:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityStandardAssets.SceneUtils.ParticleSceneControls::.ctor()
+extern "C"  void ParticleSceneControls__ctor_m3022166447 (ParticleSceneControls_t2895192958 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ParticleSceneControls__ctor_m3022166447_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public float spawnOffset = 0.5f;
+		__this->set_spawnOffset_3((0.5f));
+		// public float multiply = 1;
+		__this->set_multiply_4((1.0f));
+		// public bool clearOnChange = false;
+		__this->set_clearOnChange_5((bool)0);
+		// private List<Transform> m_CurrentParticleList = new List<Transform>();
+		List_1_t2644239190 * L_0 = (List_1_t2644239190 *)il2cpp_codegen_object_new(List_1_t2644239190_il2cpp_TypeInfo_var);
+		List_1__ctor_m833109890(L_0, /*hidden argument*/List_1__ctor_m833109890_MethodInfo_var);
+		__this->set_m_CurrentParticleList_14(L_0);
+		// private Vector3 m_CamOffsetVelocity = Vector3.zero;
+		Vector3_t2243707580  L_1 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_m_CamOffsetVelocity_17(L_1);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityStandardAssets.SceneUtils.ParticleSceneControls::Awake()
+extern "C"  void ParticleSceneControls_Awake_m3651709266 (ParticleSceneControls_t2895192958 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ParticleSceneControls_Awake_m3651709266_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Select(s_SelectedIndex);
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		int32_t L_0 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_SelectedIndex_16();
+		// Select(s_SelectedIndex);
+		ParticleSceneControls_Select_m906043616(__this, L_0, /*hidden argument*/NULL);
+		// previousButton.onClick.AddListener(Previous);
+		Button_t2872111280 * L_1 = __this->get_previousButton_9();
+		// previousButton.onClick.AddListener(Previous);
+		NullCheck(L_1);
+		ButtonClickedEvent_t2455055323 * L_2 = Button_get_onClick_m1595880935(L_1, /*hidden argument*/NULL);
+		IntPtr_t L_3;
+		L_3.set_m_value_0((void*)(void*)ParticleSceneControls_Previous_m1362340984_MethodInfo_var);
+		UnityAction_t4025899511 * L_4 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_4, __this, L_3, /*hidden argument*/NULL);
+		// previousButton.onClick.AddListener(Previous);
+		NullCheck(L_2);
+		UnityEvent_AddListener_m1596810379(L_2, L_4, /*hidden argument*/NULL);
+		// nextButton.onClick.AddListener(Next);
+		Button_t2872111280 * L_5 = __this->get_nextButton_10();
+		// nextButton.onClick.AddListener(Next);
+		NullCheck(L_5);
+		ButtonClickedEvent_t2455055323 * L_6 = Button_get_onClick_m1595880935(L_5, /*hidden argument*/NULL);
+		IntPtr_t L_7;
+		L_7.set_m_value_0((void*)(void*)ParticleSceneControls_Next_m1895686128_MethodInfo_var);
+		UnityAction_t4025899511 * L_8 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_8, __this, L_7, /*hidden argument*/NULL);
+		// nextButton.onClick.AddListener(Next);
+		NullCheck(L_6);
+		UnityEvent_AddListener_m1596810379(L_6, L_8, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityStandardAssets.SceneUtils.ParticleSceneControls::OnDisable()
+extern "C"  void ParticleSceneControls_OnDisable_m3467264454 (ParticleSceneControls_t2895192958 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ParticleSceneControls_OnDisable_m3467264454_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// previousButton.onClick.RemoveListener (Previous);
+		Button_t2872111280 * L_0 = __this->get_previousButton_9();
+		// previousButton.onClick.RemoveListener (Previous);
+		NullCheck(L_0);
+		ButtonClickedEvent_t2455055323 * L_1 = Button_get_onClick_m1595880935(L_0, /*hidden argument*/NULL);
+		IntPtr_t L_2;
+		L_2.set_m_value_0((void*)(void*)ParticleSceneControls_Previous_m1362340984_MethodInfo_var);
+		UnityAction_t4025899511 * L_3 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_3, __this, L_2, /*hidden argument*/NULL);
+		// previousButton.onClick.RemoveListener (Previous);
+		NullCheck(L_1);
+		UnityEvent_RemoveListener_m2073859718(L_1, L_3, /*hidden argument*/NULL);
+		// nextButton.onClick.RemoveListener (Next);
+		Button_t2872111280 * L_4 = __this->get_nextButton_10();
+		// nextButton.onClick.RemoveListener (Next);
+		NullCheck(L_4);
+		ButtonClickedEvent_t2455055323 * L_5 = Button_get_onClick_m1595880935(L_4, /*hidden argument*/NULL);
+		IntPtr_t L_6;
+		L_6.set_m_value_0((void*)(void*)ParticleSceneControls_Next_m1895686128_MethodInfo_var);
+		UnityAction_t4025899511 * L_7 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_7, __this, L_6, /*hidden argument*/NULL);
+		// nextButton.onClick.RemoveListener (Next);
+		NullCheck(L_5);
+		UnityEvent_RemoveListener_m2073859718(L_5, L_7, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityStandardAssets.SceneUtils.ParticleSceneControls::Previous()
+extern "C"  void ParticleSceneControls_Previous_m1362340984 (ParticleSceneControls_t2895192958 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ParticleSceneControls_Previous_m1362340984_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// s_SelectedIndex--;
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		int32_t L_0 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_SelectedIndex_16();
+		((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->set_s_SelectedIndex_16(((int32_t)((int32_t)L_0-(int32_t)1)));
+		// if (s_SelectedIndex == -1)
+		int32_t L_1 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_SelectedIndex_16();
+		if ((!(((uint32_t)L_1) == ((uint32_t)(-1)))))
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		// s_SelectedIndex = demoParticles.items.Length - 1;
+		DemoParticleSystemList_t3273430801 * L_2 = __this->get_demoParticles_2();
+		NullCheck(L_2);
+		DemoParticleSystemU5BU5D_t641914202* L_3 = L_2->get_items_0();
+		NullCheck(L_3);
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->set_s_SelectedIndex_16(((int32_t)((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_3)->max_length))))-(int32_t)1)));
+	}
+
+IL_002e:
+	{
+		// Select(s_SelectedIndex);
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		int32_t L_4 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_SelectedIndex_16();
+		// Select(s_SelectedIndex);
+		ParticleSceneControls_Select_m906043616(__this, L_4, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityStandardAssets.SceneUtils.ParticleSceneControls::Next()
+extern "C"  void ParticleSceneControls_Next_m1895686128 (ParticleSceneControls_t2895192958 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ParticleSceneControls_Next_m1895686128_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// s_SelectedIndex++;
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		int32_t L_0 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_SelectedIndex_16();
+		((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->set_s_SelectedIndex_16(((int32_t)((int32_t)L_0+(int32_t)1)));
+		// if (s_SelectedIndex == demoParticles.items.Length)
+		int32_t L_1 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_SelectedIndex_16();
+		DemoParticleSystemList_t3273430801 * L_2 = __this->get_demoParticles_2();
+		NullCheck(L_2);
+		DemoParticleSystemU5BU5D_t641914202* L_3 = L_2->get_items_0();
+		NullCheck(L_3);
+		if ((!(((uint32_t)L_1) == ((uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_3)->max_length))))))))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		// s_SelectedIndex = 0;
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->set_s_SelectedIndex_16(0);
+	}
+
+IL_002c:
+	{
+		// Select(s_SelectedIndex);
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		int32_t L_4 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_SelectedIndex_16();
+		// Select(s_SelectedIndex);
+		ParticleSceneControls_Select_m906043616(__this, L_4, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityStandardAssets.SceneUtils.ParticleSceneControls::Update()
+extern "C"  void ParticleSceneControls_Update_m3449533136 (ParticleSceneControls_t2895192958 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ParticleSceneControls_Update_m3449533136_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	Ray_t2469606224  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	RaycastHit_t87180320  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Quaternion_t4030073918  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	Vector3_t2243707580  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Vector3_t2243707580  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	EmissionModule_t2748003162  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	int32_t G_B7_0 = 0;
+	int32_t G_B10_0 = 0;
+	{
+		// sceneCamera.localPosition = Vector3.SmoothDamp(sceneCamera.localPosition, Vector3.forward*-s_Selected.camOffset,
+		Transform_t3275118058 * L_0 = __this->get_sceneCamera_7();
+		Transform_t3275118058 * L_1 = __this->get_sceneCamera_7();
+		// sceneCamera.localPosition = Vector3.SmoothDamp(sceneCamera.localPosition, Vector3.forward*-s_Selected.camOffset,
+		NullCheck(L_1);
+		Vector3_t2243707580  L_2 = Transform_get_localPosition_m2533925116(L_1, /*hidden argument*/NULL);
+		// sceneCamera.localPosition = Vector3.SmoothDamp(sceneCamera.localPosition, Vector3.forward*-s_Selected.camOffset,
+		Vector3_t2243707580  L_3 = Vector3_get_forward_m1201659139(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		DemoParticleSystem_t3072969947 * L_4 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_Selected_19();
+		NullCheck(L_4);
+		int32_t L_5 = L_4->get_camOffset_5();
+		// sceneCamera.localPosition = Vector3.SmoothDamp(sceneCamera.localPosition, Vector3.forward*-s_Selected.camOffset,
+		Vector3_t2243707580  L_6 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_3, (((float)((float)((-L_5))))), /*hidden argument*/NULL);
+		Vector3_t2243707580 * L_7 = __this->get_address_of_m_CamOffsetVelocity_17();
+		// sceneCamera.localPosition = Vector3.SmoothDamp(sceneCamera.localPosition, Vector3.forward*-s_Selected.camOffset,
+		Vector3_t2243707580  L_8 = Vector3_SmoothDamp_m3087890513(NULL /*static, unused*/, L_2, L_6, L_7, (1.0f), /*hidden argument*/NULL);
+		// sceneCamera.localPosition = Vector3.SmoothDamp(sceneCamera.localPosition, Vector3.forward*-s_Selected.camOffset,
+		NullCheck(L_0);
+		Transform_set_localPosition_m1026930133(L_0, L_8, /*hidden argument*/NULL);
+		// if (s_Selected.mode == Mode.Activate)
+		DemoParticleSystem_t3072969947 * L_9 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_Selected_19();
+		NullCheck(L_9);
+		int32_t L_10 = L_9->get_mode_1();
+		if (L_10)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		// return;
+		goto IL_0294;
+	}
+
+IL_0052:
+	{
+		// if (CheckForGuiCollision()) return;
+		// if (CheckForGuiCollision()) return;
+		bool L_11 = ParticleSceneControls_CheckForGuiCollision_m2041416147(__this, /*hidden argument*/NULL);
+		if (!L_11)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		// if (CheckForGuiCollision()) return;
+		goto IL_0294;
+	}
+
+IL_0062:
+	{
+		// bool oneShotClick = (Input.GetMouseButtonDown(0) && s_Selected.mode == Mode.Instantiate);
+		// bool oneShotClick = (Input.GetMouseButtonDown(0) && s_Selected.mode == Mode.Instantiate);
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		bool L_12 = Input_GetMouseButtonDown_m47917805(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_007c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		DemoParticleSystem_t3072969947 * L_13 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_Selected_19();
+		NullCheck(L_13);
+		int32_t L_14 = L_13->get_mode_1();
+		G_B7_0 = ((((int32_t)L_14) == ((int32_t)1))? 1 : 0);
+		goto IL_007d;
+	}
+
+IL_007c:
+	{
+		G_B7_0 = 0;
+	}
+
+IL_007d:
+	{
+		V_0 = (bool)G_B7_0;
+		// bool repeat = (Input.GetMouseButton(0) && s_Selected.mode == Mode.Trail);
+		// bool repeat = (Input.GetMouseButton(0) && s_Selected.mode == Mode.Trail);
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		bool L_15 = Input_GetMouseButton_m464100923(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		if (!L_15)
+		{
+			goto IL_0098;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		DemoParticleSystem_t3072969947 * L_16 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_Selected_19();
+		NullCheck(L_16);
+		int32_t L_17 = L_16->get_mode_1();
+		G_B10_0 = ((((int32_t)L_17) == ((int32_t)2))? 1 : 0);
+		goto IL_0099;
+	}
+
+IL_0098:
+	{
+		G_B10_0 = 0;
+	}
+
+IL_0099:
+	{
+		V_1 = (bool)G_B10_0;
+		// if (oneShotClick || repeat)
+		bool L_18 = V_0;
+		if (L_18)
+		{
+			goto IL_00a6;
+		}
+	}
+	{
+		bool L_19 = V_1;
+		if (!L_19)
+		{
+			goto IL_0294;
+		}
+	}
+
+IL_00a6:
+	{
+		// Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+		Camera_t189460977 * L_20 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		// Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		Vector3_t2243707580  L_21 = Input_get_mousePosition_m146923508(NULL /*static, unused*/, /*hidden argument*/NULL);
+		// Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+		NullCheck(L_20);
+		Ray_t2469606224  L_22 = Camera_ScreenPointToRay_m614889538(L_20, L_21, /*hidden argument*/NULL);
+		V_2 = L_22;
+		// if (Physics.Raycast(ray, out hit))
+		Ray_t2469606224  L_23 = V_2;
+		// if (Physics.Raycast(ray, out hit))
+		bool L_24 = Physics_Raycast_m2736931691(NULL /*static, unused*/, L_23, (&V_3), /*hidden argument*/NULL);
+		if (!L_24)
+		{
+			goto IL_0293;
+		}
+	}
+	{
+		// var rot = Quaternion.LookRotation(hit.normal);
+		// var rot = Quaternion.LookRotation(hit.normal);
+		Vector3_t2243707580  L_25 = RaycastHit_get_normal_m817665579((&V_3), /*hidden argument*/NULL);
+		// var rot = Quaternion.LookRotation(hit.normal);
+		Quaternion_t4030073918  L_26 = Quaternion_LookRotation_m633695927(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
+		V_4 = L_26;
+		// if (s_Selected.align == AlignMode.Up)
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		DemoParticleSystem_t3072969947 * L_27 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_Selected_19();
+		NullCheck(L_27);
+		int32_t L_28 = L_27->get_align_2();
+		if ((!(((uint32_t)L_28) == ((uint32_t)1))))
+		{
+			goto IL_00ec;
+		}
+	}
+	{
+		// rot = Quaternion.identity;
+		Quaternion_t4030073918  L_29 = Quaternion_get_identity_m1561886418(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_4 = L_29;
+	}
+
+IL_00ec:
+	{
+		// var pos = hit.point + hit.normal*spawnOffset;
+		// var pos = hit.point + hit.normal*spawnOffset;
+		Vector3_t2243707580  L_30 = RaycastHit_get_point_m326143462((&V_3), /*hidden argument*/NULL);
+		// var pos = hit.point + hit.normal*spawnOffset;
+		Vector3_t2243707580  L_31 = RaycastHit_get_normal_m817665579((&V_3), /*hidden argument*/NULL);
+		float L_32 = __this->get_spawnOffset_3();
+		// var pos = hit.point + hit.normal*spawnOffset;
+		Vector3_t2243707580  L_33 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_31, L_32, /*hidden argument*/NULL);
+		// var pos = hit.point + hit.normal*spawnOffset;
+		Vector3_t2243707580  L_34 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_30, L_33, /*hidden argument*/NULL);
+		V_5 = L_34;
+		// if ((pos - m_LastPos).magnitude > s_Selected.minDist)
+		Vector3_t2243707580  L_35 = V_5;
+		Vector3_t2243707580  L_36 = __this->get_m_LastPos_18();
+		// if ((pos - m_LastPos).magnitude > s_Selected.minDist)
+		Vector3_t2243707580  L_37 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_35, L_36, /*hidden argument*/NULL);
+		V_6 = L_37;
+		// if ((pos - m_LastPos).magnitude > s_Selected.minDist)
+		float L_38 = Vector3_get_magnitude_m860342598((&V_6), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		DemoParticleSystem_t3072969947 * L_39 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_Selected_19();
+		NullCheck(L_39);
+		float L_40 = L_39->get_minDist_4();
+		if ((!(((float)L_38) > ((float)L_40))))
+		{
+			goto IL_0292;
+		}
+	}
+	{
+		// if (s_Selected.mode != Mode.Trail || m_Instance == null)
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		DemoParticleSystem_t3072969947 * L_41 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_Selected_19();
+		NullCheck(L_41);
+		int32_t L_42 = L_41->get_mode_1();
+		if ((!(((uint32_t)L_42) == ((uint32_t)2))))
+		{
+			goto IL_0153;
+		}
+	}
+	{
+		Transform_t3275118058 * L_43 = __this->get_m_Instance_15();
+		// if (s_Selected.mode != Mode.Trail || m_Instance == null)
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_44 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_43, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_44)
+		{
+			goto IL_0214;
+		}
+	}
+
+IL_0153:
+	{
+		// m_Instance = (Transform) Instantiate(s_Selected.transform, pos, rot);
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		DemoParticleSystem_t3072969947 * L_45 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_Selected_19();
+		NullCheck(L_45);
+		Transform_t3275118058 * L_46 = L_45->get_transform_0();
+		Vector3_t2243707580  L_47 = V_5;
+		Quaternion_t4030073918  L_48 = V_4;
+		// m_Instance = (Transform) Instantiate(s_Selected.transform, pos, rot);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Transform_t3275118058 * L_49 = Object_Instantiate_TisTransform_t3275118058_m3377769805(NULL /*static, unused*/, L_46, L_47, L_48, /*hidden argument*/Object_Instantiate_TisTransform_t3275118058_m3377769805_MethodInfo_var);
+		__this->set_m_Instance_15(L_49);
+		// if (m_ParticleMultiplier != null)
+		ParticleSystemMultiplier_t3377687064 * L_50 = __this->get_m_ParticleMultiplier_13();
+		// if (m_ParticleMultiplier != null)
+		bool L_51 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_50, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_51)
+		{
+			goto IL_0196;
+		}
+	}
+	{
+		// m_Instance.GetComponent<ParticleSystemMultiplier>().multiplier = multiply;
+		Transform_t3275118058 * L_52 = __this->get_m_Instance_15();
+		// m_Instance.GetComponent<ParticleSystemMultiplier>().multiplier = multiply;
+		NullCheck(L_52);
+		ParticleSystemMultiplier_t3377687064 * L_53 = Component_GetComponent_TisParticleSystemMultiplier_t3377687064_m1071529796(L_52, /*hidden argument*/Component_GetComponent_TisParticleSystemMultiplier_t3377687064_m1071529796_MethodInfo_var);
+		float L_54 = __this->get_multiply_4();
+		NullCheck(L_53);
+		L_53->set_multiplier_2(L_54);
+	}
+
+IL_0196:
+	{
+		// m_CurrentParticleList.Add(m_Instance);
+		List_1_t2644239190 * L_55 = __this->get_m_CurrentParticleList_14();
+		Transform_t3275118058 * L_56 = __this->get_m_Instance_15();
+		// m_CurrentParticleList.Add(m_Instance);
+		NullCheck(L_55);
+		List_1_Add_m4081083670(L_55, L_56, /*hidden argument*/List_1_Add_m4081083670_MethodInfo_var);
+		// if (s_Selected.maxCount > 0 && m_CurrentParticleList.Count > s_Selected.maxCount)
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		DemoParticleSystem_t3072969947 * L_57 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_Selected_19();
+		NullCheck(L_57);
+		int32_t L_58 = L_57->get_maxCount_3();
+		if ((((int32_t)L_58) <= ((int32_t)0)))
+		{
+			goto IL_020e;
+		}
+	}
+	{
+		List_1_t2644239190 * L_59 = __this->get_m_CurrentParticleList_14();
+		// if (s_Selected.maxCount > 0 && m_CurrentParticleList.Count > s_Selected.maxCount)
+		NullCheck(L_59);
+		int32_t L_60 = List_1_get_Count_m1995107056(L_59, /*hidden argument*/List_1_get_Count_m1995107056_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		DemoParticleSystem_t3072969947 * L_61 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_Selected_19();
+		NullCheck(L_61);
+		int32_t L_62 = L_61->get_maxCount_3();
+		if ((((int32_t)L_60) <= ((int32_t)L_62)))
+		{
+			goto IL_020e;
+		}
+	}
+	{
+		// if (m_CurrentParticleList[0] != null)
+		List_1_t2644239190 * L_63 = __this->get_m_CurrentParticleList_14();
+		// if (m_CurrentParticleList[0] != null)
+		NullCheck(L_63);
+		Transform_t3275118058 * L_64 = List_1_get_Item_m3391702501(L_63, 0, /*hidden argument*/List_1_get_Item_m3391702501_MethodInfo_var);
+		// if (m_CurrentParticleList[0] != null)
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_65 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_64, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_65)
+		{
+			goto IL_0201;
+		}
+	}
+	{
+		// Destroy(m_CurrentParticleList[0].gameObject);
+		List_1_t2644239190 * L_66 = __this->get_m_CurrentParticleList_14();
+		// Destroy(m_CurrentParticleList[0].gameObject);
+		NullCheck(L_66);
+		Transform_t3275118058 * L_67 = List_1_get_Item_m3391702501(L_66, 0, /*hidden argument*/List_1_get_Item_m3391702501_MethodInfo_var);
+		// Destroy(m_CurrentParticleList[0].gameObject);
+		NullCheck(L_67);
+		GameObject_t1756533147 * L_68 = Component_get_gameObject_m3105766835(L_67, /*hidden argument*/NULL);
+		// Destroy(m_CurrentParticleList[0].gameObject);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_68, /*hidden argument*/NULL);
+	}
+
+IL_0201:
+	{
+		// m_CurrentParticleList.RemoveAt(0);
+		List_1_t2644239190 * L_69 = __this->get_m_CurrentParticleList_14();
+		// m_CurrentParticleList.RemoveAt(0);
+		NullCheck(L_69);
+		List_1_RemoveAt_m1075984016(L_69, 0, /*hidden argument*/List_1_RemoveAt_m1075984016_MethodInfo_var);
+	}
+
+IL_020e:
+	{
+		goto IL_0230;
+	}
+
+IL_0214:
+	{
+		// m_Instance.position = pos;
+		Transform_t3275118058 * L_70 = __this->get_m_Instance_15();
+		Vector3_t2243707580  L_71 = V_5;
+		// m_Instance.position = pos;
+		NullCheck(L_70);
+		Transform_set_position_m2469242620(L_70, L_71, /*hidden argument*/NULL);
+		// m_Instance.rotation = rot;
+		Transform_t3275118058 * L_72 = __this->get_m_Instance_15();
+		Quaternion_t4030073918  L_73 = V_4;
+		// m_Instance.rotation = rot;
+		NullCheck(L_72);
+		Transform_set_rotation_m3411284563(L_72, L_73, /*hidden argument*/NULL);
+	}
+
+IL_0230:
+	{
+		// if (s_Selected.mode == Mode.Trail)
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		DemoParticleSystem_t3072969947 * L_74 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_Selected_19();
+		NullCheck(L_74);
+		int32_t L_75 = L_74->get_mode_1();
+		if ((!(((uint32_t)L_75) == ((uint32_t)2))))
+		{
+			goto IL_0277;
+		}
+	}
+	{
+		// var emission = m_Instance.transform.GetComponent<ParticleSystem>().emission;
+		Transform_t3275118058 * L_76 = __this->get_m_Instance_15();
+		// var emission = m_Instance.transform.GetComponent<ParticleSystem>().emission;
+		NullCheck(L_76);
+		Transform_t3275118058 * L_77 = Component_get_transform_m2697483695(L_76, /*hidden argument*/NULL);
+		// var emission = m_Instance.transform.GetComponent<ParticleSystem>().emission;
+		NullCheck(L_77);
+		ParticleSystem_t3394631041 * L_78 = Component_GetComponent_TisParticleSystem_t3394631041_m1847115563(L_77, /*hidden argument*/Component_GetComponent_TisParticleSystem_t3394631041_m1847115563_MethodInfo_var);
+		// var emission = m_Instance.transform.GetComponent<ParticleSystem>().emission;
+		NullCheck(L_78);
+		EmissionModule_t2748003162  L_79 = ParticleSystem_get_emission_m3968992617(L_78, /*hidden argument*/NULL);
+		V_7 = L_79;
+		// emission.enabled = false;
+		// emission.enabled = false;
+		EmissionModule_set_enabled_m4266189783((&V_7), (bool)0, /*hidden argument*/NULL);
+		// m_Instance.transform.GetComponent<ParticleSystem>().Emit(1);
+		Transform_t3275118058 * L_80 = __this->get_m_Instance_15();
+		// m_Instance.transform.GetComponent<ParticleSystem>().Emit(1);
+		NullCheck(L_80);
+		Transform_t3275118058 * L_81 = Component_get_transform_m2697483695(L_80, /*hidden argument*/NULL);
+		// m_Instance.transform.GetComponent<ParticleSystem>().Emit(1);
+		NullCheck(L_81);
+		ParticleSystem_t3394631041 * L_82 = Component_GetComponent_TisParticleSystem_t3394631041_m1847115563(L_81, /*hidden argument*/Component_GetComponent_TisParticleSystem_t3394631041_m1847115563_MethodInfo_var);
+		// m_Instance.transform.GetComponent<ParticleSystem>().Emit(1);
+		NullCheck(L_82);
+		ParticleSystem_Emit_m649892508(L_82, 1, /*hidden argument*/NULL);
+	}
+
+IL_0277:
+	{
+		// m_Instance.parent = hit.transform;
+		Transform_t3275118058 * L_83 = __this->get_m_Instance_15();
+		// m_Instance.parent = hit.transform;
+		Transform_t3275118058 * L_84 = RaycastHit_get_transform_m3290290036((&V_3), /*hidden argument*/NULL);
+		// m_Instance.parent = hit.transform;
+		NullCheck(L_83);
+		Transform_set_parent_m3281327839(L_83, L_84, /*hidden argument*/NULL);
+		// m_LastPos = pos;
+		Vector3_t2243707580  L_85 = V_5;
+		__this->set_m_LastPos_18(L_85);
+	}
+
+IL_0292:
+	{
+	}
+
+IL_0293:
+	{
+	}
+
+IL_0294:
+	{
+		// }
+		return;
+	}
+}
+// System.Boolean UnityStandardAssets.SceneUtils.ParticleSceneControls::CheckForGuiCollision()
+extern "C"  bool ParticleSceneControls_CheckForGuiCollision_m2041416147 (ParticleSceneControls_t2895192958 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ParticleSceneControls_CheckForGuiCollision_m2041416147_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	PointerEventData_t1599784723 * V_0 = NULL;
+	List_1_t3685274804 * V_1 = NULL;
+	bool V_2 = false;
+	{
+		// PointerEventData eventData = new PointerEventData(eventSystem);
+		EventSystem_t3466835263 * L_0 = __this->get_eventSystem_12();
+		// PointerEventData eventData = new PointerEventData(eventSystem);
+		PointerEventData_t1599784723 * L_1 = (PointerEventData_t1599784723 *)il2cpp_codegen_object_new(PointerEventData_t1599784723_il2cpp_TypeInfo_var);
+		PointerEventData__ctor_m3674067728(L_1, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		// eventData.pressPosition = Input.mousePosition;
+		PointerEventData_t1599784723 * L_2 = V_0;
+		// eventData.pressPosition = Input.mousePosition;
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		Vector3_t2243707580  L_3 = Input_get_mousePosition_m146923508(NULL /*static, unused*/, /*hidden argument*/NULL);
+		// eventData.pressPosition = Input.mousePosition;
+		Vector2_t2243707579  L_4 = Vector2_op_Implicit_m1064335535(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		// eventData.pressPosition = Input.mousePosition;
+		NullCheck(L_2);
+		PointerEventData_set_pressPosition_m2094137883(L_2, L_4, /*hidden argument*/NULL);
+		// eventData.position = Input.mousePosition;
+		PointerEventData_t1599784723 * L_5 = V_0;
+		// eventData.position = Input.mousePosition;
+		Vector3_t2243707580  L_6 = Input_get_mousePosition_m146923508(NULL /*static, unused*/, /*hidden argument*/NULL);
+		// eventData.position = Input.mousePosition;
+		Vector2_t2243707579  L_7 = Vector2_op_Implicit_m1064335535(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		// eventData.position = Input.mousePosition;
+		NullCheck(L_5);
+		PointerEventData_set_position_m794507622(L_5, L_7, /*hidden argument*/NULL);
+		// List<RaycastResult> list = new List<RaycastResult>();
+		List_1_t3685274804 * L_8 = (List_1_t3685274804 *)il2cpp_codegen_object_new(List_1_t3685274804_il2cpp_TypeInfo_var);
+		List_1__ctor_m2989057823(L_8, /*hidden argument*/List_1__ctor_m2989057823_MethodInfo_var);
+		V_1 = L_8;
+		// graphicRaycaster.Raycast(eventData, list);
+		GraphicRaycaster_t410733016 * L_9 = __this->get_graphicRaycaster_11();
+		PointerEventData_t1599784723 * L_10 = V_0;
+		List_1_t3685274804 * L_11 = V_1;
+		// graphicRaycaster.Raycast(eventData, list);
+		NullCheck(L_9);
+		VirtActionInvoker2< PointerEventData_t1599784723 *, List_1_t3685274804 * >::Invoke(17 /* System.Void UnityEngine.EventSystems.BaseRaycaster::Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>) */, L_9, L_10, L_11);
+		// return list.Count > 0;
+		List_1_t3685274804 * L_12 = V_1;
+		// return list.Count > 0;
+		NullCheck(L_12);
+		int32_t L_13 = List_1_get_Count_m3279745867(L_12, /*hidden argument*/List_1_get_Count_m3279745867_MethodInfo_var);
+		V_2 = (bool)((((int32_t)L_13) > ((int32_t)0))? 1 : 0);
+		goto IL_004f;
+	}
+
+IL_004f:
+	{
+		// }
+		bool L_14 = V_2;
+		return L_14;
+	}
+}
+// System.Void UnityStandardAssets.SceneUtils.ParticleSceneControls::Select(System.Int32)
+extern "C"  void ParticleSceneControls_Select_m906043616 (ParticleSceneControls_t2895192958 * __this, int32_t ___i0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ParticleSceneControls_Select_m906043616_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DemoParticleSystem_t3072969947 * V_0 = NULL;
+	DemoParticleSystemU5BU5D_t641914202* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		// s_Selected = demoParticles.items[i];
+		DemoParticleSystemList_t3273430801 * L_0 = __this->get_demoParticles_2();
+		NullCheck(L_0);
+		DemoParticleSystemU5BU5D_t641914202* L_1 = L_0->get_items_0();
+		int32_t L_2 = ___i0;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		DemoParticleSystem_t3072969947 * L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->set_s_Selected_19(L_4);
+		// m_Instance = null;
+		__this->set_m_Instance_15((Transform_t3275118058 *)NULL);
+		// foreach (var otherEffect in demoParticles.items)
+		DemoParticleSystemList_t3273430801 * L_5 = __this->get_demoParticles_2();
+		NullCheck(L_5);
+		DemoParticleSystemU5BU5D_t641914202* L_6 = L_5->get_items_0();
+		V_1 = L_6;
+		V_2 = 0;
+		goto IL_0061;
+	}
+
+IL_002e:
+	{
+		// foreach (var otherEffect in demoParticles.items)
+		DemoParticleSystemU5BU5D_t641914202* L_7 = V_1;
+		int32_t L_8 = V_2;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		DemoParticleSystem_t3072969947 * L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		V_0 = L_10;
+		// if ((otherEffect != s_Selected) && (otherEffect.mode == Mode.Activate))
+		DemoParticleSystem_t3072969947 * L_11 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		DemoParticleSystem_t3072969947 * L_12 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_Selected_19();
+		if ((((Il2CppObject*)(DemoParticleSystem_t3072969947 *)L_11) == ((Il2CppObject*)(DemoParticleSystem_t3072969947 *)L_12)))
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		DemoParticleSystem_t3072969947 * L_13 = V_0;
+		NullCheck(L_13);
+		int32_t L_14 = L_13->get_mode_1();
+		if (L_14)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		// otherEffect.transform.gameObject.SetActive(false);
+		DemoParticleSystem_t3072969947 * L_15 = V_0;
+		NullCheck(L_15);
+		Transform_t3275118058 * L_16 = L_15->get_transform_0();
+		// otherEffect.transform.gameObject.SetActive(false);
+		NullCheck(L_16);
+		GameObject_t1756533147 * L_17 = Component_get_gameObject_m3105766835(L_16, /*hidden argument*/NULL);
+		// otherEffect.transform.gameObject.SetActive(false);
+		NullCheck(L_17);
+		GameObject_SetActive_m2887581199(L_17, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_005c:
+	{
+		// foreach (var otherEffect in demoParticles.items)
+		int32_t L_18 = V_2;
+		V_2 = ((int32_t)((int32_t)L_18+(int32_t)1));
+	}
+
+IL_0061:
+	{
+		int32_t L_19 = V_2;
+		DemoParticleSystemU5BU5D_t641914202* L_20 = V_1;
+		NullCheck(L_20);
+		if ((((int32_t)L_19) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_20)->max_length)))))))
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		// if (s_Selected.mode == Mode.Activate)
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		DemoParticleSystem_t3072969947 * L_21 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_Selected_19();
+		NullCheck(L_21);
+		int32_t L_22 = L_21->get_mode_1();
+		if (L_22)
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		// s_Selected.transform.gameObject.SetActive(true);
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		DemoParticleSystem_t3072969947 * L_23 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_Selected_19();
+		NullCheck(L_23);
+		Transform_t3275118058 * L_24 = L_23->get_transform_0();
+		// s_Selected.transform.gameObject.SetActive(true);
+		NullCheck(L_24);
+		GameObject_t1756533147 * L_25 = Component_get_gameObject_m3105766835(L_24, /*hidden argument*/NULL);
+		// s_Selected.transform.gameObject.SetActive(true);
+		NullCheck(L_25);
+		GameObject_SetActive_m2887581199(L_25, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_0090:
+	{
+		// m_ParticleMultiplier = s_Selected.transform.GetComponent<ParticleSystemMultiplier>();
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		DemoParticleSystem_t3072969947 * L_26 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_Selected_19();
+		NullCheck(L_26);
+		Transform_t3275118058 * L_27 = L_26->get_transform_0();
+		// m_ParticleMultiplier = s_Selected.transform.GetComponent<ParticleSystemMultiplier>();
+		NullCheck(L_27);
+		ParticleSystemMultiplier_t3377687064 * L_28 = Component_GetComponent_TisParticleSystemMultiplier_t3377687064_m1071529796(L_27, /*hidden argument*/Component_GetComponent_TisParticleSystemMultiplier_t3377687064_m1071529796_MethodInfo_var);
+		__this->set_m_ParticleMultiplier_13(L_28);
+		// multiply = 1;
+		__this->set_multiply_4((1.0f));
+		// if (clearOnChange)
+		bool L_29 = __this->get_clearOnChange_5();
+		if (!L_29)
+		{
+			goto IL_00f7;
+		}
+	}
+	{
+		// while (m_CurrentParticleList.Count > 0)
+		goto IL_00e5;
+	}
+
+IL_00c1:
+	{
+		// Destroy(m_CurrentParticleList[0].gameObject);
+		List_1_t2644239190 * L_30 = __this->get_m_CurrentParticleList_14();
+		// Destroy(m_CurrentParticleList[0].gameObject);
+		NullCheck(L_30);
+		Transform_t3275118058 * L_31 = List_1_get_Item_m3391702501(L_30, 0, /*hidden argument*/List_1_get_Item_m3391702501_MethodInfo_var);
+		// Destroy(m_CurrentParticleList[0].gameObject);
+		NullCheck(L_31);
+		GameObject_t1756533147 * L_32 = Component_get_gameObject_m3105766835(L_31, /*hidden argument*/NULL);
+		// Destroy(m_CurrentParticleList[0].gameObject);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_32, /*hidden argument*/NULL);
+		// m_CurrentParticleList.RemoveAt(0);
+		List_1_t2644239190 * L_33 = __this->get_m_CurrentParticleList_14();
+		// m_CurrentParticleList.RemoveAt(0);
+		NullCheck(L_33);
+		List_1_RemoveAt_m1075984016(L_33, 0, /*hidden argument*/List_1_RemoveAt_m1075984016_MethodInfo_var);
+	}
+
+IL_00e5:
+	{
+		// while (m_CurrentParticleList.Count > 0)
+		List_1_t2644239190 * L_34 = __this->get_m_CurrentParticleList_14();
+		// while (m_CurrentParticleList.Count > 0)
+		NullCheck(L_34);
+		int32_t L_35 = List_1_get_Count_m1995107056(L_34, /*hidden argument*/List_1_get_Count_m1995107056_MethodInfo_var);
+		if ((((int32_t)L_35) > ((int32_t)0)))
+		{
+			goto IL_00c1;
+		}
+	}
+	{
+	}
+
+IL_00f7:
+	{
+		// instructionText.text = s_Selected.instructionText;
+		Text_t356221433 * L_36 = __this->get_instructionText_8();
+		IL2CPP_RUNTIME_CLASS_INIT(ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var);
+		DemoParticleSystem_t3072969947 * L_37 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_Selected_19();
+		NullCheck(L_37);
+		String_t* L_38 = L_37->get_instructionText_6();
+		// instructionText.text = s_Selected.instructionText;
+		NullCheck(L_36);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_36, L_38);
+		// titleText.text = s_Selected.transform.name;
+		Text_t356221433 * L_39 = __this->get_titleText_6();
+		DemoParticleSystem_t3072969947 * L_40 = ((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->get_s_Selected_19();
+		NullCheck(L_40);
+		Transform_t3275118058 * L_41 = L_40->get_transform_0();
+		// titleText.text = s_Selected.transform.name;
+		NullCheck(L_41);
+		String_t* L_42 = Object_get_name_m2079638459(L_41, /*hidden argument*/NULL);
+		// titleText.text = s_Selected.transform.name;
+		NullCheck(L_39);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_39, L_42);
+		// }
+		return;
+	}
+}
+// System.Void UnityStandardAssets.SceneUtils.ParticleSceneControls::.cctor()
+extern "C"  void ParticleSceneControls__cctor_m3271521024 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ParticleSceneControls__cctor_m3271521024_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private static int s_SelectedIndex = 0;
+		((ParticleSceneControls_t2895192958_StaticFields*)ParticleSceneControls_t2895192958_il2cpp_TypeInfo_var->static_fields)->set_s_SelectedIndex_16(0);
+		return;
+	}
+}
+// System.Void UnityStandardAssets.SceneUtils.ParticleSceneControls/DemoParticleSystem::.ctor()
+extern "C"  void DemoParticleSystem__ctor_m3126544322 (DemoParticleSystem_t3072969947 * __this, const MethodInfo* method)
+{
+	{
+		// public int camOffset = 15;
+		__this->set_camOffset_5(((int32_t)15));
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityStandardAssets.SceneUtils.ParticleSceneControls/DemoParticleSystemList::.ctor()
+extern "C"  void DemoParticleSystemList__ctor_m2992303418 (DemoParticleSystemList_t3273430801 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityStandardAssets.SceneUtils.PlaceTargetWithMouse::.ctor()
+extern "C"  void PlaceTargetWithMouse__ctor_m207273450 (PlaceTargetWithMouse_t2469125921 * __this, const MethodInfo* method)
+{
+	{
+		// public float surfaceOffset = 1.5f;
+		__this->set_surfaceOffset_2((1.5f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityStandardAssets.SceneUtils.PlaceTargetWithMouse::Update()
+extern "C"  void PlaceTargetWithMouse_Update_m1700337429 (PlaceTargetWithMouse_t2469125921 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PlaceTargetWithMouse_Update_m1700337429_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Ray_t2469606224  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	RaycastHit_t87180320  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		// if (!Input.GetMouseButtonDown(0))
+		// if (!Input.GetMouseButtonDown(0))
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		bool L_0 = Input_GetMouseButtonDown_m47917805(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		// return;
+		goto IL_0087;
+	}
+
+IL_0012:
+	{
+		// Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+		Camera_t189460977 * L_1 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		// Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		Vector3_t2243707580  L_2 = Input_get_mousePosition_m146923508(NULL /*static, unused*/, /*hidden argument*/NULL);
+		// Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+		NullCheck(L_1);
+		Ray_t2469606224  L_3 = Camera_ScreenPointToRay_m614889538(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		// if (!Physics.Raycast(ray, out hit))
+		Ray_t2469606224  L_4 = V_0;
+		// if (!Physics.Raycast(ray, out hit))
+		bool L_5 = Physics_Raycast_m2736931691(NULL /*static, unused*/, L_4, (&V_1), /*hidden argument*/NULL);
+		if (L_5)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		// return;
+		goto IL_0087;
+	}
+
+IL_0035:
+	{
+		// transform.position = hit.point + hit.normal*surfaceOffset;
+		// transform.position = hit.point + hit.normal*surfaceOffset;
+		Transform_t3275118058 * L_6 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		// transform.position = hit.point + hit.normal*surfaceOffset;
+		Vector3_t2243707580  L_7 = RaycastHit_get_point_m326143462((&V_1), /*hidden argument*/NULL);
+		// transform.position = hit.point + hit.normal*surfaceOffset;
+		Vector3_t2243707580  L_8 = RaycastHit_get_normal_m817665579((&V_1), /*hidden argument*/NULL);
+		float L_9 = __this->get_surfaceOffset_2();
+		// transform.position = hit.point + hit.normal*surfaceOffset;
+		Vector3_t2243707580  L_10 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
+		// transform.position = hit.point + hit.normal*surfaceOffset;
+		Vector3_t2243707580  L_11 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_7, L_10, /*hidden argument*/NULL);
+		// transform.position = hit.point + hit.normal*surfaceOffset;
+		NullCheck(L_6);
+		Transform_set_position_m2469242620(L_6, L_11, /*hidden argument*/NULL);
+		// if (setTargetOn != null)
+		GameObject_t1756533147 * L_12 = __this->get_setTargetOn_3();
+		// if (setTargetOn != null)
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_13 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_12, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_13)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		// setTargetOn.SendMessage("SetTarget", transform);
+		GameObject_t1756533147 * L_14 = __this->get_setTargetOn_3();
+		// setTargetOn.SendMessage("SetTarget", transform);
+		Transform_t3275118058 * L_15 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		// setTargetOn.SendMessage("SetTarget", transform);
+		NullCheck(L_14);
+		GameObject_SendMessage_m2115020133(L_14, _stringLiteral1000680127, L_15, /*hidden argument*/NULL);
+	}
+
+IL_0087:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityStandardAssets.SceneUtils.SlowMoButton::.ctor()
+extern "C"  void SlowMoButton__ctor_m4238580978 (SlowMoButton_t863415939 * __this, const MethodInfo* method)
+{
+	{
+		// public float fullSpeed = 1;
+		__this->set_fullSpeed_4((1.0f));
+		// public float slowSpeed = 0.3f;
+		__this->set_slowSpeed_5((0.3f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityStandardAssets.SceneUtils.SlowMoButton::Start()
+extern "C"  void SlowMoButton_Start_m763323110 (SlowMoButton_t863415939 * __this, const MethodInfo* method)
+{
+	{
+		// m_SlowMo = false;
+		__this->set_m_SlowMo_7((bool)0);
+		// }
+		return;
+	}
+}
+// System.Void UnityStandardAssets.SceneUtils.SlowMoButton::OnDestroy()
+extern "C"  void SlowMoButton_OnDestroy_m3636638013 (SlowMoButton_t863415939 * __this, const MethodInfo* method)
+{
+	{
+		// Time.timeScale = 1;
+		// Time.timeScale = 1;
+		Time_set_timeScale_m2194722837(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityStandardAssets.SceneUtils.SlowMoButton::ChangeSpeed()
+extern "C"  void SlowMoButton_ChangeSpeed_m760229419 (SlowMoButton_t863415939 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (SlowMoButton_ChangeSpeed_m760229419_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Image_t2042527209 * V_0 = NULL;
+	Image_t2042527209 * G_B3_0 = NULL;
+	Image_t2042527209 * G_B2_0 = NULL;
+	Sprite_t309593783 * G_B4_0 = NULL;
+	Image_t2042527209 * G_B4_1 = NULL;
+	float G_B8_0 = 0.0f;
+	{
+		// m_SlowMo = !m_SlowMo;
+		bool L_0 = __this->get_m_SlowMo_7();
+		__this->set_m_SlowMo_7((bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0));
+		// var image = button.targetGraphic as Image;
+		Button_t2872111280 * L_1 = __this->get_button_6();
+		// var image = button.targetGraphic as Image;
+		NullCheck(L_1);
+		Graphic_t2426225576 * L_2 = Selectable_get_targetGraphic_m137842753(L_1, /*hidden argument*/NULL);
+		V_0 = ((Image_t2042527209 *)IsInstClass(L_2, Image_t2042527209_il2cpp_TypeInfo_var));
+		// if (image != null)
+		Image_t2042527209 * L_3 = V_0;
+		// if (image != null)
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		// image.sprite = m_SlowMo ? SlowSpeedTex : FullSpeedTex;
+		Image_t2042527209 * L_5 = V_0;
+		bool L_6 = __this->get_m_SlowMo_7();
+		G_B2_0 = L_5;
+		if (!L_6)
+		{
+			G_B3_0 = L_5;
+			goto IL_0045;
+		}
+	}
+	{
+		Sprite_t309593783 * L_7 = __this->get_SlowSpeedTex_3();
+		G_B4_0 = L_7;
+		G_B4_1 = G_B2_0;
+		goto IL_004b;
+	}
+
+IL_0045:
+	{
+		Sprite_t309593783 * L_8 = __this->get_FullSpeedTex_2();
+		G_B4_0 = L_8;
+		G_B4_1 = G_B3_0;
+	}
+
+IL_004b:
+	{
+		// image.sprite = m_SlowMo ? SlowSpeedTex : FullSpeedTex;
+		NullCheck(G_B4_1);
+		Image_set_sprite_m1800056820(G_B4_1, G_B4_0, /*hidden argument*/NULL);
+	}
+
+IL_0051:
+	{
+		// button.targetGraphic = image;
+		Button_t2872111280 * L_9 = __this->get_button_6();
+		Image_t2042527209 * L_10 = V_0;
+		// button.targetGraphic = image;
+		NullCheck(L_9);
+		Selectable_set_targetGraphic_m2955419854(L_9, L_10, /*hidden argument*/NULL);
+		// Time.timeScale = m_SlowMo ? slowSpeed : fullSpeed;
+		bool L_11 = __this->get_m_SlowMo_7();
+		if (!L_11)
+		{
+			goto IL_0073;
+		}
+	}
+	{
+		float L_12 = __this->get_slowSpeed_5();
+		G_B8_0 = L_12;
+		goto IL_0079;
+	}
+
+IL_0073:
+	{
+		float L_13 = __this->get_fullSpeed_4();
+		G_B8_0 = L_13;
+	}
+
+IL_0079:
+	{
+		// Time.timeScale = m_SlowMo ? slowSpeed : fullSpeed;
+		Time_set_timeScale_m2194722837(NULL /*static, unused*/, G_B8_0, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif

@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerrainTest", "Assembly-CSharp-firstpass.csproj", "{CE9562CD-A930-0B9E-12ED-797DBDA44ED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerrainTest", "Assembly-CSharp.csproj", "{355796BA-2410-B14A-23A8-0C30F456E017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerrainTest", "Assembly-CSharp-Editor-firstpass.csproj", "{6B44F5DA-78B5-42C6-6BE3-3A1C2D454CED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerrainTest", "Assembly-CSharp-Editor.csproj", "{1655B66B-3A22-1B20-7837-424302667772}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE9562CD-A930-0B9E-12ED-797DBDA44ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9562CD-A930-0B9E-12ED-797DBDA44ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9562CD-A930-0B9E-12ED-797DBDA44ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9562CD-A930-0B9E-12ED-797DBDA44ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{355796BA-2410-B14A-23A8-0C30F456E017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{355796BA-2410-B14A-23A8-0C30F456E017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{355796BA-2410-B14A-23A8-0C30F456E017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{355796BA-2410-B14A-23A8-0C30F456E017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B44F5DA-78B5-42C6-6BE3-3A1C2D454CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B44F5DA-78B5-42C6-6BE3-3A1C2D454CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B44F5DA-78B5-42C6-6BE3-3A1C2D454CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B44F5DA-78B5-42C6-6BE3-3A1C2D454CED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1655B66B-3A22-1B20-7837-424302667772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1655B66B-3A22-1B20-7837-424302667772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1655B66B-3A22-1B20-7837-424302667772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1655B66B-3A22-1B20-7837-424302667772}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = VisualStudio
+		$1.inheritsScope = text/plain
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.AfterDelegateDeclarationParameterComma = True
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+	EndGlobalSection
+EndGlobal

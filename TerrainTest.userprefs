@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ARPlaneManager.cs">
+    <Files>
+      <File FileName="Assets/ARkit/Plugins/iOS/UnityARKit/Utility/UnityARAnchorManager.cs" Line="7" Column="2" />
+      <File FileName="Assets/ARkit/Plugins/iOS/UnityARKit/Utility/UnityARUtility.cs" Line="53" Column="117" />
+      <File FileName="Assets/ARkit/Plugins/iOS/UnityARKit/NativeInterface/UnityARSessionNativeInterface.cs" Line="170" Column="2" />
+      <File FileName="Assets/ARkit/Examples/BallMaker.cs" Line="58" Column="4" />
+      <File FileName="Assets/Scripts/ARPlaneManager.cs" Line="15" Column="9" NotebookId="1" />
+      <File FileName="Assets/Scripts/ARTouchManager.cs" Line="45" Column="2" NotebookId="1" />
+      <File FileName="Assets/Scripts/ARTerrainManager.cs" Line="16" Column="50" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

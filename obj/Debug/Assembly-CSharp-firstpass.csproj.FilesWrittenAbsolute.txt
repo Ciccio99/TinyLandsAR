@@ -20,3 +20,4 @@
 /Users/scicalia/Projects/TerrainTest/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/scicalia/Projects/TerrainTest/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/scicalia/Projects/TerrainTest/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/scicalia/Projects/TerrainTest/Temp/bin/Debug/TextMeshPro-1.0.55.56.0b10.dll

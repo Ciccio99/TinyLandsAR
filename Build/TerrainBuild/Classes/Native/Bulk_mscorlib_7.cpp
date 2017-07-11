@@ -16,15 +16,18 @@
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array3829468939.h"
-#include "mscorlib_System_Text_Latin1Encoding3483306430.h"
-#include "mscorlib_System_Void1841601450.h"
+#include "mscorlib_System_Text_Encoding_ForwardingDecoder2155223679.h"
 #include "mscorlib_System_Text_Encoding663144255.h"
+#include "mscorlib_System_Void1841601450.h"
+#include "mscorlib_System_Text_DecoderFallback1715117820.h"
+#include "mscorlib_System_Text_Decoder3792697818.h"
 #include "mscorlib_System_Int322071877448.h"
+#include "mscorlib_System_Byte3683104436.h"
 #include "mscorlib_System_Char3454481338.h"
+#include "mscorlib_System_Text_Latin1Encoding3483306430.h"
 #include "mscorlib_System_String2029220233.h"
 #include "mscorlib_System_ArgumentNullException628810857.h"
 #include "mscorlib_System_ArgumentOutOfRangeException279959794.h"
-#include "mscorlib_System_Byte3683104436.h"
 #include "mscorlib_System_Text_EncoderFallbackBuffer3883615514.h"
 #include "mscorlib_System_ArgumentException3259014390.h"
 #include "mscorlib_System_Text_EncoderFallback1756452756.h"
@@ -36,10 +39,8 @@
 #include "mscorlib_System_IndexOutOfRangeException3527622107.h"
 #include "mscorlib_System_Int64909078037.h"
 #include "mscorlib_System_Text_UnicodeEncoding4081757012.h"
-#include "mscorlib_System_Text_DecoderFallback1715117820.h"
 #include "mscorlib_System_Text_DecoderExceptionFallback944865245.h"
 #include "mscorlib_System_Text_DecoderReplacementFallback3042394152.h"
-#include "mscorlib_System_Text_Decoder3792697818.h"
 #include "mscorlib_System_Text_UnicodeEncoding_UnicodeDecode1968329522.h"
 #include "mscorlib_System_BitConverter3195628829.h"
 #include "mscorlib_System_Text_UTF32Encoding549530865.h"
@@ -167,20 +168,26 @@
 #include "mscorlib_System_Runtime_InteropServices_GCHandle3409268066.h"
 #include "mscorlib_System_Runtime_InteropServices_GCHandleTy1970708122.h"
 
-// System.Text.Latin1Encoding
-struct Latin1Encoding_t3483306430;
+// System.Text.Encoding/ForwardingDecoder
+struct ForwardingDecoder_t2155223679;
 // System.Text.Encoding
 struct Encoding_t663144255;
+// System.Text.Decoder
+struct Decoder_t3792697818;
+// System.Text.DecoderFallback
+struct DecoderFallback_t1715117820;
+// System.Byte[]
+struct ByteU5BU5D_t3397334013;
 // System.Char[]
 struct CharU5BU5D_t1328083999;
+// System.Text.Latin1Encoding
+struct Latin1Encoding_t3483306430;
 // System.ArgumentNullException
 struct ArgumentNullException_t628810857;
 // System.String
 struct String_t;
 // System.ArgumentOutOfRangeException
 struct ArgumentOutOfRangeException_t279959794;
-// System.Byte[]
-struct ByteU5BU5D_t3397334013;
 // System.Text.EncoderFallbackBuffer
 struct EncoderFallbackBuffer_t3883615514;
 // System.ArgumentException
@@ -203,12 +210,8 @@ struct IFormatProvider_t2849799027;
 struct UnicodeEncoding_t4081757012;
 // System.Text.DecoderExceptionFallback
 struct DecoderExceptionFallback_t944865245;
-// System.Text.DecoderFallback
-struct DecoderFallback_t1715117820;
 // System.Text.DecoderReplacementFallback
 struct DecoderReplacementFallback_t3042394152;
-// System.Text.Decoder
-struct Decoder_t3792697818;
 // System.Text.UnicodeEncoding/UnicodeDecoder
 struct UnicodeDecoder_t1968329522;
 // System.Text.UTF32Encoding
@@ -902,41 +905,6 @@ extern const uint32_t WeakReference__ctor_m1392239139_MetadataUsageId;
 extern Il2CppClass* Exception_t1927440687_il2cpp_TypeInfo_var;
 extern const uint32_t WeakReference_GetObjectData_m4037332046_MetadataUsageId;
 
-// System.Char[]
-struct CharU5BU5D_t1328083999  : public Il2CppArray
-{
-public:
-	ALIGN_FIELD (8) Il2CppChar m_Items[1];
-
-public:
-	inline Il2CppChar GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Il2CppChar* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Il2CppChar value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline Il2CppChar GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Il2CppChar* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Il2CppChar value)
-	{
-		m_Items[index] = value;
-	}
-};
 // System.Byte[]
 struct ByteU5BU5D_t3397334013  : public Il2CppArray
 {
@@ -968,6 +936,41 @@ public:
 		return m_Items + index;
 	}
 	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Char[]
+struct CharU5BU5D_t1328083999  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Il2CppChar m_Items[1];
+
+public:
+	inline Il2CppChar GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Il2CppChar* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Il2CppChar value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Il2CppChar GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Il2CppChar* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Il2CppChar value)
 	{
 		m_Items[index] = value;
 	}
@@ -1160,6 +1163,12 @@ extern "C"  void GenericComparer_1__ctor_m221205314_gshared (GenericComparer_1_t
 // System.Void System.Collections.Generic.GenericEqualityComparer`1<System.TimeSpan>::.ctor()
 extern "C"  void GenericEqualityComparer_1__ctor_m1269284954_gshared (GenericEqualityComparer_1_t2414141085 * __this, const MethodInfo* method);
 
+// System.Void System.Text.Decoder::.ctor()
+extern "C"  void Decoder__ctor_m2623573910 (Decoder_t3792697818 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Text.DecoderFallback System.Text.Encoding::get_DecoderFallback()
+extern "C"  DecoderFallback_t1715117820 * Encoding_get_DecoderFallback_m167120457 (Encoding_t663144255 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Text.Decoder::set_Fallback(System.Text.DecoderFallback)
+extern "C"  void Decoder_set_Fallback_m1780632169 (Decoder_t3792697818 * __this, DecoderFallback_t1715117820 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.Encoding::.ctor(System.Int32)
 extern "C"  void Encoding__ctor_m3985582722 (Encoding_t663144255 * __this, int32_t ___codePage0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentNullException::.ctor(System.String)
@@ -1278,8 +1287,6 @@ extern "C"  void UnicodeDecoder__ctor_m1914600301 (UnicodeDecoder_t1968329522 * 
 extern "C"  int32_t Encoding_GetHashCode_m2716285346 (Encoding_t663144255 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.String::memcpy(System.Byte*,System.Byte*,System.Int32)
 extern "C"  void String_memcpy_m1656639862 (Il2CppObject * __this /* static, unused */, uint8_t* ___dest0, uint8_t* ___src1, int32_t ___size2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void System.Text.Decoder::.ctor()
-extern "C"  void Decoder__ctor_m2623573910 (Decoder_t3792697818 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.UTF32Encoding::.ctor(System.Boolean,System.Boolean,System.Boolean)
 extern "C"  void UTF32Encoding__ctor_m3199945978 (UTF32Encoding_t549530865 * __this, bool ___bigEndian0, bool ___byteOrderMark1, bool ___throwOnInvalidCharacters2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.EncoderFallback System.Text.EncoderFallback::get_ExceptionFallback()
@@ -1304,8 +1311,6 @@ extern "C"  String_t* Encoding_GetString_m1894033578 (Encoding_t663144255 * __th
 extern "C"  void UTF7Encoding__ctor_m2365939916 (UTF7Encoding_t741406939 * __this, bool ___allowOptionals0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.CompilerServices.RuntimeHelpers::InitializeArray(System.Array,System.RuntimeFieldHandle)
 extern "C"  void RuntimeHelpers_InitializeArray_m3920580167 (Il2CppObject * __this /* static, unused */, Il2CppArray * ___array0, RuntimeFieldHandle_t2331729674  ___fldHandle1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Text.DecoderFallback System.Text.Encoding::get_DecoderFallback()
-extern "C"  DecoderFallback_t1715117820 * Encoding_get_DecoderFallback_m167120457 (Encoding_t663144255 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF7Encoding::InternalGetByteCount(System.Char[],System.Int32,System.Int32,System.Boolean,System.Int32,System.Boolean,System.Boolean)
 extern "C"  int32_t UTF7Encoding_InternalGetByteCount_m1636341784 (Il2CppObject * __this /* static, unused */, CharU5BU5D_t1328083999* ___chars0, int32_t ___index1, int32_t ___count2, bool ___flush3, int32_t ___leftOver4, bool ___isInShifted5, bool ___allowOptionals6, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentException::.ctor(System.String,System.String)
@@ -1350,8 +1355,6 @@ extern "C"  void UTF8Encoding_Fallback_m3891588134 (Il2CppObject * __this /* sta
 extern "C"  int32_t UTF8Encoding_InternalGetChars_m1688183071 (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___bytes0, int32_t ___byteIndex1, int32_t ___byteCount2, CharU5BU5D_t1328083999* ___chars3, int32_t ___charIndex4, uint32_t* ___leftOverBits5, uint32_t* ___leftOverCount6, Il2CppObject * ___provider7, DecoderFallbackBuffer_t4206371382 ** ___fallbackBuffer8, ByteU5BU5D_t3397334013** ___bufferArg9, bool ___flush10, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.UTF8Encoding/UTF8Decoder::.ctor(System.Text.DecoderFallback)
 extern "C"  void UTF8Decoder__ctor_m1460357288 (UTF8Decoder_t2447592404 * __this, DecoderFallback_t1715117820 * ___fallback0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void System.Text.Decoder::set_Fallback(System.Text.DecoderFallback)
-extern "C"  void Decoder_set_Fallback_m1780632169 (Decoder_t3792697818 * __this, DecoderFallback_t1715117820 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList::.ctor(System.Int32)
 extern "C"  void ArrayList__ctor_m1467563650 (ArrayList_t4252133567 * __this, int32_t ___capacity0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.CompressedStack::.ctor(System.Threading.CompressedStack)
@@ -2145,6 +2148,49 @@ extern "C"  void SerializationInfo_AddValue_m1192926088 (SerializationInfo_t2289
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void System.Text.Encoding/ForwardingDecoder::.ctor(System.Text.Encoding)
+extern "C"  void ForwardingDecoder__ctor_m2059339522 (ForwardingDecoder_t2155223679 * __this, Encoding_t663144255 * ___enc0, const MethodInfo* method)
+{
+	DecoderFallback_t1715117820 * V_0 = NULL;
+	{
+		Decoder__ctor_m2623573910(__this, /*hidden argument*/NULL);
+		Encoding_t663144255 * L_0 = ___enc0;
+		__this->set_encoding_2(L_0);
+		Encoding_t663144255 * L_1 = __this->get_encoding_2();
+		NullCheck(L_1);
+		DecoderFallback_t1715117820 * L_2 = Encoding_get_DecoderFallback_m167120457(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		DecoderFallback_t1715117820 * L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		DecoderFallback_t1715117820 * L_4 = V_0;
+		Decoder_set_Fallback_m1780632169(__this, L_4, /*hidden argument*/NULL);
+	}
+
+IL_0026:
+	{
+		return;
+	}
+}
+// System.Int32 System.Text.Encoding/ForwardingDecoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+extern "C"  int32_t ForwardingDecoder_GetChars_m253098413 (ForwardingDecoder_t2155223679 * __this, ByteU5BU5D_t3397334013* ___bytes0, int32_t ___byteIndex1, int32_t ___byteCount2, CharU5BU5D_t1328083999* ___chars3, int32_t ___charIndex4, const MethodInfo* method)
+{
+	{
+		Encoding_t663144255 * L_0 = __this->get_encoding_2();
+		ByteU5BU5D_t3397334013* L_1 = ___bytes0;
+		int32_t L_2 = ___byteIndex1;
+		int32_t L_3 = ___byteCount2;
+		CharU5BU5D_t1328083999* L_4 = ___chars3;
+		int32_t L_5 = ___charIndex4;
+		NullCheck(L_0);
+		int32_t L_6 = VirtFuncInvoker5< int32_t, ByteU5BU5D_t3397334013*, int32_t, int32_t, CharU5BU5D_t1328083999*, int32_t >::Invoke(14 /* System.Int32 System.Text.Encoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32) */, L_0, L_1, L_2, L_3, L_4, L_5);
+		return L_6;
+	}
+}
 // System.Void System.Text.Latin1Encoding::.ctor()
 extern "C"  void Latin1Encoding__ctor_m2999253292 (Latin1Encoding_t3483306430 * __this, const MethodInfo* method)
 {

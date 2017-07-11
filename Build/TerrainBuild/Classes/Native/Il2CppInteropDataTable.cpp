@@ -362,6 +362,8 @@ extern "C" void SpriteState_t1353336012_marshal_pinvoke(void* managedStructure, 
 extern "C" void SpriteState_t1353336012_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void SpriteState_t1353336012_marshal_pinvoke_cleanup(void* marshaledStructure);
 extern const Il2CppType SpriteState_t1353336012_0_0_0;
+extern "C" void DelegatePInvokeWrapper_DispatcherFactory_t1307565918();
+extern const Il2CppType DispatcherFactory_t1307565918_0_0_0;
 extern "C" void ColorTween_t1637921736_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
 extern "C" void ColorTween_t1637921736_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void ColorTween_t1637921736_marshal_pinvoke_cleanup(void* marshaledStructure);
@@ -478,7 +480,7 @@ extern "C" void DelegatePInvokeWrapper_internal_ARAnchorUpdated_t3705772742();
 extern const Il2CppType internal_ARAnchorUpdated_t3705772742_0_0_0;
 extern "C" void DelegatePInvokeWrapper_internal_ARFrameUpdate_t3296518558();
 extern const Il2CppType internal_ARFrameUpdate_t3296518558_0_0_0;
-extern Il2CppInteropData g_Il2CppInteropData[136] = 
+extern Il2CppInteropData g_Il2CppInteropData[137] = 
 {
 	{ NULL, Context_t2636657155_marshal_pinvoke, Context_t2636657155_marshal_pinvoke_back, Context_t2636657155_marshal_pinvoke_cleanup, NULL, NULL, &Context_t2636657155_0_0_0 } /* Mono.Globalization.Unicode.SimpleCollator/Context */,
 	{ NULL, Escape_t169451053_marshal_pinvoke, Escape_t169451053_marshal_pinvoke_back, Escape_t169451053_marshal_pinvoke_cleanup, NULL, NULL, &Escape_t169451053_0_0_0 } /* Mono.Globalization.Unicode.SimpleCollator/Escape */,
@@ -579,6 +581,7 @@ extern Il2CppInteropData g_Il2CppInteropData[136] =
 	{ DelegatePInvokeWrapper_OnValidateInput_t1946318473, NULL, NULL, NULL, NULL, NULL, &OnValidateInput_t1946318473_0_0_0 } /* UnityEngine.UI.InputField/OnValidateInput */,
 	{ NULL, Navigation_t1571958496_marshal_pinvoke, Navigation_t1571958496_marshal_pinvoke_back, Navigation_t1571958496_marshal_pinvoke_cleanup, NULL, NULL, &Navigation_t1571958496_0_0_0 } /* UnityEngine.UI.Navigation */,
 	{ NULL, SpriteState_t1353336012_marshal_pinvoke, SpriteState_t1353336012_marshal_pinvoke_back, SpriteState_t1353336012_marshal_pinvoke_cleanup, NULL, NULL, &SpriteState_t1353336012_0_0_0 } /* UnityEngine.UI.SpriteState */,
+	{ DelegatePInvokeWrapper_DispatcherFactory_t1307565918, NULL, NULL, NULL, NULL, NULL, &DispatcherFactory_t1307565918_0_0_0 } /* Boo.Lang.Runtime.DynamicDispatching.DispatcherCache/DispatcherFactory */,
 	{ NULL, ColorTween_t1637921736_marshal_pinvoke, ColorTween_t1637921736_marshal_pinvoke_back, ColorTween_t1637921736_marshal_pinvoke_cleanup, NULL, NULL, &ColorTween_t1637921736_0_0_0 } /* TMPro.ColorTween */,
 	{ NULL, FloatTween_t1652887471_marshal_pinvoke, FloatTween_t1652887471_marshal_pinvoke_back, FloatTween_t1652887471_marshal_pinvoke_cleanup, NULL, NULL, &FloatTween_t1652887471_0_0_0 } /* TMPro.FloatTween */,
 	{ NULL, FontCreationSetting_t1093397046_marshal_pinvoke, FontCreationSetting_t1093397046_marshal_pinvoke_back, FontCreationSetting_t1093397046_marshal_pinvoke_cleanup, NULL, NULL, &FontCreationSetting_t1093397046_0_0_0 } /* TMPro.FontCreationSetting */,

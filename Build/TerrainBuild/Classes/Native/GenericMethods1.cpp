@@ -755,7 +755,7 @@ extern const uint32_t GameObject_AddComponent_TisIl2CppObject_m3813873105_Metada
 extern const uint32_t GameObject_GetComponent_TisIl2CppObject_m2650145732_MetadataUsageId;
 extern const uint32_t GameObject_GetComponentInChildren_TisIl2CppObject_m1362037227_MetadataUsageId;
 extern const uint32_t GameObject_GetComponentInParent_TisIl2CppObject_m781417156_MetadataUsageId;
-extern const uint32_t Object_FindObjectOfType_TisIl2CppObject_m2380160525_MetadataUsageId;
+extern const uint32_t Object_FindObjectOfType_TisIl2CppObject_m1124034383_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral444318565;
 extern const uint32_t Object_Instantiate_TisIl2CppObject_m447919519_MetadataUsageId;
 extern const uint32_t Object_Instantiate_TisIl2CppObject_m1767088036_MetadataUsageId;
@@ -767,10 +767,10 @@ extern const uint32_t Resources_Load_TisIl2CppObject_m1620001185_MetadataUsageId
 extern const uint32_t ScriptableObject_CreateInstance_TisIl2CppObject_m926060499_MetadataUsageId;
 extern const uint32_t Dropdown_GetOrAddComponent_TisIl2CppObject_m2875934266_MetadataUsageId;
 extern const uint32_t Array_FindAll_TisIl2CppObject_m2420286284_MetadataUsageId;
-extern const uint32_t GameObject_GetComponents_TisIl2CppObject_m3618562997_MetadataUsageId;
+extern const uint32_t GameObject_GetComponents_TisIl2CppObject_m2216076446_MetadataUsageId;
 extern const uint32_t GameObject_GetComponentsInChildren_TisIl2CppObject_m851581932_MetadataUsageId;
 extern const uint32_t GameObject_GetComponentsInParent_TisIl2CppObject_m3479568873_MetadataUsageId;
-extern const uint32_t Object_FindObjectsOfType_TisIl2CppObject_m586770970_MetadataUsageId;
+extern const uint32_t Object_FindObjectsOfType_TisIl2CppObject_m1590800056_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral3706307074;
 extern const uint32_t Array_ConvertAll_TisIl2CppObject_TisIl2CppObject_m2423585546_MetadataUsageId;
 extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
@@ -22779,12 +22779,12 @@ IL_001c:
 	}
 }
 // T UnityEngine.Object::FindObjectOfType<System.Object>()
-extern "C"  Il2CppObject * Object_FindObjectOfType_TisIl2CppObject_m2380160525_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+extern "C"  Il2CppObject * Object_FindObjectOfType_TisIl2CppObject_m1124034383_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Object_FindObjectOfType_TisIl2CppObject_m2380160525_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Object_FindObjectOfType_TisIl2CppObject_m1124034383_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	Il2CppObject * V_0 = NULL;
@@ -23377,12 +23377,12 @@ IL_0013:
 	}
 }
 // T[] UnityEngine.GameObject::GetComponents<System.Object>()
-extern "C"  ObjectU5BU5D_t3614634134* GameObject_GetComponents_TisIl2CppObject_m3618562997_gshared (GameObject_t1756533147 * __this, const MethodInfo* method)
+extern "C"  ObjectU5BU5D_t3614634134* GameObject_GetComponents_TisIl2CppObject_m2216076446_gshared (GameObject_t1756533147 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (GameObject_GetComponents_TisIl2CppObject_m3618562997_MetadataUsageId);
+		il2cpp_codegen_initialize_method (GameObject_GetComponents_TisIl2CppObject_m2216076446_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t3614634134* V_0 = NULL;
@@ -23809,12 +23809,12 @@ IL_0048:
 	}
 }
 // T[] UnityEngine.Object::FindObjectsOfType<System.Object>()
-extern "C"  ObjectU5BU5D_t3614634134* Object_FindObjectsOfType_TisIl2CppObject_m586770970_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+extern "C"  ObjectU5BU5D_t3614634134* Object_FindObjectsOfType_TisIl2CppObject_m1590800056_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Object_FindObjectsOfType_TisIl2CppObject_m586770970_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Object_FindObjectsOfType_TisIl2CppObject_m1590800056_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	ObjectU5BU5D_t3614634134* V_0 = NULL;

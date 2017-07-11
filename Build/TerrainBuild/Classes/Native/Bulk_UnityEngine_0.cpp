@@ -76,6 +76,7 @@
 #include "UnityEngine_UnityEngine_AudioClip_PCMReaderCallbac3007145346.h"
 #include "UnityEngine_UnityEngine_AudioClip_PCMSetPositionCal421863554.h"
 #include "UnityEngine_UnityEngine_AudioListener1996719162.h"
+#include "UnityEngine_UnityEngine_AudioRolloffMode2229549515.h"
 #include "UnityEngine_UnityEngine_AudioSettings3144015719.h"
 #include "UnityEngine_UnityEngine_AudioSettings_AudioConfigu3743753033.h"
 #include "UnityEngine_UnityEngine_AudioSource1135106623.h"
@@ -5359,6 +5360,15 @@ extern "C"  void AudioSource_Stop_m3452679614 (AudioSource_t1135106623 * __this,
 	_il2cpp_icall_func = (AudioSource_Stop_m3452679614_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::Stop()");
 	_il2cpp_icall_func(__this);
 }
+// System.Boolean UnityEngine.AudioSource::get_isPlaying()
+extern "C"  bool AudioSource_get_isPlaying_m3677592677 (AudioSource_t1135106623 * __this, const MethodInfo* method)
+{
+	typedef bool (*AudioSource_get_isPlaying_m3677592677_ftn) (AudioSource_t1135106623 *);
+	static AudioSource_get_isPlaying_m3677592677_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_get_isPlaying_m3677592677_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::get_isPlaying()");
+	return _il2cpp_icall_func(__this);
+}
 // System.Void UnityEngine.AudioSource::PlayOneShot(UnityEngine.AudioClip,System.Single)
 extern "C"  void AudioSource_PlayOneShot_m4118899740 (AudioSource_t1135106623 * __this, AudioClip_t1932558630 * ___clip0, float ___volumeScale1, const MethodInfo* method)
 {
@@ -5423,6 +5433,15 @@ extern "C"  void AudioSource_set_maxDistance_m2780167297 (AudioSource_t113510662
 	static AudioSource_set_maxDistance_m2780167297_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (AudioSource_set_maxDistance_m2780167297_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_maxDistance(System.Single)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.AudioSource::set_rolloffMode(UnityEngine.AudioRolloffMode)
+extern "C"  void AudioSource_set_rolloffMode_m2959852922 (AudioSource_t1135106623 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	typedef void (*AudioSource_set_rolloffMode_m2959852922_ftn) (AudioSource_t1135106623 *, int32_t);
+	static AudioSource_set_rolloffMode_m2959852922_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_set_rolloffMode_m2959852922_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_rolloffMode(UnityEngine.AudioRolloffMode)");
 	_il2cpp_icall_func(__this, ___value0);
 }
 // System.Void UnityEngine.Behaviour::.ctor()

@@ -59,6 +59,7 @@
 #include "mscorlib_System_Reflection_AssemblyFileVersionAttr2897687916.h"
 #include "mscorlib_System_Reflection_AssemblyInformationalVe3037389657.h"
 #include "mscorlib_System_Reflection_AssemblyKeyFileAttribute605245443.h"
+#include "mscorlib_System_Reflection_AssemblyKeyNameAttribut2494571406.h"
 #include "mscorlib_System_Configuration_Assemblies_AssemblyV1223556284.h"
 #include "mscorlib_System_Version1755874712.h"
 #include "mscorlib_System_Byte3683104436.h"
@@ -176,8 +177,6 @@
 #include "mscorlib_System_ResolveEventHandler3842432458.h"
 #include "mscorlib_System_Resources_NeutralResourcesLanguage3267676636.h"
 #include "mscorlib_System_Resources_PredefinedResourceType3623697780.h"
-#include "mscorlib_System_Resources_ResourceManager264715885.h"
-#include "mscorlib_System_Collections_Hashtable909839986.h"
 
 // System.OutOfMemoryException
 struct OutOfMemoryException_t1181064283;
@@ -255,6 +254,8 @@ struct AssemblyFileVersionAttribute_t2897687916;
 struct AssemblyInformationalVersionAttribute_t3037389657;
 // System.Reflection.AssemblyKeyFileAttribute
 struct AssemblyKeyFileAttribute_t605245443;
+// System.Reflection.AssemblyKeyNameAttribute
+struct AssemblyKeyNameAttribute_t2494571406;
 // System.Globalization.CultureInfo
 struct CultureInfo_t3500843524;
 // System.Text.StringBuilder
@@ -447,10 +448,6 @@ struct EventArgs_t3289624707;
 struct ResolveEventHandler_t3842432458;
 // System.Resources.NeutralResourcesLanguageAttribute
 struct NeutralResourcesLanguageAttribute_t3267676636;
-// System.Resources.ResourceManager
-struct ResourceManager_t264715885;
-// System.Collections.Hashtable
-struct Hashtable_t909839986;
 extern Il2CppCodeGenString* _stringLiteral2159712404;
 extern const uint32_t OutOfMemoryException__ctor_m1340150080_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral1124468381;
@@ -1160,11 +1157,6 @@ extern Il2CppClass* EventArgs_t3289624707_il2cpp_TypeInfo_var;
 extern const uint32_t ResolveEventArgs__ctor_m1927258464_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral1377061773;
 extern const uint32_t NeutralResourcesLanguageAttribute__ctor_m1145808404_MetadataUsageId;
-extern const Il2CppType* RuntimeResourceSet_t1442459318_0_0_0_var;
-extern const uint32_t ResourceManager__ctor_m498829021_MetadataUsageId;
-extern Il2CppClass* Hashtable_t909839986_il2cpp_TypeInfo_var;
-extern Il2CppClass* ResourceManager_t264715885_il2cpp_TypeInfo_var;
-extern const uint32_t ResourceManager__cctor_m2190112652_MetadataUsageId;
 
 // System.Int32[]
 struct Int32U5BU5D_t3030399641  : public Il2CppArray
@@ -2925,10 +2917,6 @@ extern "C"  bool TypeFilter_Invoke_m2156848151 (TypeFilter_t2905709404 * __this,
 extern "C"  void EventArgs__ctor_m3696060910 (EventArgs_t3289624707 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Assembly System.ResolveEventHandler::Invoke(System.Object,System.ResolveEventArgs)
 extern "C"  Assembly_t4268412390 * ResolveEventHandler_Invoke_m3343892466 (ResolveEventHandler_t3842432458 * __this, Il2CppObject * ___sender0, ResolveEventArgs_t1859808873 * ___args1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void System.Collections.Hashtable::.ctor()
-extern "C"  void Hashtable__ctor_m1884964176 (Hashtable_t909839986 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Collections.Hashtable System.Collections.Hashtable::Synchronized(System.Collections.Hashtable)
-extern "C"  Hashtable_t909839986 * Hashtable_Synchronized_m225390213 (Il2CppObject * __this /* static, unused */, Hashtable_t909839986 * ___table0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -4007,6 +3995,16 @@ extern "C"  void AssemblyKeyFileAttribute__ctor_m1072556611 (AssemblyKeyFileAttr
 	{
 		Attribute__ctor_m1730479323(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___keyFile0;
+		__this->set_name_0(L_0);
+		return;
+	}
+}
+// System.Void System.Reflection.AssemblyKeyNameAttribute::.ctor(System.String)
+extern "C"  void AssemblyKeyNameAttribute__ctor_m3504441012 (AssemblyKeyNameAttribute_t2494571406 * __this, String_t* ___keyName0, const MethodInfo* method)
+{
+	{
+		Attribute__ctor_m1730479323(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___keyName0;
 		__this->set_name_0(L_0);
 		return;
 	}
@@ -25714,46 +25712,6 @@ IL_0017:
 	{
 		String_t* L_2 = ___cultureName0;
 		__this->set_culture_0(L_2);
-		return;
-	}
-}
-// System.Void System.Resources.ResourceManager::.ctor()
-extern "C"  void ResourceManager__ctor_m498829021 (ResourceManager_t264715885 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ResourceManager__ctor_m498829021_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(RuntimeResourceSet_t1442459318_0_0_0_var), /*hidden argument*/NULL);
-		__this->set_resourceSetType_4(L_0);
-		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void System.Resources.ResourceManager::.cctor()
-extern "C"  void ResourceManager__cctor_m2190112652 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ResourceManager__cctor_m2190112652_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Hashtable_t909839986 * L_0 = (Hashtable_t909839986 *)il2cpp_codegen_object_new(Hashtable_t909839986_il2cpp_TypeInfo_var);
-		Hashtable__ctor_m1884964176(L_0, /*hidden argument*/NULL);
-		((ResourceManager_t264715885_StaticFields*)ResourceManager_t264715885_il2cpp_TypeInfo_var->static_fields)->set_ResourceCache_0(L_0);
-		Hashtable_t909839986 * L_1 = (Hashtable_t909839986 *)il2cpp_codegen_object_new(Hashtable_t909839986_il2cpp_TypeInfo_var);
-		Hashtable__ctor_m1884964176(L_1, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Hashtable_t909839986_il2cpp_TypeInfo_var);
-		Hashtable_t909839986 * L_2 = Hashtable_Synchronized_m225390213(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
-		((ResourceManager_t264715885_StaticFields*)ResourceManager_t264715885_il2cpp_TypeInfo_var->static_fields)->set_NonExistent_1(L_2);
-		((ResourceManager_t264715885_StaticFields*)ResourceManager_t264715885_il2cpp_TypeInfo_var->static_fields)->set_HeaderVersionNumber_2(1);
-		((ResourceManager_t264715885_StaticFields*)ResourceManager_t264715885_il2cpp_TypeInfo_var->static_fields)->set_MagicNumber_3(((int32_t)-1091581234));
 		return;
 	}
 }

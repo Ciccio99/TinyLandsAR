@@ -32,6 +32,7 @@ public class GeneralManager : MonoBehaviour {
 //                TerrainManipulationUpdateEvent(touchEvent, rayHit.point);
             } else if (hitGO.CompareTag("TerrainPlane")) {
                 m_ARTerrainManager.CreateTerrainAnchorObject (m_ARPlaneManager.m_PlaneAnchorObject.anchor);
+                m_ARPlaneManager.DestroyCurrentPlaneObject ();
             }
 
         }

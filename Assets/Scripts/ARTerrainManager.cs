@@ -12,17 +12,16 @@ public class ARTerrainManager : MonoBehaviour {
     public TerrainAnchorObject m_TerrainAnchorObject;
     public float m_TerrainModifyRate;
     public float m_TerrainSelectRadius = 0.06f;
-
+    public Material m_TerrainMaterial;
   
     [HideInInspector]
     public bool m_TerrainSpawned;
 
     public enum ManipPhase { BEGAN, MOVED, ENDED, NONE }
     private ManipPhase m_CurrentManipPhase;
-
+    private float m_TallestMeshHeight;
     private Vector2 m_StartTouchPosition;
     private Vector2 m_TouchDirection;
-    private Vector3 m_StartingTerrainPoint;
     private int m_VerticesManipIndex;
     private List<TerrainPoint> m_TerrainPoints;
 
@@ -33,6 +32,7 @@ public class ARTerrainManager : MonoBehaviour {
         m_TerrainSpawned = false;
         m_CurrentManipPhase = ManipPhase.NONE;
         m_TerrainPoints = new List<TerrainPoint> ();
+        m_TerrainAnchorObject = new TerrainAnchorObject ();
     }
        
 
@@ -76,9 +76,6 @@ public class ARTerrainManager : MonoBehaviour {
                 foreach (TerrainPoint tPoint in m_TerrainPoints) {
                     vertices [tPoint.index].y += modification / tPoint.distDenom;
                 }
-
-                Debug.Log ("Vertex Position: " + vertices [m_VerticesManipIndex].y);
-
                 // Modify the clostest vertex
                 mf.mesh.vertices = vertices;
             }
@@ -112,6 +109,7 @@ public class ARTerrainManager : MonoBehaviour {
             Vector3[] vertices = mf.mesh.vertices;
             int shortestInd = 0;
             float shortestDist = Mathf.Infinity;
+            float tallestDist = Mathf.NegativeInfinity;
 
             // Go through all verticed and find the closest mesh vertex to the rayHit point
             for (int i = 0; i < vertices.Length; i++) {
@@ -122,22 +120,15 @@ public class ARTerrainManager : MonoBehaviour {
                     shortestInd = i;
                 }
 
-//                if (magnitude < m_TerrainSelectRadius / 3f)
-//                    m_TerrainPoints.Add (new TerrainPoint (i, vert, 1f));
-//                else if (magnitude < m_TerrainSelectRadius / 2f)
-//                    m_TerrainPoints.Add (new TerrainPoint (i, vert, 2f));
-//                else if (magnitude < m_TerrainSelectRadius)
-//                    m_TerrainPoints.Add (new TerrainPoint (i, vert, 3f));
-
                 if (magnitude <= m_TerrainSelectRadius) {
-                    m_TerrainPoints.Add (new TerrainPoint (i, vert, Mathf.Lerp(1f, 5f, magnitude / m_TerrainSelectRadius)));
+                    m_TerrainPoints.Add (new TerrainPoint (i, vert, Mathf.Lerp(1f, 3f, magnitude / m_TerrainSelectRadius)));
                 }
             }
-            Debug.Log ("Closest distance of vertex was: " + shortestDist);
+
             // Set the needed variables to later manipulate the mesh
             m_StartTouchPosition = touchEvent.position;
-            m_StartingTerrainPoint = vertices [shortestInd];
             m_VerticesManipIndex = shortestInd;
+
         }
         m_CurrentManipPhase = ManipPhase.MOVED;
     }

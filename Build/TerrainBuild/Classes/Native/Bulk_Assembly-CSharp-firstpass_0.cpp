@@ -1745,7 +1745,7 @@ public:
 // !!0 UnityEngine.Component::GetComponent<System.Object>()
 extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m4109961936_gshared (Component_t3819376471 * __this, const MethodInfo* method);
 // !!0 UnityEngine.Object::FindObjectOfType<System.Object>()
-extern "C"  Il2CppObject * Object_FindObjectOfType_TisIl2CppObject_m2380160525_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method);
+extern "C"  Il2CppObject * Object_FindObjectOfType_TisIl2CppObject_m1124034383_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method);
 // !!0 UnityEngine.GameObject::AddComponent<System.Object>()
 extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
 // !!0 UnityEngine.Component::GetComponentInChildren<System.Object>()
@@ -1785,7 +1785,7 @@ extern "C"  ParticleCollisionEvent_t248228720  List_1_get_Item_m1688736441_gshar
 // !!0 UnityEngine.GameObject::GetComponent<System.Object>()
 extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
 // !!0[] UnityEngine.Object::FindObjectsOfType<System.Object>()
-extern "C"  ObjectU5BU5D_t3614634134* Object_FindObjectsOfType_TisIl2CppObject_m586770970_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method);
+extern "C"  ObjectU5BU5D_t3614634134* Object_FindObjectsOfType_TisIl2CppObject_m1590800056_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method);
 // !!0 UnityEngine.Object::Instantiate<System.Object>(!!0)
 extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m447919519_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method);
 // System.Int32 System.Collections.Generic.List`1<System.Object>::IndexOf(!0)
@@ -1834,7 +1834,7 @@ extern "C"  float Rect_get_y_m1393582395 (Rect_t3681755626 * __this, const Metho
 // UnityEngine.Color UnityEngine.Texture2D::GetPixelBilinear(System.Single,System.Single)
 extern "C"  Color_t2020392075  Texture2D_GetPixelBilinear_m3063031185 (Texture2D_t3542995729 * __this, float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // !!0 UnityEngine.Object::FindObjectOfType<UnityEngine.EventSystems.EventSystem>()
-#define Object_FindObjectOfType_TisEventSystem_t3466835263_m1204182401(__this /* static, unused */, method) ((  EventSystem_t3466835263 * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisIl2CppObject_m2380160525_gshared)(__this /* static, unused */, method)
+#define Object_FindObjectOfType_TisEventSystem_t3466835263_m1204182401(__this /* static, unused */, method) ((  EventSystem_t3466835263 * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisIl2CppObject_m1124034383_gshared)(__this /* static, unused */, method)
 // System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)
 extern "C"  bool Object_op_Implicit_m2856731593 (Il2CppObject * __this /* static, unused */, Object_t1021602117 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GameObject::.ctor(System.String)
@@ -2690,7 +2690,7 @@ extern "C"  bool Animation_Play_m185747875 (Animation_t2068071072 * __this, cons
 // System.Void UnityStandardAssets.Utility.ActivateTrigger::DoActivateTrigger()
 extern "C"  void ActivateTrigger_DoActivateTrigger_m3938801061 (ActivateTrigger_t2794485791 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // !!0[] UnityEngine.Object::FindObjectsOfType<UnityEngine.Renderer>()
-#define Object_FindObjectsOfType_TisRenderer_t257310565_m2392938454(__this /* static, unused */, method) ((  RendererU5BU5D_t2810717544* (*) (Il2CppObject * /* static, unused */, const MethodInfo*))Object_FindObjectsOfType_TisIl2CppObject_m586770970_gshared)(__this /* static, unused */, method)
+#define Object_FindObjectsOfType_TisRenderer_t257310565_m2392938454(__this /* static, unused */, method) ((  RendererU5BU5D_t2810717544* (*) (Il2CppObject * /* static, unused */, const MethodInfo*))Object_FindObjectsOfType_TisIl2CppObject_m1590800056_gshared)(__this /* static, unused */, method)
 // System.String System.String::Concat(System.Object,System.Object)
 extern "C"  String_t* String_Concat_m56707527 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, Il2CppObject * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Debug::Log(System.Object)

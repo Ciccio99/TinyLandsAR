@@ -35598,6 +35598,11 @@ extern "C"  double Math_Acos_m2218287828 (Il2CppObject * __this /* static, unuse
 {
 	return acos(___d0);
 }
+// System.Double System.Math::Asin(System.Double)
+extern "C"  double Math_Asin_m347297897 (Il2CppObject * __this /* static, unused */, double ___d0, const MethodInfo* method)
+{
+	return asin(___d0);
+}
 // System.Double System.Math::Atan(System.Double)
 extern "C"  double Math_Atan_m2820982624 (Il2CppObject * __this /* static, unused */, double ___d0, const MethodInfo* method)
 {

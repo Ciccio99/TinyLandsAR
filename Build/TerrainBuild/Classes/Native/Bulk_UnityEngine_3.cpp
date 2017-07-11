@@ -16,14 +16,17 @@
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array3829468939.h"
-#include "UnityEngine_UnityEngine_SocialPlatforms_Impl_UserP3365630962.h"
-#include "mscorlib_System_Void1841601450.h"
-#include "mscorlib_System_Object2689449295.h"
+#include "UnityEngine_UnityEngine_SocialPlatforms_Impl_Score2307748940.h"
 #include "mscorlib_System_String2029220233.h"
+#include "mscorlib_System_Void1841601450.h"
+#include "mscorlib_System_Int64909078037.h"
+#include "mscorlib_System_DateTime693205669.h"
+#include "mscorlib_System_Int322071877448.h"
+#include "mscorlib_System_Object2689449295.h"
+#include "UnityEngine_UnityEngine_SocialPlatforms_Impl_UserP3365630962.h"
 #include "mscorlib_System_Boolean3825574718.h"
 #include "UnityEngine_UnityEngine_SocialPlatforms_UserState455716270.h"
 #include "UnityEngine_UnityEngine_Texture2D3542995729.h"
-#include "mscorlib_System_Int322071877448.h"
 #include "UnityEngine_UnityEngine_SocialPlatforms_Range3455291607.h"
 #include "UnityEngine_UnityEngine_SocialPlatforms_TimeScope2583939667.h"
 #include "UnityEngine_UnityEngine_SocialPlatforms_UserScope3775842435.h"
@@ -150,16 +153,18 @@
 #include "System_System_Uri19570940.h"
 #include "System_System_Text_RegularExpressions_Regex1803876613.h"
 
-// UnityEngine.SocialPlatforms.Impl.UserProfile
-struct UserProfile_t3365630962;
-// System.Object
-struct Il2CppObject;
-// UnityEngine.Texture2D
-struct Texture2D_t3542995729;
+// UnityEngine.SocialPlatforms.Impl.Score
+struct Score_t2307748940;
 // System.String
 struct String_t;
+// System.Object
+struct Il2CppObject;
 // System.Object[]
 struct ObjectU5BU5D_t3614634134;
+// UnityEngine.SocialPlatforms.Impl.UserProfile
+struct UserProfile_t3365630962;
+// UnityEngine.Texture2D
+struct Texture2D_t3542995729;
 // UnityEngine.SpaceAttribute
 struct SpaceAttribute_t952253354;
 // UnityEngine.PropertyAttribute
@@ -302,14 +307,25 @@ struct TypeInferenceRuleAttribute_t1390152093;
 struct Uri_t19570940;
 // System.Text.RegularExpressions.Regex
 struct Regex_t1803876613;
+extern Il2CppClass* DateTime_t693205669_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029326;
+extern Il2CppCodeGenString* _stringLiteral371857150;
+extern const uint32_t Score__ctor_m4088571740_MetadataUsageId;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int64_t909078037_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1969136623;
+extern Il2CppCodeGenString* _stringLiteral2088420153;
+extern Il2CppCodeGenString* _stringLiteral705785168;
+extern Il2CppCodeGenString* _stringLiteral3705328384;
+extern Il2CppCodeGenString* _stringLiteral256488244;
+extern const uint32_t Score_ToString_m2361881169_MetadataUsageId;
 extern Il2CppClass* Texture2D_t3542995729_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral3771700375;
-extern Il2CppCodeGenString* _stringLiteral372029326;
 extern const uint32_t UserProfile__ctor_m1897167318_MetadataUsageId;
-extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
 extern Il2CppClass* Boolean_t3825574718_il2cpp_TypeInfo_var;
 extern Il2CppClass* UserState_t455716270_il2cpp_TypeInfo_var;
-extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral1220271277;
 extern const uint32_t UserProfile_ToString_m3584230475_MetadataUsageId;
 extern Il2CppClass* StackTraceUtility_t1881293839_il2cpp_TypeInfo_var;
@@ -330,7 +346,6 @@ extern Il2CppClass* Exception_t1927440687_il2cpp_TypeInfo_var;
 extern Il2CppClass* StringBuilder_t1221177846_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral3698476383;
 extern Il2CppCodeGenString* _stringLiteral267581099;
-extern Il2CppCodeGenString* _stringLiteral371857150;
 extern Il2CppCodeGenString* _stringLiteral372029352;
 extern Il2CppCodeGenString* _stringLiteral811305496;
 extern Il2CppCodeGenString* _stringLiteral4028943723;
@@ -366,7 +381,6 @@ extern Il2CppCodeGenString* _stringLiteral1644205752;
 extern const uint32_t StackTraceUtility_ExtractFormattedStackTrace_m2242276521_MetadataUsageId;
 extern const uint32_t StackTraceUtility__cctor_m1132099289_MetadataUsageId;
 extern Il2CppClass* TerrainData_t1351141029_il2cpp_TypeInfo_var;
-extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
 extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2636272302;
 extern Il2CppCodeGenString* _stringLiteral1617874639;
@@ -807,8 +821,22 @@ extern "C"  void List_1__ctor_m3698273726_gshared (List_1_t2425757932 * __this, 
 // System.Void System.Collections.Generic.List`1<UnityEngine.UILineInfo>::.ctor(System.Int32)
 extern "C"  void List_1__ctor_m2766376432_gshared (List_1_t2990399006 * __this, int32_t p0, const MethodInfo* method);
 
+// System.DateTime System.DateTime::get_Now()
+extern "C"  DateTime_t693205669  DateTime_get_Now_m24136300 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.SocialPlatforms.Impl.Score::.ctor(System.String,System.Int64,System.String,System.DateTime,System.String,System.Int32)
+extern "C"  void Score__ctor_m449446173 (Score_t2307748940 * __this, String_t* ___leaderboardID0, int64_t ___value1, String_t* ___userID2, DateTime_t693205669  ___date3, String_t* ___formattedValue4, int32_t ___rank5, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Object::.ctor()
 extern "C"  void Object__ctor_m2551263788 (Il2CppObject * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.SocialPlatforms.Impl.Score::set_leaderboardID(System.String)
+extern "C"  void Score_set_leaderboardID_m2847392905 (Score_t2307748940 * __this, String_t* ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.SocialPlatforms.Impl.Score::set_value(System.Int64)
+extern "C"  void Score_set_value_m3584530198 (Score_t2307748940 * __this, int64_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int64 UnityEngine.SocialPlatforms.Impl.Score::get_value()
+extern "C"  int64_t Score_get_value_m1883227153 (Score_t2307748940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.SocialPlatforms.Impl.Score::get_leaderboardID()
+extern "C"  String_t* Score_get_leaderboardID_m2566602022 (Score_t2307748940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Concat(System.Object[])
+extern "C"  String_t* String_Concat_m3881798623 (Il2CppObject * __this /* static, unused */, ObjectU5BU5D_t3614634134* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Texture2D::.ctor(System.Int32,System.Int32)
 extern "C"  void Texture2D__ctor_m3598323350 (Texture2D_t3542995729 * __this, int32_t ___width0, int32_t ___height1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.SocialPlatforms.Impl.UserProfile::get_id()
@@ -819,8 +847,6 @@ extern "C"  String_t* UserProfile_get_userName_m2334139476 (UserProfile_t3365630
 extern "C"  bool UserProfile_get_isFriend_m1824376057 (UserProfile_t3365630962 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.SocialPlatforms.UserState UnityEngine.SocialPlatforms.Impl.UserProfile::get_state()
 extern "C"  int32_t UserProfile_get_state_m2818183789 (UserProfile_t3365630962 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.String System.String::Concat(System.Object[])
-extern "C"  String_t* String_Concat_m3881798623 (Il2CppObject * __this /* static, unused */, ObjectU5BU5D_t3614634134* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.Range::.ctor(System.Int32,System.Int32)
 extern "C"  void Range__ctor_m854749803 (Range_t3455291607 * __this, int32_t ___fromValue0, int32_t ___valueCount1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.PropertyAttribute::.ctor()
@@ -1358,12 +1384,174 @@ extern "C"  void Uri__ctor_m371762263 (Uri_t19570940 * __this, Uri_t19570940 * p
 // System.String System.Uri::get_AbsoluteUri()
 extern "C"  String_t* Uri_get_AbsoluteUri_m2120317928 (Uri_t19570940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Regex::.ctor(System.String)
-extern "C"  void Regex__ctor_m2794328522 (Regex_t1803876613 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void Regex__ctor_m1229307206 (Regex_t1803876613 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void UnityEngine.SocialPlatforms.Impl.Score::.ctor(System.String,System.Int64)
+extern "C"  void Score__ctor_m4088571740 (Score_t2307748940 * __this, String_t* ___leaderboardID0, int64_t ___value1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Score__ctor_m4088571740_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___leaderboardID0;
+		int64_t L_1 = ___value1;
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+		DateTime_t693205669  L_2 = DateTime_get_Now_m24136300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Score__ctor_m449446173(__this, L_0, L_1, _stringLiteral372029326, L_2, _stringLiteral371857150, (-1), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.SocialPlatforms.Impl.Score::.ctor(System.String,System.Int64,System.String,System.DateTime,System.String,System.Int32)
+extern "C"  void Score__ctor_m449446173 (Score_t2307748940 * __this, String_t* ___leaderboardID0, int64_t ___value1, String_t* ___userID2, DateTime_t693205669  ___date3, String_t* ___formattedValue4, int32_t ___rank5, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___leaderboardID0;
+		Score_set_leaderboardID_m2847392905(__this, L_0, /*hidden argument*/NULL);
+		int64_t L_1 = ___value1;
+		Score_set_value_m3584530198(__this, L_1, /*hidden argument*/NULL);
+		String_t* L_2 = ___userID2;
+		__this->set_m_UserID_2(L_2);
+		DateTime_t693205669  L_3 = ___date3;
+		__this->set_m_Date_0(L_3);
+		String_t* L_4 = ___formattedValue4;
+		__this->set_m_FormattedValue_1(L_4);
+		int32_t L_5 = ___rank5;
+		__this->set_m_Rank_3(L_5);
+		return;
+	}
+}
+// System.String UnityEngine.SocialPlatforms.Impl.Score::ToString()
+extern "C"  String_t* Score_ToString_m2361881169 (Score_t2307748940 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Score_ToString_m2361881169_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)((int32_t)10)));
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, _stringLiteral1969136623);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)_stringLiteral1969136623);
+		ObjectU5BU5D_t3614634134* L_1 = L_0;
+		int32_t L_2 = __this->get_m_Rank_3();
+		int32_t L_3 = L_2;
+		Il2CppObject * L_4 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_3);
+		NullCheck(L_1);
+		ArrayElementTypeCheck (L_1, L_4);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_4);
+		ObjectU5BU5D_t3614634134* L_5 = L_1;
+		NullCheck(L_5);
+		ArrayElementTypeCheck (L_5, _stringLiteral2088420153);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(2), (Il2CppObject *)_stringLiteral2088420153);
+		ObjectU5BU5D_t3614634134* L_6 = L_5;
+		int64_t L_7 = Score_get_value_m1883227153(__this, /*hidden argument*/NULL);
+		int64_t L_8 = L_7;
+		Il2CppObject * L_9 = Box(Int64_t909078037_il2cpp_TypeInfo_var, &L_8);
+		NullCheck(L_6);
+		ArrayElementTypeCheck (L_6, L_9);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(3), (Il2CppObject *)L_9);
+		ObjectU5BU5D_t3614634134* L_10 = L_6;
+		NullCheck(L_10);
+		ArrayElementTypeCheck (L_10, _stringLiteral705785168);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(4), (Il2CppObject *)_stringLiteral705785168);
+		ObjectU5BU5D_t3614634134* L_11 = L_10;
+		String_t* L_12 = Score_get_leaderboardID_m2566602022(__this, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		ArrayElementTypeCheck (L_11, L_12);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(5), (Il2CppObject *)L_12);
+		ObjectU5BU5D_t3614634134* L_13 = L_11;
+		NullCheck(L_13);
+		ArrayElementTypeCheck (L_13, _stringLiteral3705328384);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(6), (Il2CppObject *)_stringLiteral3705328384);
+		ObjectU5BU5D_t3614634134* L_14 = L_13;
+		String_t* L_15 = __this->get_m_UserID_2();
+		NullCheck(L_14);
+		ArrayElementTypeCheck (L_14, L_15);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(7), (Il2CppObject *)L_15);
+		ObjectU5BU5D_t3614634134* L_16 = L_14;
+		NullCheck(L_16);
+		ArrayElementTypeCheck (L_16, _stringLiteral256488244);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(8), (Il2CppObject *)_stringLiteral256488244);
+		ObjectU5BU5D_t3614634134* L_17 = L_16;
+		DateTime_t693205669  L_18 = __this->get_m_Date_0();
+		DateTime_t693205669  L_19 = L_18;
+		Il2CppObject * L_20 = Box(DateTime_t693205669_il2cpp_TypeInfo_var, &L_19);
+		NullCheck(L_17);
+		ArrayElementTypeCheck (L_17, L_20);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)9)), (Il2CppObject *)L_20);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_21 = String_Concat_m3881798623(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
+		V_0 = L_21;
+		goto IL_0078;
+	}
+
+IL_0078:
+	{
+		String_t* L_22 = V_0;
+		return L_22;
+	}
+}
+// System.String UnityEngine.SocialPlatforms.Impl.Score::get_leaderboardID()
+extern "C"  String_t* Score_get_leaderboardID_m2566602022 (Score_t2307748940 * __this, const MethodInfo* method)
+{
+	String_t* V_0 = NULL;
+	{
+		String_t* L_0 = __this->get_U3CleaderboardIDU3Ek__BackingField_4();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		String_t* L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void UnityEngine.SocialPlatforms.Impl.Score::set_leaderboardID(System.String)
+extern "C"  void Score_set_leaderboardID_m2847392905 (Score_t2307748940 * __this, String_t* ___value0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->set_U3CleaderboardIDU3Ek__BackingField_4(L_0);
+		return;
+	}
+}
+// System.Int64 UnityEngine.SocialPlatforms.Impl.Score::get_value()
+extern "C"  int64_t Score_get_value_m1883227153 (Score_t2307748940 * __this, const MethodInfo* method)
+{
+	int64_t V_0 = 0;
+	{
+		int64_t L_0 = __this->get_U3CvalueU3Ek__BackingField_5();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int64_t L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void UnityEngine.SocialPlatforms.Impl.Score::set_value(System.Int64)
+extern "C"  void Score_set_value_m3584530198 (Score_t2307748940 * __this, int64_t ___value0, const MethodInfo* method)
+{
+	{
+		int64_t L_0 = ___value0;
+		__this->set_U3CvalueU3Ek__BackingField_5(L_0);
+		return;
+	}
+}
 // System.Void UnityEngine.SocialPlatforms.Impl.UserProfile::.ctor()
 extern "C"  void UserProfile__ctor_m1897167318 (UserProfile_t3365630962 * __this, const MethodInfo* method)
 {
@@ -8028,6 +8216,28 @@ extern "C"  float Vector2_get_sqrMagnitude_m1226294581_AdjustorThunk (Il2CppObje
 	Vector2_t2243707579 * _thisAdjusted = reinterpret_cast<Vector2_t2243707579 *>(__this + 1);
 	return Vector2_get_sqrMagnitude_m1226294581(_thisAdjusted, method);
 }
+// System.Single UnityEngine.Vector2::Distance(UnityEngine.Vector2,UnityEngine.Vector2)
+extern "C"  float Vector2_Distance_m280750759 (Il2CppObject * __this /* static, unused */, Vector2_t2243707579  ___a0, Vector2_t2243707579  ___b1, const MethodInfo* method)
+{
+	Vector2_t2243707579  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	{
+		Vector2_t2243707579  L_0 = ___a0;
+		Vector2_t2243707579  L_1 = ___b1;
+		Vector2_t2243707579  L_2 = Vector2_op_Subtraction_m1984215297(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		float L_3 = Vector2_get_magnitude_m33802565((&V_0), /*hidden argument*/NULL);
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		float L_4 = V_1;
+		return L_4;
+	}
+}
 // UnityEngine.Vector2 UnityEngine.Vector2::op_Addition(UnityEngine.Vector2,UnityEngine.Vector2)
 extern "C"  Vector2_t2243707579  Vector2_op_Addition_m1389598521 (Il2CppObject * __this /* static, unused */, Vector2_t2243707579  ___a0, Vector2_t2243707579  ___b1, const MethodInfo* method)
 {
@@ -10812,7 +11022,7 @@ extern "C"  void WebRequestUtils__cctor_m893658947 (Il2CppObject * __this /* sta
 	}
 	{
 		Regex_t1803876613 * L_0 = (Regex_t1803876613 *)il2cpp_codegen_object_new(Regex_t1803876613_il2cpp_TypeInfo_var);
-		Regex__ctor_m2794328522(L_0, _stringLiteral2697683047, /*hidden argument*/NULL);
+		Regex__ctor_m1229307206(L_0, _stringLiteral2697683047, /*hidden argument*/NULL);
 		((WebRequestUtils_t4100941042_StaticFields*)WebRequestUtils_t4100941042_il2cpp_TypeInfo_var->static_fields)->set_domainRegex_0(L_0);
 		return;
 	}

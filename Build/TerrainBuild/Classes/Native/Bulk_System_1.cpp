@@ -286,7 +286,7 @@ extern const uint32_t Match_NextMatch_m1088868049_MetadataUsageId;
 extern Il2CppClass* ArrayList_t4252133567_il2cpp_TypeInfo_var;
 extern const uint32_t MatchCollection__ctor_m1944681790_MetadataUsageId;
 extern Il2CppClass* ICollection_t91669223_il2cpp_TypeInfo_var;
-extern const uint32_t MatchCollection_get_Count_m3236470266_MetadataUsageId;
+extern const uint32_t MatchCollection_get_Count_m2642630602_MetadataUsageId;
 extern Il2CppClass* ArgumentOutOfRangeException_t279959794_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral372029381;
 extern const uint32_t MatchCollection_get_Item_m2609281578_MetadataUsageId;
@@ -908,7 +908,7 @@ extern "C"  bool MatchCollection_TryToGet_m2938913145 (MatchCollection_t37182166
 // System.Void System.ArgumentOutOfRangeException::.ctor(System.String)
 extern "C"  void ArgumentOutOfRangeException__ctor_m1595007065 (ArgumentOutOfRangeException_t279959794 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Group::get_Success()
-extern "C"  bool Group_get_Success_m2001463544 (Group_t3761430853 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  bool Group_get_Success_m1068765996 (Group_t3761430853 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.MatchCollection/Enumerator::.ctor(System.Text.RegularExpressions.MatchCollection)
 extern "C"  void Enumerator__ctor_m2631783353 (Enumerator_t501456973 * __this, MatchCollection_t3718216671 * ___coll0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Match System.Text.RegularExpressions.Match::NextMatch()
@@ -1384,7 +1384,7 @@ extern "C"  String_t* Uri_GetLeftPart_m2731673534 (Uri_t19570940 * __this, int32
 // System.Int32 System.Uri::GetDefaultPort(System.String)
 extern "C"  int32_t Uri_GetDefaultPort_m2114319579 (Il2CppObject * __this /* static, unused */, String_t* ___scheme0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Uri::get_Host()
-extern "C"  String_t* Uri_get_Host_m2492204157 (Uri_t19570940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  String_t* Uri_get_Host_m395387191 (Uri_t19570940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Uri::get_IsFile()
 extern "C"  bool Uri_get_IsFile_m3814355526 (Uri_t19570940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.IPAddress::TryParse(System.String,System.Net.IPAddress&)
@@ -1506,7 +1506,7 @@ extern "C"  void FormatException__ctor_m3740644286 (FormatException_t2948921286 
 // System.Void System.Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern "C"  void Exception_GetObjectData_m2653827630 (Exception_t1927440687 * __this, SerializationInfo_t228987430 * p0, StreamingContext_t1417235061  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Regex::.ctor(System.String)
-extern "C"  void Regex__ctor_m2794328522 (Regex_t1803876613 * __this, String_t* ___pattern0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void Regex__ctor_m1229307206 (Regex_t1803876613 * __this, String_t* ___pattern0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DefaultUriParser::.ctor()
 extern "C"  void DefaultUriParser__ctor_m4218024811 (DefaultUriParser_t1591960796 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UriParser::InternalRegister(System.Collections.Hashtable,System.UriParser,System.String,System.Int32)
@@ -1933,12 +1933,12 @@ extern "C"  void MatchCollection__ctor_m1944681790 (MatchCollection_t3718216671 
 	}
 }
 // System.Int32 System.Text.RegularExpressions.MatchCollection::get_Count()
-extern "C"  int32_t MatchCollection_get_Count_m3236470266 (MatchCollection_t3718216671 * __this, const MethodInfo* method)
+extern "C"  int32_t MatchCollection_get_Count_m2642630602 (MatchCollection_t3718216671 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (MatchCollection_get_Count_m3236470266_MetadataUsageId);
+		il2cpp_codegen_initialize_method (MatchCollection_get_Count_m2642630602_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -2059,7 +2059,7 @@ extern "C"  Il2CppObject * MatchCollection_GetEnumerator_m3516985966 (MatchColle
 	{
 		Match_t3164245899 * L_0 = __this->get_current_0();
 		NullCheck(L_0);
-		bool L_1 = Group_get_Success_m2001463544(L_0, /*hidden argument*/NULL);
+		bool L_1 = Group_get_Success_m1068765996(L_0, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_001d;
@@ -2121,7 +2121,7 @@ IL_0028:
 	{
 		Match_t3164245899 * L_7 = __this->get_current_0();
 		NullCheck(L_7);
-		bool L_8 = Group_get_Success_m2001463544(L_7, /*hidden argument*/NULL);
+		bool L_8 = Group_get_Success_m1068765996(L_7, /*hidden argument*/NULL);
 		if (L_8)
 		{
 			goto IL_0005;
@@ -2142,7 +2142,7 @@ IL_0049:
 	{
 		Match_t3164245899 * L_12 = __this->get_current_0();
 		NullCheck(L_12);
-		bool L_13 = Group_get_Success_m2001463544(L_12, /*hidden argument*/NULL);
+		bool L_13 = Group_get_Success_m1068765996(L_12, /*hidden argument*/NULL);
 		G_B7_0 = ((int32_t)(L_13));
 		goto IL_0068;
 	}
@@ -2264,7 +2264,7 @@ IL_003d:
 		NullCheck(L_11);
 		Match_t3164245899 * L_12 = L_11->get_current_0();
 		NullCheck(L_12);
-		bool L_13 = Group_get_Success_m2001463544(L_12, /*hidden argument*/NULL);
+		bool L_13 = Group_get_Success_m1068765996(L_12, /*hidden argument*/NULL);
 		if (L_13)
 		{
 			goto IL_0078;
@@ -2359,7 +2359,7 @@ IL_0026:
 		NullCheck(L_9);
 		Match_t3164245899 * L_10 = L_9->get_current_0();
 		NullCheck(L_10);
-		bool L_11 = Group_get_Success_m2001463544(L_10, /*hidden argument*/NULL);
+		bool L_11 = Group_get_Success_m1068765996(L_10, /*hidden argument*/NULL);
 		if (L_11)
 		{
 			goto IL_0058;
@@ -4282,7 +4282,7 @@ extern "C"  void Regex__ctor_m3250610064 (Regex_t1803876613 * __this, const Meth
 	}
 }
 // System.Void System.Text.RegularExpressions.Regex::.ctor(System.String)
-extern "C"  void Regex__ctor_m2794328522 (Regex_t1803876613 * __this, String_t* ___pattern0, const MethodInfo* method)
+extern "C"  void Regex__ctor_m1229307206 (Regex_t1803876613 * __this, String_t* ___pattern0, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___pattern0;
@@ -4755,7 +4755,7 @@ extern "C"  bool Regex_IsMatch_m1286520424 (Regex_t1803876613 * __this, String_t
 		int32_t L_1 = ___startat1;
 		Match_t3164245899 * L_2 = Regex_Match_m4277133443(__this, L_0, L_1, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		bool L_3 = Group_get_Success_m2001463544(L_2, /*hidden argument*/NULL);
+		bool L_3 = Group_get_Success_m1068765996(L_2, /*hidden argument*/NULL);
 		return L_3;
 	}
 }
@@ -4821,7 +4821,7 @@ IL_002f:
 	}
 }
 // System.Text.RegularExpressions.MatchCollection System.Text.RegularExpressions.Regex::Matches(System.String)
-extern "C"  MatchCollection_t3718216671 * Regex_Matches_m3834294444 (Regex_t1803876613 * __this, String_t* ___input0, const MethodInfo* method)
+extern "C"  MatchCollection_t3718216671 * Regex_Matches_m253372688 (Regex_t1803876613 * __this, String_t* ___input0, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___input0;
@@ -15691,7 +15691,7 @@ IL_0042:
 	}
 }
 // System.String System.Uri::get_Host()
-extern "C"  String_t* Uri_get_Host_m2492204157 (Uri_t19570940 * __this, const MethodInfo* method)
+extern "C"  String_t* Uri_get_Host_m395387191 (Uri_t19570940 * __this, const MethodInfo* method)
 {
 	{
 		Uri_EnsureAbsoluteUri_m1892758054(__this, /*hidden argument*/NULL);
@@ -15731,7 +15731,7 @@ extern "C"  bool Uri_get_IsLoopback_m2113378011 (Uri_t19570940 * __this, const M
 	IPv6Address_t2596635879 * V_1 = NULL;
 	{
 		Uri_EnsureAbsoluteUri_m1892758054(__this, /*hidden argument*/NULL);
-		String_t* L_0 = Uri_get_Host_m2492204157(__this, /*hidden argument*/NULL);
+		String_t* L_0 = Uri_get_Host_m395387191(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		int32_t L_1 = String_get_Length_m1606060069(L_0, /*hidden argument*/NULL);
 		if (L_1)
@@ -20954,10 +20954,10 @@ extern "C"  void UriParser__cctor_m1839415991 (Il2CppObject * __this /* static, 
 		Object__ctor_m2551263788(L_0, /*hidden argument*/NULL);
 		((UriParser_t1012511323_StaticFields*)UriParser_t1012511323_il2cpp_TypeInfo_var->static_fields)->set_lock_object_0(L_0);
 		Regex_t1803876613 * L_1 = (Regex_t1803876613 *)il2cpp_codegen_object_new(Regex_t1803876613_il2cpp_TypeInfo_var);
-		Regex__ctor_m2794328522(L_1, _stringLiteral704347881, /*hidden argument*/NULL);
+		Regex__ctor_m1229307206(L_1, _stringLiteral704347881, /*hidden argument*/NULL);
 		((UriParser_t1012511323_StaticFields*)UriParser_t1012511323_il2cpp_TypeInfo_var->static_fields)->set_uri_regex_4(L_1);
 		Regex_t1803876613 * L_2 = (Regex_t1803876613 *)il2cpp_codegen_object_new(Regex_t1803876613_il2cpp_TypeInfo_var);
-		Regex__ctor_m2794328522(L_2, _stringLiteral1509538344, /*hidden argument*/NULL);
+		Regex__ctor_m1229307206(L_2, _stringLiteral1509538344, /*hidden argument*/NULL);
 		((UriParser_t1012511323_StaticFields*)UriParser_t1012511323_il2cpp_TypeInfo_var->static_fields)->set_auth_regex_5(L_2);
 		return;
 	}

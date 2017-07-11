@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerrainTest", "Assembly-CSh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerrainTest", "Assembly-CSharp-Editor.csproj", "{1655B66B-3A22-1B20-7837-424302667772}"
 EndProject
+Project("{958E75CA-61FC-355C-BBEB-CB300EAE7B97}") = "TerrainTest", "Assembly-UnityScript.unityproj", "{63C666F9-A3CC-17DE-E450-F9D6CF7400E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{1655B66B-3A22-1B20-7837-424302667772}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1655B66B-3A22-1B20-7837-424302667772}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1655B66B-3A22-1B20-7837-424302667772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C666F9-A3CC-17DE-E450-F9D6CF7400E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C666F9-A3CC-17DE-E450-F9D6CF7400E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C666F9-A3CC-17DE-E450-F9D6CF7400E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C666F9-A3CC-17DE-E450-F9D6CF7400E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

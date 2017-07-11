@@ -16,11 +16,12 @@
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array3829468939.h"
-#include "mscorlib_System_Runtime_Remoting_Messaging_MethodD1742974787.h"
+#include "mscorlib_System_Runtime_Remoting_Messaging_MethodC1516131009.h"
 #include "mscorlib_System_Void1841601450.h"
+#include "mscorlib_System_Runtime_Remoting_Messaging_MethodD1742974787.h"
+#include "mscorlib_System_String2029220233.h"
 #include "mscorlib_System_Object2689449295.h"
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodDi492828146.h"
-#include "mscorlib_System_String2029220233.h"
 #include "mscorlib_System_Boolean3825574718.h"
 #include "mscorlib_System_Collections_Hashtable909839986.h"
 #include "mscorlib_System_Int322071877448.h"
@@ -222,23 +223,23 @@
 #include "mscorlib_System_Security_Cryptography_DSASignature1998527418.h"
 #include "mscorlib_System_Security_Cryptography_SignatureDescr89145500.h"
 #include "mscorlib_System_Security_Cryptography_DSASignature1065727064.h"
-#include "mscorlib_System_Security_Cryptography_HashAlgorith2624936259.h"
-#include "mscorlib_System_ObjectDisposedException2695136451.h"
 
-// System.Runtime.Remoting.Messaging.MethodDictionary
-struct MethodDictionary_t1742974787;
+// System.Runtime.Remoting.Messaging.MethodCallDictionary
+struct MethodCallDictionary_t1516131009;
 // System.Runtime.Remoting.Messaging.IMethodMessage
 struct IMethodMessage_t1899389025;
+// System.Runtime.Remoting.Messaging.MethodDictionary
+struct MethodDictionary_t1742974787;
+// System.String[]
+struct StringU5BU5D_t1642385972;
+// System.String
+struct String_t;
 // System.Object
 struct Il2CppObject;
 // System.Collections.IEnumerator
 struct IEnumerator_t1466026749;
 // System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator
 struct DictionaryEnumerator_t492828146;
-// System.String[]
-struct StringU5BU5D_t1642385972;
-// System.String
-struct String_t;
 // System.Collections.IDictionary
 struct IDictionary_t596158605;
 // System.Collections.Hashtable
@@ -559,10 +560,16 @@ struct DSASignatureDescription_t1998527418;
 struct SignatureDescription_t89145500;
 // System.Security.Cryptography.DSASignatureFormatter
 struct DSASignatureFormatter_t1065727064;
-// System.Security.Cryptography.HashAlgorithm
-struct HashAlgorithm_t2624936259;
-// System.ObjectDisposedException
-struct ObjectDisposedException_t2695136451;
+extern Il2CppClass* MethodCallDictionary_t1516131009_il2cpp_TypeInfo_var;
+extern const uint32_t MethodCallDictionary__ctor_m2731713924_MetadataUsageId;
+extern Il2CppClass* StringU5BU5D_t1642385972_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral977371278;
+extern Il2CppCodeGenString* _stringLiteral3237227266;
+extern Il2CppCodeGenString* _stringLiteral3556527655;
+extern Il2CppCodeGenString* _stringLiteral1596268323;
+extern Il2CppCodeGenString* _stringLiteral1408113411;
+extern Il2CppCodeGenString* _stringLiteral1848363629;
+extern const uint32_t MethodCallDictionary__cctor_m1513361784_MetadataUsageId;
 extern Il2CppClass* DictionaryEnumerator_t492828146_il2cpp_TypeInfo_var;
 extern const uint32_t MethodDictionary_System_Collections_IEnumerable_GetEnumerator_m1794586762_MetadataUsageId;
 extern Il2CppClass* Hashtable_t909839986_il2cpp_TypeInfo_var;
@@ -578,12 +585,6 @@ extern Il2CppClass* IMethodReturnMessage_t323645523_il2cpp_TypeInfo_var;
 extern const MethodInfo* Dictionary_2__ctor_m2118310873_MethodInfo_var;
 extern const MethodInfo* Dictionary_2_Add_m1209957957_MethodInfo_var;
 extern const MethodInfo* Dictionary_2_TryGetValue_m2977303364_MethodInfo_var;
-extern Il2CppCodeGenString* _stringLiteral977371278;
-extern Il2CppCodeGenString* _stringLiteral3237227266;
-extern Il2CppCodeGenString* _stringLiteral3556527655;
-extern Il2CppCodeGenString* _stringLiteral1596268323;
-extern Il2CppCodeGenString* _stringLiteral1848363629;
-extern Il2CppCodeGenString* _stringLiteral1408113411;
 extern Il2CppCodeGenString* _stringLiteral1387442157;
 extern Il2CppCodeGenString* _stringLiteral1592770018;
 extern const uint32_t MethodDictionary_GetMethodProperty_m4085857742_MetadataUsageId;
@@ -611,7 +612,6 @@ extern Il2CppCodeGenString* _stringLiteral3264437177;
 extern const uint32_t DictionaryEnumerator_get_Entry_m1597857786_MetadataUsageId;
 extern Il2CppClass* MethodReturnDictionary_t981009581_il2cpp_TypeInfo_var;
 extern const uint32_t MethodReturnDictionary__ctor_m756139344_MetadataUsageId;
-extern Il2CppClass* StringU5BU5D_t1642385972_il2cpp_TypeInfo_var;
 extern const uint32_t MethodReturnDictionary__cctor_m1570567266_MetadataUsageId;
 extern const uint32_t MonoMethodMessage_get_MethodName_m3580519713_MetadataUsageId;
 extern Il2CppClass* TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var;
@@ -1407,28 +1407,6 @@ extern const uint32_t DSASignatureDescription__ctor_m1446054851_MetadataUsageId;
 extern const uint32_t DSASignatureFormatter_CreateSignature_m3420263762_MetadataUsageId;
 extern const uint32_t DSASignatureFormatter_SetHashAlgorithm_m1251145238_MetadataUsageId;
 extern const uint32_t DSASignatureFormatter_SetKey_m3396422838_MetadataUsageId;
-extern Il2CppCodeGenString* _stringLiteral2713104920;
-extern const uint32_t HashAlgorithm_ComputeHash_m3637856778_MetadataUsageId;
-extern Il2CppClass* ObjectDisposedException_t2695136451_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral2666337689;
-extern Il2CppCodeGenString* _stringLiteral1673268925;
-extern Il2CppCodeGenString* _stringLiteral816987394;
-extern Il2CppCodeGenString* _stringLiteral1554746267;
-extern Il2CppCodeGenString* _stringLiteral533212649;
-extern Il2CppCodeGenString* _stringLiteral5961480;
-extern const uint32_t HashAlgorithm_ComputeHash_m3945506296_MetadataUsageId;
-extern Il2CppClass* HashAlgorithm_t2624936259_il2cpp_TypeInfo_var;
-extern const uint32_t HashAlgorithm_Create_m1224939073_MetadataUsageId;
-extern Il2CppCodeGenString* _stringLiteral211911071;
-extern const uint32_t HashAlgorithm_get_Hash_m931854461_MetadataUsageId;
-extern Il2CppCodeGenString* _stringLiteral609194916;
-extern Il2CppCodeGenString* _stringLiteral3110660963;
-extern Il2CppCodeGenString* _stringLiteral2737893205;
-extern Il2CppCodeGenString* _stringLiteral106791344;
-extern Il2CppCodeGenString* _stringLiteral349176760;
-extern const uint32_t HashAlgorithm_TransformBlock_m4190258810_MetadataUsageId;
-extern Il2CppCodeGenString* _stringLiteral3657498021;
-extern const uint32_t HashAlgorithm_TransformFinalBlock_m3071802428_MetadataUsageId;
 
 // System.String[]
 struct StringU5BU5D_t1642385972  : public Il2CppArray
@@ -2533,6 +2511,10 @@ extern "C"  void Dictionary_2_Add_m790520409_gshared (Dictionary_2_t1663937576 *
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::TryGetValue(TKey,TValue&)
 extern "C"  bool Dictionary_2_TryGetValue_m2330758874_gshared (Dictionary_2_t1663937576 * __this, Il2CppObject * p0, int32_t* p1, const MethodInfo* method);
 
+// System.Void System.Runtime.Remoting.Messaging.MethodDictionary::.ctor(System.Runtime.Remoting.Messaging.IMethodMessage)
+extern "C"  void MethodDictionary__ctor_m184006744 (MethodDictionary_t1742974787 * __this, Il2CppObject * ___message0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Runtime.Remoting.Messaging.MethodDictionary::set_MethodKeys(System.String[])
+extern "C"  void MethodDictionary_set_MethodKeys_m3180307551 (MethodDictionary_t1742974787 * __this, StringU5BU5D_t1642385972* ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Object::.ctor()
 extern "C"  void Object__ctor_m2551263788 (Il2CppObject * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator::.ctor(System.Runtime.Remoting.Messaging.MethodDictionary)
@@ -2567,10 +2549,6 @@ extern "C"  DictionaryEntry_t3048875398  DictionaryEnumerator_get_Entry_m1597857
 extern "C"  void DictionaryEntry__ctor_m2901884110 (DictionaryEntry_t3048875398 * __this, Il2CppObject * ___key0, Il2CppObject * ___value1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.InvalidOperationException::.ctor(System.String)
 extern "C"  void InvalidOperationException__ctor_m2801133788 (InvalidOperationException_t721527559 * __this, String_t* ___message0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void System.Runtime.Remoting.Messaging.MethodDictionary::.ctor(System.Runtime.Remoting.Messaging.IMethodMessage)
-extern "C"  void MethodDictionary__ctor_m184006744 (MethodDictionary_t1742974787 * __this, Il2CppObject * ___message0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void System.Runtime.Remoting.Messaging.MethodDictionary::set_MethodKeys(System.String[])
-extern "C"  void MethodDictionary_set_MethodKeys_m3180307551 (MethodDictionary_t1742974787 * __this, StringU5BU5D_t1642385972* ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Runtime.Remoting.Messaging.MonoMethodMessage::get_OutArgCount()
 extern "C"  int32_t MonoMethodMessage_get_OutArgCount_m1571045627 (MonoMethodMessage_t771543475 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.NotSupportedException::.ctor(System.String)
@@ -3497,15 +3475,67 @@ extern "C"  void SignatureDescription_set_FormatterAlgorithm_m824893069 (Signatu
 extern "C"  void SignatureDescription_set_KeyAlgorithm_m3161399966 (SignatureDescription_t89145500 * __this, String_t* ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.AsymmetricSignatureFormatter::.ctor()
 extern "C"  void AsymmetricSignatureFormatter__ctor_m1416079717 (AsymmetricSignatureFormatter_t4058014248 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Byte[] System.Security.Cryptography.HashAlgorithm::ComputeHash(System.Byte[],System.Int32,System.Int32)
-extern "C"  ByteU5BU5D_t3397334013* HashAlgorithm_ComputeHash_m3945506296 (HashAlgorithm_t2624936259 * __this, ByteU5BU5D_t3397334013* ___buffer0, int32_t ___offset1, int32_t ___count2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void System.ObjectDisposedException::.ctor(System.String)
-extern "C"  void ObjectDisposedException__ctor_m3156784572 (ObjectDisposedException_t2695136451 * __this, String_t* ___objectName0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void System.Runtime.Remoting.Messaging.MethodCallDictionary::.ctor(System.Runtime.Remoting.Messaging.IMethodMessage)
+extern "C"  void MethodCallDictionary__ctor_m2731713924 (MethodCallDictionary_t1516131009 * __this, Il2CppObject * ___message0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MethodCallDictionary__ctor_m2731713924_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = ___message0;
+		MethodDictionary__ctor_m184006744(__this, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(MethodCallDictionary_t1516131009_il2cpp_TypeInfo_var);
+		StringU5BU5D_t1642385972* L_1 = ((MethodCallDictionary_t1516131009_StaticFields*)MethodCallDictionary_t1516131009_il2cpp_TypeInfo_var->static_fields)->get_InternalKeys_6();
+		MethodDictionary_set_MethodKeys_m3180307551(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Runtime.Remoting.Messaging.MethodCallDictionary::.cctor()
+extern "C"  void MethodCallDictionary__cctor_m1513361784 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MethodCallDictionary__cctor_m1513361784_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		StringU5BU5D_t1642385972* L_0 = ((StringU5BU5D_t1642385972*)SZArrayNew(StringU5BU5D_t1642385972_il2cpp_TypeInfo_var, (uint32_t)6));
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, _stringLiteral977371278);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral977371278);
+		StringU5BU5D_t1642385972* L_1 = L_0;
+		NullCheck(L_1);
+		ArrayElementTypeCheck (L_1, _stringLiteral3237227266);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral3237227266);
+		StringU5BU5D_t1642385972* L_2 = L_1;
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, _stringLiteral3556527655);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral3556527655);
+		StringU5BU5D_t1642385972* L_3 = L_2;
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, _stringLiteral1596268323);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteral1596268323);
+		StringU5BU5D_t1642385972* L_4 = L_3;
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, _stringLiteral1408113411);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral1408113411);
+		StringU5BU5D_t1642385972* L_5 = L_4;
+		NullCheck(L_5);
+		ArrayElementTypeCheck (L_5, _stringLiteral1848363629);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)_stringLiteral1848363629);
+		((MethodCallDictionary_t1516131009_StaticFields*)MethodCallDictionary_t1516131009_il2cpp_TypeInfo_var->static_fields)->set_InternalKeys_6(L_5);
+		return;
+	}
+}
 // System.Void System.Runtime.Remoting.Messaging.MethodDictionary::.ctor(System.Runtime.Remoting.Messaging.IMethodMessage)
 extern "C"  void MethodDictionary__ctor_m184006744 (MethodDictionary_t1742974787 * __this, Il2CppObject * ___message0, const MethodInfo* method)
 {
@@ -28206,435 +28236,6 @@ IL_0017:
 IL_0022:
 	{
 		return;
-	}
-}
-// System.Void System.Security.Cryptography.HashAlgorithm::.ctor()
-extern "C"  void HashAlgorithm__ctor_m3777008390 (HashAlgorithm_t2624936259 * __this, const MethodInfo* method)
-{
-	{
-		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
-		__this->set_disposed_3((bool)0);
-		return;
-	}
-}
-// System.Void System.Security.Cryptography.HashAlgorithm::System.IDisposable.Dispose()
-extern "C"  void HashAlgorithm_System_IDisposable_Dispose_m2106335965 (HashAlgorithm_t2624936259 * __this, const MethodInfo* method)
-{
-	{
-		VirtActionInvoker1< bool >::Invoke(14 /* System.Void System.Security.Cryptography.HashAlgorithm::Dispose(System.Boolean) */, __this, (bool)1);
-		GC_SuppressFinalize_m953228702(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Boolean System.Security.Cryptography.HashAlgorithm::get_CanReuseTransform()
-extern "C"  bool HashAlgorithm_get_CanReuseTransform_m160024219 (HashAlgorithm_t2624936259 * __this, const MethodInfo* method)
-{
-	{
-		return (bool)1;
-	}
-}
-// System.Byte[] System.Security.Cryptography.HashAlgorithm::ComputeHash(System.Byte[])
-extern "C"  ByteU5BU5D_t3397334013* HashAlgorithm_ComputeHash_m3637856778 (HashAlgorithm_t2624936259 * __this, ByteU5BU5D_t3397334013* ___buffer0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (HashAlgorithm_ComputeHash_m3637856778_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		ByteU5BU5D_t3397334013* L_0 = ___buffer0;
-		if (L_0)
-		{
-			goto IL_0011;
-		}
-	}
-	{
-		ArgumentNullException_t628810857 * L_1 = (ArgumentNullException_t628810857 *)il2cpp_codegen_object_new(ArgumentNullException_t628810857_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3380712306(L_1, _stringLiteral2713104920, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
-	}
-
-IL_0011:
-	{
-		ByteU5BU5D_t3397334013* L_2 = ___buffer0;
-		ByteU5BU5D_t3397334013* L_3 = ___buffer0;
-		NullCheck(L_3);
-		ByteU5BU5D_t3397334013* L_4 = HashAlgorithm_ComputeHash_m3945506296(__this, L_2, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_3)->max_length)))), /*hidden argument*/NULL);
-		return L_4;
-	}
-}
-// System.Byte[] System.Security.Cryptography.HashAlgorithm::ComputeHash(System.Byte[],System.Int32,System.Int32)
-extern "C"  ByteU5BU5D_t3397334013* HashAlgorithm_ComputeHash_m3945506296 (HashAlgorithm_t2624936259 * __this, ByteU5BU5D_t3397334013* ___buffer0, int32_t ___offset1, int32_t ___count2, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (HashAlgorithm_ComputeHash_m3945506296_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		bool L_0 = __this->get_disposed_3();
-		if (!L_0)
-		{
-			goto IL_0016;
-		}
-	}
-	{
-		ObjectDisposedException_t2695136451 * L_1 = (ObjectDisposedException_t2695136451 *)il2cpp_codegen_object_new(ObjectDisposedException_t2695136451_il2cpp_TypeInfo_var);
-		ObjectDisposedException__ctor_m3156784572(L_1, _stringLiteral2666337689, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
-	}
-
-IL_0016:
-	{
-		ByteU5BU5D_t3397334013* L_2 = ___buffer0;
-		if (L_2)
-		{
-			goto IL_0027;
-		}
-	}
-	{
-		ArgumentNullException_t628810857 * L_3 = (ArgumentNullException_t628810857 *)il2cpp_codegen_object_new(ArgumentNullException_t628810857_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3380712306(L_3, _stringLiteral2713104920, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
-	}
-
-IL_0027:
-	{
-		int32_t L_4 = ___offset1;
-		if ((((int32_t)L_4) >= ((int32_t)0)))
-		{
-			goto IL_003e;
-		}
-	}
-	{
-		ArgumentOutOfRangeException_t279959794 * L_5 = (ArgumentOutOfRangeException_t279959794 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t279959794_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m4234257711(L_5, _stringLiteral1673268925, _stringLiteral816987394, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5);
-	}
-
-IL_003e:
-	{
-		int32_t L_6 = ___count2;
-		if ((((int32_t)L_6) >= ((int32_t)0)))
-		{
-			goto IL_0055;
-		}
-	}
-	{
-		ArgumentException_t3259014390 * L_7 = (ArgumentException_t3259014390 *)il2cpp_codegen_object_new(ArgumentException_t3259014390_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m544251339(L_7, _stringLiteral1554746267, _stringLiteral816987394, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7);
-	}
-
-IL_0055:
-	{
-		int32_t L_8 = ___offset1;
-		ByteU5BU5D_t3397334013* L_9 = ___buffer0;
-		NullCheck(L_9);
-		int32_t L_10 = ___count2;
-		if ((((int32_t)L_8) <= ((int32_t)((int32_t)((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length))))-(int32_t)L_10)))))
-		{
-			goto IL_0075;
-		}
-	}
-	{
-		String_t* L_11 = Locale_GetText_m1954433032(NULL /*static, unused*/, _stringLiteral5961480, /*hidden argument*/NULL);
-		ArgumentException_t3259014390 * L_12 = (ArgumentException_t3259014390 *)il2cpp_codegen_object_new(ArgumentException_t3259014390_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m544251339(L_12, _stringLiteral533212649, L_11, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_12);
-	}
-
-IL_0075:
-	{
-		ByteU5BU5D_t3397334013* L_13 = ___buffer0;
-		int32_t L_14 = ___offset1;
-		int32_t L_15 = ___count2;
-		VirtActionInvoker3< ByteU5BU5D_t3397334013*, int32_t, int32_t >::Invoke(10 /* System.Void System.Security.Cryptography.HashAlgorithm::HashCore(System.Byte[],System.Int32,System.Int32) */, __this, L_13, L_14, L_15);
-		ByteU5BU5D_t3397334013* L_16 = VirtFuncInvoker0< ByteU5BU5D_t3397334013* >::Invoke(11 /* System.Byte[] System.Security.Cryptography.HashAlgorithm::HashFinal() */, __this);
-		__this->set_HashValue_0(L_16);
-		VirtActionInvoker0::Invoke(13 /* System.Void System.Security.Cryptography.HashAlgorithm::Initialize() */, __this);
-		ByteU5BU5D_t3397334013* L_17 = __this->get_HashValue_0();
-		return L_17;
-	}
-}
-// System.Security.Cryptography.HashAlgorithm System.Security.Cryptography.HashAlgorithm::Create(System.String)
-extern "C"  HashAlgorithm_t2624936259 * HashAlgorithm_Create_m1224939073 (Il2CppObject * __this /* static, unused */, String_t* ___hashName0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (HashAlgorithm_Create_m1224939073_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		String_t* L_0 = ___hashName0;
-		IL2CPP_RUNTIME_CLASS_INIT(CryptoConfig_t896479599_il2cpp_TypeInfo_var);
-		Il2CppObject * L_1 = CryptoConfig_CreateFromName_m391442950(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
-		return ((HashAlgorithm_t2624936259 *)CastclassClass(L_1, HashAlgorithm_t2624936259_il2cpp_TypeInfo_var));
-	}
-}
-// System.Byte[] System.Security.Cryptography.HashAlgorithm::get_Hash()
-extern "C"  ByteU5BU5D_t3397334013* HashAlgorithm_get_Hash_m931854461 (HashAlgorithm_t2624936259 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (HashAlgorithm_get_Hash_m931854461_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		ByteU5BU5D_t3397334013* L_0 = __this->get_HashValue_0();
-		if (L_0)
-		{
-			goto IL_001b;
-		}
-	}
-	{
-		String_t* L_1 = Locale_GetText_m1954433032(NULL /*static, unused*/, _stringLiteral211911071, /*hidden argument*/NULL);
-		CryptographicUnexpectedOperationException_t4184064416 * L_2 = (CryptographicUnexpectedOperationException_t4184064416 *)il2cpp_codegen_object_new(CryptographicUnexpectedOperationException_t4184064416_il2cpp_TypeInfo_var);
-		CryptographicUnexpectedOperationException__ctor_m3552441227(L_2, L_1, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
-	}
-
-IL_001b:
-	{
-		ByteU5BU5D_t3397334013* L_3 = __this->get_HashValue_0();
-		return L_3;
-	}
-}
-// System.Int32 System.Security.Cryptography.HashAlgorithm::get_HashSize()
-extern "C"  int32_t HashAlgorithm_get_HashSize_m2625667696 (HashAlgorithm_t2624936259 * __this, const MethodInfo* method)
-{
-	{
-		int32_t L_0 = __this->get_HashSizeValue_1();
-		return L_0;
-	}
-}
-// System.Void System.Security.Cryptography.HashAlgorithm::Dispose(System.Boolean)
-extern "C"  void HashAlgorithm_Dispose_m716639490 (HashAlgorithm_t2624936259 * __this, bool ___disposing0, const MethodInfo* method)
-{
-	{
-		__this->set_disposed_3((bool)1);
-		return;
-	}
-}
-// System.Int32 System.Security.Cryptography.HashAlgorithm::TransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32)
-extern "C"  int32_t HashAlgorithm_TransformBlock_m4190258810 (HashAlgorithm_t2624936259 * __this, ByteU5BU5D_t3397334013* ___inputBuffer0, int32_t ___inputOffset1, int32_t ___inputCount2, ByteU5BU5D_t3397334013* ___outputBuffer3, int32_t ___outputOffset4, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (HashAlgorithm_TransformBlock_m4190258810_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		ByteU5BU5D_t3397334013* L_0 = ___inputBuffer0;
-		if (L_0)
-		{
-			goto IL_0011;
-		}
-	}
-	{
-		ArgumentNullException_t628810857 * L_1 = (ArgumentNullException_t628810857 *)il2cpp_codegen_object_new(ArgumentNullException_t628810857_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3380712306(L_1, _stringLiteral609194916, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
-	}
-
-IL_0011:
-	{
-		int32_t L_2 = ___inputOffset1;
-		if ((((int32_t)L_2) >= ((int32_t)0)))
-		{
-			goto IL_0028;
-		}
-	}
-	{
-		ArgumentOutOfRangeException_t279959794 * L_3 = (ArgumentOutOfRangeException_t279959794 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t279959794_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m4234257711(L_3, _stringLiteral3110660963, _stringLiteral816987394, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
-	}
-
-IL_0028:
-	{
-		int32_t L_4 = ___inputCount2;
-		if ((((int32_t)L_4) >= ((int32_t)0)))
-		{
-			goto IL_003a;
-		}
-	}
-	{
-		ArgumentException_t3259014390 * L_5 = (ArgumentException_t3259014390 *)il2cpp_codegen_object_new(ArgumentException_t3259014390_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3739475201(L_5, _stringLiteral2737893205, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5);
-	}
-
-IL_003a:
-	{
-		int32_t L_6 = ___inputOffset1;
-		if ((((int32_t)L_6) < ((int32_t)0)))
-		{
-			goto IL_004c;
-		}
-	}
-	{
-		int32_t L_7 = ___inputOffset1;
-		ByteU5BU5D_t3397334013* L_8 = ___inputBuffer0;
-		NullCheck(L_8);
-		int32_t L_9 = ___inputCount2;
-		if ((((int32_t)L_7) <= ((int32_t)((int32_t)((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_8)->max_length))))-(int32_t)L_9)))))
-		{
-			goto IL_0057;
-		}
-	}
-
-IL_004c:
-	{
-		ArgumentException_t3259014390 * L_10 = (ArgumentException_t3259014390 *)il2cpp_codegen_object_new(ArgumentException_t3259014390_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3739475201(L_10, _stringLiteral609194916, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_10);
-	}
-
-IL_0057:
-	{
-		ByteU5BU5D_t3397334013* L_11 = ___outputBuffer3;
-		if (!L_11)
-		{
-			goto IL_0098;
-		}
-	}
-	{
-		int32_t L_12 = ___outputOffset4;
-		if ((((int32_t)L_12) >= ((int32_t)0)))
-		{
-			goto IL_0076;
-		}
-	}
-	{
-		ArgumentOutOfRangeException_t279959794 * L_13 = (ArgumentOutOfRangeException_t279959794 *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t279959794_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m4234257711(L_13, _stringLiteral106791344, _stringLiteral816987394, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_13);
-	}
-
-IL_0076:
-	{
-		int32_t L_14 = ___outputOffset4;
-		ByteU5BU5D_t3397334013* L_15 = ___outputBuffer3;
-		NullCheck(L_15);
-		int32_t L_16 = ___inputCount2;
-		if ((((int32_t)L_14) <= ((int32_t)((int32_t)((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_15)->max_length))))-(int32_t)L_16)))))
-		{
-			goto IL_0098;
-		}
-	}
-	{
-		String_t* L_17 = Locale_GetText_m1954433032(NULL /*static, unused*/, _stringLiteral5961480, /*hidden argument*/NULL);
-		ArgumentException_t3259014390 * L_18 = (ArgumentException_t3259014390 *)il2cpp_codegen_object_new(ArgumentException_t3259014390_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m544251339(L_18, _stringLiteral349176760, L_17, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_18);
-	}
-
-IL_0098:
-	{
-		ByteU5BU5D_t3397334013* L_19 = ___inputBuffer0;
-		int32_t L_20 = ___inputOffset1;
-		int32_t L_21 = ___inputCount2;
-		VirtActionInvoker3< ByteU5BU5D_t3397334013*, int32_t, int32_t >::Invoke(10 /* System.Void System.Security.Cryptography.HashAlgorithm::HashCore(System.Byte[],System.Int32,System.Int32) */, __this, L_19, L_20, L_21);
-		ByteU5BU5D_t3397334013* L_22 = ___outputBuffer3;
-		if (!L_22)
-		{
-			goto IL_00b4;
-		}
-	}
-	{
-		ByteU5BU5D_t3397334013* L_23 = ___inputBuffer0;
-		int32_t L_24 = ___inputOffset1;
-		ByteU5BU5D_t3397334013* L_25 = ___outputBuffer3;
-		int32_t L_26 = ___outputOffset4;
-		int32_t L_27 = ___inputCount2;
-		Buffer_BlockCopy_m1586717258(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_23, L_24, (Il2CppArray *)(Il2CppArray *)L_25, L_26, L_27, /*hidden argument*/NULL);
-	}
-
-IL_00b4:
-	{
-		int32_t L_28 = ___inputCount2;
-		return L_28;
-	}
-}
-// System.Byte[] System.Security.Cryptography.HashAlgorithm::TransformFinalBlock(System.Byte[],System.Int32,System.Int32)
-extern "C"  ByteU5BU5D_t3397334013* HashAlgorithm_TransformFinalBlock_m3071802428 (HashAlgorithm_t2624936259 * __this, ByteU5BU5D_t3397334013* ___inputBuffer0, int32_t ___inputOffset1, int32_t ___inputCount2, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (HashAlgorithm_TransformFinalBlock_m3071802428_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	ByteU5BU5D_t3397334013* V_0 = NULL;
-	{
-		ByteU5BU5D_t3397334013* L_0 = ___inputBuffer0;
-		if (L_0)
-		{
-			goto IL_0011;
-		}
-	}
-	{
-		ArgumentNullException_t628810857 * L_1 = (ArgumentNullException_t628810857 *)il2cpp_codegen_object_new(ArgumentNullException_t628810857_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m3380712306(L_1, _stringLiteral609194916, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
-	}
-
-IL_0011:
-	{
-		int32_t L_2 = ___inputCount2;
-		if ((((int32_t)L_2) >= ((int32_t)0)))
-		{
-			goto IL_0023;
-		}
-	}
-	{
-		ArgumentException_t3259014390 * L_3 = (ArgumentException_t3259014390 *)il2cpp_codegen_object_new(ArgumentException_t3259014390_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3739475201(L_3, _stringLiteral2737893205, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
-	}
-
-IL_0023:
-	{
-		int32_t L_4 = ___inputOffset1;
-		ByteU5BU5D_t3397334013* L_5 = ___inputBuffer0;
-		NullCheck(L_5);
-		int32_t L_6 = ___inputCount2;
-		if ((((int32_t)L_4) <= ((int32_t)((int32_t)((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_5)->max_length))))-(int32_t)L_6)))))
-		{
-			goto IL_0043;
-		}
-	}
-	{
-		String_t* L_7 = Locale_GetText_m1954433032(NULL /*static, unused*/, _stringLiteral5961480, /*hidden argument*/NULL);
-		ArgumentException_t3259014390 * L_8 = (ArgumentException_t3259014390 *)il2cpp_codegen_object_new(ArgumentException_t3259014390_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m544251339(L_8, _stringLiteral3657498021, L_7, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_8);
-	}
-
-IL_0043:
-	{
-		int32_t L_9 = ___inputCount2;
-		V_0 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)L_9));
-		ByteU5BU5D_t3397334013* L_10 = ___inputBuffer0;
-		int32_t L_11 = ___inputOffset1;
-		ByteU5BU5D_t3397334013* L_12 = V_0;
-		int32_t L_13 = ___inputCount2;
-		Buffer_BlockCopy_m1586717258(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_10, L_11, (Il2CppArray *)(Il2CppArray *)L_12, 0, L_13, /*hidden argument*/NULL);
-		ByteU5BU5D_t3397334013* L_14 = ___inputBuffer0;
-		int32_t L_15 = ___inputOffset1;
-		int32_t L_16 = ___inputCount2;
-		VirtActionInvoker3< ByteU5BU5D_t3397334013*, int32_t, int32_t >::Invoke(10 /* System.Void System.Security.Cryptography.HashAlgorithm::HashCore(System.Byte[],System.Int32,System.Int32) */, __this, L_14, L_15, L_16);
-		ByteU5BU5D_t3397334013* L_17 = VirtFuncInvoker0< ByteU5BU5D_t3397334013* >::Invoke(11 /* System.Byte[] System.Security.Cryptography.HashAlgorithm::HashFinal() */, __this);
-		__this->set_HashValue_0(L_17);
-		VirtActionInvoker0::Invoke(13 /* System.Void System.Security.Cryptography.HashAlgorithm::Initialize() */, __this);
-		ByteU5BU5D_t3397334013* L_18 = V_0;
-		return L_18;
 	}
 }
 #ifdef __clang__

@@ -16,14 +16,27 @@
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array3829468939.h"
+#include "mscorlib_System_Array_InternalEnumerator_1_gen4134265287.h"
+#include "mscorlib_System_Void1841601450.h"
+#include "mscorlib_System_Int322071877448.h"
+#include "mscorlib_System_Object2689449295.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARHitTestResu3275513025.h"
+#include "mscorlib_System_Boolean3825574718.h"
+#include "mscorlib_System_String2029220233.h"
+#include "mscorlib_System_InvalidOperationException721527559.h"
+#include "mscorlib_System_Array_InternalEnumerator_1_gen180534711.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARHitTestResu3616749745.h"
+#include "mscorlib_System_Array_InternalEnumerator_1_gen3238740893.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARAlignm2379988631.h"
+#include "mscorlib_System_Array_InternalEnumerator_1_gen1471328119.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARPlaneDe612575857.h"
+#include "mscorlib_System_Array_InternalEnumerator_1_gen3981827946.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARSessio3123075684.h"
+#include "mscorlib_System_Collections_Generic_CollectionDebug517719049.h"
 #include "mscorlib_System_Collections_Generic_CollectionDebu2230541861.h"
 #include "mscorlib_System_Collections_Generic_Comparer_1_Def1943751571.h"
-#include "mscorlib_System_Void1841601450.h"
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen2344490457.h"
-#include "mscorlib_System_Int322071877448.h"
 #include "mscorlib_System_Char3454481338.h"
-#include "mscorlib_System_String2029220233.h"
-#include "mscorlib_System_Object2689449295.h"
 #include "mscorlib_System_ArgumentException3259014390.h"
 #include "mscorlib_System_Collections_Generic_Comparer_1_Def3477443198.h"
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen3878182084.h"
@@ -88,17 +101,14 @@
 #include "UnityEngine_UnityEngine_Vector42243707581.h"
 #include "mscorlib_System_Collections_Generic_Comparer_1_Def1764783258.h"
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen2165522144.h"
-#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARHitTestResu3275513025.h"
 #include "mscorlib_System_RuntimeTypeHandle2330101084.h"
 #include "mscorlib_System_Type1303803226.h"
-#include "mscorlib_System_Boolean3825574718.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_E4153425055.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_g2833400353.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_590745575.h"
 #include "mscorlib_System_Collections_DictionaryEntry3048875398.h"
 #include "mscorlib_System_Collections_Generic_Link2723257478.h"
 #include "mscorlib_System_ObjectDisposedException2695136451.h"
-#include "mscorlib_System_InvalidOperationException721527559.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_E3782331675.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_g2462306973.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_219652195.h"
@@ -164,19 +174,19 @@
 #include "mscorlib_System_Collections_Generic_Dictionary_2_T1901028561.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Va224965821.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_V4148839737.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_V2766235847.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_V1603436436.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_V3383807694.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_V1070533165.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_Va809200314.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_V3350470340.h"
 
+// System.Array
+struct Il2CppArray;
+// System.Object
+struct Il2CppObject;
+// System.InvalidOperationException
+struct InvalidOperationException_t721527559;
+// System.String
+struct String_t;
 // System.Collections.Generic.Comparer`1/DefaultComparer<System.Char>
 struct DefaultComparer_t1943751571;
 // System.ArgumentException
 struct ArgumentException_t3259014390;
-// System.String
-struct String_t;
 // System.Collections.Generic.Comparer`1/DefaultComparer<System.DateTime>
 struct DefaultComparer_t3477443198;
 // System.Collections.Generic.Comparer`1/DefaultComparer<System.DateTimeOffset>
@@ -187,8 +197,6 @@ struct DefaultComparer_t1022871826;
 struct DefaultComparer_t561147681;
 // System.Collections.Generic.Comparer`1/DefaultComparer<System.Object>
 struct DefaultComparer_t1178719528;
-// System.Object
-struct Il2CppObject;
 // System.Collections.Generic.Comparer`1/DefaultComparer<System.Reflection.CustomAttributeNamedArgument>
 struct DefaultComparer_t2878395072;
 // System.Collections.Generic.Comparer`1/DefaultComparer<System.Reflection.CustomAttributeTypedArgument>
@@ -275,8 +283,6 @@ struct Comparer_1_t2165522144;
 struct Dictionary_2_t2833400353;
 // System.ObjectDisposedException
 struct ObjectDisposedException_t2695136451;
-// System.InvalidOperationException
-struct InvalidOperationException_t721527559;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Char>
 struct Dictionary_2_t2462306973;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>
@@ -369,6 +375,14 @@ struct Transform_1_t2260454664;
 struct Transform_1_t3545401207;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Object,System.Object>
 struct Transform_1_t1901028561;
+extern Il2CppClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1024050925;
+extern Il2CppCodeGenString* _stringLiteral2903193705;
+extern const uint32_t InternalEnumerator_1_get_Current_m701904087_MetadataUsageId;
+extern const uint32_t InternalEnumerator_1_get_Current_m247346103_MetadataUsageId;
+extern const uint32_t InternalEnumerator_1_get_Current_m102294249_MetadataUsageId;
+extern const uint32_t InternalEnumerator_1_get_Current_m3680165319_MetadataUsageId;
+extern const uint32_t InternalEnumerator_1_get_Current_m3902135712_MetadataUsageId;
 extern Il2CppClass* IComparable_t1857082765_il2cpp_TypeInfo_var;
 extern Il2CppClass* ArgumentException_t3259014390_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral1864089402;
@@ -445,7 +459,6 @@ extern const uint32_t Comparer_1_System_Collections_IComparer_Compare_m577428976
 extern const uint32_t Comparer_1__cctor_m3976942823_MetadataUsageId;
 extern const uint32_t Comparer_1_System_Collections_IComparer_Compare_m1390410999_MetadataUsageId;
 extern Il2CppClass* ObjectDisposedException_t2695136451_il2cpp_TypeInfo_var;
-extern Il2CppClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral671556834;
 extern const uint32_t Enumerator_VerifyState_m4116862938_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral2382073330;
@@ -766,6 +779,66 @@ public:
 };
 
 
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResult>::.ctor(System.Array)
+extern "C"  void InternalEnumerator_1__ctor_m4230641926_gshared (InternalEnumerator_1_t4134265287 * __this, Il2CppArray * ___array0, const MethodInfo* method);
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResult>::System.Collections.IEnumerator.Reset()
+extern "C"  void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m812236630_gshared (InternalEnumerator_1_t4134265287 * __this, const MethodInfo* method);
+// T System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResult>::get_Current()
+extern "C"  ARHitTestResult_t3275513025  InternalEnumerator_1_get_Current_m701904087_gshared (InternalEnumerator_1_t4134265287 * __this, const MethodInfo* method);
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResult>::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m2557608754_gshared (InternalEnumerator_1_t4134265287 * __this, const MethodInfo* method);
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResult>::Dispose()
+extern "C"  void InternalEnumerator_1_Dispose_m2016417703_gshared (InternalEnumerator_1_t4134265287 * __this, const MethodInfo* method);
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResult>::MoveNext()
+extern "C"  bool InternalEnumerator_1_MoveNext_m2184791230_gshared (InternalEnumerator_1_t4134265287 * __this, const MethodInfo* method);
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResultType>::.ctor(System.Array)
+extern "C"  void InternalEnumerator_1__ctor_m4172378750_gshared (InternalEnumerator_1_t180534711 * __this, Il2CppArray * ___array0, const MethodInfo* method);
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResultType>::System.Collections.IEnumerator.Reset()
+extern "C"  void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m2353371246_gshared (InternalEnumerator_1_t180534711 * __this, const MethodInfo* method);
+// T System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResultType>::get_Current()
+extern "C"  int64_t InternalEnumerator_1_get_Current_m247346103_gshared (InternalEnumerator_1_t180534711 * __this, const MethodInfo* method);
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResultType>::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m895822450_gshared (InternalEnumerator_1_t180534711 * __this, const MethodInfo* method);
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResultType>::Dispose()
+extern "C"  void InternalEnumerator_1_Dispose_m2973617935_gshared (InternalEnumerator_1_t180534711 * __this, const MethodInfo* method);
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResultType>::MoveNext()
+extern "C"  bool InternalEnumerator_1_MoveNext_m2126265830_gshared (InternalEnumerator_1_t180534711 * __this, const MethodInfo* method);
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARAlignment>::.ctor(System.Array)
+extern "C"  void InternalEnumerator_1__ctor_m3864846476_gshared (InternalEnumerator_1_t3238740893 * __this, Il2CppArray * ___array0, const MethodInfo* method);
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARAlignment>::System.Collections.IEnumerator.Reset()
+extern "C"  void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m3876229360_gshared (InternalEnumerator_1_t3238740893 * __this, const MethodInfo* method);
+// T System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARAlignment>::get_Current()
+extern "C"  int32_t InternalEnumerator_1_get_Current_m102294249_gshared (InternalEnumerator_1_t3238740893 * __this, const MethodInfo* method);
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARAlignment>::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m3981083214_gshared (InternalEnumerator_1_t3238740893 * __this, const MethodInfo* method);
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARAlignment>::Dispose()
+extern "C"  void InternalEnumerator_1_Dispose_m4110412993_gshared (InternalEnumerator_1_t3238740893 * __this, const MethodInfo* method);
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARAlignment>::MoveNext()
+extern "C"  bool InternalEnumerator_1_MoveNext_m417038316_gshared (InternalEnumerator_1_t3238740893 * __this, const MethodInfo* method);
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARPlaneDetection>::.ctor(System.Array)
+extern "C"  void InternalEnumerator_1__ctor_m4044022160_gshared (InternalEnumerator_1_t1471328119 * __this, Il2CppArray * ___array0, const MethodInfo* method);
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARPlaneDetection>::System.Collections.IEnumerator.Reset()
+extern "C"  void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m3849817000_gshared (InternalEnumerator_1_t1471328119 * __this, const MethodInfo* method);
+// T System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARPlaneDetection>::get_Current()
+extern "C"  int32_t InternalEnumerator_1_get_Current_m3680165319_gshared (InternalEnumerator_1_t1471328119 * __this, const MethodInfo* method);
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARPlaneDetection>::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m4262366668_gshared (InternalEnumerator_1_t1471328119 * __this, const MethodInfo* method);
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARPlaneDetection>::Dispose()
+extern "C"  void InternalEnumerator_1_Dispose_m2165026663_gshared (InternalEnumerator_1_t1471328119 * __this, const MethodInfo* method);
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARPlaneDetection>::MoveNext()
+extern "C"  bool InternalEnumerator_1_MoveNext_m4124807336_gshared (InternalEnumerator_1_t1471328119 * __this, const MethodInfo* method);
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARSessionRunOption>::.ctor(System.Array)
+extern "C"  void InternalEnumerator_1__ctor_m3932544103_gshared (InternalEnumerator_1_t3981827946 * __this, Il2CppArray * ___array0, const MethodInfo* method);
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARSessionRunOption>::System.Collections.IEnumerator.Reset()
+extern "C"  void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m3886169991_gshared (InternalEnumerator_1_t3981827946 * __this, const MethodInfo* method);
+// T System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARSessionRunOption>::get_Current()
+extern "C"  int32_t InternalEnumerator_1_get_Current_m3902135712_gshared (InternalEnumerator_1_t3981827946 * __this, const MethodInfo* method);
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARSessionRunOption>::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m2619829659_gshared (InternalEnumerator_1_t3981827946 * __this, const MethodInfo* method);
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARSessionRunOption>::Dispose()
+extern "C"  void InternalEnumerator_1_Dispose_m1542564518_gshared (InternalEnumerator_1_t3981827946 * __this, const MethodInfo* method);
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARSessionRunOption>::MoveNext()
+extern "C"  bool InternalEnumerator_1_MoveNext_m2154785123_gshared (InternalEnumerator_1_t3981827946 * __this, const MethodInfo* method);
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Boolean>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
 extern "C"  void Enumerator__ctor_m2824999713_gshared (Enumerator_t4153425055 * __this, Dictionary_2_t2833400353 * ___dictionary0, const MethodInfo* method);
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Boolean>::VerifyCurrent()
@@ -1150,79 +1223,71 @@ extern "C"  void Enumerator_Dispose_m2458525079_gshared (Enumerator_t4148839737 
 extern "C"  bool Enumerator_MoveNext_m3332467698_gshared (Enumerator_t4148839737 * __this, const MethodInfo* method);
 // TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Char>::get_Current()
 extern "C"  Il2CppChar Enumerator_get_Current_m3102937560_gshared (Enumerator_t4148839737 * __this, const MethodInfo* method);
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int32>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C"  void Enumerator__ctor_m370613445_gshared (Enumerator_t2766235847 * __this, Dictionary_2_t1079703083 * ___host0, const MethodInfo* method);
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int32>::System.Collections.IEnumerator.get_Current()
-extern "C"  Il2CppObject * Enumerator_System_Collections_IEnumerator_get_Current_m4017233928_gshared (Enumerator_t2766235847 * __this, const MethodInfo* method);
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int32>::System.Collections.IEnumerator.Reset()
-extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m9625560_gshared (Enumerator_t2766235847 * __this, const MethodInfo* method);
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int32>::Dispose()
-extern "C"  void Enumerator_Dispose_m2229103293_gshared (Enumerator_t2766235847 * __this, const MethodInfo* method);
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int32>::MoveNext()
-extern "C"  bool Enumerator_MoveNext_m3657937156_gshared (Enumerator_t2766235847 * __this, const MethodInfo* method);
-// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int32>::get_Current()
-extern "C"  int32_t Enumerator_get_Current_m25368454_gshared (Enumerator_t2766235847 * __this, const MethodInfo* method);
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int64>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C"  void Enumerator__ctor_m111100156_gshared (Enumerator_t1603436436 * __this, Dictionary_2_t4211870968 * ___host0, const MethodInfo* method);
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int64>::System.Collections.IEnumerator.get_Current()
-extern "C"  Il2CppObject * Enumerator_System_Collections_IEnumerator_get_Current_m1633893979_gshared (Enumerator_t1603436436 * __this, const MethodInfo* method);
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int64>::System.Collections.IEnumerator.Reset()
-extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m2571848951_gshared (Enumerator_t1603436436 * __this, const MethodInfo* method);
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int64>::Dispose()
-extern "C"  void Enumerator_Dispose_m2900479032_gshared (Enumerator_t1603436436 * __this, const MethodInfo* method);
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int64>::MoveNext()
-extern "C"  bool Enumerator_MoveNext_m1427543363_gshared (Enumerator_t1603436436 * __this, const MethodInfo* method);
-// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int64>::get_Current()
-extern "C"  int64_t Enumerator_get_Current_m1325059937_gshared (Enumerator_t1603436436 * __this, const MethodInfo* method);
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C"  void Enumerator__ctor_m2988407410_gshared (Enumerator_t3383807694 * __this, Dictionary_2_t1697274930 * ___host0, const MethodInfo* method);
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::System.Collections.IEnumerator.get_Current()
-extern "C"  Il2CppObject * Enumerator_System_Collections_IEnumerator_get_Current_m1648049763_gshared (Enumerator_t3383807694 * __this, const MethodInfo* method);
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::System.Collections.IEnumerator.Reset()
-extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m655633499_gshared (Enumerator_t3383807694 * __this, const MethodInfo* method);
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::Dispose()
-extern "C"  void Enumerator_Dispose_m2369319718_gshared (Enumerator_t3383807694 * __this, const MethodInfo* method);
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::MoveNext()
-extern "C"  bool Enumerator_MoveNext_m1091131935_gshared (Enumerator_t3383807694 * __this, const MethodInfo* method);
-// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::get_Current()
-extern "C"  Il2CppObject * Enumerator_get_Current_m3006348140_gshared (Enumerator_t3383807694 * __this, const MethodInfo* method);
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Object>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C"  void Enumerator__ctor_m419014865_gshared (Enumerator_t1070533165 * __this, Dictionary_2_t3678967697 * ___host0, const MethodInfo* method);
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Object>::System.Collections.IEnumerator.get_Current()
-extern "C"  Il2CppObject * Enumerator_System_Collections_IEnumerator_get_Current_m2712263668_gshared (Enumerator_t1070533165 * __this, const MethodInfo* method);
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Object>::System.Collections.IEnumerator.Reset()
-extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m149043970_gshared (Enumerator_t1070533165 * __this, const MethodInfo* method);
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Object>::Dispose()
-extern "C"  void Enumerator_Dispose_m942415041_gshared (Enumerator_t1070533165 * __this, const MethodInfo* method);
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Object>::MoveNext()
-extern "C"  bool Enumerator_MoveNext_m2045321910_gshared (Enumerator_t1070533165 * __this, const MethodInfo* method);
-// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Object>::get_Current()
-extern "C"  Il2CppObject * Enumerator_get_Current_m1952080304_gshared (Enumerator_t1070533165 * __this, const MethodInfo* method);
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Boolean>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C"  void Enumerator__ctor_m908409898_gshared (Enumerator_t809200314 * __this, Dictionary_2_t3417634846 * ___host0, const MethodInfo* method);
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Boolean>::System.Collections.IEnumerator.get_Current()
-extern "C"  Il2CppObject * Enumerator_System_Collections_IEnumerator_get_Current_m2625473469_gshared (Enumerator_t809200314 * __this, const MethodInfo* method);
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Boolean>::System.Collections.IEnumerator.Reset()
-extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m2909592833_gshared (Enumerator_t809200314 * __this, const MethodInfo* method);
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Boolean>::Dispose()
-extern "C"  void Enumerator_Dispose_m1323464986_gshared (Enumerator_t809200314 * __this, const MethodInfo* method);
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Boolean>::MoveNext()
-extern "C"  bool Enumerator_MoveNext_m1212551889_gshared (Enumerator_t809200314 * __this, const MethodInfo* method);
-// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Boolean>::get_Current()
-extern "C"  bool Enumerator_get_Current_m2986380627_gshared (Enumerator_t809200314 * __this, const MethodInfo* method);
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C"  void Enumerator__ctor_m3539306986_gshared (Enumerator_t3350470340 * __this, Dictionary_2_t1663937576 * ___host0, const MethodInfo* method);
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>::System.Collections.IEnumerator.get_Current()
-extern "C"  Il2CppObject * Enumerator_System_Collections_IEnumerator_get_Current_m1805365227_gshared (Enumerator_t3350470340 * __this, const MethodInfo* method);
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>::System.Collections.IEnumerator.Reset()
-extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m3294415347_gshared (Enumerator_t3350470340 * __this, const MethodInfo* method);
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>::Dispose()
-extern "C"  void Enumerator_Dispose_m2532362830_gshared (Enumerator_t3350470340 * __this, const MethodInfo* method);
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>::MoveNext()
-extern "C"  bool Enumerator_MoveNext_m2534596951_gshared (Enumerator_t3350470340 * __this, const MethodInfo* method);
-// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>::get_Current()
-extern "C"  int32_t Enumerator_get_Current_m2838387513_gshared (Enumerator_t3350470340 * __this, const MethodInfo* method);
 
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResult>::.ctor(System.Array)
+#define InternalEnumerator_1__ctor_m4230641926(__this, ___array0, method) ((  void (*) (InternalEnumerator_1_t4134265287 *, Il2CppArray *, const MethodInfo*))InternalEnumerator_1__ctor_m4230641926_gshared)(__this, ___array0, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResult>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m812236630(__this, method) ((  void (*) (InternalEnumerator_1_t4134265287 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m812236630_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResult>::get_Current()
+#define InternalEnumerator_1_get_Current_m701904087(__this, method) ((  ARHitTestResult_t3275513025  (*) (InternalEnumerator_1_t4134265287 *, const MethodInfo*))InternalEnumerator_1_get_Current_m701904087_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResult>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m2557608754(__this, method) ((  Il2CppObject * (*) (InternalEnumerator_1_t4134265287 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m2557608754_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResult>::Dispose()
+#define InternalEnumerator_1_Dispose_m2016417703(__this, method) ((  void (*) (InternalEnumerator_1_t4134265287 *, const MethodInfo*))InternalEnumerator_1_Dispose_m2016417703_gshared)(__this, method)
+// System.Int32 System.Array::get_Length()
+extern "C"  int32_t Array_get_Length_m1498215565 (Il2CppArray * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResult>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m2184791230(__this, method) ((  bool (*) (InternalEnumerator_1_t4134265287 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m2184791230_gshared)(__this, method)
+// System.Void System.InvalidOperationException::.ctor(System.String)
+extern "C"  void InvalidOperationException__ctor_m2801133788 (InvalidOperationException_t721527559 * __this, String_t* ___message0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResultType>::.ctor(System.Array)
+#define InternalEnumerator_1__ctor_m4172378750(__this, ___array0, method) ((  void (*) (InternalEnumerator_1_t180534711 *, Il2CppArray *, const MethodInfo*))InternalEnumerator_1__ctor_m4172378750_gshared)(__this, ___array0, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResultType>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m2353371246(__this, method) ((  void (*) (InternalEnumerator_1_t180534711 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m2353371246_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResultType>::get_Current()
+#define InternalEnumerator_1_get_Current_m247346103(__this, method) ((  int64_t (*) (InternalEnumerator_1_t180534711 *, const MethodInfo*))InternalEnumerator_1_get_Current_m247346103_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResultType>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m895822450(__this, method) ((  Il2CppObject * (*) (InternalEnumerator_1_t180534711 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m895822450_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResultType>::Dispose()
+#define InternalEnumerator_1_Dispose_m2973617935(__this, method) ((  void (*) (InternalEnumerator_1_t180534711 *, const MethodInfo*))InternalEnumerator_1_Dispose_m2973617935_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResultType>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m2126265830(__this, method) ((  bool (*) (InternalEnumerator_1_t180534711 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m2126265830_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARAlignment>::.ctor(System.Array)
+#define InternalEnumerator_1__ctor_m3864846476(__this, ___array0, method) ((  void (*) (InternalEnumerator_1_t3238740893 *, Il2CppArray *, const MethodInfo*))InternalEnumerator_1__ctor_m3864846476_gshared)(__this, ___array0, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARAlignment>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m3876229360(__this, method) ((  void (*) (InternalEnumerator_1_t3238740893 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m3876229360_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARAlignment>::get_Current()
+#define InternalEnumerator_1_get_Current_m102294249(__this, method) ((  int32_t (*) (InternalEnumerator_1_t3238740893 *, const MethodInfo*))InternalEnumerator_1_get_Current_m102294249_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARAlignment>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m3981083214(__this, method) ((  Il2CppObject * (*) (InternalEnumerator_1_t3238740893 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m3981083214_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARAlignment>::Dispose()
+#define InternalEnumerator_1_Dispose_m4110412993(__this, method) ((  void (*) (InternalEnumerator_1_t3238740893 *, const MethodInfo*))InternalEnumerator_1_Dispose_m4110412993_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARAlignment>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m417038316(__this, method) ((  bool (*) (InternalEnumerator_1_t3238740893 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m417038316_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARPlaneDetection>::.ctor(System.Array)
+#define InternalEnumerator_1__ctor_m4044022160(__this, ___array0, method) ((  void (*) (InternalEnumerator_1_t1471328119 *, Il2CppArray *, const MethodInfo*))InternalEnumerator_1__ctor_m4044022160_gshared)(__this, ___array0, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARPlaneDetection>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m3849817000(__this, method) ((  void (*) (InternalEnumerator_1_t1471328119 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m3849817000_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARPlaneDetection>::get_Current()
+#define InternalEnumerator_1_get_Current_m3680165319(__this, method) ((  int32_t (*) (InternalEnumerator_1_t1471328119 *, const MethodInfo*))InternalEnumerator_1_get_Current_m3680165319_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARPlaneDetection>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m4262366668(__this, method) ((  Il2CppObject * (*) (InternalEnumerator_1_t1471328119 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m4262366668_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARPlaneDetection>::Dispose()
+#define InternalEnumerator_1_Dispose_m2165026663(__this, method) ((  void (*) (InternalEnumerator_1_t1471328119 *, const MethodInfo*))InternalEnumerator_1_Dispose_m2165026663_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARPlaneDetection>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m4124807336(__this, method) ((  bool (*) (InternalEnumerator_1_t1471328119 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m4124807336_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARSessionRunOption>::.ctor(System.Array)
+#define InternalEnumerator_1__ctor_m3932544103(__this, ___array0, method) ((  void (*) (InternalEnumerator_1_t3981827946 *, Il2CppArray *, const MethodInfo*))InternalEnumerator_1__ctor_m3932544103_gshared)(__this, ___array0, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARSessionRunOption>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m3886169991(__this, method) ((  void (*) (InternalEnumerator_1_t3981827946 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m3886169991_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARSessionRunOption>::get_Current()
+#define InternalEnumerator_1_get_Current_m3902135712(__this, method) ((  int32_t (*) (InternalEnumerator_1_t3981827946 *, const MethodInfo*))InternalEnumerator_1_get_Current_m3902135712_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARSessionRunOption>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m2619829659(__this, method) ((  Il2CppObject * (*) (InternalEnumerator_1_t3981827946 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m2619829659_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARSessionRunOption>::Dispose()
+#define InternalEnumerator_1_Dispose_m1542564518(__this, method) ((  void (*) (InternalEnumerator_1_t3981827946 *, const MethodInfo*))InternalEnumerator_1_Dispose_m1542564518_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARSessionRunOption>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m2154785123(__this, method) ((  bool (*) (InternalEnumerator_1_t3981827946 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m2154785123_gshared)(__this, method)
 // System.Void System.ArgumentException::.ctor(System.String)
 extern "C"  void ArgumentException__ctor_m3739475201 (ArgumentException_t3259014390 * __this, String_t* ___message0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Object::.ctor()
@@ -1269,8 +1334,6 @@ extern "C"  void DictionaryEntry__ctor_m2901884110 (DictionaryEntry_t3048875398 
 #define Enumerator_get_Current_m4040210310(__this, method) ((  KeyValuePair_2_t590745575  (*) (Enumerator_t4153425055 *, const MethodInfo*))Enumerator_get_Current_m4040210310_gshared)(__this, method)
 // System.Void System.ObjectDisposedException::.ctor(System.String)
 extern "C"  void ObjectDisposedException__ctor_m3156784572 (ObjectDisposedException_t2695136451 * __this, String_t* ___objectName0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void System.InvalidOperationException::.ctor(System.String)
-extern "C"  void InvalidOperationException__ctor_m2801133788 (InvalidOperationException_t721527559 * __this, String_t* ___message0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Boolean>::Dispose()
 #define Enumerator_Dispose_m85524265(__this, method) ((  void (*) (Enumerator_t4153425055 *, const MethodInfo*))Enumerator_Dispose_m85524265_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Char>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
@@ -1623,83 +1686,816 @@ extern "C"  void InvalidOperationException__ctor_m2801133788 (InvalidOperationEx
 #define Enumerator_MoveNext_m3332467698(__this, method) ((  bool (*) (Enumerator_t4148839737 *, const MethodInfo*))Enumerator_MoveNext_m3332467698_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Char>::get_Current()
 #define Enumerator_get_Current_m3102937560(__this, method) ((  Il2CppChar (*) (Enumerator_t4148839737 *, const MethodInfo*))Enumerator_get_Current_m3102937560_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int32>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-#define Enumerator__ctor_m370613445(__this, ___host0, method) ((  void (*) (Enumerator_t2766235847 *, Dictionary_2_t1079703083 *, const MethodInfo*))Enumerator__ctor_m370613445_gshared)(__this, ___host0, method)
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int32>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m4017233928(__this, method) ((  Il2CppObject * (*) (Enumerator_t2766235847 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m4017233928_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int32>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m9625560(__this, method) ((  void (*) (Enumerator_t2766235847 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m9625560_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int32>::Dispose()
-#define Enumerator_Dispose_m2229103293(__this, method) ((  void (*) (Enumerator_t2766235847 *, const MethodInfo*))Enumerator_Dispose_m2229103293_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int32>::MoveNext()
-#define Enumerator_MoveNext_m3657937156(__this, method) ((  bool (*) (Enumerator_t2766235847 *, const MethodInfo*))Enumerator_MoveNext_m3657937156_gshared)(__this, method)
-// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int32>::get_Current()
-#define Enumerator_get_Current_m25368454(__this, method) ((  int32_t (*) (Enumerator_t2766235847 *, const MethodInfo*))Enumerator_get_Current_m25368454_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int64>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-#define Enumerator__ctor_m111100156(__this, ___host0, method) ((  void (*) (Enumerator_t1603436436 *, Dictionary_2_t4211870968 *, const MethodInfo*))Enumerator__ctor_m111100156_gshared)(__this, ___host0, method)
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int64>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m1633893979(__this, method) ((  Il2CppObject * (*) (Enumerator_t1603436436 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m1633893979_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int64>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m2571848951(__this, method) ((  void (*) (Enumerator_t1603436436 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m2571848951_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int64>::Dispose()
-#define Enumerator_Dispose_m2900479032(__this, method) ((  void (*) (Enumerator_t1603436436 *, const MethodInfo*))Enumerator_Dispose_m2900479032_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int64>::MoveNext()
-#define Enumerator_MoveNext_m1427543363(__this, method) ((  bool (*) (Enumerator_t1603436436 *, const MethodInfo*))Enumerator_MoveNext_m1427543363_gshared)(__this, method)
-// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int64>::get_Current()
-#define Enumerator_get_Current_m1325059937(__this, method) ((  int64_t (*) (Enumerator_t1603436436 *, const MethodInfo*))Enumerator_get_Current_m1325059937_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-#define Enumerator__ctor_m2988407410(__this, ___host0, method) ((  void (*) (Enumerator_t3383807694 *, Dictionary_2_t1697274930 *, const MethodInfo*))Enumerator__ctor_m2988407410_gshared)(__this, ___host0, method)
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m1648049763(__this, method) ((  Il2CppObject * (*) (Enumerator_t3383807694 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m1648049763_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m655633499(__this, method) ((  void (*) (Enumerator_t3383807694 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m655633499_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::Dispose()
-#define Enumerator_Dispose_m2369319718(__this, method) ((  void (*) (Enumerator_t3383807694 *, const MethodInfo*))Enumerator_Dispose_m2369319718_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::MoveNext()
-#define Enumerator_MoveNext_m1091131935(__this, method) ((  bool (*) (Enumerator_t3383807694 *, const MethodInfo*))Enumerator_MoveNext_m1091131935_gshared)(__this, method)
-// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::get_Current()
-#define Enumerator_get_Current_m3006348140(__this, method) ((  Il2CppObject * (*) (Enumerator_t3383807694 *, const MethodInfo*))Enumerator_get_Current_m3006348140_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Object>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-#define Enumerator__ctor_m419014865(__this, ___host0, method) ((  void (*) (Enumerator_t1070533165 *, Dictionary_2_t3678967697 *, const MethodInfo*))Enumerator__ctor_m419014865_gshared)(__this, ___host0, method)
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Object>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m2712263668(__this, method) ((  Il2CppObject * (*) (Enumerator_t1070533165 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m2712263668_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Object>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m149043970(__this, method) ((  void (*) (Enumerator_t1070533165 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m149043970_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Object>::Dispose()
-#define Enumerator_Dispose_m942415041(__this, method) ((  void (*) (Enumerator_t1070533165 *, const MethodInfo*))Enumerator_Dispose_m942415041_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Object>::MoveNext()
-#define Enumerator_MoveNext_m2045321910(__this, method) ((  bool (*) (Enumerator_t1070533165 *, const MethodInfo*))Enumerator_MoveNext_m2045321910_gshared)(__this, method)
-// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Object>::get_Current()
-#define Enumerator_get_Current_m1952080304(__this, method) ((  Il2CppObject * (*) (Enumerator_t1070533165 *, const MethodInfo*))Enumerator_get_Current_m1952080304_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Boolean>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-#define Enumerator__ctor_m908409898(__this, ___host0, method) ((  void (*) (Enumerator_t809200314 *, Dictionary_2_t3417634846 *, const MethodInfo*))Enumerator__ctor_m908409898_gshared)(__this, ___host0, method)
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Boolean>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m2625473469(__this, method) ((  Il2CppObject * (*) (Enumerator_t809200314 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m2625473469_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Boolean>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m2909592833(__this, method) ((  void (*) (Enumerator_t809200314 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m2909592833_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Boolean>::Dispose()
-#define Enumerator_Dispose_m1323464986(__this, method) ((  void (*) (Enumerator_t809200314 *, const MethodInfo*))Enumerator_Dispose_m1323464986_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Boolean>::MoveNext()
-#define Enumerator_MoveNext_m1212551889(__this, method) ((  bool (*) (Enumerator_t809200314 *, const MethodInfo*))Enumerator_MoveNext_m1212551889_gshared)(__this, method)
-// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Boolean>::get_Current()
-#define Enumerator_get_Current_m2986380627(__this, method) ((  bool (*) (Enumerator_t809200314 *, const MethodInfo*))Enumerator_get_Current_m2986380627_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-#define Enumerator__ctor_m3539306986(__this, ___host0, method) ((  void (*) (Enumerator_t3350470340 *, Dictionary_2_t1663937576 *, const MethodInfo*))Enumerator__ctor_m3539306986_gshared)(__this, ___host0, method)
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m1805365227(__this, method) ((  Il2CppObject * (*) (Enumerator_t3350470340 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m1805365227_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m3294415347(__this, method) ((  void (*) (Enumerator_t3350470340 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m3294415347_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>::Dispose()
-#define Enumerator_Dispose_m2532362830(__this, method) ((  void (*) (Enumerator_t3350470340 *, const MethodInfo*))Enumerator_Dispose_m2532362830_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>::MoveNext()
-#define Enumerator_MoveNext_m2534596951(__this, method) ((  bool (*) (Enumerator_t3350470340 *, const MethodInfo*))Enumerator_MoveNext_m2534596951_gshared)(__this, method)
-// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>::get_Current()
-#define Enumerator_get_Current_m2838387513(__this, method) ((  int32_t (*) (Enumerator_t3350470340 *, const MethodInfo*))Enumerator_get_Current_m2838387513_gshared)(__this, method)
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResult>::.ctor(System.Array)
+extern "C"  void InternalEnumerator_1__ctor_m4230641926_gshared (InternalEnumerator_1_t4134265287 * __this, Il2CppArray * ___array0, const MethodInfo* method)
+{
+	{
+		Il2CppArray * L_0 = ___array0;
+		__this->set_array_0(L_0);
+		__this->set_idx_1(((int32_t)-2));
+		return;
+	}
+}
+extern "C"  void InternalEnumerator_1__ctor_m4230641926_AdjustorThunk (Il2CppObject * __this, Il2CppArray * ___array0, const MethodInfo* method)
+{
+	InternalEnumerator_1_t4134265287 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t4134265287 *>(__this + 1);
+	InternalEnumerator_1__ctor_m4230641926(_thisAdjusted, ___array0, method);
+}
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResult>::System.Collections.IEnumerator.Reset()
+extern "C"  void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m812236630_gshared (InternalEnumerator_1_t4134265287 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_idx_1(((int32_t)-2));
+		return;
+	}
+}
+extern "C"  void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m812236630_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t4134265287 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t4134265287 *>(__this + 1);
+	InternalEnumerator_1_System_Collections_IEnumerator_Reset_m812236630(_thisAdjusted, method);
+}
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResult>::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m2557608754_gshared (InternalEnumerator_1_t4134265287 * __this, const MethodInfo* method)
+{
+	{
+		ARHitTestResult_t3275513025  L_0 = InternalEnumerator_1_get_Current_m701904087((InternalEnumerator_1_t4134265287 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		ARHitTestResult_t3275513025  L_1 = L_0;
+		Il2CppObject * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1), &L_1);
+		return L_2;
+	}
+}
+extern "C"  Il2CppObject * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m2557608754_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t4134265287 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t4134265287 *>(__this + 1);
+	return InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m2557608754(_thisAdjusted, method);
+}
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResult>::Dispose()
+extern "C"  void InternalEnumerator_1_Dispose_m2016417703_gshared (InternalEnumerator_1_t4134265287 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_idx_1(((int32_t)-2));
+		return;
+	}
+}
+extern "C"  void InternalEnumerator_1_Dispose_m2016417703_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t4134265287 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t4134265287 *>(__this + 1);
+	InternalEnumerator_1_Dispose_m2016417703(_thisAdjusted, method);
+}
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResult>::MoveNext()
+extern "C"  bool InternalEnumerator_1_MoveNext_m2184791230_gshared (InternalEnumerator_1_t4134265287 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t G_B5_0 = 0;
+	{
+		int32_t L_0 = (int32_t)__this->get_idx_1();
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		Il2CppArray * L_1 = (Il2CppArray *)__this->get_array_0();
+		NullCheck((Il2CppArray *)L_1);
+		int32_t L_2 = Array_get_Length_m1498215565((Il2CppArray *)L_1, /*hidden argument*/NULL);
+		__this->set_idx_1(L_2);
+	}
+
+IL_001e:
+	{
+		int32_t L_3 = (int32_t)__this->get_idx_1();
+		if ((((int32_t)L_3) == ((int32_t)(-1))))
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		int32_t L_4 = (int32_t)__this->get_idx_1();
+		int32_t L_5 = (int32_t)((int32_t)((int32_t)L_4-(int32_t)1));
+		V_0 = (int32_t)L_5;
+		__this->set_idx_1(L_5);
+		int32_t L_6 = V_0;
+		G_B5_0 = ((((int32_t)((((int32_t)L_6) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0044;
+	}
+
+IL_0043:
+	{
+		G_B5_0 = 0;
+	}
+
+IL_0044:
+	{
+		return (bool)G_B5_0;
+	}
+}
+extern "C"  bool InternalEnumerator_1_MoveNext_m2184791230_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t4134265287 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t4134265287 *>(__this + 1);
+	return InternalEnumerator_1_MoveNext_m2184791230(_thisAdjusted, method);
+}
+// T System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResult>::get_Current()
+extern "C"  ARHitTestResult_t3275513025  InternalEnumerator_1_get_Current_m701904087_gshared (InternalEnumerator_1_t4134265287 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (InternalEnumerator_1_get_Current_m701904087_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = (int32_t)__this->get_idx_1();
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		InvalidOperationException_t721527559 * L_1 = (InvalidOperationException_t721527559 *)il2cpp_codegen_object_new(InvalidOperationException_t721527559_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m2801133788(L_1, (String_t*)_stringLiteral1024050925, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0018:
+	{
+		int32_t L_2 = (int32_t)__this->get_idx_1();
+		if ((!(((uint32_t)L_2) == ((uint32_t)(-1)))))
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		InvalidOperationException_t721527559 * L_3 = (InvalidOperationException_t721527559 *)il2cpp_codegen_object_new(InvalidOperationException_t721527559_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m2801133788(L_3, (String_t*)_stringLiteral2903193705, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_002f:
+	{
+		Il2CppArray * L_4 = (Il2CppArray *)__this->get_array_0();
+		Il2CppArray * L_5 = (Il2CppArray *)__this->get_array_0();
+		NullCheck((Il2CppArray *)L_5);
+		int32_t L_6 = Array_get_Length_m1498215565((Il2CppArray *)L_5, /*hidden argument*/NULL);
+		int32_t L_7 = (int32_t)__this->get_idx_1();
+		NullCheck((Il2CppArray *)L_4);
+		ARHitTestResult_t3275513025  L_8 = ((  ARHitTestResult_t3275513025  (*) (Il2CppArray *, int32_t, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->methodPointer)((Il2CppArray *)L_4, (int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_6-(int32_t)1))-(int32_t)L_7)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		return L_8;
+	}
+}
+extern "C"  ARHitTestResult_t3275513025  InternalEnumerator_1_get_Current_m701904087_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t4134265287 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t4134265287 *>(__this + 1);
+	return InternalEnumerator_1_get_Current_m701904087(_thisAdjusted, method);
+}
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResultType>::.ctor(System.Array)
+extern "C"  void InternalEnumerator_1__ctor_m4172378750_gshared (InternalEnumerator_1_t180534711 * __this, Il2CppArray * ___array0, const MethodInfo* method)
+{
+	{
+		Il2CppArray * L_0 = ___array0;
+		__this->set_array_0(L_0);
+		__this->set_idx_1(((int32_t)-2));
+		return;
+	}
+}
+extern "C"  void InternalEnumerator_1__ctor_m4172378750_AdjustorThunk (Il2CppObject * __this, Il2CppArray * ___array0, const MethodInfo* method)
+{
+	InternalEnumerator_1_t180534711 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t180534711 *>(__this + 1);
+	InternalEnumerator_1__ctor_m4172378750(_thisAdjusted, ___array0, method);
+}
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResultType>::System.Collections.IEnumerator.Reset()
+extern "C"  void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m2353371246_gshared (InternalEnumerator_1_t180534711 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_idx_1(((int32_t)-2));
+		return;
+	}
+}
+extern "C"  void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m2353371246_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t180534711 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t180534711 *>(__this + 1);
+	InternalEnumerator_1_System_Collections_IEnumerator_Reset_m2353371246(_thisAdjusted, method);
+}
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResultType>::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m895822450_gshared (InternalEnumerator_1_t180534711 * __this, const MethodInfo* method)
+{
+	{
+		int64_t L_0 = InternalEnumerator_1_get_Current_m247346103((InternalEnumerator_1_t180534711 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		int64_t L_1 = L_0;
+		Il2CppObject * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1), &L_1);
+		return L_2;
+	}
+}
+extern "C"  Il2CppObject * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m895822450_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t180534711 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t180534711 *>(__this + 1);
+	return InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m895822450(_thisAdjusted, method);
+}
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResultType>::Dispose()
+extern "C"  void InternalEnumerator_1_Dispose_m2973617935_gshared (InternalEnumerator_1_t180534711 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_idx_1(((int32_t)-2));
+		return;
+	}
+}
+extern "C"  void InternalEnumerator_1_Dispose_m2973617935_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t180534711 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t180534711 *>(__this + 1);
+	InternalEnumerator_1_Dispose_m2973617935(_thisAdjusted, method);
+}
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResultType>::MoveNext()
+extern "C"  bool InternalEnumerator_1_MoveNext_m2126265830_gshared (InternalEnumerator_1_t180534711 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t G_B5_0 = 0;
+	{
+		int32_t L_0 = (int32_t)__this->get_idx_1();
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		Il2CppArray * L_1 = (Il2CppArray *)__this->get_array_0();
+		NullCheck((Il2CppArray *)L_1);
+		int32_t L_2 = Array_get_Length_m1498215565((Il2CppArray *)L_1, /*hidden argument*/NULL);
+		__this->set_idx_1(L_2);
+	}
+
+IL_001e:
+	{
+		int32_t L_3 = (int32_t)__this->get_idx_1();
+		if ((((int32_t)L_3) == ((int32_t)(-1))))
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		int32_t L_4 = (int32_t)__this->get_idx_1();
+		int32_t L_5 = (int32_t)((int32_t)((int32_t)L_4-(int32_t)1));
+		V_0 = (int32_t)L_5;
+		__this->set_idx_1(L_5);
+		int32_t L_6 = V_0;
+		G_B5_0 = ((((int32_t)((((int32_t)L_6) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0044;
+	}
+
+IL_0043:
+	{
+		G_B5_0 = 0;
+	}
+
+IL_0044:
+	{
+		return (bool)G_B5_0;
+	}
+}
+extern "C"  bool InternalEnumerator_1_MoveNext_m2126265830_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t180534711 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t180534711 *>(__this + 1);
+	return InternalEnumerator_1_MoveNext_m2126265830(_thisAdjusted, method);
+}
+// T System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.ARHitTestResultType>::get_Current()
+extern "C"  int64_t InternalEnumerator_1_get_Current_m247346103_gshared (InternalEnumerator_1_t180534711 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (InternalEnumerator_1_get_Current_m247346103_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = (int32_t)__this->get_idx_1();
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		InvalidOperationException_t721527559 * L_1 = (InvalidOperationException_t721527559 *)il2cpp_codegen_object_new(InvalidOperationException_t721527559_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m2801133788(L_1, (String_t*)_stringLiteral1024050925, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0018:
+	{
+		int32_t L_2 = (int32_t)__this->get_idx_1();
+		if ((!(((uint32_t)L_2) == ((uint32_t)(-1)))))
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		InvalidOperationException_t721527559 * L_3 = (InvalidOperationException_t721527559 *)il2cpp_codegen_object_new(InvalidOperationException_t721527559_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m2801133788(L_3, (String_t*)_stringLiteral2903193705, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_002f:
+	{
+		Il2CppArray * L_4 = (Il2CppArray *)__this->get_array_0();
+		Il2CppArray * L_5 = (Il2CppArray *)__this->get_array_0();
+		NullCheck((Il2CppArray *)L_5);
+		int32_t L_6 = Array_get_Length_m1498215565((Il2CppArray *)L_5, /*hidden argument*/NULL);
+		int32_t L_7 = (int32_t)__this->get_idx_1();
+		NullCheck((Il2CppArray *)L_4);
+		int64_t L_8 = ((  int64_t (*) (Il2CppArray *, int32_t, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->methodPointer)((Il2CppArray *)L_4, (int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_6-(int32_t)1))-(int32_t)L_7)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		return L_8;
+	}
+}
+extern "C"  int64_t InternalEnumerator_1_get_Current_m247346103_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t180534711 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t180534711 *>(__this + 1);
+	return InternalEnumerator_1_get_Current_m247346103(_thisAdjusted, method);
+}
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARAlignment>::.ctor(System.Array)
+extern "C"  void InternalEnumerator_1__ctor_m3864846476_gshared (InternalEnumerator_1_t3238740893 * __this, Il2CppArray * ___array0, const MethodInfo* method)
+{
+	{
+		Il2CppArray * L_0 = ___array0;
+		__this->set_array_0(L_0);
+		__this->set_idx_1(((int32_t)-2));
+		return;
+	}
+}
+extern "C"  void InternalEnumerator_1__ctor_m3864846476_AdjustorThunk (Il2CppObject * __this, Il2CppArray * ___array0, const MethodInfo* method)
+{
+	InternalEnumerator_1_t3238740893 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t3238740893 *>(__this + 1);
+	InternalEnumerator_1__ctor_m3864846476(_thisAdjusted, ___array0, method);
+}
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARAlignment>::System.Collections.IEnumerator.Reset()
+extern "C"  void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m3876229360_gshared (InternalEnumerator_1_t3238740893 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_idx_1(((int32_t)-2));
+		return;
+	}
+}
+extern "C"  void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m3876229360_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t3238740893 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t3238740893 *>(__this + 1);
+	InternalEnumerator_1_System_Collections_IEnumerator_Reset_m3876229360(_thisAdjusted, method);
+}
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARAlignment>::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m3981083214_gshared (InternalEnumerator_1_t3238740893 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = InternalEnumerator_1_get_Current_m102294249((InternalEnumerator_1_t3238740893 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		int32_t L_1 = L_0;
+		Il2CppObject * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1), &L_1);
+		return L_2;
+	}
+}
+extern "C"  Il2CppObject * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m3981083214_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t3238740893 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t3238740893 *>(__this + 1);
+	return InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m3981083214(_thisAdjusted, method);
+}
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARAlignment>::Dispose()
+extern "C"  void InternalEnumerator_1_Dispose_m4110412993_gshared (InternalEnumerator_1_t3238740893 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_idx_1(((int32_t)-2));
+		return;
+	}
+}
+extern "C"  void InternalEnumerator_1_Dispose_m4110412993_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t3238740893 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t3238740893 *>(__this + 1);
+	InternalEnumerator_1_Dispose_m4110412993(_thisAdjusted, method);
+}
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARAlignment>::MoveNext()
+extern "C"  bool InternalEnumerator_1_MoveNext_m417038316_gshared (InternalEnumerator_1_t3238740893 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t G_B5_0 = 0;
+	{
+		int32_t L_0 = (int32_t)__this->get_idx_1();
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		Il2CppArray * L_1 = (Il2CppArray *)__this->get_array_0();
+		NullCheck((Il2CppArray *)L_1);
+		int32_t L_2 = Array_get_Length_m1498215565((Il2CppArray *)L_1, /*hidden argument*/NULL);
+		__this->set_idx_1(L_2);
+	}
+
+IL_001e:
+	{
+		int32_t L_3 = (int32_t)__this->get_idx_1();
+		if ((((int32_t)L_3) == ((int32_t)(-1))))
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		int32_t L_4 = (int32_t)__this->get_idx_1();
+		int32_t L_5 = (int32_t)((int32_t)((int32_t)L_4-(int32_t)1));
+		V_0 = (int32_t)L_5;
+		__this->set_idx_1(L_5);
+		int32_t L_6 = V_0;
+		G_B5_0 = ((((int32_t)((((int32_t)L_6) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0044;
+	}
+
+IL_0043:
+	{
+		G_B5_0 = 0;
+	}
+
+IL_0044:
+	{
+		return (bool)G_B5_0;
+	}
+}
+extern "C"  bool InternalEnumerator_1_MoveNext_m417038316_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t3238740893 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t3238740893 *>(__this + 1);
+	return InternalEnumerator_1_MoveNext_m417038316(_thisAdjusted, method);
+}
+// T System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARAlignment>::get_Current()
+extern "C"  int32_t InternalEnumerator_1_get_Current_m102294249_gshared (InternalEnumerator_1_t3238740893 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (InternalEnumerator_1_get_Current_m102294249_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = (int32_t)__this->get_idx_1();
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		InvalidOperationException_t721527559 * L_1 = (InvalidOperationException_t721527559 *)il2cpp_codegen_object_new(InvalidOperationException_t721527559_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m2801133788(L_1, (String_t*)_stringLiteral1024050925, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0018:
+	{
+		int32_t L_2 = (int32_t)__this->get_idx_1();
+		if ((!(((uint32_t)L_2) == ((uint32_t)(-1)))))
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		InvalidOperationException_t721527559 * L_3 = (InvalidOperationException_t721527559 *)il2cpp_codegen_object_new(InvalidOperationException_t721527559_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m2801133788(L_3, (String_t*)_stringLiteral2903193705, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_002f:
+	{
+		Il2CppArray * L_4 = (Il2CppArray *)__this->get_array_0();
+		Il2CppArray * L_5 = (Il2CppArray *)__this->get_array_0();
+		NullCheck((Il2CppArray *)L_5);
+		int32_t L_6 = Array_get_Length_m1498215565((Il2CppArray *)L_5, /*hidden argument*/NULL);
+		int32_t L_7 = (int32_t)__this->get_idx_1();
+		NullCheck((Il2CppArray *)L_4);
+		int32_t L_8 = ((  int32_t (*) (Il2CppArray *, int32_t, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->methodPointer)((Il2CppArray *)L_4, (int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_6-(int32_t)1))-(int32_t)L_7)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		return L_8;
+	}
+}
+extern "C"  int32_t InternalEnumerator_1_get_Current_m102294249_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t3238740893 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t3238740893 *>(__this + 1);
+	return InternalEnumerator_1_get_Current_m102294249(_thisAdjusted, method);
+}
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARPlaneDetection>::.ctor(System.Array)
+extern "C"  void InternalEnumerator_1__ctor_m4044022160_gshared (InternalEnumerator_1_t1471328119 * __this, Il2CppArray * ___array0, const MethodInfo* method)
+{
+	{
+		Il2CppArray * L_0 = ___array0;
+		__this->set_array_0(L_0);
+		__this->set_idx_1(((int32_t)-2));
+		return;
+	}
+}
+extern "C"  void InternalEnumerator_1__ctor_m4044022160_AdjustorThunk (Il2CppObject * __this, Il2CppArray * ___array0, const MethodInfo* method)
+{
+	InternalEnumerator_1_t1471328119 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t1471328119 *>(__this + 1);
+	InternalEnumerator_1__ctor_m4044022160(_thisAdjusted, ___array0, method);
+}
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARPlaneDetection>::System.Collections.IEnumerator.Reset()
+extern "C"  void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m3849817000_gshared (InternalEnumerator_1_t1471328119 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_idx_1(((int32_t)-2));
+		return;
+	}
+}
+extern "C"  void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m3849817000_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t1471328119 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t1471328119 *>(__this + 1);
+	InternalEnumerator_1_System_Collections_IEnumerator_Reset_m3849817000(_thisAdjusted, method);
+}
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARPlaneDetection>::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m4262366668_gshared (InternalEnumerator_1_t1471328119 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = InternalEnumerator_1_get_Current_m3680165319((InternalEnumerator_1_t1471328119 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		int32_t L_1 = L_0;
+		Il2CppObject * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1), &L_1);
+		return L_2;
+	}
+}
+extern "C"  Il2CppObject * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m4262366668_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t1471328119 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t1471328119 *>(__this + 1);
+	return InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m4262366668(_thisAdjusted, method);
+}
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARPlaneDetection>::Dispose()
+extern "C"  void InternalEnumerator_1_Dispose_m2165026663_gshared (InternalEnumerator_1_t1471328119 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_idx_1(((int32_t)-2));
+		return;
+	}
+}
+extern "C"  void InternalEnumerator_1_Dispose_m2165026663_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t1471328119 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t1471328119 *>(__this + 1);
+	InternalEnumerator_1_Dispose_m2165026663(_thisAdjusted, method);
+}
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARPlaneDetection>::MoveNext()
+extern "C"  bool InternalEnumerator_1_MoveNext_m4124807336_gshared (InternalEnumerator_1_t1471328119 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t G_B5_0 = 0;
+	{
+		int32_t L_0 = (int32_t)__this->get_idx_1();
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		Il2CppArray * L_1 = (Il2CppArray *)__this->get_array_0();
+		NullCheck((Il2CppArray *)L_1);
+		int32_t L_2 = Array_get_Length_m1498215565((Il2CppArray *)L_1, /*hidden argument*/NULL);
+		__this->set_idx_1(L_2);
+	}
+
+IL_001e:
+	{
+		int32_t L_3 = (int32_t)__this->get_idx_1();
+		if ((((int32_t)L_3) == ((int32_t)(-1))))
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		int32_t L_4 = (int32_t)__this->get_idx_1();
+		int32_t L_5 = (int32_t)((int32_t)((int32_t)L_4-(int32_t)1));
+		V_0 = (int32_t)L_5;
+		__this->set_idx_1(L_5);
+		int32_t L_6 = V_0;
+		G_B5_0 = ((((int32_t)((((int32_t)L_6) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0044;
+	}
+
+IL_0043:
+	{
+		G_B5_0 = 0;
+	}
+
+IL_0044:
+	{
+		return (bool)G_B5_0;
+	}
+}
+extern "C"  bool InternalEnumerator_1_MoveNext_m4124807336_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t1471328119 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t1471328119 *>(__this + 1);
+	return InternalEnumerator_1_MoveNext_m4124807336(_thisAdjusted, method);
+}
+// T System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARPlaneDetection>::get_Current()
+extern "C"  int32_t InternalEnumerator_1_get_Current_m3680165319_gshared (InternalEnumerator_1_t1471328119 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (InternalEnumerator_1_get_Current_m3680165319_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = (int32_t)__this->get_idx_1();
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		InvalidOperationException_t721527559 * L_1 = (InvalidOperationException_t721527559 *)il2cpp_codegen_object_new(InvalidOperationException_t721527559_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m2801133788(L_1, (String_t*)_stringLiteral1024050925, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0018:
+	{
+		int32_t L_2 = (int32_t)__this->get_idx_1();
+		if ((!(((uint32_t)L_2) == ((uint32_t)(-1)))))
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		InvalidOperationException_t721527559 * L_3 = (InvalidOperationException_t721527559 *)il2cpp_codegen_object_new(InvalidOperationException_t721527559_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m2801133788(L_3, (String_t*)_stringLiteral2903193705, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_002f:
+	{
+		Il2CppArray * L_4 = (Il2CppArray *)__this->get_array_0();
+		Il2CppArray * L_5 = (Il2CppArray *)__this->get_array_0();
+		NullCheck((Il2CppArray *)L_5);
+		int32_t L_6 = Array_get_Length_m1498215565((Il2CppArray *)L_5, /*hidden argument*/NULL);
+		int32_t L_7 = (int32_t)__this->get_idx_1();
+		NullCheck((Il2CppArray *)L_4);
+		int32_t L_8 = ((  int32_t (*) (Il2CppArray *, int32_t, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->methodPointer)((Il2CppArray *)L_4, (int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_6-(int32_t)1))-(int32_t)L_7)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		return L_8;
+	}
+}
+extern "C"  int32_t InternalEnumerator_1_get_Current_m3680165319_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t1471328119 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t1471328119 *>(__this + 1);
+	return InternalEnumerator_1_get_Current_m3680165319(_thisAdjusted, method);
+}
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARSessionRunOption>::.ctor(System.Array)
+extern "C"  void InternalEnumerator_1__ctor_m3932544103_gshared (InternalEnumerator_1_t3981827946 * __this, Il2CppArray * ___array0, const MethodInfo* method)
+{
+	{
+		Il2CppArray * L_0 = ___array0;
+		__this->set_array_0(L_0);
+		__this->set_idx_1(((int32_t)-2));
+		return;
+	}
+}
+extern "C"  void InternalEnumerator_1__ctor_m3932544103_AdjustorThunk (Il2CppObject * __this, Il2CppArray * ___array0, const MethodInfo* method)
+{
+	InternalEnumerator_1_t3981827946 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t3981827946 *>(__this + 1);
+	InternalEnumerator_1__ctor_m3932544103(_thisAdjusted, ___array0, method);
+}
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARSessionRunOption>::System.Collections.IEnumerator.Reset()
+extern "C"  void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m3886169991_gshared (InternalEnumerator_1_t3981827946 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_idx_1(((int32_t)-2));
+		return;
+	}
+}
+extern "C"  void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m3886169991_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t3981827946 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t3981827946 *>(__this + 1);
+	InternalEnumerator_1_System_Collections_IEnumerator_Reset_m3886169991(_thisAdjusted, method);
+}
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARSessionRunOption>::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m2619829659_gshared (InternalEnumerator_1_t3981827946 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = InternalEnumerator_1_get_Current_m3902135712((InternalEnumerator_1_t3981827946 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		int32_t L_1 = L_0;
+		Il2CppObject * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1), &L_1);
+		return L_2;
+	}
+}
+extern "C"  Il2CppObject * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m2619829659_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t3981827946 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t3981827946 *>(__this + 1);
+	return InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m2619829659(_thisAdjusted, method);
+}
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARSessionRunOption>::Dispose()
+extern "C"  void InternalEnumerator_1_Dispose_m1542564518_gshared (InternalEnumerator_1_t3981827946 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_idx_1(((int32_t)-2));
+		return;
+	}
+}
+extern "C"  void InternalEnumerator_1_Dispose_m1542564518_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t3981827946 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t3981827946 *>(__this + 1);
+	InternalEnumerator_1_Dispose_m1542564518(_thisAdjusted, method);
+}
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARSessionRunOption>::MoveNext()
+extern "C"  bool InternalEnumerator_1_MoveNext_m2154785123_gshared (InternalEnumerator_1_t3981827946 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t G_B5_0 = 0;
+	{
+		int32_t L_0 = (int32_t)__this->get_idx_1();
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		Il2CppArray * L_1 = (Il2CppArray *)__this->get_array_0();
+		NullCheck((Il2CppArray *)L_1);
+		int32_t L_2 = Array_get_Length_m1498215565((Il2CppArray *)L_1, /*hidden argument*/NULL);
+		__this->set_idx_1(L_2);
+	}
+
+IL_001e:
+	{
+		int32_t L_3 = (int32_t)__this->get_idx_1();
+		if ((((int32_t)L_3) == ((int32_t)(-1))))
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		int32_t L_4 = (int32_t)__this->get_idx_1();
+		int32_t L_5 = (int32_t)((int32_t)((int32_t)L_4-(int32_t)1));
+		V_0 = (int32_t)L_5;
+		__this->set_idx_1(L_5);
+		int32_t L_6 = V_0;
+		G_B5_0 = ((((int32_t)((((int32_t)L_6) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0044;
+	}
+
+IL_0043:
+	{
+		G_B5_0 = 0;
+	}
+
+IL_0044:
+	{
+		return (bool)G_B5_0;
+	}
+}
+extern "C"  bool InternalEnumerator_1_MoveNext_m2154785123_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t3981827946 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t3981827946 *>(__this + 1);
+	return InternalEnumerator_1_MoveNext_m2154785123(_thisAdjusted, method);
+}
+// T System.Array/InternalEnumerator`1<UnityEngine.XR.iOS.UnityARSessionRunOption>::get_Current()
+extern "C"  int32_t InternalEnumerator_1_get_Current_m3902135712_gshared (InternalEnumerator_1_t3981827946 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (InternalEnumerator_1_get_Current_m3902135712_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = (int32_t)__this->get_idx_1();
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		InvalidOperationException_t721527559 * L_1 = (InvalidOperationException_t721527559 *)il2cpp_codegen_object_new(InvalidOperationException_t721527559_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m2801133788(L_1, (String_t*)_stringLiteral1024050925, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0018:
+	{
+		int32_t L_2 = (int32_t)__this->get_idx_1();
+		if ((!(((uint32_t)L_2) == ((uint32_t)(-1)))))
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		InvalidOperationException_t721527559 * L_3 = (InvalidOperationException_t721527559 *)il2cpp_codegen_object_new(InvalidOperationException_t721527559_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m2801133788(L_3, (String_t*)_stringLiteral2903193705, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_002f:
+	{
+		Il2CppArray * L_4 = (Il2CppArray *)__this->get_array_0();
+		Il2CppArray * L_5 = (Il2CppArray *)__this->get_array_0();
+		NullCheck((Il2CppArray *)L_5);
+		int32_t L_6 = Array_get_Length_m1498215565((Il2CppArray *)L_5, /*hidden argument*/NULL);
+		int32_t L_7 = (int32_t)__this->get_idx_1();
+		NullCheck((Il2CppArray *)L_4);
+		int32_t L_8 = ((  int32_t (*) (Il2CppArray *, int32_t, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->methodPointer)((Il2CppArray *)L_4, (int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_6-(int32_t)1))-(int32_t)L_7)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		return L_8;
+	}
+}
+extern "C"  int32_t InternalEnumerator_1_get_Current_m3902135712_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	InternalEnumerator_1_t3981827946 * _thisAdjusted = reinterpret_cast<InternalEnumerator_1_t3981827946 *>(__this + 1);
+	return InternalEnumerator_1_get_Current_m3902135712(_thisAdjusted, method);
+}
 // System.Void System.Collections.Generic.Comparer`1/DefaultComparer<System.Char>::.ctor()
 extern "C"  void DefaultComparer__ctor_m552346555_gshared (DefaultComparer_t1943751571 * __this, const MethodInfo* method)
 {
@@ -12648,536 +13444,6 @@ extern "C"  Il2CppChar Enumerator_get_Current_m3102937560_AdjustorThunk (Il2CppO
 {
 	Enumerator_t4148839737 * _thisAdjusted = reinterpret_cast<Enumerator_t4148839737 *>(__this + 1);
 	return Enumerator_get_Current_m3102937560(_thisAdjusted, method);
-}
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int32>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C"  void Enumerator__ctor_m370613445_gshared (Enumerator_t2766235847 * __this, Dictionary_2_t1079703083 * ___host0, const MethodInfo* method)
-{
-	{
-		Dictionary_2_t1079703083 * L_0 = ___host0;
-		NullCheck((Dictionary_2_t1079703083 *)L_0);
-		Enumerator_t2399727785  L_1 = ((  Enumerator_t2399727785  (*) (Dictionary_2_t1079703083 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->methodPointer)((Dictionary_2_t1079703083 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		__this->set_host_enumerator_0(L_1);
-		return;
-	}
-}
-extern "C"  void Enumerator__ctor_m370613445_AdjustorThunk (Il2CppObject * __this, Dictionary_2_t1079703083 * ___host0, const MethodInfo* method)
-{
-	Enumerator_t2766235847 * _thisAdjusted = reinterpret_cast<Enumerator_t2766235847 *>(__this + 1);
-	Enumerator__ctor_m370613445(_thisAdjusted, ___host0, method);
-}
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int32>::System.Collections.IEnumerator.get_Current()
-extern "C"  Il2CppObject * Enumerator_System_Collections_IEnumerator_get_Current_m4017233928_gshared (Enumerator_t2766235847 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t2399727785 * L_0 = (Enumerator_t2399727785 *)__this->get_address_of_host_enumerator_0();
-		int32_t L_1 = Enumerator_get_CurrentValue_m2708916123((Enumerator_t2399727785 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
-		int32_t L_2 = L_1;
-		Il2CppObject * L_3 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2), &L_2);
-		return L_3;
-	}
-}
-extern "C"  Il2CppObject * Enumerator_System_Collections_IEnumerator_get_Current_m4017233928_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t2766235847 * _thisAdjusted = reinterpret_cast<Enumerator_t2766235847 *>(__this + 1);
-	return Enumerator_System_Collections_IEnumerator_get_Current_m4017233928(_thisAdjusted, method);
-}
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int32>::System.Collections.IEnumerator.Reset()
-extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m9625560_gshared (Enumerator_t2766235847 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t2399727785 * L_0 = (Enumerator_t2399727785 *)__this->get_address_of_host_enumerator_0();
-		Enumerator_Reset_m2787013825((Enumerator_t2399727785 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
-		return;
-	}
-}
-extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m9625560_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t2766235847 * _thisAdjusted = reinterpret_cast<Enumerator_t2766235847 *>(__this + 1);
-	Enumerator_System_Collections_IEnumerator_Reset_m9625560(_thisAdjusted, method);
-}
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int32>::Dispose()
-extern "C"  void Enumerator_Dispose_m2229103293_gshared (Enumerator_t2766235847 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t2399727785 * L_0 = (Enumerator_t2399727785 *)__this->get_address_of_host_enumerator_0();
-		Enumerator_Dispose_m1631869499((Enumerator_t2399727785 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
-		return;
-	}
-}
-extern "C"  void Enumerator_Dispose_m2229103293_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t2766235847 * _thisAdjusted = reinterpret_cast<Enumerator_t2766235847 *>(__this + 1);
-	Enumerator_Dispose_m2229103293(_thisAdjusted, method);
-}
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int32>::MoveNext()
-extern "C"  bool Enumerator_MoveNext_m3657937156_gshared (Enumerator_t2766235847 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t2399727785 * L_0 = (Enumerator_t2399727785 *)__this->get_address_of_host_enumerator_0();
-		bool L_1 = Enumerator_MoveNext_m3809319098((Enumerator_t2399727785 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
-		return L_1;
-	}
-}
-extern "C"  bool Enumerator_MoveNext_m3657937156_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t2766235847 * _thisAdjusted = reinterpret_cast<Enumerator_t2766235847 *>(__this + 1);
-	return Enumerator_MoveNext_m3657937156(_thisAdjusted, method);
-}
-// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int32>::get_Current()
-extern "C"  int32_t Enumerator_get_Current_m25368454_gshared (Enumerator_t2766235847 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t2399727785 * L_0 = (Enumerator_t2399727785 *)__this->get_address_of_host_enumerator_0();
-		KeyValuePair_2_t3132015601 * L_1 = (KeyValuePair_2_t3132015601 *)L_0->get_address_of_current_3();
-		int32_t L_2 = KeyValuePair_2_get_Value_m1136571287((KeyValuePair_2_t3132015601 *)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6));
-		return L_2;
-	}
-}
-extern "C"  int32_t Enumerator_get_Current_m25368454_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t2766235847 * _thisAdjusted = reinterpret_cast<Enumerator_t2766235847 *>(__this + 1);
-	return Enumerator_get_Current_m25368454(_thisAdjusted, method);
-}
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int64>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C"  void Enumerator__ctor_m111100156_gshared (Enumerator_t1603436436 * __this, Dictionary_2_t4211870968 * ___host0, const MethodInfo* method)
-{
-	{
-		Dictionary_2_t4211870968 * L_0 = ___host0;
-		NullCheck((Dictionary_2_t4211870968 *)L_0);
-		Enumerator_t1236928374  L_1 = ((  Enumerator_t1236928374  (*) (Dictionary_2_t4211870968 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->methodPointer)((Dictionary_2_t4211870968 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		__this->set_host_enumerator_0(L_1);
-		return;
-	}
-}
-extern "C"  void Enumerator__ctor_m111100156_AdjustorThunk (Il2CppObject * __this, Dictionary_2_t4211870968 * ___host0, const MethodInfo* method)
-{
-	Enumerator_t1603436436 * _thisAdjusted = reinterpret_cast<Enumerator_t1603436436 *>(__this + 1);
-	Enumerator__ctor_m111100156(_thisAdjusted, ___host0, method);
-}
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int64>::System.Collections.IEnumerator.get_Current()
-extern "C"  Il2CppObject * Enumerator_System_Collections_IEnumerator_get_Current_m1633893979_gshared (Enumerator_t1603436436 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t1236928374 * L_0 = (Enumerator_t1236928374 *)__this->get_address_of_host_enumerator_0();
-		int64_t L_1 = Enumerator_get_CurrentValue_m1083210978((Enumerator_t1236928374 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
-		int64_t L_2 = L_1;
-		Il2CppObject * L_3 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2), &L_2);
-		return L_3;
-	}
-}
-extern "C"  Il2CppObject * Enumerator_System_Collections_IEnumerator_get_Current_m1633893979_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t1603436436 * _thisAdjusted = reinterpret_cast<Enumerator_t1603436436 *>(__this + 1);
-	return Enumerator_System_Collections_IEnumerator_get_Current_m1633893979(_thisAdjusted, method);
-}
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int64>::System.Collections.IEnumerator.Reset()
-extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m2571848951_gshared (Enumerator_t1603436436 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t1236928374 * L_0 = (Enumerator_t1236928374 *)__this->get_address_of_host_enumerator_0();
-		Enumerator_Reset_m3259412128((Enumerator_t1236928374 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
-		return;
-	}
-}
-extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m2571848951_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t1603436436 * _thisAdjusted = reinterpret_cast<Enumerator_t1603436436 *>(__this + 1);
-	Enumerator_System_Collections_IEnumerator_Reset_m2571848951(_thisAdjusted, method);
-}
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int64>::Dispose()
-extern "C"  void Enumerator_Dispose_m2900479032_gshared (Enumerator_t1603436436 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t1236928374 * L_0 = (Enumerator_t1236928374 *)__this->get_address_of_host_enumerator_0();
-		Enumerator_Dispose_m2436272954((Enumerator_t1236928374 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
-		return;
-	}
-}
-extern "C"  void Enumerator_Dispose_m2900479032_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t1603436436 * _thisAdjusted = reinterpret_cast<Enumerator_t1603436436 *>(__this + 1);
-	Enumerator_Dispose_m2900479032(_thisAdjusted, method);
-}
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int64>::MoveNext()
-extern "C"  bool Enumerator_MoveNext_m1427543363_gshared (Enumerator_t1603436436 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t1236928374 * L_0 = (Enumerator_t1236928374 *)__this->get_address_of_host_enumerator_0();
-		bool L_1 = Enumerator_MoveNext_m3667550605((Enumerator_t1236928374 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
-		return L_1;
-	}
-}
-extern "C"  bool Enumerator_MoveNext_m1427543363_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t1603436436 * _thisAdjusted = reinterpret_cast<Enumerator_t1603436436 *>(__this + 1);
-	return Enumerator_MoveNext_m1427543363(_thisAdjusted, method);
-}
-// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int64>::get_Current()
-extern "C"  int64_t Enumerator_get_Current_m1325059937_gshared (Enumerator_t1603436436 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t1236928374 * L_0 = (Enumerator_t1236928374 *)__this->get_address_of_host_enumerator_0();
-		KeyValuePair_2_t1969216190 * L_1 = (KeyValuePair_2_t1969216190 *)L_0->get_address_of_current_3();
-		int64_t L_2 = KeyValuePair_2_get_Value_m1132971000((KeyValuePair_2_t1969216190 *)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6));
-		return L_2;
-	}
-}
-extern "C"  int64_t Enumerator_get_Current_m1325059937_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t1603436436 * _thisAdjusted = reinterpret_cast<Enumerator_t1603436436 *>(__this + 1);
-	return Enumerator_get_Current_m1325059937(_thisAdjusted, method);
-}
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C"  void Enumerator__ctor_m2988407410_gshared (Enumerator_t3383807694 * __this, Dictionary_2_t1697274930 * ___host0, const MethodInfo* method)
-{
-	{
-		Dictionary_2_t1697274930 * L_0 = ___host0;
-		NullCheck((Dictionary_2_t1697274930 *)L_0);
-		Enumerator_t3017299632  L_1 = ((  Enumerator_t3017299632  (*) (Dictionary_2_t1697274930 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->methodPointer)((Dictionary_2_t1697274930 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		__this->set_host_enumerator_0(L_1);
-		return;
-	}
-}
-extern "C"  void Enumerator__ctor_m2988407410_AdjustorThunk (Il2CppObject * __this, Dictionary_2_t1697274930 * ___host0, const MethodInfo* method)
-{
-	Enumerator_t3383807694 * _thisAdjusted = reinterpret_cast<Enumerator_t3383807694 *>(__this + 1);
-	Enumerator__ctor_m2988407410(_thisAdjusted, ___host0, method);
-}
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::System.Collections.IEnumerator.get_Current()
-extern "C"  Il2CppObject * Enumerator_System_Collections_IEnumerator_get_Current_m1648049763_gshared (Enumerator_t3383807694 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t3017299632 * L_0 = (Enumerator_t3017299632 *)__this->get_address_of_host_enumerator_0();
-		Il2CppObject * L_1 = Enumerator_get_CurrentValue_m3562053380((Enumerator_t3017299632 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
-		return L_1;
-	}
-}
-extern "C"  Il2CppObject * Enumerator_System_Collections_IEnumerator_get_Current_m1648049763_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t3383807694 * _thisAdjusted = reinterpret_cast<Enumerator_t3383807694 *>(__this + 1);
-	return Enumerator_System_Collections_IEnumerator_get_Current_m1648049763(_thisAdjusted, method);
-}
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::System.Collections.IEnumerator.Reset()
-extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m655633499_gshared (Enumerator_t3383807694 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t3017299632 * L_0 = (Enumerator_t3017299632 *)__this->get_address_of_host_enumerator_0();
-		Enumerator_Reset_m761796566((Enumerator_t3017299632 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
-		return;
-	}
-}
-extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m655633499_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t3383807694 * _thisAdjusted = reinterpret_cast<Enumerator_t3383807694 *>(__this + 1);
-	Enumerator_System_Collections_IEnumerator_Reset_m655633499(_thisAdjusted, method);
-}
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::Dispose()
-extern "C"  void Enumerator_Dispose_m2369319718_gshared (Enumerator_t3383807694 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t3017299632 * L_0 = (Enumerator_t3017299632 *)__this->get_address_of_host_enumerator_0();
-		Enumerator_Dispose_m2243145188((Enumerator_t3017299632 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
-		return;
-	}
-}
-extern "C"  void Enumerator_Dispose_m2369319718_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t3383807694 * _thisAdjusted = reinterpret_cast<Enumerator_t3383807694 *>(__this + 1);
-	Enumerator_Dispose_m2369319718(_thisAdjusted, method);
-}
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::MoveNext()
-extern "C"  bool Enumerator_MoveNext_m1091131935_gshared (Enumerator_t3383807694 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t3017299632 * L_0 = (Enumerator_t3017299632 *)__this->get_address_of_host_enumerator_0();
-		bool L_1 = Enumerator_MoveNext_m2770956757((Enumerator_t3017299632 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
-		return L_1;
-	}
-}
-extern "C"  bool Enumerator_MoveNext_m1091131935_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t3383807694 * _thisAdjusted = reinterpret_cast<Enumerator_t3383807694 *>(__this + 1);
-	return Enumerator_MoveNext_m1091131935(_thisAdjusted, method);
-}
-// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::get_Current()
-extern "C"  Il2CppObject * Enumerator_get_Current_m3006348140_gshared (Enumerator_t3383807694 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t3017299632 * L_0 = (Enumerator_t3017299632 *)__this->get_address_of_host_enumerator_0();
-		KeyValuePair_2_t3749587448 * L_1 = (KeyValuePair_2_t3749587448 *)L_0->get_address_of_current_3();
-		Il2CppObject * L_2 = KeyValuePair_2_get_Value_m2897691047((KeyValuePair_2_t3749587448 *)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6));
-		return L_2;
-	}
-}
-extern "C"  Il2CppObject * Enumerator_get_Current_m3006348140_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t3383807694 * _thisAdjusted = reinterpret_cast<Enumerator_t3383807694 *>(__this + 1);
-	return Enumerator_get_Current_m3006348140(_thisAdjusted, method);
-}
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Object>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C"  void Enumerator__ctor_m419014865_gshared (Enumerator_t1070533165 * __this, Dictionary_2_t3678967697 * ___host0, const MethodInfo* method)
-{
-	{
-		Dictionary_2_t3678967697 * L_0 = ___host0;
-		NullCheck((Dictionary_2_t3678967697 *)L_0);
-		Enumerator_t704025103  L_1 = ((  Enumerator_t704025103  (*) (Dictionary_2_t3678967697 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->methodPointer)((Dictionary_2_t3678967697 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		__this->set_host_enumerator_0(L_1);
-		return;
-	}
-}
-extern "C"  void Enumerator__ctor_m419014865_AdjustorThunk (Il2CppObject * __this, Dictionary_2_t3678967697 * ___host0, const MethodInfo* method)
-{
-	Enumerator_t1070533165 * _thisAdjusted = reinterpret_cast<Enumerator_t1070533165 *>(__this + 1);
-	Enumerator__ctor_m419014865(_thisAdjusted, ___host0, method);
-}
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Object>::System.Collections.IEnumerator.get_Current()
-extern "C"  Il2CppObject * Enumerator_System_Collections_IEnumerator_get_Current_m2712263668_gshared (Enumerator_t1070533165 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t704025103 * L_0 = (Enumerator_t704025103 *)__this->get_address_of_host_enumerator_0();
-		Il2CppObject * L_1 = Enumerator_get_CurrentValue_m659195263((Enumerator_t704025103 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
-		return L_1;
-	}
-}
-extern "C"  Il2CppObject * Enumerator_System_Collections_IEnumerator_get_Current_m2712263668_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t1070533165 * _thisAdjusted = reinterpret_cast<Enumerator_t1070533165 *>(__this + 1);
-	return Enumerator_System_Collections_IEnumerator_get_Current_m2712263668(_thisAdjusted, method);
-}
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Object>::System.Collections.IEnumerator.Reset()
-extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m149043970_gshared (Enumerator_t1070533165 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t704025103 * L_0 = (Enumerator_t704025103 *)__this->get_address_of_host_enumerator_0();
-		Enumerator_Reset_m598725905((Enumerator_t704025103 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
-		return;
-	}
-}
-extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m149043970_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t1070533165 * _thisAdjusted = reinterpret_cast<Enumerator_t1070533165 *>(__this + 1);
-	Enumerator_System_Collections_IEnumerator_Reset_m149043970(_thisAdjusted, method);
-}
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Object>::Dispose()
-extern "C"  void Enumerator_Dispose_m942415041_gshared (Enumerator_t1070533165 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t704025103 * L_0 = (Enumerator_t704025103 *)__this->get_address_of_host_enumerator_0();
-		Enumerator_Dispose_m3446908287((Enumerator_t704025103 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
-		return;
-	}
-}
-extern "C"  void Enumerator_Dispose_m942415041_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t1070533165 * _thisAdjusted = reinterpret_cast<Enumerator_t1070533165 *>(__this + 1);
-	Enumerator_Dispose_m942415041(_thisAdjusted, method);
-}
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Object>::MoveNext()
-extern "C"  bool Enumerator_MoveNext_m2045321910_gshared (Enumerator_t1070533165 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t704025103 * L_0 = (Enumerator_t704025103 *)__this->get_address_of_host_enumerator_0();
-		bool L_1 = Enumerator_MoveNext_m3139459564((Enumerator_t704025103 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
-		return L_1;
-	}
-}
-extern "C"  bool Enumerator_MoveNext_m2045321910_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t1070533165 * _thisAdjusted = reinterpret_cast<Enumerator_t1070533165 *>(__this + 1);
-	return Enumerator_MoveNext_m2045321910(_thisAdjusted, method);
-}
-// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Object>::get_Current()
-extern "C"  Il2CppObject * Enumerator_get_Current_m1952080304_gshared (Enumerator_t1070533165 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t704025103 * L_0 = (Enumerator_t704025103 *)__this->get_address_of_host_enumerator_0();
-		KeyValuePair_2_t1436312919 * L_1 = (KeyValuePair_2_t1436312919 *)L_0->get_address_of_current_3();
-		Il2CppObject * L_2 = KeyValuePair_2_get_Value_m1978486399((KeyValuePair_2_t1436312919 *)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6));
-		return L_2;
-	}
-}
-extern "C"  Il2CppObject * Enumerator_get_Current_m1952080304_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t1070533165 * _thisAdjusted = reinterpret_cast<Enumerator_t1070533165 *>(__this + 1);
-	return Enumerator_get_Current_m1952080304(_thisAdjusted, method);
-}
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Boolean>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C"  void Enumerator__ctor_m908409898_gshared (Enumerator_t809200314 * __this, Dictionary_2_t3417634846 * ___host0, const MethodInfo* method)
-{
-	{
-		Dictionary_2_t3417634846 * L_0 = ___host0;
-		NullCheck((Dictionary_2_t3417634846 *)L_0);
-		Enumerator_t442692252  L_1 = ((  Enumerator_t442692252  (*) (Dictionary_2_t3417634846 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->methodPointer)((Dictionary_2_t3417634846 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		__this->set_host_enumerator_0(L_1);
-		return;
-	}
-}
-extern "C"  void Enumerator__ctor_m908409898_AdjustorThunk (Il2CppObject * __this, Dictionary_2_t3417634846 * ___host0, const MethodInfo* method)
-{
-	Enumerator_t809200314 * _thisAdjusted = reinterpret_cast<Enumerator_t809200314 *>(__this + 1);
-	Enumerator__ctor_m908409898(_thisAdjusted, ___host0, method);
-}
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Boolean>::System.Collections.IEnumerator.get_Current()
-extern "C"  Il2CppObject * Enumerator_System_Collections_IEnumerator_get_Current_m2625473469_gshared (Enumerator_t809200314 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t442692252 * L_0 = (Enumerator_t442692252 *)__this->get_address_of_host_enumerator_0();
-		bool L_1 = Enumerator_get_CurrentValue_m4143929484((Enumerator_t442692252 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
-		bool L_2 = L_1;
-		Il2CppObject * L_3 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2), &L_2);
-		return L_3;
-	}
-}
-extern "C"  Il2CppObject * Enumerator_System_Collections_IEnumerator_get_Current_m2625473469_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t809200314 * _thisAdjusted = reinterpret_cast<Enumerator_t809200314 *>(__this + 1);
-	return Enumerator_System_Collections_IEnumerator_get_Current_m2625473469(_thisAdjusted, method);
-}
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Boolean>::System.Collections.IEnumerator.Reset()
-extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m2909592833_gshared (Enumerator_t809200314 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t442692252 * L_0 = (Enumerator_t442692252 *)__this->get_address_of_host_enumerator_0();
-		Enumerator_Reset_m3115320746((Enumerator_t442692252 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
-		return;
-	}
-}
-extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m2909592833_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t809200314 * _thisAdjusted = reinterpret_cast<Enumerator_t809200314 *>(__this + 1);
-	Enumerator_System_Collections_IEnumerator_Reset_m2909592833(_thisAdjusted, method);
-}
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Boolean>::Dispose()
-extern "C"  void Enumerator_Dispose_m1323464986_gshared (Enumerator_t809200314 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t442692252 * L_0 = (Enumerator_t442692252 *)__this->get_address_of_host_enumerator_0();
-		Enumerator_Dispose_m2711120408((Enumerator_t442692252 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
-		return;
-	}
-}
-extern "C"  void Enumerator_Dispose_m1323464986_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t809200314 * _thisAdjusted = reinterpret_cast<Enumerator_t809200314 *>(__this + 1);
-	Enumerator_Dispose_m1323464986(_thisAdjusted, method);
-}
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Boolean>::MoveNext()
-extern "C"  bool Enumerator_MoveNext_m1212551889_gshared (Enumerator_t809200314 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t442692252 * L_0 = (Enumerator_t442692252 *)__this->get_address_of_host_enumerator_0();
-		bool L_1 = Enumerator_MoveNext_m1856697671((Enumerator_t442692252 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
-		return L_1;
-	}
-}
-extern "C"  bool Enumerator_MoveNext_m1212551889_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t809200314 * _thisAdjusted = reinterpret_cast<Enumerator_t809200314 *>(__this + 1);
-	return Enumerator_MoveNext_m1212551889(_thisAdjusted, method);
-}
-// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Boolean>::get_Current()
-extern "C"  bool Enumerator_get_Current_m2986380627_gshared (Enumerator_t809200314 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t442692252 * L_0 = (Enumerator_t442692252 *)__this->get_address_of_host_enumerator_0();
-		KeyValuePair_2_t1174980068 * L_1 = (KeyValuePair_2_t1174980068 *)L_0->get_address_of_current_3();
-		bool L_2 = KeyValuePair_2_get_Value_m1916631176((KeyValuePair_2_t1174980068 *)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6));
-		return L_2;
-	}
-}
-extern "C"  bool Enumerator_get_Current_m2986380627_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t809200314 * _thisAdjusted = reinterpret_cast<Enumerator_t809200314 *>(__this + 1);
-	return Enumerator_get_Current_m2986380627(_thisAdjusted, method);
-}
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C"  void Enumerator__ctor_m3539306986_gshared (Enumerator_t3350470340 * __this, Dictionary_2_t1663937576 * ___host0, const MethodInfo* method)
-{
-	{
-		Dictionary_2_t1663937576 * L_0 = ___host0;
-		NullCheck((Dictionary_2_t1663937576 *)L_0);
-		Enumerator_t2983962278  L_1 = ((  Enumerator_t2983962278  (*) (Dictionary_2_t1663937576 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->methodPointer)((Dictionary_2_t1663937576 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		__this->set_host_enumerator_0(L_1);
-		return;
-	}
-}
-extern "C"  void Enumerator__ctor_m3539306986_AdjustorThunk (Il2CppObject * __this, Dictionary_2_t1663937576 * ___host0, const MethodInfo* method)
-{
-	Enumerator_t3350470340 * _thisAdjusted = reinterpret_cast<Enumerator_t3350470340 *>(__this + 1);
-	Enumerator__ctor_m3539306986(_thisAdjusted, ___host0, method);
-}
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>::System.Collections.IEnumerator.get_Current()
-extern "C"  Il2CppObject * Enumerator_System_Collections_IEnumerator_get_Current_m1805365227_gshared (Enumerator_t3350470340 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t2983962278 * L_0 = (Enumerator_t2983962278 *)__this->get_address_of_host_enumerator_0();
-		int32_t L_1 = Enumerator_get_CurrentValue_m2645962456((Enumerator_t2983962278 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
-		int32_t L_2 = L_1;
-		Il2CppObject * L_3 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2), &L_2);
-		return L_3;
-	}
-}
-extern "C"  Il2CppObject * Enumerator_System_Collections_IEnumerator_get_Current_m1805365227_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t3350470340 * _thisAdjusted = reinterpret_cast<Enumerator_t3350470340 *>(__this + 1);
-	return Enumerator_System_Collections_IEnumerator_get_Current_m1805365227(_thisAdjusted, method);
-}
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>::System.Collections.IEnumerator.Reset()
-extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m3294415347_gshared (Enumerator_t3350470340 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t2983962278 * L_0 = (Enumerator_t2983962278 *)__this->get_address_of_host_enumerator_0();
-		Enumerator_Reset_m1132695838((Enumerator_t2983962278 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
-		return;
-	}
-}
-extern "C"  void Enumerator_System_Collections_IEnumerator_Reset_m3294415347_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t3350470340 * _thisAdjusted = reinterpret_cast<Enumerator_t3350470340 *>(__this + 1);
-	Enumerator_System_Collections_IEnumerator_Reset_m3294415347(_thisAdjusted, method);
-}
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>::Dispose()
-extern "C"  void Enumerator_Dispose_m2532362830_gshared (Enumerator_t3350470340 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t2983962278 * L_0 = (Enumerator_t2983962278 *)__this->get_address_of_host_enumerator_0();
-		Enumerator_Dispose_m401572848((Enumerator_t2983962278 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
-		return;
-	}
-}
-extern "C"  void Enumerator_Dispose_m2532362830_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t3350470340 * _thisAdjusted = reinterpret_cast<Enumerator_t3350470340 *>(__this + 1);
-	Enumerator_Dispose_m2532362830(_thisAdjusted, method);
-}
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>::MoveNext()
-extern "C"  bool Enumerator_MoveNext_m2534596951_gshared (Enumerator_t3350470340 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t2983962278 * L_0 = (Enumerator_t2983962278 *)__this->get_address_of_host_enumerator_0();
-		bool L_1 = Enumerator_MoveNext_m435964161((Enumerator_t2983962278 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
-		return L_1;
-	}
-}
-extern "C"  bool Enumerator_MoveNext_m2534596951_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t3350470340 * _thisAdjusted = reinterpret_cast<Enumerator_t3350470340 *>(__this + 1);
-	return Enumerator_MoveNext_m2534596951(_thisAdjusted, method);
-}
-// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>::get_Current()
-extern "C"  int32_t Enumerator_get_Current_m2838387513_gshared (Enumerator_t3350470340 * __this, const MethodInfo* method)
-{
-	{
-		Enumerator_t2983962278 * L_0 = (Enumerator_t2983962278 *)__this->get_address_of_host_enumerator_0();
-		KeyValuePair_2_t3716250094 * L_1 = (KeyValuePair_2_t3716250094 *)L_0->get_address_of_current_3();
-		int32_t L_2 = KeyValuePair_2_get_Value_m3699669100((KeyValuePair_2_t3716250094 *)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6));
-		return L_2;
-	}
-}
-extern "C"  int32_t Enumerator_get_Current_m2838387513_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	Enumerator_t3350470340 * _thisAdjusted = reinterpret_cast<Enumerator_t3350470340 *>(__this + 1);
-	return Enumerator_get_Current_m2838387513(_thisAdjusted, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

@@ -15,54 +15,106 @@
 
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_ShaderPropAnimato2679013775.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_ShaderPropAnimator_35148318.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_SimpleScript767280347.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_SkewTextExample3378890949.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_SkewTextExample_U1799541603.h"
-#include "AssemblyU2DCSharp_TMPro_TMP_DigitValidator3346203809.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TMP_ExampleScript2316744565.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TMP_ExampleScript_309451146.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TMP_FrameRateCoun2302739001.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TMP_FrameRateCoun2802507505.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TMP_TextEventChec3099661323.h"
-#include "AssemblyU2DCSharp_TMPro_TMP_TextEventHandler1517844021.h"
-#include "AssemblyU2DCSharp_TMPro_TMP_TextEventHandler_Chara2887241789.h"
-#include "AssemblyU2DCSharp_TMPro_TMP_TextEventHandler_WordS2871480376.h"
-#include "AssemblyU2DCSharp_TMPro_TMP_TextEventHandler_LineS3265414486.h"
-#include "AssemblyU2DCSharp_TMPro_TMP_TextEventHandler_LinkS3735310088.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TMP_TextInfoDebugT548826358.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TMP_TextSelector_2419327982.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TMP_TextSelector_2419327983.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TMP_UiFrameRateCo4016109979.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TMP_UiFrameRateCo3655978865.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TMPro_Instruction4177302973.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TMPro_Instruction3015313749.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TeleType2513439854.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TeleType_U3CStartU189980609.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TextConsoleSimula2207663326.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TextConsoleSimula1407882744.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TextConsoleSimula2877888826.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TextMeshProFloatingT6181308.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TextMeshProFloati3989756759.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TextMeshProFloati1065331755.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_TextMeshSpawner3794282288.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_VertexColorCycler3471086701.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_VertexColorCycler1112749575.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_VertexJitter3970559362.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_VertexJitter_Vert2147777005.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_VertexJitter_U3CA2947903458.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_VertexShakeA3019979321.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_VertexShakeA_U3CA3033053737.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_VertexShakeB3019979320.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_VertexShakeB_U3CA4210043720.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_VertexZoom3463934435.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_VertexZoom_U3CAnima76635731.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_VertexZoom_U3CAni3069048289.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_WarpTextExample250871869.h"
-#include "AssemblyU2DCSharp_TMPro_Examples_WarpTextExample_U2736974085.h"
-#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU1486305137.h"
-#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU3762068664.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARAnchor1086564192.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARMatrix4039665643.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARUtilit3608388148.h"
+#include "AssemblyU2DCSharp_MenuSceneLoader95515494.h"
+#include "AssemblyU2DCSharp_PauseMenu2596728003.h"
+#include "AssemblyU2DCSharp_SceneAndURLLoader2178172277.h"
+#include "AssemblyU2DCSharp_CameraSwitch2061834593.h"
+#include "AssemblyU2DCSharp_LevelReset346002765.h"
+#include "AssemblyU2DCSharp_UnityStandardAssets_SceneUtils_P2895192958.h"
+#include "AssemblyU2DCSharp_UnityStandardAssets_SceneUtils_P2660933272.h"
+#include "AssemblyU2DCSharp_UnityStandardAssets_SceneUtils_P1728689839.h"
+#include "AssemblyU2DCSharp_UnityStandardAssets_SceneUtils_P3072969947.h"
+#include "AssemblyU2DCSharp_UnityStandardAssets_SceneUtils_P3273430801.h"
+#include "AssemblyU2DCSharp_UnityStandardAssets_SceneUtils_P2469125921.h"
+#include "AssemblyU2DCSharp_UnityStandardAssets_SceneUtils_Sl863415939.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARAmbient680084560.h"
+#include "AssemblyU2DCSharp_GE_OrbitCamera1782879088.h"
+#include "AssemblyU2DCSharp_GE_OrbitCamera_ZoomMethod2668793379.h"
+#include "AssemblyU2DCSharp_GE_OrbitCameraUI1006333794.h"
+#include "AssemblyU2DCSharp_GE_ToggleFullScreenUI715113062.h"
+#include "AssemblyU2DCSharp_GE_UIResponder2721548981.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo002613831911.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo00_U3CShowTextU3Ec__1867637637.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo014179915852.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo01_U3CMoveInTitleGam4141531210.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo01_U3CMoveInPrimaryBu846436412.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo01_U3CHideTitleTextM4063349472.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo01_U3CEnableAllDemoB3869602703.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo01_U3CDisableButtonFo158079474.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo023776631325.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo02_U3CMoveInTitleGam1667731631.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo02_U3CShowDialogU3Ec2791498963.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo02_U3CHideTitleTextM3571761391.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo02_U3CEnableAllDemoB1188290004.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo02_U3CDisableAllButt2249639441.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo02_U3CDialogMoveInU33034325306.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo031047747970.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo03_U3CMoveInTitleGam3323645076.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo03_U3CShowDialogsU3E2704297225.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo03_U3CHideTitleTextMe945501034.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo03_U3CEnableAllDemoB1687164697.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo03_U3CDisableButtonF3307306856.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo03_U3CDialog1_MoveIn3166399429.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo03_U3CDialog2_MoveIn3250587461.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo03_U3CDialog3_MoveInU326075589.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo03_U3CDialog4_MoveInU667131725.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo04288233083.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo04_U3CMoveInTitleGame609678801.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo04_U3CMoveInPrimaryB3948367253.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo04_U3CHideTitleTextMe850785145.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo04_U3CEnableAllDemoB4165927990.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo04_U3CDisableButtonF2129412953.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo04_U3CDialog1_MoveIn3851782664.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo04_U3CDialog2_MoveIn3935970696.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo04_U3CDialog3_MoveIn1011458824.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo04_U3CDialog4_MoveIn1352514960.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo051854317024.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo05_U3CMoveInTitleGam3844043190.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo05_U3CMoveInPrimaryB2829422160.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo05_U3CHideTitleTextM3409758964.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo05_U3CEnableAllDemoB1809375867.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo05_U3CDisableButtonF4245875166.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo05_U3CDialog1_MoveIn4034688419.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo05_U3CDialog2_MoveIn4118876451.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo05_U3CDialog3_MoveIn1194364579.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo05_U3CDialog4_MoveIn1535420715.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo061451032497.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo06_U3CMoveInTitleGam1370243611.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo06_U3CMoveInPrimaryBu655078047.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo06_U3CHideTitleTextM2918170883.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo06_U3CEnableAllDemoB3423030464.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo06_U3CDisableAllButt4182328829.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo073017116438.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo07_U3CMoveInTitleGam3026157056.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo07_U3CMoveInPrimaryB3598533722.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo07_U3CHideTitleTextMe291910526.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo07_U3CEnableAllDemoB3921905157.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo07_U3CDisableButtonF3100135252.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo07_U3CSetButtonMoveU3529309716.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo07_U3CDialogMoveInU34199398186.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo082257601551.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo08_U3CMoveInTitleGam2467924285.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo08_U3CMoveInPrimaryB1062562729.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo08_U3CHideTitleTextM2642132365.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo08_U3CEnableAllDemoB2437294450.h"
+#include "AssemblyU2DCSharp_GA_FREE_Demo08_U3CDisableButtonFo543876933.h"
+#include "AssemblyU2DCSharp_GA_FREE_DemoPlaySound2446186488.h"
+#include "AssemblyU2DCSharp_GA_FREE_OpenOtherScene329806518.h"
+#include "AssemblyU2DCSharp_GUIAnimatorFREEDemo2605942281.h"
+#include "AssemblyU2DCSharp_ARAnchorManager2292034343.h"
+#include "AssemblyU2DCSharp_ARAnchorManager_CurrentAnchorUpd3782499909.h"
+#include "AssemblyU2DCSharp_ARPlaneManager348851406.h"
+#include "AssemblyU2DCSharp_PlaneAnchorObject3628153532.h"
+#include "AssemblyU2DCSharp_ARTerrainManager2018264653.h"
+#include "AssemblyU2DCSharp_ARTerrainManager_ManipPhase338933528.h"
+#include "AssemblyU2DCSharp_TerrainAnchorObject1214709381.h"
+#include "AssemblyU2DCSharp_TerrainPoint3086956645.h"
+#include "AssemblyU2DCSharp_ARTouchManager1310965619.h"
+#include "AssemblyU2DCSharp_ARTouchManager_ARTouchPlaneUpdat2610448397.h"
+#include "AssemblyU2DCSharp_ARTouchManager_ARTouchBeganUpdat3594891140.h"
 
 
 
@@ -75,458 +127,858 @@
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2200 = { sizeof (ShaderPropAnimator_t2679013775), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2200[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2200 = { sizeof (UnityARAnchorManager_t1086564192), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2200[1] = 
 {
-	ShaderPropAnimator_t2679013775::get_offset_of_m_Renderer_2(),
-	ShaderPropAnimator_t2679013775::get_offset_of_m_Material_3(),
-	ShaderPropAnimator_t2679013775::get_offset_of_GlowCurve_4(),
-	ShaderPropAnimator_t2679013775::get_offset_of_m_frame_5(),
+	UnityARAnchorManager_t1086564192::get_offset_of_planeAnchorMap_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2201 = { sizeof (U3CAnimatePropertiesU3Ec__Iterator0_t35148318), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2201[5] = 
-{
-	U3CAnimatePropertiesU3Ec__Iterator0_t35148318::get_offset_of_U3CglowPowerU3E__1_0(),
-	U3CAnimatePropertiesU3Ec__Iterator0_t35148318::get_offset_of_U24this_1(),
-	U3CAnimatePropertiesU3Ec__Iterator0_t35148318::get_offset_of_U24current_2(),
-	U3CAnimatePropertiesU3Ec__Iterator0_t35148318::get_offset_of_U24disposing_3(),
-	U3CAnimatePropertiesU3Ec__Iterator0_t35148318::get_offset_of_U24PC_4(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2202 = { sizeof (SimpleScript_t767280347), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2201 = { sizeof (UnityARMatrixOps_t4039665643), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2202 = { sizeof (UnityARUtility_t3608388148), -1, sizeof(UnityARUtility_t3608388148_StaticFields), 0 };
 extern const int32_t g_FieldOffsetTable2202[3] = 
 {
-	SimpleScript_t767280347::get_offset_of_m_textMeshPro_2(),
-	0,
-	SimpleScript_t767280347::get_offset_of_m_frame_4(),
+	UnityARUtility_t3608388148::get_offset_of_meshCollider_0(),
+	UnityARUtility_t3608388148::get_offset_of_meshFilter_1(),
+	UnityARUtility_t3608388148_StaticFields::get_offset_of_planePrefab_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2203 = { sizeof (SkewTextExample_t3378890949), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2203[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2203 = { sizeof (MenuSceneLoader_t95515494), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2203[2] = 
 {
-	SkewTextExample_t3378890949::get_offset_of_m_TextComponent_2(),
-	SkewTextExample_t3378890949::get_offset_of_VertexCurve_3(),
-	SkewTextExample_t3378890949::get_offset_of_CurveScale_4(),
-	SkewTextExample_t3378890949::get_offset_of_ShearAmount_5(),
+	MenuSceneLoader_t95515494::get_offset_of_menuUI_2(),
+	MenuSceneLoader_t95515494::get_offset_of_m_Go_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2204 = { sizeof (U3CWarpTextU3Ec__Iterator0_t1799541603), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2204[13] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2204 = { sizeof (PauseMenu_t2596728003), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2204[4] = 
 {
-	U3CWarpTextU3Ec__Iterator0_t1799541603::get_offset_of_U3Cold_CurveScaleU3E__0_0(),
-	U3CWarpTextU3Ec__Iterator0_t1799541603::get_offset_of_U3Cold_ShearValueU3E__0_1(),
-	U3CWarpTextU3Ec__Iterator0_t1799541603::get_offset_of_U3Cold_curveU3E__0_2(),
-	U3CWarpTextU3Ec__Iterator0_t1799541603::get_offset_of_U3CtextInfoU3E__1_3(),
-	U3CWarpTextU3Ec__Iterator0_t1799541603::get_offset_of_U3CcharacterCountU3E__1_4(),
-	U3CWarpTextU3Ec__Iterator0_t1799541603::get_offset_of_U3CboundsMinXU3E__1_5(),
-	U3CWarpTextU3Ec__Iterator0_t1799541603::get_offset_of_U3CboundsMaxXU3E__1_6(),
-	U3CWarpTextU3Ec__Iterator0_t1799541603::get_offset_of_U3CverticesU3E__2_7(),
-	U3CWarpTextU3Ec__Iterator0_t1799541603::get_offset_of_U3CmatrixU3E__2_8(),
-	U3CWarpTextU3Ec__Iterator0_t1799541603::get_offset_of_U24this_9(),
-	U3CWarpTextU3Ec__Iterator0_t1799541603::get_offset_of_U24current_10(),
-	U3CWarpTextU3Ec__Iterator0_t1799541603::get_offset_of_U24disposing_11(),
-	U3CWarpTextU3Ec__Iterator0_t1799541603::get_offset_of_U24PC_12(),
+	PauseMenu_t2596728003::get_offset_of_m_MenuToggle_2(),
+	PauseMenu_t2596728003::get_offset_of_m_TimeScaleRef_3(),
+	PauseMenu_t2596728003::get_offset_of_m_VolumeRef_4(),
+	PauseMenu_t2596728003::get_offset_of_m_Paused_5(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2205 = { sizeof (TMP_DigitValidator_t3346203809), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2206 = { sizeof (TMP_ExampleScript_01_t2316744565), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2206[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2205 = { sizeof (SceneAndURLLoader_t2178172277), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2205[1] = 
 {
-	TMP_ExampleScript_01_t2316744565::get_offset_of_ObjectType_2(),
-	TMP_ExampleScript_01_t2316744565::get_offset_of_isStatic_3(),
-	TMP_ExampleScript_01_t2316744565::get_offset_of_m_text_4(),
-	0,
-	TMP_ExampleScript_01_t2316744565::get_offset_of_count_6(),
+	SceneAndURLLoader_t2178172277::get_offset_of_m_PauseMenu_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2207 = { sizeof (objectType_t309451146)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2207[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2206 = { sizeof (CameraSwitch_t2061834593), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2206[3] = 
 {
-	objectType_t309451146::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
+	CameraSwitch_t2061834593::get_offset_of_objects_2(),
+	CameraSwitch_t2061834593::get_offset_of_text_3(),
+	CameraSwitch_t2061834593::get_offset_of_m_CurrentActiveObject_4(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2208 = { sizeof (TMP_FrameRateCounter_t2302739001), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2208[10] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2207 = { sizeof (LevelReset_t346002765), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2208 = { sizeof (ParticleSceneControls_t2895192958), -1, sizeof(ParticleSceneControls_t2895192958_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable2208[18] = 
 {
-	TMP_FrameRateCounter_t2302739001::get_offset_of_UpdateInterval_2(),
-	TMP_FrameRateCounter_t2302739001::get_offset_of_m_LastInterval_3(),
-	TMP_FrameRateCounter_t2302739001::get_offset_of_m_Frames_4(),
-	TMP_FrameRateCounter_t2302739001::get_offset_of_AnchorPosition_5(),
-	TMP_FrameRateCounter_t2302739001::get_offset_of_htmlColorTag_6(),
-	0,
-	TMP_FrameRateCounter_t2302739001::get_offset_of_m_TextMeshPro_8(),
-	TMP_FrameRateCounter_t2302739001::get_offset_of_m_frameCounter_transform_9(),
-	TMP_FrameRateCounter_t2302739001::get_offset_of_m_camera_10(),
-	TMP_FrameRateCounter_t2302739001::get_offset_of_last_AnchorPosition_11(),
+	ParticleSceneControls_t2895192958::get_offset_of_demoParticles_2(),
+	ParticleSceneControls_t2895192958::get_offset_of_spawnOffset_3(),
+	ParticleSceneControls_t2895192958::get_offset_of_multiply_4(),
+	ParticleSceneControls_t2895192958::get_offset_of_clearOnChange_5(),
+	ParticleSceneControls_t2895192958::get_offset_of_titleText_6(),
+	ParticleSceneControls_t2895192958::get_offset_of_sceneCamera_7(),
+	ParticleSceneControls_t2895192958::get_offset_of_instructionText_8(),
+	ParticleSceneControls_t2895192958::get_offset_of_previousButton_9(),
+	ParticleSceneControls_t2895192958::get_offset_of_nextButton_10(),
+	ParticleSceneControls_t2895192958::get_offset_of_graphicRaycaster_11(),
+	ParticleSceneControls_t2895192958::get_offset_of_eventSystem_12(),
+	ParticleSceneControls_t2895192958::get_offset_of_m_ParticleMultiplier_13(),
+	ParticleSceneControls_t2895192958::get_offset_of_m_CurrentParticleList_14(),
+	ParticleSceneControls_t2895192958::get_offset_of_m_Instance_15(),
+	ParticleSceneControls_t2895192958_StaticFields::get_offset_of_s_SelectedIndex_16(),
+	ParticleSceneControls_t2895192958::get_offset_of_m_CamOffsetVelocity_17(),
+	ParticleSceneControls_t2895192958::get_offset_of_m_LastPos_18(),
+	ParticleSceneControls_t2895192958_StaticFields::get_offset_of_s_Selected_19(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2209 = { sizeof (FpsCounterAnchorPositions_t2802507505)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2209[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2209 = { sizeof (Mode_t2660933272)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2209[4] = 
 {
-	FpsCounterAnchorPositions_t2802507505::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
+	Mode_t2660933272::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	0,
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2210 = { sizeof (TMP_TextEventCheck_t3099661323), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2210[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2210 = { sizeof (AlignMode_t1728689839)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2210[3] = 
 {
-	TMP_TextEventCheck_t3099661323::get_offset_of_TextEventHandler_2(),
+	AlignMode_t1728689839::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2211 = { sizeof (TMP_TextEventHandler_t1517844021), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2211[11] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2211 = { sizeof (DemoParticleSystem_t3072969947), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2211[7] = 
 {
-	TMP_TextEventHandler_t1517844021::get_offset_of_m_OnCharacterSelection_2(),
-	TMP_TextEventHandler_t1517844021::get_offset_of_m_OnWordSelection_3(),
-	TMP_TextEventHandler_t1517844021::get_offset_of_m_OnLineSelection_4(),
-	TMP_TextEventHandler_t1517844021::get_offset_of_m_OnLinkSelection_5(),
-	TMP_TextEventHandler_t1517844021::get_offset_of_m_TextComponent_6(),
-	TMP_TextEventHandler_t1517844021::get_offset_of_m_Camera_7(),
-	TMP_TextEventHandler_t1517844021::get_offset_of_m_Canvas_8(),
-	TMP_TextEventHandler_t1517844021::get_offset_of_m_selectedLink_9(),
-	TMP_TextEventHandler_t1517844021::get_offset_of_m_lastCharIndex_10(),
-	TMP_TextEventHandler_t1517844021::get_offset_of_m_lastWordIndex_11(),
-	TMP_TextEventHandler_t1517844021::get_offset_of_m_lastLineIndex_12(),
+	DemoParticleSystem_t3072969947::get_offset_of_transform_0(),
+	DemoParticleSystem_t3072969947::get_offset_of_mode_1(),
+	DemoParticleSystem_t3072969947::get_offset_of_align_2(),
+	DemoParticleSystem_t3072969947::get_offset_of_maxCount_3(),
+	DemoParticleSystem_t3072969947::get_offset_of_minDist_4(),
+	DemoParticleSystem_t3072969947::get_offset_of_camOffset_5(),
+	DemoParticleSystem_t3072969947::get_offset_of_instructionText_6(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2212 = { sizeof (CharacterSelectionEvent_t2887241789), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2213 = { sizeof (WordSelectionEvent_t2871480376), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2214 = { sizeof (LineSelectionEvent_t3265414486), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2215 = { sizeof (LinkSelectionEvent_t3735310088), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2216 = { sizeof (TMP_TextInfoDebugTool_t548826358), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2216[9] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2212 = { sizeof (DemoParticleSystemList_t3273430801), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2212[1] = 
 {
-	TMP_TextInfoDebugTool_t548826358::get_offset_of_ShowCharacters_2(),
-	TMP_TextInfoDebugTool_t548826358::get_offset_of_ShowWords_3(),
-	TMP_TextInfoDebugTool_t548826358::get_offset_of_ShowLinks_4(),
-	TMP_TextInfoDebugTool_t548826358::get_offset_of_ShowLines_5(),
-	TMP_TextInfoDebugTool_t548826358::get_offset_of_ShowMeshBounds_6(),
-	TMP_TextInfoDebugTool_t548826358::get_offset_of_ShowTextBounds_7(),
-	TMP_TextInfoDebugTool_t548826358::get_offset_of_ObjectStats_8(),
-	TMP_TextInfoDebugTool_t548826358::get_offset_of_m_TextComponent_9(),
-	TMP_TextInfoDebugTool_t548826358::get_offset_of_m_Transform_10(),
+	DemoParticleSystemList_t3273430801::get_offset_of_items_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2217 = { sizeof (TMP_TextSelector_A_t2419327982), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2217[6] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2213 = { sizeof (PlaceTargetWithMouse_t2469125921), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2213[2] = 
 {
-	TMP_TextSelector_A_t2419327982::get_offset_of_m_TextMeshPro_2(),
-	TMP_TextSelector_A_t2419327982::get_offset_of_m_Camera_3(),
-	TMP_TextSelector_A_t2419327982::get_offset_of_m_isHoveringObject_4(),
-	TMP_TextSelector_A_t2419327982::get_offset_of_m_selectedLink_5(),
-	TMP_TextSelector_A_t2419327982::get_offset_of_m_lastCharIndex_6(),
-	TMP_TextSelector_A_t2419327982::get_offset_of_m_lastWordIndex_7(),
+	PlaceTargetWithMouse_t2469125921::get_offset_of_surfaceOffset_2(),
+	PlaceTargetWithMouse_t2469125921::get_offset_of_setTargetOn_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2218 = { sizeof (TMP_TextSelector_B_t2419327983), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2218[14] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2214 = { sizeof (SlowMoButton_t863415939), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2214[6] = 
 {
-	TMP_TextSelector_B_t2419327983::get_offset_of_TextPopup_Prefab_01_2(),
-	TMP_TextSelector_B_t2419327983::get_offset_of_m_TextPopup_RectTransform_3(),
-	TMP_TextSelector_B_t2419327983::get_offset_of_m_TextPopup_TMPComponent_4(),
-	0,
-	0,
-	TMP_TextSelector_B_t2419327983::get_offset_of_m_TextMeshPro_7(),
-	TMP_TextSelector_B_t2419327983::get_offset_of_m_Canvas_8(),
-	TMP_TextSelector_B_t2419327983::get_offset_of_m_Camera_9(),
-	TMP_TextSelector_B_t2419327983::get_offset_of_isHoveringObject_10(),
-	TMP_TextSelector_B_t2419327983::get_offset_of_m_selectedWord_11(),
-	TMP_TextSelector_B_t2419327983::get_offset_of_m_selectedLink_12(),
-	TMP_TextSelector_B_t2419327983::get_offset_of_m_lastIndex_13(),
-	TMP_TextSelector_B_t2419327983::get_offset_of_m_matrix_14(),
-	TMP_TextSelector_B_t2419327983::get_offset_of_m_cachedMeshInfoVertexData_15(),
+	SlowMoButton_t863415939::get_offset_of_FullSpeedTex_2(),
+	SlowMoButton_t863415939::get_offset_of_SlowSpeedTex_3(),
+	SlowMoButton_t863415939::get_offset_of_fullSpeed_4(),
+	SlowMoButton_t863415939::get_offset_of_slowSpeed_5(),
+	SlowMoButton_t863415939::get_offset_of_button_6(),
+	SlowMoButton_t863415939::get_offset_of_m_SlowMo_7(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2219 = { sizeof (TMP_UiFrameRateCounter_t4016109979), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2219[9] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2215 = { sizeof (UnityARAmbient_t680084560), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2215[2] = 
 {
-	TMP_UiFrameRateCounter_t4016109979::get_offset_of_UpdateInterval_2(),
-	TMP_UiFrameRateCounter_t4016109979::get_offset_of_m_LastInterval_3(),
-	TMP_UiFrameRateCounter_t4016109979::get_offset_of_m_Frames_4(),
-	TMP_UiFrameRateCounter_t4016109979::get_offset_of_AnchorPosition_5(),
-	TMP_UiFrameRateCounter_t4016109979::get_offset_of_htmlColorTag_6(),
-	0,
-	TMP_UiFrameRateCounter_t4016109979::get_offset_of_m_TextMeshPro_8(),
-	TMP_UiFrameRateCounter_t4016109979::get_offset_of_m_frameCounter_transform_9(),
-	TMP_UiFrameRateCounter_t4016109979::get_offset_of_last_AnchorPosition_10(),
+	UnityARAmbient_t680084560::get_offset_of_l_2(),
+	UnityARAmbient_t680084560::get_offset_of_m_Session_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2220 = { sizeof (FpsCounterAnchorPositions_t3655978865)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2220[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2216 = { sizeof (GE_OrbitCamera_t1782879088), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2216[23] = 
 {
-	FpsCounterAnchorPositions_t3655978865::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
-	0,
+	GE_OrbitCamera_t1782879088::get_offset_of_m_Target_2(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_Distance_3(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_MinDistance_4(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_MaxDistance_5(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_XSpeed_6(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_YSpeed_7(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_ZoomSpeed_8(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_XInvert_9(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_YInvert_10(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_ZoomInvert_11(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_YMinLimit_12(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_YMaxLimit_13(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_X_14(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_Y_15(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_OrbitSpeedDelayTime_16(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_OrbitSpeedMultiplier_17(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_CurrTouch1_18(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_LastTouch1_19(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_CurrTouch2_20(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_LastTouch2_21(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_CurrDist_22(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_LastDist_23(),
+	GE_OrbitCamera_t1782879088::get_offset_of_m_ZoomMethod_24(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2221 = { sizeof (TMPro_InstructionOverlay_t4177302973), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2221[6] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2217 = { sizeof (ZoomMethod_t2668793379)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2217[3] = 
 {
-	TMPro_InstructionOverlay_t4177302973::get_offset_of_AnchorPosition_2(),
+	ZoomMethod_t2668793379::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	0,
-	TMPro_InstructionOverlay_t4177302973::get_offset_of_m_TextMeshPro_4(),
-	TMPro_InstructionOverlay_t4177302973::get_offset_of_m_textContainer_5(),
-	TMPro_InstructionOverlay_t4177302973::get_offset_of_m_frameCounter_transform_6(),
-	TMPro_InstructionOverlay_t4177302973::get_offset_of_m_camera_7(),
+	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2222 = { sizeof (FpsCounterAnchorPositions_t3015313749)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2218 = { sizeof (GE_OrbitCameraUI_t1006333794), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2218[13] = 
+{
+	GE_OrbitCameraUI_t1006333794::get_offset_of_m_ToggleYaw_2(),
+	GE_OrbitCameraUI_t1006333794::get_offset_of_m_TogglePitch_3(),
+	GE_OrbitCameraUI_t1006333794::get_offset_of_m_ToggleZoom_4(),
+	GE_OrbitCameraUI_t1006333794::get_offset_of_m_ToggleHelp_5(),
+	GE_OrbitCameraUI_t1006333794::get_offset_of_m_ToggleDetails_6(),
+	GE_OrbitCameraUI_t1006333794::get_offset_of_m_PinchZoom_7(),
+	GE_OrbitCameraUI_t1006333794::get_offset_of_m_VScrollZoom_8(),
+	GE_OrbitCameraUI_t1006333794::get_offset_of_m_PanelSettings_9(),
+	GE_OrbitCameraUI_t1006333794::get_offset_of_m_ButtonSettings_10(),
+	GE_OrbitCameraUI_t1006333794::get_offset_of_m_PanelHelp1_11(),
+	GE_OrbitCameraUI_t1006333794::get_offset_of_m_PanelHelp2_12(),
+	GE_OrbitCameraUI_t1006333794::get_offset_of_m_PanelDetails_13(),
+	GE_OrbitCameraUI_t1006333794::get_offset_of_m_GE_OrbitCamera_14(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2219 = { sizeof (GE_ToggleFullScreenUI_t715113062), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2219[2] = 
+{
+	GE_ToggleFullScreenUI_t715113062::get_offset_of_m_DefWidth_2(),
+	GE_ToggleFullScreenUI_t715113062::get_offset_of_m_DefHeight_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2220 = { sizeof (GE_UIResponder_t2721548981), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2220[2] = 
+{
+	GE_UIResponder_t2721548981::get_offset_of_m_PackageTitle_2(),
+	GE_UIResponder_t2721548981::get_offset_of_m_TargetURL_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2221 = { sizeof (GA_FREE_Demo00_t2613831911), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2222 = { sizeof (U3CShowTextU3Ec__Iterator0_t1867637637), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable2222[5] = 
 {
-	FpsCounterAnchorPositions_t3015313749::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
-	0,
+	U3CShowTextU3Ec__Iterator0_t1867637637::get_offset_of_U3CgoU3E__0_0(),
+	U3CShowTextU3Ec__Iterator0_t1867637637::get_offset_of_Delay_1(),
+	U3CShowTextU3Ec__Iterator0_t1867637637::get_offset_of_U24current_2(),
+	U3CShowTextU3Ec__Iterator0_t1867637637::get_offset_of_U24disposing_3(),
+	U3CShowTextU3Ec__Iterator0_t1867637637::get_offset_of_U24PC_4(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2223 = { sizeof (TeleType_t2513439854), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2223[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2223 = { sizeof (GA_FREE_Demo01_t4179915852), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2223[15] = 
 {
-	TeleType_t2513439854::get_offset_of_label01_2(),
-	TeleType_t2513439854::get_offset_of_label02_3(),
-	TeleType_t2513439854::get_offset_of_m_textMeshPro_4(),
+	GA_FREE_Demo01_t4179915852::get_offset_of_m_Canvas_2(),
+	GA_FREE_Demo01_t4179915852::get_offset_of_m_Title1_3(),
+	GA_FREE_Demo01_t4179915852::get_offset_of_m_Title2_4(),
+	GA_FREE_Demo01_t4179915852::get_offset_of_m_TopBar_5(),
+	GA_FREE_Demo01_t4179915852::get_offset_of_m_BottomBar_6(),
+	GA_FREE_Demo01_t4179915852::get_offset_of_m_TopLeft_A_7(),
+	GA_FREE_Demo01_t4179915852::get_offset_of_m_TopLeft_B_8(),
+	GA_FREE_Demo01_t4179915852::get_offset_of_m_BottomLeft_A_9(),
+	GA_FREE_Demo01_t4179915852::get_offset_of_m_BottomLeft_B_10(),
+	GA_FREE_Demo01_t4179915852::get_offset_of_m_RightBar_A_11(),
+	GA_FREE_Demo01_t4179915852::get_offset_of_m_RightBar_B_12(),
+	GA_FREE_Demo01_t4179915852::get_offset_of_m_RightBar_C_13(),
+	GA_FREE_Demo01_t4179915852::get_offset_of_m_TopLeft_IsOn_14(),
+	GA_FREE_Demo01_t4179915852::get_offset_of_m_BottomLeft_IsOn_15(),
+	GA_FREE_Demo01_t4179915852::get_offset_of_m_RightBar_IsOn_16(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2224 = { sizeof (U3CStartU3Ec__Iterator0_t189980609), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2224[7] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2224 = { sizeof (U3CMoveInTitleGameObjectsU3Ec__Iterator0_t4141531210), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2224[4] = 
 {
-	U3CStartU3Ec__Iterator0_t189980609::get_offset_of_U3CtotalVisibleCharactersU3E__0_0(),
-	U3CStartU3Ec__Iterator0_t189980609::get_offset_of_U3CcounterU3E__0_1(),
-	U3CStartU3Ec__Iterator0_t189980609::get_offset_of_U3CvisibleCountU3E__0_2(),
-	U3CStartU3Ec__Iterator0_t189980609::get_offset_of_U24this_3(),
-	U3CStartU3Ec__Iterator0_t189980609::get_offset_of_U24current_4(),
-	U3CStartU3Ec__Iterator0_t189980609::get_offset_of_U24disposing_5(),
-	U3CStartU3Ec__Iterator0_t189980609::get_offset_of_U24PC_6(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t4141531210::get_offset_of_U24this_0(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t4141531210::get_offset_of_U24current_1(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t4141531210::get_offset_of_U24disposing_2(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t4141531210::get_offset_of_U24PC_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2225 = { sizeof (TextConsoleSimulator_t2207663326), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2225[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2225 = { sizeof (U3CMoveInPrimaryButtonsU3Ec__Iterator1_t846436412), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2225[4] = 
 {
-	TextConsoleSimulator_t2207663326::get_offset_of_m_TextComponent_2(),
-	TextConsoleSimulator_t2207663326::get_offset_of_hasTextChanged_3(),
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t846436412::get_offset_of_U24this_0(),
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t846436412::get_offset_of_U24current_1(),
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t846436412::get_offset_of_U24disposing_2(),
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t846436412::get_offset_of_U24PC_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2226 = { sizeof (U3CRevealCharactersU3Ec__Iterator0_t1407882744), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2226[8] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2226 = { sizeof (U3CHideTitleTextMeshesU3Ec__Iterator2_t4063349472), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2226[4] = 
 {
-	U3CRevealCharactersU3Ec__Iterator0_t1407882744::get_offset_of_textComponent_0(),
-	U3CRevealCharactersU3Ec__Iterator0_t1407882744::get_offset_of_U3CtextInfoU3E__0_1(),
-	U3CRevealCharactersU3Ec__Iterator0_t1407882744::get_offset_of_U3CtotalVisibleCharactersU3E__0_2(),
-	U3CRevealCharactersU3Ec__Iterator0_t1407882744::get_offset_of_U3CvisibleCountU3E__0_3(),
-	U3CRevealCharactersU3Ec__Iterator0_t1407882744::get_offset_of_U24this_4(),
-	U3CRevealCharactersU3Ec__Iterator0_t1407882744::get_offset_of_U24current_5(),
-	U3CRevealCharactersU3Ec__Iterator0_t1407882744::get_offset_of_U24disposing_6(),
-	U3CRevealCharactersU3Ec__Iterator0_t1407882744::get_offset_of_U24PC_7(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t4063349472::get_offset_of_U24this_0(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t4063349472::get_offset_of_U24current_1(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t4063349472::get_offset_of_U24disposing_2(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t4063349472::get_offset_of_U24PC_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2227 = { sizeof (U3CRevealWordsU3Ec__Iterator1_t2877888826), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2227[9] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2227 = { sizeof (U3CEnableAllDemoButtonsU3Ec__Iterator3_t3869602703), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2227[4] = 
 {
-	U3CRevealWordsU3Ec__Iterator1_t2877888826::get_offset_of_textComponent_0(),
-	U3CRevealWordsU3Ec__Iterator1_t2877888826::get_offset_of_U3CtotalWordCountU3E__0_1(),
-	U3CRevealWordsU3Ec__Iterator1_t2877888826::get_offset_of_U3CtotalVisibleCharactersU3E__0_2(),
-	U3CRevealWordsU3Ec__Iterator1_t2877888826::get_offset_of_U3CcounterU3E__0_3(),
-	U3CRevealWordsU3Ec__Iterator1_t2877888826::get_offset_of_U3CcurrentWordU3E__0_4(),
-	U3CRevealWordsU3Ec__Iterator1_t2877888826::get_offset_of_U3CvisibleCountU3E__0_5(),
-	U3CRevealWordsU3Ec__Iterator1_t2877888826::get_offset_of_U24current_6(),
-	U3CRevealWordsU3Ec__Iterator1_t2877888826::get_offset_of_U24disposing_7(),
-	U3CRevealWordsU3Ec__Iterator1_t2877888826::get_offset_of_U24PC_8(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t3869602703::get_offset_of_U24this_0(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t3869602703::get_offset_of_U24current_1(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t3869602703::get_offset_of_U24disposing_2(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t3869602703::get_offset_of_U24PC_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2228 = { sizeof (TextMeshProFloatingText_t6181308), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2228[10] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2228 = { sizeof (U3CDisableButtonForSecondsU3Ec__Iterator4_t158079474), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2228[5] = 
 {
-	TextMeshProFloatingText_t6181308::get_offset_of_TheFont_2(),
-	TextMeshProFloatingText_t6181308::get_offset_of_m_floatingText_3(),
-	TextMeshProFloatingText_t6181308::get_offset_of_m_textMeshPro_4(),
-	TextMeshProFloatingText_t6181308::get_offset_of_m_textMesh_5(),
-	TextMeshProFloatingText_t6181308::get_offset_of_m_transform_6(),
-	TextMeshProFloatingText_t6181308::get_offset_of_m_floatingText_Transform_7(),
-	TextMeshProFloatingText_t6181308::get_offset_of_m_cameraTransform_8(),
-	TextMeshProFloatingText_t6181308::get_offset_of_lastPOS_9(),
-	TextMeshProFloatingText_t6181308::get_offset_of_lastRotation_10(),
-	TextMeshProFloatingText_t6181308::get_offset_of_SpawnType_11(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t158079474::get_offset_of_GO_0(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t158079474::get_offset_of_DisableTime_1(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t158079474::get_offset_of_U24current_2(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t158079474::get_offset_of_U24disposing_3(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t158079474::get_offset_of_U24PC_4(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2229 = { sizeof (U3CDisplayTextMeshProFloatingTextU3Ec__Iterator0_t3989756759), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2229[11] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2229 = { sizeof (GA_FREE_Demo02_t3776631325), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2229[6] = 
 {
-	U3CDisplayTextMeshProFloatingTextU3Ec__Iterator0_t3989756759::get_offset_of_U3CCountDurationU3E__0_0(),
-	U3CDisplayTextMeshProFloatingTextU3Ec__Iterator0_t3989756759::get_offset_of_U3Cstarting_CountU3E__0_1(),
-	U3CDisplayTextMeshProFloatingTextU3Ec__Iterator0_t3989756759::get_offset_of_U3Ccurrent_CountU3E__0_2(),
-	U3CDisplayTextMeshProFloatingTextU3Ec__Iterator0_t3989756759::get_offset_of_U3Cstart_posU3E__0_3(),
-	U3CDisplayTextMeshProFloatingTextU3Ec__Iterator0_t3989756759::get_offset_of_U3Cstart_colorU3E__0_4(),
-	U3CDisplayTextMeshProFloatingTextU3Ec__Iterator0_t3989756759::get_offset_of_U3CalphaU3E__0_5(),
-	U3CDisplayTextMeshProFloatingTextU3Ec__Iterator0_t3989756759::get_offset_of_U3CfadeDurationU3E__0_6(),
-	U3CDisplayTextMeshProFloatingTextU3Ec__Iterator0_t3989756759::get_offset_of_U24this_7(),
-	U3CDisplayTextMeshProFloatingTextU3Ec__Iterator0_t3989756759::get_offset_of_U24current_8(),
-	U3CDisplayTextMeshProFloatingTextU3Ec__Iterator0_t3989756759::get_offset_of_U24disposing_9(),
-	U3CDisplayTextMeshProFloatingTextU3Ec__Iterator0_t3989756759::get_offset_of_U24PC_10(),
+	GA_FREE_Demo02_t3776631325::get_offset_of_m_Canvas_2(),
+	GA_FREE_Demo02_t3776631325::get_offset_of_m_Title1_3(),
+	GA_FREE_Demo02_t3776631325::get_offset_of_m_Title2_4(),
+	GA_FREE_Demo02_t3776631325::get_offset_of_m_TopBar_5(),
+	GA_FREE_Demo02_t3776631325::get_offset_of_m_BottomBar_6(),
+	GA_FREE_Demo02_t3776631325::get_offset_of_m_Dialog_7(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2230 = { sizeof (U3CDisplayTextMeshFloatingTextU3Ec__Iterator1_t1065331755), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2230[12] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2230 = { sizeof (U3CMoveInTitleGameObjectsU3Ec__Iterator0_t1667731631), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2230[4] = 
 {
-	U3CDisplayTextMeshFloatingTextU3Ec__Iterator1_t1065331755::get_offset_of_U3CCountDurationU3E__0_0(),
-	U3CDisplayTextMeshFloatingTextU3Ec__Iterator1_t1065331755::get_offset_of_U3Cstarting_CountU3E__0_1(),
-	U3CDisplayTextMeshFloatingTextU3Ec__Iterator1_t1065331755::get_offset_of_U3Ccurrent_CountU3E__0_2(),
-	U3CDisplayTextMeshFloatingTextU3Ec__Iterator1_t1065331755::get_offset_of_U3Cstart_posU3E__0_3(),
-	U3CDisplayTextMeshFloatingTextU3Ec__Iterator1_t1065331755::get_offset_of_U3Cstart_colorU3E__0_4(),
-	U3CDisplayTextMeshFloatingTextU3Ec__Iterator1_t1065331755::get_offset_of_U3CalphaU3E__0_5(),
-	U3CDisplayTextMeshFloatingTextU3Ec__Iterator1_t1065331755::get_offset_of_U3Cint_counterU3E__0_6(),
-	U3CDisplayTextMeshFloatingTextU3Ec__Iterator1_t1065331755::get_offset_of_U3CfadeDurationU3E__0_7(),
-	U3CDisplayTextMeshFloatingTextU3Ec__Iterator1_t1065331755::get_offset_of_U24this_8(),
-	U3CDisplayTextMeshFloatingTextU3Ec__Iterator1_t1065331755::get_offset_of_U24current_9(),
-	U3CDisplayTextMeshFloatingTextU3Ec__Iterator1_t1065331755::get_offset_of_U24disposing_10(),
-	U3CDisplayTextMeshFloatingTextU3Ec__Iterator1_t1065331755::get_offset_of_U24PC_11(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t1667731631::get_offset_of_U24this_0(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t1667731631::get_offset_of_U24current_1(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t1667731631::get_offset_of_U24disposing_2(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t1667731631::get_offset_of_U24PC_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2231 = { sizeof (TextMeshSpawner_t3794282288), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2231 = { sizeof (U3CShowDialogU3Ec__Iterator1_t2791498963), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable2231[4] = 
 {
-	TextMeshSpawner_t3794282288::get_offset_of_SpawnType_2(),
-	TextMeshSpawner_t3794282288::get_offset_of_NumberOfNPC_3(),
-	TextMeshSpawner_t3794282288::get_offset_of_TheFont_4(),
-	TextMeshSpawner_t3794282288::get_offset_of_floatingText_Script_5(),
+	U3CShowDialogU3Ec__Iterator1_t2791498963::get_offset_of_U24this_0(),
+	U3CShowDialogU3Ec__Iterator1_t2791498963::get_offset_of_U24current_1(),
+	U3CShowDialogU3Ec__Iterator1_t2791498963::get_offset_of_U24disposing_2(),
+	U3CShowDialogU3Ec__Iterator1_t2791498963::get_offset_of_U24PC_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2232 = { sizeof (VertexColorCycler_t3471086701), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2232[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2232 = { sizeof (U3CHideTitleTextMeshesU3Ec__Iterator2_t3571761391), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2232[4] = 
 {
-	VertexColorCycler_t3471086701::get_offset_of_m_TextComponent_2(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t3571761391::get_offset_of_U24this_0(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t3571761391::get_offset_of_U24current_1(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t3571761391::get_offset_of_U24disposing_2(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t3571761391::get_offset_of_U24PC_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2233 = { sizeof (U3CAnimateVertexColorsU3Ec__Iterator0_t1112749575), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2233[11] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2233 = { sizeof (U3CEnableAllDemoButtonsU3Ec__Iterator3_t1188290004), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2233[4] = 
 {
-	U3CAnimateVertexColorsU3Ec__Iterator0_t1112749575::get_offset_of_U3CtextInfoU3E__0_0(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t1112749575::get_offset_of_U3CcurrentCharacterU3E__0_1(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t1112749575::get_offset_of_U3Cc0U3E__0_2(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t1112749575::get_offset_of_U3CcharacterCountU3E__1_3(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t1112749575::get_offset_of_U3CmaterialIndexU3E__1_4(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t1112749575::get_offset_of_U3CnewVertexColorsU3E__1_5(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t1112749575::get_offset_of_U3CvertexIndexU3E__1_6(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t1112749575::get_offset_of_U24this_7(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t1112749575::get_offset_of_U24current_8(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t1112749575::get_offset_of_U24disposing_9(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t1112749575::get_offset_of_U24PC_10(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t1188290004::get_offset_of_U24this_0(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t1188290004::get_offset_of_U24current_1(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t1188290004::get_offset_of_U24disposing_2(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t1188290004::get_offset_of_U24PC_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2234 = { sizeof (VertexJitter_t3970559362), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2234[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2234 = { sizeof (U3CDisableAllButtonsForSecondsU3Ec__Iterator4_t2249639441), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2234[4] = 
 {
-	VertexJitter_t3970559362::get_offset_of_AngleMultiplier_2(),
-	VertexJitter_t3970559362::get_offset_of_SpeedMultiplier_3(),
-	VertexJitter_t3970559362::get_offset_of_CurveScale_4(),
-	VertexJitter_t3970559362::get_offset_of_m_TextComponent_5(),
-	VertexJitter_t3970559362::get_offset_of_hasTextChanged_6(),
+	U3CDisableAllButtonsForSecondsU3Ec__Iterator4_t2249639441::get_offset_of_DisableTime_0(),
+	U3CDisableAllButtonsForSecondsU3Ec__Iterator4_t2249639441::get_offset_of_U24current_1(),
+	U3CDisableAllButtonsForSecondsU3Ec__Iterator4_t2249639441::get_offset_of_U24disposing_2(),
+	U3CDisableAllButtonsForSecondsU3Ec__Iterator4_t2249639441::get_offset_of_U24PC_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2235 = { sizeof (VertexAnim_t2147777005)+ sizeof (Il2CppObject), sizeof(VertexAnim_t2147777005 ), 0, 0 };
-extern const int32_t g_FieldOffsetTable2235[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2235 = { sizeof (U3CDialogMoveInU3Ec__Iterator5_t3034325306), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2235[5] = 
 {
-	VertexAnim_t2147777005::get_offset_of_angleRange_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	VertexAnim_t2147777005::get_offset_of_angle_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	VertexAnim_t2147777005::get_offset_of_speed_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	U3CDialogMoveInU3Ec__Iterator5_t3034325306::get_offset_of_PosMoveIn_0(),
+	U3CDialogMoveInU3Ec__Iterator5_t3034325306::get_offset_of_U24this_1(),
+	U3CDialogMoveInU3Ec__Iterator5_t3034325306::get_offset_of_U24current_2(),
+	U3CDialogMoveInU3Ec__Iterator5_t3034325306::get_offset_of_U24disposing_3(),
+	U3CDialogMoveInU3Ec__Iterator5_t3034325306::get_offset_of_U24PC_4(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2236 = { sizeof (U3CAnimateVertexColorsU3Ec__Iterator0_t2947903458), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2236[10] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2236 = { sizeof (GA_FREE_Demo03_t1047747970), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2236[9] = 
 {
-	U3CAnimateVertexColorsU3Ec__Iterator0_t2947903458::get_offset_of_U3CtextInfoU3E__0_0(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t2947903458::get_offset_of_U3CloopCountU3E__0_1(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t2947903458::get_offset_of_U3CvertexAnimU3E__0_2(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t2947903458::get_offset_of_U3CcachedMeshInfoU3E__0_3(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t2947903458::get_offset_of_U3CcharacterCountU3E__1_4(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t2947903458::get_offset_of_U3CmatrixU3E__2_5(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t2947903458::get_offset_of_U24this_6(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t2947903458::get_offset_of_U24current_7(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t2947903458::get_offset_of_U24disposing_8(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t2947903458::get_offset_of_U24PC_9(),
+	GA_FREE_Demo03_t1047747970::get_offset_of_m_Canvas_2(),
+	GA_FREE_Demo03_t1047747970::get_offset_of_m_Title1_3(),
+	GA_FREE_Demo03_t1047747970::get_offset_of_m_Title2_4(),
+	GA_FREE_Demo03_t1047747970::get_offset_of_m_TopBar_5(),
+	GA_FREE_Demo03_t1047747970::get_offset_of_m_BottomBar_6(),
+	GA_FREE_Demo03_t1047747970::get_offset_of_m_Dialog1_7(),
+	GA_FREE_Demo03_t1047747970::get_offset_of_m_Dialog2_8(),
+	GA_FREE_Demo03_t1047747970::get_offset_of_m_Dialog3_9(),
+	GA_FREE_Demo03_t1047747970::get_offset_of_m_Dialog4_10(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2237 = { sizeof (VertexShakeA_t3019979321), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2237[6] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2237 = { sizeof (U3CMoveInTitleGameObjectsU3Ec__Iterator0_t3323645076), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2237[4] = 
 {
-	VertexShakeA_t3019979321::get_offset_of_AngleMultiplier_2(),
-	VertexShakeA_t3019979321::get_offset_of_SpeedMultiplier_3(),
-	VertexShakeA_t3019979321::get_offset_of_ScaleMultiplier_4(),
-	VertexShakeA_t3019979321::get_offset_of_RotationMultiplier_5(),
-	VertexShakeA_t3019979321::get_offset_of_m_TextComponent_6(),
-	VertexShakeA_t3019979321::get_offset_of_hasTextChanged_7(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t3323645076::get_offset_of_U24this_0(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t3323645076::get_offset_of_U24current_1(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t3323645076::get_offset_of_U24disposing_2(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t3323645076::get_offset_of_U24PC_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2238 = { sizeof (U3CAnimateVertexColorsU3Ec__Iterator0_t3033053737), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2238[9] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2238 = { sizeof (U3CShowDialogsU3Ec__Iterator1_t2704297225), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2238[4] = 
 {
-	U3CAnimateVertexColorsU3Ec__Iterator0_t3033053737::get_offset_of_U3CtextInfoU3E__0_0(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t3033053737::get_offset_of_U3CcopyOfVerticesU3E__0_1(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t3033053737::get_offset_of_U3CcharacterCountU3E__1_2(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t3033053737::get_offset_of_U3ClineCountU3E__1_3(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t3033053737::get_offset_of_U3CmatrixU3E__2_4(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t3033053737::get_offset_of_U24this_5(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t3033053737::get_offset_of_U24current_6(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t3033053737::get_offset_of_U24disposing_7(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t3033053737::get_offset_of_U24PC_8(),
+	U3CShowDialogsU3Ec__Iterator1_t2704297225::get_offset_of_U24this_0(),
+	U3CShowDialogsU3Ec__Iterator1_t2704297225::get_offset_of_U24current_1(),
+	U3CShowDialogsU3Ec__Iterator1_t2704297225::get_offset_of_U24disposing_2(),
+	U3CShowDialogsU3Ec__Iterator1_t2704297225::get_offset_of_U24PC_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2239 = { sizeof (VertexShakeB_t3019979320), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2239[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2239 = { sizeof (U3CHideTitleTextMeshesU3Ec__Iterator2_t945501034), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2239[4] = 
 {
-	VertexShakeB_t3019979320::get_offset_of_AngleMultiplier_2(),
-	VertexShakeB_t3019979320::get_offset_of_SpeedMultiplier_3(),
-	VertexShakeB_t3019979320::get_offset_of_CurveScale_4(),
-	VertexShakeB_t3019979320::get_offset_of_m_TextComponent_5(),
-	VertexShakeB_t3019979320::get_offset_of_hasTextChanged_6(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t945501034::get_offset_of_U24this_0(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t945501034::get_offset_of_U24current_1(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t945501034::get_offset_of_U24disposing_2(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t945501034::get_offset_of_U24PC_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2240 = { sizeof (U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2240[9] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2240 = { sizeof (U3CEnableAllDemoButtonsU3Ec__Iterator3_t1687164697), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2240[4] = 
 {
-	U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720::get_offset_of_U3CtextInfoU3E__0_0(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720::get_offset_of_U3CcopyOfVerticesU3E__0_1(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720::get_offset_of_U3CcharacterCountU3E__1_2(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720::get_offset_of_U3ClineCountU3E__1_3(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720::get_offset_of_U3CmatrixU3E__2_4(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720::get_offset_of_U24this_5(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720::get_offset_of_U24current_6(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720::get_offset_of_U24disposing_7(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t4210043720::get_offset_of_U24PC_8(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t1687164697::get_offset_of_U24this_0(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t1687164697::get_offset_of_U24current_1(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t1687164697::get_offset_of_U24disposing_2(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t1687164697::get_offset_of_U24PC_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2241 = { sizeof (VertexZoom_t3463934435), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2241 = { sizeof (U3CDisableButtonForSecondsU3Ec__Iterator4_t3307306856), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable2241[5] = 
 {
-	VertexZoom_t3463934435::get_offset_of_AngleMultiplier_2(),
-	VertexZoom_t3463934435::get_offset_of_SpeedMultiplier_3(),
-	VertexZoom_t3463934435::get_offset_of_CurveScale_4(),
-	VertexZoom_t3463934435::get_offset_of_m_TextComponent_5(),
-	VertexZoom_t3463934435::get_offset_of_hasTextChanged_6(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t3307306856::get_offset_of_GO_0(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t3307306856::get_offset_of_DisableTime_1(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t3307306856::get_offset_of_U24current_2(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t3307306856::get_offset_of_U24disposing_3(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t3307306856::get_offset_of_U24PC_4(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2242 = { sizeof (U3CAnimateVertexColorsU3Ec__Iterator0_t76635731), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2242[10] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2242 = { sizeof (U3CDialog1_MoveInU3Ec__Iterator5_t3166399429), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2242[4] = 
 {
-	U3CAnimateVertexColorsU3Ec__Iterator0_t76635731::get_offset_of_U3CtextInfoU3E__0_0(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t76635731::get_offset_of_U3CcachedMeshInfoVertexDataU3E__0_1(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t76635731::get_offset_of_U3CscaleSortingOrderU3E__0_2(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t76635731::get_offset_of_U3CcharacterCountU3E__1_3(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t76635731::get_offset_of_U3CmatrixU3E__2_4(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t76635731::get_offset_of_U24this_5(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t76635731::get_offset_of_U24current_6(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t76635731::get_offset_of_U24disposing_7(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t76635731::get_offset_of_U24PC_8(),
-	U3CAnimateVertexColorsU3Ec__Iterator0_t76635731::get_offset_of_U24locvar0_9(),
+	U3CDialog1_MoveInU3Ec__Iterator5_t3166399429::get_offset_of_U24this_0(),
+	U3CDialog1_MoveInU3Ec__Iterator5_t3166399429::get_offset_of_U24current_1(),
+	U3CDialog1_MoveInU3Ec__Iterator5_t3166399429::get_offset_of_U24disposing_2(),
+	U3CDialog1_MoveInU3Ec__Iterator5_t3166399429::get_offset_of_U24PC_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2243 = { sizeof (U3CAnimateVertexColorsU3Ec__AnonStorey1_t3069048289), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2243[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2243 = { sizeof (U3CDialog2_MoveInU3Ec__Iterator6_t3250587461), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2243[4] = 
 {
-	U3CAnimateVertexColorsU3Ec__AnonStorey1_t3069048289::get_offset_of_modifiedCharScale_0(),
-	U3CAnimateVertexColorsU3Ec__AnonStorey1_t3069048289::get_offset_of_U3CU3Ef__refU240_1(),
+	U3CDialog2_MoveInU3Ec__Iterator6_t3250587461::get_offset_of_U24this_0(),
+	U3CDialog2_MoveInU3Ec__Iterator6_t3250587461::get_offset_of_U24current_1(),
+	U3CDialog2_MoveInU3Ec__Iterator6_t3250587461::get_offset_of_U24disposing_2(),
+	U3CDialog2_MoveInU3Ec__Iterator6_t3250587461::get_offset_of_U24PC_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2244 = { sizeof (WarpTextExample_t250871869), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2244[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2244 = { sizeof (U3CDialog3_MoveInU3Ec__Iterator7_t326075589), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2244[4] = 
 {
-	WarpTextExample_t250871869::get_offset_of_m_TextComponent_2(),
-	WarpTextExample_t250871869::get_offset_of_VertexCurve_3(),
-	WarpTextExample_t250871869::get_offset_of_AngleMultiplier_4(),
-	WarpTextExample_t250871869::get_offset_of_SpeedMultiplier_5(),
-	WarpTextExample_t250871869::get_offset_of_CurveScale_6(),
+	U3CDialog3_MoveInU3Ec__Iterator7_t326075589::get_offset_of_U24this_0(),
+	U3CDialog3_MoveInU3Ec__Iterator7_t326075589::get_offset_of_U24current_1(),
+	U3CDialog3_MoveInU3Ec__Iterator7_t326075589::get_offset_of_U24disposing_2(),
+	U3CDialog3_MoveInU3Ec__Iterator7_t326075589::get_offset_of_U24PC_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2245 = { sizeof (U3CWarpTextU3Ec__Iterator0_t2736974085), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2245[12] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2245 = { sizeof (U3CDialog4_MoveInU3Ec__Iterator8_t667131725), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2245[4] = 
 {
-	U3CWarpTextU3Ec__Iterator0_t2736974085::get_offset_of_U3Cold_CurveScaleU3E__0_0(),
-	U3CWarpTextU3Ec__Iterator0_t2736974085::get_offset_of_U3Cold_curveU3E__0_1(),
-	U3CWarpTextU3Ec__Iterator0_t2736974085::get_offset_of_U3CtextInfoU3E__1_2(),
-	U3CWarpTextU3Ec__Iterator0_t2736974085::get_offset_of_U3CcharacterCountU3E__1_3(),
-	U3CWarpTextU3Ec__Iterator0_t2736974085::get_offset_of_U3CboundsMinXU3E__1_4(),
-	U3CWarpTextU3Ec__Iterator0_t2736974085::get_offset_of_U3CboundsMaxXU3E__1_5(),
-	U3CWarpTextU3Ec__Iterator0_t2736974085::get_offset_of_U3CverticesU3E__2_6(),
-	U3CWarpTextU3Ec__Iterator0_t2736974085::get_offset_of_U3CmatrixU3E__2_7(),
-	U3CWarpTextU3Ec__Iterator0_t2736974085::get_offset_of_U24this_8(),
-	U3CWarpTextU3Ec__Iterator0_t2736974085::get_offset_of_U24current_9(),
-	U3CWarpTextU3Ec__Iterator0_t2736974085::get_offset_of_U24disposing_10(),
-	U3CWarpTextU3Ec__Iterator0_t2736974085::get_offset_of_U24PC_11(),
+	U3CDialog4_MoveInU3Ec__Iterator8_t667131725::get_offset_of_U24this_0(),
+	U3CDialog4_MoveInU3Ec__Iterator8_t667131725::get_offset_of_U24current_1(),
+	U3CDialog4_MoveInU3Ec__Iterator8_t667131725::get_offset_of_U24disposing_2(),
+	U3CDialog4_MoveInU3Ec__Iterator8_t667131725::get_offset_of_U24PC_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2246 = { sizeof (U3CPrivateImplementationDetailsU3E_t1486305143), -1, sizeof(U3CPrivateImplementationDetailsU3E_t1486305143_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable2246[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2246 = { sizeof (GA_FREE_Demo04_t288233083), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2246[9] = 
 {
-	U3CPrivateImplementationDetailsU3E_t1486305143_StaticFields::get_offset_of_U24fieldU2D8E7629AD5AF686202B8CB7C014505C432FFE31E6_0(),
+	GA_FREE_Demo04_t288233083::get_offset_of_m_Canvas_2(),
+	GA_FREE_Demo04_t288233083::get_offset_of_m_Title1_3(),
+	GA_FREE_Demo04_t288233083::get_offset_of_m_Title2_4(),
+	GA_FREE_Demo04_t288233083::get_offset_of_m_TopBar_5(),
+	GA_FREE_Demo04_t288233083::get_offset_of_m_BottomBar_6(),
+	GA_FREE_Demo04_t288233083::get_offset_of_m_Dialog1_7(),
+	GA_FREE_Demo04_t288233083::get_offset_of_m_Dialog2_8(),
+	GA_FREE_Demo04_t288233083::get_offset_of_m_Dialog3_9(),
+	GA_FREE_Demo04_t288233083::get_offset_of_m_Dialog4_10(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2247 = { sizeof (U24ArrayTypeU3D24_t762068664)+ sizeof (Il2CppObject), sizeof(U24ArrayTypeU3D24_t762068664 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2247 = { sizeof (U3CMoveInTitleGameObjectsU3Ec__Iterator0_t609678801), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2247[4] = 
+{
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t609678801::get_offset_of_U24this_0(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t609678801::get_offset_of_U24current_1(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t609678801::get_offset_of_U24disposing_2(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t609678801::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2248 = { sizeof (U3CMoveInPrimaryButtonsU3Ec__Iterator1_t3948367253), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2248[4] = 
+{
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t3948367253::get_offset_of_U24this_0(),
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t3948367253::get_offset_of_U24current_1(),
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t3948367253::get_offset_of_U24disposing_2(),
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t3948367253::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2249 = { sizeof (U3CHideTitleTextMeshesU3Ec__Iterator2_t850785145), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2249[4] = 
+{
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t850785145::get_offset_of_U24this_0(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t850785145::get_offset_of_U24current_1(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t850785145::get_offset_of_U24disposing_2(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t850785145::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2250 = { sizeof (U3CEnableAllDemoButtonsU3Ec__Iterator3_t4165927990), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2250[4] = 
+{
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t4165927990::get_offset_of_U24this_0(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t4165927990::get_offset_of_U24current_1(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t4165927990::get_offset_of_U24disposing_2(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t4165927990::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2251 = { sizeof (U3CDisableButtonForSecondsU3Ec__Iterator4_t2129412953), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2251[5] = 
+{
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t2129412953::get_offset_of_GO_0(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t2129412953::get_offset_of_DisableTime_1(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t2129412953::get_offset_of_U24current_2(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t2129412953::get_offset_of_U24disposing_3(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t2129412953::get_offset_of_U24PC_4(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2252 = { sizeof (U3CDialog1_MoveInU3Ec__Iterator5_t3851782664), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2252[4] = 
+{
+	U3CDialog1_MoveInU3Ec__Iterator5_t3851782664::get_offset_of_U24this_0(),
+	U3CDialog1_MoveInU3Ec__Iterator5_t3851782664::get_offset_of_U24current_1(),
+	U3CDialog1_MoveInU3Ec__Iterator5_t3851782664::get_offset_of_U24disposing_2(),
+	U3CDialog1_MoveInU3Ec__Iterator5_t3851782664::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2253 = { sizeof (U3CDialog2_MoveInU3Ec__Iterator6_t3935970696), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2253[4] = 
+{
+	U3CDialog2_MoveInU3Ec__Iterator6_t3935970696::get_offset_of_U24this_0(),
+	U3CDialog2_MoveInU3Ec__Iterator6_t3935970696::get_offset_of_U24current_1(),
+	U3CDialog2_MoveInU3Ec__Iterator6_t3935970696::get_offset_of_U24disposing_2(),
+	U3CDialog2_MoveInU3Ec__Iterator6_t3935970696::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2254 = { sizeof (U3CDialog3_MoveInU3Ec__Iterator7_t1011458824), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2254[4] = 
+{
+	U3CDialog3_MoveInU3Ec__Iterator7_t1011458824::get_offset_of_U24this_0(),
+	U3CDialog3_MoveInU3Ec__Iterator7_t1011458824::get_offset_of_U24current_1(),
+	U3CDialog3_MoveInU3Ec__Iterator7_t1011458824::get_offset_of_U24disposing_2(),
+	U3CDialog3_MoveInU3Ec__Iterator7_t1011458824::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2255 = { sizeof (U3CDialog4_MoveInU3Ec__Iterator8_t1352514960), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2255[4] = 
+{
+	U3CDialog4_MoveInU3Ec__Iterator8_t1352514960::get_offset_of_U24this_0(),
+	U3CDialog4_MoveInU3Ec__Iterator8_t1352514960::get_offset_of_U24current_1(),
+	U3CDialog4_MoveInU3Ec__Iterator8_t1352514960::get_offset_of_U24disposing_2(),
+	U3CDialog4_MoveInU3Ec__Iterator8_t1352514960::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2256 = { sizeof (GA_FREE_Demo05_t1854317024), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2256[9] = 
+{
+	GA_FREE_Demo05_t1854317024::get_offset_of_m_Canvas_2(),
+	GA_FREE_Demo05_t1854317024::get_offset_of_m_Title1_3(),
+	GA_FREE_Demo05_t1854317024::get_offset_of_m_Title2_4(),
+	GA_FREE_Demo05_t1854317024::get_offset_of_m_TopBar_5(),
+	GA_FREE_Demo05_t1854317024::get_offset_of_m_BottomBar_6(),
+	GA_FREE_Demo05_t1854317024::get_offset_of_m_Dialog1_7(),
+	GA_FREE_Demo05_t1854317024::get_offset_of_m_Dialog2_8(),
+	GA_FREE_Demo05_t1854317024::get_offset_of_m_Dialog3_9(),
+	GA_FREE_Demo05_t1854317024::get_offset_of_m_Dialog4_10(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2257 = { sizeof (U3CMoveInTitleGameObjectsU3Ec__Iterator0_t3844043190), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2257[4] = 
+{
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t3844043190::get_offset_of_U24this_0(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t3844043190::get_offset_of_U24current_1(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t3844043190::get_offset_of_U24disposing_2(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t3844043190::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2258 = { sizeof (U3CMoveInPrimaryButtonsU3Ec__Iterator1_t2829422160), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2258[4] = 
+{
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t2829422160::get_offset_of_U24this_0(),
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t2829422160::get_offset_of_U24current_1(),
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t2829422160::get_offset_of_U24disposing_2(),
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t2829422160::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2259 = { sizeof (U3CHideTitleTextMeshesU3Ec__Iterator2_t3409758964), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2259[4] = 
+{
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t3409758964::get_offset_of_U24this_0(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t3409758964::get_offset_of_U24current_1(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t3409758964::get_offset_of_U24disposing_2(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t3409758964::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2260 = { sizeof (U3CEnableAllDemoButtonsU3Ec__Iterator3_t1809375867), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2260[4] = 
+{
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t1809375867::get_offset_of_U24this_0(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t1809375867::get_offset_of_U24current_1(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t1809375867::get_offset_of_U24disposing_2(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t1809375867::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2261 = { sizeof (U3CDisableButtonForSecondsU3Ec__Iterator4_t4245875166), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2261[5] = 
+{
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t4245875166::get_offset_of_GO_0(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t4245875166::get_offset_of_DisableTime_1(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t4245875166::get_offset_of_U24current_2(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t4245875166::get_offset_of_U24disposing_3(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t4245875166::get_offset_of_U24PC_4(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2262 = { sizeof (U3CDialog1_MoveInU3Ec__Iterator5_t4034688419), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2262[4] = 
+{
+	U3CDialog1_MoveInU3Ec__Iterator5_t4034688419::get_offset_of_U24this_0(),
+	U3CDialog1_MoveInU3Ec__Iterator5_t4034688419::get_offset_of_U24current_1(),
+	U3CDialog1_MoveInU3Ec__Iterator5_t4034688419::get_offset_of_U24disposing_2(),
+	U3CDialog1_MoveInU3Ec__Iterator5_t4034688419::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2263 = { sizeof (U3CDialog2_MoveInU3Ec__Iterator6_t4118876451), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2263[4] = 
+{
+	U3CDialog2_MoveInU3Ec__Iterator6_t4118876451::get_offset_of_U24this_0(),
+	U3CDialog2_MoveInU3Ec__Iterator6_t4118876451::get_offset_of_U24current_1(),
+	U3CDialog2_MoveInU3Ec__Iterator6_t4118876451::get_offset_of_U24disposing_2(),
+	U3CDialog2_MoveInU3Ec__Iterator6_t4118876451::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2264 = { sizeof (U3CDialog3_MoveInU3Ec__Iterator7_t1194364579), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2264[4] = 
+{
+	U3CDialog3_MoveInU3Ec__Iterator7_t1194364579::get_offset_of_U24this_0(),
+	U3CDialog3_MoveInU3Ec__Iterator7_t1194364579::get_offset_of_U24current_1(),
+	U3CDialog3_MoveInU3Ec__Iterator7_t1194364579::get_offset_of_U24disposing_2(),
+	U3CDialog3_MoveInU3Ec__Iterator7_t1194364579::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2265 = { sizeof (U3CDialog4_MoveInU3Ec__Iterator8_t1535420715), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2265[4] = 
+{
+	U3CDialog4_MoveInU3Ec__Iterator8_t1535420715::get_offset_of_U24this_0(),
+	U3CDialog4_MoveInU3Ec__Iterator8_t1535420715::get_offset_of_U24current_1(),
+	U3CDialog4_MoveInU3Ec__Iterator8_t1535420715::get_offset_of_U24disposing_2(),
+	U3CDialog4_MoveInU3Ec__Iterator8_t1535420715::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2266 = { sizeof (GA_FREE_Demo06_t1451032497), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2266[20] = 
+{
+	GA_FREE_Demo06_t1451032497::get_offset_of_m_Canvas_2(),
+	GA_FREE_Demo06_t1451032497::get_offset_of_m_Title1_3(),
+	GA_FREE_Demo06_t1451032497::get_offset_of_m_Title2_4(),
+	GA_FREE_Demo06_t1451032497::get_offset_of_m_TopBar_5(),
+	GA_FREE_Demo06_t1451032497::get_offset_of_m_BottomBar_6(),
+	GA_FREE_Demo06_t1451032497::get_offset_of_m_PrimaryButton1_7(),
+	GA_FREE_Demo06_t1451032497::get_offset_of_m_PrimaryButton2_8(),
+	GA_FREE_Demo06_t1451032497::get_offset_of_m_PrimaryButton3_9(),
+	GA_FREE_Demo06_t1451032497::get_offset_of_m_PrimaryButton4_10(),
+	GA_FREE_Demo06_t1451032497::get_offset_of_m_PrimaryButton5_11(),
+	GA_FREE_Demo06_t1451032497::get_offset_of_m_SecondaryButton1_12(),
+	GA_FREE_Demo06_t1451032497::get_offset_of_m_SecondaryButton2_13(),
+	GA_FREE_Demo06_t1451032497::get_offset_of_m_SecondaryButton3_14(),
+	GA_FREE_Demo06_t1451032497::get_offset_of_m_SecondaryButton4_15(),
+	GA_FREE_Demo06_t1451032497::get_offset_of_m_SecondaryButton5_16(),
+	GA_FREE_Demo06_t1451032497::get_offset_of_m_Button1_IsOn_17(),
+	GA_FREE_Demo06_t1451032497::get_offset_of_m_Button2_IsOn_18(),
+	GA_FREE_Demo06_t1451032497::get_offset_of_m_Button3_IsOn_19(),
+	GA_FREE_Demo06_t1451032497::get_offset_of_m_Button4_IsOn_20(),
+	GA_FREE_Demo06_t1451032497::get_offset_of_m_Button5_IsOn_21(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2267 = { sizeof (U3CMoveInTitleGameObjectsU3Ec__Iterator0_t1370243611), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2267[4] = 
+{
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t1370243611::get_offset_of_U24this_0(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t1370243611::get_offset_of_U24current_1(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t1370243611::get_offset_of_U24disposing_2(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t1370243611::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2268 = { sizeof (U3CMoveInPrimaryButtonsU3Ec__Iterator1_t655078047), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2268[4] = 
+{
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t655078047::get_offset_of_U24this_0(),
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t655078047::get_offset_of_U24current_1(),
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t655078047::get_offset_of_U24disposing_2(),
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t655078047::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2269 = { sizeof (U3CHideTitleTextMeshesU3Ec__Iterator2_t2918170883), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2269[4] = 
+{
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t2918170883::get_offset_of_U24this_0(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t2918170883::get_offset_of_U24current_1(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t2918170883::get_offset_of_U24disposing_2(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t2918170883::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2270 = { sizeof (U3CEnableAllDemoButtonsU3Ec__Iterator3_t3423030464), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2270[4] = 
+{
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t3423030464::get_offset_of_U24this_0(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t3423030464::get_offset_of_U24current_1(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t3423030464::get_offset_of_U24disposing_2(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t3423030464::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2271 = { sizeof (U3CDisableAllButtonsForSecondsU3Ec__Iterator4_t4182328829), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2271[4] = 
+{
+	U3CDisableAllButtonsForSecondsU3Ec__Iterator4_t4182328829::get_offset_of_DisableTime_0(),
+	U3CDisableAllButtonsForSecondsU3Ec__Iterator4_t4182328829::get_offset_of_U24current_1(),
+	U3CDisableAllButtonsForSecondsU3Ec__Iterator4_t4182328829::get_offset_of_U24disposing_2(),
+	U3CDisableAllButtonsForSecondsU3Ec__Iterator4_t4182328829::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2272 = { sizeof (GA_FREE_Demo07_t3017116438), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2272[11] = 
+{
+	GA_FREE_Demo07_t3017116438::get_offset_of_m_Canvas_2(),
+	GA_FREE_Demo07_t3017116438::get_offset_of_m_Title1_3(),
+	GA_FREE_Demo07_t3017116438::get_offset_of_m_Title2_4(),
+	GA_FREE_Demo07_t3017116438::get_offset_of_m_TopBar_5(),
+	GA_FREE_Demo07_t3017116438::get_offset_of_m_BottomBar_6(),
+	GA_FREE_Demo07_t3017116438::get_offset_of_m_Dialog_7(),
+	GA_FREE_Demo07_t3017116438::get_offset_of_m_DialogButtons_8(),
+	GA_FREE_Demo07_t3017116438::get_offset_of_m_Button1_9(),
+	GA_FREE_Demo07_t3017116438::get_offset_of_m_Button2_10(),
+	GA_FREE_Demo07_t3017116438::get_offset_of_m_Button3_11(),
+	GA_FREE_Demo07_t3017116438::get_offset_of_m_Button4_12(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2273 = { sizeof (U3CMoveInTitleGameObjectsU3Ec__Iterator0_t3026157056), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2273[4] = 
+{
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t3026157056::get_offset_of_U24this_0(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t3026157056::get_offset_of_U24current_1(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t3026157056::get_offset_of_U24disposing_2(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t3026157056::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2274 = { sizeof (U3CMoveInPrimaryButtonsU3Ec__Iterator1_t3598533722), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2274[4] = 
+{
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t3598533722::get_offset_of_U24this_0(),
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t3598533722::get_offset_of_U24current_1(),
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t3598533722::get_offset_of_U24disposing_2(),
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t3598533722::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2275 = { sizeof (U3CHideTitleTextMeshesU3Ec__Iterator2_t291910526), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2275[4] = 
+{
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t291910526::get_offset_of_U24this_0(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t291910526::get_offset_of_U24current_1(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t291910526::get_offset_of_U24disposing_2(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t291910526::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2276 = { sizeof (U3CEnableAllDemoButtonsU3Ec__Iterator3_t3921905157), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2276[4] = 
+{
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t3921905157::get_offset_of_U24this_0(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t3921905157::get_offset_of_U24current_1(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t3921905157::get_offset_of_U24disposing_2(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t3921905157::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2277 = { sizeof (U3CDisableButtonForSecondsU3Ec__Iterator4_t3100135252), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2277[5] = 
+{
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t3100135252::get_offset_of_GO_0(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t3100135252::get_offset_of_DisableTime_1(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t3100135252::get_offset_of_U24current_2(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t3100135252::get_offset_of_U24disposing_3(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t3100135252::get_offset_of_U24PC_4(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2278 = { sizeof (U3CSetButtonMoveU3Ec__Iterator5_t529309716), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2278[5] = 
+{
+	U3CSetButtonMoveU3Ec__Iterator5_t529309716::get_offset_of_PosMoveIn_0(),
+	U3CSetButtonMoveU3Ec__Iterator5_t529309716::get_offset_of_U24this_1(),
+	U3CSetButtonMoveU3Ec__Iterator5_t529309716::get_offset_of_U24current_2(),
+	U3CSetButtonMoveU3Ec__Iterator5_t529309716::get_offset_of_U24disposing_3(),
+	U3CSetButtonMoveU3Ec__Iterator5_t529309716::get_offset_of_U24PC_4(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2279 = { sizeof (U3CDialogMoveInU3Ec__Iterator6_t4199398186), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2279[4] = 
+{
+	U3CDialogMoveInU3Ec__Iterator6_t4199398186::get_offset_of_U24this_0(),
+	U3CDialogMoveInU3Ec__Iterator6_t4199398186::get_offset_of_U24current_1(),
+	U3CDialogMoveInU3Ec__Iterator6_t4199398186::get_offset_of_U24disposing_2(),
+	U3CDialogMoveInU3Ec__Iterator6_t4199398186::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2280 = { sizeof (GA_FREE_Demo08_t2257601551), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2280[18] = 
+{
+	GA_FREE_Demo08_t2257601551::get_offset_of_m_Canvas_2(),
+	GA_FREE_Demo08_t2257601551::get_offset_of_m_Title1_3(),
+	GA_FREE_Demo08_t2257601551::get_offset_of_m_Title2_4(),
+	GA_FREE_Demo08_t2257601551::get_offset_of_m_TopBar_5(),
+	GA_FREE_Demo08_t2257601551::get_offset_of_m_BottomBar_6(),
+	GA_FREE_Demo08_t2257601551::get_offset_of_m_CenterButtons_7(),
+	GA_FREE_Demo08_t2257601551::get_offset_of_m_Button1_8(),
+	GA_FREE_Demo08_t2257601551::get_offset_of_m_Button2_9(),
+	GA_FREE_Demo08_t2257601551::get_offset_of_m_Button3_10(),
+	GA_FREE_Demo08_t2257601551::get_offset_of_m_Button4_11(),
+	GA_FREE_Demo08_t2257601551::get_offset_of_m_Bar1_12(),
+	GA_FREE_Demo08_t2257601551::get_offset_of_m_Bar2_13(),
+	GA_FREE_Demo08_t2257601551::get_offset_of_m_Bar3_14(),
+	GA_FREE_Demo08_t2257601551::get_offset_of_m_Bar4_15(),
+	GA_FREE_Demo08_t2257601551::get_offset_of_m_Bar1_IsOn_16(),
+	GA_FREE_Demo08_t2257601551::get_offset_of_m_Bar2_IsOn_17(),
+	GA_FREE_Demo08_t2257601551::get_offset_of_m_Bar3_IsOn_18(),
+	GA_FREE_Demo08_t2257601551::get_offset_of_m_Bar4_IsOn_19(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2281 = { sizeof (U3CMoveInTitleGameObjectsU3Ec__Iterator0_t2467924285), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2281[4] = 
+{
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t2467924285::get_offset_of_U24this_0(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t2467924285::get_offset_of_U24current_1(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t2467924285::get_offset_of_U24disposing_2(),
+	U3CMoveInTitleGameObjectsU3Ec__Iterator0_t2467924285::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2282 = { sizeof (U3CMoveInPrimaryButtonsU3Ec__Iterator1_t1062562729), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2282[4] = 
+{
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t1062562729::get_offset_of_U24this_0(),
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t1062562729::get_offset_of_U24current_1(),
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t1062562729::get_offset_of_U24disposing_2(),
+	U3CMoveInPrimaryButtonsU3Ec__Iterator1_t1062562729::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2283 = { sizeof (U3CHideTitleTextMeshesU3Ec__Iterator2_t2642132365), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2283[4] = 
+{
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t2642132365::get_offset_of_U24this_0(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t2642132365::get_offset_of_U24current_1(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t2642132365::get_offset_of_U24disposing_2(),
+	U3CHideTitleTextMeshesU3Ec__Iterator2_t2642132365::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2284 = { sizeof (U3CEnableAllDemoButtonsU3Ec__Iterator3_t2437294450), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2284[4] = 
+{
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t2437294450::get_offset_of_U24this_0(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t2437294450::get_offset_of_U24current_1(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t2437294450::get_offset_of_U24disposing_2(),
+	U3CEnableAllDemoButtonsU3Ec__Iterator3_t2437294450::get_offset_of_U24PC_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2285 = { sizeof (U3CDisableButtonForSecondsU3Ec__Iterator4_t543876933), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2285[5] = 
+{
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t543876933::get_offset_of_GO_0(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t543876933::get_offset_of_DisableTime_1(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t543876933::get_offset_of_U24current_2(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t543876933::get_offset_of_U24disposing_3(),
+	U3CDisableButtonForSecondsU3Ec__Iterator4_t543876933::get_offset_of_U24PC_4(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2286 = { sizeof (GA_FREE_DemoPlaySound_t2446186488), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2286[4] = 
+{
+	GA_FREE_DemoPlaySound_t2446186488::get_offset_of_m_AudioSourceCount_2(),
+	GA_FREE_DemoPlaySound_t2446186488::get_offset_of_m_AudioSource_3(),
+	GA_FREE_DemoPlaySound_t2446186488::get_offset_of_m_Audio_Button1_4(),
+	GA_FREE_DemoPlaySound_t2446186488::get_offset_of_m_Audio_Button2_5(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2287 = { sizeof (GA_FREE_OpenOtherScene_t329806518), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2288 = { sizeof (GUIAnimatorFREEDemo_t2605942281), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2288[3] = 
+{
+	GUIAnimatorFREEDemo_t2605942281::get_offset_of_m_WaitTime_2(),
+	GUIAnimatorFREEDemo_t2605942281::get_offset_of_m_WaitTimeCount_3(),
+	GUIAnimatorFREEDemo_t2605942281::get_offset_of_m_ShowMoveInButton_4(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2289 = { sizeof (ARAnchorManager_t2292034343), -1, sizeof(ARAnchorManager_t2292034343_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable2289[1] = 
+{
+	ARAnchorManager_t2292034343_StaticFields::get_offset_of_CurrentAnchorUpdatedEvent_0(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2290 = { sizeof (CurrentAnchorUpdated_t3782499909), sizeof(Il2CppMethodPointer), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2291 = { sizeof (ARPlaneManager_t348851406), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2291[3] = 
+{
+	ARPlaneManager_t348851406::get_offset_of_m_PlanePrefab_2(),
+	ARPlaneManager_t348851406::get_offset_of_m_ARTerrainManager_3(),
+	ARPlaneManager_t348851406::get_offset_of_m_PlaneAnchorObject_4(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2292 = { sizeof (PlaneAnchorObject_t3628153532)+ sizeof (Il2CppObject), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2292[2] = 
+{
+	PlaneAnchorObject_t3628153532::get_offset_of_U3CplaneObjectU3Ek__BackingField_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	PlaneAnchorObject_t3628153532::get_offset_of_U3CanchorU3Ek__BackingField_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2293 = { sizeof (ARTerrainManager_t2018264653), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2293[15] = 
+{
+	ARTerrainManager_t2018264653::get_offset_of_m_TerrainScale_2(),
+	ARTerrainManager_t2018264653::get_offset_of_m_TerrainPrefab_3(),
+	ARTerrainManager_t2018264653::get_offset_of_m_MapGenerator_4(),
+	ARTerrainManager_t2018264653::get_offset_of_m_TerrainLayerMask_5(),
+	ARTerrainManager_t2018264653::get_offset_of_m_TerrainAnchorObject_6(),
+	ARTerrainManager_t2018264653::get_offset_of_m_TerrainModifyRate_7(),
+	ARTerrainManager_t2018264653::get_offset_of_m_TerrainSelectRadius_8(),
+	ARTerrainManager_t2018264653::get_offset_of_m_TerrainMaterial_9(),
+	ARTerrainManager_t2018264653::get_offset_of_m_TerrainSpawned_10(),
+	ARTerrainManager_t2018264653::get_offset_of_m_CurrentManipPhase_11(),
+	ARTerrainManager_t2018264653::get_offset_of_m_TallestMeshHeight_12(),
+	ARTerrainManager_t2018264653::get_offset_of_m_StartTouchPosition_13(),
+	ARTerrainManager_t2018264653::get_offset_of_m_TouchDirection_14(),
+	ARTerrainManager_t2018264653::get_offset_of_m_VerticesManipIndex_15(),
+	ARTerrainManager_t2018264653::get_offset_of_m_TerrainPoints_16(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2294 = { sizeof (ManipPhase_t338933528)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2294[5] = 
+{
+	ManipPhase_t338933528::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	0,
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2295 = { sizeof (TerrainAnchorObject_t1214709381)+ sizeof (Il2CppObject), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2295[3] = 
+{
+	TerrainAnchorObject_t1214709381::get_offset_of_U3CterrainObjectU3Ek__BackingField_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	TerrainAnchorObject_t1214709381::get_offset_of_U3CterrainGOChildU3Ek__BackingField_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	TerrainAnchorObject_t1214709381::get_offset_of_U3CanchorU3Ek__BackingField_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2296 = { sizeof (TerrainPoint_t3086956645)+ sizeof (Il2CppObject), sizeof(TerrainPoint_t3086956645 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable2296[3] = 
+{
+	TerrainPoint_t3086956645::get_offset_of_U3CindexU3Ek__BackingField_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	TerrainPoint_t3086956645::get_offset_of_U3CpointU3Ek__BackingField_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	TerrainPoint_t3086956645::get_offset_of_U3CdistDenomU3Ek__BackingField_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2297 = { sizeof (ARTouchManager_t1310965619), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2297[4] = 
+{
+	ARTouchManager_t1310965619::get_offset_of_ARTouchPlaneUpdateEvent_2(),
+	ARTouchManager_t1310965619::get_offset_of_ARTouchBeganUpdateEvent_3(),
+	ARTouchManager_t1310965619::get_offset_of_ARTouchMovedUpdateEvent_4(),
+	ARTouchManager_t1310965619::get_offset_of_ARTouchEndedUpdateEvent_5(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2298 = { sizeof (ARTouchPlaneUpdate_t2610448397), sizeof(Il2CppMethodPointer), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2299 = { sizeof (ARTouchBeganUpdate_t3594891140), sizeof(Il2CppMethodPointer), 0, 0 };
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

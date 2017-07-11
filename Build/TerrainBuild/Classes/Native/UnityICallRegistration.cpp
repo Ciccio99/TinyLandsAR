@@ -242,6 +242,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.AudioSource
 
+		//System.Boolean UnityEngine.AudioSource::get_isPlaying()
+		void Register_UnityEngine_AudioSource_get_isPlaying();
+		Register_UnityEngine_AudioSource_get_isPlaying();
+
 		//System.Single UnityEngine.AudioSource::get_pitch()
 		void Register_UnityEngine_AudioSource_get_pitch();
 		Register_UnityEngine_AudioSource_get_pitch();
@@ -285,6 +289,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.AudioSource::set_playOnAwake(System.Boolean)
 		void Register_UnityEngine_AudioSource_set_playOnAwake();
 		Register_UnityEngine_AudioSource_set_playOnAwake();
+
+		//System.Void UnityEngine.AudioSource::set_rolloffMode(UnityEngine.AudioRolloffMode)
+		void Register_UnityEngine_AudioSource_set_rolloffMode();
+		Register_UnityEngine_AudioSource_set_rolloffMode();
 
 		//System.Void UnityEngine.AudioSource::set_time(System.Single)
 		void Register_UnityEngine_AudioSource_set_time();
@@ -1301,6 +1309,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.GameObject::SetActive(System.Boolean)
 		void Register_UnityEngine_GameObject_SetActive();
 		Register_UnityEngine_GameObject_SetActive();
+
+		//System.Void UnityEngine.GameObject::set_isStatic(System.Boolean)
+		void Register_UnityEngine_GameObject_set_isStatic();
+		Register_UnityEngine_GameObject_set_isStatic();
 
 		//System.Void UnityEngine.GameObject::set_layer(System.Int32)
 		void Register_UnityEngine_GameObject_set_layer();
@@ -2470,6 +2482,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_ParticleSystem_Internal_Clear();
 		Register_UnityEngine_ParticleSystem_Internal_Clear();
 
+		//System.Boolean UnityEngine.ParticleSystem::Internal_IsAlive(UnityEngine.ParticleSystem)
+		void Register_UnityEngine_ParticleSystem_Internal_IsAlive();
+		Register_UnityEngine_ParticleSystem_Internal_IsAlive();
+
 		//System.Boolean UnityEngine.ParticleSystem::Internal_Play(UnityEngine.ParticleSystem)
 		void Register_UnityEngine_ParticleSystem_Internal_Play();
 		Register_UnityEngine_ParticleSystem_Internal_Play();
@@ -2478,6 +2494,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_ParticleSystem_Internal_Stop();
 		Register_UnityEngine_ParticleSystem_Internal_Stop();
 
+		//System.Boolean UnityEngine.ParticleSystem::get_isPlaying()
+		void Register_UnityEngine_ParticleSystem_get_isPlaying();
+		Register_UnityEngine_ParticleSystem_get_isPlaying();
+
 		//System.Void UnityEngine.ParticleSystem::INTERNAL_CALL_Emit(UnityEngine.ParticleSystem,System.Int32)
 		void Register_UnityEngine_ParticleSystem_INTERNAL_CALL_Emit();
 		Register_UnityEngine_ParticleSystem_INTERNAL_CALL_Emit();
@@ -2485,6 +2505,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.ParticleSystem::SetParticles(UnityEngine.ParticleSystem/Particle[],System.Int32)
 		void Register_UnityEngine_ParticleSystem_SetParticles();
 		Register_UnityEngine_ParticleSystem_SetParticles();
+
+		//System.Void UnityEngine.ParticleSystem::set_loop(System.Boolean)
+		void Register_UnityEngine_ParticleSystem_set_loop();
+		Register_UnityEngine_ParticleSystem_set_loop();
 
 	//End Registrations for type : UnityEngine.ParticleSystem
 
@@ -2854,6 +2878,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Renderer_set_enabled();
 		Register_UnityEngine_Renderer_set_enabled();
 
+		//System.Void UnityEngine.Renderer::set_material(UnityEngine.Material)
+		void Register_UnityEngine_Renderer_set_material();
+		Register_UnityEngine_Renderer_set_material();
+
 		//System.Void UnityEngine.Renderer::set_materials(UnityEngine.Material[])
 		void Register_UnityEngine_Renderer_set_materials();
 		Register_UnityEngine_Renderer_set_materials();
@@ -3042,6 +3070,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Rigidbody_set_drag();
 		Register_UnityEngine_Rigidbody_set_drag();
 
+		//System.Void UnityEngine.Rigidbody::set_freezeRotation(System.Boolean)
+		void Register_UnityEngine_Rigidbody_set_freezeRotation();
+		Register_UnityEngine_Rigidbody_set_freezeRotation();
+
 		//System.Void UnityEngine.Rigidbody::set_isKinematic(System.Boolean)
 		void Register_UnityEngine_Rigidbody_set_isKinematic();
 		Register_UnityEngine_Rigidbody_set_isKinematic();
@@ -3090,6 +3122,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Screen
 
+		//System.Boolean UnityEngine.Screen::get_fullScreen()
+		void Register_UnityEngine_Screen_get_fullScreen();
+		Register_UnityEngine_Screen_get_fullScreen();
+
 		//System.Int32 UnityEngine.Screen::get_height()
 		void Register_UnityEngine_Screen_get_height();
 		Register_UnityEngine_Screen_get_height();
@@ -3101,6 +3137,14 @@ void RegisterAllStrippedInternalCalls()
 		//System.Single UnityEngine.Screen::get_dpi()
 		void Register_UnityEngine_Screen_get_dpi();
 		Register_UnityEngine_Screen_get_dpi();
+
+		//System.Void UnityEngine.Screen::SetResolution(System.Int32,System.Int32,System.Boolean,System.Int32)
+		void Register_UnityEngine_Screen_SetResolution();
+		Register_UnityEngine_Screen_SetResolution();
+
+		//System.Void UnityEngine.Screen::set_fullScreen(System.Boolean)
+		void Register_UnityEngine_Screen_set_fullScreen();
+		Register_UnityEngine_Screen_set_fullScreen();
 
 		//UnityEngine.Resolution UnityEngine.Screen::get_currentResolution()
 		void Register_UnityEngine_Screen_get_currentResolution();

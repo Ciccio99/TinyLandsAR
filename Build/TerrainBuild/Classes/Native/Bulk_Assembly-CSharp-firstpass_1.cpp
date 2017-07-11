@@ -291,7 +291,7 @@ extern const uint32_t AeroplaneAiControl_FixedUpdate_m1269827127_MetadataUsageId
 extern Il2CppClass* AdvancedSetttings_t4130742858_il2cpp_TypeInfo_var;
 extern const uint32_t AeroplaneAudio__ctor_m3639349481_MetadataUsageId;
 extern const MethodInfo* Component_GetComponent_TisRigidbody_t4233889191_m2323824819_MethodInfo_var;
-extern const MethodInfo* GameObject_AddComponent_TisAudioSource_t1135106623_m3344595212_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisAudioSource_t1135106623_m986553866_MethodInfo_var;
 extern const uint32_t AeroplaneAudio_Awake_m1049800552_MetadataUsageId;
 extern const uint32_t AeroplaneAudio_Update_m1413481814_MetadataUsageId;
 extern const MethodInfo* Component_GetComponentsInChildren_TisWheelCollider_t785806275_m2319308642_MethodInfo_var;
@@ -1014,7 +1014,7 @@ extern "C"  void AdvancedSetttings__ctor_m3367779829 (AdvancedSetttings_t4130742
 // UnityEngine.GameObject UnityEngine.Component::get_gameObject()
 extern "C"  GameObject_t1756533147 * Component_get_gameObject_m3105766835 (Component_t3819376471 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.AudioSource>()
-#define GameObject_AddComponent_TisAudioSource_t1135106623_m3344595212(__this, method) ((  AudioSource_t1135106623 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+#define GameObject_AddComponent_TisAudioSource_t1135106623_m986553866(__this, method) ((  AudioSource_t1135106623 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
 // System.Void UnityEngine.AudioSource::set_playOnAwake(System.Boolean)
 extern "C"  void AudioSource_set_playOnAwake_m858475204 (AudioSource_t1135106623 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AudioSource::set_clip(UnityEngine.AudioClip)
@@ -2568,7 +2568,7 @@ extern "C"  void AeroplaneAudio_Awake_m1049800552 (AeroplaneAudio_t3394227441 * 
 		GameObject_t1756533147 * L_2 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
 		// m_EngineSoundSource = gameObject.AddComponent<AudioSource>();
 		NullCheck(L_2);
-		AudioSource_t1135106623 * L_3 = GameObject_AddComponent_TisAudioSource_t1135106623_m3344595212(L_2, /*hidden argument*/GameObject_AddComponent_TisAudioSource_t1135106623_m3344595212_MethodInfo_var);
+		AudioSource_t1135106623 * L_3 = GameObject_AddComponent_TisAudioSource_t1135106623_m986553866(L_2, /*hidden argument*/GameObject_AddComponent_TisAudioSource_t1135106623_m986553866_MethodInfo_var);
 		__this->set_m_EngineSoundSource_11(L_3);
 		// m_EngineSoundSource.playOnAwake = false;
 		AudioSource_t1135106623 * L_4 = __this->get_m_EngineSoundSource_11();
@@ -2580,7 +2580,7 @@ extern "C"  void AeroplaneAudio_Awake_m1049800552 (AeroplaneAudio_t3394227441 * 
 		GameObject_t1756533147 * L_5 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
 		// m_WindSoundSource = gameObject.AddComponent<AudioSource>();
 		NullCheck(L_5);
-		AudioSource_t1135106623 * L_6 = GameObject_AddComponent_TisAudioSource_t1135106623_m3344595212(L_5, /*hidden argument*/GameObject_AddComponent_TisAudioSource_t1135106623_m3344595212_MethodInfo_var);
+		AudioSource_t1135106623 * L_6 = GameObject_AddComponent_TisAudioSource_t1135106623_m986553866(L_5, /*hidden argument*/GameObject_AddComponent_TisAudioSource_t1135106623_m986553866_MethodInfo_var);
 		__this->set_m_WindSoundSource_12(L_6);
 		// m_WindSoundSource.playOnAwake = false;
 		AudioSource_t1135106623 * L_7 = __this->get_m_WindSoundSource_12();
@@ -6731,7 +6731,7 @@ extern "C"  AudioSource_t1135106623 * CarAudio_SetUpEngineAudioSource_m789260443
 		GameObject_t1756533147 * L_0 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
 		// AudioSource source = gameObject.AddComponent<AudioSource>();
 		NullCheck(L_0);
-		AudioSource_t1135106623 * L_1 = GameObject_AddComponent_TisAudioSource_t1135106623_m3344595212(L_0, /*hidden argument*/GameObject_AddComponent_TisAudioSource_t1135106623_m3344595212_MethodInfo_var);
+		AudioSource_t1135106623 * L_1 = GameObject_AddComponent_TisAudioSource_t1135106623_m986553866(L_0, /*hidden argument*/GameObject_AddComponent_TisAudioSource_t1135106623_m986553866_MethodInfo_var);
 		V_0 = L_1;
 		// source.clip = clip;
 		AudioSource_t1135106623 * L_2 = V_0;

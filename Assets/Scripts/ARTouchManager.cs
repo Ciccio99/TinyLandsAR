@@ -5,14 +5,6 @@ using UnityEngine.XR.iOS;
 using TMPro;
 
 public class ARTouchManager : MonoBehaviour {
-
-	public TMPro.TextMeshProUGUI m_TMProGUI;
-	private int score;
-	// Use this for initialization
-
-	void Start () {
-		score = 0;
-	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -34,8 +26,6 @@ public class ARTouchManager : MonoBehaviour {
                     foreach (var hitResult in hitResults) {
                         Vector3 position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
                         ARTouchPlaneUpdateEvent (hitResult.anchorIdentifier, position);
-                        score++;
-                        //m_TMProGUI.SetText ("Hits: " + score);
                         break;
                     }
                 }

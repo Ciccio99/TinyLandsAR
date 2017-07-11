@@ -16,6 +16,7 @@
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array3829468939.h"
+#include "UnityEngine_UnityEngine_EventType3919834026.h"
 #include "UnityEngine_UnityEngine_ExecuteInEditMode3043633143.h"
 #include "mscorlib_System_Void1841601450.h"
 #include "mscorlib_System_Attribute542643598.h"
@@ -82,7 +83,6 @@
 #include "UnityEngine_UnityEngine_GUIContent4210063000.h"
 #include "UnityEngine_UnityEngine_GUIStyle1799908754.h"
 #include "UnityEngine_UnityEngine_GUI_WindowFunction3486805455.h"
-#include "UnityEngine_UnityEngine_EventType3919834026.h"
 #include "UnityEngine_UnityEngine_GUILayoutOption4183744904.h"
 #include "UnityEngine_UnityEngine_GUILayoutUtility_LayoutCac3120781045.h"
 #include "UnityEngine_UnityEngine_Event3028476042.h"
@@ -861,8 +861,6 @@ extern Il2CppCodeGenString* _stringLiteral1640566403;
 extern const uint32_t NetworkPlayer__ctor_m3970319947_MetadataUsageId;
 extern Il2CppClass* NetworkPlayer_t1243528291_il2cpp_TypeInfo_var;
 extern const uint32_t NetworkPlayer_Equals_m1960901089_MetadataUsageId;
-extern Il2CppClass* NetworkViewID_t3942988548_il2cpp_TypeInfo_var;
-extern const uint32_t NetworkViewID_Equals_m809788370_MetadataUsageId;
 
 // UnityEngine.AnimatorClipInfo[]
 struct AnimatorClipInfoU5BU5D_t2969332312  : public Il2CppArray
@@ -2458,6 +2456,8 @@ extern "C"  void Material_SetTextureImpl_m4288735718 (Material_t193706927 * __th
 extern "C"  float Material_GetFloat_m4250722315 (Material_t193706927 * __this, int32_t ___nameID0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Material::GetFloatImpl(System.Int32)
 extern "C"  float Material_GetFloatImpl_m419099295 (Material_t193706927 * __this, int32_t ___nameID0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Color UnityEngine.Material::GetColor(System.Int32)
+extern "C"  Color_t2020392075  Material_GetColor_m2968960621 (Material_t193706927 * __this, int32_t ___nameID0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Material::GetColorImpl(System.Int32)
 extern "C"  Color_t2020392075  Material_GetColorImpl_m3117633001 (Material_t193706927 * __this, int32_t ___nameID0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector4 UnityEngine.Material::GetVector(System.Int32)
@@ -2728,34 +2728,6 @@ extern "C"  int32_t NetworkPlayer_Internal_GetExternalPort_m2755622672 (Il2CppOb
 extern "C"  int32_t NetworkPlayer_get_externalPort_m114464875 (NetworkPlayer_t1243528291 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.NetworkView UnityEngine.NetworkView::INTERNAL_CALL_Find(UnityEngine.NetworkViewID&)
 extern "C"  NetworkView_t172525251 * NetworkView_INTERNAL_CALL_Find_m526018730 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548 * ___viewID0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.NetworkViewID::INTERNAL_get_unassigned(UnityEngine.NetworkViewID&)
-extern "C"  void NetworkViewID_INTERNAL_get_unassigned_m132572206 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.NetworkViewID::INTERNAL_CALL_Internal_IsMine(UnityEngine.NetworkViewID&)
-extern "C"  bool NetworkViewID_INTERNAL_CALL_Internal_IsMine_m753595398 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.NetworkViewID::INTERNAL_CALL_Internal_GetOwner(UnityEngine.NetworkViewID&,UnityEngine.NetworkPlayer&)
-extern "C"  void NetworkViewID_INTERNAL_CALL_Internal_GetOwner_m874918604 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548 * ___value0, NetworkPlayer_t1243528291 * ___player1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.String UnityEngine.NetworkViewID::INTERNAL_CALL_Internal_GetString(UnityEngine.NetworkViewID&)
-extern "C"  String_t* NetworkViewID_INTERNAL_CALL_Internal_GetString_m346869803 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.NetworkViewID::INTERNAL_CALL_Internal_Compare(UnityEngine.NetworkViewID&,UnityEngine.NetworkViewID&)
-extern "C"  bool NetworkViewID_INTERNAL_CALL_Internal_Compare_m61154333 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548 * ___lhs0, NetworkViewID_t3942988548 * ___rhs1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.NetworkViewID::Internal_Compare(UnityEngine.NetworkViewID,UnityEngine.NetworkViewID)
-extern "C"  bool NetworkViewID_Internal_Compare_m3248992772 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548  ___lhs0, NetworkViewID_t3942988548  ___rhs1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Int32 UnityEngine.NetworkViewID::GetHashCode()
-extern "C"  int32_t NetworkViewID_GetHashCode_m3141878442 (NetworkViewID_t3942988548 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.NetworkViewID::Equals(System.Object)
-extern "C"  bool NetworkViewID_Equals_m809788370 (NetworkViewID_t3942988548 * __this, Il2CppObject * ___other0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.NetworkViewID::Internal_IsMine(UnityEngine.NetworkViewID)
-extern "C"  bool NetworkViewID_Internal_IsMine_m763014699 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548  ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.NetworkViewID::get_isMine()
-extern "C"  bool NetworkViewID_get_isMine_m1234363003 (NetworkViewID_t3942988548 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.NetworkViewID::Internal_GetOwner(UnityEngine.NetworkViewID,UnityEngine.NetworkPlayer&)
-extern "C"  void NetworkViewID_Internal_GetOwner_m89862041 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548  ___value0, NetworkPlayer_t1243528291 * ___player1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.NetworkPlayer UnityEngine.NetworkViewID::get_owner()
-extern "C"  NetworkPlayer_t1243528291  NetworkViewID_get_owner_m1900957708 (NetworkViewID_t3942988548 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.String UnityEngine.NetworkViewID::Internal_GetString(UnityEngine.NetworkViewID)
-extern "C"  String_t* NetworkViewID_Internal_GetString_m403971590 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548  ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.String UnityEngine.NetworkViewID::ToString()
-extern "C"  String_t* NetworkViewID_ToString_m3348378544 (NetworkViewID_t3942988548 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -6246,6 +6218,15 @@ extern "C"  bool GameObject_get_activeInHierarchy_m4242915935 (GameObject_t17565
 	_il2cpp_icall_func = (GameObject_get_activeInHierarchy_m4242915935_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GameObject::get_activeInHierarchy()");
 	return _il2cpp_icall_func(__this);
 }
+// System.Void UnityEngine.GameObject::set_isStatic(System.Boolean)
+extern "C"  void GameObject_set_isStatic_m940609574 (GameObject_t1756533147 * __this, bool ___value0, const MethodInfo* method)
+{
+	typedef void (*GameObject_set_isStatic_m940609574_ftn) (GameObject_t1756533147 *, bool);
+	static GameObject_set_isStatic_m940609574_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (GameObject_set_isStatic_m940609574_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GameObject::set_isStatic(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
+}
 // System.String UnityEngine.GameObject::get_tag()
 extern "C"  String_t* GameObject_get_tag_m1425941094 (GameObject_t1756533147 * __this, const MethodInfo* method)
 {
@@ -6299,6 +6280,21 @@ extern "C"  void GameObject_SendMessage_m2115020133 (GameObject_t1756533147 * __
 		V_0 = 0;
 		String_t* L_0 = ___methodName0;
 		Il2CppObject * L_1 = ___value1;
+		int32_t L_2 = V_0;
+		GameObject_SendMessage_m71956653(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.GameObject::SendMessage(System.String)
+extern "C"  void GameObject_SendMessage_m1177535567 (GameObject_t1756533147 * __this, String_t* ___methodName0, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	Il2CppObject * V_1 = NULL;
+	{
+		V_0 = 0;
+		V_1 = NULL;
+		String_t* L_0 = ___methodName0;
+		Il2CppObject * L_1 = V_1;
 		int32_t L_2 = V_0;
 		GameObject_SendMessage_m71956653(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
 		return;
@@ -19962,6 +19958,25 @@ IL_000e:
 		return L_2;
 	}
 }
+// UnityEngine.Color UnityEngine.Material::GetColor(System.String)
+extern "C"  Color_t2020392075  Material_GetColor_m2326771174 (Material_t193706927 * __this, String_t* ___name0, const MethodInfo* method)
+{
+	Color_t2020392075  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		String_t* L_0 = ___name0;
+		int32_t L_1 = Shader_PropertyToID_m678579425(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Color_t2020392075  L_2 = Material_GetColor_m2968960621(__this, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		goto IL_0013;
+	}
+
+IL_0013:
+	{
+		Color_t2020392075  L_3 = V_0;
+		return L_3;
+	}
+}
 // UnityEngine.Color UnityEngine.Material::GetColor(System.Int32)
 extern "C"  Color_t2020392075  Material_GetColor_m2968960621 (Material_t193706927 * __this, int32_t ___nameID0, const MethodInfo* method)
 {
@@ -20217,6 +20232,23 @@ extern "C"  float Mathf_Tan_m3348734175 (Il2CppObject * __this /* static, unused
 	{
 		float L_0 = ___f0;
 		double L_1 = tan((((double)((double)L_0))));
+		V_0 = (((float)((float)L_1)));
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		float L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Single UnityEngine.Mathf::Asin(System.Single)
+extern "C"  float Mathf_Asin_m1367675601 (Il2CppObject * __this /* static, unused */, float ___f0, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = ___f0;
+		double L_1 = asin((((double)((double)L_0))));
 		V_0 = (((float)((float)L_1)));
 		goto IL_000f;
 	}
@@ -25043,299 +25075,6 @@ extern "C"  NetworkView_t172525251 * NetworkView_INTERNAL_CALL_Find_m526018730 (
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (NetworkView_INTERNAL_CALL_Find_m526018730_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.NetworkView::INTERNAL_CALL_Find(UnityEngine.NetworkViewID&)");
 	return _il2cpp_icall_func(___viewID0);
-}
-// UnityEngine.NetworkViewID UnityEngine.NetworkViewID::get_unassigned()
-extern "C"  NetworkViewID_t3942988548  NetworkViewID_get_unassigned_m2814913999 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	NetworkViewID_t3942988548  V_0;
-	memset(&V_0, 0, sizeof(V_0));
-	NetworkViewID_t3942988548  V_1;
-	memset(&V_1, 0, sizeof(V_1));
-	{
-		NetworkViewID_INTERNAL_get_unassigned_m132572206(NULL /*static, unused*/, (&V_0), /*hidden argument*/NULL);
-		NetworkViewID_t3942988548  L_0 = V_0;
-		V_1 = L_0;
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		NetworkViewID_t3942988548  L_1 = V_1;
-		return L_1;
-	}
-}
-// System.Void UnityEngine.NetworkViewID::INTERNAL_get_unassigned(UnityEngine.NetworkViewID&)
-extern "C"  void NetworkViewID_INTERNAL_get_unassigned_m132572206 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548 * ___value0, const MethodInfo* method)
-{
-	typedef void (*NetworkViewID_INTERNAL_get_unassigned_m132572206_ftn) (NetworkViewID_t3942988548 *);
-	static NetworkViewID_INTERNAL_get_unassigned_m132572206_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (NetworkViewID_INTERNAL_get_unassigned_m132572206_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.NetworkViewID::INTERNAL_get_unassigned(UnityEngine.NetworkViewID&)");
-	_il2cpp_icall_func(___value0);
-}
-// System.Boolean UnityEngine.NetworkViewID::Internal_IsMine(UnityEngine.NetworkViewID)
-extern "C"  bool NetworkViewID_Internal_IsMine_m763014699 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548  ___value0, const MethodInfo* method)
-{
-	bool V_0 = false;
-	{
-		bool L_0 = NetworkViewID_INTERNAL_CALL_Internal_IsMine_m753595398(NULL /*static, unused*/, (&___value0), /*hidden argument*/NULL);
-		V_0 = L_0;
-		goto IL_000e;
-	}
-
-IL_000e:
-	{
-		bool L_1 = V_0;
-		return L_1;
-	}
-}
-// System.Boolean UnityEngine.NetworkViewID::INTERNAL_CALL_Internal_IsMine(UnityEngine.NetworkViewID&)
-extern "C"  bool NetworkViewID_INTERNAL_CALL_Internal_IsMine_m753595398 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548 * ___value0, const MethodInfo* method)
-{
-	typedef bool (*NetworkViewID_INTERNAL_CALL_Internal_IsMine_m753595398_ftn) (NetworkViewID_t3942988548 *);
-	static NetworkViewID_INTERNAL_CALL_Internal_IsMine_m753595398_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (NetworkViewID_INTERNAL_CALL_Internal_IsMine_m753595398_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.NetworkViewID::INTERNAL_CALL_Internal_IsMine(UnityEngine.NetworkViewID&)");
-	return _il2cpp_icall_func(___value0);
-}
-// System.Void UnityEngine.NetworkViewID::Internal_GetOwner(UnityEngine.NetworkViewID,UnityEngine.NetworkPlayer&)
-extern "C"  void NetworkViewID_Internal_GetOwner_m89862041 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548  ___value0, NetworkPlayer_t1243528291 * ___player1, const MethodInfo* method)
-{
-	{
-		NetworkPlayer_t1243528291 * L_0 = ___player1;
-		NetworkViewID_INTERNAL_CALL_Internal_GetOwner_m874918604(NULL /*static, unused*/, (&___value0), L_0, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.NetworkViewID::INTERNAL_CALL_Internal_GetOwner(UnityEngine.NetworkViewID&,UnityEngine.NetworkPlayer&)
-extern "C"  void NetworkViewID_INTERNAL_CALL_Internal_GetOwner_m874918604 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548 * ___value0, NetworkPlayer_t1243528291 * ___player1, const MethodInfo* method)
-{
-	typedef void (*NetworkViewID_INTERNAL_CALL_Internal_GetOwner_m874918604_ftn) (NetworkViewID_t3942988548 *, NetworkPlayer_t1243528291 *);
-	static NetworkViewID_INTERNAL_CALL_Internal_GetOwner_m874918604_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (NetworkViewID_INTERNAL_CALL_Internal_GetOwner_m874918604_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.NetworkViewID::INTERNAL_CALL_Internal_GetOwner(UnityEngine.NetworkViewID&,UnityEngine.NetworkPlayer&)");
-	_il2cpp_icall_func(___value0, ___player1);
-}
-// System.String UnityEngine.NetworkViewID::Internal_GetString(UnityEngine.NetworkViewID)
-extern "C"  String_t* NetworkViewID_Internal_GetString_m403971590 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548  ___value0, const MethodInfo* method)
-{
-	String_t* V_0 = NULL;
-	{
-		String_t* L_0 = NetworkViewID_INTERNAL_CALL_Internal_GetString_m346869803(NULL /*static, unused*/, (&___value0), /*hidden argument*/NULL);
-		V_0 = L_0;
-		goto IL_000e;
-	}
-
-IL_000e:
-	{
-		String_t* L_1 = V_0;
-		return L_1;
-	}
-}
-// System.String UnityEngine.NetworkViewID::INTERNAL_CALL_Internal_GetString(UnityEngine.NetworkViewID&)
-extern "C"  String_t* NetworkViewID_INTERNAL_CALL_Internal_GetString_m346869803 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548 * ___value0, const MethodInfo* method)
-{
-	typedef String_t* (*NetworkViewID_INTERNAL_CALL_Internal_GetString_m346869803_ftn) (NetworkViewID_t3942988548 *);
-	static NetworkViewID_INTERNAL_CALL_Internal_GetString_m346869803_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (NetworkViewID_INTERNAL_CALL_Internal_GetString_m346869803_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.NetworkViewID::INTERNAL_CALL_Internal_GetString(UnityEngine.NetworkViewID&)");
-	return _il2cpp_icall_func(___value0);
-}
-// System.Boolean UnityEngine.NetworkViewID::Internal_Compare(UnityEngine.NetworkViewID,UnityEngine.NetworkViewID)
-extern "C"  bool NetworkViewID_Internal_Compare_m3248992772 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548  ___lhs0, NetworkViewID_t3942988548  ___rhs1, const MethodInfo* method)
-{
-	bool V_0 = false;
-	{
-		bool L_0 = NetworkViewID_INTERNAL_CALL_Internal_Compare_m61154333(NULL /*static, unused*/, (&___lhs0), (&___rhs1), /*hidden argument*/NULL);
-		V_0 = L_0;
-		goto IL_0010;
-	}
-
-IL_0010:
-	{
-		bool L_1 = V_0;
-		return L_1;
-	}
-}
-// System.Boolean UnityEngine.NetworkViewID::INTERNAL_CALL_Internal_Compare(UnityEngine.NetworkViewID&,UnityEngine.NetworkViewID&)
-extern "C"  bool NetworkViewID_INTERNAL_CALL_Internal_Compare_m61154333 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548 * ___lhs0, NetworkViewID_t3942988548 * ___rhs1, const MethodInfo* method)
-{
-	typedef bool (*NetworkViewID_INTERNAL_CALL_Internal_Compare_m61154333_ftn) (NetworkViewID_t3942988548 *, NetworkViewID_t3942988548 *);
-	static NetworkViewID_INTERNAL_CALL_Internal_Compare_m61154333_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (NetworkViewID_INTERNAL_CALL_Internal_Compare_m61154333_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.NetworkViewID::INTERNAL_CALL_Internal_Compare(UnityEngine.NetworkViewID&,UnityEngine.NetworkViewID&)");
-	return _il2cpp_icall_func(___lhs0, ___rhs1);
-}
-// System.Boolean UnityEngine.NetworkViewID::op_Equality(UnityEngine.NetworkViewID,UnityEngine.NetworkViewID)
-extern "C"  bool NetworkViewID_op_Equality_m4173239775 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548  ___lhs0, NetworkViewID_t3942988548  ___rhs1, const MethodInfo* method)
-{
-	bool V_0 = false;
-	{
-		NetworkViewID_t3942988548  L_0 = ___lhs0;
-		NetworkViewID_t3942988548  L_1 = ___rhs1;
-		bool L_2 = NetworkViewID_Internal_Compare_m3248992772(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
-		V_0 = L_2;
-		goto IL_000e;
-	}
-
-IL_000e:
-	{
-		bool L_3 = V_0;
-		return L_3;
-	}
-}
-// System.Boolean UnityEngine.NetworkViewID::op_Inequality(UnityEngine.NetworkViewID,UnityEngine.NetworkViewID)
-extern "C"  bool NetworkViewID_op_Inequality_m309368134 (Il2CppObject * __this /* static, unused */, NetworkViewID_t3942988548  ___lhs0, NetworkViewID_t3942988548  ___rhs1, const MethodInfo* method)
-{
-	bool V_0 = false;
-	{
-		NetworkViewID_t3942988548  L_0 = ___lhs0;
-		NetworkViewID_t3942988548  L_1 = ___rhs1;
-		bool L_2 = NetworkViewID_Internal_Compare_m3248992772(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
-		V_0 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		goto IL_0011;
-	}
-
-IL_0011:
-	{
-		bool L_3 = V_0;
-		return L_3;
-	}
-}
-// System.Int32 UnityEngine.NetworkViewID::GetHashCode()
-extern "C"  int32_t NetworkViewID_GetHashCode_m3141878442 (NetworkViewID_t3942988548 * __this, const MethodInfo* method)
-{
-	int32_t V_0 = 0;
-	{
-		int32_t L_0 = __this->get_a_0();
-		int32_t L_1 = __this->get_b_1();
-		int32_t L_2 = __this->get_c_2();
-		V_0 = ((int32_t)((int32_t)((int32_t)((int32_t)L_0^(int32_t)L_1))^(int32_t)L_2));
-		goto IL_001b;
-	}
-
-IL_001b:
-	{
-		int32_t L_3 = V_0;
-		return L_3;
-	}
-}
-extern "C"  int32_t NetworkViewID_GetHashCode_m3141878442_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	NetworkViewID_t3942988548 * _thisAdjusted = reinterpret_cast<NetworkViewID_t3942988548 *>(__this + 1);
-	return NetworkViewID_GetHashCode_m3141878442(_thisAdjusted, method);
-}
-// System.Boolean UnityEngine.NetworkViewID::Equals(System.Object)
-extern "C"  bool NetworkViewID_Equals_m809788370 (NetworkViewID_t3942988548 * __this, Il2CppObject * ___other0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (NetworkViewID_Equals_m809788370_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	NetworkViewID_t3942988548  V_1;
-	memset(&V_1, 0, sizeof(V_1));
-	{
-		Il2CppObject * L_0 = ___other0;
-		if (((Il2CppObject *)IsInstSealed(L_0, NetworkViewID_t3942988548_il2cpp_TypeInfo_var)))
-		{
-			goto IL_0013;
-		}
-	}
-	{
-		V_0 = (bool)0;
-		goto IL_002c;
-	}
-
-IL_0013:
-	{
-		Il2CppObject * L_1 = ___other0;
-		V_1 = ((*(NetworkViewID_t3942988548 *)((NetworkViewID_t3942988548 *)UnBox(L_1, NetworkViewID_t3942988548_il2cpp_TypeInfo_var))));
-		NetworkViewID_t3942988548  L_2 = V_1;
-		bool L_3 = NetworkViewID_Internal_Compare_m3248992772(NULL /*static, unused*/, (*(NetworkViewID_t3942988548 *)__this), L_2, /*hidden argument*/NULL);
-		V_0 = L_3;
-		goto IL_002c;
-	}
-
-IL_002c:
-	{
-		bool L_4 = V_0;
-		return L_4;
-	}
-}
-extern "C"  bool NetworkViewID_Equals_m809788370_AdjustorThunk (Il2CppObject * __this, Il2CppObject * ___other0, const MethodInfo* method)
-{
-	NetworkViewID_t3942988548 * _thisAdjusted = reinterpret_cast<NetworkViewID_t3942988548 *>(__this + 1);
-	return NetworkViewID_Equals_m809788370(_thisAdjusted, ___other0, method);
-}
-// System.Boolean UnityEngine.NetworkViewID::get_isMine()
-extern "C"  bool NetworkViewID_get_isMine_m1234363003 (NetworkViewID_t3942988548 * __this, const MethodInfo* method)
-{
-	bool V_0 = false;
-	{
-		bool L_0 = NetworkViewID_Internal_IsMine_m763014699(NULL /*static, unused*/, (*(NetworkViewID_t3942988548 *)__this), /*hidden argument*/NULL);
-		V_0 = L_0;
-		goto IL_0012;
-	}
-
-IL_0012:
-	{
-		bool L_1 = V_0;
-		return L_1;
-	}
-}
-extern "C"  bool NetworkViewID_get_isMine_m1234363003_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	NetworkViewID_t3942988548 * _thisAdjusted = reinterpret_cast<NetworkViewID_t3942988548 *>(__this + 1);
-	return NetworkViewID_get_isMine_m1234363003(_thisAdjusted, method);
-}
-// UnityEngine.NetworkPlayer UnityEngine.NetworkViewID::get_owner()
-extern "C"  NetworkPlayer_t1243528291  NetworkViewID_get_owner_m1900957708 (NetworkViewID_t3942988548 * __this, const MethodInfo* method)
-{
-	NetworkPlayer_t1243528291  V_0;
-	memset(&V_0, 0, sizeof(V_0));
-	NetworkPlayer_t1243528291  V_1;
-	memset(&V_1, 0, sizeof(V_1));
-	{
-		NetworkViewID_Internal_GetOwner_m89862041(NULL /*static, unused*/, (*(NetworkViewID_t3942988548 *)__this), (&V_0), /*hidden argument*/NULL);
-		NetworkPlayer_t1243528291  L_0 = V_0;
-		V_1 = L_0;
-		goto IL_0015;
-	}
-
-IL_0015:
-	{
-		NetworkPlayer_t1243528291  L_1 = V_1;
-		return L_1;
-	}
-}
-extern "C"  NetworkPlayer_t1243528291  NetworkViewID_get_owner_m1900957708_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	NetworkViewID_t3942988548 * _thisAdjusted = reinterpret_cast<NetworkViewID_t3942988548 *>(__this + 1);
-	return NetworkViewID_get_owner_m1900957708(_thisAdjusted, method);
-}
-// System.String UnityEngine.NetworkViewID::ToString()
-extern "C"  String_t* NetworkViewID_ToString_m3348378544 (NetworkViewID_t3942988548 * __this, const MethodInfo* method)
-{
-	String_t* V_0 = NULL;
-	{
-		String_t* L_0 = NetworkViewID_Internal_GetString_m403971590(NULL /*static, unused*/, (*(NetworkViewID_t3942988548 *)__this), /*hidden argument*/NULL);
-		V_0 = L_0;
-		goto IL_0012;
-	}
-
-IL_0012:
-	{
-		String_t* L_1 = V_0;
-		return L_1;
-	}
-}
-extern "C"  String_t* NetworkViewID_ToString_m3348378544_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	NetworkViewID_t3942988548 * _thisAdjusted = reinterpret_cast<NetworkViewID_t3942988548 *>(__this + 1);
-	return NetworkViewID_ToString_m3348378544(_thisAdjusted, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

@@ -11,17 +11,26 @@ public class ARPlaneManager : MonoBehaviour {
 
 	private void Start() {
 		m_PlaneAnchorObject = new PlaneAnchorObject ();
-		m_PlaneAnchorObject.planeObject = GameObject.Instantiate (m_PlanePrefab);
 
 		UnityARSessionNativeInterface.ARAnchorUpdatedEvent += UpdateCurrentPlaneAnchor;
 	}
 
 	public void UpdateCurrentPlaneAnchor(ARPlaneAnchor arPlaneAnchor) {
-		m_PlaneAnchorObject.anchor = arPlaneAnchor;
+        if (m_ARTerrainManager.m_TerrainAnchorObject.anchor.identifier != arPlaneAnchor.identifier) {
+            if (m_PlaneAnchorObject.planeObject == null) {
+                m_PlaneAnchorObject.planeObject = GameObject.Instantiate (m_PlanePrefab);
+            }
+            m_PlaneAnchorObject.anchor = arPlaneAnchor;
 
-        if (m_ARTerrainManager.m_TerrainAnchorObject.anchor.identifier != arPlaneAnchor.identifier)
             UnityARUtility.UpdatePlaneWithAnchorTransform (m_PlaneAnchorObject.planeObject, m_PlaneAnchorObject.anchor);
+        }       
 	}
+
+    public void DestroyCurrentPlaneObject() {
+        if (m_PlaneAnchorObject.planeObject != null) {
+            Destroy (m_PlaneAnchorObject.planeObject);
+        }
+    }
 }
 
 public struct PlaneAnchorObject {

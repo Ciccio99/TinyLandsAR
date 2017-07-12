@@ -49,22 +49,50 @@ namespace UnityEngine.XR.iOS
 			return plane;
 		}
 
-		public static GameObject UpdateObjectWithAnchorTransform(GameObject go, ARPlaneAnchor arPlaneAnchor, float scaling)
-		{
-			//do coordinate conversion from ARKit to Unity
-			go.transform.position = UnityARMatrixOps.GetPosition (arPlaneAnchor.transform);
-			go.transform.rotation = UnityARMatrixOps.GetRotation (arPlaneAnchor.transform);
+//		public static GameObject UpdateObjectWithAnchorTransform(GameObject go, ARPlaneAnchor arPlaneAnchor, float scaling)
+//		{
+//			//do coordinate conversion from ARKit to Unity
+//			go.transform.position = UnityARMatrixOps.GetPosition (arPlaneAnchor.transform);
+//			go.transform.rotation = UnityARMatrixOps.GetRotation (arPlaneAnchor.transform);
+//
+//            MeshFilter mf = go.GetComponentInChildren<MeshFilter> ();
+//            float minExtent = Mathf.Min (arPlaneAnchor.extent.x, arPlaneAnchor.extent.z);
+//
+//            if (mf != null) {
+//                mf.gameObject.transform.localScale = new Vector3 (arPlaneAnchor.extent.x * scaling, minExtent * scaling, arPlaneAnchor.extent.z * scaling);
+//
+//                mf.gameObject.transform.localPosition = new Vector3 (arPlaneAnchor.center.x, arPlaneAnchor.center.y, -arPlaneAnchor.center.z);
+//            }
+//			return go;
+//		}
 
-            MeshFilter mf = go.GetComponentInChildren<MeshFilter> ();
-            float minExtent = Mathf.Min (arPlaneAnchor.extent.x, arPlaneAnchor.extent.z);
+        public static GameObject UpdateObjectWithAnchorTransform(GameObject go, ARPlaneAnchor arPlaneAnchor, float scaling)
+        {
+            // Do coordinate conversion from ARKit to Unity to position the parent object correctly between 
+            // unity space and real life space
+            go.transform.position = UnityARMatrixOps.GetPosition (arPlaneAnchor.transform);
+            go.transform.rotation = UnityARMatrixOps.GetRotation (arPlaneAnchor.transform);
 
-            if (mf != null) {
-                mf.gameObject.transform.localScale = new Vector3 (arPlaneAnchor.extent.x * scaling, minExtent * scaling, arPlaneAnchor.extent.z * scaling);
+            // Get the extents of the plane and use it to modify your object scale
+            // The anchorPlanes extent.y is always 0, so use an average of x & z to get an approximation
+            float avgExtent = (arPlaneAnchor.extent.x + arPlaneAnchor.extent.z) / 2f;
+//            float scaleX = arPlaneAnchor.extent.x * scaling;
+//            float scaleY = avgExtent * scaling;
+//            float scaleZ = arPlaneAnchor.extent.z * scaling;
+            float scaleX = avgExtent * scaling;
+            float scaleY = avgExtent * scaling;
+            float scaleZ = avgExtent * scaling;
 
-                mf.gameObject.transform.localPosition = new Vector3 (arPlaneAnchor.center.x, arPlaneAnchor.center.y, -arPlaneAnchor.center.z);
+            // Scale the parent object so that all children scale equally
+            go.transform.localScale = new Vector3 (scaleX, scaleY, scaleZ);
+                       
+            // Now change the position of the children so that they're realistically placed in the world
+            foreach (Transform tf in go.transform) {
+                tf.localPosition = new Vector3 (arPlaneAnchor.center.x, arPlaneAnchor.center.y, -arPlaneAnchor.center.z);
             }
-			return go;
-		}
+                
+            return go;
+        }
 	}
 }
 

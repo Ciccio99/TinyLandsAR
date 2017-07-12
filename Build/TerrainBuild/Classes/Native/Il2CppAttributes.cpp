@@ -32675,12 +32675,12 @@ static void BoxSlider_t1871650694_CustomAttributesCacheGenerator_m_HandleRect(Cu
 static void BoxSlider_t1871650694_CustomAttributesCacheGenerator_m_MinValue(CustomAttributesCache* cache)
 {
 	{
-		SerializeField_t3073427462 * tmp = (SerializeField_t3073427462 *)cache->attributes[0];
-		SerializeField__ctor_m994129777(tmp, NULL);
+		SpaceAttribute_t952253354 * tmp = (SpaceAttribute_t952253354 *)cache->attributes[0];
+		SpaceAttribute__ctor_m1444406696(tmp, 6.0f, NULL);
 	}
 	{
-		SpaceAttribute_t952253354 * tmp = (SpaceAttribute_t952253354 *)cache->attributes[1];
-		SpaceAttribute__ctor_m1444406696(tmp, 6.0f, NULL);
+		SerializeField_t3073427462 * tmp = (SerializeField_t3073427462 *)cache->attributes[1];
+		SerializeField__ctor_m994129777(tmp, NULL);
 	}
 }
 static void BoxSlider_t1871650694_CustomAttributesCacheGenerator_m_MaxValue(CustomAttributesCache* cache)
@@ -32783,12 +32783,12 @@ static void UnityARSessionNativeInterface_t1130867170_CustomAttributesCacheGener
 static void UnityARSessionNativeInterface_t1130867170_CustomAttributesCacheGenerator_ARSessionFailedEvent(CustomAttributesCache* cache)
 {
 	{
-		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+		DebuggerBrowsableAttribute_t1386379234 * tmp = (DebuggerBrowsableAttribute_t1386379234 *)cache->attributes[0];
+		DebuggerBrowsableAttribute__ctor_m3729055103(tmp, 0LL, NULL);
 	}
 	{
-		DebuggerBrowsableAttribute_t1386379234 * tmp = (DebuggerBrowsableAttribute_t1386379234 *)cache->attributes[1];
-		DebuggerBrowsableAttribute__ctor_m3729055103(tmp, 0LL, NULL);
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[1];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
 	}
 }
 static void UnityARSessionNativeInterface_t1130867170_CustomAttributesCacheGenerator_U3CU3Ef__mgU24cache0(CustomAttributesCache* cache)
@@ -35651,26 +35651,15 @@ static void U3CDisableButtonForSecondsU3Ec__Iterator4_t543876933_CustomAttribute
 static void ARAnchorManager_t2292034343_CustomAttributesCacheGenerator_CurrentAnchorUpdatedEvent(CustomAttributesCache* cache)
 {
 	{
-		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+		DebuggerBrowsableAttribute_t1386379234 * tmp = (DebuggerBrowsableAttribute_t1386379234 *)cache->attributes[0];
+		DebuggerBrowsableAttribute__ctor_m3729055103(tmp, 0LL, NULL);
 	}
 	{
-		DebuggerBrowsableAttribute_t1386379234 * tmp = (DebuggerBrowsableAttribute_t1386379234 *)cache->attributes[1];
-		DebuggerBrowsableAttribute__ctor_m3729055103(tmp, 0LL, NULL);
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[1];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
 	}
 }
 static void PlaneAnchorObject_t3628153532_CustomAttributesCacheGenerator_U3CplaneObjectU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	{
-		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
-	}
-	{
-		DebuggerBrowsableAttribute_t1386379234 * tmp = (DebuggerBrowsableAttribute_t1386379234 *)cache->attributes[1];
-		DebuggerBrowsableAttribute__ctor_m3729055103(tmp, 0LL, NULL);
-	}
-}
-static void PlaneAnchorObject_t3628153532_CustomAttributesCacheGenerator_U3CanchorU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	{
 		DebuggerBrowsableAttribute_t1386379234 * tmp = (DebuggerBrowsableAttribute_t1386379234 *)cache->attributes[0];
@@ -35679,6 +35668,17 @@ static void PlaneAnchorObject_t3628153532_CustomAttributesCacheGenerator_U3Canch
 	{
 		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[1];
 		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+	}
+}
+static void PlaneAnchorObject_t3628153532_CustomAttributesCacheGenerator_U3CanchorU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+	}
+	{
+		DebuggerBrowsableAttribute_t1386379234 * tmp = (DebuggerBrowsableAttribute_t1386379234 *)cache->attributes[1];
+		DebuggerBrowsableAttribute__ctor_m3729055103(tmp, 0LL, NULL);
 	}
 }
 static void PlaneAnchorObject_t3628153532_CustomAttributesCacheGenerator_PlaneAnchorObject_get_planeObject_m1587987808(CustomAttributesCache* cache)
@@ -35709,6 +35709,20 @@ static void PlaneAnchorObject_t3628153532_CustomAttributesCacheGenerator_PlaneAn
 		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
 	}
 }
+static void ARTerrainManager_t2018264653_CustomAttributesCacheGenerator_m_TerrainSelectRadius(CustomAttributesCache* cache)
+{
+	{
+		RangeAttribute_t3336560921 * tmp = (RangeAttribute_t3336560921 *)cache->attributes[0];
+		RangeAttribute__ctor_m1657271662(tmp, 0.01f, 0.1f, NULL);
+	}
+}
+static void ARTerrainManager_t2018264653_CustomAttributesCacheGenerator_m_TerrainCurveValue(CustomAttributesCache* cache)
+{
+	{
+		RangeAttribute_t3336560921 * tmp = (RangeAttribute_t3336560921 *)cache->attributes[0];
+		RangeAttribute__ctor_m1657271662(tmp, 1.0f, 10.0f, NULL);
+	}
+}
 static void ARTerrainManager_t2018264653_CustomAttributesCacheGenerator_m_TerrainSpawned(CustomAttributesCache* cache)
 {
 	{
@@ -35730,12 +35744,12 @@ static void TerrainAnchorObject_t1214709381_CustomAttributesCacheGenerator_U3Cte
 static void TerrainAnchorObject_t1214709381_CustomAttributesCacheGenerator_U3CterrainGOChildU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	{
-		DebuggerBrowsableAttribute_t1386379234 * tmp = (DebuggerBrowsableAttribute_t1386379234 *)cache->attributes[0];
-		DebuggerBrowsableAttribute__ctor_m3729055103(tmp, 0LL, NULL);
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
 	}
 	{
-		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+		DebuggerBrowsableAttribute_t1386379234 * tmp = (DebuggerBrowsableAttribute_t1386379234 *)cache->attributes[1];
+		DebuggerBrowsableAttribute__ctor_m3729055103(tmp, 0LL, NULL);
 	}
 }
 static void TerrainAnchorObject_t1214709381_CustomAttributesCacheGenerator_U3CanchorU3Ek__BackingField(CustomAttributesCache* cache)
@@ -35794,12 +35808,12 @@ static void TerrainAnchorObject_t1214709381_CustomAttributesCacheGenerator_Terra
 static void TerrainPoint_t3086956645_CustomAttributesCacheGenerator_U3CindexU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	{
-		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+		DebuggerBrowsableAttribute_t1386379234 * tmp = (DebuggerBrowsableAttribute_t1386379234 *)cache->attributes[0];
+		DebuggerBrowsableAttribute__ctor_m3729055103(tmp, 0LL, NULL);
 	}
 	{
-		DebuggerBrowsableAttribute_t1386379234 * tmp = (DebuggerBrowsableAttribute_t1386379234 *)cache->attributes[1];
-		DebuggerBrowsableAttribute__ctor_m3729055103(tmp, 0LL, NULL);
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[1];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
 	}
 }
 static void TerrainPoint_t3086956645_CustomAttributesCacheGenerator_U3CpointU3Ek__BackingField(CustomAttributesCache* cache)
@@ -35869,6 +35883,17 @@ static void TerrainPoint_t3086956645_CustomAttributesCacheGenerator_TerrainPoint
 static void ARTouchManager_t1310965619_CustomAttributesCacheGenerator_ARTouchPlaneUpdateEvent(CustomAttributesCache* cache)
 {
 	{
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+	}
+	{
+		DebuggerBrowsableAttribute_t1386379234 * tmp = (DebuggerBrowsableAttribute_t1386379234 *)cache->attributes[1];
+		DebuggerBrowsableAttribute__ctor_m3729055103(tmp, 0LL, NULL);
+	}
+}
+static void ARTouchManager_t1310965619_CustomAttributesCacheGenerator_ARTouchBeganUpdateEvent(CustomAttributesCache* cache)
+{
+	{
 		DebuggerBrowsableAttribute_t1386379234 * tmp = (DebuggerBrowsableAttribute_t1386379234 *)cache->attributes[0];
 		DebuggerBrowsableAttribute__ctor_m3729055103(tmp, 0LL, NULL);
 	}
@@ -35877,7 +35902,7 @@ static void ARTouchManager_t1310965619_CustomAttributesCacheGenerator_ARTouchPla
 		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
 	}
 }
-static void ARTouchManager_t1310965619_CustomAttributesCacheGenerator_ARTouchBeganUpdateEvent(CustomAttributesCache* cache)
+static void ARTouchManager_t1310965619_CustomAttributesCacheGenerator_ARTouchMovedUpdateEvent(CustomAttributesCache* cache)
 {
 	{
 		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
@@ -35888,26 +35913,15 @@ static void ARTouchManager_t1310965619_CustomAttributesCacheGenerator_ARTouchBeg
 		DebuggerBrowsableAttribute__ctor_m3729055103(tmp, 0LL, NULL);
 	}
 }
-static void ARTouchManager_t1310965619_CustomAttributesCacheGenerator_ARTouchMovedUpdateEvent(CustomAttributesCache* cache)
-{
-	{
-		DebuggerBrowsableAttribute_t1386379234 * tmp = (DebuggerBrowsableAttribute_t1386379234 *)cache->attributes[0];
-		DebuggerBrowsableAttribute__ctor_m3729055103(tmp, 0LL, NULL);
-	}
-	{
-		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
-	}
-}
 static void ARTouchManager_t1310965619_CustomAttributesCacheGenerator_ARTouchEndedUpdateEvent(CustomAttributesCache* cache)
 {
 	{
-		DebuggerBrowsableAttribute_t1386379234 * tmp = (DebuggerBrowsableAttribute_t1386379234 *)cache->attributes[0];
-		DebuggerBrowsableAttribute__ctor_m3729055103(tmp, 0LL, NULL);
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
 	}
 	{
-		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+		DebuggerBrowsableAttribute_t1386379234 * tmp = (DebuggerBrowsableAttribute_t1386379234 *)cache->attributes[1];
+		DebuggerBrowsableAttribute__ctor_m3729055103(tmp, 0LL, NULL);
 	}
 }
 static void MapGenerator_t237211197_CustomAttributesCacheGenerator_levelOfDetail(CustomAttributesCache* cache)
@@ -36207,12 +36221,12 @@ static void TMP_TextInfoDebugTool_t548826358_CustomAttributesCacheGenerator(Cust
 static void TMP_TextInfoDebugTool_t548826358_CustomAttributesCacheGenerator_ObjectStats(CustomAttributesCache* cache)
 {
 	{
-		TextAreaAttribute_t2454598508 * tmp = (TextAreaAttribute_t2454598508 *)cache->attributes[0];
-		TextAreaAttribute__ctor_m2320572467(tmp, 2LL, 2LL, NULL);
+		SpaceAttribute_t952253354 * tmp = (SpaceAttribute_t952253354 *)cache->attributes[0];
+		SpaceAttribute__ctor_m1444406696(tmp, 10.0f, NULL);
 	}
 	{
-		SpaceAttribute_t952253354 * tmp = (SpaceAttribute_t952253354 *)cache->attributes[1];
-		SpaceAttribute__ctor_m1444406696(tmp, 10.0f, NULL);
+		TextAreaAttribute_t2454598508 * tmp = (TextAreaAttribute_t2454598508 *)cache->attributes[1];
+		TextAreaAttribute__ctor_m2320572467(tmp, 2LL, 2LL, NULL);
 	}
 }
 static void TeleType_t2513439854_CustomAttributesCacheGenerator_TeleType_Start_m1051624886(CustomAttributesCache* cache)
@@ -37592,7 +37606,7 @@ static void U24_t2131468630_CustomAttributesCacheGenerator(CustomAttributesCache
 		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
 	}
 }
-extern const CustomAttributesCacheGenerator g_AttributeGenerators[4648] = 
+extern const CustomAttributesCacheGenerator g_AttributeGenerators[4650] = 
 {
 	NULL,
 	g_mscorlib_Assembly_CustomAttributesCacheGenerator,
@@ -41980,6 +41994,8 @@ extern const CustomAttributesCacheGenerator g_AttributeGenerators[4648] =
 	PlaneAnchorObject_t3628153532_CustomAttributesCacheGenerator_PlaneAnchorObject_set_planeObject_m1038256811,
 	PlaneAnchorObject_t3628153532_CustomAttributesCacheGenerator_PlaneAnchorObject_get_anchor_m1711371288,
 	PlaneAnchorObject_t3628153532_CustomAttributesCacheGenerator_PlaneAnchorObject_set_anchor_m3248160625,
+	ARTerrainManager_t2018264653_CustomAttributesCacheGenerator_m_TerrainSelectRadius,
+	ARTerrainManager_t2018264653_CustomAttributesCacheGenerator_m_TerrainCurveValue,
 	ARTerrainManager_t2018264653_CustomAttributesCacheGenerator_m_TerrainSpawned,
 	TerrainAnchorObject_t1214709381_CustomAttributesCacheGenerator_U3CterrainObjectU3Ek__BackingField,
 	TerrainAnchorObject_t1214709381_CustomAttributesCacheGenerator_U3CterrainGOChildU3Ek__BackingField,

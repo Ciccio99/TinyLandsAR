@@ -14458,6 +14458,8 @@ extern "C" void HSVUtil_ConvertHsvToRgb_m2339284600 ();
 extern "C" void LevelReset__ctor_m1014885908 ();
 extern "C" void LevelReset_OnPointerClick_m4066508708 ();
 extern "C" void LevelReset_Update_m811823253 ();
+extern "C" void LookTowardsObject__ctor_m2642530845 ();
+extern "C" void LookTowardsObject_Start_m1889348733 ();
 extern "C" void MapDisplay__ctor_m2906290645 ();
 extern "C" void MapDisplay_DrawTexture_m1714517244 ();
 extern "C" void MapDisplay_DrawMesh_m3648264271 ();
@@ -15389,7 +15391,7 @@ extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene5_m1426789968 ();
 extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene6_m163234005 ();
 extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene7_m1709114970 ();
 extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene8_m1769465567 ();
-extern const Il2CppMethodPointer g_MethodPointers[15375] = 
+extern const Il2CppMethodPointer g_MethodPointers[15377] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -29835,6 +29837,8 @@ extern const Il2CppMethodPointer g_MethodPointers[15375] =
 	LevelReset__ctor_m1014885908,
 	LevelReset_OnPointerClick_m4066508708,
 	LevelReset_Update_m811823253,
+	LookTowardsObject__ctor_m2642530845,
+	LookTowardsObject_Start_m1889348733,
 	MapDisplay__ctor_m2906290645,
 	MapDisplay_DrawTexture_m1714517244,
 	MapDisplay_DrawMesh_m3648264271,

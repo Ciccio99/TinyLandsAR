@@ -2545,9 +2545,9 @@ extern "C"  void ARTerrainManager_Awake_m4135509805 (ARTerrainManager_t201826465
 	memset(&V_0, 0, sizeof(V_0));
 	{
 		// m_TerrainSpawned = false;
-		__this->set_m_TerrainSpawned_10((bool)0);
+		__this->set_m_TerrainSpawned_11((bool)0);
 		// m_CurrentManipPhase = ManipPhase.NONE;
-		__this->set_m_CurrentManipPhase_11(3);
+		__this->set_m_CurrentManipPhase_12(3);
 		// m_TerrainPoints = new List<TerrainPoint> ();
 		// m_TerrainPoints = new List<TerrainPoint> ();
 		List_1_t2456077777 * L_0 = (List_1_t2456077777 *)il2cpp_codegen_object_new(List_1_t2456077777_il2cpp_TypeInfo_var);
@@ -2572,7 +2572,7 @@ extern "C"  void ARTerrainManager_CreateTerrainAnchorObject_m3217380875 (ARTerra
 	}
 	{
 		// if (m_TerrainSpawned) {
-		bool L_0 = __this->get_m_TerrainSpawned_10();
+		bool L_0 = __this->get_m_TerrainSpawned_11();
 		if (!L_0)
 		{
 			goto IL_0014;
@@ -2625,7 +2625,7 @@ IL_0014:
 		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
 		UnityARSessionNativeInterface_add_ARAnchorUpdatedEvent_m896905782(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
 		// m_TerrainSpawned = true;
-		__this->set_m_TerrainSpawned_10((bool)1);
+		__this->set_m_TerrainSpawned_11((bool)1);
 		// }
 		return;
 	}
@@ -2656,7 +2656,7 @@ extern "C"  void ARTerrainManager_DestroyCurrentTerrainAnchorObject_m3511145700 
 		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
 		Object_Destroy_m4145850038(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		// m_TerrainSpawned = false;
-		__this->set_m_TerrainSpawned_10((bool)0);
+		__this->set_m_TerrainSpawned_11((bool)0);
 		// }
 		return;
 	}
@@ -2733,7 +2733,7 @@ extern "C"  void ARTerrainManager_OnTerrainManipulationMoved_m2066561938 (ARTerr
 	NO_UNUSED_WARNING (__leave_target);
 	{
 		// if (m_CurrentManipPhase == ManipPhase.MOVED) {
-		int32_t L_0 = __this->get_m_CurrentManipPhase_11();
+		int32_t L_0 = __this->get_m_CurrentManipPhase_12();
 		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
 		{
 			goto IL_00d3;
@@ -2774,12 +2774,12 @@ extern "C"  void ARTerrainManager_OnTerrainManipulationMoved_m2066561938 (ARTerr
 		// m_TouchDirection = touchEvent.position - m_StartTouchPosition;
 		// m_TouchDirection = touchEvent.position - m_StartTouchPosition;
 		Vector2_t2243707579  L_10 = Touch_get_position_m2079703643((&___touchEvent0), /*hidden argument*/NULL);
-		Vector2_t2243707579  L_11 = __this->get_m_StartTouchPosition_13();
+		Vector2_t2243707579  L_11 = __this->get_m_StartTouchPosition_14();
 		// m_TouchDirection = touchEvent.position - m_StartTouchPosition;
 		Vector2_t2243707579  L_12 = Vector2_op_Subtraction_m1984215297(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
-		__this->set_m_TouchDirection_14(L_12);
+		__this->set_m_TouchDirection_15(L_12);
 		// float modification = (float)m_TouchDirection.y / m_TerrainModifyRate;
-		Vector2_t2243707579 * L_13 = __this->get_address_of_m_TouchDirection_14();
+		Vector2_t2243707579 * L_13 = __this->get_address_of_m_TouchDirection_15();
 		float L_14 = L_13->get_y_1();
 		float L_15 = __this->get_m_TerrainModifyRate_7();
 		V_3 = ((float)((float)(((float)((float)L_14)))/(float)L_15));
@@ -2886,7 +2886,7 @@ extern "C"  void ARTerrainManager_OnTerrainManipulationEnd_m2013874056 (ARTerrai
 	MeshFilter_t3026937449 * V_1 = NULL;
 	{
 		// m_CurrentManipPhase = ManipPhase.ENDED;
-		__this->set_m_CurrentManipPhase_11(2);
+		__this->set_m_CurrentManipPhase_12(2);
 		// m_TerrainPoints.Clear ();
 		List_1_t2456077777 * L_0 = __this->get_m_TerrainPoints_16();
 		// m_TerrainPoints.Clear ();
@@ -2949,15 +2949,13 @@ extern "C"  void ARTerrainManager_ExtractManipulationData_m750880693 (ARTerrainM
 	GameObject_t1756533147 * V_0 = NULL;
 	MeshFilter_t3026937449 * V_1 = NULL;
 	Vector3U5BU5D_t1172311765* V_2 = NULL;
-	int32_t V_3 = 0;
-	float V_4 = 0.0f;
-	float V_5 = 0.0f;
-	int32_t V_6 = 0;
-	Vector3_t2243707580  V_7;
-	memset(&V_7, 0, sizeof(V_7));
-	Matrix4x4_t2933234003  V_8;
-	memset(&V_8, 0, sizeof(V_8));
-	float V_9 = 0.0f;
+	float V_3 = 0.0f;
+	int32_t V_4 = 0;
+	Vector3_t2243707580  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Matrix4x4_t2933234003  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	float V_7 = 0.0f;
 	{
 		// GameObject terrainGO = m_TerrainAnchorObject.terrainGOChild;
 		TerrainAnchorObject_t1214709381 * L_0 = __this->get_address_of_m_TerrainAnchorObject_6();
@@ -2977,7 +2975,7 @@ extern "C"  void ARTerrainManager_ExtractManipulationData_m750880693 (ARTerrainM
 		bool L_5 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
 		if (!L_5)
 		{
-			goto IL_00eb;
+			goto IL_00c9;
 		}
 	}
 	{
@@ -2990,18 +2988,14 @@ extern "C"  void ARTerrainManager_ExtractManipulationData_m750880693 (ARTerrainM
 		NullCheck(L_7);
 		Vector3U5BU5D_t1172311765* L_8 = Mesh_get_vertices_m626989480(L_7, /*hidden argument*/NULL);
 		V_2 = L_8;
-		// int shortestInd = 0;
-		V_3 = 0;
 		// float shortestDist = Mathf.Infinity;
-		V_4 = (std::numeric_limits<float>::infinity());
-		// float tallestDist = Mathf.NegativeInfinity;
-		V_5 = (-std::numeric_limits<float>::infinity());
+		V_3 = (std::numeric_limits<float>::infinity());
 		// for (int i = 0; i < vertices.Length; i++) {
-		V_6 = 0;
-		goto IL_00cc;
+		V_4 = 0;
+		goto IL_00b1;
 	}
 
-IL_0045:
+IL_003b:
 	{
 		// Vector3 vert = terrainGO.transform.localToWorldMatrix.MultiplyPoint3x4 (vertices [i]);
 		GameObject_t1756533147 * L_9 = V_0;
@@ -3011,99 +3005,78 @@ IL_0045:
 		// Vector3 vert = terrainGO.transform.localToWorldMatrix.MultiplyPoint3x4 (vertices [i]);
 		NullCheck(L_10);
 		Matrix4x4_t2933234003  L_11 = Transform_get_localToWorldMatrix_m2868579006(L_10, /*hidden argument*/NULL);
-		V_8 = L_11;
+		V_6 = L_11;
 		Vector3U5BU5D_t1172311765* L_12 = V_2;
-		int32_t L_13 = V_6;
+		int32_t L_13 = V_4;
 		NullCheck(L_12);
 		// Vector3 vert = terrainGO.transform.localToWorldMatrix.MultiplyPoint3x4 (vertices [i]);
-		Vector3_t2243707580  L_14 = Matrix4x4_MultiplyPoint3x4_m1007952212((&V_8), (*(Vector3_t2243707580 *)((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))), /*hidden argument*/NULL);
-		V_7 = L_14;
+		Vector3_t2243707580  L_14 = Matrix4x4_MultiplyPoint3x4_m1007952212((&V_6), (*(Vector3_t2243707580 *)((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))), /*hidden argument*/NULL);
+		V_5 = L_14;
 		// float magnitude = Vector3.Magnitude (hitPoint - vert);
 		Vector3_t2243707580  L_15 = ___hitPoint0;
-		Vector3_t2243707580  L_16 = V_7;
+		Vector3_t2243707580  L_16 = V_5;
 		// float magnitude = Vector3.Magnitude (hitPoint - vert);
 		Vector3_t2243707580  L_17 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_15, L_16, /*hidden argument*/NULL);
 		// float magnitude = Vector3.Magnitude (hitPoint - vert);
 		float L_18 = Vector3_Magnitude_m1349200714(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
-		V_9 = L_18;
-		// if (magnitude < shortestDist) {
-		float L_19 = V_9;
-		float L_20 = V_4;
-		if ((!(((float)L_19) < ((float)L_20))))
-		{
-			goto IL_008a;
-		}
-	}
-	{
-		// shortestDist = magnitude;
-		float L_21 = V_9;
-		V_4 = L_21;
-		// shortestInd = i;
-		int32_t L_22 = V_6;
-		V_3 = L_22;
-	}
-
-IL_008a:
-	{
+		V_7 = L_18;
 		// if (magnitude <= m_TerrainSelectRadius) {
-		float L_23 = V_9;
-		float L_24 = __this->get_m_TerrainSelectRadius_8();
-		if ((!(((float)L_23) <= ((float)L_24))))
+		float L_19 = V_7;
+		float L_20 = __this->get_m_TerrainSelectRadius_8();
+		if ((!(((float)L_19) <= ((float)L_20))))
 		{
-			goto IL_00c5;
+			goto IL_00aa;
 		}
 	}
 	{
-		// m_TerrainPoints.Add (new TerrainPoint (i, vert, Mathf.Lerp(1f, 3f, magnitude / m_TerrainSelectRadius)));
-		List_1_t2456077777 * L_25 = __this->get_m_TerrainPoints_16();
-		int32_t L_26 = V_6;
-		Vector3_t2243707580  L_27 = V_7;
-		float L_28 = V_9;
-		float L_29 = __this->get_m_TerrainSelectRadius_8();
-		// m_TerrainPoints.Add (new TerrainPoint (i, vert, Mathf.Lerp(1f, 3f, magnitude / m_TerrainSelectRadius)));
+		// m_TerrainPoints.Add (new TerrainPoint (i, vert, Mathf.Lerp(1f, m_TerrainCurveValue, magnitude / m_TerrainSelectRadius)));
+		List_1_t2456077777 * L_21 = __this->get_m_TerrainPoints_16();
+		int32_t L_22 = V_4;
+		Vector3_t2243707580  L_23 = V_5;
+		float L_24 = __this->get_m_TerrainCurveValue_9();
+		float L_25 = V_7;
+		float L_26 = __this->get_m_TerrainSelectRadius_8();
+		// m_TerrainPoints.Add (new TerrainPoint (i, vert, Mathf.Lerp(1f, m_TerrainCurveValue, magnitude / m_TerrainSelectRadius)));
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
-		float L_30 = Mathf_Lerp_m1686556575(NULL /*static, unused*/, (1.0f), (3.0f), ((float)((float)L_28/(float)L_29)), /*hidden argument*/NULL);
-		// m_TerrainPoints.Add (new TerrainPoint (i, vert, Mathf.Lerp(1f, 3f, magnitude / m_TerrainSelectRadius)));
-		TerrainPoint_t3086956645  L_31;
-		memset(&L_31, 0, sizeof(L_31));
-		TerrainPoint__ctor_m2609008057(&L_31, L_26, L_27, L_30, /*hidden argument*/NULL);
-		// m_TerrainPoints.Add (new TerrainPoint (i, vert, Mathf.Lerp(1f, 3f, magnitude / m_TerrainSelectRadius)));
-		NullCheck(L_25);
-		List_1_Add_m2264179534(L_25, L_31, /*hidden argument*/List_1_Add_m2264179534_MethodInfo_var);
+		float L_27 = Mathf_Lerp_m1686556575(NULL /*static, unused*/, (1.0f), L_24, ((float)((float)L_25/(float)L_26)), /*hidden argument*/NULL);
+		// m_TerrainPoints.Add (new TerrainPoint (i, vert, Mathf.Lerp(1f, m_TerrainCurveValue, magnitude / m_TerrainSelectRadius)));
+		TerrainPoint_t3086956645  L_28;
+		memset(&L_28, 0, sizeof(L_28));
+		TerrainPoint__ctor_m2609008057(&L_28, L_22, L_23, L_27, /*hidden argument*/NULL);
+		// m_TerrainPoints.Add (new TerrainPoint (i, vert, Mathf.Lerp(1f, m_TerrainCurveValue, magnitude / m_TerrainSelectRadius)));
+		NullCheck(L_21);
+		List_1_Add_m2264179534(L_21, L_28, /*hidden argument*/List_1_Add_m2264179534_MethodInfo_var);
 	}
 
-IL_00c5:
+IL_00aa:
 	{
 		// for (int i = 0; i < vertices.Length; i++) {
-		int32_t L_32 = V_6;
-		V_6 = ((int32_t)((int32_t)L_32+(int32_t)1));
+		int32_t L_29 = V_4;
+		V_4 = ((int32_t)((int32_t)L_29+(int32_t)1));
 	}
 
-IL_00cc:
+IL_00b1:
 	{
 		// for (int i = 0; i < vertices.Length; i++) {
-		int32_t L_33 = V_6;
-		Vector3U5BU5D_t1172311765* L_34 = V_2;
-		NullCheck(L_34);
-		if ((((int32_t)L_33) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_34)->max_length)))))))
+		int32_t L_30 = V_4;
+		Vector3U5BU5D_t1172311765* L_31 = V_2;
+		NullCheck(L_31);
+		if ((((int32_t)L_30) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_31)->max_length)))))))
 		{
-			goto IL_0045;
+			goto IL_003b;
 		}
 	}
 	{
 		// m_StartTouchPosition = touchEvent.position;
 		// m_StartTouchPosition = touchEvent.position;
-		Vector2_t2243707579  L_35 = Touch_get_position_m2079703643((&___touchEvent1), /*hidden argument*/NULL);
-		__this->set_m_StartTouchPosition_13(L_35);
-		// m_VerticesManipIndex = shortestInd;
-		int32_t L_36 = V_3;
-		__this->set_m_VerticesManipIndex_15(L_36);
+		Vector2_t2243707579  L_32 = Touch_get_position_m2079703643((&___touchEvent1), /*hidden argument*/NULL);
+		__this->set_m_StartTouchPosition_14(L_32);
 	}
 
-IL_00eb:
+IL_00c9:
 	{
 		// m_CurrentManipPhase = ManipPhase.MOVED;
-		__this->set_m_CurrentManipPhase_11(1);
+		__this->set_m_CurrentManipPhase_12(1);
 		// }
 		return;
 	}

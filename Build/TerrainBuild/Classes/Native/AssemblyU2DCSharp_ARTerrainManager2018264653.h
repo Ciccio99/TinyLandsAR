@@ -51,20 +51,20 @@ public:
 	float ___m_TerrainModifyRate_7;
 	// System.Single ARTerrainManager::m_TerrainSelectRadius
 	float ___m_TerrainSelectRadius_8;
+	// System.Single ARTerrainManager::m_TerrainCurveValue
+	float ___m_TerrainCurveValue_9;
 	// UnityEngine.Material ARTerrainManager::m_TerrainMaterial
-	Material_t193706927 * ___m_TerrainMaterial_9;
+	Material_t193706927 * ___m_TerrainMaterial_10;
 	// System.Boolean ARTerrainManager::m_TerrainSpawned
-	bool ___m_TerrainSpawned_10;
+	bool ___m_TerrainSpawned_11;
 	// ARTerrainManager/ManipPhase ARTerrainManager::m_CurrentManipPhase
-	int32_t ___m_CurrentManipPhase_11;
+	int32_t ___m_CurrentManipPhase_12;
 	// System.Single ARTerrainManager::m_TallestMeshHeight
-	float ___m_TallestMeshHeight_12;
+	float ___m_TallestMeshHeight_13;
 	// UnityEngine.Vector2 ARTerrainManager::m_StartTouchPosition
-	Vector2_t2243707579  ___m_StartTouchPosition_13;
+	Vector2_t2243707579  ___m_StartTouchPosition_14;
 	// UnityEngine.Vector2 ARTerrainManager::m_TouchDirection
-	Vector2_t2243707579  ___m_TouchDirection_14;
-	// System.Int32 ARTerrainManager::m_VerticesManipIndex
-	int32_t ___m_VerticesManipIndex_15;
+	Vector2_t2243707579  ___m_TouchDirection_15;
 	// System.Collections.Generic.List`1<TerrainPoint> ARTerrainManager::m_TerrainPoints
 	List_1_t2456077777 * ___m_TerrainPoints_16;
 
@@ -127,61 +127,61 @@ public:
 		___m_TerrainSelectRadius_8 = value;
 	}
 
-	inline static int32_t get_offset_of_m_TerrainMaterial_9() { return static_cast<int32_t>(offsetof(ARTerrainManager_t2018264653, ___m_TerrainMaterial_9)); }
-	inline Material_t193706927 * get_m_TerrainMaterial_9() const { return ___m_TerrainMaterial_9; }
-	inline Material_t193706927 ** get_address_of_m_TerrainMaterial_9() { return &___m_TerrainMaterial_9; }
-	inline void set_m_TerrainMaterial_9(Material_t193706927 * value)
+	inline static int32_t get_offset_of_m_TerrainCurveValue_9() { return static_cast<int32_t>(offsetof(ARTerrainManager_t2018264653, ___m_TerrainCurveValue_9)); }
+	inline float get_m_TerrainCurveValue_9() const { return ___m_TerrainCurveValue_9; }
+	inline float* get_address_of_m_TerrainCurveValue_9() { return &___m_TerrainCurveValue_9; }
+	inline void set_m_TerrainCurveValue_9(float value)
 	{
-		___m_TerrainMaterial_9 = value;
-		Il2CppCodeGenWriteBarrier(&___m_TerrainMaterial_9, value);
+		___m_TerrainCurveValue_9 = value;
 	}
 
-	inline static int32_t get_offset_of_m_TerrainSpawned_10() { return static_cast<int32_t>(offsetof(ARTerrainManager_t2018264653, ___m_TerrainSpawned_10)); }
-	inline bool get_m_TerrainSpawned_10() const { return ___m_TerrainSpawned_10; }
-	inline bool* get_address_of_m_TerrainSpawned_10() { return &___m_TerrainSpawned_10; }
-	inline void set_m_TerrainSpawned_10(bool value)
+	inline static int32_t get_offset_of_m_TerrainMaterial_10() { return static_cast<int32_t>(offsetof(ARTerrainManager_t2018264653, ___m_TerrainMaterial_10)); }
+	inline Material_t193706927 * get_m_TerrainMaterial_10() const { return ___m_TerrainMaterial_10; }
+	inline Material_t193706927 ** get_address_of_m_TerrainMaterial_10() { return &___m_TerrainMaterial_10; }
+	inline void set_m_TerrainMaterial_10(Material_t193706927 * value)
 	{
-		___m_TerrainSpawned_10 = value;
+		___m_TerrainMaterial_10 = value;
+		Il2CppCodeGenWriteBarrier(&___m_TerrainMaterial_10, value);
 	}
 
-	inline static int32_t get_offset_of_m_CurrentManipPhase_11() { return static_cast<int32_t>(offsetof(ARTerrainManager_t2018264653, ___m_CurrentManipPhase_11)); }
-	inline int32_t get_m_CurrentManipPhase_11() const { return ___m_CurrentManipPhase_11; }
-	inline int32_t* get_address_of_m_CurrentManipPhase_11() { return &___m_CurrentManipPhase_11; }
-	inline void set_m_CurrentManipPhase_11(int32_t value)
+	inline static int32_t get_offset_of_m_TerrainSpawned_11() { return static_cast<int32_t>(offsetof(ARTerrainManager_t2018264653, ___m_TerrainSpawned_11)); }
+	inline bool get_m_TerrainSpawned_11() const { return ___m_TerrainSpawned_11; }
+	inline bool* get_address_of_m_TerrainSpawned_11() { return &___m_TerrainSpawned_11; }
+	inline void set_m_TerrainSpawned_11(bool value)
 	{
-		___m_CurrentManipPhase_11 = value;
+		___m_TerrainSpawned_11 = value;
 	}
 
-	inline static int32_t get_offset_of_m_TallestMeshHeight_12() { return static_cast<int32_t>(offsetof(ARTerrainManager_t2018264653, ___m_TallestMeshHeight_12)); }
-	inline float get_m_TallestMeshHeight_12() const { return ___m_TallestMeshHeight_12; }
-	inline float* get_address_of_m_TallestMeshHeight_12() { return &___m_TallestMeshHeight_12; }
-	inline void set_m_TallestMeshHeight_12(float value)
+	inline static int32_t get_offset_of_m_CurrentManipPhase_12() { return static_cast<int32_t>(offsetof(ARTerrainManager_t2018264653, ___m_CurrentManipPhase_12)); }
+	inline int32_t get_m_CurrentManipPhase_12() const { return ___m_CurrentManipPhase_12; }
+	inline int32_t* get_address_of_m_CurrentManipPhase_12() { return &___m_CurrentManipPhase_12; }
+	inline void set_m_CurrentManipPhase_12(int32_t value)
 	{
-		___m_TallestMeshHeight_12 = value;
+		___m_CurrentManipPhase_12 = value;
 	}
 
-	inline static int32_t get_offset_of_m_StartTouchPosition_13() { return static_cast<int32_t>(offsetof(ARTerrainManager_t2018264653, ___m_StartTouchPosition_13)); }
-	inline Vector2_t2243707579  get_m_StartTouchPosition_13() const { return ___m_StartTouchPosition_13; }
-	inline Vector2_t2243707579 * get_address_of_m_StartTouchPosition_13() { return &___m_StartTouchPosition_13; }
-	inline void set_m_StartTouchPosition_13(Vector2_t2243707579  value)
+	inline static int32_t get_offset_of_m_TallestMeshHeight_13() { return static_cast<int32_t>(offsetof(ARTerrainManager_t2018264653, ___m_TallestMeshHeight_13)); }
+	inline float get_m_TallestMeshHeight_13() const { return ___m_TallestMeshHeight_13; }
+	inline float* get_address_of_m_TallestMeshHeight_13() { return &___m_TallestMeshHeight_13; }
+	inline void set_m_TallestMeshHeight_13(float value)
 	{
-		___m_StartTouchPosition_13 = value;
+		___m_TallestMeshHeight_13 = value;
 	}
 
-	inline static int32_t get_offset_of_m_TouchDirection_14() { return static_cast<int32_t>(offsetof(ARTerrainManager_t2018264653, ___m_TouchDirection_14)); }
-	inline Vector2_t2243707579  get_m_TouchDirection_14() const { return ___m_TouchDirection_14; }
-	inline Vector2_t2243707579 * get_address_of_m_TouchDirection_14() { return &___m_TouchDirection_14; }
-	inline void set_m_TouchDirection_14(Vector2_t2243707579  value)
+	inline static int32_t get_offset_of_m_StartTouchPosition_14() { return static_cast<int32_t>(offsetof(ARTerrainManager_t2018264653, ___m_StartTouchPosition_14)); }
+	inline Vector2_t2243707579  get_m_StartTouchPosition_14() const { return ___m_StartTouchPosition_14; }
+	inline Vector2_t2243707579 * get_address_of_m_StartTouchPosition_14() { return &___m_StartTouchPosition_14; }
+	inline void set_m_StartTouchPosition_14(Vector2_t2243707579  value)
 	{
-		___m_TouchDirection_14 = value;
+		___m_StartTouchPosition_14 = value;
 	}
 
-	inline static int32_t get_offset_of_m_VerticesManipIndex_15() { return static_cast<int32_t>(offsetof(ARTerrainManager_t2018264653, ___m_VerticesManipIndex_15)); }
-	inline int32_t get_m_VerticesManipIndex_15() const { return ___m_VerticesManipIndex_15; }
-	inline int32_t* get_address_of_m_VerticesManipIndex_15() { return &___m_VerticesManipIndex_15; }
-	inline void set_m_VerticesManipIndex_15(int32_t value)
+	inline static int32_t get_offset_of_m_TouchDirection_15() { return static_cast<int32_t>(offsetof(ARTerrainManager_t2018264653, ___m_TouchDirection_15)); }
+	inline Vector2_t2243707579  get_m_TouchDirection_15() const { return ___m_TouchDirection_15; }
+	inline Vector2_t2243707579 * get_address_of_m_TouchDirection_15() { return &___m_TouchDirection_15; }
+	inline void set_m_TouchDirection_15(Vector2_t2243707579  value)
 	{
-		___m_VerticesManipIndex_15 = value;
+		___m_TouchDirection_15 = value;
 	}
 
 	inline static int32_t get_offset_of_m_TerrainPoints_16() { return static_cast<int32_t>(offsetof(ARTerrainManager_t2018264653, ___m_TerrainPoints_16)); }

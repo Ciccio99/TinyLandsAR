@@ -11,7 +11,10 @@ public class ARTerrainManager : MonoBehaviour {
     public int m_TerrainLayerMask = 8;
     public TerrainAnchorObject m_TerrainAnchorObject;
     public float m_TerrainModifyRate;
+    [Range(0.01f, 0.10f)]
     public float m_TerrainSelectRadius = 0.06f;
+    [Range(1.0f, 10.0f)]
+    public float m_TerrainCurveValue;
     public Material m_TerrainMaterial;
   
     [HideInInspector]
@@ -22,7 +25,6 @@ public class ARTerrainManager : MonoBehaviour {
     private float m_TallestMeshHeight;
     private Vector2 m_StartTouchPosition;
     private Vector2 m_TouchDirection;
-    private int m_VerticesManipIndex;
     private List<TerrainPoint> m_TerrainPoints;
 
 
@@ -107,28 +109,20 @@ public class ARTerrainManager : MonoBehaviour {
         if (mf != null) {
             // #### This can be changes to not make an entire copy of the vrtex array to make it more efficient ####
             Vector3[] vertices = mf.mesh.vertices;
-            int shortestInd = 0;
             float shortestDist = Mathf.Infinity;
-            float tallestDist = Mathf.NegativeInfinity;
 
             // Go through all verticed and find the closest mesh vertex to the rayHit point
             for (int i = 0; i < vertices.Length; i++) {
                 Vector3 vert = terrainGO.transform.localToWorldMatrix.MultiplyPoint3x4 (vertices [i]);
                 float magnitude = Vector3.Magnitude (hitPoint - vert);
-                if (magnitude < shortestDist) {
-                    shortestDist = magnitude;
-                    shortestInd = i;
-                }
 
                 if (magnitude <= m_TerrainSelectRadius) {
-                    m_TerrainPoints.Add (new TerrainPoint (i, vert, Mathf.Lerp(1f, 3f, magnitude / m_TerrainSelectRadius)));
+                    m_TerrainPoints.Add (new TerrainPoint (i, vert, Mathf.Lerp(1f, m_TerrainCurveValue, magnitude / m_TerrainSelectRadius)));
                 }
             }
 
             // Set the needed variables to later manipulate the mesh
             m_StartTouchPosition = touchEvent.position;
-            m_VerticesManipIndex = shortestInd;
-
         }
         m_CurrentManipPhase = ManipPhase.MOVED;
     }

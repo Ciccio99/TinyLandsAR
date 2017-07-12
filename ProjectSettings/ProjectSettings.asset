@@ -11,7 +11,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Alberto Scicali
-  productName: TerrainAR
+  productName: TinyLands
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21176471, a: 1}
@@ -140,7 +140,7 @@ PlayerSettings:
     Android: com.Company.ProductName
     Standalone: unity.Unity Technologies.Native Rendering Plugin Example
     Tizen: com.Company.ProductName
-    iOS: com.AlbertoScicali.arkitscene
+    iOS: com.Alberto.Scicali.TinyLands
     tvOS: com.Company.ProductName
   buildNumber:
     iOS: 0
@@ -338,7 +338,7 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: AR BABY
+  cameraUsageDescription: SWEET AR STUFFS, DUDE!
   locationUsageDescription: 
   microphoneUsageDescription: 
   switchNetLibKey: 

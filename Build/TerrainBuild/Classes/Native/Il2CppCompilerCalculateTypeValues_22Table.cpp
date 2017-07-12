@@ -104,6 +104,7 @@
 #include "AssemblyU2DCSharp_GA_FREE_DemoPlaySound2446186488.h"
 #include "AssemblyU2DCSharp_GA_FREE_OpenOtherScene329806518.h"
 #include "AssemblyU2DCSharp_GUIAnimatorFREEDemo2605942281.h"
+#include "AssemblyU2DCSharp_LookTowardsObject2286628578.h"
 #include "AssemblyU2DCSharp_ARAnchorManager2292034343.h"
 #include "AssemblyU2DCSharp_ARAnchorManager_CurrentAnchorUpd3782499909.h"
 #include "AssemblyU2DCSharp_ARPlaneManager348851406.h"
@@ -114,7 +115,6 @@
 #include "AssemblyU2DCSharp_TerrainPoint3086956645.h"
 #include "AssemblyU2DCSharp_ARTouchManager1310965619.h"
 #include "AssemblyU2DCSharp_ARTouchManager_ARTouchPlaneUpdat2610448397.h"
-#include "AssemblyU2DCSharp_ARTouchManager_ARTouchBeganUpdat3594891140.h"
 
 
 
@@ -908,27 +908,32 @@ extern const int32_t g_FieldOffsetTable2288[3] =
 	GUIAnimatorFREEDemo_t2605942281::get_offset_of_m_WaitTimeCount_3(),
 	GUIAnimatorFREEDemo_t2605942281::get_offset_of_m_ShowMoveInButton_4(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2289 = { sizeof (ARAnchorManager_t2292034343), -1, sizeof(ARAnchorManager_t2292034343_StaticFields), 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2289 = { sizeof (LookTowardsObject_t2286628578), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable2289[1] = 
+{
+	LookTowardsObject_t2286628578::get_offset_of_m_TransformToLookAt_2(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2290 = { sizeof (ARAnchorManager_t2292034343), -1, sizeof(ARAnchorManager_t2292034343_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable2290[1] = 
 {
 	ARAnchorManager_t2292034343_StaticFields::get_offset_of_CurrentAnchorUpdatedEvent_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2290 = { sizeof (CurrentAnchorUpdated_t3782499909), sizeof(Il2CppMethodPointer), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2291 = { sizeof (ARPlaneManager_t348851406), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2291[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2291 = { sizeof (CurrentAnchorUpdated_t3782499909), sizeof(Il2CppMethodPointer), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2292 = { sizeof (ARPlaneManager_t348851406), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2292[3] = 
 {
 	ARPlaneManager_t348851406::get_offset_of_m_PlanePrefab_2(),
 	ARPlaneManager_t348851406::get_offset_of_m_ARTerrainManager_3(),
 	ARPlaneManager_t348851406::get_offset_of_m_PlaneAnchorObject_4(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2292 = { sizeof (PlaneAnchorObject_t3628153532)+ sizeof (Il2CppObject), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2292[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2293 = { sizeof (PlaneAnchorObject_t3628153532)+ sizeof (Il2CppObject), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2293[2] = 
 {
 	PlaneAnchorObject_t3628153532::get_offset_of_U3CplaneObjectU3Ek__BackingField_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	PlaneAnchorObject_t3628153532::get_offset_of_U3CanchorU3Ek__BackingField_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2293 = { sizeof (ARTerrainManager_t2018264653), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2293[15] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2294 = { sizeof (ARTerrainManager_t2018264653), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2294[15] = 
 {
 	ARTerrainManager_t2018264653::get_offset_of_m_TerrainScale_2(),
 	ARTerrainManager_t2018264653::get_offset_of_m_TerrainPrefab_3(),
@@ -937,17 +942,17 @@ extern const int32_t g_FieldOffsetTable2293[15] =
 	ARTerrainManager_t2018264653::get_offset_of_m_TerrainAnchorObject_6(),
 	ARTerrainManager_t2018264653::get_offset_of_m_TerrainModifyRate_7(),
 	ARTerrainManager_t2018264653::get_offset_of_m_TerrainSelectRadius_8(),
-	ARTerrainManager_t2018264653::get_offset_of_m_TerrainMaterial_9(),
-	ARTerrainManager_t2018264653::get_offset_of_m_TerrainSpawned_10(),
-	ARTerrainManager_t2018264653::get_offset_of_m_CurrentManipPhase_11(),
-	ARTerrainManager_t2018264653::get_offset_of_m_TallestMeshHeight_12(),
-	ARTerrainManager_t2018264653::get_offset_of_m_StartTouchPosition_13(),
-	ARTerrainManager_t2018264653::get_offset_of_m_TouchDirection_14(),
-	ARTerrainManager_t2018264653::get_offset_of_m_VerticesManipIndex_15(),
+	ARTerrainManager_t2018264653::get_offset_of_m_TerrainCurveValue_9(),
+	ARTerrainManager_t2018264653::get_offset_of_m_TerrainMaterial_10(),
+	ARTerrainManager_t2018264653::get_offset_of_m_TerrainSpawned_11(),
+	ARTerrainManager_t2018264653::get_offset_of_m_CurrentManipPhase_12(),
+	ARTerrainManager_t2018264653::get_offset_of_m_TallestMeshHeight_13(),
+	ARTerrainManager_t2018264653::get_offset_of_m_StartTouchPosition_14(),
+	ARTerrainManager_t2018264653::get_offset_of_m_TouchDirection_15(),
 	ARTerrainManager_t2018264653::get_offset_of_m_TerrainPoints_16(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2294 = { sizeof (ManipPhase_t338933528)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2294[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2295 = { sizeof (ManipPhase_t338933528)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2295[5] = 
 {
 	ManipPhase_t338933528::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	0,
@@ -955,30 +960,29 @@ extern const int32_t g_FieldOffsetTable2294[5] =
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2295 = { sizeof (TerrainAnchorObject_t1214709381)+ sizeof (Il2CppObject), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2295[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2296 = { sizeof (TerrainAnchorObject_t1214709381)+ sizeof (Il2CppObject), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2296[3] = 
 {
 	TerrainAnchorObject_t1214709381::get_offset_of_U3CterrainObjectU3Ek__BackingField_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	TerrainAnchorObject_t1214709381::get_offset_of_U3CterrainGOChildU3Ek__BackingField_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	TerrainAnchorObject_t1214709381::get_offset_of_U3CanchorU3Ek__BackingField_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2296 = { sizeof (TerrainPoint_t3086956645)+ sizeof (Il2CppObject), sizeof(TerrainPoint_t3086956645 ), 0, 0 };
-extern const int32_t g_FieldOffsetTable2296[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2297 = { sizeof (TerrainPoint_t3086956645)+ sizeof (Il2CppObject), sizeof(TerrainPoint_t3086956645 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable2297[3] = 
 {
 	TerrainPoint_t3086956645::get_offset_of_U3CindexU3Ek__BackingField_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	TerrainPoint_t3086956645::get_offset_of_U3CpointU3Ek__BackingField_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	TerrainPoint_t3086956645::get_offset_of_U3CdistDenomU3Ek__BackingField_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2297 = { sizeof (ARTouchManager_t1310965619), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2297[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2298 = { sizeof (ARTouchManager_t1310965619), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2298[4] = 
 {
 	ARTouchManager_t1310965619::get_offset_of_ARTouchPlaneUpdateEvent_2(),
 	ARTouchManager_t1310965619::get_offset_of_ARTouchBeganUpdateEvent_3(),
 	ARTouchManager_t1310965619::get_offset_of_ARTouchMovedUpdateEvent_4(),
 	ARTouchManager_t1310965619::get_offset_of_ARTouchEndedUpdateEvent_5(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2298 = { sizeof (ARTouchPlaneUpdate_t2610448397), sizeof(Il2CppMethodPointer), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2299 = { sizeof (ARTouchBeganUpdate_t3594891140), sizeof(Il2CppMethodPointer), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2299 = { sizeof (ARTouchPlaneUpdate_t2610448397), sizeof(Il2CppMethodPointer), 0, 0 };
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

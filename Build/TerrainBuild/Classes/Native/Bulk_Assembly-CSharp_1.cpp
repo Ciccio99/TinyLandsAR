@@ -83,6 +83,7 @@
 #include "AssemblyU2DCSharp_LevelReset346002765.h"
 #include "UnityEngine_UI_UnityEngine_EventSystems_PointerEve1599784723.h"
 #include "UnityEngine_UnityEngine_SceneManagement_Scene1684909666.h"
+#include "AssemblyU2DCSharp_LookTowardsObject2286628578.h"
 #include "AssemblyU2DCSharp_MapDisplay1779112168.h"
 #include "UnityEngine_UnityEngine_Texture2D3542995729.h"
 #include "UnityEngine_UnityEngine_Texture2243626319.h"
@@ -262,7 +263,6 @@
 #include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARFrame1001293426.h"
 #include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARHitTestResu3275513025.h"
 #include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARHitTestResu3616749745.h"
-#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARKitSessionCo318899795.h"
 
 // GE_OrbitCameraUI
 struct GE_OrbitCameraUI_t1006333794;
@@ -356,6 +356,8 @@ struct StringU5BU5D_t1642385972;
 struct LevelReset_t346002765;
 // UnityEngine.EventSystems.PointerEventData
 struct PointerEventData_t1599784723;
+// LookTowardsObject
+struct LookTowardsObject_t2286628578;
 // MapDisplay
 struct MapDisplay_t1779112168;
 // UnityEngine.Texture2D
@@ -719,6 +721,7 @@ extern Il2CppCodeGenString* _stringLiteral372029393;
 extern const uint32_t HsvColor_ToString_m1590809902_MetadataUsageId;
 extern Il2CppClass* HsvColor_t1057062332_il2cpp_TypeInfo_var;
 extern const uint32_t HSVUtil_ConvertRgbToHsv_m2238362913_MetadataUsageId;
+extern const uint32_t LookTowardsObject_Start_m1889348733_MetadataUsageId;
 extern const MethodInfo* GameObject_GetComponent_TisMeshCollider_t2718867283_m4281307913_MethodInfo_var;
 extern const uint32_t MapDisplay_DrawMesh_m3648264271_MetadataUsageId;
 extern Il2CppClass* ColorU5BU5D_t672350442_il2cpp_TypeInfo_var;
@@ -2202,6 +2205,10 @@ extern "C"  Scene_t1684909666  SceneManager_GetSceneAt_m4157291656 (Il2CppObject
 extern "C"  String_t* Scene_get_name_m745914591 (Scene_t1684909666 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String)
 extern "C"  void SceneManager_LoadScene_m1619949821 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Transform::get_position()
+extern "C"  Vector3_t2243707580  Transform_get_position_m1104419803 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::LookAt(UnityEngine.Vector3)
+extern "C"  void Transform_LookAt_m3314153180 (Transform_t3275118058 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Material UnityEngine.Renderer::get_sharedMaterial()
 extern "C"  Material_t193706927 * Renderer_get_sharedMaterial_m155010392 (Renderer_t257310565 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::set_mainTexture(UnityEngine.Texture)
@@ -2572,8 +2579,6 @@ extern "C"  void Transform_SetParent_m1963830867 (Transform_t3275118058 * __this
 extern "C"  void Camera_set_orthographicSize_m2708824189 (Camera_t189460977 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GameObject::.ctor(System.String)
 extern "C"  void GameObject__ctor_m962601984 (GameObject_t1756533147 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Vector3 UnityEngine.Transform::get_position()
-extern "C"  Vector3_t2243707580  Transform_get_position_m1104419803 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TMPro.TMP_Text::set_isOrthographic(System.Boolean)
 extern "C"  void TMP_Text_set_isOrthographic_m3142172021 (TMP_Text_t1920000777 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.QualitySettings::get_vSyncCount()
@@ -3090,14 +3095,6 @@ extern "C"  void PointerEventData_set_useDragThreshold_m2778439880 (PointerEvent
 extern "C"  bool UIBehaviour_IsDestroyed_m3809050211 (UIBehaviour_t3960014691 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.UnityEvent`2<System.Single,System.Single>::.ctor()
 #define UnityEvent_2__ctor_m731674732(__this, method) ((  void (*) (UnityEvent_2_t2016657100 *, const MethodInfo*))UnityEvent_2__ctor_m731674732_gshared)(__this, method)
-// System.Void UnityEngine.XR.iOS.ARKitSessionConfiguration::.ctor(UnityEngine.XR.iOS.UnityARAlignment,System.Boolean,System.Boolean)
-extern "C"  void ARKitSessionConfiguration__ctor_m1819896799 (ARKitSessionConfiguration_t318899795 * __this, int32_t ___alignment0, bool ___getPointCloudData1, bool ___enableLightEstimation2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.XR.iOS.ARKitSessionConfiguration::IsARKitSessionConfigurationSupported()
-extern "C"  bool ARKitSessionConfiguration_IsARKitSessionConfigurationSupported_m478432247 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.XR.iOS.ARKitSessionConfiguration::get_IsSupported()
-extern "C"  bool ARKitSessionConfiguration_get_IsSupported_m3695054805 (ARKitSessionConfiguration_t318899795 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.XR.iOS.ARKitSessionConfiguration::set_IsSupported(System.Boolean)
-extern "C"  void ARKitSessionConfiguration_set_IsSupported_m2731928126 (ARKitSessionConfiguration_t318899795 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -6308,6 +6305,53 @@ extern "C"  void LevelReset_OnPointerClick_m4066508708 (LevelReset_t346002765 * 
 // System.Void LevelReset::Update()
 extern "C"  void LevelReset_Update_m811823253 (LevelReset_t346002765 * __this, const MethodInfo* method)
 {
+	{
+		// }
+		return;
+	}
+}
+// System.Void LookTowardsObject::.ctor()
+extern "C"  void LookTowardsObject__ctor_m2642530845 (LookTowardsObject_t2286628578 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void LookTowardsObject::Start()
+extern "C"  void LookTowardsObject_Start_m1889348733 (LookTowardsObject_t2286628578 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LookTowardsObject_Start_m1889348733_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (m_TransformToLookAt != null)
+		Transform_t3275118058 * L_0 = __this->get_m_TransformToLookAt_2();
+		// if (m_TransformToLookAt != null)
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		// transform.LookAt (m_TransformToLookAt.position);
+		// transform.LookAt (m_TransformToLookAt.position);
+		Transform_t3275118058 * L_2 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_3 = __this->get_m_TransformToLookAt_2();
+		// transform.LookAt (m_TransformToLookAt.position);
+		NullCheck(L_3);
+		Vector3_t2243707580  L_4 = Transform_get_position_m1104419803(L_3, /*hidden argument*/NULL);
+		// transform.LookAt (m_TransformToLookAt.position);
+		NullCheck(L_2);
+		Transform_LookAt_m3314153180(L_2, L_4, /*hidden argument*/NULL);
+	}
+
+IL_0028:
 	{
 		// }
 		return;
@@ -28412,121 +28456,6 @@ extern "C" void ARHitTestResult_t3275513025_marshal_com_cleanup(ARHitTestResult_
 {
 	il2cpp_codegen_marshal_free_bstring(marshaled.___anchorIdentifier_4);
 	marshaled.___anchorIdentifier_4 = NULL;
-}
-// Conversion methods for marshalling of: UnityEngine.XR.iOS.ARKitSessionConfiguration
-extern "C" void ARKitSessionConfiguration_t318899795_marshal_pinvoke(const ARKitSessionConfiguration_t318899795& unmarshaled, ARKitSessionConfiguration_t318899795_marshaled_pinvoke& marshaled)
-{
-	marshaled.___alignment_0 = unmarshaled.get_alignment_0();
-	marshaled.___getPointCloudData_1 = static_cast<int32_t>(unmarshaled.get_getPointCloudData_1());
-	marshaled.___enableLightEstimation_2 = static_cast<int32_t>(unmarshaled.get_enableLightEstimation_2());
-}
-extern "C" void ARKitSessionConfiguration_t318899795_marshal_pinvoke_back(const ARKitSessionConfiguration_t318899795_marshaled_pinvoke& marshaled, ARKitSessionConfiguration_t318899795& unmarshaled)
-{
-	int32_t unmarshaled_alignment_temp_0 = 0;
-	unmarshaled_alignment_temp_0 = marshaled.___alignment_0;
-	unmarshaled.set_alignment_0(unmarshaled_alignment_temp_0);
-	bool unmarshaled_getPointCloudData_temp_1 = false;
-	unmarshaled_getPointCloudData_temp_1 = static_cast<bool>(marshaled.___getPointCloudData_1);
-	unmarshaled.set_getPointCloudData_1(unmarshaled_getPointCloudData_temp_1);
-	bool unmarshaled_enableLightEstimation_temp_2 = false;
-	unmarshaled_enableLightEstimation_temp_2 = static_cast<bool>(marshaled.___enableLightEstimation_2);
-	unmarshaled.set_enableLightEstimation_2(unmarshaled_enableLightEstimation_temp_2);
-}
-// Conversion method for clean up from marshalling of: UnityEngine.XR.iOS.ARKitSessionConfiguration
-extern "C" void ARKitSessionConfiguration_t318899795_marshal_pinvoke_cleanup(ARKitSessionConfiguration_t318899795_marshaled_pinvoke& marshaled)
-{
-}
-// Conversion methods for marshalling of: UnityEngine.XR.iOS.ARKitSessionConfiguration
-extern "C" void ARKitSessionConfiguration_t318899795_marshal_com(const ARKitSessionConfiguration_t318899795& unmarshaled, ARKitSessionConfiguration_t318899795_marshaled_com& marshaled)
-{
-	marshaled.___alignment_0 = unmarshaled.get_alignment_0();
-	marshaled.___getPointCloudData_1 = static_cast<int32_t>(unmarshaled.get_getPointCloudData_1());
-	marshaled.___enableLightEstimation_2 = static_cast<int32_t>(unmarshaled.get_enableLightEstimation_2());
-}
-extern "C" void ARKitSessionConfiguration_t318899795_marshal_com_back(const ARKitSessionConfiguration_t318899795_marshaled_com& marshaled, ARKitSessionConfiguration_t318899795& unmarshaled)
-{
-	int32_t unmarshaled_alignment_temp_0 = 0;
-	unmarshaled_alignment_temp_0 = marshaled.___alignment_0;
-	unmarshaled.set_alignment_0(unmarshaled_alignment_temp_0);
-	bool unmarshaled_getPointCloudData_temp_1 = false;
-	unmarshaled_getPointCloudData_temp_1 = static_cast<bool>(marshaled.___getPointCloudData_1);
-	unmarshaled.set_getPointCloudData_1(unmarshaled_getPointCloudData_temp_1);
-	bool unmarshaled_enableLightEstimation_temp_2 = false;
-	unmarshaled_enableLightEstimation_temp_2 = static_cast<bool>(marshaled.___enableLightEstimation_2);
-	unmarshaled.set_enableLightEstimation_2(unmarshaled_enableLightEstimation_temp_2);
-}
-// Conversion method for clean up from marshalling of: UnityEngine.XR.iOS.ARKitSessionConfiguration
-extern "C" void ARKitSessionConfiguration_t318899795_marshal_com_cleanup(ARKitSessionConfiguration_t318899795_marshaled_com& marshaled)
-{
-}
-// System.Void UnityEngine.XR.iOS.ARKitSessionConfiguration::.ctor(UnityEngine.XR.iOS.UnityARAlignment,System.Boolean,System.Boolean)
-extern "C"  void ARKitSessionConfiguration__ctor_m1819896799 (ARKitSessionConfiguration_t318899795 * __this, int32_t ___alignment0, bool ___getPointCloudData1, bool ___enableLightEstimation2, const MethodInfo* method)
-{
-	{
-		// this.getPointCloudData = getPointCloudData;
-		bool L_0 = ___getPointCloudData1;
-		__this->set_getPointCloudData_1(L_0);
-		// this.alignment = alignment;
-		int32_t L_1 = ___alignment0;
-		__this->set_alignment_0(L_1);
-		// this.enableLightEstimation = enableLightEstimation;
-		bool L_2 = ___enableLightEstimation2;
-		__this->set_enableLightEstimation_2(L_2);
-		// }
-		return;
-	}
-}
-extern "C"  void ARKitSessionConfiguration__ctor_m1819896799_AdjustorThunk (Il2CppObject * __this, int32_t ___alignment0, bool ___getPointCloudData1, bool ___enableLightEstimation2, const MethodInfo* method)
-{
-	ARKitSessionConfiguration_t318899795 * _thisAdjusted = reinterpret_cast<ARKitSessionConfiguration_t318899795 *>(__this + 1);
-	ARKitSessionConfiguration__ctor_m1819896799(_thisAdjusted, ___alignment0, ___getPointCloudData1, ___enableLightEstimation2, method);
-}
-// System.Boolean UnityEngine.XR.iOS.ARKitSessionConfiguration::get_IsSupported()
-extern "C"  bool ARKitSessionConfiguration_get_IsSupported_m3695054805 (ARKitSessionConfiguration_t318899795 * __this, const MethodInfo* method)
-{
-	bool V_0 = false;
-	{
-		// public bool IsSupported { get { return IsARKitSessionConfigurationSupported(); } private set {} }
-		bool L_0 = ARKitSessionConfiguration_IsARKitSessionConfigurationSupported_m478432247(NULL /*static, unused*/, /*hidden argument*/NULL);
-		V_0 = L_0;
-		goto IL_000c;
-	}
-
-IL_000c:
-	{
-		// public bool IsSupported { get { return IsARKitSessionConfigurationSupported(); } private set {} }
-		bool L_1 = V_0;
-		return L_1;
-	}
-}
-extern "C"  bool ARKitSessionConfiguration_get_IsSupported_m3695054805_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
-{
-	ARKitSessionConfiguration_t318899795 * _thisAdjusted = reinterpret_cast<ARKitSessionConfiguration_t318899795 *>(__this + 1);
-	return ARKitSessionConfiguration_get_IsSupported_m3695054805(_thisAdjusted, method);
-}
-// System.Void UnityEngine.XR.iOS.ARKitSessionConfiguration::set_IsSupported(System.Boolean)
-extern "C"  void ARKitSessionConfiguration_set_IsSupported_m2731928126 (ARKitSessionConfiguration_t318899795 * __this, bool ___value0, const MethodInfo* method)
-{
-	{
-		// public bool IsSupported { get { return IsARKitSessionConfigurationSupported(); } private set {} }
-		return;
-	}
-}
-extern "C"  void ARKitSessionConfiguration_set_IsSupported_m2731928126_AdjustorThunk (Il2CppObject * __this, bool ___value0, const MethodInfo* method)
-{
-	ARKitSessionConfiguration_t318899795 * _thisAdjusted = reinterpret_cast<ARKitSessionConfiguration_t318899795 *>(__this + 1);
-	ARKitSessionConfiguration_set_IsSupported_m2731928126(_thisAdjusted, ___value0, method);
-}
-extern "C" int32_t DEFAULT_CALL IsARKitSessionConfigurationSupported();
-// System.Boolean UnityEngine.XR.iOS.ARKitSessionConfiguration::IsARKitSessionConfigurationSupported()
-extern "C"  bool ARKitSessionConfiguration_IsARKitSessionConfigurationSupported_m478432247 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
-
-	// Native function invocation
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(IsARKitSessionConfigurationSupported)();
-
-	return static_cast<bool>(returnValue);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

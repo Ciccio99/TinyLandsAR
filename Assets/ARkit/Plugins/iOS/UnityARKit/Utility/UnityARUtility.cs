@@ -48,24 +48,14 @@ namespace UnityEngine.XR.iOS
                 
 			return plane;
 		}
-
-//		public static GameObject UpdateObjectWithAnchorTransform(GameObject go, ARPlaneAnchor arPlaneAnchor, float scaling)
-//		{
-//			//do coordinate conversion from ARKit to Unity
-//			go.transform.position = UnityARMatrixOps.GetPosition (arPlaneAnchor.transform);
-//			go.transform.rotation = UnityARMatrixOps.GetRotation (arPlaneAnchor.transform);
-//
-//            MeshFilter mf = go.GetComponentInChildren<MeshFilter> ();
-//            float minExtent = Mathf.Min (arPlaneAnchor.extent.x, arPlaneAnchor.extent.z);
-//
-//            if (mf != null) {
-//                mf.gameObject.transform.localScale = new Vector3 (arPlaneAnchor.extent.x * scaling, minExtent * scaling, arPlaneAnchor.extent.z * scaling);
-//
-//                mf.gameObject.transform.localPosition = new Vector3 (arPlaneAnchor.center.x, arPlaneAnchor.center.y, -arPlaneAnchor.center.z);
-//            }
-//			return go;
-//		}
-
+    
+        /*
+            Scales a passed in object with the average scaling of the passed in ARPlane, the y scaling is excluded
+            (y Scaling is always 0 for arPlaneAnchors)
+            @param Gameobject to scale
+            @param ARPlaneAnchor object
+            @param Scale factor to be added to the gameobject ontop of the arPlaneAnchor scaling
+        */
         public static GameObject UpdateObjectWithAnchorTransform(GameObject go, ARPlaneAnchor arPlaneAnchor, float scaling)
         {
             // Do coordinate conversion from ARKit to Unity to position the parent object correctly between 

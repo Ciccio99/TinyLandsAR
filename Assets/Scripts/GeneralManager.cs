@@ -10,11 +10,9 @@ public class GeneralManager : MonoBehaviour {
     public ARTerrainManager m_ARTerrainManager;
 	
     private void Start() {
-//        m_ARTouchManager.ARTouchPlaneUpdateEvent += UpdateOnTouch;
         m_ARTouchManager.ARTouchBeganUpdateEvent += RayCheck;
         m_ARTouchManager.ARTouchMovedUpdateEvent += m_ARTerrainManager.OnTerrainManipulationMoved;
         m_ARTouchManager.ARTouchEndedUpdateEvent += m_ARTerrainManager.OnTerrainManipulationEnd;
-//        m_ARTouchManager.ARTouchBeganUpdateEvent += m_ARTerrainManager.ScreenTerrainTouch;
     }
         
     /*

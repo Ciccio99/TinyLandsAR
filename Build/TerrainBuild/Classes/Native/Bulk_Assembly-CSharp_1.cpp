@@ -16,6 +16,7 @@
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array3829468939.h"
+#include "AssemblyU2DCSharp_GE_OrbitCamera_ZoomMethod2668793379.h"
 #include "AssemblyU2DCSharp_GE_OrbitCameraUI1006333794.h"
 #include "mscorlib_System_Void1841601450.h"
 #include "UnityEngine_UI_UnityEngine_UI_Toggle3976754468.h"
@@ -97,8 +98,9 @@
 #include "AssemblyU2DCSharp_MapGenerator237211197.h"
 #include "AssemblyU2DCSharp_MapGenerator_DrawMode4000039049.h"
 #include "UnityEngine_UnityEngine_AnimationCurve3306541151.h"
-#include "UnityEngine_UnityEngine_Matrix4x42933234003.h"
 #include "AssemblyU2DCSharp_TerrainType1477530197.h"
+#include "AssemblyU2DCSharp_EnvironmentManager2263979904.h"
+#include "UnityEngine_UnityEngine_Matrix4x42933234003.h"
 #include "AssemblyU2DCSharp_MenuSceneLoader95515494.h"
 #include "AssemblyU2DCSharp_MeshGenerator3184807022.h"
 #include "AssemblyU2DCSharp_ModeSwitcher223874984.h"
@@ -384,6 +386,8 @@ struct SingleU5B0___U2C0___U5D_t577127398;
 struct ColorU5BU5D_t672350442;
 // UnityEngine.AnimationCurve
 struct AnimationCurve_t3306541151;
+// EnvironmentManager
+struct EnvironmentManager_t2263979904;
 // UnityEngine.Vector3[]
 struct Vector3U5BU5D_t1172311765;
 // MenuSceneLoader
@@ -725,14 +729,14 @@ extern const uint32_t LookTowardsObject_Start_m1889348733_MetadataUsageId;
 extern const MethodInfo* GameObject_GetComponent_TisMeshCollider_t2718867283_m4281307913_MethodInfo_var;
 extern const uint32_t MapDisplay_DrawMesh_m3648264271_MetadataUsageId;
 extern Il2CppClass* ColorU5BU5D_t672350442_il2cpp_TypeInfo_var;
-extern Il2CppClass* Single_t2076509932_il2cpp_TypeInfo_var;
 extern const MethodInfo* Object_FindObjectOfType_TisMapDisplay_t1779112168_m3169326203_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4066759398;
+extern const uint32_t MapGenerator_GenerateMap_m1418959259_MetadataUsageId;
 extern const MethodInfo* GameObject_GetComponent_TisMeshFilter_t3026937449_m2045218792_MethodInfo_var;
 extern const MethodInfo* GameObject_GetComponent_TisRenderer_t257310565_m1312615893_MethodInfo_var;
-extern Il2CppCodeGenString* _stringLiteral3029188673;
 extern Il2CppCodeGenString* _stringLiteral3063246256;
 extern Il2CppCodeGenString* _stringLiteral2125197162;
-extern const uint32_t MapGenerator_GenerateMap_m1418959259_MetadataUsageId;
+extern const uint32_t MapGenerator_SetShaderHeightBoundaries_m1402888974_MetadataUsageId;
 extern const MethodInfo* Object_Instantiate_TisGameObject_t1756533147_m3664764861_MethodInfo_var;
 extern const uint32_t MenuSceneLoader_Awake_m4034400262_MetadataUsageId;
 extern Il2CppClass* Vector3U5BU5D_t1172311765_il2cpp_TypeInfo_var;
@@ -1335,41 +1339,6 @@ public:
 		m_Items[index] = value;
 	}
 };
-// UnityEngine.Vector3[]
-struct Vector3U5BU5D_t1172311765  : public Il2CppArray
-{
-public:
-	ALIGN_FIELD (8) Vector3_t2243707580  m_Items[1];
-
-public:
-	inline Vector3_t2243707580  GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Vector3_t2243707580 * GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Vector3_t2243707580  value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline Vector3_t2243707580  GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Vector3_t2243707580 * GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3_t2243707580  value)
-	{
-		m_Items[index] = value;
-	}
-};
 // TerrainType[]
 struct TerrainTypeU5BU5D_t4293736632  : public Il2CppArray
 {
@@ -1401,6 +1370,41 @@ public:
 		return m_Items + index;
 	}
 	inline void SetAtUnchecked(il2cpp_array_size_t index, TerrainType_t1477530197  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Vector3[]
+struct Vector3U5BU5D_t1172311765  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Vector3_t2243707580  m_Items[1];
+
+public:
+	inline Vector3_t2243707580  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector3_t2243707580 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector3_t2243707580  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector3_t2243707580  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector3_t2243707580 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3_t2243707580  value)
 	{
 		m_Items[index] = value;
 	}
@@ -2225,8 +2229,6 @@ extern "C"  void MeshFilter_set_sharedMesh_m2225370173 (MeshFilter_t3026937449 *
 extern "C"  Mesh_t1356156583 * MeshFilter_get_sharedMesh_m1310789932 (MeshFilter_t3026937449 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MeshCollider::set_sharedMesh(UnityEngine.Mesh)
 extern "C"  void MeshCollider_set_sharedMesh_m4192566451 (MeshCollider_t2718867283 * __this, Mesh_t1356156583 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void MapGenerator::GenerateMap()
-extern "C"  void MapGenerator_GenerateMap_m1418959259 (MapGenerator_t237211197 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single[0...,0...] Noise::GenerateNoiseMap(System.Int32,System.Int32,System.Int32,System.Single,System.Int32,System.Single,System.Single,UnityEngine.Vector2)
 extern "C"  SingleU5B0___U2C0___U5D_t577127398* Noise_GenerateNoiseMap_m4257645125 (Il2CppObject * __this /* static, unused */, int32_t ___mapWidth0, int32_t ___mapHeight1, int32_t ___seed2, float ___scale3, int32_t ___octaves4, float ___persistance5, float ___lacunarity6, Vector2_t2243707579  ___offset7, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // !!0 UnityEngine.Object::FindObjectOfType<MapDisplay>()
@@ -2241,6 +2243,8 @@ extern "C"  Texture2D_t3542995729 * TextureGenerator_TextureFromColorMap_m133054
 extern "C"  MeshData_t2723510749 * MeshGenerator_GenerateTerrainMesh_m3042335721 (Il2CppObject * __this /* static, unused */, SingleU5B0___U2C0___U5D_t577127398* ___heightMap0, float ___heightMultiplier1, AnimationCurve_t3306541151 * ___heightCurve2, int32_t ___levelOfDetail3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MapDisplay::DrawMesh(MeshData,UnityEngine.Texture2D)
 extern "C"  void MapDisplay_DrawMesh_m3648264271 (MapDisplay_t1779112168 * __this, MeshData_t2723510749 * ___meshData0, Texture2D_t3542995729 * ___texture1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void EnvironmentManager::SpawnEnvironment(UnityEngine.GameObject)
+extern "C"  void EnvironmentManager_SpawnEnvironment_m4157541451 (EnvironmentManager_t2263979904 * __this, GameObject_t1756533147 * ___terrainContainer0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Transform UnityEngine.Transform::GetChild(System.Int32)
 extern "C"  Transform_t3275118058 * Transform_GetChild_m3838588184 (Transform_t3275118058 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.MeshFilter>()
@@ -2253,8 +2257,6 @@ extern "C"  Transform_t3275118058 * GameObject_get_transform_m909382139 (GameObj
 extern "C"  Matrix4x4_t2933234003  Transform_get_localToWorldMatrix_m2868579006 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Matrix4x4::MultiplyPoint3x4(UnityEngine.Vector3)
 extern "C"  Vector3_t2243707580  Matrix4x4_MultiplyPoint3x4_m1007952212 (Matrix4x4_t2933234003 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.String System.String::Concat(System.Object,System.Object)
-extern "C"  String_t* String_Concat_m56707527 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, Il2CppObject * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::SetFloat(System.String,System.Single)
 extern "C"  void Material_SetFloat_m1926275467 (Material_t193706927 * __this, String_t* p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.Renderer>()
@@ -2555,6 +2557,8 @@ extern "C"  void Text_set_font_m1095513810 (Text_t356221433 * __this, Font_t4239
 extern "C"  void Text_set_fontSize_m2101304336 (Text_t356221433 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Text::set_alignment(UnityEngine.TextAnchor)
 extern "C"  void Text_set_alignment_m1816221961 (Text_t356221433 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Concat(System.Object,System.Object)
+extern "C"  String_t* String_Concat_m56707527 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, Il2CppObject * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TMPro.TMP_Text::set_text(System.String)
 extern "C"  void TMP_Text_set_text_m1160129339 (TMP_Text_t1920000777 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GameObject::.ctor()
@@ -6454,9 +6458,9 @@ extern "C"  void MapGenerator__ctor_m577697486 (MapGenerator_t237211197 * __this
 {
 	{
 		// public DrawMode drawMode = DrawMode.DrawMesh;
-		__this->set_drawMode_3(2);
+		__this->set_drawMode_4(2);
 		// public float meshHeightMultiplier = 30f;
-		__this->set_meshHeightMultiplier_12((30.0f));
+		__this->set_meshHeightMultiplier_13((30.0f));
 		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -6465,9 +6469,6 @@ extern "C"  void MapGenerator__ctor_m577697486 (MapGenerator_t237211197 * __this
 extern "C"  void MapGenerator_Start_m1943725470 (MapGenerator_t237211197 * __this, const MethodInfo* method)
 {
 	{
-		// GenerateMap ();
-		// GenerateMap ();
-		MapGenerator_GenerateMap_m1418959259(__this, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -6488,24 +6489,18 @@ extern "C"  void MapGenerator_GenerateMap_m1418959259 (MapGenerator_t237211197 *
 	float V_4 = 0.0f;
 	int32_t V_5 = 0;
 	MapDisplay_t1779112168 * V_6 = NULL;
-	GameObject_t1756533147 * V_7 = NULL;
-	MeshFilter_t3026937449 * V_8 = NULL;
-	float V_9 = 0.0f;
-	float V_10 = 0.0f;
-	Vector3U5BU5D_t1172311765* V_11 = NULL;
-	int32_t V_12 = 0;
-	Vector3_t2243707580  V_13;
-	memset(&V_13, 0, sizeof(V_13));
-	Matrix4x4_t2933234003  V_14;
-	memset(&V_14, 0, sizeof(V_14));
 	{
+		// Debug.Log ("Being called");
+		// Debug.Log ("Being called");
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral4066759398, /*hidden argument*/NULL);
 		// float[,] noiseMap = Noise.GenerateNoiseMap (MAP_CHUNK_SIZE, MAP_CHUNK_SIZE, seed, noiseScale, octaves, persistance, lacunarity, offset);
-		int32_t L_0 = __this->get_seed_10();
-		float L_1 = __this->get_noiseScale_6();
-		int32_t L_2 = __this->get_octaves_7();
-		float L_3 = __this->get_persistance_8();
-		float L_4 = __this->get_lacunarity_9();
-		Vector2_t2243707579  L_5 = __this->get_offset_11();
+		int32_t L_0 = __this->get_seed_11();
+		float L_1 = __this->get_noiseScale_7();
+		int32_t L_2 = __this->get_octaves_8();
+		float L_3 = __this->get_persistance_9();
+		float L_4 = __this->get_lacunarity_10();
+		Vector2_t2243707579  L_5 = __this->get_offset_12();
 		// float[,] noiseMap = Noise.GenerateNoiseMap (MAP_CHUNK_SIZE, MAP_CHUNK_SIZE, seed, noiseScale, octaves, persistance, lacunarity, offset);
 		SingleU5B0___U2C0___U5D_t577127398* L_6 = Noise_GenerateNoiseMap_m4257645125(NULL /*static, unused*/, ((int32_t)241), ((int32_t)241), L_0, L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
 		V_0 = L_6;
@@ -6513,17 +6508,17 @@ extern "C"  void MapGenerator_GenerateMap_m1418959259 (MapGenerator_t237211197 *
 		V_1 = ((ColorU5BU5D_t672350442*)SZArrayNew(ColorU5BU5D_t672350442_il2cpp_TypeInfo_var, (uint32_t)((int32_t)58081)));
 		// for (int y = 0; y < MAP_CHUNK_SIZE; y++) {
 		V_2 = 0;
-		goto IL_00d3;
+		goto IL_00dd;
 	}
 
-IL_0047:
+IL_0051:
 	{
 		// for (int x = 0; x < MAP_CHUNK_SIZE; x++) {
 		V_3 = 0;
-		goto IL_00c3;
+		goto IL_00cd;
 	}
 
-IL_004f:
+IL_0059:
 	{
 		// float currentHight = noiseMap [x, y];
 		SingleU5B0___U2C0___U5D_t577127398* L_7 = V_0;
@@ -6534,20 +6529,20 @@ IL_004f:
 		V_4 = L_10;
 		// for (int i = 0; i < regions.Length; i++) {
 		V_5 = 0;
-		goto IL_00af;
+		goto IL_00b9;
 	}
 
-IL_0062:
+IL_006c:
 	{
 		// if (currentHight <= regions [i].height) {
 		float L_11 = V_4;
-		TerrainTypeU5BU5D_t4293736632* L_12 = __this->get_regions_15();
+		TerrainTypeU5BU5D_t4293736632* L_12 = __this->get_regions_16();
 		int32_t L_13 = V_5;
 		NullCheck(L_12);
 		float L_14 = ((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))->get_height_1();
 		if ((!(((float)L_11) <= ((float)L_14))))
 		{
-			goto IL_00a8;
+			goto IL_00b2;
 		}
 	}
 	{
@@ -6556,48 +6551,48 @@ IL_0062:
 		int32_t L_16 = V_2;
 		int32_t L_17 = V_3;
 		NullCheck(L_15);
-		TerrainTypeU5BU5D_t4293736632* L_18 = __this->get_regions_15();
+		TerrainTypeU5BU5D_t4293736632* L_18 = __this->get_regions_16();
 		int32_t L_19 = V_5;
 		NullCheck(L_18);
 		Color_t2020392075  L_20 = ((L_18)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_19)))->get_color_2();
 		(*(Color_t2020392075 *)((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)((int32_t)((int32_t)L_16*(int32_t)((int32_t)241)))+(int32_t)L_17)))))) = L_20;
 		// break;
-		goto IL_00be;
+		goto IL_00c8;
 	}
 
-IL_00a8:
+IL_00b2:
 	{
 		// for (int i = 0; i < regions.Length; i++) {
 		int32_t L_21 = V_5;
 		V_5 = ((int32_t)((int32_t)L_21+(int32_t)1));
 	}
 
-IL_00af:
+IL_00b9:
 	{
 		// for (int i = 0; i < regions.Length; i++) {
 		int32_t L_22 = V_5;
-		TerrainTypeU5BU5D_t4293736632* L_23 = __this->get_regions_15();
+		TerrainTypeU5BU5D_t4293736632* L_23 = __this->get_regions_16();
 		NullCheck(L_23);
 		if ((((int32_t)L_22) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_23)->max_length)))))))
 		{
-			goto IL_0062;
+			goto IL_006c;
 		}
 	}
 
-IL_00be:
+IL_00c8:
 	{
 		// for (int x = 0; x < MAP_CHUNK_SIZE; x++) {
 		int32_t L_24 = V_3;
 		V_3 = ((int32_t)((int32_t)L_24+(int32_t)1));
 	}
 
-IL_00c3:
+IL_00cd:
 	{
 		// for (int x = 0; x < MAP_CHUNK_SIZE; x++) {
 		int32_t L_25 = V_3;
 		if ((((int32_t)L_25) < ((int32_t)((int32_t)241))))
 		{
-			goto IL_004f;
+			goto IL_0059;
 		}
 	}
 	{
@@ -6606,13 +6601,13 @@ IL_00c3:
 		V_2 = ((int32_t)((int32_t)L_26+(int32_t)1));
 	}
 
-IL_00d3:
+IL_00dd:
 	{
 		// for (int y = 0; y < MAP_CHUNK_SIZE; y++) {
 		int32_t L_27 = V_2;
 		if ((((int32_t)L_27) < ((int32_t)((int32_t)241))))
 		{
-			goto IL_0047;
+			goto IL_0051;
 		}
 	}
 	{
@@ -6621,10 +6616,10 @@ IL_00d3:
 		MapDisplay_t1779112168 * L_28 = Object_FindObjectOfType_TisMapDisplay_t1779112168_m3169326203(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisMapDisplay_t1779112168_m3169326203_MethodInfo_var);
 		V_6 = L_28;
 		// if (drawMode == DrawMode.NoiseMap) {
-		int32_t L_29 = __this->get_drawMode_3();
+		int32_t L_29 = __this->get_drawMode_4();
 		if (L_29)
 		{
-			goto IL_0104;
+			goto IL_010e;
 		}
 	}
 	{
@@ -6636,16 +6631,16 @@ IL_00d3:
 		// display.DrawTexture (TextureGenerator.TextureFromHeightMap (noiseMap));
 		NullCheck(L_30);
 		MapDisplay_DrawTexture_m1714517244(L_30, L_32, /*hidden argument*/NULL);
-		goto IL_016b;
+		goto IL_0175;
 	}
 
-IL_0104:
+IL_010e:
 	{
 		// } else if (drawMode == DrawMode.ColorMap) {
-		int32_t L_33 = __this->get_drawMode_3();
+		int32_t L_33 = __this->get_drawMode_4();
 		if ((!(((uint32_t)L_33) == ((uint32_t)1))))
 		{
-			goto IL_012e;
+			goto IL_0138;
 		}
 	}
 	{
@@ -6657,25 +6652,25 @@ IL_0104:
 		// display.DrawTexture (TextureGenerator.TextureFromColorMap (colorMap, MAP_CHUNK_SIZE, MAP_CHUNK_SIZE));
 		NullCheck(L_34);
 		MapDisplay_DrawTexture_m1714517244(L_34, L_36, /*hidden argument*/NULL);
-		goto IL_016b;
+		goto IL_0175;
 	}
 
-IL_012e:
+IL_0138:
 	{
 		// } else if (drawMode == DrawMode.DrawMesh) {
-		int32_t L_37 = __this->get_drawMode_3();
+		int32_t L_37 = __this->get_drawMode_4();
 		if ((!(((uint32_t)L_37) == ((uint32_t)2))))
 		{
-			goto IL_016b;
+			goto IL_0175;
 		}
 	}
 	{
 		// display.DrawMesh (MeshGenerator.GenerateTerrainMesh (noiseMap, meshHeightMultiplier, meshHeightCurve, levelOfDetail), TextureGenerator.TextureFromColorMap (colorMap, MAP_CHUNK_SIZE, MAP_CHUNK_SIZE));
 		MapDisplay_t1779112168 * L_38 = V_6;
 		SingleU5B0___U2C0___U5D_t577127398* L_39 = V_0;
-		float L_40 = __this->get_meshHeightMultiplier_12();
-		AnimationCurve_t3306541151 * L_41 = __this->get_meshHeightCurve_13();
-		int32_t L_42 = __this->get_levelOfDetail_5();
+		float L_40 = __this->get_meshHeightMultiplier_13();
+		AnimationCurve_t3306541151 * L_41 = __this->get_meshHeightCurve_14();
+		int32_t L_42 = __this->get_levelOfDetail_6();
 		// display.DrawMesh (MeshGenerator.GenerateTerrainMesh (noiseMap, meshHeightMultiplier, meshHeightCurve, levelOfDetail), TextureGenerator.TextureFromColorMap (colorMap, MAP_CHUNK_SIZE, MAP_CHUNK_SIZE));
 		MeshData_t2723510749 * L_43 = MeshGenerator_GenerateTerrainMesh_m3042335721(NULL /*static, unused*/, L_39, L_40, L_41, L_42, /*hidden argument*/NULL);
 		ColorU5BU5D_t672350442* L_44 = V_1;
@@ -6686,153 +6681,175 @@ IL_012e:
 		MapDisplay_DrawMesh_m3648264271(L_38, L_43, L_45, /*hidden argument*/NULL);
 	}
 
-IL_016b:
+IL_0175:
+	{
+		// m_EnvironmentManager.SpawnEnvironment (gameObject);
+		EnvironmentManager_t2263979904 * L_46 = __this->get_m_EnvironmentManager_3();
+		// m_EnvironmentManager.SpawnEnvironment (gameObject);
+		GameObject_t1756533147 * L_47 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		// m_EnvironmentManager.SpawnEnvironment (gameObject);
+		NullCheck(L_46);
+		EnvironmentManager_SpawnEnvironment_m4157541451(L_46, L_47, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void MapGenerator::SetShaderHeightBoundaries()
+extern "C"  void MapGenerator_SetShaderHeightBoundaries_m1402888974 (MapGenerator_t237211197 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MapGenerator_SetShaderHeightBoundaries_m1402888974_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	MeshFilter_t3026937449 * V_1 = NULL;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	Vector3U5BU5D_t1172311765* V_4 = NULL;
+	int32_t V_5 = 0;
+	Vector3_t2243707580  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Matrix4x4_t2933234003  V_7;
+	memset(&V_7, 0, sizeof(V_7));
 	{
 		// GameObject terrainGO = transform.GetChild(0).gameObject;
 		// GameObject terrainGO = transform.GetChild(0).gameObject;
-		Transform_t3275118058 * L_46 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_0 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
 		// GameObject terrainGO = transform.GetChild(0).gameObject;
-		NullCheck(L_46);
-		Transform_t3275118058 * L_47 = Transform_GetChild_m3838588184(L_46, 0, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_t3275118058 * L_1 = Transform_GetChild_m3838588184(L_0, 0, /*hidden argument*/NULL);
 		// GameObject terrainGO = transform.GetChild(0).gameObject;
-		NullCheck(L_47);
-		GameObject_t1756533147 * L_48 = Component_get_gameObject_m3105766835(L_47, /*hidden argument*/NULL);
-		V_7 = L_48;
+		NullCheck(L_1);
+		GameObject_t1756533147 * L_2 = Component_get_gameObject_m3105766835(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// MeshFilter mf = terrainGO.GetComponent<MeshFilter> ();
-		GameObject_t1756533147 * L_49 = V_7;
+		GameObject_t1756533147 * L_3 = V_0;
 		// MeshFilter mf = terrainGO.GetComponent<MeshFilter> ();
-		NullCheck(L_49);
-		MeshFilter_t3026937449 * L_50 = GameObject_GetComponent_TisMeshFilter_t3026937449_m2045218792(L_49, /*hidden argument*/GameObject_GetComponent_TisMeshFilter_t3026937449_m2045218792_MethodInfo_var);
-		V_8 = L_50;
+		NullCheck(L_3);
+		MeshFilter_t3026937449 * L_4 = GameObject_GetComponent_TisMeshFilter_t3026937449_m2045218792(L_3, /*hidden argument*/GameObject_GetComponent_TisMeshFilter_t3026937449_m2045218792_MethodInfo_var);
+		V_1 = L_4;
 		// float tallestDist = Mathf.NegativeInfinity;
-		V_9 = (-std::numeric_limits<float>::infinity());
+		V_2 = (-std::numeric_limits<float>::infinity());
 		// float minHeight = Mathf.Infinity;
-		V_10 = (std::numeric_limits<float>::infinity());
+		V_3 = (std::numeric_limits<float>::infinity());
 		// if (mf != null) {
-		MeshFilter_t3026937449 * L_51 = V_8;
+		MeshFilter_t3026937449 * L_5 = V_1;
 		// if (mf != null) {
 		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_52 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_51, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_52)
+		bool L_6 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_5, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_6)
 		{
-			goto IL_0236;
+			goto IL_00aa;
 		}
 	}
 	{
 		// Vector3[] vertices = mf.sharedMesh.vertices;
-		MeshFilter_t3026937449 * L_53 = V_8;
+		MeshFilter_t3026937449 * L_7 = V_1;
 		// Vector3[] vertices = mf.sharedMesh.vertices;
-		NullCheck(L_53);
-		Mesh_t1356156583 * L_54 = MeshFilter_get_sharedMesh_m1310789932(L_53, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Mesh_t1356156583 * L_8 = MeshFilter_get_sharedMesh_m1310789932(L_7, /*hidden argument*/NULL);
 		// Vector3[] vertices = mf.sharedMesh.vertices;
-		NullCheck(L_54);
-		Vector3U5BU5D_t1172311765* L_55 = Mesh_get_vertices_m626989480(L_54, /*hidden argument*/NULL);
-		V_11 = L_55;
+		NullCheck(L_8);
+		Vector3U5BU5D_t1172311765* L_9 = Mesh_get_vertices_m626989480(L_8, /*hidden argument*/NULL);
+		V_4 = L_9;
 		// for (int i = 0; i < vertices.Length; i++) {
-		V_12 = 0;
-		goto IL_0214;
+		V_5 = 0;
+		goto IL_009e;
 	}
 
-IL_01b9:
+IL_0048:
 	{
 		// Vector3 vert = terrainGO.transform.localToWorldMatrix.MultiplyPoint3x4 (vertices [i]);
-		GameObject_t1756533147 * L_56 = V_7;
+		GameObject_t1756533147 * L_10 = V_0;
 		// Vector3 vert = terrainGO.transform.localToWorldMatrix.MultiplyPoint3x4 (vertices [i]);
-		NullCheck(L_56);
-		Transform_t3275118058 * L_57 = GameObject_get_transform_m909382139(L_56, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Transform_t3275118058 * L_11 = GameObject_get_transform_m909382139(L_10, /*hidden argument*/NULL);
 		// Vector3 vert = terrainGO.transform.localToWorldMatrix.MultiplyPoint3x4 (vertices [i]);
-		NullCheck(L_57);
-		Matrix4x4_t2933234003  L_58 = Transform_get_localToWorldMatrix_m2868579006(L_57, /*hidden argument*/NULL);
-		V_14 = L_58;
-		Vector3U5BU5D_t1172311765* L_59 = V_11;
-		int32_t L_60 = V_12;
-		NullCheck(L_59);
+		NullCheck(L_11);
+		Matrix4x4_t2933234003  L_12 = Transform_get_localToWorldMatrix_m2868579006(L_11, /*hidden argument*/NULL);
+		V_7 = L_12;
+		Vector3U5BU5D_t1172311765* L_13 = V_4;
+		int32_t L_14 = V_5;
+		NullCheck(L_13);
 		// Vector3 vert = terrainGO.transform.localToWorldMatrix.MultiplyPoint3x4 (vertices [i]);
-		Vector3_t2243707580  L_61 = Matrix4x4_MultiplyPoint3x4_m1007952212((&V_14), (*(Vector3_t2243707580 *)((L_59)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_60)))), /*hidden argument*/NULL);
-		V_13 = L_61;
+		Vector3_t2243707580  L_15 = Matrix4x4_MultiplyPoint3x4_m1007952212((&V_7), (*(Vector3_t2243707580 *)((L_13)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_14)))), /*hidden argument*/NULL);
+		V_6 = L_15;
 		// if (vert.y > tallestDist)
-		float L_62 = (&V_13)->get_y_2();
-		float L_63 = V_9;
-		if ((!(((float)L_62) > ((float)L_63))))
+		float L_16 = (&V_6)->get_y_2();
+		float L_17 = V_2;
+		if ((!(((float)L_16) > ((float)L_17))))
 		{
-			goto IL_01f6;
+			goto IL_0082;
 		}
 	}
 	{
 		// tallestDist = vert.y;
-		float L_64 = (&V_13)->get_y_2();
-		V_9 = L_64;
+		float L_18 = (&V_6)->get_y_2();
+		V_2 = L_18;
 	}
 
-IL_01f6:
+IL_0082:
 	{
 		// if (vert.y < minHeight)
-		float L_65 = (&V_13)->get_y_2();
-		float L_66 = V_10;
-		if ((!(((float)L_65) < ((float)L_66))))
+		float L_19 = (&V_6)->get_y_2();
+		float L_20 = V_3;
+		if ((!(((float)L_19) < ((float)L_20))))
 		{
-			goto IL_020d;
+			goto IL_0097;
 		}
 	}
 	{
 		// minHeight = vert.y;
-		float L_67 = (&V_13)->get_y_2();
-		V_10 = L_67;
+		float L_21 = (&V_6)->get_y_2();
+		V_3 = L_21;
 	}
 
-IL_020d:
+IL_0097:
 	{
 		// for (int i = 0; i < vertices.Length; i++) {
-		int32_t L_68 = V_12;
-		V_12 = ((int32_t)((int32_t)L_68+(int32_t)1));
+		int32_t L_22 = V_5;
+		V_5 = ((int32_t)((int32_t)L_22+(int32_t)1));
 	}
 
-IL_0214:
+IL_009e:
 	{
 		// for (int i = 0; i < vertices.Length; i++) {
-		int32_t L_69 = V_12;
-		Vector3U5BU5D_t1172311765* L_70 = V_11;
-		NullCheck(L_70);
-		if ((((int32_t)L_69) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_70)->max_length)))))))
+		int32_t L_23 = V_5;
+		Vector3U5BU5D_t1172311765* L_24 = V_4;
+		NullCheck(L_24);
+		if ((((int32_t)L_23) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_24)->max_length)))))))
 		{
-			goto IL_01b9;
+			goto IL_0048;
 		}
 	}
 	{
-		// Debug.Log ("Tallest point: " + tallestDist);
-		float L_71 = V_9;
-		float L_72 = L_71;
-		Il2CppObject * L_73 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_72);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_74 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral3029188673, L_73, /*hidden argument*/NULL);
-		// Debug.Log ("Tallest point: " + tallestDist);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
-		Debug_Log_m920475918(NULL /*static, unused*/, L_74, /*hidden argument*/NULL);
 	}
 
-IL_0236:
+IL_00aa:
 	{
 		// m_TerrainMaterial.SetFloat ("_MaxHeight", tallestDist);
-		Material_t193706927 * L_75 = __this->get_m_TerrainMaterial_2();
-		float L_76 = V_9;
+		Material_t193706927 * L_25 = __this->get_m_TerrainMaterial_2();
+		float L_26 = V_2;
 		// m_TerrainMaterial.SetFloat ("_MaxHeight", tallestDist);
-		NullCheck(L_75);
-		Material_SetFloat_m1926275467(L_75, _stringLiteral3063246256, L_76, /*hidden argument*/NULL);
+		NullCheck(L_25);
+		Material_SetFloat_m1926275467(L_25, _stringLiteral3063246256, L_26, /*hidden argument*/NULL);
 		// m_TerrainMaterial.SetFloat ("_MinHeight", minHeight);
-		Material_t193706927 * L_77 = __this->get_m_TerrainMaterial_2();
-		float L_78 = V_10;
+		Material_t193706927 * L_27 = __this->get_m_TerrainMaterial_2();
+		float L_28 = V_3;
 		// m_TerrainMaterial.SetFloat ("_MinHeight", minHeight);
-		NullCheck(L_77);
-		Material_SetFloat_m1926275467(L_77, _stringLiteral2125197162, L_78, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		Material_SetFloat_m1926275467(L_27, _stringLiteral2125197162, L_28, /*hidden argument*/NULL);
 		// terrainGO.GetComponent<Renderer> ().material = m_TerrainMaterial;
-		GameObject_t1756533147 * L_79 = V_7;
+		GameObject_t1756533147 * L_29 = V_0;
 		// terrainGO.GetComponent<Renderer> ().material = m_TerrainMaterial;
-		NullCheck(L_79);
-		Renderer_t257310565 * L_80 = GameObject_GetComponent_TisRenderer_t257310565_m1312615893(L_79, /*hidden argument*/GameObject_GetComponent_TisRenderer_t257310565_m1312615893_MethodInfo_var);
-		Material_t193706927 * L_81 = __this->get_m_TerrainMaterial_2();
+		NullCheck(L_29);
+		Renderer_t257310565 * L_30 = GameObject_GetComponent_TisRenderer_t257310565_m1312615893(L_29, /*hidden argument*/GameObject_GetComponent_TisRenderer_t257310565_m1312615893_MethodInfo_var);
+		Material_t193706927 * L_31 = __this->get_m_TerrainMaterial_2();
 		// terrainGO.GetComponent<Renderer> ().material = m_TerrainMaterial;
-		NullCheck(L_80);
-		Renderer_set_material_m1053097112(L_80, L_81, /*hidden argument*/NULL);
+		NullCheck(L_30);
+		Renderer_set_material_m1053097112(L_30, L_31, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -6842,7 +6859,7 @@ extern "C"  void MapGenerator_OnValidate_m1414639659 (MapGenerator_t237211197 * 
 {
 	{
 		// if (lacunarity < 1) {
-		float L_0 = __this->get_lacunarity_9();
+		float L_0 = __this->get_lacunarity_10();
 		if ((!(((float)L_0) < ((float)(1.0f)))))
 		{
 			goto IL_001e;
@@ -6850,13 +6867,13 @@ extern "C"  void MapGenerator_OnValidate_m1414639659 (MapGenerator_t237211197 * 
 	}
 	{
 		// lacunarity = 1;
-		__this->set_lacunarity_9((1.0f));
+		__this->set_lacunarity_10((1.0f));
 	}
 
 IL_001e:
 	{
 		// if (octaves < 0) {
-		int32_t L_1 = __this->get_octaves_7();
+		int32_t L_1 = __this->get_octaves_8();
 		if ((((int32_t)L_1) >= ((int32_t)0)))
 		{
 			goto IL_0033;
@@ -6864,7 +6881,7 @@ IL_001e:
 	}
 	{
 		// octaves = 0;
-		__this->set_octaves_7(0);
+		__this->set_octaves_8(0);
 	}
 
 IL_0033:

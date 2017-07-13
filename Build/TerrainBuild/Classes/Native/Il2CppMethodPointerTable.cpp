@@ -13887,6 +13887,9 @@ extern "C" void ColorSliderImage_RegenerateTexture_m1461909699 ();
 extern "C" void DontDestroyOnLoad__ctor_m1942765255 ();
 extern "C" void DontDestroyOnLoad_Start_m839902491 ();
 extern "C" void DontDestroyOnLoad_Update_m3048973460 ();
+extern "C" void EnvironmentManager__ctor_m3978207105 ();
+extern "C" void EnvironmentManager_SpawnEnvironment_m4157541451 ();
+extern "C" void EnvironmentManager_SpawnClouds_m1382546288 ();
 extern "C" void EnvMapAnimator__ctor_m1191804453 ();
 extern "C" void EnvMapAnimator_Awake_m3077810730 ();
 extern "C" void EnvMapAnimator_Start_m3218563135 ();
@@ -14466,6 +14469,7 @@ extern "C" void MapDisplay_DrawMesh_m3648264271 ();
 extern "C" void MapGenerator__ctor_m577697486 ();
 extern "C" void MapGenerator_Start_m1943725470 ();
 extern "C" void MapGenerator_GenerateMap_m1418959259 ();
+extern "C" void MapGenerator_SetShaderHeightBoundaries_m1402888974 ();
 extern "C" void MapGenerator_OnValidate_m1414639659 ();
 extern "C" void MenuSceneLoader__ctor_m1421730551 ();
 extern "C" void MenuSceneLoader_Awake_m4034400262 ();
@@ -15391,7 +15395,7 @@ extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene5_m1426789968 ();
 extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene6_m163234005 ();
 extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene7_m1709114970 ();
 extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene8_m1769465567 ();
-extern const Il2CppMethodPointer g_MethodPointers[15377] = 
+extern const Il2CppMethodPointer g_MethodPointers[15381] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -29266,6 +29270,9 @@ extern const Il2CppMethodPointer g_MethodPointers[15377] =
 	DontDestroyOnLoad__ctor_m1942765255,
 	DontDestroyOnLoad_Start_m839902491,
 	DontDestroyOnLoad_Update_m3048973460,
+	EnvironmentManager__ctor_m3978207105,
+	EnvironmentManager_SpawnEnvironment_m4157541451,
+	EnvironmentManager_SpawnClouds_m1382546288,
 	EnvMapAnimator__ctor_m1191804453,
 	EnvMapAnimator_Awake_m3077810730,
 	EnvMapAnimator_Start_m3218563135,
@@ -29845,6 +29852,7 @@ extern const Il2CppMethodPointer g_MethodPointers[15377] =
 	MapGenerator__ctor_m577697486,
 	MapGenerator_Start_m1943725470,
 	MapGenerator_GenerateMap_m1418959259,
+	MapGenerator_SetShaderHeightBoundaries_m1402888974,
 	MapGenerator_OnValidate_m1414639659,
 	MenuSceneLoader__ctor_m1421730551,
 	MenuSceneLoader_Awake_m4034400262,

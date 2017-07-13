@@ -7,7 +7,6 @@ public class ARTerrainManager : MonoBehaviour {
 
     public float m_TerrainScale = 0.1f;
     public GameObject m_TerrainPrefab;
-    public MapGenerator m_MapGenerator;
     public int m_TerrainLayerMask = 8;
     public TerrainAnchorObject m_TerrainAnchorObject;
     public float m_TerrainModifyRate;
@@ -26,6 +25,7 @@ public class ARTerrainManager : MonoBehaviour {
     private Vector2 m_StartTouchPosition;
     private Vector2 m_TouchDirection;
     private List<TerrainPoint> m_TerrainPoints;
+    private MapGenerator m_MapGenerator;
 
 
 
@@ -45,7 +45,10 @@ public class ARTerrainManager : MonoBehaviour {
 
         m_TerrainAnchorObject = new TerrainAnchorObject(GameObject.Instantiate(m_TerrainPrefab), anchorData);
         m_MapGenerator = m_TerrainAnchorObject.terrainObject.GetComponent<MapGenerator> ();
+        m_MapGenerator.GenerateMap ();
         UnityARUtility.UpdateObjectWithAnchorTransform (m_TerrainAnchorObject.terrainObject, m_TerrainAnchorObject.anchor, m_TerrainScale);
+        // Set the shader height after resize
+        m_MapGenerator.SetShaderHeightBoundaries ();
         UnityARSessionNativeInterface.ARAnchorUpdatedEvent += UpdateTerrainAnchor;
         m_TerrainSpawned = true;
     }
@@ -107,9 +110,8 @@ public class ARTerrainManager : MonoBehaviour {
         MeshFilter mf = terrainGO.GetComponent<MeshFilter> ();
 
         if (mf != null) {
-            // #### This can be changes to not make an entire copy of the vrtex array to make it more efficient ####
+            // DO NOT READ DIRECTLY FROM SHARED MESH, causes the system to lag. Create a copy and read vertex info from copy
             Vector3[] vertices = mf.mesh.vertices;
-            float shortestDist = Mathf.Infinity;
 
             // Go through all verticed and find the closest mesh vertex to the rayHit point
             for (int i = 0; i < vertices.Length; i++) {

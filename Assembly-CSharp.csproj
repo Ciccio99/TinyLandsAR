@@ -127,6 +127,7 @@
      <Compile Include="Assets\Scripts\ARPlaneManager.cs" />
      <Compile Include="Assets\Scripts\ARTerrainManager.cs" />
      <Compile Include="Assets\Scripts\ARTouchManager.cs" />
+     <Compile Include="Assets\Scripts\EnvironmentManager.cs" />
      <Compile Include="Assets\Scripts\GeneralManager.cs" />
      <Compile Include="Assets\Scripts\MapDisplay.cs" />
      <Compile Include="Assets\Scripts\MapGenerator.cs" />

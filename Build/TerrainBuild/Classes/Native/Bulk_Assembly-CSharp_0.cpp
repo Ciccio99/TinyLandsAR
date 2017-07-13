@@ -122,6 +122,8 @@
 #include "mscorlib_System_Byte3683104436.h"
 #include "UnityEngine_UI_UnityEngine_UI_Slider_Direction1525323322.h"
 #include "AssemblyU2DCSharp_DontDestroyOnLoad3235789354.h"
+#include "AssemblyU2DCSharp_EnvironmentManager2263979904.h"
+#include "UnityEngine_UnityEngine_Bounds3033363703.h"
 #include "AssemblyU2DCSharp_EnvMapAnimator1635389402.h"
 #include "AssemblyU2DCSharp_EnvMapAnimator_U3CStartU3Ec__Iter110035792.h"
 #include "mscorlib_System_UInt322149682021.h"
@@ -360,6 +362,8 @@ struct Texture2D_t3542995729;
 struct Color32U5BU5D_t30278651;
 // DontDestroyOnLoad
 struct DontDestroyOnLoad_t3235789354;
+// EnvironmentManager
+struct EnvironmentManager_t2263979904;
 // EnvMapAnimator
 struct EnvMapAnimator_t1635389402;
 // System.Collections.IEnumerator
@@ -686,6 +690,11 @@ extern Il2CppClass* Texture2D_t3542995729_il2cpp_TypeInfo_var;
 extern Il2CppClass* Color32U5BU5D_t30278651_il2cpp_TypeInfo_var;
 extern const uint32_t ColorSliderImage_RegenerateTexture_m1461909699_MetadataUsageId;
 extern const uint32_t DontDestroyOnLoad_Start_m839902491_MetadataUsageId;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisRenderer_t257310565_m1312615893_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1628187029;
+extern Il2CppCodeGenString* _stringLiteral3436377336;
+extern const uint32_t EnvironmentManager_SpawnClouds_m1382546288_MetadataUsageId;
 extern const MethodInfo* Component_GetComponent_TisTMP_Text_t1920000777_m1740531289_MethodInfo_var;
 extern const uint32_t EnvMapAnimator_Awake_m3077810730_MetadataUsageId;
 extern Il2CppClass* U3CStartU3Ec__Iterator0_t110035792_il2cpp_TypeInfo_var;
@@ -1276,8 +1285,12 @@ extern "C"  void TerrainAnchorObject__ctor_m1180149108 (TerrainAnchorObject_t121
 extern "C"  GameObject_t1756533147 * TerrainAnchorObject_get_terrainObject_m2760789286 (TerrainAnchorObject_t1214709381 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // !!0 UnityEngine.GameObject::GetComponent<MapGenerator>()
 #define GameObject_GetComponent_TisMapGenerator_t237211197_m364048322(__this, method) ((  MapGenerator_t237211197 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
+// System.Void MapGenerator::GenerateMap()
+extern "C"  void MapGenerator_GenerateMap_m1418959259 (MapGenerator_t237211197 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject UnityEngine.XR.iOS.UnityARUtility::UpdateObjectWithAnchorTransform(UnityEngine.GameObject,UnityEngine.XR.iOS.ARPlaneAnchor,System.Single)
 extern "C"  GameObject_t1756533147 * UnityARUtility_UpdateObjectWithAnchorTransform_m4136968086 (Il2CppObject * __this /* static, unused */, GameObject_t1756533147 * ___go0, ARPlaneAnchor_t1439520888  ___arPlaneAnchor1, float ___scaling2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void MapGenerator::SetShaderHeightBoundaries()
+extern "C"  void MapGenerator_SetShaderHeightBoundaries_m1402888974 (MapGenerator_t237211197 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.XR.iOS.UnityARSessionNativeInterface::remove_ARAnchorUpdatedEvent(UnityEngine.XR.iOS.UnityARSessionNativeInterface/ARAnchorUpdated)
 extern "C"  void UnityARSessionNativeInterface_remove_ARAnchorUpdatedEvent_m3167872061 (Il2CppObject * __this /* static, unused */, ARAnchorUpdated_t3886071158 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.String::op_Equality(System.String,System.String)
@@ -1576,6 +1589,28 @@ extern "C"  void Rect__ctor_m1220545469 (Rect_t3681755626 * __this, float p0, fl
 extern "C"  void RawImage_set_uvRect_m3807597783 (RawImage_t2749640213 * __this, Rect_t3681755626  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Object::DontDestroyOnLoad(UnityEngine.Object)
 extern "C"  void Object_DontDestroyOnLoad_m2330762974 (Il2CppObject * __this /* static, unused */, Object_t1021602117 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void EnvironmentManager::SpawnClouds(UnityEngine.GameObject)
+extern "C"  void EnvironmentManager_SpawnClouds_m1382546288 (EnvironmentManager_t2263979904 * __this, GameObject_t1756533147 * ___terrainContainer0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Transform UnityEngine.Transform::GetChild(System.Int32)
+extern "C"  Transform_t3275118058 * Transform_GetChild_m3838588184 (Transform_t3275118058 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Transform UnityEngine.Transform::Find(System.String)
+extern "C"  Transform_t3275118058 * Transform_Find_m3323476454 (Transform_t3275118058 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.Renderer>()
+#define GameObject_GetComponent_TisRenderer_t257310565_m1312615893(__this, method) ((  Renderer_t257310565 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
+// UnityEngine.Bounds UnityEngine.Renderer::get_bounds()
+extern "C"  Bounds_t3033363703  Renderer_get_bounds_m3832626589 (Renderer_t257310565 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Bounds::get_extents()
+extern "C"  Vector3_t2243707580  Bounds_get_extents_m4077324178 (Bounds_t3033363703 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Bounds::get_max()
+extern "C"  Vector3_t2243707580  Bounds_get_max_m4247050707 (Bounds_t3033363703 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.Random::Range(System.Int32,System.Int32)
+extern "C"  int32_t Random_Range_m694320887 (Il2CppObject * __this /* static, unused */, int32_t p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Quaternion UnityEngine.Quaternion::Euler(UnityEngine.Vector3)
+extern "C"  Quaternion_t4030073918  Quaternion_Euler_m3586339259 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::set_parent(UnityEngine.Transform)
+extern "C"  void Transform_set_parent_m3281327839 (Transform_t3275118058 * __this, Transform_t3275118058 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Debug::Log(System.Object)
+extern "C"  void Debug_Log_m920475918 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // !!0 UnityEngine.Component::GetComponent<TMPro.TMP_Text>()
 #define Component_GetComponent_TisTMP_Text_t1920000777_m1740531289(__this, method) ((  TMP_Text_t1920000777 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
 // System.Void EnvMapAnimator/<Start>c__Iterator0::.ctor()
@@ -2417,7 +2452,7 @@ extern "C"  void ARPlaneManager_UpdateCurrentPlaneAnchor_m2582259574 (ARPlaneMan
 		// if (m_ARTerrainManager.m_TerrainAnchorObject.anchor.identifier != arPlaneAnchor.identifier) {
 		ARTerrainManager_t2018264653 * L_0 = __this->get_m_ARTerrainManager_3();
 		NullCheck(L_0);
-		TerrainAnchorObject_t1214709381 * L_1 = L_0->get_address_of_m_TerrainAnchorObject_6();
+		TerrainAnchorObject_t1214709381 * L_1 = L_0->get_address_of_m_TerrainAnchorObject_5();
 		// if (m_ARTerrainManager.m_TerrainAnchorObject.anchor.identifier != arPlaneAnchor.identifier) {
 		ARPlaneAnchor_t1439520888  L_2 = TerrainAnchorObject_get_anchor_m3565065547(L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
@@ -2525,9 +2560,9 @@ extern "C"  void ARTerrainManager__ctor_m472037146 (ARTerrainManager_t2018264653
 		// public float m_TerrainScale = 0.1f;
 		__this->set_m_TerrainScale_2((0.1f));
 		// public int m_TerrainLayerMask = 8;
-		__this->set_m_TerrainLayerMask_5(8);
+		__this->set_m_TerrainLayerMask_4(8);
 		// public float m_TerrainSelectRadius = 0.06f;
-		__this->set_m_TerrainSelectRadius_8((0.06f));
+		__this->set_m_TerrainSelectRadius_7((0.06f));
 		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -2545,18 +2580,18 @@ extern "C"  void ARTerrainManager_Awake_m4135509805 (ARTerrainManager_t201826465
 	memset(&V_0, 0, sizeof(V_0));
 	{
 		// m_TerrainSpawned = false;
-		__this->set_m_TerrainSpawned_11((bool)0);
+		__this->set_m_TerrainSpawned_10((bool)0);
 		// m_CurrentManipPhase = ManipPhase.NONE;
-		__this->set_m_CurrentManipPhase_12(3);
+		__this->set_m_CurrentManipPhase_11(3);
 		// m_TerrainPoints = new List<TerrainPoint> ();
 		// m_TerrainPoints = new List<TerrainPoint> ();
 		List_1_t2456077777 * L_0 = (List_1_t2456077777 *)il2cpp_codegen_object_new(List_1_t2456077777_il2cpp_TypeInfo_var);
 		List_1__ctor_m28770586(L_0, /*hidden argument*/List_1__ctor_m28770586_MethodInfo_var);
-		__this->set_m_TerrainPoints_16(L_0);
+		__this->set_m_TerrainPoints_15(L_0);
 		// m_TerrainAnchorObject = new TerrainAnchorObject ();
 		Initobj (TerrainAnchorObject_t1214709381_il2cpp_TypeInfo_var, (&V_0));
 		TerrainAnchorObject_t1214709381  L_1 = V_0;
-		__this->set_m_TerrainAnchorObject_6(L_1);
+		__this->set_m_TerrainAnchorObject_5(L_1);
 		// }
 		return;
 	}
@@ -2572,7 +2607,7 @@ extern "C"  void ARTerrainManager_CreateTerrainAnchorObject_m3217380875 (ARTerra
 	}
 	{
 		// if (m_TerrainSpawned) {
-		bool L_0 = __this->get_m_TerrainSpawned_11();
+		bool L_0 = __this->get_m_TerrainSpawned_10();
 		if (!L_0)
 		{
 			goto IL_0014;
@@ -2596,36 +2631,46 @@ IL_0014:
 		TerrainAnchorObject_t1214709381  L_4;
 		memset(&L_4, 0, sizeof(L_4));
 		TerrainAnchorObject__ctor_m1180149108(&L_4, L_2, L_3, /*hidden argument*/NULL);
-		__this->set_m_TerrainAnchorObject_6(L_4);
+		__this->set_m_TerrainAnchorObject_5(L_4);
 		// m_MapGenerator = m_TerrainAnchorObject.terrainObject.GetComponent<MapGenerator> ();
-		TerrainAnchorObject_t1214709381 * L_5 = __this->get_address_of_m_TerrainAnchorObject_6();
+		TerrainAnchorObject_t1214709381 * L_5 = __this->get_address_of_m_TerrainAnchorObject_5();
 		// m_MapGenerator = m_TerrainAnchorObject.terrainObject.GetComponent<MapGenerator> ();
 		GameObject_t1756533147 * L_6 = TerrainAnchorObject_get_terrainObject_m2760789286(L_5, /*hidden argument*/NULL);
 		// m_MapGenerator = m_TerrainAnchorObject.terrainObject.GetComponent<MapGenerator> ();
 		NullCheck(L_6);
 		MapGenerator_t237211197 * L_7 = GameObject_GetComponent_TisMapGenerator_t237211197_m364048322(L_6, /*hidden argument*/GameObject_GetComponent_TisMapGenerator_t237211197_m364048322_MethodInfo_var);
-		__this->set_m_MapGenerator_4(L_7);
+		__this->set_m_MapGenerator_16(L_7);
+		// m_MapGenerator.GenerateMap ();
+		MapGenerator_t237211197 * L_8 = __this->get_m_MapGenerator_16();
+		// m_MapGenerator.GenerateMap ();
+		NullCheck(L_8);
+		MapGenerator_GenerateMap_m1418959259(L_8, /*hidden argument*/NULL);
 		// UnityARUtility.UpdateObjectWithAnchorTransform (m_TerrainAnchorObject.terrainObject, m_TerrainAnchorObject.anchor, m_TerrainScale);
-		TerrainAnchorObject_t1214709381 * L_8 = __this->get_address_of_m_TerrainAnchorObject_6();
+		TerrainAnchorObject_t1214709381 * L_9 = __this->get_address_of_m_TerrainAnchorObject_5();
 		// UnityARUtility.UpdateObjectWithAnchorTransform (m_TerrainAnchorObject.terrainObject, m_TerrainAnchorObject.anchor, m_TerrainScale);
-		GameObject_t1756533147 * L_9 = TerrainAnchorObject_get_terrainObject_m2760789286(L_8, /*hidden argument*/NULL);
-		TerrainAnchorObject_t1214709381 * L_10 = __this->get_address_of_m_TerrainAnchorObject_6();
+		GameObject_t1756533147 * L_10 = TerrainAnchorObject_get_terrainObject_m2760789286(L_9, /*hidden argument*/NULL);
+		TerrainAnchorObject_t1214709381 * L_11 = __this->get_address_of_m_TerrainAnchorObject_5();
 		// UnityARUtility.UpdateObjectWithAnchorTransform (m_TerrainAnchorObject.terrainObject, m_TerrainAnchorObject.anchor, m_TerrainScale);
-		ARPlaneAnchor_t1439520888  L_11 = TerrainAnchorObject_get_anchor_m3565065547(L_10, /*hidden argument*/NULL);
-		float L_12 = __this->get_m_TerrainScale_2();
+		ARPlaneAnchor_t1439520888  L_12 = TerrainAnchorObject_get_anchor_m3565065547(L_11, /*hidden argument*/NULL);
+		float L_13 = __this->get_m_TerrainScale_2();
 		// UnityARUtility.UpdateObjectWithAnchorTransform (m_TerrainAnchorObject.terrainObject, m_TerrainAnchorObject.anchor, m_TerrainScale);
 		IL2CPP_RUNTIME_CLASS_INIT(UnityARUtility_t3608388148_il2cpp_TypeInfo_var);
-		UnityARUtility_UpdateObjectWithAnchorTransform_m4136968086(NULL /*static, unused*/, L_9, L_11, L_12, /*hidden argument*/NULL);
+		UnityARUtility_UpdateObjectWithAnchorTransform_m4136968086(NULL /*static, unused*/, L_10, L_12, L_13, /*hidden argument*/NULL);
+		// m_MapGenerator.SetShaderHeightBoundaries ();
+		MapGenerator_t237211197 * L_14 = __this->get_m_MapGenerator_16();
+		// m_MapGenerator.SetShaderHeightBoundaries ();
+		NullCheck(L_14);
+		MapGenerator_SetShaderHeightBoundaries_m1402888974(L_14, /*hidden argument*/NULL);
 		// UnityARSessionNativeInterface.ARAnchorUpdatedEvent += UpdateTerrainAnchor;
-		IntPtr_t L_13;
-		L_13.set_m_value_0((void*)(void*)ARTerrainManager_UpdateTerrainAnchor_m1783149115_MethodInfo_var);
-		ARAnchorUpdated_t3886071158 * L_14 = (ARAnchorUpdated_t3886071158 *)il2cpp_codegen_object_new(ARAnchorUpdated_t3886071158_il2cpp_TypeInfo_var);
-		ARAnchorUpdated__ctor_m1461693421(L_14, __this, L_13, /*hidden argument*/NULL);
+		IntPtr_t L_15;
+		L_15.set_m_value_0((void*)(void*)ARTerrainManager_UpdateTerrainAnchor_m1783149115_MethodInfo_var);
+		ARAnchorUpdated_t3886071158 * L_16 = (ARAnchorUpdated_t3886071158 *)il2cpp_codegen_object_new(ARAnchorUpdated_t3886071158_il2cpp_TypeInfo_var);
+		ARAnchorUpdated__ctor_m1461693421(L_16, __this, L_15, /*hidden argument*/NULL);
 		// UnityARSessionNativeInterface.ARAnchorUpdatedEvent += UpdateTerrainAnchor;
 		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
-		UnityARSessionNativeInterface_add_ARAnchorUpdatedEvent_m896905782(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		UnityARSessionNativeInterface_add_ARAnchorUpdatedEvent_m896905782(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
 		// m_TerrainSpawned = true;
-		__this->set_m_TerrainSpawned_11((bool)1);
+		__this->set_m_TerrainSpawned_10((bool)1);
 		// }
 		return;
 	}
@@ -2649,14 +2694,14 @@ extern "C"  void ARTerrainManager_DestroyCurrentTerrainAnchorObject_m3511145700 
 		IL2CPP_RUNTIME_CLASS_INIT(UnityARSessionNativeInterface_t1130867170_il2cpp_TypeInfo_var);
 		UnityARSessionNativeInterface_remove_ARAnchorUpdatedEvent_m3167872061(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		// Destroy (m_TerrainAnchorObject.terrainObject);
-		TerrainAnchorObject_t1214709381 * L_2 = __this->get_address_of_m_TerrainAnchorObject_6();
+		TerrainAnchorObject_t1214709381 * L_2 = __this->get_address_of_m_TerrainAnchorObject_5();
 		// Destroy (m_TerrainAnchorObject.terrainObject);
 		GameObject_t1756533147 * L_3 = TerrainAnchorObject_get_terrainObject_m2760789286(L_2, /*hidden argument*/NULL);
 		// Destroy (m_TerrainAnchorObject.terrainObject);
 		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
 		Object_Destroy_m4145850038(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		// m_TerrainSpawned = false;
-		__this->set_m_TerrainSpawned_11((bool)0);
+		__this->set_m_TerrainSpawned_10((bool)0);
 		// }
 		return;
 	}
@@ -2675,7 +2720,7 @@ extern "C"  void ARTerrainManager_UpdateTerrainAnchor_m1783149115 (ARTerrainMana
 	{
 		// if (anchorData.identifier == m_TerrainAnchorObject.anchor.identifier) {
 		String_t* L_0 = (&___anchorData0)->get_identifier_0();
-		TerrainAnchorObject_t1214709381 * L_1 = __this->get_address_of_m_TerrainAnchorObject_6();
+		TerrainAnchorObject_t1214709381 * L_1 = __this->get_address_of_m_TerrainAnchorObject_5();
 		// if (anchorData.identifier == m_TerrainAnchorObject.anchor.identifier) {
 		ARPlaneAnchor_t1439520888  L_2 = TerrainAnchorObject_get_anchor_m3565065547(L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
@@ -2690,10 +2735,10 @@ extern "C"  void ARTerrainManager_UpdateTerrainAnchor_m1783149115 (ARTerrainMana
 	}
 	{
 		// UnityARUtility.UpdateObjectWithAnchorTransform (m_TerrainAnchorObject.terrainObject, m_TerrainAnchorObject.anchor, m_TerrainScale);
-		TerrainAnchorObject_t1214709381 * L_5 = __this->get_address_of_m_TerrainAnchorObject_6();
+		TerrainAnchorObject_t1214709381 * L_5 = __this->get_address_of_m_TerrainAnchorObject_5();
 		// UnityARUtility.UpdateObjectWithAnchorTransform (m_TerrainAnchorObject.terrainObject, m_TerrainAnchorObject.anchor, m_TerrainScale);
 		GameObject_t1756533147 * L_6 = TerrainAnchorObject_get_terrainObject_m2760789286(L_5, /*hidden argument*/NULL);
-		TerrainAnchorObject_t1214709381 * L_7 = __this->get_address_of_m_TerrainAnchorObject_6();
+		TerrainAnchorObject_t1214709381 * L_7 = __this->get_address_of_m_TerrainAnchorObject_5();
 		// UnityARUtility.UpdateObjectWithAnchorTransform (m_TerrainAnchorObject.terrainObject, m_TerrainAnchorObject.anchor, m_TerrainScale);
 		ARPlaneAnchor_t1439520888  L_8 = TerrainAnchorObject_get_anchor_m3565065547(L_7, /*hidden argument*/NULL);
 		float L_9 = __this->get_m_TerrainScale_2();
@@ -2733,7 +2778,7 @@ extern "C"  void ARTerrainManager_OnTerrainManipulationMoved_m2066561938 (ARTerr
 	NO_UNUSED_WARNING (__leave_target);
 	{
 		// if (m_CurrentManipPhase == ManipPhase.MOVED) {
-		int32_t L_0 = __this->get_m_CurrentManipPhase_12();
+		int32_t L_0 = __this->get_m_CurrentManipPhase_11();
 		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
 		{
 			goto IL_00d3;
@@ -2741,7 +2786,7 @@ extern "C"  void ARTerrainManager_OnTerrainManipulationMoved_m2066561938 (ARTerr
 	}
 	{
 		// GameObject terrainGO = m_TerrainAnchorObject.terrainGOChild;
-		TerrainAnchorObject_t1214709381 * L_1 = __this->get_address_of_m_TerrainAnchorObject_6();
+		TerrainAnchorObject_t1214709381 * L_1 = __this->get_address_of_m_TerrainAnchorObject_5();
 		// GameObject terrainGO = m_TerrainAnchorObject.terrainGOChild;
 		GameObject_t1756533147 * L_2 = TerrainAnchorObject_get_terrainGOChild_m455384043(L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
@@ -2774,17 +2819,17 @@ extern "C"  void ARTerrainManager_OnTerrainManipulationMoved_m2066561938 (ARTerr
 		// m_TouchDirection = touchEvent.position - m_StartTouchPosition;
 		// m_TouchDirection = touchEvent.position - m_StartTouchPosition;
 		Vector2_t2243707579  L_10 = Touch_get_position_m2079703643((&___touchEvent0), /*hidden argument*/NULL);
-		Vector2_t2243707579  L_11 = __this->get_m_StartTouchPosition_14();
+		Vector2_t2243707579  L_11 = __this->get_m_StartTouchPosition_13();
 		// m_TouchDirection = touchEvent.position - m_StartTouchPosition;
 		Vector2_t2243707579  L_12 = Vector2_op_Subtraction_m1984215297(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
-		__this->set_m_TouchDirection_15(L_12);
+		__this->set_m_TouchDirection_14(L_12);
 		// float modification = (float)m_TouchDirection.y / m_TerrainModifyRate;
-		Vector2_t2243707579 * L_13 = __this->get_address_of_m_TouchDirection_15();
+		Vector2_t2243707579 * L_13 = __this->get_address_of_m_TouchDirection_14();
 		float L_14 = L_13->get_y_1();
-		float L_15 = __this->get_m_TerrainModifyRate_7();
+		float L_15 = __this->get_m_TerrainModifyRate_6();
 		V_3 = ((float)((float)(((float)((float)L_14)))/(float)L_15));
 		// foreach (TerrainPoint tPoint in m_TerrainPoints) {
-		List_1_t2456077777 * L_16 = __this->get_m_TerrainPoints_16();
+		List_1_t2456077777 * L_16 = __this->get_m_TerrainPoints_15();
 		// foreach (TerrainPoint tPoint in m_TerrainPoints) {
 		NullCheck(L_16);
 		Enumerator_t1990807451  L_17 = List_1_GetEnumerator_m406305475(L_16, /*hidden argument*/List_1_GetEnumerator_m406305475_MethodInfo_var);
@@ -2886,14 +2931,14 @@ extern "C"  void ARTerrainManager_OnTerrainManipulationEnd_m2013874056 (ARTerrai
 	MeshFilter_t3026937449 * V_1 = NULL;
 	{
 		// m_CurrentManipPhase = ManipPhase.ENDED;
-		__this->set_m_CurrentManipPhase_12(2);
+		__this->set_m_CurrentManipPhase_11(2);
 		// m_TerrainPoints.Clear ();
-		List_1_t2456077777 * L_0 = __this->get_m_TerrainPoints_16();
+		List_1_t2456077777 * L_0 = __this->get_m_TerrainPoints_15();
 		// m_TerrainPoints.Clear ();
 		NullCheck(L_0);
 		List_1_Clear_m4122100007(L_0, /*hidden argument*/List_1_Clear_m4122100007_MethodInfo_var);
 		// GameObject terrainGO = m_TerrainAnchorObject.terrainGOChild;
-		TerrainAnchorObject_t1214709381 * L_1 = __this->get_address_of_m_TerrainAnchorObject_6();
+		TerrainAnchorObject_t1214709381 * L_1 = __this->get_address_of_m_TerrainAnchorObject_5();
 		// GameObject terrainGO = m_TerrainAnchorObject.terrainGOChild;
 		GameObject_t1756533147 * L_2 = TerrainAnchorObject_get_terrainGOChild_m455384043(L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
@@ -2949,16 +2994,15 @@ extern "C"  void ARTerrainManager_ExtractManipulationData_m750880693 (ARTerrainM
 	GameObject_t1756533147 * V_0 = NULL;
 	MeshFilter_t3026937449 * V_1 = NULL;
 	Vector3U5BU5D_t1172311765* V_2 = NULL;
-	float V_3 = 0.0f;
-	int32_t V_4 = 0;
-	Vector3_t2243707580  V_5;
+	int32_t V_3 = 0;
+	Vector3_t2243707580  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	Matrix4x4_t2933234003  V_5;
 	memset(&V_5, 0, sizeof(V_5));
-	Matrix4x4_t2933234003  V_6;
-	memset(&V_6, 0, sizeof(V_6));
-	float V_7 = 0.0f;
+	float V_6 = 0.0f;
 	{
 		// GameObject terrainGO = m_TerrainAnchorObject.terrainGOChild;
-		TerrainAnchorObject_t1214709381 * L_0 = __this->get_address_of_m_TerrainAnchorObject_6();
+		TerrainAnchorObject_t1214709381 * L_0 = __this->get_address_of_m_TerrainAnchorObject_5();
 		// GameObject terrainGO = m_TerrainAnchorObject.terrainGOChild;
 		GameObject_t1756533147 * L_1 = TerrainAnchorObject_get_terrainGOChild_m455384043(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
@@ -2975,7 +3019,7 @@ extern "C"  void ARTerrainManager_ExtractManipulationData_m750880693 (ARTerrainM
 		bool L_5 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
 		if (!L_5)
 		{
-			goto IL_00c9;
+			goto IL_00bd;
 		}
 	}
 	{
@@ -2988,14 +3032,12 @@ extern "C"  void ARTerrainManager_ExtractManipulationData_m750880693 (ARTerrainM
 		NullCheck(L_7);
 		Vector3U5BU5D_t1172311765* L_8 = Mesh_get_vertices_m626989480(L_7, /*hidden argument*/NULL);
 		V_2 = L_8;
-		// float shortestDist = Mathf.Infinity;
-		V_3 = (std::numeric_limits<float>::infinity());
 		// for (int i = 0; i < vertices.Length; i++) {
-		V_4 = 0;
-		goto IL_00b1;
+		V_3 = 0;
+		goto IL_00a6;
 	}
 
-IL_003b:
+IL_0034:
 	{
 		// Vector3 vert = terrainGO.transform.localToWorldMatrix.MultiplyPoint3x4 (vertices [i]);
 		GameObject_t1756533147 * L_9 = V_0;
@@ -3005,37 +3047,37 @@ IL_003b:
 		// Vector3 vert = terrainGO.transform.localToWorldMatrix.MultiplyPoint3x4 (vertices [i]);
 		NullCheck(L_10);
 		Matrix4x4_t2933234003  L_11 = Transform_get_localToWorldMatrix_m2868579006(L_10, /*hidden argument*/NULL);
-		V_6 = L_11;
+		V_5 = L_11;
 		Vector3U5BU5D_t1172311765* L_12 = V_2;
-		int32_t L_13 = V_4;
+		int32_t L_13 = V_3;
 		NullCheck(L_12);
 		// Vector3 vert = terrainGO.transform.localToWorldMatrix.MultiplyPoint3x4 (vertices [i]);
-		Vector3_t2243707580  L_14 = Matrix4x4_MultiplyPoint3x4_m1007952212((&V_6), (*(Vector3_t2243707580 *)((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))), /*hidden argument*/NULL);
-		V_5 = L_14;
+		Vector3_t2243707580  L_14 = Matrix4x4_MultiplyPoint3x4_m1007952212((&V_5), (*(Vector3_t2243707580 *)((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))), /*hidden argument*/NULL);
+		V_4 = L_14;
 		// float magnitude = Vector3.Magnitude (hitPoint - vert);
 		Vector3_t2243707580  L_15 = ___hitPoint0;
-		Vector3_t2243707580  L_16 = V_5;
+		Vector3_t2243707580  L_16 = V_4;
 		// float magnitude = Vector3.Magnitude (hitPoint - vert);
 		Vector3_t2243707580  L_17 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_15, L_16, /*hidden argument*/NULL);
 		// float magnitude = Vector3.Magnitude (hitPoint - vert);
 		float L_18 = Vector3_Magnitude_m1349200714(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
-		V_7 = L_18;
+		V_6 = L_18;
 		// if (magnitude <= m_TerrainSelectRadius) {
-		float L_19 = V_7;
-		float L_20 = __this->get_m_TerrainSelectRadius_8();
+		float L_19 = V_6;
+		float L_20 = __this->get_m_TerrainSelectRadius_7();
 		if ((!(((float)L_19) <= ((float)L_20))))
 		{
-			goto IL_00aa;
+			goto IL_00a1;
 		}
 	}
 	{
 		// m_TerrainPoints.Add (new TerrainPoint (i, vert, Mathf.Lerp(1f, m_TerrainCurveValue, magnitude / m_TerrainSelectRadius)));
-		List_1_t2456077777 * L_21 = __this->get_m_TerrainPoints_16();
-		int32_t L_22 = V_4;
-		Vector3_t2243707580  L_23 = V_5;
-		float L_24 = __this->get_m_TerrainCurveValue_9();
-		float L_25 = V_7;
-		float L_26 = __this->get_m_TerrainSelectRadius_8();
+		List_1_t2456077777 * L_21 = __this->get_m_TerrainPoints_15();
+		int32_t L_22 = V_3;
+		Vector3_t2243707580  L_23 = V_4;
+		float L_24 = __this->get_m_TerrainCurveValue_8();
+		float L_25 = V_6;
+		float L_26 = __this->get_m_TerrainSelectRadius_7();
 		// m_TerrainPoints.Add (new TerrainPoint (i, vert, Mathf.Lerp(1f, m_TerrainCurveValue, magnitude / m_TerrainSelectRadius)));
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
 		float L_27 = Mathf_Lerp_m1686556575(NULL /*static, unused*/, (1.0f), L_24, ((float)((float)L_25/(float)L_26)), /*hidden argument*/NULL);
@@ -3048,35 +3090,35 @@ IL_003b:
 		List_1_Add_m2264179534(L_21, L_28, /*hidden argument*/List_1_Add_m2264179534_MethodInfo_var);
 	}
 
-IL_00aa:
+IL_00a1:
 	{
 		// for (int i = 0; i < vertices.Length; i++) {
-		int32_t L_29 = V_4;
-		V_4 = ((int32_t)((int32_t)L_29+(int32_t)1));
+		int32_t L_29 = V_3;
+		V_3 = ((int32_t)((int32_t)L_29+(int32_t)1));
 	}
 
-IL_00b1:
+IL_00a6:
 	{
 		// for (int i = 0; i < vertices.Length; i++) {
-		int32_t L_30 = V_4;
+		int32_t L_30 = V_3;
 		Vector3U5BU5D_t1172311765* L_31 = V_2;
 		NullCheck(L_31);
 		if ((((int32_t)L_30) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_31)->max_length)))))))
 		{
-			goto IL_003b;
+			goto IL_0034;
 		}
 	}
 	{
 		// m_StartTouchPosition = touchEvent.position;
 		// m_StartTouchPosition = touchEvent.position;
 		Vector2_t2243707579  L_32 = Touch_get_position_m2079703643((&___touchEvent1), /*hidden argument*/NULL);
-		__this->set_m_StartTouchPosition_14(L_32);
+		__this->set_m_StartTouchPosition_13(L_32);
 	}
 
-IL_00c9:
+IL_00bd:
 	{
 		// m_CurrentManipPhase = ManipPhase.MOVED;
-		__this->set_m_CurrentManipPhase_12(1);
+		__this->set_m_CurrentManipPhase_11(1);
 		// }
 		return;
 	}
@@ -7954,6 +7996,215 @@ extern "C"  void DontDestroyOnLoad_Start_m839902491 (DontDestroyOnLoad_t32357893
 // System.Void DontDestroyOnLoad::Update()
 extern "C"  void DontDestroyOnLoad_Update_m3048973460 (DontDestroyOnLoad_t3235789354 * __this, const MethodInfo* method)
 {
+	{
+		// }
+		return;
+	}
+}
+// System.Void EnvironmentManager::.ctor()
+extern "C"  void EnvironmentManager__ctor_m3978207105 (EnvironmentManager_t2263979904 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void EnvironmentManager::SpawnEnvironment(UnityEngine.GameObject)
+extern "C"  void EnvironmentManager_SpawnEnvironment_m4157541451 (EnvironmentManager_t2263979904 * __this, GameObject_t1756533147 * ___terrainContainer0, const MethodInfo* method)
+{
+	{
+		// SpawnClouds (terrainContainer);
+		GameObject_t1756533147 * L_0 = ___terrainContainer0;
+		// SpawnClouds (terrainContainer);
+		EnvironmentManager_SpawnClouds_m1382546288(__this, L_0, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void EnvironmentManager::SpawnClouds(UnityEngine.GameObject)
+extern "C"  void EnvironmentManager_SpawnClouds_m1382546288 (EnvironmentManager_t2263979904 * __this, GameObject_t1756533147 * ___terrainContainer0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EnvironmentManager_SpawnClouds_m1382546288_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	Transform_t3275118058 * V_1 = NULL;
+	Bounds_t3033363703  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Vector3_t2243707580  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Bounds_t3033363703  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	int32_t V_5 = 0;
+	float V_6 = 0.0f;
+	float V_7 = 0.0f;
+	Vector3_t2243707580  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	Vector3_t2243707580  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	Vector3_t2243707580  V_10;
+	memset(&V_10, 0, sizeof(V_10));
+	float V_11 = 0.0f;
+	Vector3_t2243707580  V_12;
+	memset(&V_12, 0, sizeof(V_12));
+	Vector3_t2243707580  V_13;
+	memset(&V_13, 0, sizeof(V_13));
+	GameObject_t1756533147 * V_14 = NULL;
+	{
+		// GameObject terrainGo = terrainContainer.transform.GetChild (0).gameObject;
+		GameObject_t1756533147 * L_0 = ___terrainContainer0;
+		// GameObject terrainGo = terrainContainer.transform.GetChild (0).gameObject;
+		NullCheck(L_0);
+		Transform_t3275118058 * L_1 = GameObject_get_transform_m909382139(L_0, /*hidden argument*/NULL);
+		// GameObject terrainGo = terrainContainer.transform.GetChild (0).gameObject;
+		NullCheck(L_1);
+		Transform_t3275118058 * L_2 = Transform_GetChild_m3838588184(L_1, 0, /*hidden argument*/NULL);
+		// GameObject terrainGo = terrainContainer.transform.GetChild (0).gameObject;
+		NullCheck(L_2);
+		GameObject_t1756533147 * L_3 = Component_get_gameObject_m3105766835(L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		// Transform cloudsContainer = terrainContainer.transform.Find ("CloudsContainer");
+		GameObject_t1756533147 * L_4 = ___terrainContainer0;
+		// Transform cloudsContainer = terrainContainer.transform.Find ("CloudsContainer");
+		NullCheck(L_4);
+		Transform_t3275118058 * L_5 = GameObject_get_transform_m909382139(L_4, /*hidden argument*/NULL);
+		// Transform cloudsContainer = terrainContainer.transform.Find ("CloudsContainer");
+		NullCheck(L_5);
+		Transform_t3275118058 * L_6 = Transform_Find_m3323476454(L_5, _stringLiteral1628187029, /*hidden argument*/NULL);
+		V_1 = L_6;
+		// if (cloudsContainer != null) {
+		Transform_t3275118058 * L_7 = V_1;
+		// if (cloudsContainer != null) {
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0140;
+		}
+	}
+	{
+		// Bounds bounds = terrainGo.GetComponent<Renderer> ().bounds;
+		GameObject_t1756533147 * L_9 = V_0;
+		// Bounds bounds = terrainGo.GetComponent<Renderer> ().bounds;
+		NullCheck(L_9);
+		Renderer_t257310565 * L_10 = GameObject_GetComponent_TisRenderer_t257310565_m1312615893(L_9, /*hidden argument*/GameObject_GetComponent_TisRenderer_t257310565_m1312615893_MethodInfo_var);
+		// Bounds bounds = terrainGo.GetComponent<Renderer> ().bounds;
+		NullCheck(L_10);
+		Bounds_t3033363703  L_11 = Renderer_get_bounds_m3832626589(L_10, /*hidden argument*/NULL);
+		V_2 = L_11;
+		// Vector3 extents = terrainGo.GetComponent<Renderer> ().bounds.extents;
+		GameObject_t1756533147 * L_12 = V_0;
+		// Vector3 extents = terrainGo.GetComponent<Renderer> ().bounds.extents;
+		NullCheck(L_12);
+		Renderer_t257310565 * L_13 = GameObject_GetComponent_TisRenderer_t257310565_m1312615893(L_12, /*hidden argument*/GameObject_GetComponent_TisRenderer_t257310565_m1312615893_MethodInfo_var);
+		// Vector3 extents = terrainGo.GetComponent<Renderer> ().bounds.extents;
+		NullCheck(L_13);
+		Bounds_t3033363703  L_14 = Renderer_get_bounds_m3832626589(L_13, /*hidden argument*/NULL);
+		V_4 = L_14;
+		// Vector3 extents = terrainGo.GetComponent<Renderer> ().bounds.extents;
+		Vector3_t2243707580  L_15 = Bounds_get_extents_m4077324178((&V_4), /*hidden argument*/NULL);
+		V_3 = L_15;
+		// for (int i = 0; i < m_NumberOfCloudsToSpawn; i++) {
+		V_5 = 0;
+		goto IL_012d;
+	}
+
+IL_005a:
+	{
+		// float xPos = Random.Range (-extents.x, extents.x + 1);
+		float L_16 = (&V_3)->get_x_1();
+		float L_17 = (&V_3)->get_x_1();
+		// float xPos = Random.Range (-extents.x, extents.x + 1);
+		float L_18 = Random_Range_m2884721203(NULL /*static, unused*/, ((-L_16)), ((float)((float)L_17+(float)(1.0f))), /*hidden argument*/NULL);
+		V_6 = L_18;
+		// float yPos = Random.Range (bounds.max.y, bounds.max.y + (bounds.max.y * 1.10f));
+		// float yPos = Random.Range (bounds.max.y, bounds.max.y + (bounds.max.y * 1.10f));
+		Vector3_t2243707580  L_19 = Bounds_get_max_m4247050707((&V_2), /*hidden argument*/NULL);
+		V_8 = L_19;
+		float L_20 = (&V_8)->get_y_2();
+		// float yPos = Random.Range (bounds.max.y, bounds.max.y + (bounds.max.y * 1.10f));
+		Vector3_t2243707580  L_21 = Bounds_get_max_m4247050707((&V_2), /*hidden argument*/NULL);
+		V_9 = L_21;
+		float L_22 = (&V_9)->get_y_2();
+		// float yPos = Random.Range (bounds.max.y, bounds.max.y + (bounds.max.y * 1.10f));
+		Vector3_t2243707580  L_23 = Bounds_get_max_m4247050707((&V_2), /*hidden argument*/NULL);
+		V_10 = L_23;
+		float L_24 = (&V_10)->get_y_2();
+		// float yPos = Random.Range (bounds.max.y, bounds.max.y + (bounds.max.y * 1.10f));
+		float L_25 = Random_Range_m2884721203(NULL /*static, unused*/, L_20, ((float)((float)L_22+(float)((float)((float)L_24*(float)(1.1f))))), /*hidden argument*/NULL);
+		V_7 = L_25;
+		// float zPos = Random.Range (-extents.z, extents.z + 1);
+		float L_26 = (&V_3)->get_z_3();
+		float L_27 = (&V_3)->get_z_3();
+		// float zPos = Random.Range (-extents.z, extents.z + 1);
+		float L_28 = Random_Range_m2884721203(NULL /*static, unused*/, ((-L_26)), ((float)((float)L_27+(float)(1.0f))), /*hidden argument*/NULL);
+		V_11 = L_28;
+		// Vector3 rotation = new Vector3 (0, Random.Range (0, 361), 0);
+		// Vector3 rotation = new Vector3 (0, Random.Range (0, 361), 0);
+		int32_t L_29 = Random_Range_m694320887(NULL /*static, unused*/, 0, ((int32_t)361), /*hidden argument*/NULL);
+		// Vector3 rotation = new Vector3 (0, Random.Range (0, 361), 0);
+		Vector3__ctor_m2638739322((&V_12), (0.0f), (((float)((float)L_29))), (0.0f), /*hidden argument*/NULL);
+		// Vector3 cloudPos = new Vector3 (xPos, yPos, zPos);
+		float L_30 = V_6;
+		float L_31 = V_7;
+		float L_32 = V_11;
+		// Vector3 cloudPos = new Vector3 (xPos, yPos, zPos);
+		Vector3__ctor_m2638739322((&V_13), L_30, L_31, L_32, /*hidden argument*/NULL);
+		// GameObject cloud = GameObject.Instantiate (m_CloudPrefabs [Random.Range (0, 4)], cloudPos, Quaternion.Euler(rotation));
+		GameObjectU5BU5D_t3057952154* L_33 = __this->get_m_CloudPrefabs_3();
+		// GameObject cloud = GameObject.Instantiate (m_CloudPrefabs [Random.Range (0, 4)], cloudPos, Quaternion.Euler(rotation));
+		int32_t L_34 = Random_Range_m694320887(NULL /*static, unused*/, 0, 4, /*hidden argument*/NULL);
+		NullCheck(L_33);
+		int32_t L_35 = L_34;
+		GameObject_t1756533147 * L_36 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
+		Vector3_t2243707580  L_37 = V_13;
+		Vector3_t2243707580  L_38 = V_12;
+		// GameObject cloud = GameObject.Instantiate (m_CloudPrefabs [Random.Range (0, 4)], cloudPos, Quaternion.Euler(rotation));
+		Quaternion_t4030073918  L_39 = Quaternion_Euler_m3586339259(NULL /*static, unused*/, L_38, /*hidden argument*/NULL);
+		// GameObject cloud = GameObject.Instantiate (m_CloudPrefabs [Random.Range (0, 4)], cloudPos, Quaternion.Euler(rotation));
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		GameObject_t1756533147 * L_40 = Object_Instantiate_TisGameObject_t1756533147_m3186302158(NULL /*static, unused*/, L_36, L_37, L_39, /*hidden argument*/Object_Instantiate_TisGameObject_t1756533147_m3186302158_MethodInfo_var);
+		V_14 = L_40;
+		// cloud.transform.parent = cloudsContainer;
+		GameObject_t1756533147 * L_41 = V_14;
+		// cloud.transform.parent = cloudsContainer;
+		NullCheck(L_41);
+		Transform_t3275118058 * L_42 = GameObject_get_transform_m909382139(L_41, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_43 = V_1;
+		// cloud.transform.parent = cloudsContainer;
+		NullCheck(L_42);
+		Transform_set_parent_m3281327839(L_42, L_43, /*hidden argument*/NULL);
+		// for (int i = 0; i < m_NumberOfCloudsToSpawn; i++) {
+		int32_t L_44 = V_5;
+		V_5 = ((int32_t)((int32_t)L_44+(int32_t)1));
+	}
+
+IL_012d:
+	{
+		// for (int i = 0; i < m_NumberOfCloudsToSpawn; i++) {
+		int32_t L_45 = V_5;
+		int32_t L_46 = __this->get_m_NumberOfCloudsToSpawn_2();
+		if ((((int32_t)L_45) < ((int32_t)L_46)))
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		goto IL_014c;
+	}
+
+IL_0140:
+	{
+		// Debug.Log ("CloudsContainer child not found");
+		// Debug.Log ("CloudsContainer child not found");
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral3436377336, /*hidden argument*/NULL);
+	}
+
+IL_014c:
 	{
 		// }
 		return;

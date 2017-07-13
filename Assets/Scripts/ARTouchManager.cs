@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+    Author: Alberto Scicali
+
+    This class manages the input controls and calls the apporopriate delegates for different phases of a touch.
+*/
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.iOS;
@@ -6,7 +13,6 @@ using TMPro;
 
 public class ARTouchManager : MonoBehaviour {
 	
-	// Update is called once per frame
 	void Update () {
 		if (Input.touchCount > 0 )
 		{

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MapGenerator : MonoBehaviour {
     public Material m_TerrainMaterial;
+    public EnvironmentManager m_EnvironmentManager;
 	public enum DrawMode
 	{
 		NoiseMap, ColorMap, DrawMesh
@@ -31,10 +32,11 @@ public class MapGenerator : MonoBehaviour {
 	public TerrainType[] regions;
 
 	private void Start() {
-		GenerateMap ();
+		//GenerateMap ();
 	}
 
 	public void GenerateMap() {
+        Debug.Log ("Being called");
 		float[,] noiseMap = Noise.GenerateNoiseMap (MAP_CHUNK_SIZE, MAP_CHUNK_SIZE, seed, noiseScale, octaves, persistance, lacunarity, offset);
 
 
@@ -59,8 +61,12 @@ public class MapGenerator : MonoBehaviour {
 		} else if (drawMode == DrawMode.DrawMesh) {
 			display.DrawMesh (MeshGenerator.GenerateTerrainMesh (noiseMap, meshHeightMultiplier, meshHeightCurve, levelOfDetail), TextureGenerator.TextureFromColorMap (colorMap, MAP_CHUNK_SIZE, MAP_CHUNK_SIZE));
 		}
+            
+        m_EnvironmentManager.SpawnEnvironment (gameObject);
+	}
 
-        // Get Tallest Point
+    public void SetShaderHeightBoundaries() {
+        // Get Tallest & lowest point
         GameObject terrainGO = transform.GetChild(0).gameObject;
         MeshFilter mf = terrainGO.GetComponent<MeshFilter> ();
         float tallestDist = Mathf.NegativeInfinity;
@@ -76,15 +82,12 @@ public class MapGenerator : MonoBehaviour {
                 if (vert.y < minHeight)
                     minHeight = vert.y;
             }
-
-            // Set the needed variables to later manipulate the mesh
-            Debug.Log ("Tallest point: " + tallestDist);
         }
         // Set the max height on shader
         m_TerrainMaterial.SetFloat ("_MaxHeight", tallestDist);
         m_TerrainMaterial.SetFloat ("_MinHeight", minHeight);
         terrainGO.GetComponent<Renderer> ().material = m_TerrainMaterial;
-	}
+    }
 
 	void OnValidate() {
 

@@ -1,9 +1,22 @@
-﻿using System.Collections;
+﻿/*
+    Author: Alberto Scicali
+    Based ont he videos of Sebastian Lague
+    Generates the terrain mesh data
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public static class MeshGenerator {
 
+    /*
+        Generates the MeshData struct for a terrain objects
+        @param HeightMap with which ti base the initial vertices heights
+        @param Multiplier to expand the heights from 0-1 to a more visible height
+        @param Curve used to Keep oceans flat until the sand region is reached
+        @param sets the max number of vertices that the mesh can be composed of
+    */
 	public static MeshData GenerateTerrainMesh(float [,] heightMap, float heightMultiplier, AnimationCurve heightCurve, int levelOfDetail) {
 		int width = heightMap.GetLength (0);
 		int height = heightMap.GetLength (1);
@@ -37,6 +50,11 @@ public static class MeshGenerator {
 	}
 }
 
+
+/*
+    MeshData struct that holds the data for the terrain meshes, as well as the functions to 
+    add triangles and to the mesh and to create the overall mesh
+*/
 public class MeshData {
 	public Vector3[] vertices;
 	public int[] triangles;

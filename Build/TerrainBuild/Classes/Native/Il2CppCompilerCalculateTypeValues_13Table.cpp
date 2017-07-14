@@ -113,8 +113,8 @@
 #include "UnityEngine_UnityEngine_Experimental_Director_Anim1693994278.h"
 #include "UnityEngine_UnityEngine_Experimental_Director_Anima859920217.h"
 #include "UnityEngine_UnityEngine_Motion2415020824.h"
-#include "UnityEngine_UnityEngine_TerrainData1351141029.h"
-#include "UnityEngine_UnityEngine_Terrain59182933.h"
+#include "UnityEngine_UnityEngine_FontStyle2764949590.h"
+#include "UnityEngine_UnityEngine_TextGenerationError780770201.h"
 
 
 
@@ -682,19 +682,24 @@ extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1394 = { sizeof (Anim
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1395 = { sizeof (AnimationPlayable_t1693994278), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1396 = { sizeof (AnimationOffsetPlayable_t859920217), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1397 = { sizeof (Motion_t2415020824), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1398 = { sizeof (TerrainData_t1351141029), -1, sizeof(TerrainData_t1351141029_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1398[8] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1398 = { sizeof (FontStyle_t2764949590)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1398[5] = 
 {
-	TerrainData_t1351141029_StaticFields::get_offset_of_kMaximumResolution_2(),
-	TerrainData_t1351141029_StaticFields::get_offset_of_kMinimumDetailResolutionPerPatch_3(),
-	TerrainData_t1351141029_StaticFields::get_offset_of_kMaximumDetailResolutionPerPatch_4(),
-	TerrainData_t1351141029_StaticFields::get_offset_of_kMaximumDetailPatchCount_5(),
-	TerrainData_t1351141029_StaticFields::get_offset_of_kMinimumAlphamapResolution_6(),
-	TerrainData_t1351141029_StaticFields::get_offset_of_kMaximumAlphamapResolution_7(),
-	TerrainData_t1351141029_StaticFields::get_offset_of_kMinimumBaseMapResolution_8(),
-	TerrainData_t1351141029_StaticFields::get_offset_of_kMaximumBaseMapResolution_9(),
+	FontStyle_t2764949590::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1399 = { sizeof (Terrain_t59182933), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1399 = { sizeof (TextGenerationError_t780770201)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1399[5] = 
+{
+	TextGenerationError_t780770201::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	0,
+};
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

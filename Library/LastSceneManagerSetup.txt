@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/ARkitTerrainScene2.unity
+- path: Assets/__Scenes/ARkitTerrainScene2.unity
   isLoaded: 1
   isActive: 1

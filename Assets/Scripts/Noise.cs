@@ -1,9 +1,28 @@
-﻿using System.Collections;
+﻿/*
+    Author: Alberto Scicali
+    Based on the videos of Sebastian Lague
+
+    Noise class that generates perlin noise based on the given properties
+*/
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public static class Noise {
 
+    /*
+        Generates a noise map with the passed in variables
+        @param mapWidth | width of the map
+        @param mapHeight | Height of the map
+        @param seed | Seed for pseudo randomness
+        @param scale | Sets size of the noise
+        @param octaves | Sets the number of layer of perlin noise to stacks
+        @param persistance | Amplitude multiplier
+        @param Lacunarity | The texture/size of the holes in the perlin noise
+        @param offset | used to shift the noise to sample different parts of the perlin noise
+    */
 	public static float[,] GenerateNoiseMap(int mapWidth, int mapHeight, int seed, float scale, int octaves, float persistance, float lacunarity, Vector2 offset) {
 		float[,] noiseMap = new float[mapWidth, mapHeight];
 

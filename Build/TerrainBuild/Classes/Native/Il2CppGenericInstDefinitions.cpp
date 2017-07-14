@@ -2369,9 +2369,6 @@ extern const Il2CppGenericInst GenInst_PauseMenu_t2596728003_0_0_0 = { 1, GenIns
 extern const Il2CppType BoxSlider_t1871650694_0_0_0;
 static const Il2CppType* GenInst_BoxSlider_t1871650694_0_0_0_Types[] = { &BoxSlider_t1871650694_0_0_0 };
 extern const Il2CppGenericInst GenInst_BoxSlider_t1871650694_0_0_0 = { 1, GenInst_BoxSlider_t1871650694_0_0_0_Types };
-extern const Il2CppType Terrain_t59182933_0_0_0;
-static const Il2CppType* GenInst_Terrain_t59182933_0_0_0_Types[] = { &Terrain_t59182933_0_0_0 };
-extern const Il2CppGenericInst GenInst_Terrain_t59182933_0_0_0 = { 1, GenInst_Terrain_t59182933_0_0_0_Types };
 extern const Il2CppType TextMesh_t1641806576_0_0_0;
 static const Il2CppType* GenInst_TextMesh_t1641806576_0_0_0_Types[] = { &TextMesh_t1641806576_0_0_0 };
 extern const Il2CppGenericInst GenInst_TextMesh_t1641806576_0_0_0 = { 1, GenInst_TextMesh_t1641806576_0_0_0_Types };
@@ -2458,7 +2455,7 @@ static const Il2CppType* GenInst_KeyValuePair_2_t38854645_0_0_0_KeyValuePair_2_t
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t38854645_0_0_0_KeyValuePair_2_t38854645_0_0_0 = { 2, GenInst_KeyValuePair_2_t38854645_0_0_0_KeyValuePair_2_t38854645_0_0_0_Types };
 static const Il2CppType* GenInst_KeyValuePair_2_t38854645_0_0_0_Il2CppObject_0_0_0_Types[] = { &KeyValuePair_2_t38854645_0_0_0, &Il2CppObject_0_0_0 };
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t38854645_0_0_0_Il2CppObject_0_0_0 = { 2, GenInst_KeyValuePair_2_t38854645_0_0_0_Il2CppObject_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[877] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[876] = 
 {
 	&GenInst_Il2CppObject_0_0_0,
 	&GenInst_Int32_t2071877448_0_0_0,
@@ -3295,7 +3292,6 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[877] =
 	&GenInst_MapDisplay_t1779112168_0_0_0,
 	&GenInst_PauseMenu_t2596728003_0_0_0,
 	&GenInst_BoxSlider_t1871650694_0_0_0,
-	&GenInst_Terrain_t59182933_0_0_0,
 	&GenInst_TextMesh_t1641806576_0_0_0,
 	&GenInst_TextMeshProFloatingText_t6181308_0_0_0,
 	&GenInst_TextContainer_t4263764796_0_0_0,

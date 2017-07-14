@@ -32,6 +32,8 @@ public class ARTerrainManager : MonoBehaviour {
     private Vector2 m_StartTouchPosition;
     private Vector2 m_TouchDirection;
     private List<TerrainPoint> m_TerrainPoints;
+    private TerrainPoint m_CenterPoint;
+    private float m_CenterDistDenom;
     private MapGenerator m_MapGenerator;
 
     /*
@@ -101,7 +103,17 @@ public class ARTerrainManager : MonoBehaviour {
                 //vertices [m_VerticesManipIndex].y += modification;
 
                 foreach (TerrainPoint tPoint in m_TerrainPoints) {
-                    vertices [tPoint.index].y += modification / tPoint.distDenom;
+
+                    // If points around the center points are already higher than don't manipulate them until the center point is at the same height
+                    if (tPoint.distDenom == m_CenterDistDenom) {
+                        vertices [tPoint.index].y += modification / tPoint.distDenom;
+                        m_CenterPoint.point = vertices [tPoint.index];
+                    }
+                    else if (m_TouchDirection.y > 0 && vertices [tPoint.index].y <= m_CenterPoint.point.y) 
+                        vertices [tPoint.index].y += modification / tPoint.distDenom;
+                    else if (m_TouchDirection.y < 0)
+                        vertices [tPoint.index].y += modification / tPoint.distDenom;
+
                     if (vertices [tPoint.index].y < m_MinTerrainHeight) {
                         vertices [tPoint.index].y = m_MinTerrainHeight;
                     }
@@ -147,6 +159,7 @@ public class ARTerrainManager : MonoBehaviour {
         if (mf != null) {
             // DO NOT READ DIRECTLY FROM SHARED MESH, causes the system to lag. Create a copy and read vertex info from copy
             Vector3[] vertices = mf.mesh.vertices;
+            float shortestDist = Mathf.Infinity;
 
             // Go through all verticed and find the closest mesh vertex to the rayHit point
             for (int i = 0; i < vertices.Length; i++) {
@@ -157,7 +170,14 @@ public class ARTerrainManager : MonoBehaviour {
                 // Essentially we're projecting a circle onto the map rather than using a sphere at the point of touch
                 float distance = Mathf.Sqrt (Mathf.Pow ((vert.x - hitPoint.x), 2) + Mathf.Pow ((vert.z - hitPoint.z), 2));
                 if (distance <= m_TerrainSelectRadius) {
-                    m_TerrainPoints.Add (new TerrainPoint (i, Mathf.Lerp(1f, m_TerrainCurveValue, distance / m_TerrainSelectRadius)));
+                    TerrainPoint newPoint = new TerrainPoint (i, Mathf.Lerp (1f, m_TerrainCurveValue, distance / m_TerrainSelectRadius), vert); 
+                    if (distance < shortestDist) {
+                        shortestDist = distance;
+                        m_CenterPoint = newPoint;
+                        m_CenterDistDenom = newPoint.distDenom;
+                    }
+                    m_TerrainPoints.Add (newPoint);
+
                 }
             }
 
@@ -222,10 +242,12 @@ public struct TerrainAnchorObject {
 public struct TerrainPoint {
     public int index { get; set; }
     public float distDenom { get; set;}
+    public Vector3 point { get; set;}
 
-    public TerrainPoint(int i, float d) {
+    public TerrainPoint(int i, float d, Vector3 p) {
         index = i;
         distDenom = d;
+        point = p;
     }
 
 }

@@ -11,6 +11,7 @@
 #include <stdint.h>
 
 #include "mscorlib_System_ValueType3507792607.h"
+#include "UnityEngine_UnityEngine_Vector32243707580.h"
 
 
 
@@ -34,6 +35,8 @@ public:
 			int32_t ___U3CindexU3Ek__BackingField_0;
 			// System.Single TerrainPoint::<distDenom>k__BackingField
 			float ___U3CdistDenomU3Ek__BackingField_1;
+			// UnityEngine.Vector3 TerrainPoint::<point>k__BackingField
+			Vector3_t2243707580  ___U3CpointU3Ek__BackingField_2;
 		};
 		uint8_t TerrainPoint_t3086956645__padding[1];
 	};
@@ -53,6 +56,14 @@ public:
 	inline void set_U3CdistDenomU3Ek__BackingField_1(float value)
 	{
 		___U3CdistDenomU3Ek__BackingField_1 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CpointU3Ek__BackingField_2() { return static_cast<int32_t>(offsetof(TerrainPoint_t3086956645, ___U3CpointU3Ek__BackingField_2)); }
+	inline Vector3_t2243707580  get_U3CpointU3Ek__BackingField_2() const { return ___U3CpointU3Ek__BackingField_2; }
+	inline Vector3_t2243707580 * get_address_of_U3CpointU3Ek__BackingField_2() { return &___U3CpointU3Ek__BackingField_2; }
+	inline void set_U3CpointU3Ek__BackingField_2(Vector3_t2243707580  value)
+	{
+		___U3CpointU3Ek__BackingField_2 = value;
 	}
 };
 

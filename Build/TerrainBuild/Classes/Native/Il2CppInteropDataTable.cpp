@@ -414,16 +414,12 @@ extern "C" void WordWrapState_t433984875_marshal_pinvoke(void* managedStructure,
 extern "C" void WordWrapState_t433984875_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void WordWrapState_t433984875_marshal_pinvoke_cleanup(void* marshaledStructure);
 extern const Il2CppType WordWrapState_t433984875_0_0_0;
-extern "C" void DelegatePInvokeWrapper_CurrentAnchorUpdated_t3782499909();
-extern const Il2CppType CurrentAnchorUpdated_t3782499909_0_0_0;
 extern "C" void DelegatePInvokeWrapper_ARTouchBeganUpdate_t3594891140();
 extern const Il2CppType ARTouchBeganUpdate_t3594891140_0_0_0;
 extern "C" void DelegatePInvokeWrapper_ARTouchEndedUpdate_t1248700201();
 extern const Il2CppType ARTouchEndedUpdate_t1248700201_0_0_0;
 extern "C" void DelegatePInvokeWrapper_ARTouchMovedUpdate_t2503809678();
 extern const Il2CppType ARTouchMovedUpdate_t2503809678_0_0_0;
-extern "C" void DelegatePInvokeWrapper_ARTouchPlaneUpdate_t2610448397();
-extern const Il2CppType ARTouchPlaneUpdate_t2610448397_0_0_0;
 extern "C" void PlaneAnchorObject_t3628153532_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
 extern "C" void PlaneAnchorObject_t3628153532_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void PlaneAnchorObject_t3628153532_marshal_pinvoke_cleanup(void* marshaledStructure);
@@ -480,7 +476,7 @@ extern "C" void DelegatePInvokeWrapper_internal_ARAnchorUpdated_t3705772742();
 extern const Il2CppType internal_ARAnchorUpdated_t3705772742_0_0_0;
 extern "C" void DelegatePInvokeWrapper_internal_ARFrameUpdate_t3296518558();
 extern const Il2CppType internal_ARFrameUpdate_t3296518558_0_0_0;
-extern Il2CppInteropData g_Il2CppInteropData[137] = 
+extern Il2CppInteropData g_Il2CppInteropData[135] = 
 {
 	{ NULL, Context_t2636657155_marshal_pinvoke, Context_t2636657155_marshal_pinvoke_back, Context_t2636657155_marshal_pinvoke_cleanup, NULL, NULL, &Context_t2636657155_0_0_0 } /* Mono.Globalization.Unicode.SimpleCollator/Context */,
 	{ NULL, Escape_t169451053_marshal_pinvoke, Escape_t169451053_marshal_pinvoke_back, Escape_t169451053_marshal_pinvoke_cleanup, NULL, NULL, &Escape_t169451053_0_0_0 } /* Mono.Globalization.Unicode.SimpleCollator/Escape */,
@@ -595,11 +591,9 @@ extern Il2CppInteropData g_Il2CppInteropData[137] =
 	{ NULL, TMP_MeshInfo_t1297308317_marshal_pinvoke, TMP_MeshInfo_t1297308317_marshal_pinvoke_back, TMP_MeshInfo_t1297308317_marshal_pinvoke_cleanup, NULL, NULL, &TMP_MeshInfo_t1297308317_0_0_0 } /* TMPro.TMP_MeshInfo */,
 	{ NULL, TMP_WordInfo_t3807457612_marshal_pinvoke, TMP_WordInfo_t3807457612_marshal_pinvoke_back, TMP_WordInfo_t3807457612_marshal_pinvoke_cleanup, NULL, NULL, &TMP_WordInfo_t3807457612_0_0_0 } /* TMPro.TMP_WordInfo */,
 	{ NULL, WordWrapState_t433984875_marshal_pinvoke, WordWrapState_t433984875_marshal_pinvoke_back, WordWrapState_t433984875_marshal_pinvoke_cleanup, NULL, NULL, &WordWrapState_t433984875_0_0_0 } /* TMPro.WordWrapState */,
-	{ DelegatePInvokeWrapper_CurrentAnchorUpdated_t3782499909, NULL, NULL, NULL, NULL, NULL, &CurrentAnchorUpdated_t3782499909_0_0_0 } /* ARAnchorManager/CurrentAnchorUpdated */,
 	{ DelegatePInvokeWrapper_ARTouchBeganUpdate_t3594891140, NULL, NULL, NULL, NULL, NULL, &ARTouchBeganUpdate_t3594891140_0_0_0 } /* ARTouchManager/ARTouchBeganUpdate */,
 	{ DelegatePInvokeWrapper_ARTouchEndedUpdate_t1248700201, NULL, NULL, NULL, NULL, NULL, &ARTouchEndedUpdate_t1248700201_0_0_0 } /* ARTouchManager/ARTouchEndedUpdate */,
 	{ DelegatePInvokeWrapper_ARTouchMovedUpdate_t2503809678, NULL, NULL, NULL, NULL, NULL, &ARTouchMovedUpdate_t2503809678_0_0_0 } /* ARTouchManager/ARTouchMovedUpdate */,
-	{ DelegatePInvokeWrapper_ARTouchPlaneUpdate_t2610448397, NULL, NULL, NULL, NULL, NULL, &ARTouchPlaneUpdate_t2610448397_0_0_0 } /* ARTouchManager/ARTouchPlaneUpdate */,
 	{ NULL, PlaneAnchorObject_t3628153532_marshal_pinvoke, PlaneAnchorObject_t3628153532_marshal_pinvoke_back, PlaneAnchorObject_t3628153532_marshal_pinvoke_cleanup, NULL, NULL, &PlaneAnchorObject_t3628153532_0_0_0 } /* PlaneAnchorObject */,
 	{ NULL, TerrainAnchorObject_t1214709381_marshal_pinvoke, TerrainAnchorObject_t1214709381_marshal_pinvoke_back, TerrainAnchorObject_t1214709381_marshal_pinvoke_cleanup, NULL, NULL, &TerrainAnchorObject_t1214709381_0_0_0 } /* TerrainAnchorObject */,
 	{ NULL, TerrainType_t1477530197_marshal_pinvoke, TerrainType_t1477530197_marshal_pinvoke_back, TerrainType_t1477530197_marshal_pinvoke_cleanup, NULL, NULL, &TerrainType_t1477530197_0_0_0 } /* TerrainType */,

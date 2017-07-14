@@ -14,6 +14,7 @@
 #include "AssemblyU2DCSharp_TerrainAnchorObject1214709381.h"
 #include "AssemblyU2DCSharp_ARTerrainManager_ManipPhase338933528.h"
 #include "UnityEngine_UnityEngine_Vector22243707579.h"
+#include "AssemblyU2DCSharp_TerrainPoint3086956645.h"
 
 // UnityEngine.GameObject
 struct GameObject_t1756533147;
@@ -67,8 +68,12 @@ public:
 	Vector2_t2243707579  ___m_TouchDirection_15;
 	// System.Collections.Generic.List`1<TerrainPoint> ARTerrainManager::m_TerrainPoints
 	List_1_t2456077777 * ___m_TerrainPoints_16;
+	// TerrainPoint ARTerrainManager::m_CenterPoint
+	TerrainPoint_t3086956645  ___m_CenterPoint_17;
+	// System.Single ARTerrainManager::m_CenterDistDenom
+	float ___m_CenterDistDenom_18;
 	// MapGenerator ARTerrainManager::m_MapGenerator
-	MapGenerator_t237211197 * ___m_MapGenerator_17;
+	MapGenerator_t237211197 * ___m_MapGenerator_19;
 
 public:
 	inline static int32_t get_offset_of_m_TerrainScale_2() { return static_cast<int32_t>(offsetof(ARTerrainManager_t2018264653, ___m_TerrainScale_2)); }
@@ -194,13 +199,29 @@ public:
 		Il2CppCodeGenWriteBarrier(&___m_TerrainPoints_16, value);
 	}
 
-	inline static int32_t get_offset_of_m_MapGenerator_17() { return static_cast<int32_t>(offsetof(ARTerrainManager_t2018264653, ___m_MapGenerator_17)); }
-	inline MapGenerator_t237211197 * get_m_MapGenerator_17() const { return ___m_MapGenerator_17; }
-	inline MapGenerator_t237211197 ** get_address_of_m_MapGenerator_17() { return &___m_MapGenerator_17; }
-	inline void set_m_MapGenerator_17(MapGenerator_t237211197 * value)
+	inline static int32_t get_offset_of_m_CenterPoint_17() { return static_cast<int32_t>(offsetof(ARTerrainManager_t2018264653, ___m_CenterPoint_17)); }
+	inline TerrainPoint_t3086956645  get_m_CenterPoint_17() const { return ___m_CenterPoint_17; }
+	inline TerrainPoint_t3086956645 * get_address_of_m_CenterPoint_17() { return &___m_CenterPoint_17; }
+	inline void set_m_CenterPoint_17(TerrainPoint_t3086956645  value)
 	{
-		___m_MapGenerator_17 = value;
-		Il2CppCodeGenWriteBarrier(&___m_MapGenerator_17, value);
+		___m_CenterPoint_17 = value;
+	}
+
+	inline static int32_t get_offset_of_m_CenterDistDenom_18() { return static_cast<int32_t>(offsetof(ARTerrainManager_t2018264653, ___m_CenterDistDenom_18)); }
+	inline float get_m_CenterDistDenom_18() const { return ___m_CenterDistDenom_18; }
+	inline float* get_address_of_m_CenterDistDenom_18() { return &___m_CenterDistDenom_18; }
+	inline void set_m_CenterDistDenom_18(float value)
+	{
+		___m_CenterDistDenom_18 = value;
+	}
+
+	inline static int32_t get_offset_of_m_MapGenerator_19() { return static_cast<int32_t>(offsetof(ARTerrainManager_t2018264653, ___m_MapGenerator_19)); }
+	inline MapGenerator_t237211197 * get_m_MapGenerator_19() const { return ___m_MapGenerator_19; }
+	inline MapGenerator_t237211197 ** get_address_of_m_MapGenerator_19() { return &___m_MapGenerator_19; }
+	inline void set_m_MapGenerator_19(MapGenerator_t237211197 * value)
+	{
+		___m_MapGenerator_19 = value;
+		Il2CppCodeGenWriteBarrier(&___m_MapGenerator_19, value);
 	}
 };
 

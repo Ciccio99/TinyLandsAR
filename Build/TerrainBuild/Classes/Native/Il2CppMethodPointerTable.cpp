@@ -9752,27 +9752,6 @@ extern "C" void StateMachineBehaviour_OnStateMachineEnter_m1524239226 ();
 extern "C" void StateMachineBehaviour_OnStateMachineExit_m2213014568 ();
 extern "C" void SystemInfo_get_operatingSystemFamily_m3467441443 ();
 extern "C" void SystemInfo_SupportsRenderTextureFormat_m3185388893 ();
-extern "C" void Terrain_GetTerrainDataInternal_m2712943927 ();
-extern "C" void Terrain_get_terrainData_m4115429503 ();
-extern "C" void Terrain_set_terrainData_m668036478 ();
-extern "C" void TerrainData_Internal_GetMaximumResolution_m1726089468 ();
-extern "C" void TerrainData_Internal_GetMinimumDetailResolutionPerPatch_m4256328712 ();
-extern "C" void TerrainData_Internal_GetMaximumDetailResolutionPerPatch_m2220059530 ();
-extern "C" void TerrainData_Internal_GetMaximumDetailPatchCount_m611112374 ();
-extern "C" void TerrainData_Internal_GetMinimumAlphamapResolution_m412927128 ();
-extern "C" void TerrainData_Internal_GetMaximumAlphamapResolution_m2965232202 ();
-extern "C" void TerrainData_Internal_GetMinimumBaseMapResolution_m3854864607 ();
-extern "C" void TerrainData_Internal_GetMaximumBaseMapResolution_m2656985397 ();
-extern "C" void TerrainData_get_heightmapWidth_m3618663988 ();
-extern "C" void TerrainData_get_heightmapHeight_m2294258213 ();
-extern "C" void TerrainData_set_heightmapResolution_m4232193711 ();
-extern "C" void TerrainData_set_Internal_heightmapResolution_m1547295423 ();
-extern "C" void TerrainData_set_size_m1630025811 ();
-extern "C" void TerrainData_INTERNAL_set_size_m1729776413 ();
-extern "C" void TerrainData_SetHeights_m1194369767 ();
-extern "C" void TerrainData_Internal_SetHeights_m1082723727 ();
-extern "C" void TerrainData_GetAlphamapResolutionInternal_m2290069727 ();
-extern "C" void TerrainData__cctor_m1858770469 ();
 extern "C" void TextAreaAttribute__ctor_m2320572467 ();
 extern "C" void TextAsset_get_text_m2589865997 ();
 extern "C" void TextAsset_ToString_m3842796771 ();
@@ -13761,13 +13740,6 @@ extern "C" void AR3DOFCameraManager_Start_m1877506848 ();
 extern "C" void AR3DOFCameraManager_SetCamera_m1657987613 ();
 extern "C" void AR3DOFCameraManager_SetupNewCamera_m2182125644 ();
 extern "C" void AR3DOFCameraManager_Update_m2143238405 ();
-extern "C" void ARAnchorManager__cctor_m2972534173 ();
-extern "C" void ARAnchorManager_add_CurrentAnchorUpdatedEvent_m3623298558 ();
-extern "C" void ARAnchorManager_remove_CurrentAnchorUpdatedEvent_m1336317017 ();
-extern "C" void CurrentAnchorUpdated__ctor_m817122924 ();
-extern "C" void CurrentAnchorUpdated_Invoke_m4172342780 ();
-extern "C" void CurrentAnchorUpdated_BeginInvoke_m4032961563 ();
-extern "C" void CurrentAnchorUpdated_EndInvoke_m1565142410 ();
 extern "C" void ARPlaneManager__ctor_m4242556305 ();
 extern "C" void ARPlaneManager_Start_m3838397753 ();
 extern "C" void ARPlaneManager_UpdateCurrentPlaneAnchor_m2582259574 ();
@@ -13783,8 +13755,7 @@ extern "C" void ARTerrainManager_ExtractManipulationData_m750880693 ();
 extern "C" void ARTerrainManager_SetShaderHeightBoundaries_m751648878 ();
 extern "C" void ARTouchManager__ctor_m3712702784 ();
 extern "C" void ARTouchManager_Update_m1374828887 ();
-extern "C" void ARTouchManager_add_ARTouchPlaneUpdateEvent_m3625309446 ();
-extern "C" void ARTouchManager_remove_ARTouchPlaneUpdateEvent_m76497021 ();
+extern "C" void ARTouchManager_TouchLoop_m2179588247 ();
 extern "C" void ARTouchManager_add_ARTouchBeganUpdateEvent_m802168396 ();
 extern "C" void ARTouchManager_remove_ARTouchBeganUpdateEvent_m2458729849 ();
 extern "C" void ARTouchManager_add_ARTouchMovedUpdateEvent_m734883492 ();
@@ -13803,10 +13774,6 @@ extern "C" void ARTouchMovedUpdate__ctor_m4247269127 ();
 extern "C" void ARTouchMovedUpdate_Invoke_m674458553 ();
 extern "C" void ARTouchMovedUpdate_BeginInvoke_m926117190 ();
 extern "C" void ARTouchMovedUpdate_EndInvoke_m1987776849 ();
-extern "C" void ARTouchPlaneUpdate__ctor_m3633282006 ();
-extern "C" void ARTouchPlaneUpdate_Invoke_m4088033691 ();
-extern "C" void ARTouchPlaneUpdate_BeginInvoke_m1967885106 ();
-extern "C" void ARTouchPlaneUpdate_EndInvoke_m3387857296 ();
 extern "C" void BallMaker__ctor_m2454864858 ();
 extern "C" void BallMaker_Start_m2175744074 ();
 extern "C" void BallMaker_CreateBall_m373381602 ();
@@ -14524,19 +14491,13 @@ extern "C" void TerrainAnchorObject_get_terrainGOChild_m455384043_AdjustorThunk 
 extern "C" void TerrainAnchorObject_set_terrainGOChild_m4002411904_AdjustorThunk ();
 extern "C" void TerrainAnchorObject_get_anchor_m3565065547_AdjustorThunk ();
 extern "C" void TerrainAnchorObject_set_anchor_m2568881338_AdjustorThunk ();
-extern "C" void TerrainGenerator__ctor_m774741363 ();
-extern "C" void TerrainGenerator_Start_m3711225367 ();
-extern "C" void TerrainGenerator_Update_m3942083220 ();
-extern "C" void TerrainGenerator_GenerateTerrain_m2182930960 ();
-extern "C" void TerrainGenerator_GenerateHeights_m1236585684 ();
-extern "C" void TerrainGenerator_CalculateHeight_m1452581564 ();
-extern "C" void TerrainGenerator_RaiseHeightPoint_m2244744842 ();
-extern "C" void TerrainGenerator_LowerHeightAtPoint_m2795185294 ();
-extern "C" void TerrainPoint__ctor_m272930782_AdjustorThunk ();
+extern "C" void TerrainPoint__ctor_m1550882201_AdjustorThunk ();
 extern "C" void TerrainPoint_get_index_m1121187309_AdjustorThunk ();
 extern "C" void TerrainPoint_set_index_m176279690_AdjustorThunk ();
 extern "C" void TerrainPoint_get_distDenom_m1532632990_AdjustorThunk ();
 extern "C" void TerrainPoint_set_distDenom_m2261124311_AdjustorThunk ();
+extern "C" void TerrainPoint_get_point_m1579419227_AdjustorThunk ();
+extern "C" void TerrainPoint_set_point_m2043878222_AdjustorThunk ();
 extern "C" void TextureGenerator__ctor_m1882712887 ();
 extern "C" void TextureGenerator_TextureFromColorMap_m1330548810 ();
 extern "C" void TextureGenerator_TextureFromHeightMap_m1817240871 ();
@@ -15393,7 +15354,7 @@ extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene5_m1426789968 ();
 extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene6_m163234005 ();
 extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene7_m1709114970 ();
 extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene8_m1769465567 ();
-extern const Il2CppMethodPointer g_MethodPointers[15379] = 
+extern const Il2CppMethodPointer g_MethodPointers[15340] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -25133,27 +25094,6 @@ extern const Il2CppMethodPointer g_MethodPointers[15379] =
 	StateMachineBehaviour_OnStateMachineExit_m2213014568,
 	SystemInfo_get_operatingSystemFamily_m3467441443,
 	SystemInfo_SupportsRenderTextureFormat_m3185388893,
-	Terrain_GetTerrainDataInternal_m2712943927,
-	Terrain_get_terrainData_m4115429503,
-	Terrain_set_terrainData_m668036478,
-	TerrainData_Internal_GetMaximumResolution_m1726089468,
-	TerrainData_Internal_GetMinimumDetailResolutionPerPatch_m4256328712,
-	TerrainData_Internal_GetMaximumDetailResolutionPerPatch_m2220059530,
-	TerrainData_Internal_GetMaximumDetailPatchCount_m611112374,
-	TerrainData_Internal_GetMinimumAlphamapResolution_m412927128,
-	TerrainData_Internal_GetMaximumAlphamapResolution_m2965232202,
-	TerrainData_Internal_GetMinimumBaseMapResolution_m3854864607,
-	TerrainData_Internal_GetMaximumBaseMapResolution_m2656985397,
-	TerrainData_get_heightmapWidth_m3618663988,
-	TerrainData_get_heightmapHeight_m2294258213,
-	TerrainData_set_heightmapResolution_m4232193711,
-	TerrainData_set_Internal_heightmapResolution_m1547295423,
-	TerrainData_set_size_m1630025811,
-	TerrainData_INTERNAL_set_size_m1729776413,
-	TerrainData_SetHeights_m1194369767,
-	TerrainData_Internal_SetHeights_m1082723727,
-	TerrainData_GetAlphamapResolutionInternal_m2290069727,
-	TerrainData__cctor_m1858770469,
 	TextAreaAttribute__ctor_m2320572467,
 	TextAsset_get_text_m2589865997,
 	TextAsset_ToString_m3842796771,
@@ -29142,13 +29082,6 @@ extern const Il2CppMethodPointer g_MethodPointers[15379] =
 	AR3DOFCameraManager_SetCamera_m1657987613,
 	AR3DOFCameraManager_SetupNewCamera_m2182125644,
 	AR3DOFCameraManager_Update_m2143238405,
-	ARAnchorManager__cctor_m2972534173,
-	ARAnchorManager_add_CurrentAnchorUpdatedEvent_m3623298558,
-	ARAnchorManager_remove_CurrentAnchorUpdatedEvent_m1336317017,
-	CurrentAnchorUpdated__ctor_m817122924,
-	CurrentAnchorUpdated_Invoke_m4172342780,
-	CurrentAnchorUpdated_BeginInvoke_m4032961563,
-	CurrentAnchorUpdated_EndInvoke_m1565142410,
 	ARPlaneManager__ctor_m4242556305,
 	ARPlaneManager_Start_m3838397753,
 	ARPlaneManager_UpdateCurrentPlaneAnchor_m2582259574,
@@ -29164,8 +29097,7 @@ extern const Il2CppMethodPointer g_MethodPointers[15379] =
 	ARTerrainManager_SetShaderHeightBoundaries_m751648878,
 	ARTouchManager__ctor_m3712702784,
 	ARTouchManager_Update_m1374828887,
-	ARTouchManager_add_ARTouchPlaneUpdateEvent_m3625309446,
-	ARTouchManager_remove_ARTouchPlaneUpdateEvent_m76497021,
+	ARTouchManager_TouchLoop_m2179588247,
 	ARTouchManager_add_ARTouchBeganUpdateEvent_m802168396,
 	ARTouchManager_remove_ARTouchBeganUpdateEvent_m2458729849,
 	ARTouchManager_add_ARTouchMovedUpdateEvent_m734883492,
@@ -29184,10 +29116,6 @@ extern const Il2CppMethodPointer g_MethodPointers[15379] =
 	ARTouchMovedUpdate_Invoke_m674458553,
 	ARTouchMovedUpdate_BeginInvoke_m926117190,
 	ARTouchMovedUpdate_EndInvoke_m1987776849,
-	ARTouchPlaneUpdate__ctor_m3633282006,
-	ARTouchPlaneUpdate_Invoke_m4088033691,
-	ARTouchPlaneUpdate_BeginInvoke_m1967885106,
-	ARTouchPlaneUpdate_EndInvoke_m3387857296,
 	BallMaker__ctor_m2454864858,
 	BallMaker_Start_m2175744074,
 	BallMaker_CreateBall_m373381602,
@@ -29905,19 +29833,13 @@ extern const Il2CppMethodPointer g_MethodPointers[15379] =
 	TerrainAnchorObject_set_terrainGOChild_m4002411904_AdjustorThunk,
 	TerrainAnchorObject_get_anchor_m3565065547_AdjustorThunk,
 	TerrainAnchorObject_set_anchor_m2568881338_AdjustorThunk,
-	TerrainGenerator__ctor_m774741363,
-	TerrainGenerator_Start_m3711225367,
-	TerrainGenerator_Update_m3942083220,
-	TerrainGenerator_GenerateTerrain_m2182930960,
-	TerrainGenerator_GenerateHeights_m1236585684,
-	TerrainGenerator_CalculateHeight_m1452581564,
-	TerrainGenerator_RaiseHeightPoint_m2244744842,
-	TerrainGenerator_LowerHeightAtPoint_m2795185294,
-	TerrainPoint__ctor_m272930782_AdjustorThunk,
+	TerrainPoint__ctor_m1550882201_AdjustorThunk,
 	TerrainPoint_get_index_m1121187309_AdjustorThunk,
 	TerrainPoint_set_index_m176279690_AdjustorThunk,
 	TerrainPoint_get_distDenom_m1532632990_AdjustorThunk,
 	TerrainPoint_set_distDenom_m2261124311_AdjustorThunk,
+	TerrainPoint_get_point_m1579419227_AdjustorThunk,
+	TerrainPoint_set_point_m2043878222_AdjustorThunk,
 	TextureGenerator__ctor_m1882712887,
 	TextureGenerator_TextureFromColorMap_m1330548810,
 	TextureGenerator_TextureFromHeightMap_m1817240871,

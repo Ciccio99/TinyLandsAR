@@ -132,7 +132,6 @@
      <Compile Include="Assets\Scripts\MapGenerator.cs" />
      <Compile Include="Assets\Scripts\MeshGenerator.cs" />
      <Compile Include="Assets\Scripts\Noise.cs" />
-     <Compile Include="Assets\Scripts\TerrainGenerator.cs" />
      <Compile Include="Assets\Scripts\TextureGenerator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark01_UGUI.cs" />

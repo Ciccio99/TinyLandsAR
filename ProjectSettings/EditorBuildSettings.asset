@@ -18,5 +18,5 @@ EditorBuildSettings:
     path: Assets/ARkit/UnityARShadows.unity
     guid: 14d17ec7304f440b48e6b953ba7a5895
   - enabled: 1
-    path: Assets/Scenes/ARkitTerrainScene2.unity
+    path: Assets/__Scenes/ARkitTerrainScene2.unity
     guid: 59fc0ce54b50848bea598c42d22c9429

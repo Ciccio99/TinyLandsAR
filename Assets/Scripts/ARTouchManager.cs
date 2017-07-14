@@ -14,46 +14,36 @@ using TMPro;
 public class ARTouchManager : MonoBehaviour {
 	
 	void Update () {
-		if (Input.touchCount > 0 )
-		{
-			var touch = Input.GetTouch(0);
+        TouchLoop ();
+	}
+
+    /*
+        Controls which delegate event should be called based on the the phase of the input touch
+    */
+    private void TouchLoop () {
+        if (Input.touchCount > 0 )
+        {
+            var touch = Input.GetTouch(0);
             if (touch.phase == TouchPhase.Began) {
                 ARTouchBeganUpdateEvent (touch);
-                var screenPosition = Camera.main.ScreenToViewportPoint (touch.position);
-                ARPoint point = new ARPoint {
-                    x = screenPosition.x,
-                    y = screenPosition.y
-                };
-
-                List<ARHitTestResult> hitResults = UnityARSessionNativeInterface.GetARSessionNativeInterface ().HitTest (point, 
-                                           ARHitTestResultType.ARHitTestResultTypeExistingPlaneUsingExtent);
-
-                if (hitResults.Count > 0) {
-                    foreach (var hitResult in hitResults) {
-                        Vector3 position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
-                        ARTouchPlaneUpdateEvent (hitResult.anchorIdentifier, position);
-                        break;
-                    }
-                }
-
             } else if (touch.phase == TouchPhase.Moved) {
                 ARTouchMovedUpdateEvent (touch);
             } else if (touch.phase == TouchPhase.Ended) {
                 ARTouchEndedUpdateEvent (touch);
             }
 
-		}
-	}
+        }
+    }
 
-    public delegate void ARTouchPlaneUpdate(string anchorIdentifier, Vector3 touchPosition);
-	public event ARTouchPlaneUpdate ARTouchPlaneUpdateEvent;
-
+    // Event Delegate for the begin touch phase
     public delegate void ARTouchBeganUpdate(Touch touchEvent);
     public event ARTouchBeganUpdate ARTouchBeganUpdateEvent;
 
+    // Event delegate for the move touch phase
     public delegate void ARTouchMovedUpdate(Touch touchEvent);
     public event ARTouchMovedUpdate ARTouchMovedUpdateEvent;
 
+    // Event Delegate for the touch ended phase
     public delegate void ARTouchEndedUpdate(Touch touchEvent);
     public event ARTouchEndedUpdate ARTouchEndedUpdateEvent;
 

@@ -63,9 +63,6 @@
 #include "UnityEngine_UnityEngine_SystemInfo2353426895.h"
 #include "UnityEngine_UnityEngine_OperatingSystemFamily1896948788.h"
 #include "UnityEngine_UnityEngine_RenderTextureFormat3360518468.h"
-#include "UnityEngine_UnityEngine_Terrain59182933.h"
-#include "UnityEngine_UnityEngine_TerrainData1351141029.h"
-#include "mscorlib_System_NullReferenceException3156209119.h"
 #include "UnityEngine_UnityEngine_TextAnchor112990806.h"
 #include "UnityEngine_UnityEngine_TextAreaAttribute2454598508.h"
 #include "UnityEngine_UnityEngine_TextAsset3973159845.h"
@@ -199,16 +196,6 @@ struct ScriptableObject_t1975622470;
 struct Animator_t69676727;
 // UnityEngine.Experimental.Director.AnimatorControllerPlayable
 struct AnimatorControllerPlayable_t4078305555;
-// UnityEngine.Terrain
-struct Terrain_t59182933;
-// UnityEngine.TerrainData
-struct TerrainData_t1351141029;
-// System.Single[0...,0...]
-struct SingleU5B0___U2C0___U5D_t577127398;
-// System.NullReferenceException
-struct NullReferenceException_t3156209119;
-// System.Array
-struct Il2CppArray;
 // UnityEngine.TextAreaAttribute
 struct TextAreaAttribute_t2454598508;
 // UnityEngine.TextAsset
@@ -380,15 +367,6 @@ extern Il2CppCodeGenString* _stringLiteral1588513925;
 extern Il2CppCodeGenString* _stringLiteral1644205752;
 extern const uint32_t StackTraceUtility_ExtractFormattedStackTrace_m2242276521_MetadataUsageId;
 extern const uint32_t StackTraceUtility__cctor_m1132099289_MetadataUsageId;
-extern Il2CppClass* TerrainData_t1351141029_il2cpp_TypeInfo_var;
-extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral2636272302;
-extern Il2CppCodeGenString* _stringLiteral1617874639;
-extern const uint32_t TerrainData_set_heightmapResolution_m4232193711_MetadataUsageId;
-extern Il2CppClass* NullReferenceException_t3156209119_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral2937592993;
-extern const uint32_t TerrainData_SetHeights_m1194369767_MetadataUsageId;
-extern const uint32_t TerrainData__cctor_m1858770469_MetadataUsageId;
 extern Il2CppClass* GUIStyle_t1799908754_il2cpp_TypeInfo_var;
 extern Il2CppClass* GUIContent_t4210063000_il2cpp_TypeInfo_var;
 extern const uint32_t TextEditor__ctor_m1990252461_MetadataUsageId;
@@ -411,6 +389,7 @@ extern const MethodInfo* List_1__ctor_m2766376432_MethodInfo_var;
 extern const uint32_t TextGenerator__ctor_m1169691060_MetadataUsageId;
 extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
 extern const uint32_t TextGenerator_Finalize_m4242493229_MetadataUsageId;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral4147925158;
 extern Il2CppCodeGenString* _stringLiteral1121739408;
 extern const uint32_t TextGenerator_ValidatedSettings_m1640214759_MetadataUsageId;
@@ -647,95 +626,6 @@ public:
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);
 	}
 };
-// System.Single[0...,0...]
-struct SingleU5B0___U2C0___U5D_t577127398  : public Il2CppArray
-{
-public:
-	ALIGN_FIELD (8) float m_Items[1];
-
-public:
-	inline float GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline float* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, float value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline float GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline float* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
-	{
-		m_Items[index] = value;
-	}
-	inline float GetAt(il2cpp_array_size_t i, il2cpp_array_size_t j) const
-	{
-		il2cpp_array_size_t iBound = bounds[0].length;
-		IL2CPP_ARRAY_BOUNDS_CHECK(i, iBound);
-		il2cpp_array_size_t jBound = bounds[1].length;
-		IL2CPP_ARRAY_BOUNDS_CHECK(j, jBound);
-
-		il2cpp_array_size_t index = i * jBound + j;
-		return m_Items[index];
-	}
-	inline float* GetAddressAt(il2cpp_array_size_t i, il2cpp_array_size_t j)
-	{
-		il2cpp_array_size_t iBound = bounds[0].length;
-		IL2CPP_ARRAY_BOUNDS_CHECK(i, iBound);
-		il2cpp_array_size_t jBound = bounds[1].length;
-		IL2CPP_ARRAY_BOUNDS_CHECK(j, jBound);
-
-		il2cpp_array_size_t index = i * jBound + j;
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t i, il2cpp_array_size_t j, float value)
-	{
-		il2cpp_array_size_t iBound = bounds[0].length;
-		IL2CPP_ARRAY_BOUNDS_CHECK(i, iBound);
-		il2cpp_array_size_t jBound = bounds[1].length;
-		IL2CPP_ARRAY_BOUNDS_CHECK(j, jBound);
-
-		il2cpp_array_size_t index = i * jBound + j;
-		m_Items[index] = value;
-	}
-	inline float GetAtUnchecked(il2cpp_array_size_t i, il2cpp_array_size_t j) const
-	{
-		il2cpp_array_size_t iBound = bounds[0].length;
-		il2cpp_array_size_t jBound = bounds[1].length;
-
-		il2cpp_array_size_t index = i * jBound + j;
-		return m_Items[index];
-	}
-	inline float* GetAddressAtUnchecked(il2cpp_array_size_t i, il2cpp_array_size_t j)
-	{
-		il2cpp_array_size_t iBound = bounds[0].length;
-		il2cpp_array_size_t jBound = bounds[1].length;
-
-		il2cpp_array_size_t index = i * jBound + j;
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t i, il2cpp_array_size_t j, float value)
-	{
-		il2cpp_array_size_t iBound = bounds[0].length;
-		il2cpp_array_size_t jBound = bounds[1].length;
-
-		il2cpp_array_size_t index = i * jBound + j;
-		m_Items[index] = value;
-	}
-};
 // UnityEngine.Color[]
 struct ColorU5BU5D_t672350442  : public Il2CppArray
 {
@@ -925,46 +815,6 @@ extern "C"  bool String_op_Equality_m1790663636 (Il2CppObject * __this /* static
 extern "C"  String_t* Int32_ToString_m2960866144 (int32_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.ScriptableObject::.ctor()
 extern "C"  void ScriptableObject__ctor_m2671490429 (ScriptableObject_t1975622470 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.String System.String::Concat(System.Object,System.Object,System.Object)
-extern "C"  String_t* String_Concat_m2000667605 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, Il2CppObject * p1, Il2CppObject * p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Debug::LogWarning(System.Object)
-extern "C"  void Debug_LogWarning_m2503577968 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___message0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Int32 System.Math::Max(System.Int32,System.Int32)
-extern "C"  int32_t Math_Max_m2671311541 (Il2CppObject * __this /* static, unused */, int32_t p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Int32 System.Math::Min(System.Int32,System.Int32)
-extern "C"  int32_t Math_Min_m4290821911 (Il2CppObject * __this /* static, unused */, int32_t p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.TerrainData::set_Internal_heightmapResolution(System.Int32)
-extern "C"  void TerrainData_set_Internal_heightmapResolution_m1547295423 (TerrainData_t1351141029 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.TerrainData::INTERNAL_set_size(UnityEngine.Vector3&)
-extern "C"  void TerrainData_INTERNAL_set_size_m1729776413 (TerrainData_t1351141029 * __this, Vector3_t2243707580 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void System.NullReferenceException::.ctor()
-extern "C"  void NullReferenceException__ctor_m2202599572 (NullReferenceException_t3156209119 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Int32 System.Array::GetLength(System.Int32)
-extern "C"  int32_t Array_GetLength_m2083296647 (Il2CppArray * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Int32 UnityEngine.TerrainData::get_heightmapWidth()
-extern "C"  int32_t TerrainData_get_heightmapWidth_m3618663988 (TerrainData_t1351141029 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Int32 UnityEngine.TerrainData::get_heightmapHeight()
-extern "C"  int32_t TerrainData_get_heightmapHeight_m2294258213 (TerrainData_t1351141029 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.String UnityEngine.UnityString::Format(System.String,System.Object[])
-extern "C"  String_t* UnityString_Format_m2949645127 (Il2CppObject * __this /* static, unused */, String_t* ___fmt0, ObjectU5BU5D_t3614634134* ___args1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.TerrainData::Internal_SetHeights(System.Int32,System.Int32,System.Int32,System.Int32,System.Single[0...,0...])
-extern "C"  void TerrainData_Internal_SetHeights_m1082723727 (TerrainData_t1351141029 * __this, int32_t ___xBase0, int32_t ___yBase1, int32_t ___width2, int32_t ___height3, SingleU5B0___U2C0___U5D_t577127398* ___heights4, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Int32 UnityEngine.TerrainData::Internal_GetMaximumResolution()
-extern "C"  int32_t TerrainData_Internal_GetMaximumResolution_m1726089468 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Int32 UnityEngine.TerrainData::Internal_GetMinimumDetailResolutionPerPatch()
-extern "C"  int32_t TerrainData_Internal_GetMinimumDetailResolutionPerPatch_m4256328712 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Int32 UnityEngine.TerrainData::Internal_GetMaximumDetailResolutionPerPatch()
-extern "C"  int32_t TerrainData_Internal_GetMaximumDetailResolutionPerPatch_m2220059530 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Int32 UnityEngine.TerrainData::Internal_GetMaximumDetailPatchCount()
-extern "C"  int32_t TerrainData_Internal_GetMaximumDetailPatchCount_m611112374 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Int32 UnityEngine.TerrainData::Internal_GetMinimumAlphamapResolution()
-extern "C"  int32_t TerrainData_Internal_GetMinimumAlphamapResolution_m412927128 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Int32 UnityEngine.TerrainData::Internal_GetMaximumAlphamapResolution()
-extern "C"  int32_t TerrainData_Internal_GetMaximumAlphamapResolution_m2965232202 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Int32 UnityEngine.TerrainData::Internal_GetMinimumBaseMapResolution()
-extern "C"  int32_t TerrainData_Internal_GetMinimumBaseMapResolution_m3854864607 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Int32 UnityEngine.TerrainData::Internal_GetMaximumBaseMapResolution()
-extern "C"  int32_t TerrainData_Internal_GetMaximumBaseMapResolution_m2656985397 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.TextAsset::get_text()
 extern "C"  String_t* TextAsset_get_text_m2589865997 (TextAsset_t3973159845 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GUIStyle UnityEngine.GUIStyle::get_none()
@@ -1263,6 +1113,8 @@ extern "C"  Vector2_t2243707579  Vector2_op_Division_m96580069 (Il2CppObject * _
 extern "C"  void Vector2_Normalize_m2465777963 (Vector2_t2243707579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Vector2::get_normalized()
 extern "C"  Vector2_t2243707579  Vector2_get_normalized_m2985402409 (Vector2_t2243707579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.UnityString::Format(System.String,System.Object[])
+extern "C"  String_t* UnityString_Format_m2949645127 (Il2CppObject * __this /* static, unused */, String_t* ___fmt0, ObjectU5BU5D_t3614634134* ___args1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Vector2::ToString()
 extern "C"  String_t* Vector2_ToString_m775491729 (Vector2_t2243707579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Single::GetHashCode()
@@ -3499,386 +3351,6 @@ extern "C"  bool SystemInfo_SupportsRenderTextureFormat_m3185388893 (Il2CppObjec
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (SystemInfo_SupportsRenderTextureFormat_m3185388893_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SystemInfo::SupportsRenderTextureFormat(UnityEngine.RenderTextureFormat)");
 	return _il2cpp_icall_func(___format0);
-}
-// UnityEngine.TerrainData UnityEngine.Terrain::GetTerrainDataInternal()
-extern "C"  TerrainData_t1351141029 * Terrain_GetTerrainDataInternal_m2712943927 (Terrain_t59182933 * __this, const MethodInfo* method)
-{
-	typedef TerrainData_t1351141029 * (*Terrain_GetTerrainDataInternal_m2712943927_ftn) (Terrain_t59182933 *);
-	static Terrain_GetTerrainDataInternal_m2712943927_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Terrain_GetTerrainDataInternal_m2712943927_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Terrain::GetTerrainDataInternal()");
-	return _il2cpp_icall_func(__this);
-}
-// UnityEngine.TerrainData UnityEngine.Terrain::get_terrainData()
-extern "C"  TerrainData_t1351141029 * Terrain_get_terrainData_m4115429503 (Terrain_t59182933 * __this, const MethodInfo* method)
-{
-	typedef TerrainData_t1351141029 * (*Terrain_get_terrainData_m4115429503_ftn) (Terrain_t59182933 *);
-	static Terrain_get_terrainData_m4115429503_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Terrain_get_terrainData_m4115429503_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Terrain::get_terrainData()");
-	return _il2cpp_icall_func(__this);
-}
-// System.Void UnityEngine.Terrain::set_terrainData(UnityEngine.TerrainData)
-extern "C"  void Terrain_set_terrainData_m668036478 (Terrain_t59182933 * __this, TerrainData_t1351141029 * ___value0, const MethodInfo* method)
-{
-	typedef void (*Terrain_set_terrainData_m668036478_ftn) (Terrain_t59182933 *, TerrainData_t1351141029 *);
-	static Terrain_set_terrainData_m668036478_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Terrain_set_terrainData_m668036478_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Terrain::set_terrainData(UnityEngine.TerrainData)");
-	_il2cpp_icall_func(__this, ___value0);
-}
-// System.Int32 UnityEngine.TerrainData::Internal_GetMaximumResolution()
-extern "C"  int32_t TerrainData_Internal_GetMaximumResolution_m1726089468 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	typedef int32_t (*TerrainData_Internal_GetMaximumResolution_m1726089468_ftn) ();
-	static TerrainData_Internal_GetMaximumResolution_m1726089468_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TerrainData_Internal_GetMaximumResolution_m1726089468_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TerrainData::Internal_GetMaximumResolution()");
-	return _il2cpp_icall_func();
-}
-// System.Int32 UnityEngine.TerrainData::Internal_GetMinimumDetailResolutionPerPatch()
-extern "C"  int32_t TerrainData_Internal_GetMinimumDetailResolutionPerPatch_m4256328712 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	typedef int32_t (*TerrainData_Internal_GetMinimumDetailResolutionPerPatch_m4256328712_ftn) ();
-	static TerrainData_Internal_GetMinimumDetailResolutionPerPatch_m4256328712_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TerrainData_Internal_GetMinimumDetailResolutionPerPatch_m4256328712_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TerrainData::Internal_GetMinimumDetailResolutionPerPatch()");
-	return _il2cpp_icall_func();
-}
-// System.Int32 UnityEngine.TerrainData::Internal_GetMaximumDetailResolutionPerPatch()
-extern "C"  int32_t TerrainData_Internal_GetMaximumDetailResolutionPerPatch_m2220059530 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	typedef int32_t (*TerrainData_Internal_GetMaximumDetailResolutionPerPatch_m2220059530_ftn) ();
-	static TerrainData_Internal_GetMaximumDetailResolutionPerPatch_m2220059530_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TerrainData_Internal_GetMaximumDetailResolutionPerPatch_m2220059530_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TerrainData::Internal_GetMaximumDetailResolutionPerPatch()");
-	return _il2cpp_icall_func();
-}
-// System.Int32 UnityEngine.TerrainData::Internal_GetMaximumDetailPatchCount()
-extern "C"  int32_t TerrainData_Internal_GetMaximumDetailPatchCount_m611112374 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	typedef int32_t (*TerrainData_Internal_GetMaximumDetailPatchCount_m611112374_ftn) ();
-	static TerrainData_Internal_GetMaximumDetailPatchCount_m611112374_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TerrainData_Internal_GetMaximumDetailPatchCount_m611112374_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TerrainData::Internal_GetMaximumDetailPatchCount()");
-	return _il2cpp_icall_func();
-}
-// System.Int32 UnityEngine.TerrainData::Internal_GetMinimumAlphamapResolution()
-extern "C"  int32_t TerrainData_Internal_GetMinimumAlphamapResolution_m412927128 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	typedef int32_t (*TerrainData_Internal_GetMinimumAlphamapResolution_m412927128_ftn) ();
-	static TerrainData_Internal_GetMinimumAlphamapResolution_m412927128_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TerrainData_Internal_GetMinimumAlphamapResolution_m412927128_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TerrainData::Internal_GetMinimumAlphamapResolution()");
-	return _il2cpp_icall_func();
-}
-// System.Int32 UnityEngine.TerrainData::Internal_GetMaximumAlphamapResolution()
-extern "C"  int32_t TerrainData_Internal_GetMaximumAlphamapResolution_m2965232202 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	typedef int32_t (*TerrainData_Internal_GetMaximumAlphamapResolution_m2965232202_ftn) ();
-	static TerrainData_Internal_GetMaximumAlphamapResolution_m2965232202_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TerrainData_Internal_GetMaximumAlphamapResolution_m2965232202_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TerrainData::Internal_GetMaximumAlphamapResolution()");
-	return _il2cpp_icall_func();
-}
-// System.Int32 UnityEngine.TerrainData::Internal_GetMinimumBaseMapResolution()
-extern "C"  int32_t TerrainData_Internal_GetMinimumBaseMapResolution_m3854864607 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	typedef int32_t (*TerrainData_Internal_GetMinimumBaseMapResolution_m3854864607_ftn) ();
-	static TerrainData_Internal_GetMinimumBaseMapResolution_m3854864607_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TerrainData_Internal_GetMinimumBaseMapResolution_m3854864607_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TerrainData::Internal_GetMinimumBaseMapResolution()");
-	return _il2cpp_icall_func();
-}
-// System.Int32 UnityEngine.TerrainData::Internal_GetMaximumBaseMapResolution()
-extern "C"  int32_t TerrainData_Internal_GetMaximumBaseMapResolution_m2656985397 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	typedef int32_t (*TerrainData_Internal_GetMaximumBaseMapResolution_m2656985397_ftn) ();
-	static TerrainData_Internal_GetMaximumBaseMapResolution_m2656985397_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TerrainData_Internal_GetMaximumBaseMapResolution_m2656985397_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TerrainData::Internal_GetMaximumBaseMapResolution()");
-	return _il2cpp_icall_func();
-}
-// System.Int32 UnityEngine.TerrainData::get_heightmapWidth()
-extern "C"  int32_t TerrainData_get_heightmapWidth_m3618663988 (TerrainData_t1351141029 * __this, const MethodInfo* method)
-{
-	typedef int32_t (*TerrainData_get_heightmapWidth_m3618663988_ftn) (TerrainData_t1351141029 *);
-	static TerrainData_get_heightmapWidth_m3618663988_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TerrainData_get_heightmapWidth_m3618663988_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TerrainData::get_heightmapWidth()");
-	return _il2cpp_icall_func(__this);
-}
-// System.Int32 UnityEngine.TerrainData::get_heightmapHeight()
-extern "C"  int32_t TerrainData_get_heightmapHeight_m2294258213 (TerrainData_t1351141029 * __this, const MethodInfo* method)
-{
-	typedef int32_t (*TerrainData_get_heightmapHeight_m2294258213_ftn) (TerrainData_t1351141029 *);
-	static TerrainData_get_heightmapHeight_m2294258213_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TerrainData_get_heightmapHeight_m2294258213_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TerrainData::get_heightmapHeight()");
-	return _il2cpp_icall_func(__this);
-}
-// System.Void UnityEngine.TerrainData::set_heightmapResolution(System.Int32)
-extern "C"  void TerrainData_set_heightmapResolution_m4232193711 (TerrainData_t1351141029 * __this, int32_t ___value0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (TerrainData_set_heightmapResolution_m4232193711_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	{
-		int32_t L_0 = ___value0;
-		V_0 = L_0;
-		int32_t L_1 = ___value0;
-		if ((((int32_t)L_1) < ((int32_t)0)))
-		{
-			goto IL_0015;
-		}
-	}
-	{
-		int32_t L_2 = ___value0;
-		IL2CPP_RUNTIME_CLASS_INIT(TerrainData_t1351141029_il2cpp_TypeInfo_var);
-		int32_t L_3 = ((TerrainData_t1351141029_StaticFields*)TerrainData_t1351141029_il2cpp_TypeInfo_var->static_fields)->get_kMaximumResolution_2();
-		if ((((int32_t)L_2) <= ((int32_t)L_3)))
-		{
-			goto IL_0047;
-		}
-	}
-
-IL_0015:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(TerrainData_t1351141029_il2cpp_TypeInfo_var);
-		int32_t L_4 = ((TerrainData_t1351141029_StaticFields*)TerrainData_t1351141029_il2cpp_TypeInfo_var->static_fields)->get_kMaximumResolution_2();
-		int32_t L_5 = L_4;
-		Il2CppObject * L_6 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_5);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_7 = String_Concat_m2000667605(NULL /*static, unused*/, _stringLiteral2636272302, L_6, _stringLiteral1617874639, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
-		Debug_LogWarning_m2503577968(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
-		int32_t L_8 = ((TerrainData_t1351141029_StaticFields*)TerrainData_t1351141029_il2cpp_TypeInfo_var->static_fields)->get_kMaximumResolution_2();
-		int32_t L_9 = ___value0;
-		int32_t L_10 = Math_Max_m2671311541(NULL /*static, unused*/, L_9, 0, /*hidden argument*/NULL);
-		int32_t L_11 = Math_Min_m4290821911(NULL /*static, unused*/, L_8, L_10, /*hidden argument*/NULL);
-		V_0 = L_11;
-	}
-
-IL_0047:
-	{
-		int32_t L_12 = V_0;
-		TerrainData_set_Internal_heightmapResolution_m1547295423(__this, L_12, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.TerrainData::set_Internal_heightmapResolution(System.Int32)
-extern "C"  void TerrainData_set_Internal_heightmapResolution_m1547295423 (TerrainData_t1351141029 * __this, int32_t ___value0, const MethodInfo* method)
-{
-	typedef void (*TerrainData_set_Internal_heightmapResolution_m1547295423_ftn) (TerrainData_t1351141029 *, int32_t);
-	static TerrainData_set_Internal_heightmapResolution_m1547295423_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TerrainData_set_Internal_heightmapResolution_m1547295423_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TerrainData::set_Internal_heightmapResolution(System.Int32)");
-	_il2cpp_icall_func(__this, ___value0);
-}
-// System.Void UnityEngine.TerrainData::set_size(UnityEngine.Vector3)
-extern "C"  void TerrainData_set_size_m1630025811 (TerrainData_t1351141029 * __this, Vector3_t2243707580  ___value0, const MethodInfo* method)
-{
-	{
-		TerrainData_INTERNAL_set_size_m1729776413(__this, (&___value0), /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.TerrainData::INTERNAL_set_size(UnityEngine.Vector3&)
-extern "C"  void TerrainData_INTERNAL_set_size_m1729776413 (TerrainData_t1351141029 * __this, Vector3_t2243707580 * ___value0, const MethodInfo* method)
-{
-	typedef void (*TerrainData_INTERNAL_set_size_m1729776413_ftn) (TerrainData_t1351141029 *, Vector3_t2243707580 *);
-	static TerrainData_INTERNAL_set_size_m1729776413_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TerrainData_INTERNAL_set_size_m1729776413_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TerrainData::INTERNAL_set_size(UnityEngine.Vector3&)");
-	_il2cpp_icall_func(__this, ___value0);
-}
-// System.Void UnityEngine.TerrainData::SetHeights(System.Int32,System.Int32,System.Single[0...,0...])
-extern "C"  void TerrainData_SetHeights_m1194369767 (TerrainData_t1351141029 * __this, int32_t ___xBase0, int32_t ___yBase1, SingleU5B0___U2C0___U5D_t577127398* ___heights2, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (TerrainData_SetHeights_m1194369767_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		SingleU5B0___U2C0___U5D_t577127398* L_0 = ___heights2;
-		if (L_0)
-		{
-			goto IL_000e;
-		}
-	}
-	{
-		NullReferenceException_t3156209119 * L_1 = (NullReferenceException_t3156209119 *)il2cpp_codegen_object_new(NullReferenceException_t3156209119_il2cpp_TypeInfo_var);
-		NullReferenceException__ctor_m2202599572(L_1, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
-	}
-
-IL_000e:
-	{
-		int32_t L_2 = ___xBase0;
-		SingleU5B0___U2C0___U5D_t577127398* L_3 = ___heights2;
-		NullCheck((Il2CppArray *)(Il2CppArray *)L_3);
-		int32_t L_4 = Array_GetLength_m2083296647((Il2CppArray *)(Il2CppArray *)L_3, 1, /*hidden argument*/NULL);
-		int32_t L_5 = TerrainData_get_heightmapWidth_m3618663988(__this, /*hidden argument*/NULL);
-		if ((((int32_t)((int32_t)((int32_t)L_2+(int32_t)L_4))) > ((int32_t)L_5)))
-		{
-			goto IL_0062;
-		}
-	}
-	{
-		int32_t L_6 = ___xBase0;
-		SingleU5B0___U2C0___U5D_t577127398* L_7 = ___heights2;
-		NullCheck((Il2CppArray *)(Il2CppArray *)L_7);
-		int32_t L_8 = Array_GetLength_m2083296647((Il2CppArray *)(Il2CppArray *)L_7, 1, /*hidden argument*/NULL);
-		if ((((int32_t)((int32_t)((int32_t)L_6+(int32_t)L_8))) < ((int32_t)0)))
-		{
-			goto IL_0062;
-		}
-	}
-	{
-		int32_t L_9 = ___yBase1;
-		SingleU5B0___U2C0___U5D_t577127398* L_10 = ___heights2;
-		NullCheck((Il2CppArray *)(Il2CppArray *)L_10);
-		int32_t L_11 = Array_GetLength_m2083296647((Il2CppArray *)(Il2CppArray *)L_10, 0, /*hidden argument*/NULL);
-		if ((((int32_t)((int32_t)((int32_t)L_9+(int32_t)L_11))) < ((int32_t)0)))
-		{
-			goto IL_0062;
-		}
-	}
-	{
-		int32_t L_12 = ___xBase0;
-		if ((((int32_t)L_12) < ((int32_t)0)))
-		{
-			goto IL_0062;
-		}
-	}
-	{
-		int32_t L_13 = ___yBase1;
-		if ((((int32_t)L_13) < ((int32_t)0)))
-		{
-			goto IL_0062;
-		}
-	}
-	{
-		int32_t L_14 = ___yBase1;
-		SingleU5B0___U2C0___U5D_t577127398* L_15 = ___heights2;
-		NullCheck((Il2CppArray *)(Il2CppArray *)L_15);
-		int32_t L_16 = Array_GetLength_m2083296647((Il2CppArray *)(Il2CppArray *)L_15, 0, /*hidden argument*/NULL);
-		int32_t L_17 = TerrainData_get_heightmapHeight_m2294258213(__this, /*hidden argument*/NULL);
-		if ((((int32_t)((int32_t)((int32_t)L_14+(int32_t)L_16))) <= ((int32_t)L_17)))
-		{
-			goto IL_00b7;
-		}
-	}
-
-IL_0062:
-	{
-		ObjectU5BU5D_t3614634134* L_18 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)4));
-		int32_t L_19 = ___xBase0;
-		SingleU5B0___U2C0___U5D_t577127398* L_20 = ___heights2;
-		NullCheck((Il2CppArray *)(Il2CppArray *)L_20);
-		int32_t L_21 = Array_GetLength_m2083296647((Il2CppArray *)(Il2CppArray *)L_20, 1, /*hidden argument*/NULL);
-		int32_t L_22 = ((int32_t)((int32_t)L_19+(int32_t)L_21));
-		Il2CppObject * L_23 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_22);
-		NullCheck(L_18);
-		ArrayElementTypeCheck (L_18, L_23);
-		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_23);
-		ObjectU5BU5D_t3614634134* L_24 = L_18;
-		int32_t L_25 = ___yBase1;
-		SingleU5B0___U2C0___U5D_t577127398* L_26 = ___heights2;
-		NullCheck((Il2CppArray *)(Il2CppArray *)L_26);
-		int32_t L_27 = Array_GetLength_m2083296647((Il2CppArray *)(Il2CppArray *)L_26, 0, /*hidden argument*/NULL);
-		int32_t L_28 = ((int32_t)((int32_t)L_25+(int32_t)L_27));
-		Il2CppObject * L_29 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_28);
-		NullCheck(L_24);
-		ArrayElementTypeCheck (L_24, L_29);
-		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_29);
-		ObjectU5BU5D_t3614634134* L_30 = L_24;
-		int32_t L_31 = TerrainData_get_heightmapWidth_m3618663988(__this, /*hidden argument*/NULL);
-		int32_t L_32 = L_31;
-		Il2CppObject * L_33 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_32);
-		NullCheck(L_30);
-		ArrayElementTypeCheck (L_30, L_33);
-		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(2), (Il2CppObject *)L_33);
-		ObjectU5BU5D_t3614634134* L_34 = L_30;
-		int32_t L_35 = TerrainData_get_heightmapHeight_m2294258213(__this, /*hidden argument*/NULL);
-		int32_t L_36 = L_35;
-		Il2CppObject * L_37 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_36);
-		NullCheck(L_34);
-		ArrayElementTypeCheck (L_34, L_37);
-		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(3), (Il2CppObject *)L_37);
-		String_t* L_38 = UnityString_Format_m2949645127(NULL /*static, unused*/, _stringLiteral2937592993, L_34, /*hidden argument*/NULL);
-		ArgumentException_t3259014390 * L_39 = (ArgumentException_t3259014390 *)il2cpp_codegen_object_new(ArgumentException_t3259014390_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3739475201(L_39, L_38, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_39);
-	}
-
-IL_00b7:
-	{
-		int32_t L_40 = ___xBase0;
-		int32_t L_41 = ___yBase1;
-		SingleU5B0___U2C0___U5D_t577127398* L_42 = ___heights2;
-		NullCheck((Il2CppArray *)(Il2CppArray *)L_42);
-		int32_t L_43 = Array_GetLength_m2083296647((Il2CppArray *)(Il2CppArray *)L_42, 1, /*hidden argument*/NULL);
-		SingleU5B0___U2C0___U5D_t577127398* L_44 = ___heights2;
-		NullCheck((Il2CppArray *)(Il2CppArray *)L_44);
-		int32_t L_45 = Array_GetLength_m2083296647((Il2CppArray *)(Il2CppArray *)L_44, 0, /*hidden argument*/NULL);
-		SingleU5B0___U2C0___U5D_t577127398* L_46 = ___heights2;
-		TerrainData_Internal_SetHeights_m1082723727(__this, L_40, L_41, L_43, L_45, L_46, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.TerrainData::Internal_SetHeights(System.Int32,System.Int32,System.Int32,System.Int32,System.Single[0...,0...])
-extern "C"  void TerrainData_Internal_SetHeights_m1082723727 (TerrainData_t1351141029 * __this, int32_t ___xBase0, int32_t ___yBase1, int32_t ___width2, int32_t ___height3, SingleU5B0___U2C0___U5D_t577127398* ___heights4, const MethodInfo* method)
-{
-	typedef void (*TerrainData_Internal_SetHeights_m1082723727_ftn) (TerrainData_t1351141029 *, int32_t, int32_t, int32_t, int32_t, SingleU5B0___U2C0___U5D_t577127398*);
-	static TerrainData_Internal_SetHeights_m1082723727_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TerrainData_Internal_SetHeights_m1082723727_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TerrainData::Internal_SetHeights(System.Int32,System.Int32,System.Int32,System.Int32,System.Single[0...,0...])");
-	_il2cpp_icall_func(__this, ___xBase0, ___yBase1, ___width2, ___height3, ___heights4);
-}
-// System.Single UnityEngine.TerrainData::GetAlphamapResolutionInternal()
-extern "C"  float TerrainData_GetAlphamapResolutionInternal_m2290069727 (TerrainData_t1351141029 * __this, const MethodInfo* method)
-{
-	typedef float (*TerrainData_GetAlphamapResolutionInternal_m2290069727_ftn) (TerrainData_t1351141029 *);
-	static TerrainData_GetAlphamapResolutionInternal_m2290069727_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TerrainData_GetAlphamapResolutionInternal_m2290069727_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TerrainData::GetAlphamapResolutionInternal()");
-	return _il2cpp_icall_func(__this);
-}
-// System.Void UnityEngine.TerrainData::.cctor()
-extern "C"  void TerrainData__cctor_m1858770469 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (TerrainData__cctor_m1858770469_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		int32_t L_0 = TerrainData_Internal_GetMaximumResolution_m1726089468(NULL /*static, unused*/, /*hidden argument*/NULL);
-		((TerrainData_t1351141029_StaticFields*)TerrainData_t1351141029_il2cpp_TypeInfo_var->static_fields)->set_kMaximumResolution_2(L_0);
-		int32_t L_1 = TerrainData_Internal_GetMinimumDetailResolutionPerPatch_m4256328712(NULL /*static, unused*/, /*hidden argument*/NULL);
-		((TerrainData_t1351141029_StaticFields*)TerrainData_t1351141029_il2cpp_TypeInfo_var->static_fields)->set_kMinimumDetailResolutionPerPatch_3(L_1);
-		int32_t L_2 = TerrainData_Internal_GetMaximumDetailResolutionPerPatch_m2220059530(NULL /*static, unused*/, /*hidden argument*/NULL);
-		((TerrainData_t1351141029_StaticFields*)TerrainData_t1351141029_il2cpp_TypeInfo_var->static_fields)->set_kMaximumDetailResolutionPerPatch_4(L_2);
-		int32_t L_3 = TerrainData_Internal_GetMaximumDetailPatchCount_m611112374(NULL /*static, unused*/, /*hidden argument*/NULL);
-		((TerrainData_t1351141029_StaticFields*)TerrainData_t1351141029_il2cpp_TypeInfo_var->static_fields)->set_kMaximumDetailPatchCount_5(L_3);
-		int32_t L_4 = TerrainData_Internal_GetMinimumAlphamapResolution_m412927128(NULL /*static, unused*/, /*hidden argument*/NULL);
-		((TerrainData_t1351141029_StaticFields*)TerrainData_t1351141029_il2cpp_TypeInfo_var->static_fields)->set_kMinimumAlphamapResolution_6(L_4);
-		int32_t L_5 = TerrainData_Internal_GetMaximumAlphamapResolution_m2965232202(NULL /*static, unused*/, /*hidden argument*/NULL);
-		((TerrainData_t1351141029_StaticFields*)TerrainData_t1351141029_il2cpp_TypeInfo_var->static_fields)->set_kMaximumAlphamapResolution_7(L_5);
-		int32_t L_6 = TerrainData_Internal_GetMinimumBaseMapResolution_m3854864607(NULL /*static, unused*/, /*hidden argument*/NULL);
-		((TerrainData_t1351141029_StaticFields*)TerrainData_t1351141029_il2cpp_TypeInfo_var->static_fields)->set_kMinimumBaseMapResolution_8(L_6);
-		int32_t L_7 = TerrainData_Internal_GetMaximumBaseMapResolution_m2656985397(NULL /*static, unused*/, /*hidden argument*/NULL);
-		((TerrainData_t1351141029_StaticFields*)TerrainData_t1351141029_il2cpp_TypeInfo_var->static_fields)->set_kMaximumBaseMapResolution_9(L_7);
-		return;
-	}
 }
 // System.Void UnityEngine.TextAreaAttribute::.ctor(System.Int32,System.Int32)
 extern "C"  void TextAreaAttribute__ctor_m2320572467 (TextAreaAttribute_t2454598508 * __this, int32_t ___minLines0, int32_t ___maxLines1, const MethodInfo* method)

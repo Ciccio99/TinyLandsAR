@@ -16,34 +16,16 @@
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array3829468939.h"
-#include "AssemblyU2DCSharp_GE_OrbitCamera_ZoomMethod2668793379.h"
-#include "AssemblyU2DCSharp_GE_OrbitCameraUI1006333794.h"
-#include "mscorlib_System_Void1841601450.h"
-#include "UnityEngine_UnityEngine_MonoBehaviour1158329972.h"
-#include "mscorlib_System_String2029220233.h"
-#include "UnityEngine_UnityEngine_Object1021602117.h"
-#include "GUIAnimatorFREE_GUIAnimSystemFREE_eGUIMove3410604551.h"
-#include "UnityEngine_UnityEngine_GameObject1756533147.h"
-#include "mscorlib_System_Boolean3825574718.h"
-#include "UnityEngine_UnityEngine_Behaviour955675639.h"
-#include "GUIAnimatorFREE_GUIAnimSystemFREE223432191.h"
-#include "mscorlib_System_Single2076509932.h"
-#include "AssemblyU2DCSharp_GE_OrbitCamera1782879088.h"
-#include "UnityEngine_UI_UnityEngine_UI_Toggle3976754468.h"
-#include "UnityEngine_UI_UnityEngine_UI_Button2872111280.h"
-#include "GUIAnimatorFREE_GUIAnimFREE2360261712.h"
-#include "UnityEngine_UI_UnityEngine_UI_Selectable1490392188.h"
-#include "UnityEngine_UnityEngine_Vector32243707580.h"
-#include "UnityEngine_UnityEngine_Transform3275118058.h"
-#include "UnityEngine_UnityEngine_Component3819376471.h"
-#include "AssemblyU2DCSharp_GE_ToggleFullScreenUI715113062.h"
-#include "UnityEngine_UnityEngine_RuntimePlatform1869584967.h"
-#include "mscorlib_System_Int322071877448.h"
-#include "UnityEngine_UnityEngine_Resolution3693662728.h"
-#include "mscorlib_System_Object2689449295.h"
 #include "AssemblyU2DCSharp_GE_UIResponder2721548981.h"
+#include "mscorlib_System_Void1841601450.h"
+#include "mscorlib_System_String2029220233.h"
+#include "UnityEngine_UnityEngine_MonoBehaviour1158329972.h"
+#include "UnityEngine_UnityEngine_Object1021602117.h"
+#include "UnityEngine_UnityEngine_GameObject1756533147.h"
 #include "UnityEngine_UI_UnityEngine_UI_Text356221433.h"
+#include "mscorlib_System_Boolean3825574718.h"
 #include "AssemblyU2DCSharp_GeneralManager3038802171.h"
+#include "mscorlib_System_Object2689449295.h"
 #include "mscorlib_System_IntPtr2504060609.h"
 #include "AssemblyU2DCSharp_ARTouchManager_ARTouchBeganUpdat3594891140.h"
 #include "AssemblyU2DCSharp_ARTouchManager_ARTouchMovedUpdat2503809678.h"
@@ -52,15 +34,22 @@
 #include "UnityEngine_UnityEngine_Touch407273883.h"
 #include "AssemblyU2DCSharp_ARTerrainManager2018264653.h"
 #include "UnityEngine_UnityEngine_Vector22243707579.h"
+#include "UnityEngine_UnityEngine_Vector32243707580.h"
 #include "UnityEngine_UnityEngine_Ray2469606224.h"
 #include "UnityEngine_UnityEngine_RaycastHit87180320.h"
 #include "AssemblyU2DCSharp_PlaneAnchorObject3628153532.h"
 #include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARPlaneAnchor1439520888.h"
 #include "UnityEngine_UnityEngine_Camera189460977.h"
+#include "mscorlib_System_Single2076509932.h"
 #include "UnityEngine_UnityEngine_Collider3497673348.h"
+#include "UnityEngine_UnityEngine_Component3819376471.h"
 #include "AssemblyU2DCSharp_ARPlaneManager348851406.h"
 #include "AssemblyU2DCSharp_GUIAnimatorFREEDemo2605942281.h"
+#include "UnityEngine_UnityEngine_Behaviour955675639.h"
+#include "GUIAnimatorFREE_GUIAnimSystemFREE223432191.h"
 #include "UnityEngine_UnityEngine_Rect3681755626.h"
+#include "UnityEngine_UnityEngine_Transform3275118058.h"
+#include "mscorlib_System_Int322071877448.h"
 #include "AssemblyU2DCSharp_HexColorField4192118964.h"
 #include "UnityEngine_UI_UnityEngine_UI_InputField1631627530.h"
 #include "UnityEngine_UI_UnityEngine_UI_InputField_SubmitEven907918422.h"
@@ -117,6 +106,7 @@
 #include "mscorlib_System_Collections_Generic_List_1_Enumera1147558386.h"
 #include "UnityEngine_UnityEngine_ParticleSystem_Particle250075699.h"
 #include "AssemblyU2DCSharp_PauseMenu2596728003.h"
+#include "UnityEngine_UI_UnityEngine_UI_Toggle3976754468.h"
 #include "AssemblyU2DCSharp_PointCloudParticleExample986756623.h"
 #include "AssemblyU2DCSharp_SceneAndURLLoader2178172277.h"
 #include "AssemblyU2DCSharp_SVBoxSlider1173082351.h"
@@ -130,9 +120,6 @@
 #include "AssemblyU2DCSharp_ColorValues3063098635.h"
 #include "UnityEngine_UnityEngine_HideFlags1434274199.h"
 #include "AssemblyU2DCSharp_TerrainAnchorObject1214709381.h"
-#include "AssemblyU2DCSharp_TerrainGenerator2720474954.h"
-#include "UnityEngine_UnityEngine_TerrainData1351141029.h"
-#include "UnityEngine_UnityEngine_Terrain59182933.h"
 #include "AssemblyU2DCSharp_TerrainPoint3086956645.h"
 #include "AssemblyU2DCSharp_TextureGenerator1473599432.h"
 #include "UnityEngine_UnityEngine_FilterMode10814199.h"
@@ -163,6 +150,7 @@
 #include "AssemblyU2DCSharp_TMPro_Examples_Benchmark031605376190.h"
 #include "AssemblyU2DCSharp_TMPro_Examples_Benchmark043171460131.h"
 #include "AssemblyU2DCSharp_TMPro_Examples_CameraController766129913.h"
+#include "UnityEngine_UnityEngine_RuntimePlatform1869584967.h"
 #include "AssemblyU2DCSharp_TMPro_Examples_CameraController_2188281734.h"
 #include "UnityEngine_UnityEngine_KeyCode2283395152.h"
 #include "UnityEngine_UnityEngine_TouchPhase2458120420.h"
@@ -252,6 +240,7 @@
 #include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARAlignm2379988631.h"
 #include "AssemblyU2DCSharp_UnityEngine_XR_iOS_UnityARVideo2351297253.h"
 #include "AssemblyU2DCSharp_UnityARCameraNearFar519802600.h"
+#include "UnityEngine_UI_UnityEngine_UI_Selectable1490392188.h"
 #include "UnityEngine_UI_UnityEngine_UI_CanvasUpdate1528800019.h"
 #include "UnityEngine_UnityEngine_DrivenRectTransformTracker154385424.h"
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou3960014691.h"
@@ -265,45 +254,23 @@
 #include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARFrame1001293426.h"
 #include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARHitTestResu3275513025.h"
 #include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARHitTestResu3616749745.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARKitSessionCo318899795.h"
+#include "AssemblyU2DCSharp_UnityEngine_XR_iOS_ARLightEstima3477821059.h"
 
-// GE_OrbitCameraUI
-struct GE_OrbitCameraUI_t1006333794;
+// GE_UIResponder
+struct GE_UIResponder_t2721548981;
 // UnityEngine.MonoBehaviour
 struct MonoBehaviour_t1158329972;
-// UnityEngine.Behaviour
-struct Behaviour_t955675639;
-// GUIAnimSystemFREE
-struct GUIAnimSystemFREE_t223432191;
-// GE_OrbitCamera
-struct GE_OrbitCamera_t1782879088;
-// System.Object
-struct Il2CppObject;
 // UnityEngine.GameObject
 struct GameObject_t1756533147;
 // System.String
 struct String_t;
 // UnityEngine.Object
 struct Object_t1021602117;
-// UnityEngine.UI.Toggle
-struct Toggle_t3976754468;
-// UnityEngine.UI.Button
-struct Button_t2872111280;
-// GUIAnimFREE
-struct GUIAnimFREE_t2360261712;
-// UnityEngine.UI.Selectable
-struct Selectable_t1490392188;
-// UnityEngine.Component
-struct Component_t3819376471;
-// UnityEngine.Transform
-struct Transform_t3275118058;
-// GE_ToggleFullScreenUI
-struct GE_ToggleFullScreenUI_t715113062;
-// System.Collections.IEnumerator
-struct IEnumerator_t1466026749;
-// GE_UIResponder
-struct GE_UIResponder_t2721548981;
 // UnityEngine.UI.Text
 struct Text_t356221433;
+// System.Object
+struct Il2CppObject;
 // GeneralManager
 struct GeneralManager_t3038802171;
 // ARTouchManager/ARTouchBeganUpdate
@@ -318,12 +285,20 @@ struct ARTouchEndedUpdate_t1248700201;
 struct Camera_t189460977;
 // UnityEngine.Collider
 struct Collider_t3497673348;
+// UnityEngine.Component
+struct Component_t3819376471;
 // ARTerrainManager
 struct ARTerrainManager_t2018264653;
 // ARPlaneManager
 struct ARPlaneManager_t348851406;
 // GUIAnimatorFREEDemo
 struct GUIAnimatorFREEDemo_t2605942281;
+// UnityEngine.Behaviour
+struct Behaviour_t955675639;
+// GUIAnimSystemFREE
+struct GUIAnimSystemFREE_t223432191;
+// UnityEngine.Transform
+struct Transform_t3275118058;
 // HexColorField
 struct HexColorField_t4192118964;
 // UnityEngine.UI.InputField
@@ -418,6 +393,8 @@ struct List_1_t2058570427;
 struct ParticleU5BU5D_t574222242;
 // PauseMenu
 struct PauseMenu_t2596728003;
+// UnityEngine.UI.Toggle
+struct Toggle_t3976754468;
 // UnityEngine.XR.iOS.ARPlaneAnchor
 struct ARPlaneAnchor_t1439520888;
 // PointCloudParticleExample
@@ -442,18 +419,14 @@ struct UnityEvent_2_t2016657100;
 struct UnityAction_3_t235051313;
 // UnityEngine.Color32[]
 struct Color32U5BU5D_t30278651;
-// TerrainGenerator
-struct TerrainGenerator_t2720474954;
-// UnityEngine.Terrain
-struct Terrain_t59182933;
-// UnityEngine.TerrainData
-struct TerrainData_t1351141029;
 // TextureGenerator
 struct TextureGenerator_t1473599432;
 // TiltWindow
 struct TiltWindow_t1839185375;
 // TMPro.Examples.Benchmark01
 struct Benchmark01_t2768175604;
+// System.Collections.IEnumerator
+struct IEnumerator_t1466026749;
 // TMPro.Examples.Benchmark01/<Start>c__Iterator0
 struct U3CStartU3Ec__Iterator0_t1060020671;
 // TMPro.TextMeshPro
@@ -634,41 +607,14 @@ struct UnityARSessionNativeInterface_t1130867170;
 struct UnityARVideo_t2351297253;
 // UnityARCameraNearFar
 struct UnityARCameraNearFar_t519802600;
+// UnityEngine.UI.Selectable
+struct Selectable_t1490392188;
 // UnityEngine.EventSystems.UIBehaviour
 struct UIBehaviour_t3960014691;
-extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
-extern const MethodInfo* Object_FindObjectOfType_TisGE_OrbitCamera_t1782879088_m2678947_MethodInfo_var;
-extern const MethodInfo* GameObject_GetComponent_TisToggle_t3976754468_m4069493448_MethodInfo_var;
-extern const MethodInfo* GameObject_GetComponent_TisButton_t2872111280_m2341455576_MethodInfo_var;
-extern const MethodInfo* GameObject_GetComponent_TisGUIAnimFREE_t2360261712_m763424783_MethodInfo_var;
-extern Il2CppCodeGenString* _stringLiteral218993526;
-extern Il2CppCodeGenString* _stringLiteral218993525;
-extern Il2CppCodeGenString* _stringLiteral250169619;
-extern Il2CppCodeGenString* _stringLiteral3536134411;
-extern Il2CppCodeGenString* _stringLiteral650670748;
-extern Il2CppCodeGenString* _stringLiteral4129315937;
-extern Il2CppCodeGenString* _stringLiteral1775566019;
-extern Il2CppCodeGenString* _stringLiteral449422079;
-extern Il2CppCodeGenString* _stringLiteral1667473599;
-extern Il2CppCodeGenString* _stringLiteral1250409574;
-extern Il2CppCodeGenString* _stringLiteral1250409573;
-extern Il2CppCodeGenString* _stringLiteral1035391562;
-extern const uint32_t GE_OrbitCameraUI_Start_m3736195425_MetadataUsageId;
-extern const uint32_t GE_OrbitCameraUI_OnToggle_InvertX_m4102473431_MetadataUsageId;
-extern const uint32_t GE_OrbitCameraUI_OnToggle_InvertY_m4243635932_MetadataUsageId;
-extern const uint32_t GE_OrbitCameraUI_OnToggle_InvertZoom_m1019613484_MetadataUsageId;
-extern const uint32_t GE_OrbitCameraUI_OnToggle_Help_m2306710624_MetadataUsageId;
-extern const uint32_t GE_OrbitCameraUI_OnToggle_Details_m1068881003_MetadataUsageId;
-extern const uint32_t GE_OrbitCameraUI_OnButton_PinchZoom_m1735915544_MetadataUsageId;
-extern const uint32_t GE_OrbitCameraUI_OnButton_VScrollZoom_m1829954321_MetadataUsageId;
-extern const uint32_t GE_OrbitCameraUI_OnButton_Settings_m3388769738_MetadataUsageId;
-extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
-extern Il2CppClass* Transform_t3275118058_il2cpp_TypeInfo_var;
-extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
-extern const uint32_t GE_ToggleFullScreenUI_OnButton_ToggleFullScreen_m367792258_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral372029313;
 extern Il2CppCodeGenString* _stringLiteral2108468782;
 extern const uint32_t GE_UIResponder__ctor_m4126613694_MetadataUsageId;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
 extern const MethodInfo* GameObject_GetComponent_TisText_t356221433_m1465953703_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral1883449311;
 extern const uint32_t GE_UIResponder_Start_m90993110_MetadataUsageId;
@@ -729,7 +675,6 @@ extern const MethodInfo* GameObject_GetComponent_TisMeshCollider_t2718867283_m42
 extern const uint32_t MapDisplay_DrawMesh_m3648264271_MetadataUsageId;
 extern Il2CppClass* ColorU5BU5D_t672350442_il2cpp_TypeInfo_var;
 extern const MethodInfo* Object_FindObjectOfType_TisMapDisplay_t1779112168_m3169326203_MethodInfo_var;
-extern Il2CppCodeGenString* _stringLiteral4066759398;
 extern const uint32_t MapGenerator_GenerateMap_m1418959259_MetadataUsageId;
 extern const MethodInfo* Object_Instantiate_TisGameObject_t1756533147_m3664764861_MethodInfo_var;
 extern const uint32_t MenuSceneLoader_Awake_m4034400262_MetadataUsageId;
@@ -807,10 +752,6 @@ extern const uint32_t SVBoxSlider_OnDestroy_m1087675145_MetadataUsageId;
 extern Il2CppClass* Texture2D_t3542995729_il2cpp_TypeInfo_var;
 extern Il2CppClass* Color32U5BU5D_t30278651_il2cpp_TypeInfo_var;
 extern const uint32_t SVBoxSlider_RegenerateSVTexture_m4094171080_MetadataUsageId;
-extern const MethodInfo* Component_GetComponent_TisTerrain_t59182933_m3643218419_MethodInfo_var;
-extern const uint32_t TerrainGenerator_Update_m3942083220_MetadataUsageId;
-extern const uint32_t TerrainGenerator_GenerateHeights_m1236585684_MetadataUsageId;
-extern const uint32_t TerrainGenerator_CalculateHeight_m1452581564_MetadataUsageId;
 extern const uint32_t TextureGenerator_TextureFromColorMap_m1330548810_MetadataUsageId;
 extern const uint32_t TextureGenerator_TextureFromHeightMap_m1817240871_MetadataUsageId;
 extern Il2CppClass* Input_t1785128008_il2cpp_TypeInfo_var;
@@ -1868,8 +1809,6 @@ extern "C" void ARPlaneAnchor_t1439520888_marshal_com(const ARPlaneAnchor_t14395
 extern "C" void ARPlaneAnchor_t1439520888_marshal_com_back(const ARPlaneAnchor_t1439520888_marshaled_com& marshaled, ARPlaneAnchor_t1439520888& unmarshaled);
 extern "C" void ARPlaneAnchor_t1439520888_marshal_com_cleanup(ARPlaneAnchor_t1439520888_marshaled_com& marshaled);
 
-// !!0 UnityEngine.Object::FindObjectOfType<System.Object>()
-extern "C"  Il2CppObject * Object_FindObjectOfType_TisIl2CppObject_m1124034383_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method);
 // !!0 UnityEngine.GameObject::GetComponent<System.Object>()
 extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
 // !!0 UnityEngine.Component::GetComponent<System.Object>()
@@ -1888,6 +1827,8 @@ extern "C"  void UnityEvent_1_RemoveListener_m4278263803_gshared (UnityEvent_1_t
 extern "C"  void UnityEvent_1_RemoveListener_m1138414664_gshared (UnityEvent_1_t2058742090 * __this, UnityAction_1_t3386977826 * p0, const MethodInfo* method);
 // System.Void UnityEngine.Events.UnityEvent`3<System.Single,System.Single,System.Single>::.ctor()
 extern "C"  void UnityEvent_3__ctor_m3100550874_gshared (UnityEvent_3_t4197061729 * __this, const MethodInfo* method);
+// !!0 UnityEngine.Object::FindObjectOfType<System.Object>()
+extern "C"  Il2CppObject * Object_FindObjectOfType_TisIl2CppObject_m1124034383_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method);
 // !!0 UnityEngine.Object::Instantiate<System.Object>(!!0)
 extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m447919519_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method);
 // System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::.ctor()
@@ -1997,70 +1938,10 @@ extern "C"  void UnityEvent_2__ctor_m731674732_gshared (UnityEvent_2_t2016657100
 
 // System.Void UnityEngine.MonoBehaviour::.ctor()
 extern "C"  void MonoBehaviour__ctor_m2464341955 (MonoBehaviour_t1158329972 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Behaviour::get_enabled()
-extern "C"  bool Behaviour_get_enabled_m4079055610 (Behaviour_t955675639 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// GUIAnimSystemFREE GUIAnimSystemFREE::get_Instance()
-extern "C"  GUIAnimSystemFREE_t223432191 * GUIAnimSystemFREE_get_Instance_m2644685246 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// !!0 UnityEngine.Object::FindObjectOfType<GE_OrbitCamera>()
-#define Object_FindObjectOfType_TisGE_OrbitCamera_t1782879088_m2678947(__this /* static, unused */, method) ((  GE_OrbitCamera_t1782879088 * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisIl2CppObject_m1124034383_gshared)(__this /* static, unused */, method)
 // UnityEngine.GameObject UnityEngine.GameObject::Find(System.String)
 extern "C"  GameObject_t1756533147 * GameObject_Find_m836511350 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
 extern "C"  bool Object_op_Inequality_m2402264703 (Il2CppObject * __this /* static, unused */, Object_t1021602117 * p0, Object_t1021602117 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.Toggle>()
-#define GameObject_GetComponent_TisToggle_t3976754468_m4069493448(__this, method) ((  Toggle_t3976754468 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
-// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.Button>()
-#define GameObject_GetComponent_TisButton_t2872111280_m2341455576(__this, method) ((  Button_t2872111280 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
-// !!0 UnityEngine.GameObject::GetComponent<GUIAnimFREE>()
-#define GameObject_GetComponent_TisGUIAnimFREE_t2360261712_m763424783(__this, method) ((  GUIAnimFREE_t2360261712 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
-// System.Void GUIAnimFREE::MoveIn(GUIAnimSystemFREE/eGUIMove)
-extern "C"  void GUIAnimFREE_MoveIn_m3020128394 (GUIAnimFREE_t2360261712 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.UI.Toggle::get_isOn()
-extern "C"  bool Toggle_get_isOn_m366838229 (Toggle_t3976754468 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.UI.Toggle::set_isOn(System.Boolean)
-extern "C"  void Toggle_set_isOn_m4022556286 (Toggle_t3976754468 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.UI.Selectable::set_interactable(System.Boolean)
-extern "C"  void Selectable_set_interactable_m63718297 (Selectable_t1490392188 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void GUIAnimFREE::MoveOut(GUIAnimSystemFREE/eGUIMove)
-extern "C"  void GUIAnimFREE_MoveOut_m3051453773 (GUIAnimFREE_t2360261712 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.UI.Selectable::get_interactable()
-extern "C"  bool Selectable_get_interactable_m1725029500 (Selectable_t1490392188 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Transform UnityEngine.Component::get_transform()
-extern "C"  Transform_t3275118058 * Component_get_transform_m2697483695 (Component_t3819376471 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Vector3 UnityEngine.Transform::get_localScale()
-extern "C"  Vector3_t2243707580  Transform_get_localScale_m3074381503 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
-extern "C"  void Vector3__ctor_m2638739322 (Vector3_t2243707580 * __this, float p0, float p1, float p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Vector3::op_Equality(UnityEngine.Vector3,UnityEngine.Vector3)
-extern "C"  bool Vector3_op_Equality_m305888255 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, Vector3_t2243707580  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Int32 UnityEngine.Screen::get_width()
-extern "C"  int32_t Screen_get_width_m41137238 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Int32 UnityEngine.Screen::get_height()
-extern "C"  int32_t Screen_get_height_m1051800773 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Application::get_isEditor()
-extern "C"  bool Application_get_isEditor_m2474583393 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
-extern "C"  int32_t Application_get_platform_m3989224144 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.GameObject UnityEngine.Component::get_gameObject()
-extern "C"  GameObject_t1756533147 * Component_get_gameObject_m3105766835 (Component_t3819376471 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.GameObject::SetActive(System.Boolean)
-extern "C"  void GameObject_SetActive_m2887581199 (GameObject_t1756533147 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.GameObject::get_activeSelf()
-extern "C"  bool GameObject_get_activeSelf_m313590879 (GameObject_t1756533147 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Collections.IEnumerator UnityEngine.Transform::GetEnumerator()
-extern "C"  Il2CppObject * Transform_GetEnumerator_m3479720613 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Screen::get_fullScreen()
-extern "C"  bool Screen_get_fullScreen_m2839518463 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Screen::set_fullScreen(System.Boolean)
-extern "C"  void Screen_set_fullScreen_m614074340 (Il2CppObject * __this /* static, unused */, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Resolution UnityEngine.Screen::get_currentResolution()
-extern "C"  Resolution_t3693662728  Screen_get_currentResolution_m2361090437 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Int32 UnityEngine.Resolution::get_width()
-extern "C"  int32_t Resolution_get_width_m1438273472 (Resolution_t3693662728 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Int32 UnityEngine.Resolution::get_height()
-extern "C"  int32_t Resolution_get_height_m882683003 (Resolution_t3693662728 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Screen::SetResolution(System.Int32,System.Int32,System.Boolean)
-extern "C"  void Screen_SetResolution_m55027544 (Il2CppObject * __this /* static, unused */, int32_t p0, int32_t p1, bool p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.Text>()
 #define GameObject_GetComponent_TisText_t356221433_m1465953703(__this, method) ((  Text_t356221433 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2650145732_gshared)(__this, method)
 // System.Void UnityEngine.Application::OpenURL(System.String)
@@ -2093,6 +1974,8 @@ extern "C"  Vector3_t2243707580  Ray_get_direction_m4059191533 (Ray_t2469606224 
 extern "C"  bool Physics_Raycast_m2994111303 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, Vector3_t2243707580  p1, RaycastHit_t87180320 * p2, float p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Collider UnityEngine.RaycastHit::get_collider()
 extern "C"  Collider_t3497673348 * RaycastHit_get_collider_m301198172 (RaycastHit_t87180320 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.GameObject UnityEngine.Component::get_gameObject()
+extern "C"  GameObject_t1756533147 * Component_get_gameObject_m3105766835 (Component_t3819376471 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.GameObject::CompareTag(System.String)
 extern "C"  bool GameObject_CompareTag_m2797152613 (GameObject_t1756533147 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.RaycastHit::get_point()
@@ -2105,12 +1988,22 @@ extern "C"  ARPlaneAnchor_t1439520888  PlaneAnchorObject_get_anchor_m1711371288 
 extern "C"  void ARTerrainManager_CreateTerrainAnchorObject_m3217380875 (ARTerrainManager_t2018264653 * __this, ARPlaneAnchor_t1439520888  ___anchorData0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ARPlaneManager::DestroyCurrentPlaneObject()
 extern "C"  void ARPlaneManager_DestroyCurrentPlaneObject_m3873178161 (ARPlaneManager_t348851406 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Behaviour::get_enabled()
+extern "C"  bool Behaviour_get_enabled_m4079055610 (Behaviour_t955675639 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// GUIAnimSystemFREE GUIAnimSystemFREE::get_Instance()
+extern "C"  GUIAnimSystemFREE_t223432191 * GUIAnimSystemFREE_get_Instance_m2644685246 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Time::get_deltaTime()
 extern "C"  float Time_get_deltaTime_m2233168104 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.Screen::get_width()
+extern "C"  int32_t Screen_get_width_m41137238 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.Screen::get_height()
+extern "C"  int32_t Screen_get_height_m1051800773 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rect::.ctor(System.Single,System.Single,System.Single,System.Single)
 extern "C"  void Rect__ctor_m1220545469 (Rect_t3681755626 * __this, float p0, float p1, float p2, float p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.GUI::Button(UnityEngine.Rect,System.String)
 extern "C"  bool GUI_Button_m3054448581 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Transform UnityEngine.Component::get_transform()
+extern "C"  Transform_t3275118058 * Component_get_transform_m2697483695 (Component_t3819376471 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GUIAnimSystemFREE::MoveIn(UnityEngine.Transform,System.Boolean)
 extern "C"  void GUIAnimSystemFREE_MoveIn_m725522468 (GUIAnimSystemFREE_t223432191 * __this, Transform_t3275118058 * p0, bool p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GUIAnimSystemFREE::MoveOut(UnityEngine.Transform,System.Boolean)
@@ -2211,6 +2104,8 @@ extern "C"  void Transform_LookAt_m3314153180 (Transform_t3275118058 * __this, V
 extern "C"  Material_t193706927 * Renderer_get_sharedMaterial_m155010392 (Renderer_t257310565 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::set_mainTexture(UnityEngine.Texture)
 extern "C"  void Material_set_mainTexture_m3584203343 (Material_t193706927 * __this, Texture_t2243626319 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
+extern "C"  void Vector3__ctor_m2638739322 (Vector3_t2243707580 * __this, float p0, float p1, float p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::set_localScale(UnityEngine.Vector3)
 extern "C"  void Transform_set_localScale_m2325460848 (Transform_t3275118058 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Mesh MeshData::CreateMesh()
@@ -2265,6 +2160,8 @@ extern "C"  float AnimationCurve_Evaluate_m3698879322 (AnimationCurve_t330654115
 extern "C"  void Vector2__ctor_m3067419446 (Vector2_t2243707579 * __this, float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MeshData::AddTriangle(System.Int32,System.Int32,System.Int32)
 extern "C"  void MeshData_AddTriangle_m2908077148 (MeshData_t2723510749 * __this, int32_t ___a0, int32_t ___b1, int32_t ___c2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GameObject::SetActive(System.Boolean)
+extern "C"  void GameObject_SetActive_m2887581199 (GameObject_t1756533147 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ModeSwitcher::EnableBallCreation(System.Boolean)
 extern "C"  void ModeSwitcher_EnableBallCreation_m2999743005 (ModeSwitcher_t223874984 * __this, bool ___enable0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Random::.ctor(System.Int32)
@@ -2333,6 +2230,8 @@ extern "C"  void Time_set_timeScale_m2194722837 (Il2CppObject * __this /* static
 extern "C"  float AudioListener_get_volume_m2453445578 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AudioListener::set_volume(System.Single)
 extern "C"  void AudioListener_set_volume_m1233107753 (Il2CppObject * __this /* static, unused */, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.UI.Toggle::get_isOn()
+extern "C"  bool Toggle_get_isOn_m366838229 (Toggle_t3976754468 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PauseMenu::MenuOn()
 extern "C"  void PauseMenu_MenuOn_m1479495640 (PauseMenu_t2596728003 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PauseMenu::MenuOff()
@@ -2419,36 +2318,20 @@ extern "C"  GameObject_t1756533147 * TerrainAnchorObject_get_terrainObject_m2760
 extern "C"  GameObject_t1756533147 * TerrainAnchorObject_get_terrainGOChild_m455384043 (TerrainAnchorObject_t1214709381 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.XR.iOS.ARPlaneAnchor TerrainAnchorObject::get_anchor()
 extern "C"  ARPlaneAnchor_t1439520888  TerrainAnchorObject_get_anchor_m3565065547 (TerrainAnchorObject_t1214709381 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Single UnityEngine.Random::Range(System.Single,System.Single)
-extern "C"  float Random_Range_m2884721203 (Il2CppObject * __this /* static, unused */, float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// !!0 UnityEngine.Component::GetComponent<UnityEngine.Terrain>()
-#define Component_GetComponent_TisTerrain_t59182933_m3643218419(__this, method) ((  Terrain_t59182933 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
-// UnityEngine.TerrainData UnityEngine.Terrain::get_terrainData()
-extern "C"  TerrainData_t1351141029 * Terrain_get_terrainData_m4115429503 (Terrain_t59182933 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.TerrainData TerrainGenerator::GenerateTerrain(UnityEngine.TerrainData)
-extern "C"  TerrainData_t1351141029 * TerrainGenerator_GenerateTerrain_m2182930960 (TerrainGenerator_t2720474954 * __this, TerrainData_t1351141029 * ___terrainData0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Terrain::set_terrainData(UnityEngine.TerrainData)
-extern "C"  void Terrain_set_terrainData_m668036478 (Terrain_t59182933 * __this, TerrainData_t1351141029 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.TerrainData::set_heightmapResolution(System.Int32)
-extern "C"  void TerrainData_set_heightmapResolution_m4232193711 (TerrainData_t1351141029 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.TerrainData::set_size(UnityEngine.Vector3)
-extern "C"  void TerrainData_set_size_m1630025811 (TerrainData_t1351141029 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Single[0...,0...] TerrainGenerator::GenerateHeights()
-extern "C"  SingleU5B0___U2C0___U5D_t577127398* TerrainGenerator_GenerateHeights_m1236585684 (TerrainGenerator_t2720474954 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.TerrainData::SetHeights(System.Int32,System.Int32,System.Single[0...,0...])
-extern "C"  void TerrainData_SetHeights_m1194369767 (TerrainData_t1351141029 * __this, int32_t p0, int32_t p1, SingleU5B0___U2C0___U5D_t577127398* p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Single TerrainGenerator::CalculateHeight(System.Int32,System.Int32)
-extern "C"  float TerrainGenerator_CalculateHeight_m1452581564 (TerrainGenerator_t2720474954 * __this, int32_t ___x0, int32_t ___y1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TerrainPoint::set_index(System.Int32)
 extern "C"  void TerrainPoint_set_index_m176279690 (TerrainPoint_t3086956645 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TerrainPoint::set_distDenom(System.Single)
 extern "C"  void TerrainPoint_set_distDenom_m2261124311 (TerrainPoint_t3086956645 * __this, float ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void TerrainPoint::.ctor(System.Int32,System.Single)
-extern "C"  void TerrainPoint__ctor_m272930782 (TerrainPoint_t3086956645 * __this, int32_t ___i0, float ___d1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void TerrainPoint::set_point(UnityEngine.Vector3)
+extern "C"  void TerrainPoint_set_point_m2043878222 (TerrainPoint_t3086956645 * __this, Vector3_t2243707580  ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void TerrainPoint::.ctor(System.Int32,System.Single,UnityEngine.Vector3)
+extern "C"  void TerrainPoint__ctor_m1550882201 (TerrainPoint_t3086956645 * __this, int32_t ___i0, float ___d1, Vector3_t2243707580  ___p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 TerrainPoint::get_index()
 extern "C"  int32_t TerrainPoint_get_index_m1121187309 (TerrainPoint_t3086956645 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single TerrainPoint::get_distDenom()
 extern "C"  float TerrainPoint_get_distDenom_m1532632990 (TerrainPoint_t3086956645 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 TerrainPoint::get_point()
+extern "C"  Vector3_t2243707580  TerrainPoint_get_point_m1579419227 (TerrainPoint_t3086956645 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Texture::set_filterMode(UnityEngine.FilterMode)
 extern "C"  void Texture_set_filterMode_m3838996656 (Texture_t2243626319 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Texture::set_wrapMode(UnityEngine.TextureWrapMode)
@@ -2539,6 +2422,8 @@ extern "C"  String_t* String_Concat_m56707527 (Il2CppObject * __this /* static, 
 extern "C"  void TMP_Text_set_text_m1160129339 (TMP_Text_t1920000777 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GameObject::.ctor()
 extern "C"  void GameObject__ctor_m498247354 (GameObject_t1756533147 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Random::Range(System.Single,System.Single)
+extern "C"  float Random_Range_m2884721203 (Il2CppObject * __this /* static, unused */, float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::set_position(UnityEngine.Vector3)
 extern "C"  void Transform_set_position_m2469242620 (Transform_t3275118058 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RectTransform TMPro.TMP_Text::get_rectTransform()
@@ -2565,6 +2450,8 @@ extern "C"  void TMP_Text_set_isOrthographic_m3142172021 (TMP_Text_t1920000777 *
 extern "C"  int32_t QualitySettings_get_vSyncCount_m2624557080 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Application::set_targetFrameRate(System.Int32)
 extern "C"  void Application_set_targetFrameRate_m2941880625 (Il2CppObject * __this /* static, unused */, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
+extern "C"  int32_t Application_get_platform_m3989224144 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Input::set_simulateMouseWithTouches(System.Boolean)
 extern "C"  void Input_set_simulateMouseWithTouches_m1295657687 (Il2CppObject * __this /* static, unused */, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TMPro.Examples.CameraController::GetPlayerInput()
@@ -3077,1204 +2964,27 @@ extern "C"  void PointerEventData_set_useDragThreshold_m2778439880 (PointerEvent
 extern "C"  bool UIBehaviour_IsDestroyed_m3809050211 (UIBehaviour_t3960014691 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.UnityEvent`2<System.Single,System.Single>::.ctor()
 #define UnityEvent_2__ctor_m731674732(__this, method) ((  void (*) (UnityEvent_2_t2016657100 *, const MethodInfo*))UnityEvent_2__ctor_m731674732_gshared)(__this, method)
+// System.Void UnityEngine.XR.iOS.ARKitSessionConfiguration::.ctor(UnityEngine.XR.iOS.UnityARAlignment,System.Boolean,System.Boolean)
+extern "C"  void ARKitSessionConfiguration__ctor_m1819896799 (ARKitSessionConfiguration_t318899795 * __this, int32_t ___alignment0, bool ___getPointCloudData1, bool ___enableLightEstimation2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.XR.iOS.ARKitSessionConfiguration::IsARKitSessionConfigurationSupported()
+extern "C"  bool ARKitSessionConfiguration_IsARKitSessionConfigurationSupported_m478432247 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.XR.iOS.ARKitSessionConfiguration::get_IsSupported()
+extern "C"  bool ARKitSessionConfiguration_get_IsSupported_m3695054805 (ARKitSessionConfiguration_t318899795 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.ARKitSessionConfiguration::set_IsSupported(System.Boolean)
+extern "C"  void ARKitSessionConfiguration_set_IsSupported_m2731928126 (ARKitSessionConfiguration_t318899795 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration::.ctor(UnityEngine.XR.iOS.UnityARAlignment,UnityEngine.XR.iOS.UnityARPlaneDetection,System.Boolean,System.Boolean)
+extern "C"  void ARKitWorldTackingSessionConfiguration__ctor_m929109213 (ARKitWorldTackingSessionConfiguration_t1821734930 * __this, int32_t ___alignment0, int32_t ___planeDetection1, bool ___getPointCloudData2, bool ___enableLightEstimation3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration::IsARKitWorldTrackingSessionConfigurationSupported()
+extern "C"  bool ARKitWorldTackingSessionConfiguration_IsARKitWorldTrackingSessionConfigurationSupported_m2059157701 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration::get_IsSupported()
+extern "C"  bool ARKitWorldTackingSessionConfiguration_get_IsSupported_m2907500064 (ARKitWorldTackingSessionConfiguration_t1821734930 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration::set_IsSupported(System.Boolean)
+extern "C"  void ARKitWorldTackingSessionConfiguration_set_IsSupported_m1782028213 (ARKitWorldTackingSessionConfiguration_t1821734930 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void GE_OrbitCameraUI::.ctor()
-extern "C"  void GE_OrbitCameraUI__ctor_m2980999185 (GE_OrbitCameraUI_t1006333794 * __this, const MethodInfo* method)
-{
-	{
-		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void GE_OrbitCameraUI::Start()
-extern "C"  void GE_OrbitCameraUI_Start_m3736195425 (GE_OrbitCameraUI_t1006333794 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (GE_OrbitCameraUI_Start_m3736195425_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	GameObject_t1756533147 * V_0 = NULL;
-	{
-		bool L_0 = Behaviour_get_enabled_m4079055610(__this, /*hidden argument*/NULL);
-		if (!L_0)
-		{
-			goto IL_0025;
-		}
-	}
-	{
-		GUIAnimSystemFREE_t223432191 * L_1 = GUIAnimSystemFREE_get_Instance_m2644685246(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_1);
-		L_1->set_m_GUISpeed_3((1.0f));
-		GUIAnimSystemFREE_t223432191 * L_2 = GUIAnimSystemFREE_get_Instance_m2644685246(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_2);
-		L_2->set_m_AutoAnimation_4((bool)0);
-	}
-
-IL_0025:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		GE_OrbitCamera_t1782879088 * L_3 = Object_FindObjectOfType_TisGE_OrbitCamera_t1782879088_m2678947(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisGE_OrbitCamera_t1782879088_m2678947_MethodInfo_var);
-		__this->set_m_GE_OrbitCamera_14(L_3);
-		GameObject_t1756533147 * L_4 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral218993526, /*hidden argument*/NULL);
-		V_0 = L_4;
-		GameObject_t1756533147 * L_5 = V_0;
-		bool L_6 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_5, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_6)
-		{
-			goto IL_0053;
-		}
-	}
-	{
-		GameObject_t1756533147 * L_7 = V_0;
-		NullCheck(L_7);
-		Toggle_t3976754468 * L_8 = GameObject_GetComponent_TisToggle_t3976754468_m4069493448(L_7, /*hidden argument*/GameObject_GetComponent_TisToggle_t3976754468_m4069493448_MethodInfo_var);
-		__this->set_m_ToggleYaw_2(L_8);
-	}
-
-IL_0053:
-	{
-		GameObject_t1756533147 * L_9 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral218993525, /*hidden argument*/NULL);
-		V_0 = L_9;
-		GameObject_t1756533147 * L_10 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_11 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_10, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_11)
-		{
-			goto IL_0076;
-		}
-	}
-	{
-		GameObject_t1756533147 * L_12 = V_0;
-		NullCheck(L_12);
-		Toggle_t3976754468 * L_13 = GameObject_GetComponent_TisToggle_t3976754468_m4069493448(L_12, /*hidden argument*/GameObject_GetComponent_TisToggle_t3976754468_m4069493448_MethodInfo_var);
-		__this->set_m_TogglePitch_3(L_13);
-	}
-
-IL_0076:
-	{
-		GameObject_t1756533147 * L_14 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral250169619, /*hidden argument*/NULL);
-		V_0 = L_14;
-		GameObject_t1756533147 * L_15 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_16 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_15, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_16)
-		{
-			goto IL_0099;
-		}
-	}
-	{
-		GameObject_t1756533147 * L_17 = V_0;
-		NullCheck(L_17);
-		Toggle_t3976754468 * L_18 = GameObject_GetComponent_TisToggle_t3976754468_m4069493448(L_17, /*hidden argument*/GameObject_GetComponent_TisToggle_t3976754468_m4069493448_MethodInfo_var);
-		__this->set_m_ToggleZoom_4(L_18);
-	}
-
-IL_0099:
-	{
-		GameObject_t1756533147 * L_19 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral3536134411, /*hidden argument*/NULL);
-		V_0 = L_19;
-		GameObject_t1756533147 * L_20 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_21 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_20, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_21)
-		{
-			goto IL_00bc;
-		}
-	}
-	{
-		GameObject_t1756533147 * L_22 = V_0;
-		NullCheck(L_22);
-		Toggle_t3976754468 * L_23 = GameObject_GetComponent_TisToggle_t3976754468_m4069493448(L_22, /*hidden argument*/GameObject_GetComponent_TisToggle_t3976754468_m4069493448_MethodInfo_var);
-		__this->set_m_ToggleHelp_5(L_23);
-	}
-
-IL_00bc:
-	{
-		GameObject_t1756533147 * L_24 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral650670748, /*hidden argument*/NULL);
-		V_0 = L_24;
-		GameObject_t1756533147 * L_25 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_26 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_25, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_26)
-		{
-			goto IL_00df;
-		}
-	}
-	{
-		GameObject_t1756533147 * L_27 = V_0;
-		NullCheck(L_27);
-		Toggle_t3976754468 * L_28 = GameObject_GetComponent_TisToggle_t3976754468_m4069493448(L_27, /*hidden argument*/GameObject_GetComponent_TisToggle_t3976754468_m4069493448_MethodInfo_var);
-		__this->set_m_ToggleDetails_6(L_28);
-	}
-
-IL_00df:
-	{
-		GameObject_t1756533147 * L_29 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral4129315937, /*hidden argument*/NULL);
-		V_0 = L_29;
-		GameObject_t1756533147 * L_30 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_31 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_30, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_31)
-		{
-			goto IL_0102;
-		}
-	}
-	{
-		GameObject_t1756533147 * L_32 = V_0;
-		NullCheck(L_32);
-		Button_t2872111280 * L_33 = GameObject_GetComponent_TisButton_t2872111280_m2341455576(L_32, /*hidden argument*/GameObject_GetComponent_TisButton_t2872111280_m2341455576_MethodInfo_var);
-		__this->set_m_PinchZoom_7(L_33);
-	}
-
-IL_0102:
-	{
-		GameObject_t1756533147 * L_34 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral1775566019, /*hidden argument*/NULL);
-		V_0 = L_34;
-		GameObject_t1756533147 * L_35 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_36 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_35, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_36)
-		{
-			goto IL_0125;
-		}
-	}
-	{
-		GameObject_t1756533147 * L_37 = V_0;
-		NullCheck(L_37);
-		Button_t2872111280 * L_38 = GameObject_GetComponent_TisButton_t2872111280_m2341455576(L_37, /*hidden argument*/GameObject_GetComponent_TisButton_t2872111280_m2341455576_MethodInfo_var);
-		__this->set_m_VScrollZoom_8(L_38);
-	}
-
-IL_0125:
-	{
-		GameObject_t1756533147 * L_39 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral449422079, /*hidden argument*/NULL);
-		V_0 = L_39;
-		GameObject_t1756533147 * L_40 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_41 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_40, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_41)
-		{
-			goto IL_0148;
-		}
-	}
-	{
-		GameObject_t1756533147 * L_42 = V_0;
-		NullCheck(L_42);
-		GUIAnimFREE_t2360261712 * L_43 = GameObject_GetComponent_TisGUIAnimFREE_t2360261712_m763424783(L_42, /*hidden argument*/GameObject_GetComponent_TisGUIAnimFREE_t2360261712_m763424783_MethodInfo_var);
-		__this->set_m_PanelSettings_9(L_43);
-	}
-
-IL_0148:
-	{
-		GameObject_t1756533147 * L_44 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral1667473599, /*hidden argument*/NULL);
-		V_0 = L_44;
-		GameObject_t1756533147 * L_45 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_46 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_45, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_46)
-		{
-			goto IL_016b;
-		}
-	}
-	{
-		GameObject_t1756533147 * L_47 = V_0;
-		NullCheck(L_47);
-		GUIAnimFREE_t2360261712 * L_48 = GameObject_GetComponent_TisGUIAnimFREE_t2360261712_m763424783(L_47, /*hidden argument*/GameObject_GetComponent_TisGUIAnimFREE_t2360261712_m763424783_MethodInfo_var);
-		__this->set_m_ButtonSettings_10(L_48);
-	}
-
-IL_016b:
-	{
-		GUIAnimFREE_t2360261712 * L_49 = __this->get_m_ButtonSettings_10();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_50 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_49, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_50)
-		{
-			goto IL_0188;
-		}
-	}
-	{
-		GUIAnimFREE_t2360261712 * L_51 = __this->get_m_ButtonSettings_10();
-		NullCheck(L_51);
-		GUIAnimFREE_MoveIn_m3020128394(L_51, 0, /*hidden argument*/NULL);
-	}
-
-IL_0188:
-	{
-		GameObject_t1756533147 * L_52 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral1250409574, /*hidden argument*/NULL);
-		V_0 = L_52;
-		GameObject_t1756533147 * L_53 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_54 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_53, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_54)
-		{
-			goto IL_01ab;
-		}
-	}
-	{
-		GameObject_t1756533147 * L_55 = V_0;
-		NullCheck(L_55);
-		GUIAnimFREE_t2360261712 * L_56 = GameObject_GetComponent_TisGUIAnimFREE_t2360261712_m763424783(L_55, /*hidden argument*/GameObject_GetComponent_TisGUIAnimFREE_t2360261712_m763424783_MethodInfo_var);
-		__this->set_m_PanelHelp1_11(L_56);
-	}
-
-IL_01ab:
-	{
-		GameObject_t1756533147 * L_57 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral1250409573, /*hidden argument*/NULL);
-		V_0 = L_57;
-		GameObject_t1756533147 * L_58 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_59 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_58, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_59)
-		{
-			goto IL_01ce;
-		}
-	}
-	{
-		GameObject_t1756533147 * L_60 = V_0;
-		NullCheck(L_60);
-		GUIAnimFREE_t2360261712 * L_61 = GameObject_GetComponent_TisGUIAnimFREE_t2360261712_m763424783(L_60, /*hidden argument*/GameObject_GetComponent_TisGUIAnimFREE_t2360261712_m763424783_MethodInfo_var);
-		__this->set_m_PanelHelp2_12(L_61);
-	}
-
-IL_01ce:
-	{
-		GameObject_t1756533147 * L_62 = GameObject_Find_m836511350(NULL /*static, unused*/, _stringLiteral1035391562, /*hidden argument*/NULL);
-		V_0 = L_62;
-		GameObject_t1756533147 * L_63 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_64 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_63, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_64)
-		{
-			goto IL_01f1;
-		}
-	}
-	{
-		GameObject_t1756533147 * L_65 = V_0;
-		NullCheck(L_65);
-		GUIAnimFREE_t2360261712 * L_66 = GameObject_GetComponent_TisGUIAnimFREE_t2360261712_m763424783(L_65, /*hidden argument*/GameObject_GetComponent_TisGUIAnimFREE_t2360261712_m763424783_MethodInfo_var);
-		__this->set_m_PanelDetails_13(L_66);
-	}
-
-IL_01f1:
-	{
-		Toggle_t3976754468 * L_67 = __this->get_m_ToggleHelp_5();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_68 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_67, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_68)
-		{
-			goto IL_024c;
-		}
-	}
-	{
-		Toggle_t3976754468 * L_69 = __this->get_m_ToggleHelp_5();
-		NullCheck(L_69);
-		bool L_70 = Toggle_get_isOn_m366838229(L_69, /*hidden argument*/NULL);
-		if (!L_70)
-		{
-			goto IL_024c;
-		}
-	}
-	{
-		GUIAnimFREE_t2360261712 * L_71 = __this->get_m_PanelHelp1_11();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_72 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_71, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_72)
-		{
-			goto IL_022f;
-		}
-	}
-	{
-		GUIAnimFREE_t2360261712 * L_73 = __this->get_m_PanelHelp1_11();
-		NullCheck(L_73);
-		GUIAnimFREE_MoveIn_m3020128394(L_73, 0, /*hidden argument*/NULL);
-	}
-
-IL_022f:
-	{
-		GUIAnimFREE_t2360261712 * L_74 = __this->get_m_PanelHelp2_12();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_75 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_74, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_75)
-		{
-			goto IL_024c;
-		}
-	}
-	{
-		GUIAnimFREE_t2360261712 * L_76 = __this->get_m_PanelHelp2_12();
-		NullCheck(L_76);
-		GUIAnimFREE_MoveIn_m3020128394(L_76, 0, /*hidden argument*/NULL);
-	}
-
-IL_024c:
-	{
-		Toggle_t3976754468 * L_77 = __this->get_m_ToggleDetails_6();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_78 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_77, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_78)
-		{
-			goto IL_029b;
-		}
-	}
-	{
-		GUIAnimFREE_t2360261712 * L_79 = __this->get_m_PanelDetails_13();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_80 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_79, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_80)
-		{
-			goto IL_029b;
-		}
-	}
-	{
-		Toggle_t3976754468 * L_81 = __this->get_m_ToggleDetails_6();
-		NullCheck(L_81);
-		bool L_82 = Toggle_get_isOn_m366838229(L_81, /*hidden argument*/NULL);
-		if (!L_82)
-		{
-			goto IL_029b;
-		}
-	}
-	{
-		GUIAnimFREE_t2360261712 * L_83 = __this->get_m_PanelDetails_13();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_84 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_83, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_84)
-		{
-			goto IL_029b;
-		}
-	}
-	{
-		GUIAnimFREE_t2360261712 * L_85 = __this->get_m_PanelDetails_13();
-		NullCheck(L_85);
-		GUIAnimFREE_MoveIn_m3020128394(L_85, 0, /*hidden argument*/NULL);
-	}
-
-IL_029b:
-	{
-		GE_OrbitCamera_t1782879088 * L_86 = __this->get_m_GE_OrbitCamera_14();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_87 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_86, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_87)
-		{
-			goto IL_0321;
-		}
-	}
-	{
-		Toggle_t3976754468 * L_88 = __this->get_m_ToggleYaw_2();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_89 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_88, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_89)
-		{
-			goto IL_02d3;
-		}
-	}
-	{
-		Toggle_t3976754468 * L_90 = __this->get_m_ToggleYaw_2();
-		GE_OrbitCamera_t1782879088 * L_91 = __this->get_m_GE_OrbitCamera_14();
-		NullCheck(L_91);
-		bool L_92 = L_91->get_m_XInvert_9();
-		NullCheck(L_90);
-		Toggle_set_isOn_m4022556286(L_90, L_92, /*hidden argument*/NULL);
-	}
-
-IL_02d3:
-	{
-		Toggle_t3976754468 * L_93 = __this->get_m_TogglePitch_3();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_94 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_93, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_94)
-		{
-			goto IL_02fa;
-		}
-	}
-	{
-		Toggle_t3976754468 * L_95 = __this->get_m_TogglePitch_3();
-		GE_OrbitCamera_t1782879088 * L_96 = __this->get_m_GE_OrbitCamera_14();
-		NullCheck(L_96);
-		bool L_97 = L_96->get_m_YInvert_10();
-		NullCheck(L_95);
-		Toggle_set_isOn_m4022556286(L_95, L_97, /*hidden argument*/NULL);
-	}
-
-IL_02fa:
-	{
-		Toggle_t3976754468 * L_98 = __this->get_m_ToggleZoom_4();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_99 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_98, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_99)
-		{
-			goto IL_0321;
-		}
-	}
-	{
-		Toggle_t3976754468 * L_100 = __this->get_m_ToggleZoom_4();
-		GE_OrbitCamera_t1782879088 * L_101 = __this->get_m_GE_OrbitCamera_14();
-		NullCheck(L_101);
-		bool L_102 = L_101->get_m_ZoomInvert_11();
-		NullCheck(L_100);
-		Toggle_set_isOn_m4022556286(L_100, L_102, /*hidden argument*/NULL);
-	}
-
-IL_0321:
-	{
-		Toggle_t3976754468 * L_103 = __this->get_m_ToggleHelp_5();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_104 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_103, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_104)
-		{
-			goto IL_033e;
-		}
-	}
-	{
-		Toggle_t3976754468 * L_105 = __this->get_m_ToggleHelp_5();
-		NullCheck(L_105);
-		Toggle_set_isOn_m4022556286(L_105, (bool)1, /*hidden argument*/NULL);
-	}
-
-IL_033e:
-	{
-		Toggle_t3976754468 * L_106 = __this->get_m_ToggleDetails_6();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_107 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_106, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_107)
-		{
-			goto IL_035b;
-		}
-	}
-	{
-		Toggle_t3976754468 * L_108 = __this->get_m_ToggleDetails_6();
-		NullCheck(L_108);
-		Toggle_set_isOn_m4022556286(L_108, (bool)1, /*hidden argument*/NULL);
-	}
-
-IL_035b:
-	{
-		Button_t2872111280 * L_109 = __this->get_m_PinchZoom_7();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_110 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_109, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_110)
-		{
-			goto IL_0378;
-		}
-	}
-	{
-		Button_t2872111280 * L_111 = __this->get_m_PinchZoom_7();
-		NullCheck(L_111);
-		Selectable_set_interactable_m63718297(L_111, (bool)0, /*hidden argument*/NULL);
-	}
-
-IL_0378:
-	{
-		Button_t2872111280 * L_112 = __this->get_m_VScrollZoom_8();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_113 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_112, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_113)
-		{
-			goto IL_0395;
-		}
-	}
-	{
-		Button_t2872111280 * L_114 = __this->get_m_VScrollZoom_8();
-		NullCheck(L_114);
-		Selectable_set_interactable_m63718297(L_114, (bool)1, /*hidden argument*/NULL);
-	}
-
-IL_0395:
-	{
-		return;
-	}
-}
-// System.Void GE_OrbitCameraUI::Update()
-extern "C"  void GE_OrbitCameraUI_Update_m1096019584 (GE_OrbitCameraUI_t1006333794 * __this, const MethodInfo* method)
-{
-	{
-		return;
-	}
-}
-// System.Void GE_OrbitCameraUI::OnToggle_InvertX()
-extern "C"  void GE_OrbitCameraUI_OnToggle_InvertX_m4102473431 (GE_OrbitCameraUI_t1006333794 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (GE_OrbitCameraUI_OnToggle_InvertX_m4102473431_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Toggle_t3976754468 * L_0 = __this->get_m_ToggleYaw_2();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_0038;
-		}
-	}
-	{
-		GE_OrbitCamera_t1782879088 * L_2 = __this->get_m_GE_OrbitCamera_14();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_3 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_3)
-		{
-			goto IL_0038;
-		}
-	}
-	{
-		GE_OrbitCamera_t1782879088 * L_4 = __this->get_m_GE_OrbitCamera_14();
-		Toggle_t3976754468 * L_5 = __this->get_m_ToggleYaw_2();
-		NullCheck(L_5);
-		bool L_6 = Toggle_get_isOn_m366838229(L_5, /*hidden argument*/NULL);
-		NullCheck(L_4);
-		L_4->set_m_XInvert_9(L_6);
-	}
-
-IL_0038:
-	{
-		return;
-	}
-}
-// System.Void GE_OrbitCameraUI::OnToggle_InvertY()
-extern "C"  void GE_OrbitCameraUI_OnToggle_InvertY_m4243635932 (GE_OrbitCameraUI_t1006333794 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (GE_OrbitCameraUI_OnToggle_InvertY_m4243635932_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Toggle_t3976754468 * L_0 = __this->get_m_TogglePitch_3();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_0038;
-		}
-	}
-	{
-		GE_OrbitCamera_t1782879088 * L_2 = __this->get_m_GE_OrbitCamera_14();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_3 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_3)
-		{
-			goto IL_0038;
-		}
-	}
-	{
-		GE_OrbitCamera_t1782879088 * L_4 = __this->get_m_GE_OrbitCamera_14();
-		Toggle_t3976754468 * L_5 = __this->get_m_TogglePitch_3();
-		NullCheck(L_5);
-		bool L_6 = Toggle_get_isOn_m366838229(L_5, /*hidden argument*/NULL);
-		NullCheck(L_4);
-		L_4->set_m_YInvert_10(L_6);
-	}
-
-IL_0038:
-	{
-		return;
-	}
-}
-// System.Void GE_OrbitCameraUI::OnToggle_InvertZoom()
-extern "C"  void GE_OrbitCameraUI_OnToggle_InvertZoom_m1019613484 (GE_OrbitCameraUI_t1006333794 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (GE_OrbitCameraUI_OnToggle_InvertZoom_m1019613484_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Toggle_t3976754468 * L_0 = __this->get_m_ToggleZoom_4();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_0038;
-		}
-	}
-	{
-		GE_OrbitCamera_t1782879088 * L_2 = __this->get_m_GE_OrbitCamera_14();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_3 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_3)
-		{
-			goto IL_0038;
-		}
-	}
-	{
-		GE_OrbitCamera_t1782879088 * L_4 = __this->get_m_GE_OrbitCamera_14();
-		Toggle_t3976754468 * L_5 = __this->get_m_ToggleZoom_4();
-		NullCheck(L_5);
-		bool L_6 = Toggle_get_isOn_m366838229(L_5, /*hidden argument*/NULL);
-		NullCheck(L_4);
-		L_4->set_m_ZoomInvert_11(L_6);
-	}
-
-IL_0038:
-	{
-		return;
-	}
-}
-// System.Void GE_OrbitCameraUI::OnToggle_Help()
-extern "C"  void GE_OrbitCameraUI_OnToggle_Help_m2306710624 (GE_OrbitCameraUI_t1006333794 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (GE_OrbitCameraUI_OnToggle_Help_m2306710624_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Toggle_t3976754468 * L_0 = __this->get_m_ToggleHelp_5();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_009a;
-		}
-	}
-	{
-		Toggle_t3976754468 * L_2 = __this->get_m_ToggleHelp_5();
-		NullCheck(L_2);
-		bool L_3 = Toggle_get_isOn_m366838229(L_2, /*hidden argument*/NULL);
-		if (!L_3)
-		{
-			goto IL_0060;
-		}
-	}
-	{
-		GUIAnimFREE_t2360261712 * L_4 = __this->get_m_PanelHelp1_11();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_5 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_5)
-		{
-			goto IL_003e;
-		}
-	}
-	{
-		GUIAnimFREE_t2360261712 * L_6 = __this->get_m_PanelHelp1_11();
-		NullCheck(L_6);
-		GUIAnimFREE_MoveIn_m3020128394(L_6, 0, /*hidden argument*/NULL);
-	}
-
-IL_003e:
-	{
-		GUIAnimFREE_t2360261712 * L_7 = __this->get_m_PanelHelp2_12();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_8 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_8)
-		{
-			goto IL_005b;
-		}
-	}
-	{
-		GUIAnimFREE_t2360261712 * L_9 = __this->get_m_PanelHelp2_12();
-		NullCheck(L_9);
-		GUIAnimFREE_MoveIn_m3020128394(L_9, 0, /*hidden argument*/NULL);
-	}
-
-IL_005b:
-	{
-		goto IL_009a;
-	}
-
-IL_0060:
-	{
-		GUIAnimFREE_t2360261712 * L_10 = __this->get_m_PanelHelp1_11();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_11 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_10, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_11)
-		{
-			goto IL_007d;
-		}
-	}
-	{
-		GUIAnimFREE_t2360261712 * L_12 = __this->get_m_PanelHelp1_11();
-		NullCheck(L_12);
-		GUIAnimFREE_MoveOut_m3051453773(L_12, 0, /*hidden argument*/NULL);
-	}
-
-IL_007d:
-	{
-		GUIAnimFREE_t2360261712 * L_13 = __this->get_m_PanelHelp2_12();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_14 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_13, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_14)
-		{
-			goto IL_009a;
-		}
-	}
-	{
-		GUIAnimFREE_t2360261712 * L_15 = __this->get_m_PanelHelp2_12();
-		NullCheck(L_15);
-		GUIAnimFREE_MoveOut_m3051453773(L_15, 0, /*hidden argument*/NULL);
-	}
-
-IL_009a:
-	{
-		return;
-	}
-}
-// System.Void GE_OrbitCameraUI::OnToggle_Details()
-extern "C"  void GE_OrbitCameraUI_OnToggle_Details_m1068881003 (GE_OrbitCameraUI_t1006333794 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (GE_OrbitCameraUI_OnToggle_Details_m1068881003_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Toggle_t3976754468 * L_0 = __this->get_m_ToggleDetails_6();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_004f;
-		}
-	}
-	{
-		GUIAnimFREE_t2360261712 * L_2 = __this->get_m_PanelDetails_13();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_3 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_3)
-		{
-			goto IL_004f;
-		}
-	}
-	{
-		Toggle_t3976754468 * L_4 = __this->get_m_ToggleDetails_6();
-		NullCheck(L_4);
-		bool L_5 = Toggle_get_isOn_m366838229(L_4, /*hidden argument*/NULL);
-		if (!L_5)
-		{
-			goto IL_0043;
-		}
-	}
-	{
-		GUIAnimFREE_t2360261712 * L_6 = __this->get_m_PanelDetails_13();
-		NullCheck(L_6);
-		GUIAnimFREE_MoveIn_m3020128394(L_6, 0, /*hidden argument*/NULL);
-		goto IL_004f;
-	}
-
-IL_0043:
-	{
-		GUIAnimFREE_t2360261712 * L_7 = __this->get_m_PanelDetails_13();
-		NullCheck(L_7);
-		GUIAnimFREE_MoveOut_m3051453773(L_7, 0, /*hidden argument*/NULL);
-	}
-
-IL_004f:
-	{
-		return;
-	}
-}
-// System.Void GE_OrbitCameraUI::OnButton_PinchZoom()
-extern "C"  void GE_OrbitCameraUI_OnButton_PinchZoom_m1735915544 (GE_OrbitCameraUI_t1006333794 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (GE_OrbitCameraUI_OnButton_PinchZoom_m1735915544_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Button_t2872111280 * L_0 = __this->get_m_PinchZoom_7();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_002a;
-		}
-	}
-	{
-		Button_t2872111280 * L_2 = __this->get_m_PinchZoom_7();
-		Button_t2872111280 * L_3 = __this->get_m_PinchZoom_7();
-		NullCheck(L_3);
-		bool L_4 = Selectable_get_interactable_m1725029500(L_3, /*hidden argument*/NULL);
-		NullCheck(L_2);
-		Selectable_set_interactable_m63718297(L_2, (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0), /*hidden argument*/NULL);
-	}
-
-IL_002a:
-	{
-		Button_t2872111280 * L_5 = __this->get_m_VScrollZoom_8();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_6 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_5, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_6)
-		{
-			goto IL_0054;
-		}
-	}
-	{
-		Button_t2872111280 * L_7 = __this->get_m_VScrollZoom_8();
-		Button_t2872111280 * L_8 = __this->get_m_VScrollZoom_8();
-		NullCheck(L_8);
-		bool L_9 = Selectable_get_interactable_m1725029500(L_8, /*hidden argument*/NULL);
-		NullCheck(L_7);
-		Selectable_set_interactable_m63718297(L_7, (bool)((((int32_t)L_9) == ((int32_t)0))? 1 : 0), /*hidden argument*/NULL);
-	}
-
-IL_0054:
-	{
-		return;
-	}
-}
-// System.Void GE_OrbitCameraUI::OnButton_VScrollZoom()
-extern "C"  void GE_OrbitCameraUI_OnButton_VScrollZoom_m1829954321 (GE_OrbitCameraUI_t1006333794 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (GE_OrbitCameraUI_OnButton_VScrollZoom_m1829954321_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Button_t2872111280 * L_0 = __this->get_m_PinchZoom_7();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_002a;
-		}
-	}
-	{
-		Button_t2872111280 * L_2 = __this->get_m_PinchZoom_7();
-		Button_t2872111280 * L_3 = __this->get_m_PinchZoom_7();
-		NullCheck(L_3);
-		bool L_4 = Selectable_get_interactable_m1725029500(L_3, /*hidden argument*/NULL);
-		NullCheck(L_2);
-		Selectable_set_interactable_m63718297(L_2, (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0), /*hidden argument*/NULL);
-	}
-
-IL_002a:
-	{
-		Button_t2872111280 * L_5 = __this->get_m_VScrollZoom_8();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_6 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_5, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_6)
-		{
-			goto IL_0054;
-		}
-	}
-	{
-		Button_t2872111280 * L_7 = __this->get_m_VScrollZoom_8();
-		Button_t2872111280 * L_8 = __this->get_m_VScrollZoom_8();
-		NullCheck(L_8);
-		bool L_9 = Selectable_get_interactable_m1725029500(L_8, /*hidden argument*/NULL);
-		NullCheck(L_7);
-		Selectable_set_interactable_m63718297(L_7, (bool)((((int32_t)L_9) == ((int32_t)0))? 1 : 0), /*hidden argument*/NULL);
-	}
-
-IL_0054:
-	{
-		return;
-	}
-}
-// System.Void GE_OrbitCameraUI::OnButton_Settings()
-extern "C"  void GE_OrbitCameraUI_OnButton_Settings_m3388769738 (GE_OrbitCameraUI_t1006333794 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (GE_OrbitCameraUI_OnButton_Settings_m3388769738_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		GUIAnimFREE_t2360261712 * L_0 = __this->get_m_PanelSettings_9();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_005c;
-		}
-	}
-	{
-		GUIAnimFREE_t2360261712 * L_2 = __this->get_m_PanelSettings_9();
-		NullCheck(L_2);
-		Transform_t3275118058 * L_3 = Component_get_transform_m2697483695(L_2, /*hidden argument*/NULL);
-		NullCheck(L_3);
-		Vector3_t2243707580  L_4 = Transform_get_localScale_m3074381503(L_3, /*hidden argument*/NULL);
-		Vector3_t2243707580  L_5;
-		memset(&L_5, 0, sizeof(L_5));
-		Vector3__ctor_m2638739322(&L_5, (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		bool L_6 = Vector3_op_Equality_m305888255(NULL /*static, unused*/, L_4, L_5, /*hidden argument*/NULL);
-		if (!L_6)
-		{
-			goto IL_0050;
-		}
-	}
-	{
-		GUIAnimFREE_t2360261712 * L_7 = __this->get_m_PanelSettings_9();
-		NullCheck(L_7);
-		GUIAnimFREE_MoveIn_m3020128394(L_7, 0, /*hidden argument*/NULL);
-		goto IL_005c;
-	}
-
-IL_0050:
-	{
-		GUIAnimFREE_t2360261712 * L_8 = __this->get_m_PanelSettings_9();
-		NullCheck(L_8);
-		GUIAnimFREE_MoveOut_m3051453773(L_8, 0, /*hidden argument*/NULL);
-	}
-
-IL_005c:
-	{
-		return;
-	}
-}
-// System.Void GE_ToggleFullScreenUI::.ctor()
-extern "C"  void GE_ToggleFullScreenUI__ctor_m1363536399 (GE_ToggleFullScreenUI_t715113062 * __this, const MethodInfo* method)
-{
-	{
-		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void GE_ToggleFullScreenUI::Start()
-extern "C"  void GE_ToggleFullScreenUI_Start_m579884971 (GE_ToggleFullScreenUI_t715113062 * __this, const MethodInfo* method)
-{
-	{
-		int32_t L_0 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
-		__this->set_m_DefWidth_2(L_0);
-		int32_t L_1 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
-		__this->set_m_DefHeight_3(L_1);
-		bool L_2 = Application_get_isEditor_m2474583393(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if (!L_2)
-		{
-			goto IL_0025;
-		}
-	}
-	{
-		goto IL_0070;
-	}
-
-IL_0025:
-	{
-		int32_t L_3 = Application_get_platform_m3989224144(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if ((((int32_t)L_3) == ((int32_t)((int32_t)17))))
-		{
-			goto IL_0053;
-		}
-	}
-	{
-		int32_t L_4 = Application_get_platform_m3989224144(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if ((((int32_t)L_4) == ((int32_t)2)))
-		{
-			goto IL_0053;
-		}
-	}
-	{
-		int32_t L_5 = Application_get_platform_m3989224144(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if ((((int32_t)L_5) == ((int32_t)1)))
-		{
-			goto IL_0053;
-		}
-	}
-	{
-		int32_t L_6 = Application_get_platform_m3989224144(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_6) == ((uint32_t)((int32_t)13)))))
-		{
-			goto IL_0064;
-		}
-	}
-
-IL_0053:
-	{
-		GameObject_t1756533147 * L_7 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
-		NullCheck(L_7);
-		GameObject_SetActive_m2887581199(L_7, (bool)1, /*hidden argument*/NULL);
-		goto IL_0070;
-	}
-
-IL_0064:
-	{
-		GameObject_t1756533147 * L_8 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
-		NullCheck(L_8);
-		GameObject_SetActive_m2887581199(L_8, (bool)0, /*hidden argument*/NULL);
-	}
-
-IL_0070:
-	{
-		return;
-	}
-}
-// System.Void GE_ToggleFullScreenUI::Update()
-extern "C"  void GE_ToggleFullScreenUI_Update_m361751412 (GE_ToggleFullScreenUI_t715113062 * __this, const MethodInfo* method)
-{
-	{
-		return;
-	}
-}
-// System.Void GE_ToggleFullScreenUI::OnButton_ToggleFullScreen()
-extern "C"  void GE_ToggleFullScreenUI_OnButton_ToggleFullScreen_m367792258 (GE_ToggleFullScreenUI_t715113062 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (GE_ToggleFullScreenUI_OnButton_ToggleFullScreen_m367792258_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Button_t2872111280 * V_0 = NULL;
-	Transform_t3275118058 * V_1 = NULL;
-	Il2CppObject * V_2 = NULL;
-	Il2CppObject * V_3 = NULL;
-	Resolution_t3693662728  V_4;
-	memset(&V_4, 0, sizeof(V_4));
-	Resolution_t3693662728  V_5;
-	memset(&V_5, 0, sizeof(V_5));
-	Exception_t1927440687 * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t1927440687 * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-	{
-		bool L_0 = Application_get_isEditor_m2474583393(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if (!L_0)
-		{
-			goto IL_007f;
-		}
-	}
-	{
-		GameObject_t1756533147 * L_1 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
-		NullCheck(L_1);
-		bool L_2 = GameObject_get_activeSelf_m313590879(L_1, /*hidden argument*/NULL);
-		if (!L_2)
-		{
-			goto IL_007a;
-		}
-	}
-	{
-		GameObject_t1756533147 * L_3 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
-		NullCheck(L_3);
-		Button_t2872111280 * L_4 = GameObject_GetComponent_TisButton_t2872111280_m2341455576(L_3, /*hidden argument*/GameObject_GetComponent_TisButton_t2872111280_m2341455576_MethodInfo_var);
-		V_0 = L_4;
-		Button_t2872111280 * L_5 = V_0;
-		NullCheck(L_5);
-		Selectable_set_interactable_m63718297(L_5, (bool)0, /*hidden argument*/NULL);
-		Transform_t3275118058 * L_6 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
-		NullCheck(L_6);
-		Il2CppObject * L_7 = Transform_GetEnumerator_m3479720613(L_6, /*hidden argument*/NULL);
-		V_2 = L_7;
-	}
-
-IL_0039:
-	try
-	{ // begin try (depth: 1)
-		{
-			goto IL_0056;
-		}
-
-IL_003e:
-		{
-			Il2CppObject * L_8 = V_2;
-			NullCheck(L_8);
-			Il2CppObject * L_9 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_8);
-			V_1 = ((Transform_t3275118058 *)CastclassClass(L_9, Transform_t3275118058_il2cpp_TypeInfo_var));
-			Transform_t3275118058 * L_10 = V_1;
-			NullCheck(L_10);
-			GameObject_t1756533147 * L_11 = Component_get_gameObject_m3105766835(L_10, /*hidden argument*/NULL);
-			NullCheck(L_11);
-			GameObject_SetActive_m2887581199(L_11, (bool)1, /*hidden argument*/NULL);
-		}
-
-IL_0056:
-		{
-			Il2CppObject * L_12 = V_2;
-			NullCheck(L_12);
-			bool L_13 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_12);
-			if (L_13)
-			{
-				goto IL_003e;
-			}
-		}
-
-IL_0061:
-		{
-			IL2CPP_LEAVE(0x7A, FINALLY_0066);
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
-		goto FINALLY_0066;
-	}
-
-FINALLY_0066:
-	{ // begin finally (depth: 1)
-		{
-			Il2CppObject * L_14 = V_2;
-			Il2CppObject * L_15 = ((Il2CppObject *)IsInst(L_14, IDisposable_t2427283555_il2cpp_TypeInfo_var));
-			V_3 = L_15;
-			if (!L_15)
-			{
-				goto IL_0079;
-			}
-		}
-
-IL_0073:
-		{
-			Il2CppObject * L_16 = V_3;
-			NullCheck(L_16);
-			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_16);
-		}
-
-IL_0079:
-		{
-			IL2CPP_END_FINALLY(102)
-		}
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(102)
-	{
-		IL2CPP_JUMP_TBL(0x7A, IL_007a)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
-	}
-
-IL_007a:
-	{
-		goto IL_00cf;
-	}
-
-IL_007f:
-	{
-		bool L_17 = Screen_get_fullScreen_m2839518463(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Screen_set_fullScreen_m614074340(NULL /*static, unused*/, (bool)((((int32_t)L_17) == ((int32_t)0))? 1 : 0), /*hidden argument*/NULL);
-		bool L_18 = Screen_get_fullScreen_m2839518463(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if (L_18)
-		{
-			goto IL_00bd;
-		}
-	}
-	{
-		Resolution_t3693662728  L_19 = Screen_get_currentResolution_m2361090437(NULL /*static, unused*/, /*hidden argument*/NULL);
-		V_4 = L_19;
-		int32_t L_20 = Resolution_get_width_m1438273472((&V_4), /*hidden argument*/NULL);
-		Resolution_t3693662728  L_21 = Screen_get_currentResolution_m2361090437(NULL /*static, unused*/, /*hidden argument*/NULL);
-		V_5 = L_21;
-		int32_t L_22 = Resolution_get_height_m882683003((&V_5), /*hidden argument*/NULL);
-		Screen_SetResolution_m55027544(NULL /*static, unused*/, L_20, L_22, (bool)1, /*hidden argument*/NULL);
-		goto IL_00cf;
-	}
-
-IL_00bd:
-	{
-		int32_t L_23 = __this->get_m_DefWidth_2();
-		int32_t L_24 = __this->get_m_DefHeight_3();
-		Screen_SetResolution_m55027544(NULL /*static, unused*/, L_23, L_24, (bool)0, /*hidden argument*/NULL);
-	}
-
-IL_00cf:
-	{
-		return;
-	}
-}
 // System.Void GE_UIResponder::.ctor()
 extern "C"  void GE_UIResponder__ctor_m4126613694 (GE_UIResponder_t2721548981 * __this, const MethodInfo* method)
 {
@@ -5731,8 +4441,6 @@ extern "C"  void MapGenerator_GenerateMap_m1418959259 (MapGenerator_t237211197 *
 	int32_t V_5 = 0;
 	MapDisplay_t1779112168 * V_6 = NULL;
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
-		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral4066759398, /*hidden argument*/NULL);
 		int32_t L_0 = __this->get_seed_11();
 		float L_1 = __this->get_noiseScale_7();
 		int32_t L_2 = __this->get_octaves_8();
@@ -5743,16 +4451,16 @@ extern "C"  void MapGenerator_GenerateMap_m1418959259 (MapGenerator_t237211197 *
 		V_0 = L_6;
 		V_1 = ((ColorU5BU5D_t672350442*)SZArrayNew(ColorU5BU5D_t672350442_il2cpp_TypeInfo_var, (uint32_t)((int32_t)58081)));
 		V_2 = 0;
-		goto IL_00d5;
+		goto IL_00cb;
 	}
 
-IL_0050:
+IL_0046:
 	{
 		V_3 = 0;
-		goto IL_00c6;
+		goto IL_00bc;
 	}
 
-IL_0057:
+IL_004d:
 	{
 		SingleU5B0___U2C0___U5D_t577127398* L_7 = V_0;
 		int32_t L_8 = V_3;
@@ -5761,10 +4469,10 @@ IL_0057:
 		float L_10 = (L_7)->GetAt(L_8, L_9);
 		V_4 = L_10;
 		V_5 = 0;
-		goto IL_00b3;
+		goto IL_00a9;
 	}
 
-IL_0069:
+IL_005f:
 	{
 		float L_11 = V_4;
 		TerrainTypeU5BU5D_t4293736632* L_12 = __this->get_regions_16();
@@ -5773,7 +4481,7 @@ IL_0069:
 		float L_14 = ((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))->get_height_1();
 		if ((!(((float)L_11) <= ((float)L_14))))
 		{
-			goto IL_00ad;
+			goto IL_00a3;
 		}
 	}
 	{
@@ -5786,38 +4494,38 @@ IL_0069:
 		NullCheck(L_18);
 		Color_t2020392075  L_20 = ((L_18)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_19)))->get_color_2();
 		(*(Color_t2020392075 *)((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)((int32_t)((int32_t)L_16*(int32_t)((int32_t)241)))+(int32_t)L_17)))))) = L_20;
-		goto IL_00c2;
+		goto IL_00b8;
 	}
 
-IL_00ad:
+IL_00a3:
 	{
 		int32_t L_21 = V_5;
 		V_5 = ((int32_t)((int32_t)L_21+(int32_t)1));
 	}
 
-IL_00b3:
+IL_00a9:
 	{
 		int32_t L_22 = V_5;
 		TerrainTypeU5BU5D_t4293736632* L_23 = __this->get_regions_16();
 		NullCheck(L_23);
 		if ((((int32_t)L_22) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_23)->max_length)))))))
 		{
-			goto IL_0069;
+			goto IL_005f;
 		}
 	}
 
-IL_00c2:
+IL_00b8:
 	{
 		int32_t L_24 = V_3;
 		V_3 = ((int32_t)((int32_t)L_24+(int32_t)1));
 	}
 
-IL_00c6:
+IL_00bc:
 	{
 		int32_t L_25 = V_3;
 		if ((((int32_t)L_25) < ((int32_t)((int32_t)241))))
 		{
-			goto IL_0057;
+			goto IL_004d;
 		}
 	}
 	{
@@ -5825,12 +4533,12 @@ IL_00c6:
 		V_2 = ((int32_t)((int32_t)L_26+(int32_t)1));
 	}
 
-IL_00d5:
+IL_00cb:
 	{
 		int32_t L_27 = V_2;
 		if ((((int32_t)L_27) < ((int32_t)((int32_t)241))))
 		{
-			goto IL_0050;
+			goto IL_0046;
 		}
 	}
 	{
@@ -5840,7 +4548,7 @@ IL_00d5:
 		int32_t L_29 = __this->get_drawMode_4();
 		if (L_29)
 		{
-			goto IL_0104;
+			goto IL_00fa;
 		}
 	}
 	{
@@ -5849,15 +4557,15 @@ IL_00d5:
 		Texture2D_t3542995729 * L_32 = TextureGenerator_TextureFromHeightMap_m1817240871(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
 		NullCheck(L_30);
 		MapDisplay_DrawTexture_m1714517244(L_30, L_32, /*hidden argument*/NULL);
-		goto IL_0167;
+		goto IL_015d;
 	}
 
-IL_0104:
+IL_00fa:
 	{
 		int32_t L_33 = __this->get_drawMode_4();
 		if ((!(((uint32_t)L_33) == ((uint32_t)1))))
 		{
-			goto IL_012c;
+			goto IL_0122;
 		}
 	}
 	{
@@ -5866,15 +4574,15 @@ IL_0104:
 		Texture2D_t3542995729 * L_36 = TextureGenerator_TextureFromColorMap_m1330548810(NULL /*static, unused*/, L_35, ((int32_t)241), ((int32_t)241), /*hidden argument*/NULL);
 		NullCheck(L_34);
 		MapDisplay_DrawTexture_m1714517244(L_34, L_36, /*hidden argument*/NULL);
-		goto IL_0167;
+		goto IL_015d;
 	}
 
-IL_012c:
+IL_0122:
 	{
 		int32_t L_37 = __this->get_drawMode_4();
 		if ((!(((uint32_t)L_37) == ((uint32_t)2))))
 		{
-			goto IL_0167;
+			goto IL_015d;
 		}
 	}
 	{
@@ -5890,7 +4598,7 @@ IL_012c:
 		MapDisplay_DrawMesh_m3648264271(L_38, L_43, L_45, /*hidden argument*/NULL);
 	}
 
-IL_0167:
+IL_015d:
 	{
 		EnvironmentManager_t2263979904 * L_46 = __this->get_m_EnvironmentManager_3();
 		GameObject_t1756533147 * L_47 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
@@ -7940,269 +6648,23 @@ extern "C"  void TerrainAnchorObject_set_anchor_m2568881338_AdjustorThunk (Il2Cp
 	TerrainAnchorObject_t1214709381 * _thisAdjusted = reinterpret_cast<TerrainAnchorObject_t1214709381 *>(__this + 1);
 	TerrainAnchorObject_set_anchor_m2568881338(_thisAdjusted, ___value0, method);
 }
-// System.Void TerrainGenerator::.ctor()
-extern "C"  void TerrainGenerator__ctor_m774741363 (TerrainGenerator_t2720474954 * __this, const MethodInfo* method)
-{
-	{
-		__this->set_depth_2(((int32_t)20));
-		__this->set_scale_3((10.0f));
-		__this->set_width_4(((int32_t)256));
-		__this->set_height_5(((int32_t)256));
-		__this->set_offsetX_6((100.0f));
-		__this->set_offsetY_7((100.0f));
-		__this->set_m_Resolution_8(((int32_t)256));
-		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void TerrainGenerator::Start()
-extern "C"  void TerrainGenerator_Start_m3711225367 (TerrainGenerator_t2720474954 * __this, const MethodInfo* method)
-{
-	{
-		float L_0 = Random_Range_m2884721203(NULL /*static, unused*/, (0.0f), (9999.0f), /*hidden argument*/NULL);
-		__this->set_offsetX_6(L_0);
-		float L_1 = Random_Range_m2884721203(NULL /*static, unused*/, (0.0f), (9999.0f), /*hidden argument*/NULL);
-		__this->set_offsetY_7(L_1);
-		return;
-	}
-}
-// System.Void TerrainGenerator::Update()
-extern "C"  void TerrainGenerator_Update_m3942083220 (TerrainGenerator_t2720474954 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (TerrainGenerator_Update_m3942083220_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Terrain_t59182933 * L_0 = Component_GetComponent_TisTerrain_t59182933_m3643218419(__this, /*hidden argument*/Component_GetComponent_TisTerrain_t59182933_m3643218419_MethodInfo_var);
-		__this->set_m_Terrain_9(L_0);
-		Terrain_t59182933 * L_1 = __this->get_m_Terrain_9();
-		Terrain_t59182933 * L_2 = __this->get_m_Terrain_9();
-		NullCheck(L_2);
-		TerrainData_t1351141029 * L_3 = Terrain_get_terrainData_m4115429503(L_2, /*hidden argument*/NULL);
-		TerrainData_t1351141029 * L_4 = TerrainGenerator_GenerateTerrain_m2182930960(__this, L_3, /*hidden argument*/NULL);
-		NullCheck(L_1);
-		Terrain_set_terrainData_m668036478(L_1, L_4, /*hidden argument*/NULL);
-		return;
-	}
-}
-// UnityEngine.TerrainData TerrainGenerator::GenerateTerrain(UnityEngine.TerrainData)
-extern "C"  TerrainData_t1351141029 * TerrainGenerator_GenerateTerrain_m2182930960 (TerrainGenerator_t2720474954 * __this, TerrainData_t1351141029 * ___terrainData0, const MethodInfo* method)
-{
-	{
-		TerrainData_t1351141029 * L_0 = ___terrainData0;
-		int32_t L_1 = __this->get_m_Resolution_8();
-		NullCheck(L_0);
-		TerrainData_set_heightmapResolution_m4232193711(L_0, ((int32_t)((int32_t)L_1+(int32_t)1)), /*hidden argument*/NULL);
-		TerrainData_t1351141029 * L_2 = ___terrainData0;
-		int32_t L_3 = __this->get_width_4();
-		int32_t L_4 = __this->get_depth_2();
-		int32_t L_5 = __this->get_height_5();
-		Vector3_t2243707580  L_6;
-		memset(&L_6, 0, sizeof(L_6));
-		Vector3__ctor_m2638739322(&L_6, (((float)((float)L_3))), (((float)((float)L_4))), (((float)((float)L_5))), /*hidden argument*/NULL);
-		NullCheck(L_2);
-		TerrainData_set_size_m1630025811(L_2, L_6, /*hidden argument*/NULL);
-		SingleU5B0___U2C0___U5D_t577127398* L_7 = TerrainGenerator_GenerateHeights_m1236585684(__this, /*hidden argument*/NULL);
-		__this->set_m_HeightMap_10((SingleU5B0___U2C0___U5D_t577127398*)L_7);
-		TerrainData_t1351141029 * L_8 = ___terrainData0;
-		SingleU5B0___U2C0___U5D_t577127398* L_9 = __this->get_m_HeightMap_10();
-		NullCheck(L_8);
-		TerrainData_SetHeights_m1194369767(L_8, 0, 0, (SingleU5B0___U2C0___U5D_t577127398*)(SingleU5B0___U2C0___U5D_t577127398*)L_9, /*hidden argument*/NULL);
-		TerrainData_t1351141029 * L_10 = ___terrainData0;
-		return L_10;
-	}
-}
-// System.Single[0...,0...] TerrainGenerator::GenerateHeights()
-extern "C"  SingleU5B0___U2C0___U5D_t577127398* TerrainGenerator_GenerateHeights_m1236585684 (TerrainGenerator_t2720474954 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (TerrainGenerator_GenerateHeights_m1236585684_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	SingleU5B0___U2C0___U5D_t577127398* V_0 = NULL;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	{
-		int32_t L_0 = __this->get_width_4();
-		int32_t L_1 = __this->get_height_5();
-		il2cpp_array_size_t L_3[] = { (il2cpp_array_size_t)L_0, (il2cpp_array_size_t)L_1 };
-		SingleU5B0___U2C0___U5D_t577127398* L_2 = (SingleU5B0___U2C0___U5D_t577127398*)GenArrayNew(SingleU5B0___U2C0___U5D_t577127398_il2cpp_TypeInfo_var, L_3);
-		V_0 = L_2;
-		V_1 = 0;
-		goto IL_0044;
-	}
-
-IL_0019:
-	{
-		V_2 = 0;
-		goto IL_0034;
-	}
-
-IL_0020:
-	{
-		SingleU5B0___U2C0___U5D_t577127398* L_4 = V_0;
-		int32_t L_5 = V_1;
-		int32_t L_6 = V_2;
-		int32_t L_7 = V_1;
-		int32_t L_8 = V_2;
-		float L_9 = TerrainGenerator_CalculateHeight_m1452581564(__this, L_7, L_8, /*hidden argument*/NULL);
-		NullCheck(L_4);
-		(L_4)->SetAt(L_5, L_6, L_9);
-		int32_t L_10 = V_2;
-		V_2 = ((int32_t)((int32_t)L_10+(int32_t)1));
-	}
-
-IL_0034:
-	{
-		int32_t L_11 = V_2;
-		int32_t L_12 = __this->get_height_5();
-		if ((((int32_t)L_11) < ((int32_t)L_12)))
-		{
-			goto IL_0020;
-		}
-	}
-	{
-		int32_t L_13 = V_1;
-		V_1 = ((int32_t)((int32_t)L_13+(int32_t)1));
-	}
-
-IL_0044:
-	{
-		int32_t L_14 = V_1;
-		int32_t L_15 = __this->get_width_4();
-		if ((((int32_t)L_14) < ((int32_t)L_15)))
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		SingleU5B0___U2C0___U5D_t577127398* L_16 = V_0;
-		return L_16;
-	}
-}
-// System.Single TerrainGenerator::CalculateHeight(System.Int32,System.Int32)
-extern "C"  float TerrainGenerator_CalculateHeight_m1452581564 (TerrainGenerator_t2720474954 * __this, int32_t ___x0, int32_t ___y1, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (TerrainGenerator_CalculateHeight_m1452581564_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	float V_1 = 0.0f;
-	{
-		int32_t L_0 = ___x0;
-		int32_t L_1 = __this->get_width_4();
-		float L_2 = __this->get_scale_3();
-		V_0 = ((float)((float)((float)((float)(((float)((float)L_0)))/(float)(((float)((float)L_1)))))*(float)L_2));
-		int32_t L_3 = ___y1;
-		int32_t L_4 = __this->get_height_5();
-		float L_5 = __this->get_scale_3();
-		V_1 = ((float)((float)((float)((float)(((float)((float)L_3)))/(float)(((float)((float)L_4)))))*(float)L_5));
-		float L_6 = V_0;
-		float L_7 = __this->get_offsetX_6();
-		V_0 = ((float)((float)L_6+(float)L_7));
-		float L_8 = V_1;
-		float L_9 = __this->get_offsetY_7();
-		V_1 = ((float)((float)L_8+(float)L_9));
-		float L_10 = V_0;
-		float L_11 = V_1;
-		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
-		float L_12 = Mathf_PerlinNoise_m506243119(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
-		return L_12;
-	}
-}
-// System.Void TerrainGenerator::RaiseHeightPoint(System.Int32,System.Int32)
-extern "C"  void TerrainGenerator_RaiseHeightPoint_m2244744842 (TerrainGenerator_t2720474954 * __this, int32_t ___x0, int32_t ___y1, const MethodInfo* method)
-{
-	{
-		SingleU5B0___U2C0___U5D_t577127398* L_0 = __this->get_m_HeightMap_10();
-		int32_t L_1 = ___x0;
-		int32_t L_2 = ___y1;
-		NullCheck((SingleU5B0___U2C0___U5D_t577127398*)(SingleU5B0___U2C0___U5D_t577127398*)L_0);
-		float L_3 = ((SingleU5B0___U2C0___U5D_t577127398*)(SingleU5B0___U2C0___U5D_t577127398*)L_0)->GetAt(L_1, L_2);
-		if ((!(((float)L_3) < ((float)(1.0f)))))
-		{
-			goto IL_002d;
-		}
-	}
-	{
-		SingleU5B0___U2C0___U5D_t577127398* L_4 = __this->get_m_HeightMap_10();
-		int32_t L_5 = ___x0;
-		int32_t L_6 = ___y1;
-		NullCheck((SingleU5B0___U2C0___U5D_t577127398*)(SingleU5B0___U2C0___U5D_t577127398*)L_4);
-		float* L_7 = ((SingleU5B0___U2C0___U5D_t577127398*)(SingleU5B0___U2C0___U5D_t577127398*)L_4)->GetAddressAt(L_5, L_6);
-		float* L_8 = L_7;
-		*((float*)(L_8)) = (float)((float)((float)(*((float*)L_8))+(float)(0.01f)));
-	}
-
-IL_002d:
-	{
-		Terrain_t59182933 * L_9 = __this->get_m_Terrain_9();
-		NullCheck(L_9);
-		TerrainData_t1351141029 * L_10 = Terrain_get_terrainData_m4115429503(L_9, /*hidden argument*/NULL);
-		SingleU5B0___U2C0___U5D_t577127398* L_11 = __this->get_m_HeightMap_10();
-		NullCheck(L_10);
-		TerrainData_SetHeights_m1194369767(L_10, 0, 0, (SingleU5B0___U2C0___U5D_t577127398*)(SingleU5B0___U2C0___U5D_t577127398*)L_11, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void TerrainGenerator::LowerHeightAtPoint(System.Int32,System.Int32)
-extern "C"  void TerrainGenerator_LowerHeightAtPoint_m2795185294 (TerrainGenerator_t2720474954 * __this, int32_t ___x0, int32_t ___y1, const MethodInfo* method)
-{
-	{
-		SingleU5B0___U2C0___U5D_t577127398* L_0 = __this->get_m_HeightMap_10();
-		int32_t L_1 = ___x0;
-		int32_t L_2 = ___y1;
-		NullCheck((SingleU5B0___U2C0___U5D_t577127398*)(SingleU5B0___U2C0___U5D_t577127398*)L_0);
-		float L_3 = ((SingleU5B0___U2C0___U5D_t577127398*)(SingleU5B0___U2C0___U5D_t577127398*)L_0)->GetAt(L_1, L_2);
-		if ((!(((float)L_3) > ((float)(0.0f)))))
-		{
-			goto IL_002d;
-		}
-	}
-	{
-		SingleU5B0___U2C0___U5D_t577127398* L_4 = __this->get_m_HeightMap_10();
-		int32_t L_5 = ___x0;
-		int32_t L_6 = ___y1;
-		NullCheck((SingleU5B0___U2C0___U5D_t577127398*)(SingleU5B0___U2C0___U5D_t577127398*)L_4);
-		float* L_7 = ((SingleU5B0___U2C0___U5D_t577127398*)(SingleU5B0___U2C0___U5D_t577127398*)L_4)->GetAddressAt(L_5, L_6);
-		float* L_8 = L_7;
-		*((float*)(L_8)) = (float)((float)((float)(*((float*)L_8))-(float)(-0.01f)));
-	}
-
-IL_002d:
-	{
-		Terrain_t59182933 * L_9 = __this->get_m_Terrain_9();
-		NullCheck(L_9);
-		TerrainData_t1351141029 * L_10 = Terrain_get_terrainData_m4115429503(L_9, /*hidden argument*/NULL);
-		SingleU5B0___U2C0___U5D_t577127398* L_11 = __this->get_m_HeightMap_10();
-		NullCheck(L_10);
-		TerrainData_SetHeights_m1194369767(L_10, 0, 0, (SingleU5B0___U2C0___U5D_t577127398*)(SingleU5B0___U2C0___U5D_t577127398*)L_11, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void TerrainPoint::.ctor(System.Int32,System.Single)
-extern "C"  void TerrainPoint__ctor_m272930782 (TerrainPoint_t3086956645 * __this, int32_t ___i0, float ___d1, const MethodInfo* method)
+// System.Void TerrainPoint::.ctor(System.Int32,System.Single,UnityEngine.Vector3)
+extern "C"  void TerrainPoint__ctor_m1550882201 (TerrainPoint_t3086956645 * __this, int32_t ___i0, float ___d1, Vector3_t2243707580  ___p2, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___i0;
 		TerrainPoint_set_index_m176279690(__this, L_0, /*hidden argument*/NULL);
 		float L_1 = ___d1;
 		TerrainPoint_set_distDenom_m2261124311(__this, L_1, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_2 = ___p2;
+		TerrainPoint_set_point_m2043878222(__this, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
-extern "C"  void TerrainPoint__ctor_m272930782_AdjustorThunk (Il2CppObject * __this, int32_t ___i0, float ___d1, const MethodInfo* method)
+extern "C"  void TerrainPoint__ctor_m1550882201_AdjustorThunk (Il2CppObject * __this, int32_t ___i0, float ___d1, Vector3_t2243707580  ___p2, const MethodInfo* method)
 {
 	TerrainPoint_t3086956645 * _thisAdjusted = reinterpret_cast<TerrainPoint_t3086956645 *>(__this + 1);
-	TerrainPoint__ctor_m272930782(_thisAdjusted, ___i0, ___d1, method);
+	TerrainPoint__ctor_m1550882201(_thisAdjusted, ___i0, ___d1, ___p2, method);
 }
 // System.Int32 TerrainPoint::get_index()
 extern "C"  int32_t TerrainPoint_get_index_m1121187309 (TerrainPoint_t3086956645 * __this, const MethodInfo* method)
@@ -8257,6 +6719,33 @@ extern "C"  void TerrainPoint_set_distDenom_m2261124311_AdjustorThunk (Il2CppObj
 {
 	TerrainPoint_t3086956645 * _thisAdjusted = reinterpret_cast<TerrainPoint_t3086956645 *>(__this + 1);
 	TerrainPoint_set_distDenom_m2261124311(_thisAdjusted, ___value0, method);
+}
+// UnityEngine.Vector3 TerrainPoint::get_point()
+extern "C"  Vector3_t2243707580  TerrainPoint_get_point_m1579419227 (TerrainPoint_t3086956645 * __this, const MethodInfo* method)
+{
+	{
+		Vector3_t2243707580  L_0 = __this->get_U3CpointU3Ek__BackingField_2();
+		return L_0;
+	}
+}
+extern "C"  Vector3_t2243707580  TerrainPoint_get_point_m1579419227_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	TerrainPoint_t3086956645 * _thisAdjusted = reinterpret_cast<TerrainPoint_t3086956645 *>(__this + 1);
+	return TerrainPoint_get_point_m1579419227(_thisAdjusted, method);
+}
+// System.Void TerrainPoint::set_point(UnityEngine.Vector3)
+extern "C"  void TerrainPoint_set_point_m2043878222 (TerrainPoint_t3086956645 * __this, Vector3_t2243707580  ___value0, const MethodInfo* method)
+{
+	{
+		Vector3_t2243707580  L_0 = ___value0;
+		__this->set_U3CpointU3Ek__BackingField_2(L_0);
+		return;
+	}
+}
+extern "C"  void TerrainPoint_set_point_m2043878222_AdjustorThunk (Il2CppObject * __this, Vector3_t2243707580  ___value0, const MethodInfo* method)
+{
+	TerrainPoint_t3086956645 * _thisAdjusted = reinterpret_cast<TerrainPoint_t3086956645 *>(__this + 1);
+	TerrainPoint_set_point_m2043878222(_thisAdjusted, ___value0, method);
 }
 // Conversion methods for marshalling of: TerrainType
 extern "C" void TerrainType_t1477530197_marshal_pinvoke(const TerrainType_t1477530197& unmarshaled, TerrainType_t1477530197_marshaled_pinvoke& marshaled)
@@ -23206,6 +21695,216 @@ extern "C" void ARHitTestResult_t3275513025_marshal_com_cleanup(ARHitTestResult_
 {
 	il2cpp_codegen_marshal_free_bstring(marshaled.___anchorIdentifier_4);
 	marshaled.___anchorIdentifier_4 = NULL;
+}
+// Conversion methods for marshalling of: UnityEngine.XR.iOS.ARKitSessionConfiguration
+extern "C" void ARKitSessionConfiguration_t318899795_marshal_pinvoke(const ARKitSessionConfiguration_t318899795& unmarshaled, ARKitSessionConfiguration_t318899795_marshaled_pinvoke& marshaled)
+{
+	marshaled.___alignment_0 = unmarshaled.get_alignment_0();
+	marshaled.___getPointCloudData_1 = static_cast<int32_t>(unmarshaled.get_getPointCloudData_1());
+	marshaled.___enableLightEstimation_2 = static_cast<int32_t>(unmarshaled.get_enableLightEstimation_2());
+}
+extern "C" void ARKitSessionConfiguration_t318899795_marshal_pinvoke_back(const ARKitSessionConfiguration_t318899795_marshaled_pinvoke& marshaled, ARKitSessionConfiguration_t318899795& unmarshaled)
+{
+	int32_t unmarshaled_alignment_temp_0 = 0;
+	unmarshaled_alignment_temp_0 = marshaled.___alignment_0;
+	unmarshaled.set_alignment_0(unmarshaled_alignment_temp_0);
+	bool unmarshaled_getPointCloudData_temp_1 = false;
+	unmarshaled_getPointCloudData_temp_1 = static_cast<bool>(marshaled.___getPointCloudData_1);
+	unmarshaled.set_getPointCloudData_1(unmarshaled_getPointCloudData_temp_1);
+	bool unmarshaled_enableLightEstimation_temp_2 = false;
+	unmarshaled_enableLightEstimation_temp_2 = static_cast<bool>(marshaled.___enableLightEstimation_2);
+	unmarshaled.set_enableLightEstimation_2(unmarshaled_enableLightEstimation_temp_2);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.XR.iOS.ARKitSessionConfiguration
+extern "C" void ARKitSessionConfiguration_t318899795_marshal_pinvoke_cleanup(ARKitSessionConfiguration_t318899795_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: UnityEngine.XR.iOS.ARKitSessionConfiguration
+extern "C" void ARKitSessionConfiguration_t318899795_marshal_com(const ARKitSessionConfiguration_t318899795& unmarshaled, ARKitSessionConfiguration_t318899795_marshaled_com& marshaled)
+{
+	marshaled.___alignment_0 = unmarshaled.get_alignment_0();
+	marshaled.___getPointCloudData_1 = static_cast<int32_t>(unmarshaled.get_getPointCloudData_1());
+	marshaled.___enableLightEstimation_2 = static_cast<int32_t>(unmarshaled.get_enableLightEstimation_2());
+}
+extern "C" void ARKitSessionConfiguration_t318899795_marshal_com_back(const ARKitSessionConfiguration_t318899795_marshaled_com& marshaled, ARKitSessionConfiguration_t318899795& unmarshaled)
+{
+	int32_t unmarshaled_alignment_temp_0 = 0;
+	unmarshaled_alignment_temp_0 = marshaled.___alignment_0;
+	unmarshaled.set_alignment_0(unmarshaled_alignment_temp_0);
+	bool unmarshaled_getPointCloudData_temp_1 = false;
+	unmarshaled_getPointCloudData_temp_1 = static_cast<bool>(marshaled.___getPointCloudData_1);
+	unmarshaled.set_getPointCloudData_1(unmarshaled_getPointCloudData_temp_1);
+	bool unmarshaled_enableLightEstimation_temp_2 = false;
+	unmarshaled_enableLightEstimation_temp_2 = static_cast<bool>(marshaled.___enableLightEstimation_2);
+	unmarshaled.set_enableLightEstimation_2(unmarshaled_enableLightEstimation_temp_2);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.XR.iOS.ARKitSessionConfiguration
+extern "C" void ARKitSessionConfiguration_t318899795_marshal_com_cleanup(ARKitSessionConfiguration_t318899795_marshaled_com& marshaled)
+{
+}
+// System.Void UnityEngine.XR.iOS.ARKitSessionConfiguration::.ctor(UnityEngine.XR.iOS.UnityARAlignment,System.Boolean,System.Boolean)
+extern "C"  void ARKitSessionConfiguration__ctor_m1819896799 (ARKitSessionConfiguration_t318899795 * __this, int32_t ___alignment0, bool ___getPointCloudData1, bool ___enableLightEstimation2, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___getPointCloudData1;
+		__this->set_getPointCloudData_1(L_0);
+		int32_t L_1 = ___alignment0;
+		__this->set_alignment_0(L_1);
+		bool L_2 = ___enableLightEstimation2;
+		__this->set_enableLightEstimation_2(L_2);
+		return;
+	}
+}
+extern "C"  void ARKitSessionConfiguration__ctor_m1819896799_AdjustorThunk (Il2CppObject * __this, int32_t ___alignment0, bool ___getPointCloudData1, bool ___enableLightEstimation2, const MethodInfo* method)
+{
+	ARKitSessionConfiguration_t318899795 * _thisAdjusted = reinterpret_cast<ARKitSessionConfiguration_t318899795 *>(__this + 1);
+	ARKitSessionConfiguration__ctor_m1819896799(_thisAdjusted, ___alignment0, ___getPointCloudData1, ___enableLightEstimation2, method);
+}
+// System.Boolean UnityEngine.XR.iOS.ARKitSessionConfiguration::get_IsSupported()
+extern "C"  bool ARKitSessionConfiguration_get_IsSupported_m3695054805 (ARKitSessionConfiguration_t318899795 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = ARKitSessionConfiguration_IsARKitSessionConfigurationSupported_m478432247(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  bool ARKitSessionConfiguration_get_IsSupported_m3695054805_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	ARKitSessionConfiguration_t318899795 * _thisAdjusted = reinterpret_cast<ARKitSessionConfiguration_t318899795 *>(__this + 1);
+	return ARKitSessionConfiguration_get_IsSupported_m3695054805(_thisAdjusted, method);
+}
+// System.Void UnityEngine.XR.iOS.ARKitSessionConfiguration::set_IsSupported(System.Boolean)
+extern "C"  void ARKitSessionConfiguration_set_IsSupported_m2731928126 (ARKitSessionConfiguration_t318899795 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+extern "C"  void ARKitSessionConfiguration_set_IsSupported_m2731928126_AdjustorThunk (Il2CppObject * __this, bool ___value0, const MethodInfo* method)
+{
+	ARKitSessionConfiguration_t318899795 * _thisAdjusted = reinterpret_cast<ARKitSessionConfiguration_t318899795 *>(__this + 1);
+	ARKitSessionConfiguration_set_IsSupported_m2731928126(_thisAdjusted, ___value0, method);
+}
+extern "C" int32_t DEFAULT_CALL IsARKitSessionConfigurationSupported();
+// System.Boolean UnityEngine.XR.iOS.ARKitSessionConfiguration::IsARKitSessionConfigurationSupported()
+extern "C"  bool ARKitSessionConfiguration_IsARKitSessionConfigurationSupported_m478432247 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(IsARKitSessionConfigurationSupported)();
+
+	return static_cast<bool>(returnValue);
+}
+// Conversion methods for marshalling of: UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration
+extern "C" void ARKitWorldTackingSessionConfiguration_t1821734930_marshal_pinvoke(const ARKitWorldTackingSessionConfiguration_t1821734930& unmarshaled, ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_pinvoke& marshaled)
+{
+	marshaled.___alignment_0 = unmarshaled.get_alignment_0();
+	marshaled.___planeDetection_1 = unmarshaled.get_planeDetection_1();
+	marshaled.___getPointCloudData_2 = static_cast<int32_t>(unmarshaled.get_getPointCloudData_2());
+	marshaled.___enableLightEstimation_3 = static_cast<int32_t>(unmarshaled.get_enableLightEstimation_3());
+}
+extern "C" void ARKitWorldTackingSessionConfiguration_t1821734930_marshal_pinvoke_back(const ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_pinvoke& marshaled, ARKitWorldTackingSessionConfiguration_t1821734930& unmarshaled)
+{
+	int32_t unmarshaled_alignment_temp_0 = 0;
+	unmarshaled_alignment_temp_0 = marshaled.___alignment_0;
+	unmarshaled.set_alignment_0(unmarshaled_alignment_temp_0);
+	int32_t unmarshaled_planeDetection_temp_1 = 0;
+	unmarshaled_planeDetection_temp_1 = marshaled.___planeDetection_1;
+	unmarshaled.set_planeDetection_1(unmarshaled_planeDetection_temp_1);
+	bool unmarshaled_getPointCloudData_temp_2 = false;
+	unmarshaled_getPointCloudData_temp_2 = static_cast<bool>(marshaled.___getPointCloudData_2);
+	unmarshaled.set_getPointCloudData_2(unmarshaled_getPointCloudData_temp_2);
+	bool unmarshaled_enableLightEstimation_temp_3 = false;
+	unmarshaled_enableLightEstimation_temp_3 = static_cast<bool>(marshaled.___enableLightEstimation_3);
+	unmarshaled.set_enableLightEstimation_3(unmarshaled_enableLightEstimation_temp_3);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration
+extern "C" void ARKitWorldTackingSessionConfiguration_t1821734930_marshal_pinvoke_cleanup(ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration
+extern "C" void ARKitWorldTackingSessionConfiguration_t1821734930_marshal_com(const ARKitWorldTackingSessionConfiguration_t1821734930& unmarshaled, ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_com& marshaled)
+{
+	marshaled.___alignment_0 = unmarshaled.get_alignment_0();
+	marshaled.___planeDetection_1 = unmarshaled.get_planeDetection_1();
+	marshaled.___getPointCloudData_2 = static_cast<int32_t>(unmarshaled.get_getPointCloudData_2());
+	marshaled.___enableLightEstimation_3 = static_cast<int32_t>(unmarshaled.get_enableLightEstimation_3());
+}
+extern "C" void ARKitWorldTackingSessionConfiguration_t1821734930_marshal_com_back(const ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_com& marshaled, ARKitWorldTackingSessionConfiguration_t1821734930& unmarshaled)
+{
+	int32_t unmarshaled_alignment_temp_0 = 0;
+	unmarshaled_alignment_temp_0 = marshaled.___alignment_0;
+	unmarshaled.set_alignment_0(unmarshaled_alignment_temp_0);
+	int32_t unmarshaled_planeDetection_temp_1 = 0;
+	unmarshaled_planeDetection_temp_1 = marshaled.___planeDetection_1;
+	unmarshaled.set_planeDetection_1(unmarshaled_planeDetection_temp_1);
+	bool unmarshaled_getPointCloudData_temp_2 = false;
+	unmarshaled_getPointCloudData_temp_2 = static_cast<bool>(marshaled.___getPointCloudData_2);
+	unmarshaled.set_getPointCloudData_2(unmarshaled_getPointCloudData_temp_2);
+	bool unmarshaled_enableLightEstimation_temp_3 = false;
+	unmarshaled_enableLightEstimation_temp_3 = static_cast<bool>(marshaled.___enableLightEstimation_3);
+	unmarshaled.set_enableLightEstimation_3(unmarshaled_enableLightEstimation_temp_3);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration
+extern "C" void ARKitWorldTackingSessionConfiguration_t1821734930_marshal_com_cleanup(ARKitWorldTackingSessionConfiguration_t1821734930_marshaled_com& marshaled)
+{
+}
+// System.Void UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration::.ctor(UnityEngine.XR.iOS.UnityARAlignment,UnityEngine.XR.iOS.UnityARPlaneDetection,System.Boolean,System.Boolean)
+extern "C"  void ARKitWorldTackingSessionConfiguration__ctor_m929109213 (ARKitWorldTackingSessionConfiguration_t1821734930 * __this, int32_t ___alignment0, int32_t ___planeDetection1, bool ___getPointCloudData2, bool ___enableLightEstimation3, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___getPointCloudData2;
+		__this->set_getPointCloudData_2(L_0);
+		int32_t L_1 = ___alignment0;
+		__this->set_alignment_0(L_1);
+		int32_t L_2 = ___planeDetection1;
+		__this->set_planeDetection_1(L_2);
+		bool L_3 = ___enableLightEstimation3;
+		__this->set_enableLightEstimation_3(L_3);
+		return;
+	}
+}
+extern "C"  void ARKitWorldTackingSessionConfiguration__ctor_m929109213_AdjustorThunk (Il2CppObject * __this, int32_t ___alignment0, int32_t ___planeDetection1, bool ___getPointCloudData2, bool ___enableLightEstimation3, const MethodInfo* method)
+{
+	ARKitWorldTackingSessionConfiguration_t1821734930 * _thisAdjusted = reinterpret_cast<ARKitWorldTackingSessionConfiguration_t1821734930 *>(__this + 1);
+	ARKitWorldTackingSessionConfiguration__ctor_m929109213(_thisAdjusted, ___alignment0, ___planeDetection1, ___getPointCloudData2, ___enableLightEstimation3, method);
+}
+// System.Boolean UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration::get_IsSupported()
+extern "C"  bool ARKitWorldTackingSessionConfiguration_get_IsSupported_m2907500064 (ARKitWorldTackingSessionConfiguration_t1821734930 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = ARKitWorldTackingSessionConfiguration_IsARKitWorldTrackingSessionConfigurationSupported_m2059157701(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+extern "C"  bool ARKitWorldTackingSessionConfiguration_get_IsSupported_m2907500064_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	ARKitWorldTackingSessionConfiguration_t1821734930 * _thisAdjusted = reinterpret_cast<ARKitWorldTackingSessionConfiguration_t1821734930 *>(__this + 1);
+	return ARKitWorldTackingSessionConfiguration_get_IsSupported_m2907500064(_thisAdjusted, method);
+}
+// System.Void UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration::set_IsSupported(System.Boolean)
+extern "C"  void ARKitWorldTackingSessionConfiguration_set_IsSupported_m1782028213 (ARKitWorldTackingSessionConfiguration_t1821734930 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+extern "C"  void ARKitWorldTackingSessionConfiguration_set_IsSupported_m1782028213_AdjustorThunk (Il2CppObject * __this, bool ___value0, const MethodInfo* method)
+{
+	ARKitWorldTackingSessionConfiguration_t1821734930 * _thisAdjusted = reinterpret_cast<ARKitWorldTackingSessionConfiguration_t1821734930 *>(__this + 1);
+	ARKitWorldTackingSessionConfiguration_set_IsSupported_m1782028213(_thisAdjusted, ___value0, method);
+}
+extern "C" int32_t DEFAULT_CALL IsARKitWorldTrackingSessionConfigurationSupported();
+// System.Boolean UnityEngine.XR.iOS.ARKitWorldTackingSessionConfiguration::IsARKitWorldTrackingSessionConfigurationSupported()
+extern "C"  bool ARKitWorldTackingSessionConfiguration_IsARKitWorldTrackingSessionConfigurationSupported_m2059157701 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(IsARKitWorldTrackingSessionConfigurationSupported)();
+
+	return static_cast<bool>(returnValue);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

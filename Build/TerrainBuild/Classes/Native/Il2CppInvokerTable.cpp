@@ -12096,11 +12096,11 @@ void* RuntimeInvoker_Void_t1841601450_Vector3_t2243707580_Touch_t407273883 (cons
 	return NULL;
 }
 
-void* RuntimeInvoker_Il2CppObject_Il2CppObject_Vector3_t2243707580_Il2CppObject_Il2CppObject (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t1841601450_Int32_t2071877448_Single_t2076509932_Vector3_t2243707580 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Il2CppObject * (*Func)(void* obj, Il2CppObject * p1, Vector3_t2243707580  p2, Il2CppObject * p3, Il2CppObject * p4, const MethodInfo* method);
-	Il2CppObject * ret = ((Func)method->methodPointer)(obj, (Il2CppObject *)args[0], *((Vector3_t2243707580 *)args[1]), (Il2CppObject *)args[2], (Il2CppObject *)args[3], method);
-	return ret;
+	typedef void (*Func)(void* obj, int32_t p1, float p2, Vector3_t2243707580  p3, const MethodInfo* method);
+	((Func)method->methodPointer)(obj, *((int32_t*)args[0]), *((float*)args[1]), *((Vector3_t2243707580 *)args[2]), method);
+	return NULL;
 }
 
 void* RuntimeInvoker_Il2CppObject_Touch_t407273883_Il2CppObject_Il2CppObject (const MethodInfo* method, void* obj, void** args)
@@ -18345,7 +18345,7 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2179] =
 	RuntimeInvoker_ARPlaneAnchor_t1439520888,
 	RuntimeInvoker_Void_t1841601450_Touch_t407273883,
 	RuntimeInvoker_Void_t1841601450_Vector3_t2243707580_Touch_t407273883,
-	RuntimeInvoker_Il2CppObject_Il2CppObject_Vector3_t2243707580_Il2CppObject_Il2CppObject,
+	RuntimeInvoker_Void_t1841601450_Int32_t2071877448_Single_t2076509932_Vector3_t2243707580,
 	RuntimeInvoker_Il2CppObject_Touch_t407273883_Il2CppObject_Il2CppObject,
 	RuntimeInvoker_Il2CppObject_Il2CppObject_Single_t2076509932_Il2CppObject_Int32_t2071877448,
 	RuntimeInvoker_Il2CppObject_Int32_t2071877448_Int32_t2071877448_Int32_t2071877448_Single_t2076509932_Int32_t2071877448_Single_t2076509932_Single_t2076509932_Vector2_t2243707579,

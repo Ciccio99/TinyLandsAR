@@ -933,7 +933,7 @@ extern const int32_t g_FieldOffsetTable2293[2] =
 	PlaneAnchorObject_t3628153532::get_offset_of_U3CanchorU3Ek__BackingField_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2294 = { sizeof (ARTerrainManager_t2018264653), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2294[15] = 
+extern const int32_t g_FieldOffsetTable2294[16] = 
 {
 	ARTerrainManager_t2018264653::get_offset_of_m_TerrainScale_2(),
 	ARTerrainManager_t2018264653::get_offset_of_m_TerrainPrefab_3(),
@@ -944,12 +944,13 @@ extern const int32_t g_FieldOffsetTable2294[15] =
 	ARTerrainManager_t2018264653::get_offset_of_m_TerrainCurveValue_8(),
 	ARTerrainManager_t2018264653::get_offset_of_m_TerrainMaterial_9(),
 	ARTerrainManager_t2018264653::get_offset_of_m_TerrainSpawned_10(),
-	ARTerrainManager_t2018264653::get_offset_of_m_CurrentManipPhase_11(),
+	ARTerrainManager_t2018264653::get_offset_of_m_MinTerrainHeight_11(),
 	ARTerrainManager_t2018264653::get_offset_of_m_TallestMeshHeight_12(),
-	ARTerrainManager_t2018264653::get_offset_of_m_StartTouchPosition_13(),
-	ARTerrainManager_t2018264653::get_offset_of_m_TouchDirection_14(),
-	ARTerrainManager_t2018264653::get_offset_of_m_TerrainPoints_15(),
-	ARTerrainManager_t2018264653::get_offset_of_m_MapGenerator_16(),
+	ARTerrainManager_t2018264653::get_offset_of_m_CurrentManipPhase_13(),
+	ARTerrainManager_t2018264653::get_offset_of_m_StartTouchPosition_14(),
+	ARTerrainManager_t2018264653::get_offset_of_m_TouchDirection_15(),
+	ARTerrainManager_t2018264653::get_offset_of_m_TerrainPoints_16(),
+	ARTerrainManager_t2018264653::get_offset_of_m_MapGenerator_17(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2295 = { sizeof (ManipPhase_t338933528)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
 extern const int32_t g_FieldOffsetTable2295[5] = 
@@ -968,11 +969,10 @@ extern const int32_t g_FieldOffsetTable2296[3] =
 	TerrainAnchorObject_t1214709381::get_offset_of_U3CanchorU3Ek__BackingField_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2297 = { sizeof (TerrainPoint_t3086956645)+ sizeof (Il2CppObject), sizeof(TerrainPoint_t3086956645 ), 0, 0 };
-extern const int32_t g_FieldOffsetTable2297[3] = 
+extern const int32_t g_FieldOffsetTable2297[2] = 
 {
 	TerrainPoint_t3086956645::get_offset_of_U3CindexU3Ek__BackingField_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	TerrainPoint_t3086956645::get_offset_of_U3CpointU3Ek__BackingField_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	TerrainPoint_t3086956645::get_offset_of_U3CdistDenomU3Ek__BackingField_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	TerrainPoint_t3086956645::get_offset_of_U3CdistDenomU3Ek__BackingField_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2298 = { sizeof (ARTouchManager_t1310965619), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable2298[4] = 

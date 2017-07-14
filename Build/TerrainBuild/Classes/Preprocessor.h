@@ -55,7 +55,7 @@
 #define UNITY_IOS 1
 #define UNITY_OSX 0
 
-#define UNITY_DEVELOPER_BUILD 1
+#define UNITY_DEVELOPER_BUILD 0
 
 #if !defined(__IPHONE_9_0)
     #define UNITY_REPLAY_KIT_AVAILABLE 0

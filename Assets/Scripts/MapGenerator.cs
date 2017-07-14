@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+    Author: Alberto Scicali
+    Based on the videos on Sebastian Lague
+
+    Generates the map in which the mesh terrain is based on
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -35,8 +42,12 @@ public class MapGenerator : MonoBehaviour {
 		//GenerateMap ();
 	}
 
+
+    /*
+        Generates the map portion of the terrain. This must be called before calling the enrionment manager functions and before applying
+        the terrain shader height boundaries.
+    */
 	public void GenerateMap() {
-        Debug.Log ("Being called");
 		float[,] noiseMap = Noise.GenerateNoiseMap (MAP_CHUNK_SIZE, MAP_CHUNK_SIZE, seed, noiseScale, octaves, persistance, lacunarity, offset);
 
 
@@ -65,30 +76,7 @@ public class MapGenerator : MonoBehaviour {
         m_EnvironmentManager.SpawnEnvironment (gameObject);
 	}
 
-    public void SetShaderHeightBoundaries() {
-        // Get Tallest & lowest point
-        GameObject terrainGO = transform.GetChild(0).gameObject;
-        MeshFilter mf = terrainGO.GetComponent<MeshFilter> ();
-        float tallestDist = Mathf.NegativeInfinity;
-        float minHeight = Mathf.Infinity;
-
-        if (mf != null) {
-            // #### This can be changes to not make an entire copy of the vrtex array to make it more efficient ####
-            Vector3[] vertices = mf.sharedMesh.vertices;
-            for (int i = 0; i < vertices.Length; i++) {
-                Vector3 vert = terrainGO.transform.localToWorldMatrix.MultiplyPoint3x4 (vertices [i]);
-                if (vert.y > tallestDist)
-                    tallestDist = vert.y;
-                if (vert.y < minHeight)
-                    minHeight = vert.y;
-            }
-        }
-        // Set the max height on shader
-        m_TerrainMaterial.SetFloat ("_MaxHeight", tallestDist);
-        m_TerrainMaterial.SetFloat ("_MinHeight", minHeight);
-        terrainGO.GetComponent<Renderer> ().material = m_TerrainMaterial;
-    }
-
+    // Ensures these values aren't set lower than they should be
 	void OnValidate() {
 
 		if (lacunarity < 1) {

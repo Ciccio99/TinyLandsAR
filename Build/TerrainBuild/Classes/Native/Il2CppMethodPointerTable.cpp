@@ -13780,6 +13780,7 @@ extern "C" void ARTerrainManager_UpdateTerrainAnchor_m1783149115 ();
 extern "C" void ARTerrainManager_OnTerrainManipulationMoved_m2066561938 ();
 extern "C" void ARTerrainManager_OnTerrainManipulationEnd_m2013874056 ();
 extern "C" void ARTerrainManager_ExtractManipulationData_m750880693 ();
+extern "C" void ARTerrainManager_SetShaderHeightBoundaries_m751648878 ();
 extern "C" void ARTouchManager__ctor_m3712702784 ();
 extern "C" void ARTouchManager_Update_m1374828887 ();
 extern "C" void ARTouchManager_add_ARTouchPlaneUpdateEvent_m3625309446 ();
@@ -14469,7 +14470,6 @@ extern "C" void MapDisplay_DrawMesh_m3648264271 ();
 extern "C" void MapGenerator__ctor_m577697486 ();
 extern "C" void MapGenerator_Start_m1943725470 ();
 extern "C" void MapGenerator_GenerateMap_m1418959259 ();
-extern "C" void MapGenerator_SetShaderHeightBoundaries_m1402888974 ();
 extern "C" void MapGenerator_OnValidate_m1414639659 ();
 extern "C" void MenuSceneLoader__ctor_m1421730551 ();
 extern "C" void MenuSceneLoader_Awake_m4034400262 ();
@@ -14532,11 +14532,9 @@ extern "C" void TerrainGenerator_GenerateHeights_m1236585684 ();
 extern "C" void TerrainGenerator_CalculateHeight_m1452581564 ();
 extern "C" void TerrainGenerator_RaiseHeightPoint_m2244744842 ();
 extern "C" void TerrainGenerator_LowerHeightAtPoint_m2795185294 ();
-extern "C" void TerrainPoint__ctor_m2609008057_AdjustorThunk ();
+extern "C" void TerrainPoint__ctor_m272930782_AdjustorThunk ();
 extern "C" void TerrainPoint_get_index_m1121187309_AdjustorThunk ();
 extern "C" void TerrainPoint_set_index_m176279690_AdjustorThunk ();
-extern "C" void TerrainPoint_get_point_m1579419227_AdjustorThunk ();
-extern "C" void TerrainPoint_set_point_m2043878222_AdjustorThunk ();
 extern "C" void TerrainPoint_get_distDenom_m1532632990_AdjustorThunk ();
 extern "C" void TerrainPoint_set_distDenom_m2261124311_AdjustorThunk ();
 extern "C" void TextureGenerator__ctor_m1882712887 ();
@@ -15395,7 +15393,7 @@ extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene5_m1426789968 ();
 extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene6_m163234005 ();
 extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene7_m1709114970 ();
 extern "C" void GA_FREE_JS_OpenOtherScene_ButtonOpenDemoScene8_m1769465567 ();
-extern const Il2CppMethodPointer g_MethodPointers[15381] = 
+extern const Il2CppMethodPointer g_MethodPointers[15379] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -29163,6 +29161,7 @@ extern const Il2CppMethodPointer g_MethodPointers[15381] =
 	ARTerrainManager_OnTerrainManipulationMoved_m2066561938,
 	ARTerrainManager_OnTerrainManipulationEnd_m2013874056,
 	ARTerrainManager_ExtractManipulationData_m750880693,
+	ARTerrainManager_SetShaderHeightBoundaries_m751648878,
 	ARTouchManager__ctor_m3712702784,
 	ARTouchManager_Update_m1374828887,
 	ARTouchManager_add_ARTouchPlaneUpdateEvent_m3625309446,
@@ -29852,7 +29851,6 @@ extern const Il2CppMethodPointer g_MethodPointers[15381] =
 	MapGenerator__ctor_m577697486,
 	MapGenerator_Start_m1943725470,
 	MapGenerator_GenerateMap_m1418959259,
-	MapGenerator_SetShaderHeightBoundaries_m1402888974,
 	MapGenerator_OnValidate_m1414639659,
 	MenuSceneLoader__ctor_m1421730551,
 	MenuSceneLoader_Awake_m4034400262,
@@ -29915,11 +29913,9 @@ extern const Il2CppMethodPointer g_MethodPointers[15381] =
 	TerrainGenerator_CalculateHeight_m1452581564,
 	TerrainGenerator_RaiseHeightPoint_m2244744842,
 	TerrainGenerator_LowerHeightAtPoint_m2795185294,
-	TerrainPoint__ctor_m2609008057_AdjustorThunk,
+	TerrainPoint__ctor_m272930782_AdjustorThunk,
 	TerrainPoint_get_index_m1121187309_AdjustorThunk,
 	TerrainPoint_set_index_m176279690_AdjustorThunk,
-	TerrainPoint_get_point_m1579419227_AdjustorThunk,
-	TerrainPoint_set_point_m2043878222_AdjustorThunk,
 	TerrainPoint_get_distDenom_m1532632990_AdjustorThunk,
 	TerrainPoint_set_distDenom_m2261124311_AdjustorThunk,
 	TextureGenerator__ctor_m1882712887,

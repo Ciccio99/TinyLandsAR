@@ -4,7 +4,7 @@
 1. [Introduction](#introduction)
 2. [Setup](#setup)
 3. [Install](#install)
-4. [Future Work}(#futurework)
+4. [Future Work](#futurework)
 
 ## Introduction <a name="introduction"></a>
 The goal of this project was to explore how to use ARkit at the time of its release and to do something different. The overall goal is to make an interactive Terrain/World generator, 
